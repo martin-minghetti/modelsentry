@@ -129,6 +129,15 @@ export function validateItem(obj: unknown): obj is ProcessedItem {
   if (typeof confidence !== "number") return false;
   if (confidence < 0 || confidence > 1) return false;
 
+  // Validate source_url is a safe HTTP/HTTPS URL
+  const sourceUrl = item["source_url"] as string;
+  try {
+    const url = new URL(sourceUrl);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return false;
+  } catch {
+    return false;
+  }
+
   return true;
 }
 

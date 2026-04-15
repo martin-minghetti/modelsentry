@@ -108,13 +108,11 @@ export async function runPipeline(options: PipelineOptions): Promise<ScanResult>
     snapshotsDir
   );
 
-  // Step 6: Process candidates with LLM
-  const processedItems = await processWithLLM(
-    candidates,
-    diffAlerts,
-    apiKey,
-    config.llm.model
-  );
+  // Step 6: Process candidates with LLM (skip if nothing to process)
+  const processedItems =
+    candidates.length === 0 && diffAlerts.length === 0
+      ? []
+      : await processWithLLM(candidates, diffAlerts, apiKey, config.llm.model);
 
   // Step 7: Update seen URLs with new item URLs, then save
   const now = new Date().toISOString();

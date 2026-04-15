@@ -64,7 +64,9 @@ export async function checkPage(
   page: DiffPage,
   snapshotsDir: string
 ): Promise<DiffAlert | null> {
-  const response = await fetch(page.url);
+  const response = await fetch(page.url, {
+    signal: AbortSignal.timeout(30_000),
+  });
   const html = await response.text();
   const currentText = extractText(html, page.selector);
 

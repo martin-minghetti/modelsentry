@@ -5,6 +5,10 @@ on:
     - cron: '0 8 * * *'  # Daily at 8:00 UTC
   workflow_dispatch:  # Allow manual trigger
 
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
 permissions:
   contents: write  # For committing data/ changes
 

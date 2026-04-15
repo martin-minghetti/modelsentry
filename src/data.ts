@@ -10,8 +10,13 @@ export function loadSeenUrls(path: string): SeenUrls {
   if (!existsSync(path)) {
     return {};
   }
-  const raw = readFileSync(path, "utf-8");
-  return JSON.parse(raw) as SeenUrls;
+  try {
+    const raw = readFileSync(path, "utf-8");
+    return JSON.parse(raw) as SeenUrls;
+  } catch {
+    console.warn(`[data] Failed to parse ${path}, starting fresh`);
+    return {};
+  }
 }
 
 /**
@@ -44,8 +49,13 @@ export function loadLatest(path: string): ProcessedItem[] {
   if (!existsSync(path)) {
     return [];
   }
-  const raw = readFileSync(path, "utf-8");
-  return JSON.parse(raw) as ProcessedItem[];
+  try {
+    const raw = readFileSync(path, "utf-8");
+    return JSON.parse(raw) as ProcessedItem[];
+  } catch {
+    console.warn(`[data] Failed to parse ${path}, starting fresh`);
+    return [];
+  }
 }
 
 /**

@@ -5,6 +5,7 @@ const parser = new Parser({
   headers: {
     "User-Agent": "modelsentry/1.0",
   },
+  timeout: 30_000,
 });
 
 export async function fetchFeed(source: RSSSource): Promise<RawItem[]> {

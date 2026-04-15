@@ -170,7 +170,14 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     var header = createEl("div", "card-header");
     var titleDiv = createEl("div", "card-title");
     var link = document.createElement("a");
-    link.href = item.source_url;
+    try {
+      var urlObj = new URL(item.source_url);
+      if (urlObj.protocol === "http:" || urlObj.protocol === "https:") {
+        link.href = item.source_url;
+      } else {
+        link.href = "#";
+      }
+    } catch(e) { link.href = "#"; }
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = item.title;
