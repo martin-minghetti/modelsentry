@@ -45,8 +45,16 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .modal li{margin-bottom:.35rem}
 .modal strong{color:var(--text)}
 .modal code{background:var(--card-bg);border:1px solid var(--border);padding:.15rem .4rem;border-radius:4px;font-size:.8rem;color:var(--orange)}
-.modal .flow-diagram{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin:1rem 0;font-family:monospace;font-size:.8rem;line-height:1.8;color:var(--text-muted);white-space:pre;overflow-x:auto}
-.modal .flow-diagram strong{color:var(--accent)}
+/* Flow diagram */
+.flow{display:flex;flex-direction:column;align-items:center;gap:0;margin:1.25rem 0;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:1.5rem 1rem}
+.flow-row{display:flex;gap:1.5rem;justify-content:center;align-items:center;width:100%}
+.flow-node{background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.5rem .85rem;font-size:.8rem;color:var(--text-muted);text-align:center;min-width:130px}
+.flow-node.primary{border-color:var(--accent);color:var(--accent);font-weight:600}
+.flow-node.output{border-color:var(--green);color:var(--green);font-weight:600}
+.flow-node small{display:block;font-size:.7rem;color:var(--text-faint);font-weight:400;margin-top:.15rem}
+.flow-arrow{color:var(--text-faint);font-size:.85rem;line-height:1;padding:.25rem 0;display:flex;justify-content:center}
+.flow-merge{display:flex;align-items:center;justify-content:center;gap:.5rem;color:var(--text-faint);font-size:.85rem;padding:.15rem 0}
+.flow-split{display:flex;gap:1.5rem;justify-content:center;align-items:flex-start}
 .modal .source-grid{display:grid;grid-template-columns:1fr 1fr;gap:.35rem .75rem;margin:.75rem 0}
 @media(max-width:600px){.modal .source-grid{grid-template-columns:1fr}}
 .modal .source-grid span{font-size:.8rem;color:var(--text-muted)}
@@ -161,24 +169,26 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     <p>An automated monitoring tool that scrapes official AI sources daily, uses an LLM to filter and extract structured metadata, detects changes in critical provider pages, and serves this dashboard + an RSS feed. <strong>Zero cost.</strong> Runs entirely on GitHub infrastructure with one free API key.</p>
 
     <h3>How It Works</h3>
-    <div class="flow-diagram"><strong>8 RSS Feeds</strong>          <strong>5 Provider Pages</strong>
-     |                        |
-     v                        v
- Pre-filter              Diff Detection
- (keywords + dedup)      (text snapshots)
-     |                        |
-     +--------+   +-----------+
-              |   |
-              v   v
-        <strong>Gemini LLM</strong>
-     (classify + extract)
-              |
-              v
-      Structured JSON
-       /          \
-      v            v
- <strong>Dashboard</strong>    <strong>RSS Feed</strong>
- (this page)  (subscribe)</div>
+    <div class="flow">
+      <div class="flow-row">
+        <div class="flow-node primary">8 RSS Feeds</div>
+        <div class="flow-node primary">5 Provider Pages</div>
+      </div>
+      <div class="flow-arrow">|</div>
+      <div class="flow-row">
+        <div class="flow-node">Pre-filter<small>keywords + dedup</small></div>
+        <div class="flow-node">Diff Detection<small>text snapshots</small></div>
+      </div>
+      <div class="flow-merge">\ &nbsp; /</div>
+      <div class="flow-node primary">Gemini LLM<small>classify + extract metadata</small></div>
+      <div class="flow-arrow">|</div>
+      <div class="flow-node">Structured JSON</div>
+      <div class="flow-merge">/ &nbsp; \</div>
+      <div class="flow-row">
+        <div class="flow-node output">Dashboard<small>this page</small></div>
+        <div class="flow-node output">RSS Feed<small>subscribe in reader</small></div>
+      </div>
+    </div>
 
     <p>A GitHub Actions cron job runs this pipeline daily at 8:00 UTC. Data is committed back to the repo, and the dashboard is deployed to GitHub Pages automatically.</p>
 
@@ -205,8 +215,8 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 
     <h3>Two Layers of Value</h3>
     <ul>
-      <li><strong>Alertas</strong> &mdash; what you <em>need</em>: deprecations, pricing changes, breaking API changes. Shown with red accents and high impact badges.</li>
-      <li><strong>Novedades</strong> &mdash; what you <em>want</em>: new models, tools, releases, features. The updates that keep you ahead.</li>
+      <li><strong>Alerts</strong> &mdash; what you <em>need</em>: deprecations, pricing changes, breaking API changes. Shown with red accents and high impact badges.</li>
+      <li><strong>Updates</strong> &mdash; what you <em>want</em>: new models, tools, releases, features. The news that keeps you ahead.</li>
     </ul>
 
     <h3>Quick Start (Your Own Instance)</h3>
@@ -356,9 +366,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     var alertas = filtered.filter(function(i) { return i.category === "alerta"; });
     var novedades = filtered.filter(function(i) { return i.category === "novedad"; });
 
-    // Alertas section
+    // Alerts section
     var alertTitle = createEl("h2", "section-title alertas");
-    alertTitle.appendChild(document.createTextNode("\u26A0 Alertas "));
+    alertTitle.appendChild(document.createTextNode("Alerts "));
     alertTitle.appendChild(createEl("span", "count", "(" + alertas.length + ")"));
     main.appendChild(alertTitle);
 
@@ -372,9 +382,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
       main.appendChild(alertCards);
     }
 
-    // Novedades section
+    // Updates section
     var novTitle = createEl("h2", "section-title novedades");
-    novTitle.appendChild(document.createTextNode("\u2728 Novedades "));
+    novTitle.appendChild(document.createTextNode("Updates "));
     novTitle.appendChild(createEl("span", "count", "(" + novedades.length + ")"));
     main.appendChild(novTitle);
 
@@ -419,7 +429,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     var impGroup = $("impact-filters");
     var entGroup = $("entity-filters");
 
-    var categories = [["all","All"],["alerta","Alertas"],["novedad","Novedades"]];
+    var categories = [["all","All"],["alerta","Alerts"],["novedad","Updates"]];
     for (var c = 0; c < categories.length; c++) {
       var btn = createEl("button", "filter-btn" + (categories[c][0] === "all" ? " active" : ""), categories[c][1]);
       btn.setAttribute("data-category", categories[c][0]);

@@ -1,20 +1,52 @@
 [
   {
-    "title": "Google Gemini Pricing",
-    "summary": "The Google Gemini pricing page has been updated, detailing free tier offerings and paid tiers for production applications, with specific mention of Gemini 3.1 Flash TTS preview.",
+    "title": "Google Gemini API Pricing Updated",
+    "summary": "Google updated Gemini API pricing, introducing new tiers and clarifying free tier access. The update seems to be a general refresh rather than a specific price increase or decrease.",
     "category": "alerta",
     "entities": [
-      "Google Gemini",
-      "Gemini API",
-      "Gemini 3.1 Flash TTS"
+      "Google Gemini API"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "medium",
-    "why_included": "A change in pricing details for a major LLM API offering provides updated information on cost structures for developers.",
+    "why_included": "This is an update to the pricing page for a major AI API, which could indicate future pricing changes or new tiers.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-15T21:45:06.291Z",
+    "published_at": "2026-04-15T21:59:08.339Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic Claude Code Desktop Redesign: Parallel Agents with Drag-and-Drop",
+    "summary": "Anthropic has redesigned its Claude Code Desktop application to feature parallel agents and a drag-and-drop layout, improving user experience and workflow management.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code Desktop"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new feature launch for a significant AI product, indicating updates in usability and functionality.",
+    "source_url": "https://ai-tldr.dev/releases/anthropic-claude-code-desktop-redesign/",
+    "published_at": "2026-04-15T21:58:32.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Notch Pilot - Live Claude Code Dashboard for MacBook Notch",
+    "summary": "Notch Pilot is a new live dashboard for Claude Code designed to display information on a MacBook's notch, offering a novel way to monitor AI activity.",
+    "category": "novedad",
+    "entities": [
+      "Notch Pilot",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a community-driven project showcasing a new application for interacting with an AI model, demonstrating innovative use cases.",
+    "source_url": "https://github.com/devmegablaster/Notch-Pilot",
+    "published_at": "2026-04-15T21:48:39.000Z",
     "confidence": 0.8
   },
   {
