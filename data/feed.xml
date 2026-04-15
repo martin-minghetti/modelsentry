@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modelsentry — AI Early Warning System</title>
+    <link>https://martin-minghetti.github.io/modelsentry</link>
+    <description>Automated AI news and alerts for developers</description>
+    <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simon Willison: Gemini 3.1 Flash TTS</title>
+      <link>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</guid>
+      <pubDate>Wed, 15 Apr 2026 17:13:14 GMT</pubDate>
+      <description>Simon Willison notes the availability of Gemini 3.1 Flash TTS, Google&apos;s new expressive AI speech model. | Impact: low | Signal: positive | Why included: This is a brief mention of Google&apos;s Gemini 3.1 Flash TTS release from a third-party observer, noting its availability.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Gemini 3.1 Flash TTS</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/</link>
+      <guid>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/</guid>
+      <pubDate>Wed, 15 Apr 2026 15:00:00 GMT</pubDate>
+      <description>Google&apos;s Gemini 3.1 Flash TTS, a new generation of expressive AI speech, is now available across Google products. | Impact: medium | Signal: positive | Why included: Google is releasing a new TTS model, Gemini 3.1 Flash TTS, indicating advancements in AI speech generation technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Updates Agents SDK</title>
+      <link>https://openai.com/index/the-next-evolution-of-the-agents-sdk</link>
+      <guid>https://openai.com/index/the-next-evolution-of-the-agents-sdk</guid>
+      <pubDate>Wed, 15 Apr 2026 10:00:00 GMT</pubDate>
+      <description>OpenAI has updated its Agents SDK with native sandbox execution and a model-native harness to help developers build secure, long-running agents. | Impact: medium | Signal: positive | Why included: This is a significant update to OpenAI&apos;s Agents SDK, introducing features that improve security and development capabilities for agents.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.108</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.108</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.108</guid>
+      <pubDate>Tue, 14 Apr 2026 19:12:01 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.108 release introduces prompt caching, a recap feature, slash command discovery via the Skill tool, and various improvements to error messages, memory footprint, and existing commands. | Impact: medium | Signal: positive | Why included: This is a significant update to Anthropic&apos;s Claude Code tool, introducing new features and improvements that enhance user experience and functionality.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Expands Trusted Access for Cyber Defense with GPT-5.4-Cyber</title>
+      <link>https://openai.com/index/scaling-trusted-access-for-cyber-defense</link>
+      <guid>https://openai.com/index/scaling-trusted-access-for-cyber-defense</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI is expanding its Trusted Access for Cyber program by introducing GPT-5.4-Cyber to vetted defenders, enhancing safeguards for AI cybersecurity capabilities. | Impact: medium | Signal: positive | Why included: OpenAI is launching a specialized model, GPT-5.4-Cyber, for cybersecurity defense, indicating a focus on domain-specific AI applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.105</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.105</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.105</guid>
+      <pubDate>Mon, 13 Apr 2026 21:53:13 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.105 release includes support for PreCompact hooks, background monitors for plugins, improved stalled API stream handling, and better network error messages. | Impact: medium | Signal: positive | Why included: This is a notable update to Anthropic&apos;s Claude Code tool, adding new features and improving existing functionalities like API stream handling.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Cloudflare Integrates OpenAI&apos;s GPT-5.4 and Codex into Agent Cloud</title>
+      <link>https://openai.com/index/cloudflare-openai-agent-cloud</link>
+      <guid>https://openai.com/index/cloudflare-openai-agent-cloud</guid>
+      <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
+      <description>Cloudflare is integrating OpenAI&apos;s GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build and scale AI agents for real-world tasks. | Impact: medium | Signal: positive | Why included: This partnership between Cloudflare and OpenAI brings OpenAI&apos;s advanced models to Cloudflare&apos;s enterprise platform, indicating broader adoption and integration of AI in business workflows.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.101</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.101</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.101</guid>
+      <pubDate>Fri, 10 Apr 2026 19:03:41 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.101 release includes a /team-onboarding command, OS CA certificate store trust by default, and improved error messages for rate limits and tool unavailability. | Impact: medium | Signal: positive | Why included: This release of Anthropic&apos;s Claude Code tool introduces a new onboarding command and enhances security and error handling.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Responds to Axios Developer Tool Compromise</title>
+      <link>https://openai.com/index/axios-developer-tool-compromise</link>
+      <guid>https://openai.com/index/axios-developer-tool-compromise</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description>In response to the Axios supply chain attack, OpenAI is rotating macOS code signing certificates and updating apps, confirming no user data was compromised. | Impact: low | Signal: negative | Why included: This is an important security update from OpenAI addressing a supply chain attack, which, while not directly impacting user data, signals a need for vigilance in the software supply chain.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.98</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.98</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.98</guid>
+      <pubDate>Thu, 09 Apr 2026 19:18:28 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.98 release introduces an interactive Vertex AI setup wizard, Perforce mode for edit failures, a Monitor tool, and subprocess sandboxing. | Impact: medium | Signal: positive | Why included: This update to Anthropic&apos;s Claude Code includes significant new features like a Vertex AI setup wizard and enhanced security measures like subprocess sandboxing.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.97</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.97</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.97</guid>
+      <pubDate>Wed, 08 Apr 2026 21:52:34 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.97 release adds a focus view toggle, a refreshInterval status line setting, syntax highlighting for Cedar policy files, and hardened Bash tool permissions. | Impact: medium | Signal: positive | Why included: This release of Anthropic&apos;s Claude Code tool introduces a new focus view, enhances security in Bash permissions, and adds syntax highlighting.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic SDK Python: v0.92.0</title>
+      <link>https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.92.0</link>
+      <guid>https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.92.0</guid>
+      <pubDate>Wed, 08 Apr 2026 16:55:01 GMT</pubDate>
+      <description>Anthropic&apos;s Python SDK has been updated to v0.92.0, adding support for Claude Managed Agents. | Impact: medium | Signal: positive | Why included: This SDK update from Anthropic includes support for a new product feature, Claude Managed Agents.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.96</title>
+      <link>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.96</link>
+      <guid>https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.96</guid>
+      <pubDate>Wed, 08 Apr 2026 04:37:36 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code v2.1.96 release fixes an issue with Bedrock requests failing with 403 &apos;Authorization header is missing&apos; when specific environment variables are set. | Impact: low | Signal: negative | Why included: This is a bug fix release for Anthropic&apos;s Claude Code, addressing a specific authentication failure that was a regression from a previous version.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Simon Willison: Anthropic&apos;s Project Glasswing Restricts Claude Mythos</title>
+      <link>https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything</guid>
+      <pubDate>Tue, 07 Apr 2026 20:52:54 GMT</pubDate>
+      <description>Simon Willison comments on Anthropic&apos;s Project Glasswing, which restricts Claude Mythos access to security researchers, deeming it a necessary measure. | Impact: low | Signal: neutral | Why included: This is a third-party commentary on Anthropic&apos;s strategic decision to restrict access to Claude Mythos, indicating a focus on responsible AI deployment.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic SDK Python: v0.90.0</title>
+      <link>https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.90.0</link>
+      <guid>https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.90.0</guid>
+      <pubDate>Tue, 07 Apr 2026 18:01:22 GMT</pubDate>
+      <description>Anthropic&apos;s Python SDK has been updated to v0.90.0, adding support for the &apos;claude-mythos-preview&apos; model and fixing a bug related to query parameters. | Impact: medium | Signal: positive | Why included: This SDK update from Anthropic adds support for a new model and fixes a bug, indicating ongoing development and improvements.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison: Cleanup Claude Code Paste</title>
+      <link>https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything</guid>
+      <pubDate>Mon, 06 Apr 2026 02:55:23 GMT</pubDate>
+      <description>Simon Willison provides a brief note on cleaning up Claude Code paste functionality. | Impact: low | Signal: neutral | Why included: This is a brief, low-impact mention of a cleanup effort related to Claude Code&apos;s paste functionality from a third-party observer.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Gemini API Pricing Tiers</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/</guid>
+      <pubDate>Thu, 02 Apr 2026 16:00:00 GMT</pubDate>
+      <description>Google is introducing Flex and Priority inference tiers to the Gemini API to balance cost and latency for developers. | Impact: high | Signal: positive | Why included: This is a high-impact update from Google introducing new pricing tiers for its Gemini API, offering more flexibility for developers to manage costs and performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Codex Offers More Flexible Pricing for Teams</title>
+      <link>https://openai.com/index/codex-flexible-pricing-for-teams</link>
+      <guid>https://openai.com/index/codex-flexible-pricing-for-teams</guid>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 GMT</pubDate>
+      <description>OpenAI&apos;s Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, offering teams a more flexible option for adoption. | Impact: high | Signal: positive | Why included: This is a high-impact pricing change from OpenAI, making their Codex product more accessible to teams through flexible pay-as-you-go options.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Veo 3.1 Lite Video Generation Model</title>
+      <link>https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/</guid>
+      <pubDate>Tue, 31 Mar 2026 16:00:00 GMT</pubDate>
+      <description>Google is making its most cost-effective video generation model, Veo 3.1 Lite, available in paid preview through the Gemini API and for testing in Google AI Studio. | Impact: medium | Signal: positive | Why included: Google is releasing a new, cost-effective video generation model, Veo 3.1 Lite, expanding its multimodal AI offerings.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Raises $122 Billion in New Funding</title>
+      <link>https://openai.com/index/accelerating-the-next-phase-ai</link>
+      <guid>https://openai.com/index/accelerating-the-next-phase-ai</guid>
+      <pubDate>Tue, 31 Mar 2026 13:00:00 GMT</pubDate>
+      <description>OpenAI has raised $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for its products. | Impact: high | Signal: positive | Why included: This is a significant funding round, indicating substantial investment and confidence in OpenAI&apos;s future growth and capabilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Gemini 3.1 Flash Live Speech Model</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/</link>
+      <guid>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:21:00 GMT</pubDate>
+      <description>Google&apos;s Gemini 3.1 Flash Live, a speech model focused on natural and reliable audio AI, is now available across Google products. | Impact: medium | Signal: positive | Why included: Google is releasing a new speech model, Gemini 3.1 Flash Live, indicating advancements in AI-powered audio generation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Lyria 3 Music Generation Model</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:00:00 GMT</pubDate>
+      <description>Google is making its newest music generation model, Lyria 3, available in paid preview through the Gemini API and for testing in Google AI Studio. | Impact: medium | Signal: positive | Why included: Google is releasing a new music generation model, Lyria 3, expanding its capabilities in creative AI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Launches Safety Bug Bounty Program</title>
+      <link>https://openai.com/index/safety-bug-bounty</link>
+      <guid>https://openai.com/index/safety-bug-bounty</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI is launching a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities and prompt injection. | Impact: medium | Signal: positive | Why included: OpenAI is proactively addressing AI safety by launching a bug bounty program, demonstrating a commitment to identifying and mitigating potential risks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google AI Blog: Gemini in Google Sheets Achieves State-of-the-Art</title>
+      <link>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</link>
+      <guid>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</guid>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 GMT</pubDate>
+      <description>Gemini in Google Sheets has achieved state-of-the-art performance and is introducing new beta features to help users create, organize, and edit entire sheets. | Impact: medium | Signal: positive | Why included: Google is enhancing its Gemini integration in Google Sheets, indicating a significant advancement in AI-powered productivity tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Introduces GPT-5.4</title>
+      <link>https://openai.com/index/introducing-gpt-5-4</link>
+      <guid>https://openai.com/index/introducing-gpt-5-4</guid>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 GMT</pubDate>
+      <description>OpenAI introduces GPT-5.4, its most capable and efficient frontier model, offering state-of-the-art coding, computer use, tool search, and 1M-token context. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s latest frontier model, GPT-5.4, with significant improvements in context window and capabilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Introduces ChatGPT for Excel</title>
+      <link>https://openai.com/index/chatgpt-for-excel</link>
+      <guid>https://openai.com/index/chatgpt-for-excel</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI introduces ChatGPT for Excel and new financial data integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis. | Impact: medium | Signal: positive | Why included: OpenAI is expanding the integration of its models into productivity tools like Excel, showing a strong focus on enterprise applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI and Amazon Announce Strategic Partnership</title>
+      <link>https://openai.com/index/amazon-partnership</link>
+      <guid>https://openai.com/index/amazon-partnership</guid>
+      <pubDate>Fri, 27 Feb 2026 05:30:00 GMT</pubDate>
+      <description>OpenAI and Amazon are forming a strategic partnership to bring OpenAI&apos;s Frontier platform to AWS, expanding AI infrastructure and custom models. | Impact: medium | Signal: positive | Why included: This strategic partnership between OpenAI and Amazon indicates a significant move to leverage AWS infrastructure for AI development and deployment.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Retires GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini from ChatGPT</title>
+      <link>https://openai.com/index/retiring-gpt-4o-and-older-models</link>
+      <guid>https://openai.com/index/retiring-gpt-4o-and-older-models</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI will retire GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini from ChatGPT on February 13, 2026. No API changes are announced at this time. | Impact: high | Signal: negative | Why included: This is a high-impact deprecation announcement from OpenAI, as multiple popular models are being removed from ChatGPT with a concrete end-of-life date.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI Introduces GPT-5.2-Codex</title>
+      <link>https://openai.com/index/introducing-gpt-5-2-codex</link>
+      <guid>https://openai.com/index/introducing-gpt-5-2-codex</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+      <description>OpenAI introduces GPT-5.2-Codex, its most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a specialized model, GPT-5.2-Codex, focusing on advanced coding and cybersecurity capabilities, indicating a strategic expansion into specialized AI domains.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Announces GPT-5.2</title>
+      <link>https://openai.com/index/introducing-gpt-5-2</link>
+      <guid>https://openai.com/index/introducing-gpt-5-2</guid>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+      <description>OpenAI introduces GPT-5.2, its most advanced frontier model for everyday professional work, featuring state-of-the-art reasoning, long-context understanding, coding, and vision. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s advanced GPT-5.2 model, highlighting improvements in key areas relevant to professional and complex tasks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs</title>
+      <link>https://openai.com/index/openai-amd-strategic-partnership</link>
+      <guid>https://openai.com/index/openai-amd-strategic-partnership</guid>
+      <pubDate>Mon, 06 Oct 2025 06:00:00 GMT</pubDate>
+      <description>AMD and OpenAI are partnering to deploy 6 gigawatts of AMD Instinct GPUs, starting with 1 gigawatt in 2026, to power OpenAI&apos;s next-generation AI infrastructure. | Impact: medium | Signal: positive | Why included: This partnership between AMD and OpenAI signifies a major investment in AI infrastructure, with AMD GPUs powering OpenAI&apos;s next-generation models.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems</title>
+      <link>https://openai.com/index/openai-nvidia-systems-partnership</link>
+      <guid>https://openai.com/index/openai-nvidia-systems-partnership</guid>
+      <pubDate>Mon, 22 Sep 2025 08:45:00 GMT</pubDate>
+      <description>OpenAI and NVIDIA are partnering to deploy 10 gigawatts of AI datacenters powered by NVIDIA systems, with the first phase launching in 2026. | Impact: medium | Signal: positive | Why included: This partnership between OpenAI and NVIDIA is significant for AI infrastructure, involving a substantial deployment of computing power to support advanced AI development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>[AINews] Grok 3 &amp; 3-mini Now API Available</title>
+      <link>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</link>
+      <guid>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</guid>
+      <pubDate>Sat, 19 Apr 2025 05:44:39 GMT</pubDate>
+      <description>X&apos;s Grok 3 and Grok 3-mini models are now available via API, with Grok 3 mini positioned as a competitive, cost-effective option showcasing full reasoning traces. | Impact: medium | Signal: positive | Why included: This is a notable release from X, making its Grok models API-available, which expands the competitive landscape for LLMs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>[AINews] OpenAI o3, o4-mini, and Codex CLI</title>
+      <link>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</link>
+      <guid>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</guid>
+      <pubDate>Thu, 17 Apr 2025 03:17:29 GMT</pubDate>
+      <description>OpenAI has released o3 and o4-mini models, highlighting improvements in tool use and multimodal capabilities, alongside the open-source Codex CLI for coding tasks. | Impact: high | Signal: positive | Why included: This is a high-impact announcement detailing the release of OpenAI&apos;s new o3 and o4-mini models, along with the open-source Codex CLI, representing significant advancements and developer accessibility.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>[AINews] SOTA Video Gen: Veo 2 and Kling 2 are GA for developers</title>
+      <link>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</link>
+      <guid>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</guid>
+      <pubDate>Wed, 16 Apr 2025 05:55:06 GMT</pubDate>
+      <description>Google&apos;s Veo 2 and Kling AI&apos;s Kling 2, considered state-of-the-art video generation models, are now generally available for developers. | Impact: medium | Signal: positive | Why included: The general availability of two leading video generation models, Veo 2 and Kling 2, marks a significant advancement in multimodal AI and its accessibility for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>[AINews] GPT 4.1: The New OpenAI Workhorse</title>
+      <link>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</link>
+      <guid>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</guid>
+      <pubDate>Tue, 15 Apr 2025 05:16:26 GMT</pubDate>
+      <description>OpenAI has released GPT-4.1 models, emphasizing improvements in coding, instruction following, and a 1 million token context window, with availability in the API and performance competitive with competitors. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s GPT-4.1 models, detailing significant improvements in key areas like coding and context window, and providing performance comparisons with competitors.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Introduces GPT-4.5 System Card</title>
+      <link>https://openai.com/index/gpt-4-5-system-card</link>
+      <guid>https://openai.com/index/gpt-4-5-system-card</guid>
+      <pubDate>Thu, 27 Feb 2025 12:00:00 GMT</pubDate>
+      <description>OpenAI is releasing a research preview of GPT-4.5, described as their largest and most knowledgeable model yet. | Impact: high | Signal: positive | Why included: This is a high-impact release announcement of OpenAI&apos;s GPT-4.5 model, positioned as their largest and most knowledgeable to date.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI and Apple Announce Partnership</title>
+      <link>https://openai.com/index/openai-and-apple-announce-partnership</link>
+      <guid>https://openai.com/index/openai-and-apple-announce-partnership</guid>
+      <pubDate>Mon, 10 Jun 2024 11:55:00 GMT</pubDate>
+      <description>OpenAI and Apple have announced a partnership to integrate ChatGPT into Apple experiences. | Impact: medium | Signal: positive | Why included: This partnership between OpenAI and Apple is significant for bringing AI capabilities to a massive user base through Apple&apos;s ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Releases GPT-4 System Card</title>
+      <link>https://openai.com/index/gpt-4-research</link>
+      <guid>https://openai.com/index/gpt-4-research</guid>
+      <pubDate>Tue, 14 Mar 2023 07:00:00 GMT</pubDate>
+      <description>OpenAI has released the system card for GPT-4, detailing its capabilities, limitations, safety considerations, and training data. | Impact: medium | Signal: positive | Why included: OpenAI&apos;s release of the GPT-4 system card provides crucial transparency into their flagship model&apos;s development and safety measures.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Releases New Content Moderation Tooling</title>
+      <link>https://openai.com/index/new-and-improved-content-moderation-tooling</link>
+      <guid>https://openai.com/index/new-and-improved-content-moderation-tooling</guid>
+      <pubDate>Wed, 10 Aug 2022 07:00:00 GMT</pubDate>
+      <description>OpenAI is introducing a new and improved content moderation tool, the Moderation endpoint, which is available for free to OpenAI API developers. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a new content moderation tool, enhancing safety and control for API developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Releases Text and Code Embeddings</title>
+      <link>https://openai.com/index/introducing-text-and-code-embeddings</link>
+      <guid>https://openai.com/index/introducing-text-and-code-embeddings</guid>
+      <pubDate>Tue, 25 Jan 2022 08:00:00 GMT</pubDate>
+      <description>OpenAI is introducing embeddings, a new endpoint in the OpenAI API for natural language and code tasks like semantic search and classification. | Impact: medium | Signal: positive | Why included: OpenAI is enhancing its API with text and code embeddings, expanding its capabilities for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI API Now Available with No Waitlist</title>
+      <link>https://openai.com/index/api-no-waitlist</link>
+      <guid>https://openai.com/index/api-no-waitlist</guid>
+      <pubDate>Thu, 18 Nov 2021 08:00:00 GMT</pubDate>
+      <description>OpenAI&apos;s API is now available to everyone, made possible by safety progress. | Impact: medium | Signal: positive | Why included: OpenAI is making its API more accessible by removing the waitlist, indicating increased capacity and confidence in its safety measures.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Codex</title>
+      <link>https://openai.com/index/openai-codex</link>
+      <guid>https://openai.com/index/openai-codex</guid>
+      <pubDate>Tue, 10 Aug 2021 07:00:00 GMT</pubDate>
+      <description>OpenAI has created an improved version of OpenAI Codex, its AI system that translates natural language to code, and is releasing it through its API in private beta. | Impact: medium | Signal: positive | Why included: OpenAI is releasing an improved version of its Codex model via API, indicating advancements in natural language to code translation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Licenses GPT-3 Technology to Microsoft</title>
+      <link>https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft</link>
+      <guid>https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft</guid>
+      <pubDate>Tue, 22 Sep 2020 07:00:00 GMT</pubDate>
+      <description>OpenAI has agreed to license its GPT-3 technology to Microsoft for their products and services. | Impact: medium | Signal: positive | Why included: This licensing agreement between OpenAI and Microsoft is a significant partnership, enabling broader access to GPT-3 technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Releases OpenAI Microscope</title>
+      <link>https://openai.com/index/microscope</link>
+      <guid>https://openai.com/index/microscope</guid>
+      <pubDate>Tue, 14 Apr 2020 07:00:00 GMT</pubDate>
+      <description>OpenAI is introducing OpenAI Microscope, a collection of visualizations of neural network layers and neurons to help the research community understand these systems. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a research tool, OpenAI Microscope, to enhance the interpretability of neural networks, contributing to AI safety and understanding.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Standardizes on PyTorch</title>
+      <link>https://openai.com/index/openai-pytorch</link>
+      <guid>https://openai.com/index/openai-pytorch</guid>
+      <pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate>
+      <description>OpenAI is standardizing its deep learning framework on PyTorch. | Impact: low | Signal: positive | Why included: This is an internal operational decision by OpenAI to standardize on PyTorch, which is relevant for understanding their development ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Microsoft Invests $1 Billion in OpenAI</title>
+      <link>https://openai.com/index/microsoft-invests-in-and-partners-with-openai</link>
+      <guid>https://openai.com/index/microsoft-invests-in-and-partners-with-openai</guid>
+      <pubDate>Mon, 22 Jul 2019 07:00:00 GMT</pubDate>
+      <description>Microsoft is investing $1 billion in OpenAI to support the building of beneficial AGI and partnering to develop a hardware and software platform within Microsoft Azure. | Impact: high | Signal: positive | Why included: This is a significant investment from Microsoft in OpenAI, indicating a major strategic partnership focused on advancing AGI and cloud infrastructure.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI LP Created</title>
+      <link>https://openai.com/index/openai-lp</link>
+      <guid>https://openai.com/index/openai-lp</guid>
+      <pubDate>Mon, 11 Mar 2019 07:00:00 GMT</pubDate>
+      <description>OpenAI has created OpenAI LP, a new &apos;capped-profit&apos; company to enable rapid investments in compute and talent while maintaining mission-driven checks and balances. | Impact: medium | Signal: positive | Why included: The creation of OpenAI LP is a significant structural change that impacts its business model and ability to invest in large-scale AI development.</description>
+      <category>novedad</category>
+    </item>
+  </channel>
+</rss>
