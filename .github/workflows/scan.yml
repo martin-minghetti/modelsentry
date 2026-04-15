@@ -1,0 +1,42 @@
+name: Daily Scan
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Daily at 8:00 UTC
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write  # For committing data/ changes
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run scan
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          SITE_URL: "https://martin-minghetti.github.io/modelsentry"
+        run: npm run scan
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: update scan data [skip ci]"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
