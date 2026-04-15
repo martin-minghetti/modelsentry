@@ -21,16 +21,42 @@ An automated monitor that scrapes 8 RSS feeds and diffs 5 provider pages daily, 
 ## How It Works
 
 ```
-RSS Feeds (8)  ──►  Pre-filter          Gemini LLM
-                    (keywords +   ──►  (relevance +
-Provider Pages ──►   dedup)             metadata)
-(5, diff-based)                              │
-                                             ▼
-                                  Structured JSON
-                                       │    │
-                                       ▼    ▼
-                                  Dashboard  RSS Feed
-                                 (gh-pages) (feed.xml)
+                    ┌──────────────────────────────────────────────┐
+                    │           GitHub Actions (daily cron)        │
+                    └──────────────────────────────────────────────┘
+                                         │
+                          ┌──────────────┴──────────────┐
+                          ▼                             ▼
+                 ┌─────────────────┐          ┌─────────────────┐
+                 │  8 RSS Feeds    │          │ 5 Provider Pages │
+                 │  (rss-parser)   │          │ (cheerio + diff) │
+                 └────────┬────────┘          └────────┬────────┘
+                          │                            │
+                          ▼                            ▼
+                 ┌─────────────────┐          ┌─────────────────┐
+                 │   Pre-filter    │          │ Diff Detection   │
+                 │ keywords, dedup │          │ text snapshots   │
+                 │ title similarity│          │ change detection │
+                 └────────┬────────┘          └────────┬────────┘
+                          │                            │
+                          └──────────┬─────────────────┘
+                                     ▼
+                          ┌─────────────────────┐
+                          │  Gemini 2.5 Flash    │
+                          │  classify + extract  │
+                          │  structured metadata │
+                          └──────────┬──────────┘
+                                     ▼
+                          ┌─────────────────────┐
+                          │   Structured JSON    │
+                          │  latest.json + NDJSON│
+                          └──────────┬──────────┘
+                          ┌──────────┴──────────┐
+                          ▼                     ▼
+                 ┌─────────────────┐   ┌─────────────────┐
+                 │   Dashboard     │   │    RSS Feed      │
+                 │  GitHub Pages   │   │    feed.xml      │
+                 └─────────────────┘   └─────────────────┘
 ```
 
 | Stage | What happens |
