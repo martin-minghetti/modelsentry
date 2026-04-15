@@ -20,43 +20,22 @@ An automated monitor that scrapes 8 RSS feeds and diffs 5 provider pages daily, 
 
 ## How It Works
 
-```
-                    ┌──────────────────────────────────────────────┐
-                    │           GitHub Actions (daily cron)        │
-                    └──────────────────────────────────────────────┘
-                                         │
-                          ┌──────────────┴──────────────┐
-                          ▼                             ▼
-                 ┌─────────────────┐          ┌─────────────────┐
-                 │  8 RSS Feeds    │          │ 5 Provider Pages │
-                 │  (rss-parser)   │          │ (cheerio + diff) │
-                 └────────┬────────┘          └────────┬────────┘
-                          │                            │
-                          ▼                            ▼
-                 ┌─────────────────┐          ┌─────────────────┐
-                 │   Pre-filter    │          │ Diff Detection   │
-                 │ keywords, dedup │          │ text snapshots   │
-                 │ title similarity│          │ change detection │
-                 └────────┬────────┘          └────────┬────────┘
-                          │                            │
-                          └──────────┬─────────────────┘
-                                     ▼
-                          ┌─────────────────────┐
-                          │  Gemini 2.5 Flash    │
-                          │  classify + extract  │
-                          │  structured metadata │
-                          └──────────┬──────────┘
-                                     ▼
-                          ┌─────────────────────┐
-                          │   Structured JSON    │
-                          │  latest.json + NDJSON│
-                          └──────────┬──────────┘
-                          ┌──────────┴──────────┐
-                          ▼                     ▼
-                 ┌─────────────────┐   ┌─────────────────┐
-                 │   Dashboard     │   │    RSS Feed      │
-                 │  GitHub Pages   │   │    feed.xml      │
-                 └─────────────────┘   └─────────────────┘
+```mermaid
+flowchart TD
+    A[GitHub Actions\nDaily Cron] --> B[8 RSS Feeds\nrss-parser]
+    A --> C[5 Provider Pages\ncheerio + fetch]
+    B --> D[Pre-filter\nKeywords + Dedup\n+ Title Similarity]
+    C --> E[Diff Detection\nText Snapshots\n+ Change Detection]
+    D --> F[Gemini 2.5 Flash-Lite\nClassify + Extract Metadata]
+    E --> F
+    F --> G[Structured JSON\nlatest.json + NDJSON Archive]
+    G --> H[Dashboard\nGitHub Pages]
+    G --> I[RSS Feed\nfeed.xml]
+
+    style A fill:#1f2937,stroke:#58a6ff,color:#e6edf3
+    style F fill:#1f2937,stroke:#58a6ff,color:#e6edf3
+    style H fill:#dcfce7,stroke:#16a34a,color:#000
+    style I fill:#dcfce7,stroke:#16a34a,color:#000
 ```
 
 | Stage | What happens |
