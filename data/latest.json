@@ -1,21 +1,108 @@
 [
   {
     "title": "Google Gemini Pricing",
-    "summary": "Google has updated its Gemini API pricing page, with a new section for Gemini 3.1 Flash TTS Preview in Bengali.",
+    "summary": "The Google Gemini pricing page has been updated, detailing free tier offerings and paid tiers for production applications, with specific mention of Gemini 3.1 Flash TTS preview.",
     "category": "alerta",
     "entities": [
-      "Google",
+      "Google Gemini",
       "Gemini API",
       "Gemini 3.1 Flash TTS"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "neutral",
-    "impact": "low",
-    "why_included": "Website diff detected on Google Gemini Pricing page, indicating potential updates to pricing or service offerings, though the new content appears to be a language translation.",
+    "impact": "medium",
+    "why_included": "A change in pricing details for a major LLM API offering provides updated information on cost structures for developers.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-15T21:27:34.611Z",
-    "confidence": 0.7
+    "published_at": "2026-04-15T21:45:06.291Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: Springdrift – A persistent runtime for long-lived LLM agents",
+    "summary": "Springdrift is a new persistent, auditable runtime for long-lived LLM agents written in Gleam on the BEAM, designed to fill gaps in agent development. It offers features like ambient self-perception, introspection tooling, and a safety system based on computational ethics.",
+    "category": "novedad",
+    "entities": [
+      "Springdrift",
+      "Gleam",
+      "BEAM",
+      "Openclaw"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a new open-source project for LLM agents, indicating a novel approach to agent development.",
+    "source_url": "https://github.com/seamus-brady/springdrift",
+    "published_at": "2026-04-15T21:41:39.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code alternative: same output quality, 10x less input tokens used",
+    "summary": "A new open-source project, 'bouzecode', is presented as an alternative to Claude Code, claiming to achieve the same output quality while using significantly fewer input tokens.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "bouzecode"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "10x less input tokens"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new open-source project aiming to improve efficiency for a specific LLM use case, potentially impacting adoption and performance expectations.",
+    "source_url": "https://github.com/Simon-Free/bouzecode",
+    "published_at": "2026-04-15T21:34:51.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Open-Source Agent That Teaches Claude Code Your Architecture",
+    "summary": "An open-source agent has been developed that can teach Claude Code about a user's specific architecture, aiming to improve its understanding and performance in tailored contexts.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This release details a new agent designed to enhance the customization and effectiveness of Claude Code for specific user needs.",
+    "source_url": "https://jonno.nz/posts/open-source-agent-that-teaches-claude-code-your-architecture/",
+    "published_at": "2026-04-15T21:33:03.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I used Claude to build a free alternative to TextExpander",
+    "summary": "A free alternative to TextExpander has been built using Claude, demonstrating the practical application of LLMs for productivity tools.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "TextExpander"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a practical, user-facing application of Claude for a productivity tool, demonstrating its utility beyond raw text generation.",
+    "source_url": "https://typefire.app",
+    "published_at": "2026-04-15T21:30:30.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code can now do your job overnight",
+    "summary": "An article claims that Claude Code has advanced to the point where it can perform job-related tasks overnight, highlighting its potential for automation and efficiency.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This article suggests a significant leap in Claude Code's capabilities, potentially impacting job automation and the perceived efficiency of LLMs.",
+    "source_url": "https://thenewstack.io/claude-code-can-now-do-your-job-overnight/",
+    "published_at": "2026-04-15T20:05:19.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Anthropic Revises Claude Enterprise Pricing Structure",
@@ -52,6 +139,56 @@
     "source_url": "https://old.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/",
     "published_at": "2026-04-15T18:26:09.000Z",
     "confidence": 0.7
+  },
+  {
+    "title": "Anthropic's rise is giving some OpenAI investors second thoughts",
+    "summary": "Anthropic's growing success and market presence are reportedly causing some OpenAI investors to reconsider their investments.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This indicates a competitive shift in the LLM market, with Anthropic's growth potentially impacting OpenAI's investor confidence.",
+    "source_url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+    "published_at": "2026-04-15T18:23:06.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic Rebuilds Claude Code Desktop App Around Parallel Sessions",
+    "summary": "Anthropic has rebuilt its Claude Code desktop application to incorporate parallel sessions, likely improving its performance and user experience for concurrent tasks.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is an update to a significant product from Anthropic, improving its core functionality with parallel sessions.",
+    "source_url": "https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/",
+    "published_at": "2026-04-15T18:04:46.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I Did My Taxes with Claude",
+    "summary": "A user shares their experience using Claude to complete their taxes, demonstrating the practical application of LLMs for personal finance tasks.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a user testimonial about using Claude for a complex personal task (taxes), highlighting its practical utility beyond simple queries.",
+    "source_url": "https://doempke.com/taxes-with-claude/",
+    "published_at": "2026-04-15T17:48:44.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Simon Willison: Gemini 3.1 Flash TTS",
@@ -471,6 +608,25 @@
     "why_included": "OpenAI is proactively addressing AI safety by launching a bug bounty program, demonstrating a commitment to identifying and mitigating potential risks.",
     "source_url": "https://openai.com/index/safety-bug-bounty",
     "published_at": "2026-03-25T00:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Bringing the power of Personal Intelligence to more people",
+    "summary": "Google is expanding its 'Personal Intelligence' features across AI Mode in Search, the Gemini app, and Gemini in Chrome, aiming to make AI more integrated and helpful for users.",
+    "category": "novedad",
+    "entities": [
+      "Google",
+      "Personal Intelligence",
+      "Gemini",
+      "Chrome"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This signifies an expansion of AI integration across multiple Google products, indicating a broader push for personal AI assistants.",
+    "source_url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+    "published_at": "2026-03-17T16:00:00.000Z",
     "confidence": 0.9
   }
 ]

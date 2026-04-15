@@ -9,9 +9,49 @@
       <title>Google Gemini Pricing</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 15 Apr 2026 21:27:34 GMT</pubDate>
-      <description>Google has updated its Gemini API pricing page, with a new section for Gemini 3.1 Flash TTS Preview in Bengali. | Impact: low | Signal: neutral | Why included: Website diff detected on Google Gemini Pricing page, indicating potential updates to pricing or service offerings, though the new content appears to be a language translation.</description>
+      <pubDate>Wed, 15 Apr 2026 21:45:06 GMT</pubDate>
+      <description>The Google Gemini pricing page has been updated, detailing free tier offerings and paid tiers for production applications, with specific mention of Gemini 3.1 Flash TTS preview. | Impact: medium | Signal: neutral | Why included: A change in pricing details for a major LLM API offering provides updated information on cost structures for developers.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>Show HN: Springdrift – A persistent runtime for long-lived LLM agents</title>
+      <link>https://github.com/seamus-brady/springdrift</link>
+      <guid>https://github.com/seamus-brady/springdrift</guid>
+      <pubDate>Wed, 15 Apr 2026 21:41:39 GMT</pubDate>
+      <description>Springdrift is a new persistent, auditable runtime for long-lived LLM agents written in Gleam on the BEAM, designed to fill gaps in agent development. It offers features like ambient self-perception, introspection tooling, and a safety system based on computational ethics. | Impact: low | Signal: positive | Why included: This is a new open-source project for LLM agents, indicating a novel approach to agent development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code alternative: same output quality, 10x less input tokens used</title>
+      <link>https://github.com/Simon-Free/bouzecode</link>
+      <guid>https://github.com/Simon-Free/bouzecode</guid>
+      <pubDate>Wed, 15 Apr 2026 21:34:51 GMT</pubDate>
+      <description>A new open-source project, &apos;bouzecode&apos;, is presented as an alternative to Claude Code, claiming to achieve the same output quality while using significantly fewer input tokens. | Impact: medium | Signal: positive | Why included: This is a new open-source project aiming to improve efficiency for a specific LLM use case, potentially impacting adoption and performance expectations.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Open-Source Agent That Teaches Claude Code Your Architecture</title>
+      <link>https://jonno.nz/posts/open-source-agent-that-teaches-claude-code-your-architecture/</link>
+      <guid>https://jonno.nz/posts/open-source-agent-that-teaches-claude-code-your-architecture/</guid>
+      <pubDate>Wed, 15 Apr 2026 21:33:03 GMT</pubDate>
+      <description>An open-source agent has been developed that can teach Claude Code about a user&apos;s specific architecture, aiming to improve its understanding and performance in tailored contexts. | Impact: medium | Signal: positive | Why included: This release details a new agent designed to enhance the customization and effectiveness of Claude Code for specific user needs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I used Claude to build a free alternative to TextExpander</title>
+      <link>https://typefire.app</link>
+      <guid>https://typefire.app</guid>
+      <pubDate>Wed, 15 Apr 2026 21:30:30 GMT</pubDate>
+      <description>A free alternative to TextExpander has been built using Claude, demonstrating the practical application of LLMs for productivity tools. | Impact: low | Signal: positive | Why included: This showcases a practical, user-facing application of Claude for a productivity tool, demonstrating its utility beyond raw text generation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code can now do your job overnight</title>
+      <link>https://thenewstack.io/claude-code-can-now-do-your-job-overnight/</link>
+      <guid>https://thenewstack.io/claude-code-can-now-do-your-job-overnight/</guid>
+      <pubDate>Wed, 15 Apr 2026 20:05:19 GMT</pubDate>
+      <description>An article claims that Claude Code has advanced to the point where it can perform job-related tasks overnight, highlighting its potential for automation and efficiency. | Impact: medium | Signal: positive | Why included: This article suggests a significant leap in Claude Code&apos;s capabilities, potentially impacting job automation and the perceived efficiency of LLMs.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Anthropic Revises Claude Enterprise Pricing Structure</title>
@@ -27,6 +67,30 @@
       <guid>https://old.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/</guid>
       <pubDate>Wed, 15 Apr 2026 18:26:09 GMT</pubDate>
       <description>A user shared a positive experience using Claude Cowork to find a flat in London within five days. | Impact: low | Signal: positive | Why included: This is a user testimonial highlighting a practical application of Claude&apos;s capabilities in real estate.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic&apos;s rise is giving some OpenAI investors second thoughts</title>
+      <link>https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/</link>
+      <guid>https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/</guid>
+      <pubDate>Wed, 15 Apr 2026 18:23:06 GMT</pubDate>
+      <description>Anthropic&apos;s growing success and market presence are reportedly causing some OpenAI investors to reconsider their investments. | Impact: medium | Signal: negative | Why included: This indicates a competitive shift in the LLM market, with Anthropic&apos;s growth potentially impacting OpenAI&apos;s investor confidence.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Rebuilds Claude Code Desktop App Around Parallel Sessions</title>
+      <link>https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/</link>
+      <guid>https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/</guid>
+      <pubDate>Wed, 15 Apr 2026 18:04:46 GMT</pubDate>
+      <description>Anthropic has rebuilt its Claude Code desktop application to incorporate parallel sessions, likely improving its performance and user experience for concurrent tasks. | Impact: medium | Signal: positive | Why included: This is an update to a significant product from Anthropic, improving its core functionality with parallel sessions.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I Did My Taxes with Claude</title>
+      <link>https://doempke.com/taxes-with-claude/</link>
+      <guid>https://doempke.com/taxes-with-claude/</guid>
+      <pubDate>Wed, 15 Apr 2026 17:48:44 GMT</pubDate>
+      <description>A user shares their experience using Claude to complete their taxes, demonstrating the practical application of LLMs for personal finance tasks. | Impact: low | Signal: positive | Why included: This is a user testimonial about using Claude for a complex personal task (taxes), highlighting its practical utility beyond simple queries.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -222,27 +286,19 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Bringing the power of Personal Intelligence to more people</title>
+      <link>https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/</link>
+      <guid>https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/</guid>
+      <pubDate>Tue, 17 Mar 2026 16:00:00 GMT</pubDate>
+      <description>Google is expanding its &apos;Personal Intelligence&apos; features across AI Mode in Search, the Gemini app, and Gemini in Chrome, aiming to make AI more integrated and helpful for users. | Impact: medium | Signal: positive | Why included: This signifies an expansion of AI integration across multiple Google products, indicating a broader push for personal AI assistants.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Gemini in Google Sheets just achieved state-of-the-art performance.</title>
       <link>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</link>
       <guid>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</guid>
       <pubDate>Tue, 10 Mar 2026 13:00:00 GMT</pubDate>
-      <description>Gemini&apos;s integration into Google Sheets has achieved state-of-the-art performance, with new beta features for data analysis and editing. | Impact: medium | Signal: positive | Why included: This highlights a significant performance improvement for Gemini within a widely used productivity tool, showcasing practical AI integration.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Introducing GPT-5.2-Codex</title>
-      <link>https://openai.com/index/gpt-5-2-codex</link>
-      <guid>https://openai.com/index/gpt-5-2-codex</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-      <description>OpenAI has announced GPT-5.2-Codex, their latest coding model, featuring enhanced reasoning, code transformation, and cybersecurity capabilities. | Impact: medium | Signal: positive | Why included: This is a new model release from OpenAI, specifically focused on coding, which is a key area in LLM development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>A joint statement from OpenAI and Microsoft</title>
-      <link>https://openai.com/index/joint-statement-from-openai-and-microsoft</link>
-      <guid>https://openai.com/index/joint-statement-from-openai-and-microsoft</guid>
-      <pubDate>Thu, 11 Sep 2025 14:00:00 GMT</pubDate>
-      <description>OpenAI and Microsoft have reinforced their partnership with a new Memorandum of Understanding focused on AI safety and innovation. | Impact: medium | Signal: positive | Why included: This reaffirms a major partnership in the AI industry, indicating continued collaboration and investment.</description>
+      <description>Gemini in Google Sheets has reportedly achieved state-of-the-art performance, with new beta features designed to help users create, organize, and edit entire sheets more efficiently. | Impact: medium | Signal: positive | Why included: This indicates a significant performance improvement and new features for Gemini within a widely used productivity tool, suggesting enhanced AI capabilities for data analysis.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -250,7 +306,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</guid>
       <pubDate>Sat, 19 Apr 2025 05:44:39 GMT</pubDate>
-      <description>xAI has made Grok 3 and Grok 3-mini models available via API, with Grok 3 mini being particularly cost-competitive. | Impact: medium | Signal: positive | Why included: This is a significant release making powerful models from xAI accessible via API, potentially impacting the competitive landscape.</description>
+      <description>Grok 3 and Grok 3 mini models from X (formerly Twitter) are now available via API, offering competitive pricing and reasoning traces. | Impact: medium | Signal: positive | Why included: This is the API release of Grok models, making them accessible to developers and potentially impacting the competitive landscape.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -258,7 +314,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</guid>
       <pubDate>Thu, 17 Apr 2025 03:17:29 GMT</pubDate>
-      <description>OpenAI has launched new models o3 and o4-mini, alongside the open-source Codex CLI, emphasizing scaling RL and efficiency improvements. | Impact: medium | Signal: positive | Why included: This is a significant announcement of new models and a key tool from OpenAI, impacting the competitive landscape and developer ecosystem.</description>
+      <description>OpenAI has released new models o3 and o4-mini, emphasizing improvements in scaling RL and efficiency, along with Codex CLI, an open-source coding agent. | Impact: medium | Signal: positive | Why included: This announces the release of new OpenAI models and an open-source coding agent, which are significant developments in the industry.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -266,7 +322,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</guid>
       <pubDate>Wed, 16 Apr 2025 05:55:06 GMT</pubDate>
-      <description>Google&apos;s Veo 2 and Kling AI&apos;s Kling 2 models are now generally available for developers, marking advancements in state-of-the-art video generation. | Impact: medium | Signal: positive | Why included: This is a release of significant video generation models, indicating progress in AI&apos;s creative capabilities and accessibility for developers.</description>
+      <description>Google&apos;s Veo 2 and China&apos;s Kling 2, top video generation models, are now generally available for developers, offering advanced capabilities at different price points. | Impact: medium | Signal: positive | Why included: This announces the general availability of two leading video generation models, indicating progress and accessibility in this domain.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -274,7 +330,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</guid>
       <pubDate>Tue, 15 Apr 2025 05:16:26 GMT</pubDate>
-      <description>OpenAI has released GPT-4.1, a new family of models including GPT-4.1, GPT-4.1 mini, and GPT-4.1 nano, offering enhanced coding, instruction following, and long context capabilities. | Impact: medium | Signal: positive | Why included: This is a major release from OpenAI, introducing new flagship models with significant performance and feature upgrades.</description>
+      <description>OpenAI has released GPT-4.1, GPT-4.1 mini, and GPT-4.1 nano, highlighting improved performance in coding, instruction following, and long contexts, with deprecation of GPT-4.5 Preview. | Impact: medium | Signal: positive | Why included: This is the release of a new flagship model from OpenAI, GPT-4.1, along with the deprecation of a previous version, indicating product evolution and competitive positioning.</description>
       <category>novedad</category>
     </item>
   </channel>
