@@ -86,20 +86,20 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .section-title.novedades{color:var(--blue)}
 
 /* Cards */
-.cards{display:grid;gap:.75rem;grid-template-columns:1fr}
+.cards{display:grid;gap:1rem;grid-template-columns:1fr}
 @media(min-width:768px){.cards{grid-template-columns:repeat(2,1fr)}}
 
-.card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:1rem 1.15rem;transition:border-color .15s,background .15s}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:1.35rem 1.5rem;transition:border-color .15s,background .15s}
 .card:hover{border-color:var(--text-faint);background:var(--card-hover)}
 .card.alerta{border-left:3px solid var(--red)}
 .card.novedad{border-left:3px solid var(--blue)}
-.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem}
-.card-title{font-size:.95rem;font-weight:600;line-height:1.35}
+.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.75rem}
+.card-title{font-size:1rem;font-weight:600;line-height:1.4}
 .card-title a{color:var(--text)}
 .card-title a:hover{color:var(--accent)}
-.card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin-bottom:.5rem}
+.card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:.85rem}
 
-.badge{font-size:.65rem;padding:.15rem .45rem;border-radius:10px;font-weight:500;white-space:nowrap}
+.badge{font-size:.7rem;padding:.2rem .55rem;border-radius:10px;font-weight:500;white-space:nowrap}
 .badge-impact-high{background:rgba(248,81,73,.15);color:var(--red);border:1px solid rgba(248,81,73,.3)}
 .badge-impact-medium{background:rgba(210,153,34,.15);color:var(--orange);border:1px solid rgba(210,153,34,.3)}
 .badge-impact-low{background:rgba(63,185,80,.15);color:var(--green);border:1px solid rgba(63,185,80,.3)}
@@ -110,9 +110,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .badge-signal.negative{color:var(--red)}
 .badge-signal.neutral{color:var(--text-muted)}
 
-.card-summary{font-size:.85rem;color:var(--text-muted);margin-bottom:.5rem;line-height:1.5}
-.card-why{font-size:.75rem;color:var(--text-faint);font-style:italic;margin-top:.35rem}
-.card-date{font-size:.7rem;color:var(--text-faint)}
+.card-summary{font-size:.875rem;color:var(--text-muted);margin-bottom:.75rem;line-height:1.6}
+.card-why{font-size:.8rem;color:var(--text-faint);font-style:italic;margin-top:.5rem;padding-top:.6rem;border-top:1px solid var(--border);line-height:1.5}
+.card-date{font-size:.75rem;color:var(--text-faint)}
 
 /* Health panel */
 .health-panel{margin-top:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem}
