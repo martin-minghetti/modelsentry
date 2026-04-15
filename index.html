@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>modelsentry — AI Early Warning System</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;--surface:#161b22;--border:#30363d;
+  --text:#e6edf3;--text-muted:#8b949e;--text-faint:#484f58;
+  --accent:#58a6ff;--red:#f85149;--orange:#d29922;--green:#3fb950;
+  --yellow:#e3b341;--blue:#58a6ff;--purple:#bc8cff;
+  --card-bg:#1c2128;--card-hover:#21262d;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+
+/* Header */
+.header{background:var(--surface);border-bottom:1px solid var(--border);padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.header-left h1{font-size:1.5rem;font-weight:700;letter-spacing:-.02em}
+.header-left h1 span{color:var(--accent)}
+.header-left p{color:var(--text-muted);font-size:.875rem;margin-top:.15rem}
+.header-right{display:flex;align-items:center;gap:1rem;font-size:.8rem;color:var(--text-muted)}
+.rss-link{display:inline-flex;align-items:center;gap:.35rem;background:var(--card-bg);border:1px solid var(--border);padding:.35rem .7rem;border-radius:6px;font-size:.8rem;color:var(--orange);transition:border-color .15s}
+.rss-link:hover{border-color:var(--orange);text-decoration:none}
+
+/* Filters */
+.filters{padding:1rem 2rem;display:flex;flex-wrap:wrap;gap:.5rem;border-bottom:1px solid var(--border);background:var(--surface)}
+.filter-group{display:flex;align-items:center;gap:.35rem;margin-right:1rem}
+.filter-group label{font-size:.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-right:.25rem}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);color:var(--text-muted);padding:.3rem .65rem;border-radius:20px;font-size:.75rem;cursor:pointer;transition:all .15s}
+.filter-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.filter-btn.active[data-impact="high"]{background:var(--red);border-color:var(--red)}
+.filter-btn.active[data-impact="medium"]{background:var(--orange);border-color:var(--orange)}
+.filter-btn.active[data-impact="low"]{background:var(--green);border-color:var(--green)}
+
+/* Main layout */
+.main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 3rem}
+.section-title{font-size:1.1rem;font-weight:600;margin:1.5rem 0 .75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}
+.section-title .count{font-size:.8rem;color:var(--text-muted);font-weight:400}
+.section-title.alertas{color:var(--red)}
+.section-title.novedades{color:var(--blue)}
+
+/* Cards */
+.cards{display:grid;gap:.75rem;grid-template-columns:1fr}
+@media(min-width:768px){.cards{grid-template-columns:repeat(2,1fr)}}
+
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:1rem 1.15rem;transition:border-color .15s,background .15s}
+.card:hover{border-color:var(--text-faint);background:var(--card-hover)}
+.card.alerta{border-left:3px solid var(--red)}
+.card.novedad{border-left:3px solid var(--blue)}
+.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem}
+.card-title{font-size:.95rem;font-weight:600;line-height:1.35}
+.card-title a{color:var(--text)}
+.card-title a:hover{color:var(--accent)}
+.card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin-bottom:.5rem}
+
+.badge{font-size:.65rem;padding:.15rem .45rem;border-radius:10px;font-weight:500;white-space:nowrap}
+.badge-impact-high{background:rgba(248,81,73,.15);color:var(--red);border:1px solid rgba(248,81,73,.3)}
+.badge-impact-medium{background:rgba(210,153,34,.15);color:var(--orange);border:1px solid rgba(210,153,34,.3)}
+.badge-impact-low{background:rgba(63,185,80,.15);color:var(--green);border:1px solid rgba(63,185,80,.3)}
+.badge-entity{background:rgba(88,166,255,.1);color:var(--blue);border:1px solid rgba(88,166,255,.2)}
+.badge-event{background:rgba(188,140,255,.1);color:var(--purple);border:1px solid rgba(188,140,255,.2)}
+.badge-signal{font-size:.7rem}
+.badge-signal.positive{color:var(--green)}
+.badge-signal.negative{color:var(--red)}
+.badge-signal.neutral{color:var(--text-muted)}
+
+.card-summary{font-size:.85rem;color:var(--text-muted);margin-bottom:.5rem;line-height:1.5}
+.card-why{font-size:.75rem;color:var(--text-faint);font-style:italic;margin-top:.35rem}
+.card-date{font-size:.7rem;color:var(--text-faint)}
+
+/* Health panel */
+.health-panel{margin-top:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem}
+.health-panel h2{font-size:1rem;font-weight:600;margin-bottom:.75rem;color:var(--text-muted)}
+.health-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.health-item{display:flex;align-items:center;gap:.5rem;font-size:.8rem;padding:.4rem .6rem;border-radius:6px;background:var(--card-bg);border:1px solid var(--border)}
+.health-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.health-dot.ok{background:var(--green)}
+.health-dot.fail{background:var(--red)}
+
+/* Empty state */
+.empty{text-align:center;padding:3rem 1rem;color:var(--text-muted);font-size:.9rem}
+
+/* Loading */
+.loading{text-align:center;padding:4rem 1rem;color:var(--text-muted)}
+.loading .spinner{display:inline-block;width:24px;height:24px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .6s linear infinite;margin-bottom:.75rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Error */
+.error-banner{background:rgba(248,81,73,.1);border:1px solid rgba(248,81,73,.3);color:var(--red);padding:.75rem 1rem;border-radius:6px;margin:1rem 2rem;font-size:.85rem;display:none}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <h1>model<span>sentry</span></h1>
+    <p>AI Early Warning System</p>
+  </div>
+  <div class="header-right">
+    <span id="last-updated"></span>
+    <a href="feed.xml" class="rss-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+      RSS
+    </a>
+  </div>
+</header>
+
+<div class="filters" id="filters">
+  <div class="filter-group" id="category-filters">
+    <label>Category</label>
+  </div>
+  <div class="filter-group" id="impact-filters">
+    <label>Impact</label>
+  </div>
+  <div class="filter-group" id="entity-filters">
+    <label>Entity</label>
+  </div>
+</div>
+
+<div class="error-banner" id="error-banner"></div>
+
+<div class="main" id="main-content">
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <div>Loading data...</div>
+  </div>
+</div>
+
+<script>
+(function() {
+  "use strict";
+
+  var state = {
+    items: [],
+    meta: null,
+    filterCategory: "all",
+    filterImpact: "all",
+    filterEntity: "all"
+  };
+
+  var signalIcons = { positive: "\u25B2", negative: "\u25BC", neutral: "\u25CF" };
+
+  function $(id) { return document.getElementById(id); }
+
+  function formatDate(iso) {
+    try {
+      var d = new Date(iso);
+      return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit" });
+    } catch(e) { return iso; }
+  }
+
+  function createEl(tag, className, textContent) {
+    var el = document.createElement(tag);
+    if (className) el.className = className;
+    if (textContent !== undefined) el.textContent = textContent;
+    return el;
+  }
+
+  function createBadge(text, className) {
+    return createEl("span", "badge " + className, text);
+  }
+
+  function buildCard(item) {
+    var card = createEl("div", "card " + item.category);
+
+    var header = createEl("div", "card-header");
+    var titleDiv = createEl("div", "card-title");
+    var link = document.createElement("a");
+    try {
+      var urlObj = new URL(item.source_url);
+      if (urlObj.protocol === "http:" || urlObj.protocol === "https:") {
+        link.href = item.source_url;
+      } else {
+        link.href = "#";
+      }
+    } catch(e) { link.href = "#"; }
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = item.title;
+    titleDiv.appendChild(link);
+    header.appendChild(titleDiv);
+
+    var dateEl = createEl("span", "card-date", formatDate(item.published_at));
+    header.appendChild(dateEl);
+    card.appendChild(header);
+
+    var meta = createEl("div", "card-meta");
+    meta.appendChild(createBadge(item.impact, "badge-impact-" + item.impact));
+    meta.appendChild(createBadge(item.event_type, "badge-event"));
+
+    var sig = createBadge(signalIcons[item.signal] + " " + item.signal, "badge-signal " + item.signal);
+    meta.appendChild(sig);
+
+    for (var i = 0; i < item.entities.length; i++) {
+      meta.appendChild(createBadge(item.entities[i], "badge-entity"));
+    }
+    card.appendChild(meta);
+
+    var summary = createEl("p", "card-summary", item.summary);
+    card.appendChild(summary);
+
+    if (item.why_included) {
+      var why = createEl("p", "card-why", item.why_included);
+      card.appendChild(why);
+    }
+
+    return card;
+  }
+
+  function getFilteredItems() {
+    return state.items.filter(function(item) {
+      if (state.filterCategory !== "all" && item.category !== state.filterCategory) return false;
+      if (state.filterImpact !== "all" && item.impact !== state.filterImpact) return false;
+      if (state.filterEntity !== "all" && item.entities.indexOf(state.filterEntity) === -1) return false;
+      return true;
+    });
+  }
+
+  function render() {
+    var main = $("main-content");
+    main.textContent = "";
+
+    var filtered = getFilteredItems();
+    var alertas = filtered.filter(function(i) { return i.category === "alerta"; });
+    var novedades = filtered.filter(function(i) { return i.category === "novedad"; });
+
+    // Alertas section
+    var alertTitle = createEl("h2", "section-title alertas");
+    alertTitle.appendChild(document.createTextNode("\u26A0 Alertas "));
+    alertTitle.appendChild(createEl("span", "count", "(" + alertas.length + ")"));
+    main.appendChild(alertTitle);
+
+    if (alertas.length === 0) {
+      main.appendChild(createEl("div", "empty", "No alerts match the current filters."));
+    } else {
+      var alertCards = createEl("div", "cards");
+      for (var a = 0; a < alertas.length; a++) {
+        alertCards.appendChild(buildCard(alertas[a]));
+      }
+      main.appendChild(alertCards);
+    }
+
+    // Novedades section
+    var novTitle = createEl("h2", "section-title novedades");
+    novTitle.appendChild(document.createTextNode("\u2728 Novedades "));
+    novTitle.appendChild(createEl("span", "count", "(" + novedades.length + ")"));
+    main.appendChild(novTitle);
+
+    if (novedades.length === 0) {
+      main.appendChild(createEl("div", "empty", "No updates match the current filters."));
+    } else {
+      var novCards = createEl("div", "cards");
+      for (var n = 0; n < novedades.length; n++) {
+        novCards.appendChild(buildCard(novedades[n]));
+      }
+      main.appendChild(novCards);
+    }
+
+    // Source health panel
+    if (state.meta) {
+      var panel = createEl("div", "health-panel");
+      panel.appendChild(createEl("h2", "", "Source Health"));
+
+      var grid = createEl("div", "health-grid");
+
+      function addHealthItems(healthMap, prefix) {
+        var keys = Object.keys(healthMap);
+        for (var k = 0; k < keys.length; k++) {
+          var item = createEl("div", "health-item");
+          var dot = createEl("span", "health-dot " + (healthMap[keys[k]] ? "ok" : "fail"));
+          item.appendChild(dot);
+          item.appendChild(createEl("span", "", prefix + keys[k]));
+          grid.appendChild(item);
+        }
+      }
+
+      if (state.meta.feedHealth) addHealthItems(state.meta.feedHealth, "");
+      if (state.meta.diffHealth) addHealthItems(state.meta.diffHealth, "");
+
+      panel.appendChild(grid);
+      main.appendChild(panel);
+    }
+  }
+
+  function setupFilters() {
+    var catGroup = $("category-filters");
+    var impGroup = $("impact-filters");
+    var entGroup = $("entity-filters");
+
+    var categories = [["all","All"],["alerta","Alertas"],["novedad","Novedades"]];
+    for (var c = 0; c < categories.length; c++) {
+      var btn = createEl("button", "filter-btn" + (categories[c][0] === "all" ? " active" : ""), categories[c][1]);
+      btn.setAttribute("data-category", categories[c][0]);
+      btn.addEventListener("click", function(val) {
+        return function() {
+          state.filterCategory = val;
+          updateFilterButtons(catGroup, "data-category", val);
+          render();
+        };
+      }(categories[c][0]));
+      catGroup.appendChild(btn);
+    }
+
+    var impacts = [["all","All"],["high","High"],["medium","Medium"],["low","Low"]];
+    for (var i = 0; i < impacts.length; i++) {
+      var ibtn = createEl("button", "filter-btn" + (impacts[i][0] === "all" ? " active" : ""), impacts[i][1]);
+      ibtn.setAttribute("data-impact", impacts[i][0]);
+      ibtn.addEventListener("click", function(val) {
+        return function() {
+          state.filterImpact = val;
+          updateFilterButtons(impGroup, "data-impact", val);
+          render();
+        };
+      }(impacts[i][0]));
+      impGroup.appendChild(ibtn);
+    }
+
+    // Entity filters from data
+    var entitySet = {};
+    for (var j = 0; j < state.items.length; j++) {
+      for (var e = 0; e < state.items[j].entities.length; e++) {
+        entitySet[state.items[j].entities[e]] = true;
+      }
+    }
+    var entities = Object.keys(entitySet).sort();
+
+    var allBtn = createEl("button", "filter-btn active", "All");
+    allBtn.setAttribute("data-entity", "all");
+    allBtn.addEventListener("click", function() {
+      state.filterEntity = "all";
+      updateFilterButtons(entGroup, "data-entity", "all");
+      render();
+    });
+    entGroup.appendChild(allBtn);
+
+    for (var en = 0; en < entities.length; en++) {
+      var ebtn = createEl("button", "filter-btn", entities[en]);
+      ebtn.setAttribute("data-entity", entities[en]);
+      ebtn.addEventListener("click", function(val) {
+        return function() {
+          state.filterEntity = val;
+          updateFilterButtons(entGroup, "data-entity", val);
+          render();
+        };
+      }(entities[en]));
+      entGroup.appendChild(ebtn);
+    }
+  }
+
+  function updateFilterButtons(group, attr, active) {
+    var buttons = group.querySelectorAll(".filter-btn");
+    for (var i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute(attr) === active) {
+        buttons[i].classList.add("active");
+      } else {
+        buttons[i].classList.remove("active");
+      }
+    }
+  }
+
+  function showError(msg) {
+    var banner = $("error-banner");
+    banner.textContent = msg;
+    banner.style.display = "block";
+  }
+
+  async function init() {
+    try {
+      var responses = await Promise.allSettled([
+        fetch("latest.json"),
+        fetch("scan_meta.json")
+      ]);
+
+      if (responses[0].status === "fulfilled" && responses[0].value.ok) {
+        state.items = await responses[0].value.json();
+      } else {
+        showError("Failed to load latest.json — the dashboard may show stale or no data.");
+      }
+
+      if (responses[1].status === "fulfilled" && responses[1].value.ok) {
+        state.meta = await responses[1].value.json();
+      }
+
+      $("loading").style.display = "none";
+
+      if (state.meta && state.meta.timestamp) {
+        $("last-updated").textContent = "Updated " + formatDate(state.meta.timestamp);
+      }
+
+      setupFilters();
+      render();
+    } catch(err) {
+      $("loading").style.display = "none";
+      showError("Error loading data: " + err.message);
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
