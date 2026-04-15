@@ -6,11 +6,11 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Update: Language Changes Detected</title>
+      <title>Google Gemini API Pricing Update - New Inference Tiers</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 15 Apr 2026 22:01:10 GMT</pubDate>
-      <description>A diff alert indicates changes in Google Gemini&apos;s pricing page, with a shift in language from Turkish to Japanese, suggesting potential localization or regional targeting updates. | Impact: low | Signal: neutral | Why included: This is a minor change detected on a pricing page, specifically a language update, which is not directly indicative of a pricing change itself but a website content modification.</description>
+      <pubDate>Wed, 15 Apr 2026 22:04:46 GMT</pubDate>
+      <description>Google updated its Gemini API pricing, introducing &apos;Flex&apos; and &apos;Priority&apos; inference tiers to balance cost and latency, impacting how developers utilize the API. | Impact: medium | Signal: neutral | Why included: This change in pricing tiers for a major cloud AI provider&apos;s API can significantly impact development costs and choices.</description>
       <category>alerta</category>
     </item>
     <item>
@@ -314,7 +314,7 @@
       <link>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</link>
       <guid>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</guid>
       <pubDate>Tue, 10 Mar 2026 13:00:00 GMT</pubDate>
-      <description>Gemini&apos;s integration into Google Sheets has achieved state-of-the-art performance, offering advanced capabilities for data creation, organization, and analysis directly within the spreadsheet application. | Impact: medium | Signal: positive | Why included: This integration of AI into a widely used productivity tool like Google Sheets signifies a major step in practical AI application for business users.</description>
+      <description>Gemini&apos;s integration into Google Sheets has achieved state-of-the-art performance, with new beta features enhancing data analysis and management capabilities. | Impact: medium | Signal: positive | Why included: This highlights a significant performance improvement for Gemini in a widely used productivity tool, indicating enhanced AI capabilities in enterprise software.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -322,31 +322,31 @@
       <link>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</guid>
       <pubDate>Sat, 19 Apr 2025 05:44:39 GMT</pubDate>
-      <description>X&apos;s Grok 3 and Grok 3-mini models are now available via API, with Grok 3-mini positioning itself as competitive in cost and offering reasoning traces. | Impact: medium | Signal: positive | Why included: The API availability of Grok models is a significant development, making them accessible to a wider range of developers and applications.</description>
+      <description>X.ai (formerly Twitter) has made Grok 3 and Grok 3-mini models available via API, offering a new option for developers. | Impact: medium | Signal: positive | Why included: This is a significant API release from a major player in the AI space, making powerful models accessible to developers.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>OpenAI o3, o4-mini, and Codex CLI Announced</title>
+      <title>OpenAI Releases O3 and O4-mini Models with Enhanced Capabilities</title>
       <link>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</guid>
       <pubDate>Thu, 17 Apr 2025 03:17:29 GMT</pubDate>
-      <description>OpenAI launched o3 and o4-mini models with improved scaling and efficiency, alongside the open-source Codex CLI tool for coding tasks. | Impact: medium | Signal: positive | Why included: This is a major release from OpenAI, introducing new models and a significant open-source tool for developers.</description>
+      <description>OpenAI has launched O3 and O4-mini models, emphasizing improvements in tool use, efficiency, and multimodal understanding, with O4-mini offering better performance at a lower cost than previous generations. | Impact: medium | Signal: positive | Why included: This is a new model release from OpenAI, a key player, with significant improvements and pricing changes that will impact the market.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>SOTA Video Gen: Veo 2 and Kling 2 Now GA for Developers</title>
+      <title>Google&apos;s Veo 2 and Kling 2 Video Generation Models Now Generally Available</title>
       <link>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</guid>
       <pubDate>Wed, 16 Apr 2025 05:55:06 GMT</pubDate>
-      <description>Google&apos;s Veo 2 and China&apos;s Kling 2, top video generation models, are now generally available for developers, offering significant advancements in AI video creation. | Impact: medium | Signal: positive | Why included: The general availability of leading video generation models signifies a major step forward in AI&apos;s creative capabilities.</description>
+      <description>Google&apos;s Veo 2 and Kling AI&apos;s Kling 2, top-performing video generation models, are now generally available to developers, offering advanced capabilities for AI-powered video creation. | Impact: medium | Signal: positive | Why included: This is a significant release in the highly competitive video generation space, making top-tier models available to developers.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>OpenAI Announces GPT 4.1: The New Workhorse</title>
+      <title>OpenAI Releases GPT-4.1, Positioning it as the New Workhorse Model</title>
       <link>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</guid>
       <pubDate>Tue, 15 Apr 2025 05:16:26 GMT</pubDate>
-      <description>OpenAI has launched the GPT-4.1 family of models, emphasizing improved coding, instruction following, and a 1 million token context window, with pricing details also released. | Impact: medium | Signal: positive | Why included: The release of the GPT-4.1 family is a significant update from OpenAI, with substantial improvements in key areas like context window and coding, directly impacting the competitive LLM landscape.</description>
+      <description>OpenAI has officially launched the GPT-4.1 family, including new benchmarks, a prompting guide, and an interview, positioning it as a more capable and efficient successor to GPT-4o. | Impact: medium | Signal: positive | Why included: This is a major release from OpenAI, a leading player, with significant improvements in performance, features, and pricing, and deprecation of a previous model.</description>
       <category>novedad</category>
     </item>
   </channel>
