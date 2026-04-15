@@ -1,19 +1,19 @@
 [
   {
-    "title": "Google Gemini API Pricing Updated",
-    "summary": "Google updated Gemini API pricing, introducing new tiers and clarifying free tier access. The update seems to be a general refresh rather than a specific price increase or decrease.",
+    "title": "Google Gemini Pricing Update: Language Changes Detected",
+    "summary": "A diff alert indicates changes in Google Gemini's pricing page, with a shift in language from Turkish to Japanese, suggesting potential localization or regional targeting updates.",
     "category": "alerta",
     "entities": [
-      "Google Gemini API"
+      "Google Gemini"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is an update to the pricing page for a major AI API, which could indicate future pricing changes or new tiers.",
+    "impact": "low",
+    "why_included": "This is a minor change detected on a pricing page, specifically a language update, which is not directly indicative of a pricing change itself but a website content modification.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-15T21:59:08.339Z",
-    "confidence": 0.8
+    "published_at": "2026-04-15T22:01:10.875Z",
+    "confidence": 0.7
   },
   {
     "title": "Anthropic Claude Code Desktop Redesign: Parallel Agents with Drag-and-Drop",
