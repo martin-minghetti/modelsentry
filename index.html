@@ -93,8 +93,8 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .card:hover{border-color:var(--text-faint);background:var(--card-hover)}
 .card.alerta{border-left:3px solid var(--red)}
 .card.novedad{border-left:3px solid var(--blue)}
-.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.75rem}
-.card-title{font-size:1rem;font-weight:600;line-height:1.4}
+.card-header{margin-bottom:.75rem}
+.card-title{font-size:1rem;font-weight:600;line-height:1.4;margin-bottom:.3rem}
 .card-title a{color:var(--text)}
 .card-title a:hover{color:var(--accent)}
 .card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:.85rem}
@@ -111,8 +111,8 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .badge-signal.neutral{color:var(--text-muted)}
 
 .card-summary{font-size:.875rem;color:var(--text-muted);margin-bottom:.75rem;line-height:1.6}
-.card-why{font-size:.8rem;color:var(--text-faint);font-style:italic;margin-top:.5rem;padding-top:.6rem;border-top:1px solid var(--border);line-height:1.5}
-.card-date{font-size:.75rem;color:var(--text-faint)}
+.card-why{font-size:.8rem;color:var(--text-muted);font-style:italic;margin-top:.5rem;padding-top:.6rem;border-top:1px solid var(--border);line-height:1.5}
+.card-date{font-size:.75rem;color:var(--text-faint);display:block}
 
 /* Health panel */
 .health-panel{margin-top:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem}
@@ -324,6 +324,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 
     var dateEl = createEl("span", "card-date", formatDate(item.published_at));
     header.appendChild(dateEl);
+
     card.appendChild(header);
 
     var meta = createEl("div", "card-meta");
