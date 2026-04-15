@@ -14,6 +14,7 @@ import {
   appendArchive,
 } from "./data.js";
 import { generateFeed } from "./feed.js";
+import { buildDashboard } from "./dashboard.js";
 import type { ProcessedItem, ScanResult } from "./types.js";
 
 /**
@@ -145,11 +146,20 @@ export async function runPipeline(options: PipelineOptions): Promise<ScanResult>
   const feedXml = generateFeed(merged, siteUrl);
   writeFileSync(join(dataDir, "feed.xml"), feedXml, "utf-8");
 
-  // Step 11: Return ScanResult
-  return {
+  // Step 11: Build static dashboard
+  const result: ScanResult = {
     items: processedItems,
     feedHealth,
     diffHealth,
     timestamp: now,
   };
+
+  buildDashboard({
+    dataDir: options.dataDir,
+    distDir: "dist",
+    siteUrl: options.siteUrl,
+    scanResult: result,
+  });
+
+  return result;
 }
