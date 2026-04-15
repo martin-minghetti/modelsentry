@@ -1,5 +1,59 @@
 [
   {
+    "title": "Google Gemini Pricing",
+    "summary": "Google has updated its Gemini API pricing page, with a new section for Gemini 3.1 Flash TTS Preview in Bengali.",
+    "category": "alerta",
+    "entities": [
+      "Google",
+      "Gemini API",
+      "Gemini 3.1 Flash TTS"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Website diff detected on Google Gemini Pricing page, indicating potential updates to pricing or service offerings, though the new content appears to be a language translation.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-15T21:27:34.611Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "Anthropic Revises Claude Enterprise Pricing Structure",
+    "summary": "Anthropic has revised its pricing structure for Claude Enterprise, signaling a change in how its services are offered.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Enterprise"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "high",
+    "why_included": "This is a pricing change for an existing product, which can directly impact user costs and business decisions.",
+    "source_url": "https://letsdatascience.com/news/anthropic-revises-claude-enterprise-pricing-structure-f3022a32",
+    "published_at": "2026-04-15T19:16:15.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Cowork found me a flat to rent in London in just 5 days",
+    "summary": "A user shared a positive experience using Claude Cowork to find a flat in London within five days.",
+    "category": "novedad",
+    "entities": [
+      "Claude Cowork",
+      "ClaudeAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5 days"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a user testimonial highlighting a practical application of Claude's capabilities in real estate.",
+    "source_url": "https://old.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/",
+    "published_at": "2026-04-15T18:26:09.000Z",
+    "confidence": 0.7
+  },
+  {
     "title": "Simon Willison: Gemini 3.1 Flash TTS",
     "summary": "Simon Willison notes the availability of Gemini 3.1 Flash TTS, Google's new expressive AI speech model.",
     "category": "novedad",
@@ -16,6 +70,24 @@
     "source_url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
     "published_at": "2026-04-15T17:13:14.000Z",
     "confidence": 0.8
+  },
+  {
+    "title": "Claude Sucks",
+    "summary": "A user expresses frustration with Claude's reliability, citing frequent downtime and usage limit issues, despite acknowledging its capabilities.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights potential reliability issues with Claude, which could impact user adoption and satisfaction.",
+    "source_url": "https://news.ycombinator.com/item?id=47781420",
+    "published_at": "2026-04-15T16:28:09.000Z",
+    "confidence": 0.85
   },
   {
     "title": "Google AI Blog: Gemini 3.1 Flash TTS",

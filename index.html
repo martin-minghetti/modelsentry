@@ -25,9 +25,16 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .rss-link{display:inline-flex;align-items:center;gap:.35rem;background:var(--card-bg);border:1px solid var(--border);padding:.35rem .7rem;border-radius:6px;font-size:.8rem;color:var(--orange);transition:border-color .15s}
 .rss-link:hover{border-color:var(--orange);text-decoration:none}
 
+/* Intro */
+.intro{background:var(--surface);border-bottom:1px solid var(--border);padding:1rem 2rem;font-size:.85rem;color:var(--text-muted);line-height:1.6}
+.intro strong{color:var(--text)}
+.intro a{color:var(--accent)}
+.intro-features{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-top:.5rem;list-style:none;padding:0}
+.intro-features li::before{content:"\2022";color:var(--accent);margin-right:.4rem}
+
 /* Filters */
-.filters{padding:1rem 2rem;display:flex;flex-wrap:wrap;gap:.5rem;border-bottom:1px solid var(--border);background:var(--surface)}
-.filter-group{display:flex;align-items:center;gap:.35rem;margin-right:1rem}
+.filters{padding:.75rem 2rem;display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;border-bottom:1px solid var(--border);background:var(--surface)}
+.filter-group{display:flex;align-items:center;gap:.35rem}
 .filter-group label{font-size:.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-right:.25rem}
 .filter-btn{background:var(--card-bg);border:1px solid var(--border);color:var(--text-muted);padding:.3rem .65rem;border-radius:20px;font-size:.75rem;cursor:pointer;transition:all .15s}
 .filter-btn:hover{border-color:var(--text-muted);color:var(--text)}
@@ -35,6 +42,8 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .filter-btn.active[data-impact="high"]{background:var(--red);border-color:var(--red)}
 .filter-btn.active[data-impact="medium"]{background:var(--orange);border-color:var(--orange)}
 .filter-btn.active[data-impact="low"]{background:var(--green);border-color:var(--green)}
+.filter-select{background:var(--card-bg);border:1px solid var(--border);color:var(--text-muted);padding:.3rem .5rem;border-radius:6px;font-size:.75rem;cursor:pointer;appearance:auto;min-width:120px}
+.filter-select:focus{border-color:var(--accent);outline:none;color:var(--text)}
 
 /* Main layout */
 .main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 3rem}
@@ -109,6 +118,16 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   </div>
 </header>
 
+<div class="intro">
+  <strong>modelsentry</strong> monitors 8 AI news sources and 5 provider pages daily, using Gemini to extract structured alerts and updates.
+  <ul class="intro-features">
+    <li>Pricing changes &amp; deprecations</li>
+    <li>New model releases &amp; SDK updates</li>
+    <li>Breaking API changes</li>
+    <li>Open source &amp; free — <a href="https://github.com/martin-minghetti/modelsentry" target="_blank" rel="noopener">Fork on GitHub</a></li>
+  </ul>
+</div>
+
 <div class="filters" id="filters">
   <div class="filter-group" id="category-filters">
     <label>Category</label>
@@ -118,6 +137,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <div class="filter-group" id="entity-filters">
     <label>Entity</label>
+    <select class="filter-select" id="entity-select">
+      <option value="all">All</option>
+    </select>
   </div>
 </div>
 
@@ -319,7 +341,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
       impGroup.appendChild(ibtn);
     }
 
-    // Entity filters from data
+    // Entity filter as dropdown
     var entitySet = {};
     for (var j = 0; j < state.items.length; j++) {
       for (var e = 0; e < state.items[j].entities.length; e++) {
@@ -327,28 +349,17 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
       }
     }
     var entities = Object.keys(entitySet).sort();
-
-    var allBtn = createEl("button", "filter-btn active", "All");
-    allBtn.setAttribute("data-entity", "all");
-    allBtn.addEventListener("click", function() {
-      state.filterEntity = "all";
-      updateFilterButtons(entGroup, "data-entity", "all");
+    var entitySelect = $("entity-select");
+    for (var en = 0; en < entities.length; en++) {
+      var opt = document.createElement("option");
+      opt.value = entities[en];
+      opt.textContent = entities[en];
+      entitySelect.appendChild(opt);
+    }
+    entitySelect.addEventListener("change", function() {
+      state.filterEntity = entitySelect.value;
       render();
     });
-    entGroup.appendChild(allBtn);
-
-    for (var en = 0; en < entities.length; en++) {
-      var ebtn = createEl("button", "filter-btn", entities[en]);
-      ebtn.setAttribute("data-entity", entities[en]);
-      ebtn.addEventListener("click", function(val) {
-        return function() {
-          state.filterEntity = val;
-          updateFilterButtons(entGroup, "data-entity", val);
-          render();
-        };
-      }(entities[en]));
-      entGroup.appendChild(ebtn);
-    }
   }
 
   function updateFilterButtons(group, attr, active) {

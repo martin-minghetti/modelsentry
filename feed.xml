@@ -6,12 +6,44 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini Pricing</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Wed, 15 Apr 2026 21:27:34 GMT</pubDate>
+      <description>Google has updated its Gemini API pricing page, with a new section for Gemini 3.1 Flash TTS Preview in Bengali. | Impact: low | Signal: neutral | Why included: Website diff detected on Google Gemini Pricing page, indicating potential updates to pricing or service offerings, though the new content appears to be a language translation.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic Revises Claude Enterprise Pricing Structure</title>
+      <link>https://letsdatascience.com/news/anthropic-revises-claude-enterprise-pricing-structure-f3022a32</link>
+      <guid>https://letsdatascience.com/news/anthropic-revises-claude-enterprise-pricing-structure-f3022a32</guid>
+      <pubDate>Wed, 15 Apr 2026 19:16:15 GMT</pubDate>
+      <description>Anthropic has revised its pricing structure for Claude Enterprise, signaling a change in how its services are offered. | Impact: high | Signal: neutral | Why included: This is a pricing change for an existing product, which can directly impact user costs and business decisions.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Cowork found me a flat to rent in London in just 5 days</title>
+      <link>https://old.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/</link>
+      <guid>https://old.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/</guid>
+      <pubDate>Wed, 15 Apr 2026 18:26:09 GMT</pubDate>
+      <description>A user shared a positive experience using Claude Cowork to find a flat in London within five days. | Impact: low | Signal: positive | Why included: This is a user testimonial highlighting a practical application of Claude&apos;s capabilities in real estate.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Simon Willison: Gemini 3.1 Flash TTS</title>
       <link>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</link>
       <guid>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</guid>
       <pubDate>Wed, 15 Apr 2026 17:13:14 GMT</pubDate>
       <description>Simon Willison notes the availability of Gemini 3.1 Flash TTS, Google&apos;s new expressive AI speech model. | Impact: low | Signal: positive | Why included: This is a brief mention of Google&apos;s Gemini 3.1 Flash TTS release from a third-party observer, noting its availability.</description>
       <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Sucks</title>
+      <link>https://news.ycombinator.com/item?id=47781420</link>
+      <guid>https://news.ycombinator.com/item?id=47781420</guid>
+      <pubDate>Wed, 15 Apr 2026 16:28:09 GMT</pubDate>
+      <description>A user expresses frustration with Claude&apos;s reliability, citing frequent downtime and usage limit issues, despite acknowledging its capabilities. | Impact: medium | Signal: negative | Why included: This highlights potential reliability issues with Claude, which could impact user adoption and satisfaction.</description>
+      <category>alerta</category>
     </item>
     <item>
       <title>Google AI Blog: Gemini 3.1 Flash TTS</title>
@@ -190,83 +222,35 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Google AI Blog: Gemini in Google Sheets Achieves State-of-the-Art</title>
+      <title>Gemini in Google Sheets just achieved state-of-the-art performance.</title>
       <link>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</link>
       <guid>https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/</guid>
       <pubDate>Tue, 10 Mar 2026 13:00:00 GMT</pubDate>
-      <description>Gemini in Google Sheets has achieved state-of-the-art performance and is introducing new beta features to help users create, organize, and edit entire sheets. | Impact: medium | Signal: positive | Why included: Google is enhancing its Gemini integration in Google Sheets, indicating a significant advancement in AI-powered productivity tools.</description>
+      <description>Gemini&apos;s integration into Google Sheets has achieved state-of-the-art performance, with new beta features for data analysis and editing. | Impact: medium | Signal: positive | Why included: This highlights a significant performance improvement for Gemini within a widely used productivity tool, showcasing practical AI integration.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>OpenAI Introduces GPT-5.4</title>
-      <link>https://openai.com/index/introducing-gpt-5-4</link>
-      <guid>https://openai.com/index/introducing-gpt-5-4</guid>
-      <pubDate>Thu, 05 Mar 2026 10:00:00 GMT</pubDate>
-      <description>OpenAI introduces GPT-5.4, its most capable and efficient frontier model, offering state-of-the-art coding, computer use, tool search, and 1M-token context. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s latest frontier model, GPT-5.4, with significant improvements in context window and capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Introduces ChatGPT for Excel</title>
-      <link>https://openai.com/index/chatgpt-for-excel</link>
-      <guid>https://openai.com/index/chatgpt-for-excel</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI introduces ChatGPT for Excel and new financial data integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis. | Impact: medium | Signal: positive | Why included: OpenAI is expanding the integration of its models into productivity tools like Excel, showing a strong focus on enterprise applications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI and Amazon Announce Strategic Partnership</title>
-      <link>https://openai.com/index/amazon-partnership</link>
-      <guid>https://openai.com/index/amazon-partnership</guid>
-      <pubDate>Fri, 27 Feb 2026 05:30:00 GMT</pubDate>
-      <description>OpenAI and Amazon are forming a strategic partnership to bring OpenAI&apos;s Frontier platform to AWS, expanding AI infrastructure and custom models. | Impact: medium | Signal: positive | Why included: This strategic partnership between OpenAI and Amazon indicates a significant move to leverage AWS infrastructure for AI development and deployment.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Retires GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini from ChatGPT</title>
-      <link>https://openai.com/index/retiring-gpt-4o-and-older-models</link>
-      <guid>https://openai.com/index/retiring-gpt-4o-and-older-models</guid>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI will retire GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini from ChatGPT on February 13, 2026. No API changes are announced at this time. | Impact: high | Signal: negative | Why included: This is a high-impact deprecation announcement from OpenAI, as multiple popular models are being removed from ChatGPT with a concrete end-of-life date.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI Introduces GPT-5.2-Codex</title>
-      <link>https://openai.com/index/introducing-gpt-5-2-codex</link>
-      <guid>https://openai.com/index/introducing-gpt-5-2-codex</guid>
+      <title>Introducing GPT-5.2-Codex</title>
+      <link>https://openai.com/index/gpt-5-2-codex</link>
+      <guid>https://openai.com/index/gpt-5-2-codex</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-      <description>OpenAI introduces GPT-5.2-Codex, its most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a specialized model, GPT-5.2-Codex, focusing on advanced coding and cybersecurity capabilities, indicating a strategic expansion into specialized AI domains.</description>
+      <description>OpenAI has announced GPT-5.2-Codex, their latest coding model, featuring enhanced reasoning, code transformation, and cybersecurity capabilities. | Impact: medium | Signal: positive | Why included: This is a new model release from OpenAI, specifically focused on coding, which is a key area in LLM development.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>OpenAI Announces GPT-5.2</title>
-      <link>https://openai.com/index/introducing-gpt-5-2</link>
-      <guid>https://openai.com/index/introducing-gpt-5-2</guid>
-      <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
-      <description>OpenAI introduces GPT-5.2, its most advanced frontier model for everyday professional work, featuring state-of-the-art reasoning, long-context understanding, coding, and vision. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s advanced GPT-5.2 model, highlighting improvements in key areas relevant to professional and complex tasks.</description>
+      <title>A joint statement from OpenAI and Microsoft</title>
+      <link>https://openai.com/index/joint-statement-from-openai-and-microsoft</link>
+      <guid>https://openai.com/index/joint-statement-from-openai-and-microsoft</guid>
+      <pubDate>Thu, 11 Sep 2025 14:00:00 GMT</pubDate>
+      <description>OpenAI and Microsoft have reinforced their partnership with a new Memorandum of Understanding focused on AI safety and innovation. | Impact: medium | Signal: positive | Why included: This reaffirms a major partnership in the AI industry, indicating continued collaboration and investment.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs</title>
-      <link>https://openai.com/index/openai-amd-strategic-partnership</link>
-      <guid>https://openai.com/index/openai-amd-strategic-partnership</guid>
-      <pubDate>Mon, 06 Oct 2025 06:00:00 GMT</pubDate>
-      <description>AMD and OpenAI are partnering to deploy 6 gigawatts of AMD Instinct GPUs, starting with 1 gigawatt in 2026, to power OpenAI&apos;s next-generation AI infrastructure. | Impact: medium | Signal: positive | Why included: This partnership between AMD and OpenAI signifies a major investment in AI infrastructure, with AMD GPUs powering OpenAI&apos;s next-generation models.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems</title>
-      <link>https://openai.com/index/openai-nvidia-systems-partnership</link>
-      <guid>https://openai.com/index/openai-nvidia-systems-partnership</guid>
-      <pubDate>Mon, 22 Sep 2025 08:45:00 GMT</pubDate>
-      <description>OpenAI and NVIDIA are partnering to deploy 10 gigawatts of AI datacenters powered by NVIDIA systems, with the first phase launching in 2026. | Impact: medium | Signal: positive | Why included: This partnership between OpenAI and NVIDIA is significant for AI infrastructure, involving a substantial deployment of computing power to support advanced AI development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>[AINews] Grok 3 &amp; 3-mini Now API Available</title>
+      <title>[AINews] Grok 3 &amp; 3-mini now API Available</title>
       <link>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/</guid>
       <pubDate>Sat, 19 Apr 2025 05:44:39 GMT</pubDate>
-      <description>X&apos;s Grok 3 and Grok 3-mini models are now available via API, with Grok 3 mini positioned as a competitive, cost-effective option showcasing full reasoning traces. | Impact: medium | Signal: positive | Why included: This is a notable release from X, making its Grok models API-available, which expands the competitive landscape for LLMs.</description>
+      <description>xAI has made Grok 3 and Grok 3-mini models available via API, with Grok 3 mini being particularly cost-competitive. | Impact: medium | Signal: positive | Why included: This is a significant release making powerful models from xAI accessible via API, potentially impacting the competitive landscape.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -274,7 +258,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/</guid>
       <pubDate>Thu, 17 Apr 2025 03:17:29 GMT</pubDate>
-      <description>OpenAI has released o3 and o4-mini models, highlighting improvements in tool use and multimodal capabilities, alongside the open-source Codex CLI for coding tasks. | Impact: high | Signal: positive | Why included: This is a high-impact announcement detailing the release of OpenAI&apos;s new o3 and o4-mini models, along with the open-source Codex CLI, representing significant advancements and developer accessibility.</description>
+      <description>OpenAI has launched new models o3 and o4-mini, alongside the open-source Codex CLI, emphasizing scaling RL and efficiency improvements. | Impact: medium | Signal: positive | Why included: This is a significant announcement of new models and a key tool from OpenAI, impacting the competitive landscape and developer ecosystem.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -282,7 +266,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/</guid>
       <pubDate>Wed, 16 Apr 2025 05:55:06 GMT</pubDate>
-      <description>Google&apos;s Veo 2 and Kling AI&apos;s Kling 2, considered state-of-the-art video generation models, are now generally available for developers. | Impact: medium | Signal: positive | Why included: The general availability of two leading video generation models, Veo 2 and Kling 2, marks a significant advancement in multimodal AI and its accessibility for developers.</description>
+      <description>Google&apos;s Veo 2 and Kling AI&apos;s Kling 2 models are now generally available for developers, marking advancements in state-of-the-art video generation. | Impact: medium | Signal: positive | Why included: This is a release of significant video generation models, indicating progress in AI&apos;s creative capabilities and accessibility for developers.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -290,103 +274,7 @@
       <link>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</link>
       <guid>https://buttondown.com/ainews/archive/ainews-gpt-41-the-new-openai-workhorse/</guid>
       <pubDate>Tue, 15 Apr 2025 05:16:26 GMT</pubDate>
-      <description>OpenAI has released GPT-4.1 models, emphasizing improvements in coding, instruction following, and a 1 million token context window, with availability in the API and performance competitive with competitors. | Impact: high | Signal: positive | Why included: This is a high-impact release of OpenAI&apos;s GPT-4.1 models, detailing significant improvements in key areas like coding and context window, and providing performance comparisons with competitors.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Introduces GPT-4.5 System Card</title>
-      <link>https://openai.com/index/gpt-4-5-system-card</link>
-      <guid>https://openai.com/index/gpt-4-5-system-card</guid>
-      <pubDate>Thu, 27 Feb 2025 12:00:00 GMT</pubDate>
-      <description>OpenAI is releasing a research preview of GPT-4.5, described as their largest and most knowledgeable model yet. | Impact: high | Signal: positive | Why included: This is a high-impact release announcement of OpenAI&apos;s GPT-4.5 model, positioned as their largest and most knowledgeable to date.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI and Apple Announce Partnership</title>
-      <link>https://openai.com/index/openai-and-apple-announce-partnership</link>
-      <guid>https://openai.com/index/openai-and-apple-announce-partnership</guid>
-      <pubDate>Mon, 10 Jun 2024 11:55:00 GMT</pubDate>
-      <description>OpenAI and Apple have announced a partnership to integrate ChatGPT into Apple experiences. | Impact: medium | Signal: positive | Why included: This partnership between OpenAI and Apple is significant for bringing AI capabilities to a massive user base through Apple&apos;s ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Releases GPT-4 System Card</title>
-      <link>https://openai.com/index/gpt-4-research</link>
-      <guid>https://openai.com/index/gpt-4-research</guid>
-      <pubDate>Tue, 14 Mar 2023 07:00:00 GMT</pubDate>
-      <description>OpenAI has released the system card for GPT-4, detailing its capabilities, limitations, safety considerations, and training data. | Impact: medium | Signal: positive | Why included: OpenAI&apos;s release of the GPT-4 system card provides crucial transparency into their flagship model&apos;s development and safety measures.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Releases New Content Moderation Tooling</title>
-      <link>https://openai.com/index/new-and-improved-content-moderation-tooling</link>
-      <guid>https://openai.com/index/new-and-improved-content-moderation-tooling</guid>
-      <pubDate>Wed, 10 Aug 2022 07:00:00 GMT</pubDate>
-      <description>OpenAI is introducing a new and improved content moderation tool, the Moderation endpoint, which is available for free to OpenAI API developers. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a new content moderation tool, enhancing safety and control for API developers.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Releases Text and Code Embeddings</title>
-      <link>https://openai.com/index/introducing-text-and-code-embeddings</link>
-      <guid>https://openai.com/index/introducing-text-and-code-embeddings</guid>
-      <pubDate>Tue, 25 Jan 2022 08:00:00 GMT</pubDate>
-      <description>OpenAI is introducing embeddings, a new endpoint in the OpenAI API for natural language and code tasks like semantic search and classification. | Impact: medium | Signal: positive | Why included: OpenAI is enhancing its API with text and code embeddings, expanding its capabilities for developers.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI API Now Available with No Waitlist</title>
-      <link>https://openai.com/index/api-no-waitlist</link>
-      <guid>https://openai.com/index/api-no-waitlist</guid>
-      <pubDate>Thu, 18 Nov 2021 08:00:00 GMT</pubDate>
-      <description>OpenAI&apos;s API is now available to everyone, made possible by safety progress. | Impact: medium | Signal: positive | Why included: OpenAI is making its API more accessible by removing the waitlist, indicating increased capacity and confidence in its safety measures.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Codex</title>
-      <link>https://openai.com/index/openai-codex</link>
-      <guid>https://openai.com/index/openai-codex</guid>
-      <pubDate>Tue, 10 Aug 2021 07:00:00 GMT</pubDate>
-      <description>OpenAI has created an improved version of OpenAI Codex, its AI system that translates natural language to code, and is releasing it through its API in private beta. | Impact: medium | Signal: positive | Why included: OpenAI is releasing an improved version of its Codex model via API, indicating advancements in natural language to code translation.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Licenses GPT-3 Technology to Microsoft</title>
-      <link>https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft</link>
-      <guid>https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft</guid>
-      <pubDate>Tue, 22 Sep 2020 07:00:00 GMT</pubDate>
-      <description>OpenAI has agreed to license its GPT-3 technology to Microsoft for their products and services. | Impact: medium | Signal: positive | Why included: This licensing agreement between OpenAI and Microsoft is a significant partnership, enabling broader access to GPT-3 technology.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Releases OpenAI Microscope</title>
-      <link>https://openai.com/index/microscope</link>
-      <guid>https://openai.com/index/microscope</guid>
-      <pubDate>Tue, 14 Apr 2020 07:00:00 GMT</pubDate>
-      <description>OpenAI is introducing OpenAI Microscope, a collection of visualizations of neural network layers and neurons to help the research community understand these systems. | Impact: medium | Signal: positive | Why included: OpenAI is releasing a research tool, OpenAI Microscope, to enhance the interpretability of neural networks, contributing to AI safety and understanding.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Standardizes on PyTorch</title>
-      <link>https://openai.com/index/openai-pytorch</link>
-      <guid>https://openai.com/index/openai-pytorch</guid>
-      <pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate>
-      <description>OpenAI is standardizing its deep learning framework on PyTorch. | Impact: low | Signal: positive | Why included: This is an internal operational decision by OpenAI to standardize on PyTorch, which is relevant for understanding their development ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Microsoft Invests $1 Billion in OpenAI</title>
-      <link>https://openai.com/index/microsoft-invests-in-and-partners-with-openai</link>
-      <guid>https://openai.com/index/microsoft-invests-in-and-partners-with-openai</guid>
-      <pubDate>Mon, 22 Jul 2019 07:00:00 GMT</pubDate>
-      <description>Microsoft is investing $1 billion in OpenAI to support the building of beneficial AGI and partnering to develop a hardware and software platform within Microsoft Azure. | Impact: high | Signal: positive | Why included: This is a significant investment from Microsoft in OpenAI, indicating a major strategic partnership focused on advancing AGI and cloud infrastructure.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI LP Created</title>
-      <link>https://openai.com/index/openai-lp</link>
-      <guid>https://openai.com/index/openai-lp</guid>
-      <pubDate>Mon, 11 Mar 2019 07:00:00 GMT</pubDate>
-      <description>OpenAI has created OpenAI LP, a new &apos;capped-profit&apos; company to enable rapid investments in compute and talent while maintaining mission-driven checks and balances. | Impact: medium | Signal: positive | Why included: The creation of OpenAI LP is a significant structural change that impacts its business model and ability to invest in large-scale AI development.</description>
+      <description>OpenAI has released GPT-4.1, a new family of models including GPT-4.1, GPT-4.1 mini, and GPT-4.1 nano, offering enhanced coding, instruction following, and long context capabilities. | Impact: medium | Signal: positive | Why included: This is a major release from OpenAI, introducing new flagship models with significant performance and feature upgrades.</description>
       <category>novedad</category>
     </item>
   </channel>
