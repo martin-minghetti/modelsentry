@@ -25,12 +25,37 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .rss-link{display:inline-flex;align-items:center;gap:.35rem;background:var(--card-bg);border:1px solid var(--border);padding:.35rem .7rem;border-radius:6px;font-size:.8rem;color:var(--orange);transition:border-color .15s}
 .rss-link:hover{border-color:var(--orange);text-decoration:none}
 
-/* Intro */
-.intro{background:var(--surface);border-bottom:1px solid var(--border);padding:1rem 2rem;font-size:.85rem;color:var(--text-muted);line-height:1.6}
-.intro strong{color:var(--text)}
-.intro a{color:var(--accent)}
-.intro-features{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-top:.5rem;list-style:none;padding:0}
-.intro-features li::before{content:"\2022";color:var(--accent);margin-right:.4rem}
+/* About button */
+.about-btn{display:inline-flex;align-items:center;gap:.35rem;background:var(--card-bg);border:1px solid var(--border);padding:.35rem .7rem;border-radius:6px;font-size:.8rem;color:var(--accent);cursor:pointer;transition:border-color .15s}
+.about-btn:hover{border-color:var(--accent)}
+
+/* Modal */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;align-items:center;justify-content:center;padding:1.5rem;backdrop-filter:blur(4px)}
+.modal-overlay.open{display:flex}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:12px;max-width:720px;width:100%;max-height:85vh;overflow-y:auto;padding:2rem 2.25rem;position:relative}
+.modal-close{position:absolute;top:1rem;right:1.25rem;background:none;border:none;color:var(--text-muted);font-size:1.5rem;cursor:pointer;line-height:1;padding:.25rem}
+.modal-close:hover{color:var(--text)}
+.modal h2{font-size:1.35rem;font-weight:700;margin-bottom:.25rem;letter-spacing:-.02em}
+.modal h2 span{color:var(--accent)}
+.modal .modal-subtitle{color:var(--text-muted);font-size:.9rem;margin-bottom:1.75rem}
+.modal h3{font-size:1rem;font-weight:600;color:var(--accent);margin:1.5rem 0 .5rem;padding-bottom:.35rem;border-bottom:1px solid var(--border)}
+.modal h3:first-of-type{margin-top:.5rem}
+.modal p{font-size:.875rem;color:var(--text-muted);line-height:1.7;margin-bottom:.75rem}
+.modal ul,.modal ol{font-size:.875rem;color:var(--text-muted);line-height:1.7;margin:0 0 .75rem 1.25rem}
+.modal li{margin-bottom:.35rem}
+.modal strong{color:var(--text)}
+.modal code{background:var(--card-bg);border:1px solid var(--border);padding:.15rem .4rem;border-radius:4px;font-size:.8rem;color:var(--orange)}
+.modal .flow-diagram{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin:1rem 0;font-family:monospace;font-size:.8rem;line-height:1.8;color:var(--text-muted);white-space:pre;overflow-x:auto}
+.modal .flow-diagram strong{color:var(--accent)}
+.modal .source-grid{display:grid;grid-template-columns:1fr 1fr;gap:.35rem .75rem;margin:.75rem 0}
+@media(max-width:600px){.modal .source-grid{grid-template-columns:1fr}}
+.modal .source-grid span{font-size:.8rem;color:var(--text-muted)}
+.modal .source-grid span::before{content:"\2022";color:var(--accent);margin-right:.4rem}
+.modal .cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border)}
+.modal .cta-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1rem;border-radius:6px;font-size:.85rem;font-weight:500;text-decoration:none;transition:opacity .15s}
+.modal .cta-btn:hover{opacity:.85;text-decoration:none}
+.modal .cta-primary{background:var(--accent);color:#fff}
+.modal .cta-secondary{background:var(--card-bg);border:1px solid var(--border);color:var(--text)}
 
 /* Filters */
 .filters{padding:.75rem 2rem;display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;border-bottom:1px solid var(--border);background:var(--surface)}
@@ -111,6 +136,10 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <div class="header-right">
     <span id="last-updated"></span>
+    <button class="about-btn" id="about-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      About
+    </button>
     <a href="feed.xml" class="rss-link">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
       RSS
@@ -118,14 +147,91 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   </div>
 </header>
 
-<div class="intro">
-  <strong>modelsentry</strong> monitors 8 AI news sources and 5 provider pages daily, using Gemini to extract structured alerts and updates.
-  <ul class="intro-features">
-    <li>Pricing changes &amp; deprecations</li>
-    <li>New model releases &amp; SDK updates</li>
-    <li>Breaking API changes</li>
-    <li>Open source &amp; free — <a href="https://github.com/martin-minghetti/modelsentry" target="_blank" rel="noopener">Fork on GitHub</a></li>
-  </ul>
+<!-- About modal -->
+<div class="modal-overlay" id="about-modal">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">&times;</button>
+    <h2>model<span>sentry</span></h2>
+    <p class="modal-subtitle">AI early warning system for developers. Free, open source, runs entirely on GitHub.</p>
+
+    <h3>The Problem</h3>
+    <p>Developers building on AI APIs depend on providers that change pricing, deprecate models, modify rate limits, and shift terms &mdash; often without clear notice. Staying informed means manually checking 10+ sites daily. Most devs miss critical changes until something breaks in production.</p>
+
+    <h3>The Solution</h3>
+    <p>An automated monitoring tool that scrapes official AI sources daily, uses an LLM to filter and extract structured metadata, detects changes in critical provider pages, and serves this dashboard + an RSS feed. <strong>Zero cost.</strong> Runs entirely on GitHub infrastructure with one free API key.</p>
+
+    <h3>How It Works</h3>
+    <div class="flow-diagram"><strong>8 RSS Feeds</strong>          <strong>5 Provider Pages</strong>
+     |                        |
+     v                        v
+ Pre-filter              Diff Detection
+ (keywords + dedup)      (text snapshots)
+     |                        |
+     +--------+   +-----------+
+              |   |
+              v   v
+        <strong>Gemini LLM</strong>
+     (classify + extract)
+              |
+              v
+      Structured JSON
+       /          \
+      v            v
+ <strong>Dashboard</strong>    <strong>RSS Feed</strong>
+ (this page)  (subscribe)</div>
+
+    <p>A GitHub Actions cron job runs this pipeline daily at 8:00 UTC. Data is committed back to the repo, and the dashboard is deployed to GitHub Pages automatically.</p>
+
+    <h3>What It Monitors</h3>
+    <p><strong>News feeds</strong> (8 sources):</p>
+    <div class="source-grid">
+      <span>Hacker News AI</span>
+      <span>r/ClaudeAI</span>
+      <span>Claude Code Releases</span>
+      <span>Anthropic SDK Python</span>
+      <span>OpenAI Blog</span>
+      <span>Google AI Blog</span>
+      <span>Simon Willison</span>
+      <span>AI News (smol.ai)</span>
+    </div>
+    <p><strong>Provider pages</strong> (diff detection for changes):</p>
+    <div class="source-grid">
+      <span>OpenAI Pricing</span>
+      <span>OpenAI Deprecations</span>
+      <span>Anthropic Pricing</span>
+      <span>Anthropic Deprecations</span>
+      <span>Gemini Pricing</span>
+    </div>
+
+    <h3>Two Layers of Value</h3>
+    <ul>
+      <li><strong>Alertas</strong> &mdash; what you <em>need</em>: deprecations, pricing changes, breaking API changes. Shown with red accents and high impact badges.</li>
+      <li><strong>Novedades</strong> &mdash; what you <em>want</em>: new models, tools, releases, features. The updates that keep you ahead.</li>
+    </ul>
+
+    <h3>Quick Start (Your Own Instance)</h3>
+    <ol>
+      <li><strong>Fork</strong> the repo on GitHub</li>
+      <li>Add your <code>GOOGLE_API_KEY</code> in Settings &rarr; Secrets (free from Google AI Studio)</li>
+      <li>Enable workflows in the Actions tab</li>
+      <li>Enable GitHub Pages from the <code>gh-pages</code> branch</li>
+      <li>Done &mdash; your dashboard appears at <code>https://&lt;user&gt;.github.io/modelsentry/</code></li>
+    </ol>
+
+    <h3>Tech Stack</h3>
+    <p>TypeScript, Node.js, Vitest, rss-parser, cheerio, Gemini API, GitHub Actions, GitHub Pages. No databases, no servers, no costs.</p>
+
+    <div class="cta-row">
+      <a href="https://github.com/martin-minghetti/modelsentry" target="_blank" rel="noopener" class="cta-btn cta-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        View on GitHub
+      </a>
+      <a href="feed.xml" class="cta-btn cta-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+        Subscribe via RSS
+      </a>
+    </div>
+  </div>
 </div>
 
 <div class="filters" id="filters">
@@ -409,6 +515,17 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
       showError("Error loading data: " + err.message);
     }
   }
+
+  // About modal
+  var modal = $("about-modal");
+  $("about-btn").addEventListener("click", function() { modal.classList.add("open"); });
+  $("modal-close").addEventListener("click", function() { modal.classList.remove("open"); });
+  modal.addEventListener("click", function(e) {
+    if (e.target === modal) modal.classList.remove("open");
+  });
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") modal.classList.remove("open");
+  });
 
   init();
 })();
