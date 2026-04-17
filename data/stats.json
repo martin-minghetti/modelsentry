@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-04-17T19:23:49.629Z",
+  "coverage_start": "2019-03-11",
+  "coverage_end": "2026-04-17",
+  "weekly": [
+    {
+      "week": "Jan 26",
+      "week_start": "2026-01-26",
+      "alerts": 1,
+      "updates": 0
+    },
+    {
+      "week": "Feb 2",
+      "week_start": "2026-02-02",
+      "alerts": 0,
+      "updates": 0
+    },
+    {
+      "week": "Feb 9",
+      "week_start": "2026-02-09",
+      "alerts": 0,
+      "updates": 0
+    },
+    {
+      "week": "Feb 16",
+      "week_start": "2026-02-16",
+      "alerts": 0,
+      "updates": 0
+    },
+    {
+      "week": "Feb 23",
+      "week_start": "2026-02-23",
+      "alerts": 0,
+      "updates": 1
+    },
+    {
+      "week": "Mar 2",
+      "week_start": "2026-03-02",
+      "alerts": 0,
+      "updates": 2
+    },
+    {
+      "week": "Mar 9",
+      "week_start": "2026-03-09",
+      "alerts": 0,
+      "updates": 1
+    },
+    {
+      "week": "Mar 16",
+      "week_start": "2026-03-16",
+      "alerts": 0,
+      "updates": 1
+    },
+    {
+      "week": "Mar 23",
+      "week_start": "2026-03-23",
+      "alerts": 0,
+      "updates": 4
+    },
+    {
+      "week": "Mar 30",
+      "week_start": "2026-03-30",
+      "alerts": 1,
+      "updates": 5
+    },
+    {
+      "week": "Apr 6",
+      "week_start": "2026-04-06",
+      "alerts": 2,
+      "updates": 7
+    },
+    {
+      "week": "Apr 13",
+      "week_start": "2026-04-13",
+      "alerts": 36,
+      "updates": 48
+    }
+  ],
+  "providers": [
+    {
+      "provider": "Anthropic",
+      "count": 73,
+      "alerts": 28,
+      "updates": 45
+    },
+    {
+      "provider": "Google",
+      "count": 15,
+      "alerts": 6,
+      "updates": 9
+    },
+    {
+      "provider": "OpenAI",
+      "count": 9,
+      "alerts": 1,
+      "updates": 8
+    },
+    {
+      "provider": "Other",
+      "count": 5,
+      "alerts": 3,
+      "updates": 2
+    },
+    {
+      "provider": "Meta",
+      "count": 1,
+      "alerts": 1,
+      "updates": 0
+    }
+  ],
+  "totals": {
+    "unique_events": 131,
+    "last_30_days": 103,
+    "sources": {
+      "rss": 123,
+      "diff_pages": 8
+    }
+  }
+}
