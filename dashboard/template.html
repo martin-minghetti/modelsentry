@@ -133,6 +133,36 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 
 /* Error */
 .error-banner{background:rgba(248,81,73,.1);border:1px solid rgba(248,81,73,.3);color:var(--red);padding:.75rem 1rem;border-radius:6px;margin:1rem 2rem;font-size:.85rem;display:none}
+
+/* Stats panels */
+.stats-container{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 0;display:none}
+.stats-panel{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin-bottom:1rem}
+.stats-panel-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem}
+.stats-panel-header h2{font-size:1rem;font-weight:600;color:var(--text-muted)}
+.stats-panel-header span{font-size:.85rem;color:var(--text-muted)}
+.stats-note{font-size:.7rem;color:var(--text-faint);margin-top:.5rem}
+
+/* Timeline chart */
+.timeline{display:flex;align-items:flex-end;gap:4px;height:120px;padding-bottom:1.5rem;position:relative}
+.timeline-bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;position:relative}
+.timeline-bar-stack{width:100%;display:flex;flex-direction:column;justify-content:flex-end}
+.timeline-bar-updates{background:var(--accent);min-height:0}
+.timeline-bar-alerts{background:var(--red);min-height:0}
+.timeline-label{position:absolute;bottom:-1.25rem;font-size:.65rem;color:var(--text-faint);white-space:nowrap}
+
+/* Provider activity chart */
+.provider-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem}
+.provider-name{flex:0 0 80px;font-size:.8rem;color:var(--text-muted);text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.provider-bar-bg{flex:1;height:18px;background:var(--card-bg);border-radius:3px;overflow:hidden;display:flex}
+.provider-bar-alerts{background:var(--red);height:100%}
+.provider-bar-updates{background:var(--accent);height:100%}
+.provider-count{flex:0 0 30px;font-size:.8rem;color:var(--text-muted);text-align:right}
+
+@media(max-width:600px){
+  .timeline-label.hide-mobile{display:none}
+  .timeline{height:80px}
+  .timeline-label{font-size:.55rem}
+}
 </style>
 </head>
 <body>
@@ -260,6 +290,24 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 </div>
 
 <div class="error-banner" id="error-banner"></div>
+
+<div class="stats-container" id="stats-panels">
+  <div class="stats-panel" id="timeline-panel">
+    <div class="stats-panel-header">
+      <h2>Last 12 weeks</h2>
+      <span id="timeline-total"></span>
+    </div>
+    <div class="timeline" id="timeline-chart"></div>
+    <div class="stats-note">All data — not affected by filters above</div>
+  </div>
+  <div class="stats-panel" id="provider-panel">
+    <div class="stats-panel-header">
+      <h2>Provider Activity (last 30 days)</h2>
+    </div>
+    <div id="provider-chart"></div>
+    <div class="stats-note">All data — not affected by filters above</div>
+  </div>
+</div>
 
 <div class="main" id="main-content">
   <div class="loading" id="loading">
