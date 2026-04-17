@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; object-src 'none'; base-uri 'none';">
+<meta name="description" content="Automated monitoring dashboard for AI API changes — pricing, deprecations, new models, and breaking changes from OpenAI, Anthropic, Google, and more.">
 <title>modelsentry — AI Early Warning System</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -71,7 +73,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .filter-group label{font-size:.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-right:.25rem}
 .filter-btn{background:var(--card-bg);border:1px solid var(--border);color:var(--text-muted);padding:.3rem .65rem;border-radius:20px;font-size:.75rem;cursor:pointer;transition:all .15s}
 .filter-btn:hover{border-color:var(--text-muted);color:var(--text)}
-.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.filter-btn.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
 .filter-btn.active[data-impact="high"]{background:var(--red);border-color:var(--red)}
 .filter-btn.active[data-impact="medium"]{background:var(--orange);border-color:var(--orange)}
 .filter-btn.active[data-impact="low"]{background:var(--green);border-color:var(--green)}
@@ -79,7 +81,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .filter-select:focus{border-color:var(--accent);outline:none;color:var(--text)}
 
 /* Main layout */
-.main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 3rem}
+.main{max-width:1200px;margin:0 auto;padding:1.5rem 2rem 3rem;min-height:60vh}
 .section-title{font-size:1.1rem;font-weight:600;margin:1.5rem 0 .75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}
 .section-title .count{font-size:.8rem;color:var(--text-muted);font-weight:400}
 .section-title.alertas{color:var(--red)}
@@ -112,7 +114,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 
 .card-summary{font-size:.875rem;color:var(--text-muted);margin-bottom:.75rem;line-height:1.6}
 .card-why{font-size:.8rem;color:var(--text-muted);font-style:italic;margin-top:.5rem;padding-top:.6rem;border-top:1px solid var(--border);line-height:1.5}
-.card-date{font-size:.75rem;color:var(--text-faint);display:block}
+.card-date{font-size:.75rem;color:var(--text-muted);display:block}
 
 /* Health panel */
 .health-panel{margin-top:2.5rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem}
@@ -140,7 +142,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .stats-panel-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem}
 .stats-panel-header h2{font-size:1rem;font-weight:600;color:var(--text-muted)}
 .stats-panel-header span{font-size:.85rem;color:var(--text-muted)}
-.stats-note{font-size:.7rem;color:var(--text-faint);margin-top:.5rem}
+.stats-note{font-size:.7rem;color:var(--text-muted);margin-top:.5rem}
 
 /* Timeline chart */
 .timeline{display:flex;align-items:flex-end;gap:4px;height:120px;padding-bottom:1.5rem;position:relative}
@@ -148,7 +150,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .timeline-bar-stack{width:100%;display:flex;flex-direction:column;justify-content:flex-end}
 .timeline-bar-updates{background:var(--accent);min-height:0}
 .timeline-bar-alerts{background:var(--red);min-height:0}
-.timeline-label{position:absolute;bottom:-1.25rem;font-size:.65rem;color:var(--text-faint);white-space:nowrap}
+.timeline-label{position:absolute;bottom:-1.25rem;font-size:.65rem;color:var(--text-muted);white-space:nowrap}
 
 /* Provider activity chart */
 .provider-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem}
@@ -283,7 +285,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <div class="filter-group" id="entity-filters">
     <label>Entity</label>
-    <select class="filter-select" id="entity-select">
+    <select class="filter-select" id="entity-select" aria-label="Filter by entity">
       <option value="all">All</option>
     </select>
   </div>
@@ -359,7 +361,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     try {
       var urlObj = new URL(item.source_url);
       if (urlObj.protocol === "http:" || urlObj.protocol === "https:") {
-        link.href = item.source_url;
+        link.href = urlObj.href;
       } else {
         link.href = "#";
       }
