@@ -43,6 +43,12 @@ export function buildDashboard(options: DashboardOptions): void {
     copyFileSync(feedSrc, join(distDir, "feed.xml"));
   }
 
+  // Copy stats.json
+  const statsSrc = join(dataDir, "stats.json");
+  if (existsSync(statsSrc)) {
+    copyFileSync(statsSrc, join(distDir, "stats.json"));
+  }
+
   // Write scan_meta.json
   const meta = {
     feedHealth: scanResult.feedHealth,
