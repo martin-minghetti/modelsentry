@@ -15,6 +15,7 @@ import {
 } from "./data.js";
 import { generateFeed } from "./feed.js";
 import { buildDashboard } from "./dashboard.js";
+import { generateStats } from "./stats.js";
 import type { ProcessedItem, ScanResult } from "./types.js";
 
 /**
@@ -71,8 +72,9 @@ export interface PipelineOptions {
  * 7. Update and save seen URLs
  * 8. Merge with existing latest, save latest
  * 9. Append new items to archive
- * 10. Write feed.xml
- * 11. Return ScanResult
+ * 10. Generate stats from archive, write stats.json
+ * 11. Write feed.xml
+ * 12. Return ScanResult
  */
 export async function runPipeline(options: PipelineOptions): Promise<ScanResult> {
   const { configPath, dataDir, apiKey, siteUrl } = options;
@@ -140,11 +142,16 @@ export async function runPipeline(options: PipelineOptions): Promise<ScanResult>
   // Step 9: Append new items to archive
   appendArchive(archiveDir, processedItems);
 
-  // Step 10: Generate and write feed.xml
+  // Step 10: Generate stats from archive
+  const diffPageUrls = config.sources.diff_pages.map(p => p.url);
+  const stats = generateStats(archiveDir, diffPageUrls);
+  writeFileSync(join(dataDir, "stats.json"), JSON.stringify(stats, null, 2), "utf-8");
+
+  // Step 11: Generate and write feed.xml
   const feedXml = generateFeed(merged, siteUrl);
   writeFileSync(join(dataDir, "feed.xml"), feedXml, "utf-8");
 
-  // Step 11: Build static dashboard
+  // Step 12: Build static dashboard
   const result: ScanResult = {
     items: processedItems,
     feedHealth,
