@@ -74,3 +74,33 @@ export interface ScanResult {
 }
 
 export type SeenUrls = Record<string, string>;
+
+export interface WeekBucket {
+  week: string;
+  week_start: string;
+  alerts: number;
+  updates: number;
+}
+
+export interface ProviderStat {
+  provider: string;
+  count: number;
+  alerts: number;
+  updates: number;
+}
+
+export interface StatsFile {
+  generated_at: string;
+  coverage_start: string;
+  coverage_end: string;
+  weekly: WeekBucket[];
+  providers: ProviderStat[];
+  totals: {
+    unique_events: number;
+    last_30_days: number;
+    sources: {
+      rss: number;
+      diff_pages: number;
+    };
+  };
+}
