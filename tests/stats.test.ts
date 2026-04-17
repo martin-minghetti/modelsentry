@@ -107,3 +107,52 @@ describe("generateStats", () => {
     expect(stats.totals.unique_events).toBe(2);
   });
 });
+
+describe("resolveProvider", () => {
+  it("resolves Claude Code to Anthropic", () => {
+    expect(resolveProvider(["Claude Code"])).toBe("Anthropic");
+  });
+
+  it("resolves Gemini API to Google", () => {
+    expect(resolveProvider(["Gemini API"])).toBe("Google");
+  });
+
+  it("resolves Grok 3 to xAI", () => {
+    expect(resolveProvider(["Grok 3"])).toBe("xAI");
+  });
+
+  it("resolves GPT-4o to OpenAI", () => {
+    expect(resolveProvider(["GPT-4o"])).toBe("OpenAI");
+  });
+
+  it("resolves Llama 3 to Meta", () => {
+    expect(resolveProvider(["Llama 3"])).toBe("Meta");
+  });
+
+  it("returns Other for unknown entities", () => {
+    expect(resolveProvider(["Mistral Large"])).toBe("Other");
+  });
+
+  it("returns Other for empty entities", () => {
+    expect(resolveProvider([])).toBe("Other");
+  });
+
+  it("uses first matching entity when multiple present", () => {
+    expect(resolveProvider(["Some random", "Claude 4"])).toBe("Anthropic");
+  });
+});
+
+describe("generateStats — provider in output", () => {
+  it("maps unknown entity to Other provider in stats", () => {
+    const dir = makeTempDir();
+    const item = makeItem({
+      entities: ["Mistral Large"],
+      published_at: "2026-04-14T12:00:00.000Z",
+    });
+    writeNdjson(dir, "2026-04.ndjson", [item]);
+
+    const stats = generateStats(dir, [], NOW);
+    expect(stats.providers).toHaveLength(1);
+    expect(stats.providers[0].provider).toBe("Other");
+  });
+});
