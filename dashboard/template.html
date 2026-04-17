@@ -592,11 +592,49 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     }
   }
 
+  function renderProviders(stats) {
+    var chart = $("provider-chart");
+    var providers = stats.providers;
+
+    if (providers.length === 0) {
+      chart.appendChild(createEl("div", "empty", "No provider activity in the last 30 days."));
+      return;
+    }
+
+    var maxCount = providers[0].count;
+
+    for (var i = 0; i < providers.length; i++) {
+      var p = providers[i];
+      var row = createEl("div", "provider-row");
+
+      row.appendChild(createEl("span", "provider-name", p.provider));
+
+      var barBg = createEl("div", "provider-bar-bg");
+      var pct = (p.count / maxCount) * 100;
+
+      if (p.alerts > 0) {
+        var ab = createEl("div", "provider-bar-alerts");
+        ab.style.width = ((p.alerts / p.count) * pct) + "%";
+        barBg.appendChild(ab);
+      }
+      if (p.updates > 0) {
+        var ub = createEl("div", "provider-bar-updates");
+        ub.style.width = ((p.updates / p.count) * pct) + "%";
+        barBg.appendChild(ub);
+      }
+
+      row.appendChild(barBg);
+      row.appendChild(createEl("span", "provider-count", String(p.count)));
+      chart.appendChild(row);
+    }
+  }
+
   async function init() {
     try {
       var responses = await Promise.allSettled([
         fetch("latest.json"),
-        fetch("scan_meta.json")
+        fetch("scan_meta.json"),
+        fetch("stats.json")
       ]);
 
       if (responses[0].status === "fulfilled" && responses[0].value.ok) {
@@ -613,6 +651,13 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 
       if (state.meta && state.meta.timestamp) {
         $("last-updated").textContent = "Updated " + formatDate(state.meta.timestamp);
+      }
+
+      if (responses[2].status === "fulfilled" && responses[2].value.ok) {
+        var stats = await responses[2].value.json();
+        renderTimeline(stats);
+        renderProviders(stats);
+        $("stats-panels").style.display = "block";
       }
 
       setupFilters();
