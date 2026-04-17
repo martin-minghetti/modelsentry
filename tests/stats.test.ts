@@ -72,4 +72,38 @@ describe("generateStats", () => {
     expect(stats.totals.last_30_days).toBe(1);
     expect(stats.totals.sources.rss).toBe(1);
   });
+
+  it("deduplicates rows with same source_url and published_at, keeps longest title", () => {
+    const dir = makeTempDir();
+    const short = makeItem({
+      source_url: "https://example.com/dup",
+      published_at: "2026-04-14T12:00:00.000Z",
+      title: "Short",
+    });
+    const long = makeItem({
+      source_url: "https://example.com/dup",
+      published_at: "2026-04-14T12:00:00.000Z",
+      title: "Much longer and more descriptive title",
+    });
+    writeNdjson(dir, "2026-04.ndjson", [short, long]);
+
+    const stats = generateStats(dir, [], NOW);
+    expect(stats.totals.unique_events).toBe(1);
+  });
+
+  it("counts same source_url with different published_at as separate events", () => {
+    const dir = makeTempDir();
+    const first = makeItem({
+      source_url: "https://example.com/page",
+      published_at: "2026-04-10T12:00:00.000Z",
+    });
+    const second = makeItem({
+      source_url: "https://example.com/page",
+      published_at: "2026-04-14T12:00:00.000Z",
+    });
+    writeNdjson(dir, "2026-04.ndjson", [first, second]);
+
+    const stats = generateStats(dir, [], NOW);
+    expect(stats.totals.unique_events).toBe(2);
+  });
 });
