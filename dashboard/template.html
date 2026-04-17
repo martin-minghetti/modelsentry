@@ -544,6 +544,54 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
     banner.style.display = "block";
   }
 
+  function renderTimeline(stats) {
+    var chart = $("timeline-chart");
+    var weekly = stats.weekly;
+
+    var maxTotal = 0;
+    var totalEvents = 0;
+    for (var i = 0; i < weekly.length; i++) {
+      var t = weekly[i].alerts + weekly[i].updates;
+      totalEvents += t;
+      if (t > maxTotal) maxTotal = t;
+    }
+
+    $("timeline-total").textContent = totalEvents + " events";
+
+    var chartHeight = 100;
+
+    for (var i = 0; i < weekly.length; i++) {
+      var w = weekly[i];
+      var total = w.alerts + w.updates;
+      var bar = createEl("div", "timeline-bar");
+
+      if (total > 0) {
+        var barHeight = Math.max((total / (maxTotal || 1)) * chartHeight, 2);
+        var stack = createEl("div", "timeline-bar-stack");
+        stack.style.height = barHeight + "px";
+
+        if (w.updates > 0) {
+          var ub = createEl("div", "timeline-bar-updates");
+          ub.style.height = (barHeight * (w.updates / total)) + "px";
+          stack.appendChild(ub);
+        }
+        if (w.alerts > 0) {
+          var ab = createEl("div", "timeline-bar-alerts");
+          ab.style.height = (barHeight * (w.alerts / total)) + "px";
+          stack.appendChild(ab);
+        }
+
+        bar.appendChild(stack);
+      }
+
+      var labelClass = "timeline-label";
+      if (i % 2 !== 0) labelClass += " hide-mobile";
+      var label = createEl("span", labelClass, w.week);
+      bar.appendChild(label);
+      chart.appendChild(bar);
+    }
+  }
+
   async function init() {
     try {
       var responses = await Promise.allSettled([
