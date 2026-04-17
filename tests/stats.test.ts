@@ -106,6 +106,89 @@ describe("generateStats", () => {
     const stats = generateStats(dir, [], NOW);
     expect(stats.totals.unique_events).toBe(2);
   });
+
+  it("includes zero-activity weeks with alerts=0 and updates=0", () => {
+    const dir = makeTempDir();
+    const item = makeItem({ published_at: "2026-04-14T12:00:00.000Z" });
+    writeNdjson(dir, "2026-04.ndjson", [item]);
+
+    const stats = generateStats(dir, [], NOW);
+    const zeroWeeks = stats.weekly.filter(w => w.alerts === 0 && w.updates === 0);
+    expect(zeroWeeks.length).toBe(11);
+  });
+
+  it("formats week labels as 'Mon D' not ISO date", () => {
+    const dir = makeTempDir();
+    const stats = generateStats(dir, [], NOW);
+
+    for (const week of stats.weekly) {
+      expect(week.week).toMatch(/^[A-Z][a-z]{2} \d{1,2}$/);
+    }
+
+    const lastWeek = stats.weekly[stats.weekly.length - 1];
+    expect(lastWeek.week).toBe("Apr 13");
+    expect(lastWeek.week_start).toBe("2026-04-13");
+  });
+
+  it("only includes last 12 weeks in weekly, older data in totals only", () => {
+    const dir = makeTempDir();
+    const oldItem = makeItem({
+      published_at: "2026-01-20T12:00:00.000Z",
+      source_url: "https://example.com/old",
+    });
+    const recentItem = makeItem({
+      published_at: "2026-04-14T12:00:00.000Z",
+      source_url: "https://example.com/recent",
+    });
+    writeNdjson(dir, "2026-01.ndjson", [oldItem]);
+    writeNdjson(dir, "2026-04.ndjson", [recentItem]);
+
+    const stats = generateStats(dir, [], NOW);
+
+    expect(stats.totals.unique_events).toBe(2);
+
+    const weeklyTotal = stats.weekly.reduce((sum, w) => sum + w.alerts + w.updates, 0);
+    expect(weeklyTotal).toBe(1);
+  });
+
+  it("sorts providers by count descending", () => {
+    const dir = makeTempDir();
+    const items = [
+      makeItem({ entities: ["OpenAI"], source_url: "https://a.com/1", published_at: "2026-04-10T00:00:00.000Z" }),
+      makeItem({ entities: ["OpenAI"], source_url: "https://a.com/2", published_at: "2026-04-11T00:00:00.000Z" }),
+      makeItem({ entities: ["OpenAI"], source_url: "https://a.com/3", published_at: "2026-04-12T00:00:00.000Z" }),
+      makeItem({ entities: ["Anthropic"], source_url: "https://b.com/1", published_at: "2026-04-13T00:00:00.000Z" }),
+      makeItem({ entities: ["Google Gemini"], source_url: "https://c.com/1", published_at: "2026-04-14T00:00:00.000Z" }),
+      makeItem({ entities: ["Google Gemini"], source_url: "https://c.com/2", published_at: "2026-04-15T00:00:00.000Z" }),
+    ];
+    writeNdjson(dir, "2026-04.ndjson", items);
+
+    const stats = generateStats(dir, [], NOW);
+    expect(stats.providers[0].provider).toBe("OpenAI");
+    expect(stats.providers[0].count).toBe(3);
+    expect(stats.providers[1].provider).toBe("Google");
+    expect(stats.providers[1].count).toBe(2);
+    expect(stats.providers[2].provider).toBe("Anthropic");
+    expect(stats.providers[2].count).toBe(1);
+  });
+
+  it("counts diff page sources separately from RSS", () => {
+    const dir = makeTempDir();
+    const rssItem = makeItem({
+      source_url: "https://blog.example.com/post",
+      published_at: "2026-04-14T12:00:00.000Z",
+    });
+    const diffItem = makeItem({
+      source_url: "https://openai.com/pricing",
+      published_at: "2026-04-14T13:00:00.000Z",
+      category: "alerta",
+    });
+    writeNdjson(dir, "2026-04.ndjson", [rssItem, diffItem]);
+
+    const stats = generateStats(dir, ["https://openai.com/pricing"], NOW);
+    expect(stats.totals.sources.rss).toBe(1);
+    expect(stats.totals.sources.diff_pages).toBe(1);
+  });
 });
 
 describe("resolveProvider", () => {
