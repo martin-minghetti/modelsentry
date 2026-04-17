@@ -38,7 +38,11 @@ function readArchive(archiveDir: string): ProcessedItem[] {
     for (const line of content.split("\n")) {
       const trimmed = line.trim();
       if (trimmed) {
-        items.push(JSON.parse(trimmed));
+        try {
+          items.push(JSON.parse(trimmed));
+        } catch {
+          // Skip malformed lines
+        }
       }
     }
   }
@@ -155,13 +159,15 @@ export function generateStats(
     }
   }
 
-  const timestamps = unique.map(i => new Date(i.published_at).getTime());
-  const coverageStart = timestamps.length > 0
-    ? toISODate(new Date(Math.min(...timestamps)))
-    : toISODate(ref);
-  const coverageEnd = timestamps.length > 0
-    ? toISODate(new Date(Math.max(...timestamps)))
-    : toISODate(ref);
+  let minTs = Infinity;
+  let maxTs = -Infinity;
+  for (const item of unique) {
+    const ts = new Date(item.published_at).getTime();
+    if (ts < minTs) minTs = ts;
+    if (ts > maxTs) maxTs = ts;
+  }
+  const coverageStart = unique.length > 0 ? toISODate(new Date(minTs)) : toISODate(ref);
+  const coverageEnd = unique.length > 0 ? toISODate(new Date(maxTs)) : toISODate(ref);
 
   return {
     generated_at: ref.toISOString(),
