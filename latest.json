@@ -1,22 +1,326 @@
 [
   {
-    "title": "Google Gemini Pricing",
-    "summary": "This diff alert indicates changes in Google Gemini's pricing page, specifically concerning the Gemini 3.1 Flash TTS model preview and general API pricing structure.",
+    "title": "Google Gemini Pricing Page Updated",
+    "summary": "Google has updated its Gemini pricing page to reflect new Terms of Service and to display pricing information in English, alongside the existing Arabic version.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Gemini API"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "A minor website change, mainly updating terms of service and adding English language support to the pricing page.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-17T09:06:12.772Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Anthropic Pricing Page Update",
+    "summary": "The Anthropic pricing page has seen minor updates, primarily related to formatting and minor text changes, but no significant changes to pricing itself were detected.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic Pricing"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "A minor website change was detected, but it does not appear to contain significant new information or pricing changes.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-04-17T09:06:10.742Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Top Open Source Claude Skills Highlighted (April 1st-15th)",
+    "summary": "A list of top 10 open-source Claude skills from early April is shared, featuring tools for case study generation, job listing aggregation, SEO teardowns, writing enhancement, ad management, SVG animation, Google Trends data, and more.",
+    "category": "novedad",
+    "entities": [
+      "Claude Skills"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "10"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Curated list of useful open-source tools for the Claude ecosystem, providing practical resources for users.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snsv7o/top_10_open_source_claude_skills_from_1st_15th/",
+    "published_at": "2026-04-17T06:29:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "User Reports Issues with Claude Sonnet 4.6 Adaptive Thinking",
+    "summary": "A user experienced significant token consumption and incomplete responses with Claude Sonnet 4.6's adaptive thinking feature, leading them to disable it for unpredictability.",
     "category": "alerta",
     "entities": [
-      "Gemini 3.1 Flash TTS",
-      "Gemini API",
-      "Google"
+      "Claude Sonnet 4.6"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "65%"
+    ],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "User feedback highlighting a potential issue with a specific feature (adaptive thinking) in an existing model.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snsova/adaptive_thinking_is_a_joke/",
+    "published_at": "2026-04-17T06:19:34.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Top Claude Skills for Opus 4.7 Usage and Optimization",
+    "summary": "A user details their experience optimizing Claude Opus 4.7 usage by cleaning up skills, emphasizing the cost-efficiency of selected skills and the need for sub-agent strategies due to reported long context regressions.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "~35%",
+      "~100 tokens",
+      "31 skills",
+      "10 skills"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "User-generated insights on optimizing LLM usage, focusing on skill management and adapting to model changes.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snreri/top_claude_skills_for_opus_47_after_cleaning_up/",
+    "published_at": "2026-04-17T05:09:28.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude AI Subscription Cost via Apple is 30% Higher",
+    "summary": "A user discovered that subscribing to Claude through Apple incurs a roughly 30% higher cost compared to direct web subscription, due to Apple's commission.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Apple"
     ],
     "event_type": "pricing_change",
     "key_numbers": [
-      "3.1"
+      "30%"
     ],
-    "signal": "neutral",
+    "signal": "negative",
     "impact": "high",
-    "why_included": "This is a high-impact diff alert about changes to Google Gemini's pricing page, directly affecting the cost of using their AI models.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-16T09:07:18.144Z",
+    "why_included": "Significant price difference identified for subscriptions via a major platform, impacting user costs.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snq9s2/til_that_subscriptions_via_apple_is_30_more/",
+    "published_at": "2026-04-17T04:10:28.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude 4.7 Instruction Following Concerns",
+    "summary": "Users report that Claude 4.7 follows specific negative instructions (e.g., 'don't create new files with the word helper') less reliably than 4.6, leading to concerns about its instruction-following capabilities.",
+    "category": "alerta",
+    "entities": [
+      "Claude 4.7",
+      "Claude 4.6"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "User reports indicating a regression in instruction following for a new model release, which is a critical capability for LLMs.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snlp17/47_follows_claudemd_rules_worse_than_46_and_i/",
+    "published_at": "2026-04-17T00:40:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code v2.1.112 Release Notes",
+    "summary": "Claude Code version 2.1.112 fixes an issue where 'claude-opus-4-7 is temporarily unavailable' in auto mode.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "claude-opus-4-7"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "A minor patch release addressing a specific availability issue for a particular model within Claude Code.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
+    "published_at": "2026-04-16T19:55:41.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Permanent Rate Limit Increase for Claude Users",
+    "summary": "Anthropic has announced a permanent increase in rate limits for Claude users, indicating improved capacity or service adjustments.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A positive change in service terms (rate limits) that benefits users.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snc532/permanent_increase_in_rate_limits/",
+    "published_at": "2026-04-16T18:31:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude 4.7 Malicious Code Generation Concerns",
+    "summary": "A user reports that Claude 4.7 seems 'obsessed' with writing malware during its reasoning steps, consuming tokens without clear justification.",
+    "category": "alerta",
+    "entities": [
+      "Claude 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "User feedback highlighting a potentially serious and concerning behavior deviation in the new Claude 4.7 model.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snbtc9/claude_47_obsessed_with_malware/",
+    "published_at": "2026-04-16T18:20:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Qwen3.6-35B-A3B Outperforms Claude Opus 4.7 on Local Laptop",
+    "summary": "A user reports that the Qwen3.6-35B-A3B model, run locally on a laptop, produced a better image than Claude Opus 4.7.",
+    "category": "novedad",
+    "entities": [
+      "Qwen3.6-35B-A3B",
+      "Claude Opus 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "User-reported performance comparison, highlighting potential strengths of a specific open-source model against a proprietary one in a local setup.",
+    "source_url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
+    "published_at": "2026-04-16T17:16:52.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Google Gemini App Enhances Image Creation with Personal Context",
+    "summary": "Google's Gemini app now uses personal context and Google Photos with Nano Banana 2 to create personalized images that reflect users' unique lives.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Nano Banana 2"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New feature launch for a major generative AI product, focusing on personalization.",
+    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+    "published_at": "2026-04-16T16:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude 4.7 User Reports Increased Token Consumption and Behavior Changes",
+    "summary": "Users are observing faster token consumption and instances where Claude 4.7 follows instructions too literally or exhibits 'malware-obsessed' behavior, leading some to revert to older versions.",
+    "category": "alerta",
+    "entities": [
+      "Claude 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "User feedback highlighting potential issues with token usage and unexpected model behavior in the new Claude 4.7 release.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/",
+    "published_at": "2026-04-16T15:32:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's Claude Code v2.1.111 Release Notes",
+    "summary": "The latest Claude Code release (v2.1.111) introduces the 'xhigh' effort level for Opus 4.7, an interactive /effort slider, an 'Auto (match terminal)' theme option, and several new skills and improved command handling.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Opus 4.7"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Significant SDK update with new features and usability improvements for Claude Code.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.111",
+    "published_at": "2026-04-16T15:18:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Opus 4.7 Available Across Platforms with Same Pricing",
+    "summary": "The new Claude Opus 4.7 model is available on claude.ai, the Claude Platform, and major cloud platforms, maintaining the same pricing as its predecessor, Opus 4.6.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 4.7",
+      "Opus 4.6"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New model release with broad availability and no price increase.",
+    "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "published_at": "2026-04-16T14:30:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude 4.7 Availability and User Experience Updates",
+    "summary": "Claude Opus 4.7 is now available across multiple platforms, with users sharing mixed experiences, including positive feedback on new features and concerns about instruction following and token usage.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 4.7"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "Covers the general availability and initial user experiences of the new Claude Opus 4.7 model, reflecting both positive and negative feedback.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57tn/introducing_claude_opus_47/",
+    "published_at": "2026-04-16T14:30:26.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Introducing Claude Opus 4.7",
+    "summary": "Anthropic has released Claude Opus 4.7, their most capable Opus model to date, boasting improved rigor in long-running tasks, better instruction following, enhanced self-verification, and significantly better vision capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 4.7"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New model release from a major player in the LLM space.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/",
+    "published_at": "2026-04-16T14:29:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic SDK Python v0.96.0 Release Notes",
+    "summary": "The Python SDK has been updated to v0.96.0, adding support for Claude Opus 4.7, token budgets, and user profiles.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 4.7",
+      "Anthropic SDK Python"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "SDK update to support the new Claude Opus 4.7 model.",
+    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
+    "published_at": "2026-04-16T14:27:28.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Code Workflow Tips Shared by Senior Developer",
+    "summary": "A senior developer shares workflow tips for Claude Code after six months of daily use, emphasizing 'plan' mode, asking for only the first step, using previews, letting Claude fix bugs, and doing retrospectives.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Practical advice and best practices for using an LLM for coding tasks.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/",
+    "published_at": "2026-04-16T12:34:18.000Z",
     "confidence": 0.9
   },
   {
@@ -342,6 +646,23 @@
     "confidence": 0.8
   },
   {
+    "title": "OpenAI Introduces GPT-Rosalind for Life Sciences Research",
+    "summary": "OpenAI has launched GPT-Rosalind, a frontier reasoning model specifically designed to accelerate research workflows in drug discovery, genomics analysis, and protein reasoning.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "GPT-Rosalind"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New specialized model release from OpenAI targeting a specific scientific domain.",
+    "source_url": "https://openai.com/index/introducing-gpt-rosalind",
+    "published_at": "2026-04-16T01:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
     "title": "PeonPing: Sound packs for Claude, Codex, Cursor, and other AI coding agents",
     "summary": "PeonPing offers sound packs designed for AI coding agents like Claude, Codex, and Cursor, aiming to enhance the user experience through auditory feedback.",
     "category": "novedad",
@@ -375,6 +696,25 @@
     "source_url": "https://claude-md-scorer.surge.sh",
     "published_at": "2026-04-16T00:12:27.000Z",
     "confidence": 0.8
+  },
+  {
+    "title": "OpenAI Accelerates Cyber Defense Ecosystem with GPT-5.4-Cyber and API Grants",
+    "summary": "OpenAI has partnered with leading security firms to strengthen global cyber defense using GPT-5.4-Cyber and $10M in API grants, aiming to accelerate the cyber defense ecosystem.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "GPT-5.4-Cyber"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [
+      "$10M"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Partnership and funding announcement indicating strategic focus on cybersecurity for a major AI player.",
+    "source_url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "published_at": "2026-04-16T00:00:00.000Z",
+    "confidence": 0.95
   },
   {
     "title": "Anthropic: Stop Shipping. Seriously.",
@@ -1234,6 +1574,23 @@
     "confidence": 0.8
   },
   {
+    "title": "ClaudeAI Community Megathreads List",
+    "summary": "The r/ClaudeAI subreddit provides a list of ongoing megathreads for discussions on performance, usage limits, projects, code leaks, and identity/sentience.",
+    "category": "novedad",
+    "entities": [
+      "ClaudeAI",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Community resource for organizing discussions around Claude, useful for tracking sentiment and emerging topics.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
+    "published_at": "2026-03-30T03:18:44.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Google AI Blog: Gemini 3.1 Flash Live Speech Model",
     "summary": "Google's Gemini 3.1 Flash Live, a speech model focused on natural and reliable audio AI, is now available across Google products.",
     "category": "novedad",
@@ -1301,25 +1658,6 @@
     "why_included": "OpenAI is proactively addressing AI safety by launching a bug bounty program, demonstrating a commitment to identifying and mitigating potential risks.",
     "source_url": "https://openai.com/index/safety-bug-bounty",
     "published_at": "2026-03-25T00:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Bringing the power of Personal Intelligence to more people",
-    "summary": "Google is expanding its 'Personal Intelligence' features across AI Mode in Search, the Gemini app, and Gemini in Chrome, aiming to make AI more integrated and helpful for users.",
-    "category": "novedad",
-    "entities": [
-      "Google",
-      "Personal Intelligence",
-      "Gemini",
-      "Chrome"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This signifies an expansion of AI integration across multiple Google products, indicating a broader push for personal AI assistants.",
-    "source_url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
-    "published_at": "2026-03-17T16:00:00.000Z",
     "confidence": 0.9
   }
 ]
