@@ -1,8 +1,20 @@
+<div align="center">
+
 # modelsentry
 
-**AI early warning system for developers.** Zero cost, runs entirely on GitHub.
+**AI early warning system for developers.**\
+**Scrapes 13 sources daily, classifies with Gemini, serves a live dashboard. Zero cost.**
 
-[Live Dashboard](https://martin-minghetti.github.io/modelsentry/) · [RSS Feed](https://martin-minghetti.github.io/modelsentry/feed.xml)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-martin--minghetti.github.io/modelsentry-black?style=flat-square)](https://martin-minghetti.github.io/modelsentry/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ES2022-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Gemini](https://img.shields.io/badge/Gemini-Flash_Lite-4285f4?style=flat-square)](https://ai.google.dev/)
+[![Tests](https://img.shields.io/badge/Tests-159_passing-brightgreen?style=flat-square)]()
+[![Cost](https://img.shields.io/badge/Cost-$0.00-brightgreen?style=flat-square)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)]()
+
+[Live Dashboard](https://martin-minghetti.github.io/modelsentry/) · [RSS Feed](https://martin-minghetti.github.io/modelsentry/feed.xml) · [Quick Start](#quick-start) · [How It Works](#how-it-works)
+
+</div>
 
 ---
 
@@ -83,6 +95,22 @@ flowchart TD
 
 ---
 
+## Dashboard Features
+
+The dashboard is a single static HTML file — no JavaScript frameworks, no build step, no external dependencies.
+
+| Feature | What it shows |
+|---------|--------------|
+| **Weekly Timeline** | 12-week stacked bar chart. Blue = updates, red = alerts. Pre-computed server-side to avoid timezone bugs. Zero-activity weeks shown as empty slots. |
+| **Provider Activity** | Horizontal bars showing which providers are moving fastest in the last 30 days. Entity aliases normalized (e.g. "Claude Code", "Anthropic SDK" both count as Anthropic). |
+| **Card Feed** | Filterable by category (alerts/updates), impact (high/medium/low), and entity. Each card links to the original source. |
+| **Source Health** | Green/red dots for every RSS feed and diff-watched page. Know immediately if a source went down. |
+| **RSS Feed** | Subscribe in any reader. Same data, delivered to your workflow. |
+
+The timeline and provider panels show global data from `stats.json` — they are not affected by the card filters.
+
+---
+
 ## Quick Start
 
 1. **Fork** this repository
@@ -144,11 +172,42 @@ GOOGLE_API_KEY=your-key npm run scan
 # Preview the dashboard
 npx serve dist
 
-# Run tests (141 tests)
+# Run tests (159 tests)
 npm test
 ```
 
-**Stack:** TypeScript · Node.js 20 · Vitest · rss-parser · cheerio · Gemini API · GitHub Actions · GitHub Pages
+---
+
+## Tech Stack
+
+| Layer | Technology | Why |
+|-------|-----------|-----|
+| **Runtime** | Node.js 20, TypeScript (ES2022, strict) | Type safety across pipeline, native fetch |
+| **LLM** | Gemini 2.5 Flash-Lite | Free tier covers daily usage, fast, good at structured extraction |
+| **Scraping** | rss-parser, cheerio, native fetch | Lightweight, no browser needed, handles RSS/Atom + HTML diffs |
+| **Testing** | Vitest (159 tests) | Fast, ESM-native, watch mode |
+| **CI/CD** | GitHub Actions | Free for public repos, runs the daily scan + deploys dashboard |
+| **Hosting** | GitHub Pages | Free static hosting, auto-deployed from `gh-pages` branch |
+| **Dashboard** | Vanilla HTML/CSS/JS | Zero dependencies, single file, CSP hardened, Lighthouse 100/94/96/100 |
+
+---
+
+## Design Decisions
+
+**Why Gemini instead of Claude or GPT?**\
+Cost. Gemini Flash-Lite is free for this volume. The task is classification + extraction — any capable model works. Swap via `config.yaml`.
+
+**Why a single HTML file instead of React/Next.js?**\
+The dashboard is read-only, loads 3 JSON files, and renders cards. A framework would add build complexity for zero user benefit. The single file deploys instantly to GitHub Pages.
+
+**Why NDJSON archive instead of a database?**\
+The archive is append-only, grows ~5 MB/year, and lives in git. No database to manage, no migrations, no hosting. `git log` is the audit trail.
+
+**Why pre-compute stats instead of calculating in the browser?**\
+The archive has duplicate rows (append-only with no write-time dedup). Stats generation deduplicates, normalizes provider names, and pre-formats week labels — all things that would add complexity and timezone bugs if done client-side.
+
+**Why deduplicate at read time instead of write time?**\
+Cleaning the archive files is destructive and changes git history. Read-time dedup is safer — the raw data is always recoverable.
 
 ---
 
