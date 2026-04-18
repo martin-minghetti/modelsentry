@@ -1,20 +1,37 @@
 [
   {
-    "title": "Google Gemini Pricing Page Updated",
-    "summary": "Google has updated its Gemini pricing page to reflect new Terms of Service and to display pricing information in English, alongside the existing Arabic version.",
-    "category": "novedad",
+    "title": "Google Gemini API Pricing Update",
+    "summary": "Google updated its Gemini API pricing page, introducing 'Free' and 'Paid' tiers and noting the availability of 'Enterprise' solutions.",
+    "category": "alerta",
     "entities": [
-      "Google Gemini",
-      "Gemini API"
+      "Gemini API",
+      "Google"
     ],
-    "event_type": "other",
+    "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "A minor website change, mainly updating terms of service and adding English language support to the pricing page.",
+    "why_included": "This diff alert indicates a change in how Gemini API services are structured and potentially priced, though the exact impact is not detailed.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-17T09:06:12.772Z",
-    "confidence": 0.85
+    "published_at": "2026-04-18T08:33:57.856Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code v2.1.113 Release",
+    "summary": "Anthropic's Claude Code CLI has been updated to version 2.1.113, introducing significant changes including spawning a native binary, new sandbox settings, improved fullscreen mode, and various security enhancements and bug fixes.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a significant update to a developer tool from Anthropic, detailing numerous functional and security improvements relevant to the LLM tooling ecosystem.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+    "published_at": "2026-04-17T19:34:41.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Anthropic Pricing Page Update",
@@ -124,6 +141,23 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snlp17/47_follows_claudemd_rules_worse_than_46_and_i/",
     "published_at": "2026-04-17T00:40:56.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "llm-anthropic 0.25",
+    "summary": "This entry appears to be a reference to a version update or discussion related to Anthropic's LLMs.",
+    "category": "novedad",
+    "entities": [
+      "llm-anthropic",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Likely a minor update or reference point for Anthropic's models, not detailed enough for higher impact.",
+    "source_url": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+    "published_at": "2026-04-16T20:37:12.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Claude Code v2.1.112 Release Notes",

@@ -6,11 +6,19 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Page Updated</title>
+      <title>Google Gemini API Pricing Update</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 17 Apr 2026 09:06:12 GMT</pubDate>
-      <description>Google has updated its Gemini pricing page to reflect new Terms of Service and to display pricing information in English, alongside the existing Arabic version. | Impact: low | Signal: neutral | Why included: A minor website change, mainly updating terms of service and adding English language support to the pricing page.</description>
+      <pubDate>Sat, 18 Apr 2026 08:33:57 GMT</pubDate>
+      <description>Google updated its Gemini API pricing page, introducing &apos;Free&apos; and &apos;Paid&apos; tiers and noting the availability of &apos;Enterprise&apos; solutions. | Impact: low | Signal: neutral | Why included: This diff alert indicates a change in how Gemini API services are structured and potentially priced, though the exact impact is not detailed.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.113 Release</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</guid>
+      <pubDate>Fri, 17 Apr 2026 19:34:41 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code CLI has been updated to version 2.1.113, introducing significant changes including spawning a native binary, new sandbox settings, improved fullscreen mode, and various security enhancements and bug fixes. | Impact: medium | Signal: neutral | Why included: This is a significant update to a developer tool from Anthropic, detailing numerous functional and security improvements relevant to the LLM tooling ecosystem.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -60,6 +68,14 @@
       <pubDate>Fri, 17 Apr 2026 00:40:56 GMT</pubDate>
       <description>Users report that Claude 4.7 follows specific negative instructions (e.g., &apos;don&apos;t create new files with the word helper&apos;) less reliably than 4.6, leading to concerns about its instruction-following capabilities. | Impact: medium | Signal: negative | Why included: User reports indicating a regression in instruction following for a new model release, which is a critical capability for LLMs.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>llm-anthropic 0.25</title>
+      <link>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</guid>
+      <pubDate>Thu, 16 Apr 2026 20:37:12 GMT</pubDate>
+      <description>This entry appears to be a reference to a version update or discussion related to Anthropic&apos;s LLMs. | Impact: low | Signal: neutral | Why included: Likely a minor update or reference point for Anthropic&apos;s models, not detailed enough for higher impact.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Claude Code v2.1.112 Release Notes</title>
@@ -387,22 +403,6 @@
       <guid>https://github.com/devmegablaster/Notch-Pilot</guid>
       <pubDate>Wed, 15 Apr 2026 21:48:39 GMT</pubDate>
       <description>Notch Pilot is a new live dashboard for Claude Code designed to display information on a MacBook&apos;s notch, offering a novel way to monitor AI activity. | Impact: low | Signal: positive | Why included: This is a community-driven project showcasing a new application for interacting with an AI model, demonstrating innovative use cases.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Springdrift – A persistent runtime for long-lived LLM agents</title>
-      <link>https://github.com/seamus-brady/springdrift</link>
-      <guid>https://github.com/seamus-brady/springdrift</guid>
-      <pubDate>Wed, 15 Apr 2026 21:41:39 GMT</pubDate>
-      <description>Springdrift is a new persistent, auditable runtime for long-lived LLM agents written in Gleam on the BEAM, designed to fill gaps in agent development. It offers features like ambient self-perception, introspection tooling, and a safety system based on computational ethics. | Impact: low | Signal: positive | Why included: This is a new open-source project for LLM agents, indicating a novel approach to agent development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code alternative: same output quality, 10x less input tokens used</title>
-      <link>https://github.com/Simon-Free/bouzecode</link>
-      <guid>https://github.com/Simon-Free/bouzecode</guid>
-      <pubDate>Wed, 15 Apr 2026 21:34:51 GMT</pubDate>
-      <description>A new open-source project, &apos;bouzecode&apos;, is presented as an alternative to Claude Code, claiming to achieve the same output quality while using significantly fewer input tokens. | Impact: medium | Signal: positive | Why included: This is a new open-source project aiming to improve efficiency for a specific LLM use case, potentially impacting adoption and performance expectations.</description>
       <category>novedad</category>
     </item>
   </channel>
