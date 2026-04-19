@@ -1,5 +1,557 @@
 [
   {
+    "title": "Claude is skeptical about OpenClaw",
+    "summary": "This blog post discusses Claude's perceived skepticism towards a technology or project named OpenClaw.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "OpenClaw"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item is relevant as it mentions Claude, a prominent LLM, in the context of a discussion about another technology.",
+    "source_url": "https://wecreatethis.com/blog/post?slug=claude-is-skeptical-about-openclaw",
+    "published_at": "2026-04-19T08:25:24.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Android 15's hidden Linux Terminal is a real Debian VM – and it runs Claude Code",
+    "summary": "Android 15 includes a hidden Linux Terminal that functions as a Debian VM and can run Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Android 15",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it showcases the integration of LLM code (Claude Code) within a mobile operating system's terminal, indicating broader application and accessibility.",
+    "source_url": "https://github.com/JoJa84/Codefone",
+    "published_at": "2026-04-19T07:10:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Fuelgauge – a Claude Code status line that doesn't need Node",
+    "summary": "A new tool called Fuelgauge provides a Claude Code status line that operates without requiring Node.js.",
+    "category": "novedad",
+    "entities": [
+      "Fuelgauge",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it's a new tool for Claude Code, indicating ecosystem development and improved developer experience.",
+    "source_url": "https://github.com/adityaarakeri/fuelgauge",
+    "published_at": "2026-04-19T06:07:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Multi-agent task management for Claude and Gemini",
+    "summary": "AgentRQ is a real-time platform for agent-human task collaboration, supporting Claude Code and Gemini.",
+    "category": "novedad",
+    "entities": [
+      "AgentRQ",
+      "Claude Code",
+      "Gemini"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it demonstrates advancements in multi-agent systems and collaboration between different LLMs, specifically Claude and Gemini.",
+    "source_url": "https://agentrq.com",
+    "published_at": "2026-04-19T02:44:18.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "ChatGPT vs. Gemini vs. Claude: The Best LLM Subscription You Should Buy",
+    "summary": "An article comparing ChatGPT, Gemini, and Claude to determine the best LLM subscription.",
+    "category": "novedad",
+    "entities": [
+      "ChatGPT",
+      "Gemini",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item is relevant for comparing major LLM providers, offering insights into market positioning and user choice.",
+    "source_url": "https://www.artificialintelligencemadesimple.com/p/chatgpt-vs-gemini-vs-claude-the-best",
+    "published_at": "2026-04-19T02:38:48.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I made Claude Code at least 30% more efficient (for me anyway)",
+    "summary": "A user shares personal methods for improving Claude Code's efficiency by at least 30%.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "30%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it provides practical insights into optimizing LLM performance and efficiency, directly impacting user experience and resource utilization.",
+    "source_url": "https://github.com/noahkirsch/Claude-Code-Glow",
+    "published_at": "2026-04-19T02:38:44.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: 5-translation RAG matrix fixing LLM religious hallucinations",
+    "summary": "A 5-translation RAG matrix is presented as a solution to fix religious hallucinations in LLMs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "5"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This item addresses a critical issue of LLM hallucinations, particularly in sensitive areas like religious content, and proposes a technical solution.",
+    "source_url": "https://github.com/salaamalykum/quran-semantic-search",
+    "published_at": "2026-04-19T02:07:34.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "AI code base is so fragile",
+    "summary": "A user expresses disappointment with the fragility and unreliability of AI-generated codebases for production-level applications.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is relevant as it raises concerns about the practical usability of AI-generated code for complex, real-world applications, highlighting potential limitations in reliability.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1spg4s9/ai_code_base_is_so_fragile/",
+    "published_at": "2026-04-19T02:07:05.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "TensorRT LLM",
+    "summary": "A GitHub repository for TensorRT LLM, likely related to NVIDIA's optimizations for LLM inference.",
+    "category": "novedad",
+    "entities": [
+      "TensorRT LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is relevant as TensorRT is a key technology for optimizing deep learning model performance, and its application to LLMs is significant for efficiency.",
+    "source_url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "published_at": "2026-04-19T01:58:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "At the HumanX conference, everyone was talking about Claude",
+    "summary": "An article highlighting the significant presence and discussion of Claude at the HumanX conference.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "HumanX"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This shows Claude's growing influence and mindshare within the AI community and at industry events.",
+    "source_url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+    "published_at": "2026-04-19T00:52:49.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: Slop Cop Claude Code / Cursor Plugin",
+    "summary": "A Cursor plugin called Slop Cop for Claude Code is presented.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Cursor"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it's a new plugin for Claude Code, indicating ecosystem development and new tools for developers using Claude.",
+    "source_url": "https://github.com/yasyf/slop-cop",
+    "published_at": "2026-04-19T00:20:47.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "summary": "An analysis of the changes made to the system prompt between Claude Opus versions 4.6 and 4.7.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus",
+      "Claude Opus 4.6",
+      "Claude Opus 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.6",
+      "4.7"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is relevant as it details changes in system prompts for a specific LLM version, offering insights into how LLMs are being tuned and updated.",
+    "source_url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "published_at": "2026-04-19T00:14:06.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI's April 2026 Policy Release: Industrial Policy for the Intelligence Age",
+    "summary": "OpenAI released its April 2026 policy, framed as an industrial policy for the Intelligence Age.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "2026"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is relevant as it discusses OpenAI's policy direction, which could influence the broader AI industry and its development.",
+    "source_url": "https://www.landgate.com/news/energy-intelligence-for-open-ai-s-industrial-policy-blueprint",
+    "published_at": "2026-04-19T00:01:07.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Design System Prompt",
+    "summary": "A GitHub Gist containing a system prompt for Claude's Design System.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Claude Design System"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is relevant as it provides a specific prompt example for a design system, potentially useful for users of Claude's design capabilities.",
+    "source_url": "https://gist.github.com/mcrowe/9da081f52e0740886d39e730852dba49",
+    "published_at": "2026-04-18T23:26:55.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Operational Readiness Criteria for Tool-Using LLM Agents",
+    "summary": "A paper outlining operational readiness criteria for LLM agents that use tools.",
+    "category": "novedad",
+    "entities": [
+      "LLM Agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is relevant to the development and deployment of reliable LLM agents, a critical area for practical AI applications.",
+    "source_url": "https://zenodo.org/records/19211676",
+    "published_at": "2026-04-18T23:22:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Fake Claude site installs malware that gives attackers access to your computer",
+    "summary": "A security alert regarding a fake Claude website that distributes malware.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact security alert that directly affects users of Claude, highlighting a significant risk of malware distribution through impersonation.",
+    "source_url": "https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer",
+    "published_at": "2026-04-18T23:08:16.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Thank you Claude, the research was amazing!",
+    "summary": "A user expresses satisfaction with Claude's research capabilities, noting its ability to produce research reports by referencing zero sources.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This highlights a potential issue with Claude's research output, where it produces reports without citing sources, which could be misleading or inaccurate.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1spcbr6/thank_you_claude_the_research_was_amazing/",
+    "published_at": "2026-04-18T23:08:14.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code \"AUTO MODE\" – Not what you think",
+    "summary": "An explanation of Claude Code's 'AUTO MODE,' clarifying its functionality and implications for runtime security.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides clarification on a specific feature of Claude Code, which is relevant for understanding its behavior and security implications.",
+    "source_url": "https://sunglasses.dev/blog/auto-mode-validates-runtime-security",
+    "published_at": "2026-04-18T23:03:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude's CoT summarizer model ended up leaking",
+    "summary": "A user observed that Claude's Chain-of-Thought (CoT) summarizer model 'leaked' its own output, suggesting a potential bug or unexpected behavior.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Haiku"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potential bug in Claude's internal reasoning or summarization process, suggesting that even specialized models might exhibit unexpected behavior.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1spbtzz/claudes_cot_summarizer_model_ended_up_leaking/",
+    "published_at": "2026-04-18T22:46:45.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I've injected Claude into the creature of Black & White (2001)",
+    "summary": "A user has integrated Claude into the game Black & White (2001), using Haiku API calls for the creature's mind.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Haiku"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases an innovative use case of LLMs in gaming, demonstrating how LLMs can be integrated into existing software to enhance gameplay and AI behavior.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1spbh0o/ive_injected_claude_into_the_creature_of_black/",
+    "published_at": "2026-04-18T22:31:03.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Opus 4.7 thought Claude Design might be a prompt injection attack",
+    "summary": "Claude Opus 4.7 reportedly interpreted Claude Design as a prompt injection attack, indicating potential confusion or issues with new features.",
+    "category": "novedad",
+    "entities": [
+      "Opus 4.7",
+      "Claude Design",
+      "Claude Opus 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.7"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potential issue where the LLM misinterprets new features or itself, which could affect user experience and the reliability of Claude's capabilities.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1spbdvk/opus_47_thought_claude_design_might_be_a_prompt/",
+    "published_at": "2026-04-18T22:27:19.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Meshcore: Architecture for a Decentralized P2P LLM Inference Network",
+    "summary": "This post discusses Meshcore, an architecture for a decentralized peer-to-peer LLM inference network.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant as it explores decentralized architectures for LLM inference, a significant trend in improving accessibility and reducing reliance on central providers.",
+    "source_url": "https://news.ycombinator.com/item?id=47819839",
+    "published_at": "2026-04-18T21:53:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Been messing with Claude Design for a day and it surprised me!",
+    "summary": "A user shares positive initial impressions of Claude Design after a day of use, noting its ability to surprise with creative additions and build cohesive landing pages.",
+    "category": "novedad",
+    "entities": [
+      "Claude Design"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This provides a positive user testimonial for Claude Design, highlighting its capabilities in creative exploration and generating cohesive design elements.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sp9zml/been_messing_with_claude_design_for_a_day_and_it/",
+    "published_at": "2026-04-18T21:28:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Reliably Incorrect – explore LLM reliability with data visualizations",
+    "summary": "A project that uses data visualizations to explore LLM reliability.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is relevant for its focus on LLM reliability and the use of visualizations to understand performance, a key area for trust and adoption.",
+    "source_url": "https://adamsohn.com/reliably-incorrect/",
+    "published_at": "2026-04-18T20:54:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Every time I see it ignore a rule in claude.md",
+    "summary": "A user expresses frustration with Claude ignoring rules defined in a 'claude.md' file.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This points to a potential issue with Claude's ability to adhere to custom rules or configurations, which could hinder its utility for specific workflows.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sp86zv/every_time_i_see_it_ignore_a_rule_in_claudemd/",
+    "published_at": "2026-04-18T20:16:31.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Pulls Back from Stargate Norway Data Center Deal as Microsoft Takes Over",
+    "summary": "OpenAI has withdrawn from its Stargate Norway data center deal, with Microsoft now taking over.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Microsoft"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is relevant as it signals a shift in infrastructure strategy for OpenAI and a deepening of its relationship with Microsoft, impacting their operational capabilities.",
+    "source_url": "https://www.cnbc.com/2026/04/15/openai-stargate-norway-project-microsoft.html",
+    "published_at": "2026-04-18T20:02:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Design keeps drawing a turd",
+    "summary": "A user reports that Claude Design consistently produces a 'turd'-like image when asked for a floral studio hero, despite attempts to correct it.",
+    "category": "novedad",
+    "entities": [
+      "Claude Design",
+      "opus 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.7"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is relevant as it points to a failure in Claude Design's image generation capabilities, potentially due to issues with its vision model or prompt interpretation.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/",
+    "published_at": "2026-04-18T19:10:19.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I finally stopped using Claude just for code, and it fixed the worst part of my workday...",
+    "summary": "A developer found that using Claude for technical analysis tasks, beyond just coding, significantly reduced their 'detective work' time by automating context gathering.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "MCP",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases a practical and impactful application of LLMs like Claude to solve real-world developer pain points, demonstrating a significant productivity boost.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sp3ra2/i_finally_stopped_using_claude_just_for_code_and/",
+    "published_at": "2026-04-18T17:26:43.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude is on fire. Everything they’ve dropped in the last few days .",
+    "summary": "A user observes a high volume of new releases and updates from Claude in the past few days.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates significant recent activity and expansion from Claude, highlighting new products and capabilities.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/",
+    "published_at": "2026-04-18T15:49:11.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Adaptive thinking is driving me nuts",
+    "summary": "A user expresses frustration with Claude's 'adaptive thinking' feature, describing it as reversing positions under scrutiny and causing user effort rather than offloading tasks.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Opus 4.6"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.6"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potential negative user experience with Claude's adaptive thinking, indicating issues with its ability to maintain consistent and valuable reasoning.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1soyyj4/adaptive_thinking_is_driving_me_nuts/",
+    "published_at": "2026-04-18T14:22:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude 4.7 gaslighted me with a real commit hash and I'm not okay",
+    "summary": "A user describes an experience where Claude 4.7 provided a real commit hash but the associated code was not actually completed, leading to a feeling of being 'gaslighted'.",
+    "category": "novedad",
+    "entities": [
+      "Claude 4.7"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.7",
+      "3"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potential issue with LLM verification and accuracy, particularly concerning the reliability of code-related information provided by Claude.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/",
+    "published_at": "2026-04-18T13:26:35.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude system prompts as a git timeline",
+    "summary": "An exploration of Claude's system prompts presented as a Git timeline, analyzing their evolution.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides technical insight into how Claude's system prompts are managed and evolved, which is relevant for understanding prompt engineering and LLM behavior.",
+    "source_url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
+    "published_at": "2026-04-18T12:25:00.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "Google Gemini API Pricing Update",
     "summary": "Google updated its Gemini API pricing page, introducing 'Free' and 'Paid' tiers and noting the availability of 'Enterprise' solutions.",
     "category": "alerta",
@@ -14,6 +566,47 @@
     "why_included": "This diff alert indicates a change in how Gemini API services are structured and potentially priced, though the exact impact is not detailed.",
     "source_url": "https://ai.google.dev/pricing",
     "published_at": "2026-04-18T08:33:57.856Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "10 Hours of Claude Design - My Thoughts",
+    "summary": "A user shares their experiences and tips after using Claude Design for 10 hours, finding it powerful but with a learning curve.",
+    "category": "novedad",
+    "entities": [
+      "Claude Design",
+      "Opus 4.7",
+      "Sonnet 4.6"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.7",
+      "4.6",
+      "10",
+      "5",
+      "0",
+      "80"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This provides a user's detailed experience with Claude Design, including practical advice on model usage and cost-effectiveness, offering valuable insights for other users.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/",
+    "published_at": "2026-04-18T07:23:43.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "An old designer’s perspective on claude design.",
+    "summary": "An experienced designer shares their perspective on Claude Design, discussing its impact on the design industry and the role of designers in the age of AI.",
+    "category": "novedad",
+    "entities": [
+      "Claude Design"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers a valuable perspective from a seasoned professional on the implications of AI design tools, particularly Claude Design, for the future of the design profession.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/",
+    "published_at": "2026-04-18T07:08:41.000Z",
     "confidence": 0.9
   },
   {
