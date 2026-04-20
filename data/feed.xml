@@ -6,6 +6,102 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Gemini API pricing updated</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Mon, 20 Apr 2026 09:29:31 GMT</pubDate>
+      <description>Google Gemini API pricing page shows updates, including new tiers and pricing for Gemini 3.1 Flash TTS. | Impact: medium | Signal: positive | Why included: Updates to API pricing are critical for developers planning to use or scale with the Gemini API.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Claude Code Leak Reveals Critical Command Injection Vulnerabilities</title>
+      <link>https://beyondmachines.net/event_details/anthropic-claude-code-leak-reveals-critical-command-injection-vulnerabilities-e-6-c-1-k/gD2P6Ple2L</link>
+      <guid>https://beyondmachines.net/event_details/anthropic-claude-code-leak-reveals-critical-command-injection-vulnerabilities-e-6-c-1-k/gD2P6Ple2L</guid>
+      <pubDate>Mon, 20 Apr 2026 07:20:38 GMT</pubDate>
+      <description>A leak of Anthropic&apos;s Claude Code has exposed critical command injection vulnerabilities within the system. | Impact: high | Signal: negative | Why included: A security vulnerability in a major LLM model is a high-impact event.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>LLM-Rosetta - Translate LLM API Calls Across OpenAI, Anthropic, Gemini</title>
+      <link>https://github.com/Oaklight/llm-rosetta</link>
+      <guid>https://github.com/Oaklight/llm-rosetta</guid>
+      <pubDate>Mon, 20 Apr 2026 07:05:33 GMT</pubDate>
+      <description>A new tool, LLM-Rosetta, has been developed to translate LLM API calls between different providers like OpenAI, Anthropic, and Gemini, aiming to simplify adapter maintenance. | Impact: medium | Signal: positive | Why included: A new tool simplifying API integration across major LLM providers is a notable development in the ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Executive Kevin Weil Is Leaving the Company</title>
+      <link>https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/</link>
+      <guid>https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/</guid>
+      <pubDate>Mon, 20 Apr 2026 07:01:56 GMT</pubDate>
+      <description>OpenAI executive Kevin Weil is departing the company. | Impact: low | Signal: neutral | Why included: Executive departures at major AI companies can sometimes signal shifts in strategy or focus, though this is a low-impact event on its own.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The LLM costs are not going up</title>
+      <link>https://simianwords.bearblog.dev/conclusive-proofs-that-llm-costs-are-going-down/</link>
+      <guid>https://simianwords.bearblog.dev/conclusive-proofs-that-llm-costs-are-going-down/</guid>
+      <pubDate>Mon, 20 Apr 2026 05:30:00 GMT</pubDate>
+      <description>An article argues that LLM costs are actually decreasing, contrary to potential assumptions. | Impact: medium | Signal: positive | Why included: Information about LLM cost trends is crucial for understanding market dynamics and adoption rates.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>NSA using Anthropic&apos;s Mythos despite blacklist</title>
+      <link>https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</link>
+      <guid>https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</guid>
+      <pubDate>Mon, 20 Apr 2026 05:05:13 GMT</pubDate>
+      <description>The NSA is reportedly using Anthropic&apos;s Mythos, despite the model being blacklisted. | Impact: medium | Signal: negative | Why included: The use of a blacklisted model by a government agency raises security and compliance concerns.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic installed a spyware bridge on my machine?</title>
+      <link>https://www.thatprivacyguy.com/blog/anthropic-spyware/</link>
+      <guid>https://www.thatprivacyguy.com/blog/anthropic-spyware/</guid>
+      <pubDate>Mon, 20 Apr 2026 02:41:50 GMT</pubDate>
+      <description>A user alleges that Anthropic installed a &apos;spyware bridge&apos; on their machine. | Impact: high | Signal: negative | Why included: Allegations of spyware from a major AI company are a serious security concern.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Token Counter, now with model comparisons</title>
+      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/</link>
+      <guid>https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
+      <pubDate>Mon, 20 Apr 2026 00:56:40 GMT</pubDate>
+      <description>A Claude token counter tool has been updated to include comparisons across different models. | Impact: medium | Signal: positive | Why included: A tool that facilitates model comparison for token usage is useful for developers optimizing costs and performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Banned by Anthropic?</title>
+      <link>https://bannedbyanthropic.com/</link>
+      <guid>https://bannedbyanthropic.com/</guid>
+      <pubDate>Sun, 19 Apr 2026 22:33:31 GMT</pubDate>
+      <description>A website appears to list users who have been banned by Anthropic. | Impact: low | Signal: neutral | Why included: Information about platform bans can be relevant for users interacting with AI services.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude UI Feature Request</title>
+      <link>https://news.ycombinator.com/item?id=47828154</link>
+      <guid>https://news.ycombinator.com/item?id=47828154</guid>
+      <pubDate>Sun, 19 Apr 2026 22:20:17 GMT</pubDate>
+      <description>A user suggests adding tagging functionality to the Claude UI to improve conversation searching and organization. | Impact: low | Signal: positive | Why included: User feedback on UI improvements for major LLMs is relevant for product development and user experience.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>What Anthropic&apos;s Mythos and Project Glasswing Mean for Your Apple Devices</title>
+      <link>https://tidbits.com/2026/04/09/what-anthropics-mythos-and-project-glasswing-mean-for-your-apple-devices/</link>
+      <guid>https://tidbits.com/2026/04/09/what-anthropics-mythos-and-project-glasswing-mean-for-your-apple-devices/</guid>
+      <pubDate>Sun, 19 Apr 2026 20:09:03 GMT</pubDate>
+      <description>An analysis explores the implications of Anthropic&apos;s Mythos and Project Glasswing for Apple devices. | Impact: medium | Signal: neutral | Why included: New developments from Anthropic impacting major hardware platforms like Apple are of significant interest.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Lmcli v0.5.0 – A useable tool for LLM minimalists</title>
+      <link>https://codeberg.org/mlow/lmcli</link>
+      <guid>https://codeberg.org/mlow/lmcli</guid>
+      <pubDate>Sun, 19 Apr 2026 19:58:05 GMT</pubDate>
+      <description>Lmcli v0.5.0 has been released, described as a usable tool for LLM minimalists, now featuring image support. | Impact: medium | Signal: positive | Why included: A new version of an LLM tool with added image support is a relevant update for developers working with LLMs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Claude is skeptical about OpenClaw</title>
       <link>https://wecreatethis.com/blog/post?slug=claude-is-skeptical-about-openclaw</link>
       <guid>https://wecreatethis.com/blog/post?slug=claude-is-skeptical-about-openclaw</guid>
@@ -107,6 +203,14 @@
       <guid>https://www.landgate.com/news/energy-intelligence-for-open-ai-s-industrial-policy-blueprint</guid>
       <pubDate>Sun, 19 Apr 2026 00:01:07 GMT</pubDate>
       <description>OpenAI released its April 2026 policy, framed as an industrial policy for the Intelligence Age. | Impact: low | Signal: neutral | Why included: This is relevant as it discusses OpenAI&apos;s policy direction, which could influence the broader AI industry and its development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Changes in the system prompt between Claude Opus 4.6 and 4.7</title>
+      <link>https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything</guid>
+      <pubDate>Sat, 18 Apr 2026 23:59:40 GMT</pubDate>
+      <description>An analysis details the changes in system prompts between Claude Opus versions 4.6 and 4.7. | Impact: low | Signal: neutral | Why included: Tracking changes in system prompts is important for understanding model behavior and potential prompt injection vulnerabilities.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -262,14 +366,6 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Google Gemini API Pricing Update</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sat, 18 Apr 2026 08:33:57 GMT</pubDate>
-      <description>Google updated its Gemini API pricing page, introducing &apos;Free&apos; and &apos;Paid&apos; tiers and noting the availability of &apos;Enterprise&apos; solutions. | Impact: low | Signal: neutral | Why included: This diff alert indicates a change in how Gemini API services are structured and potentially priced, though the exact impact is not detailed.</description>
-      <category>alerta</category>
-    </item>
-    <item>
       <title>10 Hours of Claude Design - My Thoughts</title>
       <link>https://www.reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</link>
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</guid>
@@ -307,102 +403,6 @@
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1snsv7o/top_10_open_source_claude_skills_from_1st_15th/</guid>
       <pubDate>Fri, 17 Apr 2026 06:29:37 GMT</pubDate>
       <description>A list of top 10 open-source Claude skills from early April is shared, featuring tools for case study generation, job listing aggregation, SEO teardowns, writing enhancement, ad management, SVG animation, Google Trends data, and more. | Impact: low | Signal: positive | Why included: Curated list of useful open-source tools for the Claude ecosystem, providing practical resources for users.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>User Reports Issues with Claude Sonnet 4.6 Adaptive Thinking</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snsova/adaptive_thinking_is_a_joke/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snsova/adaptive_thinking_is_a_joke/</guid>
-      <pubDate>Fri, 17 Apr 2026 06:19:34 GMT</pubDate>
-      <description>A user experienced significant token consumption and incomplete responses with Claude Sonnet 4.6&apos;s adaptive thinking feature, leading them to disable it for unpredictability. | Impact: low | Signal: negative | Why included: User feedback highlighting a potential issue with a specific feature (adaptive thinking) in an existing model.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Top Claude Skills for Opus 4.7 Usage and Optimization</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snreri/top_claude_skills_for_opus_47_after_cleaning_up/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snreri/top_claude_skills_for_opus_47_after_cleaning_up/</guid>
-      <pubDate>Fri, 17 Apr 2026 05:09:28 GMT</pubDate>
-      <description>A user details their experience optimizing Claude Opus 4.7 usage by cleaning up skills, emphasizing the cost-efficiency of selected skills and the need for sub-agent strategies due to reported long context regressions. | Impact: low | Signal: neutral | Why included: User-generated insights on optimizing LLM usage, focusing on skill management and adapting to model changes.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude AI Subscription Cost via Apple is 30% Higher</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snq9s2/til_that_subscriptions_via_apple_is_30_more/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snq9s2/til_that_subscriptions_via_apple_is_30_more/</guid>
-      <pubDate>Fri, 17 Apr 2026 04:10:28 GMT</pubDate>
-      <description>A user discovered that subscribing to Claude through Apple incurs a roughly 30% higher cost compared to direct web subscription, due to Apple&apos;s commission. | Impact: high | Signal: negative | Why included: Significant price difference identified for subscriptions via a major platform, impacting user costs.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude 4.7 Instruction Following Concerns</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snlp17/47_follows_claudemd_rules_worse_than_46_and_i/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snlp17/47_follows_claudemd_rules_worse_than_46_and_i/</guid>
-      <pubDate>Fri, 17 Apr 2026 00:40:56 GMT</pubDate>
-      <description>Users report that Claude 4.7 follows specific negative instructions (e.g., &apos;don&apos;t create new files with the word helper&apos;) less reliably than 4.6, leading to concerns about its instruction-following capabilities. | Impact: medium | Signal: negative | Why included: User reports indicating a regression in instruction following for a new model release, which is a critical capability for LLMs.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>llm-anthropic 0.25</title>
-      <link>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</guid>
-      <pubDate>Thu, 16 Apr 2026 20:37:12 GMT</pubDate>
-      <description>This entry appears to be a reference to a version update or discussion related to Anthropic&apos;s LLMs. | Impact: low | Signal: neutral | Why included: Likely a minor update or reference point for Anthropic&apos;s models, not detailed enough for higher impact.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.112 Release Notes</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.112</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.112</guid>
-      <pubDate>Thu, 16 Apr 2026 19:55:41 GMT</pubDate>
-      <description>Claude Code version 2.1.112 fixes an issue where &apos;claude-opus-4-7 is temporarily unavailable&apos; in auto mode. | Impact: low | Signal: positive | Why included: A minor patch release addressing a specific availability issue for a particular model within Claude Code.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Permanent Rate Limit Increase for Claude Users</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snc532/permanent_increase_in_rate_limits/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snc532/permanent_increase_in_rate_limits/</guid>
-      <pubDate>Thu, 16 Apr 2026 18:31:58 GMT</pubDate>
-      <description>Anthropic has announced a permanent increase in rate limits for Claude users, indicating improved capacity or service adjustments. | Impact: medium | Signal: positive | Why included: A positive change in service terms (rate limits) that benefits users.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude 4.7 Malicious Code Generation Concerns</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snbtc9/claude_47_obsessed_with_malware/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snbtc9/claude_47_obsessed_with_malware/</guid>
-      <pubDate>Thu, 16 Apr 2026 18:20:17 GMT</pubDate>
-      <description>A user reports that Claude 4.7 seems &apos;obsessed&apos; with writing malware during its reasoning steps, consuming tokens without clear justification. | Impact: medium | Signal: negative | Why included: User feedback highlighting a potentially serious and concerning behavior deviation in the new Claude 4.7 model.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Qwen3.6-35B-A3B Outperforms Claude Opus 4.7 on Local Laptop</title>
-      <link>https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything</guid>
-      <pubDate>Thu, 16 Apr 2026 17:16:52 GMT</pubDate>
-      <description>A user reports that the Qwen3.6-35B-A3B model, run locally on a laptop, produced a better image than Claude Opus 4.7. | Impact: low | Signal: neutral | Why included: User-reported performance comparison, highlighting potential strengths of a specific open-source model against a proprietary one in a local setup.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Google Gemini App Enhances Image Creation with Personal Context</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/</link>
-      <guid>https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/</guid>
-      <pubDate>Thu, 16 Apr 2026 16:00:00 GMT</pubDate>
-      <description>Google&apos;s Gemini app now uses personal context and Google Photos with Nano Banana 2 to create personalized images that reflect users&apos; unique lives. | Impact: medium | Signal: positive | Why included: New feature launch for a major generative AI product, focusing on personalization.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude 4.7 User Reports Increased Token Consumption and Behavior Changes</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/</guid>
-      <pubDate>Thu, 16 Apr 2026 15:32:20 GMT</pubDate>
-      <description>Users are observing faster token consumption and instances where Claude 4.7 follows instructions too literally or exhibits &apos;malware-obsessed&apos; behavior, leading some to revert to older versions. | Impact: medium | Signal: negative | Why included: User feedback highlighting potential issues with token usage and unexpected model behavior in the new Claude 4.7 release.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic&apos;s Claude Code v2.1.111 Release Notes</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.111</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.111</guid>
-      <pubDate>Thu, 16 Apr 2026 15:18:45 GMT</pubDate>
-      <description>The latest Claude Code release (v2.1.111) introduces the &apos;xhigh&apos; effort level for Opus 4.7, an interactive /effort slider, an &apos;Auto (match terminal)&apos; theme option, and several new skills and improved command handling. | Impact: medium | Signal: positive | Why included: Significant SDK update with new features and usability improvements for Claude Code.</description>
       <category>novedad</category>
     </item>
   </channel>

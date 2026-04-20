@@ -1,5 +1,214 @@
 [
   {
+    "title": "Gemini API pricing updated",
+    "summary": "Google Gemini API pricing page shows updates, including new tiers and pricing for Gemini 3.1 Flash TTS.",
+    "category": "novedad",
+    "entities": [
+      "Gemini API",
+      "Google",
+      "Gemini 3.1 Flash TTS"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [
+      "3.1"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Updates to API pricing are critical for developers planning to use or scale with the Gemini API.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-20T09:29:31.544Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic Claude Code Leak Reveals Critical Command Injection Vulnerabilities",
+    "summary": "A leak of Anthropic's Claude Code has exposed critical command injection vulnerabilities within the system.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "A security vulnerability in a major LLM model is a high-impact event.",
+    "source_url": "https://beyondmachines.net/event_details/anthropic-claude-code-leak-reveals-critical-command-injection-vulnerabilities-e-6-c-1-k/gD2P6Ple2L",
+    "published_at": "2026-04-20T07:20:38.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "LLM-Rosetta - Translate LLM API Calls Across OpenAI, Anthropic, Gemini",
+    "summary": "A new tool, LLM-Rosetta, has been developed to translate LLM API calls between different providers like OpenAI, Anthropic, and Gemini, aiming to simplify adapter maintenance.",
+    "category": "novedad",
+    "entities": [
+      "LLM-Rosetta",
+      "OpenAI",
+      "Anthropic",
+      "Gemini"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A new tool simplifying API integration across major LLM providers is a notable development in the ecosystem.",
+    "source_url": "https://github.com/Oaklight/llm-rosetta",
+    "published_at": "2026-04-20T07:05:33.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "OpenAI Executive Kevin Weil Is Leaving the Company",
+    "summary": "OpenAI executive Kevin Weil is departing the company.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Kevin Weil"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Executive departures at major AI companies can sometimes signal shifts in strategy or focus, though this is a low-impact event on its own.",
+    "source_url": "https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/",
+    "published_at": "2026-04-20T07:01:56.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "The LLM costs are not going up",
+    "summary": "An article argues that LLM costs are actually decreasing, contrary to potential assumptions.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Information about LLM cost trends is crucial for understanding market dynamics and adoption rates.",
+    "source_url": "https://simianwords.bearblog.dev/conclusive-proofs-that-llm-costs-are-going-down/",
+    "published_at": "2026-04-20T05:30:00.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "NSA using Anthropic's Mythos despite blacklist",
+    "summary": "The NSA is reportedly using Anthropic's Mythos, despite the model being blacklisted.",
+    "category": "alerta",
+    "entities": [
+      "NSA",
+      "Anthropic",
+      "Mythos"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "The use of a blacklisted model by a government agency raises security and compliance concerns.",
+    "source_url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+    "published_at": "2026-04-20T05:05:13.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic installed a spyware bridge on my machine?",
+    "summary": "A user alleges that Anthropic installed a 'spyware bridge' on their machine.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Allegations of spyware from a major AI company are a serious security concern.",
+    "source_url": "https://www.thatprivacyguy.com/blog/anthropic-spyware/",
+    "published_at": "2026-04-20T02:41:50.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Token Counter, now with model comparisons",
+    "summary": "A Claude token counter tool has been updated to include comparisons across different models.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Token Counter"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A tool that facilitates model comparison for token usage is useful for developers optimizing costs and performance.",
+    "source_url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+    "published_at": "2026-04-20T00:56:40.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Banned by Anthropic?",
+    "summary": "A website appears to list users who have been banned by Anthropic.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Information about platform bans can be relevant for users interacting with AI services.",
+    "source_url": "https://bannedbyanthropic.com/",
+    "published_at": "2026-04-19T22:33:31.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude UI Feature Request",
+    "summary": "A user suggests adding tagging functionality to the Claude UI to improve conversation searching and organization.",
+    "category": "novedad",
+    "entities": [
+      "Claude UI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "User feedback on UI improvements for major LLMs is relevant for product development and user experience.",
+    "source_url": "https://news.ycombinator.com/item?id=47828154",
+    "published_at": "2026-04-19T22:20:17.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "What Anthropic's Mythos and Project Glasswing Mean for Your Apple Devices",
+    "summary": "An analysis explores the implications of Anthropic's Mythos and Project Glasswing for Apple devices.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Mythos",
+      "Project Glasswing",
+      "Apple"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "New developments from Anthropic impacting major hardware platforms like Apple are of significant interest.",
+    "source_url": "https://tidbits.com/2026/04/09/what-anthropics-mythos-and-project-glasswing-mean-for-your-apple-devices/",
+    "published_at": "2026-04-19T20:09:03.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Show HN: Lmcli v0.5.0 – A useable tool for LLM minimalists",
+    "summary": "Lmcli v0.5.0 has been released, described as a usable tool for LLM minimalists, now featuring image support.",
+    "category": "novedad",
+    "entities": [
+      "Lmcli"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "v0.5.0"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A new version of an LLM tool with added image support is a relevant update for developers working with LLMs.",
+    "source_url": "https://codeberg.org/mlow/lmcli",
+    "published_at": "2026-04-19T19:58:05.000Z",
+    "confidence": 1
+  },
+  {
     "title": "Claude is skeptical about OpenClaw",
     "summary": "This blog post discusses Claude's perceived skepticism towards a technology or project named OpenClaw.",
     "category": "novedad",
@@ -227,6 +436,25 @@
     "source_url": "https://www.landgate.com/news/energy-intelligence-for-open-ai-s-industrial-policy-blueprint",
     "published_at": "2026-04-19T00:01:07.000Z",
     "confidence": 0.8
+  },
+  {
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "summary": "An analysis details the changes in system prompts between Claude Opus versions 4.6 and 4.7.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4.6",
+      "4.7"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Tracking changes in system prompts is important for understanding model behavior and potential prompt injection vulnerabilities.",
+    "source_url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
+    "published_at": "2026-04-18T23:59:40.000Z",
+    "confidence": 1
   },
   {
     "title": "Claude Design System Prompt",
@@ -550,23 +778,6 @@
     "source_url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
     "published_at": "2026-04-18T12:25:00.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "Google Gemini API Pricing Update",
-    "summary": "Google updated its Gemini API pricing page, introducing 'Free' and 'Paid' tiers and noting the availability of 'Enterprise' solutions.",
-    "category": "alerta",
-    "entities": [
-      "Gemini API",
-      "Google"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This diff alert indicates a change in how Gemini API services are structured and potentially priced, though the exact impact is not detailed.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-18T08:33:57.856Z",
-    "confidence": 0.9
   },
   {
     "title": "10 Hours of Claude Design - My Thoughts",
