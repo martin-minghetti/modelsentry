@@ -6,11 +6,19 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gemini API pricing updated</title>
+      <title>Google Gemini Pricing Update - Introduction of Flex and Priority Tiers</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Mon, 20 Apr 2026 09:29:31 GMT</pubDate>
-      <description>Google Gemini API pricing page shows updates, including new tiers and pricing for Gemini 3.1 Flash TTS. | Impact: medium | Signal: positive | Why included: Updates to API pricing are critical for developers planning to use or scale with the Gemini API.</description>
+      <pubDate>Tue, 21 Apr 2026 09:15:27 GMT</pubDate>
+      <description>Google has updated its Gemini API pricing, introducing &apos;Flex&apos; and &apos;Priority&apos; inference tiers to offer users more options for balancing cost and latency. | Impact: medium | Signal: positive | Why included: This change in pricing tiers for a major LLM API directly affects developers&apos; cost and performance considerations.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.116 Release Notes</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</guid>
+      <pubDate>Mon, 20 Apr 2026 22:18:28 GMT</pubDate>
+      <description>Claude Code version 2.1.116 introduces significant performance improvements for &apos;/resume&apos; on large sessions, faster MCP startup, smoother fullscreen scrolling in VS Code, Cursor, and Windsurf terminals, and an improved thinking spinner for inline progress. It also includes security enhancements, bug fixes for rendering and keyboard shortcuts, and improvements to slash command behavior and plugin dependency management. | Impact: low | Signal: positive | Why included: This is a significant update to a developer tool for a major LLM, introducing performance and security improvements.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -67,6 +75,22 @@
       <guid>https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
       <pubDate>Mon, 20 Apr 2026 00:56:40 GMT</pubDate>
       <description>A Claude token counter tool has been updated to include comparisons across different models. | Impact: medium | Signal: positive | Why included: A tool that facilitates model comparison for token usage is useful for developers optimizing costs and performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Token Counter, now with model comparisons</title>
+      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything</guid>
+      <pubDate>Mon, 20 Apr 2026 00:50:45 GMT</pubDate>
+      <description>The Claude Token Counter tool has been updated to include comparisons between different Claude models. | Impact: low | Signal: positive | Why included: This is a useful tool update for developers working with Claude, providing added functionality for model comparison.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI helps Hyatt advance AI among colleagues</title>
+      <link>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</link>
+      <guid>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Hyatt is deploying ChatGPT Enterprise across its global workforce, leveraging GPT-5.4 and Codex to enhance productivity, streamline operations, and improve guest experiences. | Impact: medium | Signal: positive | Why included: This signifies a major enterprise adoption of OpenAI&apos;s technology, indicating real-world business value and market penetration.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -379,30 +403,6 @@
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/</guid>
       <pubDate>Sat, 18 Apr 2026 07:08:41 GMT</pubDate>
       <description>An experienced designer shares their perspective on Claude Design, discussing its impact on the design industry and the role of designers in the age of AI. | Impact: low | Signal: neutral | Why included: This offers a valuable perspective from a seasoned professional on the implications of AI design tools, particularly Claude Design, for the future of the design profession.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.113 Release</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</guid>
-      <pubDate>Fri, 17 Apr 2026 19:34:41 GMT</pubDate>
-      <description>Anthropic&apos;s Claude Code CLI has been updated to version 2.1.113, introducing significant changes including spawning a native binary, new sandbox settings, improved fullscreen mode, and various security enhancements and bug fixes. | Impact: medium | Signal: neutral | Why included: This is a significant update to a developer tool from Anthropic, detailing numerous functional and security improvements relevant to the LLM tooling ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Pricing Page Update</title>
-      <link>https://www.anthropic.com/pricing</link>
-      <guid>https://www.anthropic.com/pricing</guid>
-      <pubDate>Fri, 17 Apr 2026 09:06:10 GMT</pubDate>
-      <description>The Anthropic pricing page has seen minor updates, primarily related to formatting and minor text changes, but no significant changes to pricing itself were detected. | Impact: low | Signal: neutral | Why included: A minor website change was detected, but it does not appear to contain significant new information or pricing changes.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Top Open Source Claude Skills Highlighted (April 1st-15th)</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1snsv7o/top_10_open_source_claude_skills_from_1st_15th/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1snsv7o/top_10_open_source_claude_skills_from_1st_15th/</guid>
-      <pubDate>Fri, 17 Apr 2026 06:29:37 GMT</pubDate>
-      <description>A list of top 10 open-source Claude skills from early April is shared, featuring tools for case study generation, job listing aggregation, SEO teardowns, writing enhancement, ad management, SVG animation, Google Trends data, and more. | Impact: low | Signal: positive | Why included: Curated list of useful open-source tools for the Claude ecosystem, providing practical resources for users.</description>
       <category>novedad</category>
     </item>
   </channel>
