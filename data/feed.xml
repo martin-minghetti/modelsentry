@@ -6,12 +6,188 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Update - Introduction of Flex and Priority Tiers</title>
+      <title>Google Gemini Pricing Page Diff Alert</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Tue, 21 Apr 2026 09:15:27 GMT</pubDate>
-      <description>Google has updated its Gemini API pricing, introducing &apos;Flex&apos; and &apos;Priority&apos; inference tiers to offer users more options for balancing cost and latency. | Impact: medium | Signal: positive | Why included: This change in pricing tiers for a major LLM API directly affects developers&apos; cost and performance considerations.</description>
+      <pubDate>Wed, 22 Apr 2026 09:09:02 GMT</pubDate>
+      <description>A diff alert for Google Gemini&apos;s pricing page reveals an update noting the availability of &apos;Gemini Deep Research&apos; in preview, along with details on new features like collaborative planning and MCP support. | Impact: medium | Signal: positive | Why included: This diff alert indicates a release of new features and preview availability for Google&apos;s Gemini API, signifying product development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Pricing Page Diff Alert</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Wed, 22 Apr 2026 09:09:00 GMT</pubDate>
+      <description>A diff alert for Anthropic&apos;s pricing page shows no significant changes detected, indicating stability in their current pricing structure. | Impact: low | Signal: neutral | Why included: This diff alert shows no change in Anthropic&apos;s pricing, which is relevant for monitoring for potential future changes.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic investigates report of rogue access to hack-enabling Mythos AI</title>
+      <link>https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai</link>
+      <guid>https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai</guid>
+      <pubDate>Wed, 22 Apr 2026 09:06:40 GMT</pubDate>
+      <description>Anthropic is looking into reports that unauthorized users gained access to its Mythos AI model, which is described as &apos;hack-enabling&apos;. This incident raises security concerns regarding the accessibility and control of advanced AI models. | Impact: high | Signal: negative | Why included: This is a high-impact security alert involving unauthorized access to a potentially sensitive AI model.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>Ask HN: Any Open Source Claude Design Alternatives?</title>
+      <link>https://news.ycombinator.com/item?id=47860903</link>
+      <guid>https://news.ycombinator.com/item?id=47860903</guid>
+      <pubDate>Wed, 22 Apr 2026 08:53:53 GMT</pubDate>
+      <description>A user is seeking open-source alternatives for Claude&apos;s design, having found only one GitHub project so far. This indicates community interest in exploring different design approaches for AI systems. | Impact: low | Signal: neutral | Why included: This is a community discussion about open-source design alternatives for AI models.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>In Search of (Claude&apos;s) Lost Time - Globalizing Claude&apos;s project memories</title>
+      <link>https://www.gsarigiannidis.gr/claude-global-memory/</link>
+      <guid>https://www.gsarigiannidis.gr/claude-global-memory/</guid>
+      <pubDate>Wed, 22 Apr 2026 07:36:39 GMT</pubDate>
+      <description>This article discusses globalizing Claude&apos;s project memories, suggesting an exploration of how AI models manage and potentially share project-related information across time and contexts. | Impact: low | Signal: neutral | Why included: This is a discussion about AI model memory and project management, relevant to the LLM industry&apos;s ongoing development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic CVP – Run 2</title>
+      <link>https://sunglasses.dev/reports/anthropic-cvp-opus-4-7-evaluation-run-2</link>
+      <guid>https://sunglasses.dev/reports/anthropic-cvp-opus-4-7-evaluation-run-2</guid>
+      <pubDate>Wed, 22 Apr 2026 07:30:20 GMT</pubDate>
+      <description>This is a report on evaluation run 2 for Anthropic&apos;s CVP, likely referring to a model or system performance evaluation, indicating ongoing model development and testing by Anthropic. | Impact: low | Signal: neutral | Why included: This is a technical report on Anthropic&apos;s model evaluation, relevant to understanding their development progress.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Cowork against your own cloud inference provider</title>
+      <link>https://claude.com/docs/cowork/3p/overview</link>
+      <guid>https://claude.com/docs/cowork/3p/overview</guid>
+      <pubDate>Wed, 22 Apr 2026 06:32:16 GMT</pubDate>
+      <description>This documentation provides an overview of Claude Cowork, detailing how to use it with your own cloud inference provider, which is significant for enterprise adoption and flexibility. | Impact: low | Signal: neutral | Why included: This is documentation for a feature that enables flexible deployment and integration of Claude&apos;s capabilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Gemini Plugin for Claude Code</title>
+      <link>https://github.com/m-ghalib/gemini-plugin-cc</link>
+      <guid>https://github.com/m-ghalib/gemini-plugin-cc</guid>
+      <pubDate>Wed, 22 Apr 2026 04:41:09 GMT</pubDate>
+      <description>A developer created a Gemini plugin for Claude Code, allowing Claude Code to delegate tasks to the Gemini CLI. This demonstrates cross-platform integration and leveraging complementary AI capabilities. | Impact: medium | Signal: positive | Why included: This is a significant feature launch demonstrating integration between major LLM providers, expanding functionality.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude 4.7 blocks cyber prompts: before the fact vs. after the fact</title>
+      <link>https://raxitlabs.com/blogs/claude-47-five-layers-cyber-blocking</link>
+      <guid>https://raxitlabs.com/blogs/claude-47-five-layers-cyber-blocking</guid>
+      <pubDate>Wed, 22 Apr 2026 03:31:00 GMT</pubDate>
+      <description>This article discusses how Claude 4.7 handles cybersecurity prompts, detailing its proactive and reactive blocking mechanisms. It sheds light on the security features and safety measures implemented in advanced LLMs. | Impact: low | Signal: neutral | Why included: This is a discussion about the security and safety features of a specific LLM version.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Open Chronicle – Local Screen Memory for Claude Code and Codex CLI</title>
+      <link>https://github.com/Screenata/open-chronicle</link>
+      <guid>https://github.com/Screenata/open-chronicle</guid>
+      <pubDate>Wed, 22 Apr 2026 03:06:15 GMT</pubDate>
+      <description>A developer built an open-source version of OpenAI Chronicle, focusing on local screen memory for Claude Code and Codex CLI. This highlights advancements in local AI tools and user privacy. | Impact: medium | Signal: positive | Why included: This is a launch of a new open-source tool for local AI, indicating growth in the privacy-focused AI tooling sector.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Is Claude Code going to cost $100/month? Probably not—it’s all very confusing</title>
+      <link>https://simonwillison.net/2026/Apr/22/claude-code-confusion/</link>
+      <guid>https://simonwillison.net/2026/Apr/22/claude-code-confusion/</guid>
+      <pubDate>Wed, 22 Apr 2026 02:52:56 GMT</pubDate>
+      <description>This article discusses confusion surrounding the pricing of Claude Code, with speculation about a $100/month cost. It highlights the complexity and potential lack of clarity in AI service pricing models. | Impact: medium | Signal: negative | Why included: This alerts to potential pricing changes or confusion for a significant AI product, impacting user costs.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Show HN: Govern Anthropic Managed Agents with 3 lines of code</title>
+      <link>https://news.ycombinator.com/item?id=47857883</link>
+      <guid>https://news.ycombinator.com/item?id=47857883</guid>
+      <pubDate>Wed, 22 Apr 2026 02:07:12 GMT</pubDate>
+      <description>A new SDK, govern(), has been released by AgentLattice to govern Anthropic Managed Agents with just three lines of code. This offers enhanced control and security for enterprise AI deployments. | Impact: medium | Signal: positive | Why included: This is a release of a new tool that enhances governance and security for enterprise AI deployments.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Under Criminal Probe in Florida over Mass Shooter&apos;s ChatGPT Use</title>
+      <link>https://www.wsj.com/us-news/law/openai-under-criminal-probe-in-florida-over-mass-shooters-chatgpt-use-47913814</link>
+      <guid>https://www.wsj.com/us-news/law/openai-under-criminal-probe-in-florida-over-mass-shooters-chatgpt-use-47913814</guid>
+      <pubDate>Wed, 22 Apr 2026 00:49:01 GMT</pubDate>
+      <description>OpenAI is reportedly under criminal investigation in Florida due to the use of ChatGPT by a mass shooter. This raises serious ethical and legal questions regarding AI misuse and accountability. | Impact: high | Signal: negative | Why included: This is a high-impact legal and ethical alert concerning AI misuse and its potential societal consequences.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic tests how devs react to yanking Claude Code from Pro plan</title>
+      <link>https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/</link>
+      <guid>https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/</guid>
+      <pubDate>Wed, 22 Apr 2026 00:44:39 GMT</pubDate>
+      <description>Anthropic is reportedly testing developer reactions to removing Claude Code from its Pro plan. This could significantly impact user access and pricing for AI coding tools. | Impact: high | Signal: negative | Why included: This is a high-impact alert as it suggests a potential removal of a feature from a popular AI product, impacting users.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic&apos;s Mythos model accessed by unauthorized users</title>
+      <link>https://www.reuters.com/technology/anthropics-mythos-model-accessed-by-unauthorized-users-bloomberg-news-reports-2026-04-21/</link>
+      <guid>https://www.reuters.com/technology/anthropics-mythos-model-accessed-by-unauthorized-users-bloomberg-news-reports-2026-04-21/</guid>
+      <pubDate>Wed, 22 Apr 2026 00:40:07 GMT</pubDate>
+      <description>Bloomberg reports that unauthorized users have gained access to Anthropic&apos;s Mythos model, raising significant security concerns about the containment and access controls of advanced AI models. | Impact: high | Signal: negative | Why included: This is a high-impact security alert regarding unauthorized access to a specific AI model, indicating potential vulnerabilities.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Ravix – An AI agent that runs on your Claude Code subscription (alpha)</title>
+      <link>https://news.ycombinator.com/item?id=47856900</link>
+      <guid>https://news.ycombinator.com/item?id=47856900</guid>
+      <pubDate>Wed, 22 Apr 2026 00:24:17 GMT</pubDate>
+      <description>Ravix is a new AI agent that operates on existing Claude Code subscriptions, offering an autonomous agent experience without additional API keys or billing. This simplifies agent deployment for users. | Impact: medium | Signal: positive | Why included: This is a release of a new AI agent that leverages existing subscriptions, indicating innovation in AI agent accessibility.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Webby Person of the Year: Claude</title>
+      <link>https://winners.webbyawards.com/2026/specialachievement/476/claude</link>
+      <guid>https://winners.webbyawards.com/2026/specialachievement/476/claude</guid>
+      <pubDate>Wed, 22 Apr 2026 00:19:06 GMT</pubDate>
+      <description>Claude has been recognized as the Webby Person of the Year, a significant achievement highlighting its impact and recognition in the digital and AI space. | Impact: medium | Signal: positive | Why included: This is a significant award recognizing the impact and influence of Claude in the AI industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Unauthorized group has gained access to Anthropic&apos;s exclusive cyber tool Mythos</title>
+      <link>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</link>
+      <guid>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</guid>
+      <pubDate>Wed, 22 Apr 2026 00:15:41 GMT</pubDate>
+      <description>Multiple reports indicate that an unauthorized group accessed Anthropic&apos;s exclusive cyber tool, Mythos. This raises serious security concerns and highlights potential vulnerabilities in sensitive AI tools. | Impact: high | Signal: negative | Why included: This is a high-impact security alert regarding unauthorized access to a specialized AI tool, indicating potential risks.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Submit your startup profile with Claude or ChatGPT. 60 seconds or less</title>
+      <link>https://www.startuphub.ai/agents/submit</link>
+      <guid>https://www.startuphub.ai/agents/submit</guid>
+      <pubDate>Wed, 22 Apr 2026 00:13:49 GMT</pubDate>
+      <description>A tool is available that uses Claude or ChatGPT to help submit startup profiles in under 60 seconds. This showcases the application of LLMs in streamlining business processes. | Impact: low | Signal: positive | Why included: This demonstrates a practical application of LLMs in automating business processes, relevant to AI adoption.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code is no longer a part of the Pro plan</title>
+      <link>https://news.ycombinator.com/item?id=47856073</link>
+      <guid>https://news.ycombinator.com/item?id=47856073</guid>
+      <pubDate>Tue, 21 Apr 2026 23:14:09 GMT</pubDate>
+      <description>Claude Code has reportedly been removed from the Pro plan, a change that could impact users who relied on this feature within their subscription. | Impact: high | Signal: negative | Why included: This is a high-impact alert as it indicates a feature removal from a paid plan, potentially affecting user access and value.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code Removed from $20-a-Month &quot;Pro&quot; Subscription for New Users</title>
+      <link>https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</link>
+      <guid>https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</guid>
+      <pubDate>Tue, 21 Apr 2026 22:56:09 GMT</pubDate>
+      <description>Claude Code has been removed from the $20/month &apos;Pro&apos; subscription for new users. This change signifies a potential shift in Anthropic&apos;s product strategy and pricing. | Impact: high | Signal: negative | Why included: This is a high-impact alert concerning a pricing change that affects feature availability for a significant user base.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code to be removed from Pro Tier?</title>
+      <link>https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a</link>
+      <guid>https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a</guid>
+      <pubDate>Tue, 21 Apr 2026 22:36:24 GMT</pubDate>
+      <description>There are discussions and reports suggesting that Claude Code might be removed from the Pro tier subscription. This potential change is causing significant community discussion. | Impact: high | Signal: negative | Why included: This alert signals a potential feature removal from a paid tier, which could significantly impact user perception and value.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI launches Codex Labs, partners with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.</title>
+      <link>https://openai.com/index/scaling-codex-to-enterprises-worldwide</link>
+      <guid>https://openai.com/index/scaling-codex-to-enterprises-worldwide</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI has launched Codex Labs and partnered with major consulting firms to facilitate enterprise adoption of Codex. The product has also reached 4 million weekly active users, indicating significant market traction. | Impact: medium | Signal: positive | Why included: This indicates a significant partnership and milestone for OpenAI&apos;s enterprise offerings, signaling strong market adoption.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Claude Code v2.1.116 Release Notes</title>
@@ -19,6 +195,14 @@
       <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</guid>
       <pubDate>Mon, 20 Apr 2026 22:18:28 GMT</pubDate>
       <description>Claude Code version 2.1.116 introduces significant performance improvements for &apos;/resume&apos; on large sessions, faster MCP startup, smoother fullscreen scrolling in VS Code, Cursor, and Windsurf terminals, and an improved thinking spinner for inline progress. It also includes security enhancements, bug fixes for rendering and keyboard shortcuts, and improvements to slash command behavior and plugin dependency management. | Impact: low | Signal: positive | Why included: This is a significant update to a developer tool for a major LLM, introducing performance and security improvements.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>llm-openrouter 0.6</title>
+      <link>https://simonwillison.net/2026/Apr/20/llm-openrouter/</link>
+      <guid>https://simonwillison.net/2026/Apr/20/llm-openrouter/</guid>
+      <pubDate>Mon, 20 Apr 2026 18:00:26 GMT</pubDate>
+      <description>An update to the llm-openrouter library to version 0.6 has been released. This likely includes improvements or changes to how LLMs are accessed via OpenRouter. | Impact: low | Signal: neutral | Why included: This is a library update relevant to accessing LLMs through a specific platform.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -219,190 +403,6 @@
       <guid>https://simonwillison.net/2026/Apr/18/opus-system-prompt/</guid>
       <pubDate>Sun, 19 Apr 2026 00:14:06 GMT</pubDate>
       <description>An analysis of the changes made to the system prompt between Claude Opus versions 4.6 and 4.7. | Impact: medium | Signal: neutral | Why included: This is relevant as it details changes in system prompts for a specific LLM version, offering insights into how LLMs are being tuned and updated.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI&apos;s April 2026 Policy Release: Industrial Policy for the Intelligence Age</title>
-      <link>https://www.landgate.com/news/energy-intelligence-for-open-ai-s-industrial-policy-blueprint</link>
-      <guid>https://www.landgate.com/news/energy-intelligence-for-open-ai-s-industrial-policy-blueprint</guid>
-      <pubDate>Sun, 19 Apr 2026 00:01:07 GMT</pubDate>
-      <description>OpenAI released its April 2026 policy, framed as an industrial policy for the Intelligence Age. | Impact: low | Signal: neutral | Why included: This is relevant as it discusses OpenAI&apos;s policy direction, which could influence the broader AI industry and its development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Changes in the system prompt between Claude Opus 4.6 and 4.7</title>
-      <link>https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything</guid>
-      <pubDate>Sat, 18 Apr 2026 23:59:40 GMT</pubDate>
-      <description>An analysis details the changes in system prompts between Claude Opus versions 4.6 and 4.7. | Impact: low | Signal: neutral | Why included: Tracking changes in system prompts is important for understanding model behavior and potential prompt injection vulnerabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Design System Prompt</title>
-      <link>https://gist.github.com/mcrowe/9da081f52e0740886d39e730852dba49</link>
-      <guid>https://gist.github.com/mcrowe/9da081f52e0740886d39e730852dba49</guid>
-      <pubDate>Sat, 18 Apr 2026 23:26:55 GMT</pubDate>
-      <description>A GitHub Gist containing a system prompt for Claude&apos;s Design System. | Impact: low | Signal: neutral | Why included: This is relevant as it provides a specific prompt example for a design system, potentially useful for users of Claude&apos;s design capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Operational Readiness Criteria for Tool-Using LLM Agents</title>
-      <link>https://zenodo.org/records/19211676</link>
-      <guid>https://zenodo.org/records/19211676</guid>
-      <pubDate>Sat, 18 Apr 2026 23:22:13 GMT</pubDate>
-      <description>A paper outlining operational readiness criteria for LLM agents that use tools. | Impact: low | Signal: neutral | Why included: This is relevant to the development and deployment of reliable LLM agents, a critical area for practical AI applications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Fake Claude site installs malware that gives attackers access to your computer</title>
-      <link>https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer</link>
-      <guid>https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer</guid>
-      <pubDate>Sat, 18 Apr 2026 23:08:16 GMT</pubDate>
-      <description>A security alert regarding a fake Claude website that distributes malware. | Impact: high | Signal: negative | Why included: This is a high-impact security alert that directly affects users of Claude, highlighting a significant risk of malware distribution through impersonation.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Thank you Claude, the research was amazing!</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1spcbr6/thank_you_claude_the_research_was_amazing/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1spcbr6/thank_you_claude_the_research_was_amazing/</guid>
-      <pubDate>Sat, 18 Apr 2026 23:08:14 GMT</pubDate>
-      <description>A user expresses satisfaction with Claude&apos;s research capabilities, noting its ability to produce research reports by referencing zero sources. | Impact: low | Signal: negative | Why included: This highlights a potential issue with Claude&apos;s research output, where it produces reports without citing sources, which could be misleading or inaccurate.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code &quot;AUTO MODE&quot; – Not what you think</title>
-      <link>https://sunglasses.dev/blog/auto-mode-validates-runtime-security</link>
-      <guid>https://sunglasses.dev/blog/auto-mode-validates-runtime-security</guid>
-      <pubDate>Sat, 18 Apr 2026 23:03:33 GMT</pubDate>
-      <description>An explanation of Claude Code&apos;s &apos;AUTO MODE,&apos; clarifying its functionality and implications for runtime security. | Impact: medium | Signal: neutral | Why included: This provides clarification on a specific feature of Claude Code, which is relevant for understanding its behavior and security implications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude&apos;s CoT summarizer model ended up leaking</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1spbtzz/claudes_cot_summarizer_model_ended_up_leaking/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1spbtzz/claudes_cot_summarizer_model_ended_up_leaking/</guid>
-      <pubDate>Sat, 18 Apr 2026 22:46:45 GMT</pubDate>
-      <description>A user observed that Claude&apos;s Chain-of-Thought (CoT) summarizer model &apos;leaked&apos; its own output, suggesting a potential bug or unexpected behavior. | Impact: medium | Signal: negative | Why included: This highlights a potential bug in Claude&apos;s internal reasoning or summarization process, suggesting that even specialized models might exhibit unexpected behavior.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I&apos;ve injected Claude into the creature of Black &amp; White (2001)</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1spbh0o/ive_injected_claude_into_the_creature_of_black/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1spbh0o/ive_injected_claude_into_the_creature_of_black/</guid>
-      <pubDate>Sat, 18 Apr 2026 22:31:03 GMT</pubDate>
-      <description>A user has integrated Claude into the game Black &amp; White (2001), using Haiku API calls for the creature&apos;s mind. | Impact: medium | Signal: positive | Why included: This showcases an innovative use case of LLMs in gaming, demonstrating how LLMs can be integrated into existing software to enhance gameplay and AI behavior.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Opus 4.7 thought Claude Design might be a prompt injection attack</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1spbdvk/opus_47_thought_claude_design_might_be_a_prompt/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1spbdvk/opus_47_thought_claude_design_might_be_a_prompt/</guid>
-      <pubDate>Sat, 18 Apr 2026 22:27:19 GMT</pubDate>
-      <description>Claude Opus 4.7 reportedly interpreted Claude Design as a prompt injection attack, indicating potential confusion or issues with new features. | Impact: medium | Signal: negative | Why included: This highlights a potential issue where the LLM misinterprets new features or itself, which could affect user experience and the reliability of Claude&apos;s capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Meshcore: Architecture for a Decentralized P2P LLM Inference Network</title>
-      <link>https://news.ycombinator.com/item?id=47819839</link>
-      <guid>https://news.ycombinator.com/item?id=47819839</guid>
-      <pubDate>Sat, 18 Apr 2026 21:53:55 GMT</pubDate>
-      <description>This post discusses Meshcore, an architecture for a decentralized peer-to-peer LLM inference network. | Impact: medium | Signal: positive | Why included: This is relevant as it explores decentralized architectures for LLM inference, a significant trend in improving accessibility and reducing reliance on central providers.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Been messing with Claude Design for a day and it surprised me!</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sp9zml/been_messing_with_claude_design_for_a_day_and_it/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sp9zml/been_messing_with_claude_design_for_a_day_and_it/</guid>
-      <pubDate>Sat, 18 Apr 2026 21:28:13 GMT</pubDate>
-      <description>A user shares positive initial impressions of Claude Design after a day of use, noting its ability to surprise with creative additions and build cohesive landing pages. | Impact: medium | Signal: positive | Why included: This provides a positive user testimonial for Claude Design, highlighting its capabilities in creative exploration and generating cohesive design elements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Reliably Incorrect – explore LLM reliability with data visualizations</title>
-      <link>https://adamsohn.com/reliably-incorrect/</link>
-      <guid>https://adamsohn.com/reliably-incorrect/</guid>
-      <pubDate>Sat, 18 Apr 2026 20:54:01 GMT</pubDate>
-      <description>A project that uses data visualizations to explore LLM reliability. | Impact: medium | Signal: positive | Why included: This is relevant for its focus on LLM reliability and the use of visualizations to understand performance, a key area for trust and adoption.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Every time I see it ignore a rule in claude.md</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sp86zv/every_time_i_see_it_ignore_a_rule_in_claudemd/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sp86zv/every_time_i_see_it_ignore_a_rule_in_claudemd/</guid>
-      <pubDate>Sat, 18 Apr 2026 20:16:31 GMT</pubDate>
-      <description>A user expresses frustration with Claude ignoring rules defined in a &apos;claude.md&apos; file. | Impact: medium | Signal: negative | Why included: This points to a potential issue with Claude&apos;s ability to adhere to custom rules or configurations, which could hinder its utility for specific workflows.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Pulls Back from Stargate Norway Data Center Deal as Microsoft Takes Over</title>
-      <link>https://www.cnbc.com/2026/04/15/openai-stargate-norway-project-microsoft.html</link>
-      <guid>https://www.cnbc.com/2026/04/15/openai-stargate-norway-project-microsoft.html</guid>
-      <pubDate>Sat, 18 Apr 2026 20:02:13 GMT</pubDate>
-      <description>OpenAI has withdrawn from its Stargate Norway data center deal, with Microsoft now taking over. | Impact: medium | Signal: neutral | Why included: This is relevant as it signals a shift in infrastructure strategy for OpenAI and a deepening of its relationship with Microsoft, impacting their operational capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Design keeps drawing a turd</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/</guid>
-      <pubDate>Sat, 18 Apr 2026 19:10:19 GMT</pubDate>
-      <description>A user reports that Claude Design consistently produces a &apos;turd&apos;-like image when asked for a floral studio hero, despite attempts to correct it. | Impact: medium | Signal: negative | Why included: This is relevant as it points to a failure in Claude Design&apos;s image generation capabilities, potentially due to issues with its vision model or prompt interpretation.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I finally stopped using Claude just for code, and it fixed the worst part of my workday...</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sp3ra2/i_finally_stopped_using_claude_just_for_code_and/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sp3ra2/i_finally_stopped_using_claude_just_for_code_and/</guid>
-      <pubDate>Sat, 18 Apr 2026 17:26:43 GMT</pubDate>
-      <description>A developer found that using Claude for technical analysis tasks, beyond just coding, significantly reduced their &apos;detective work&apos; time by automating context gathering. | Impact: medium | Signal: positive | Why included: This showcases a practical and impactful application of LLMs like Claude to solve real-world developer pain points, demonstrating a significant productivity boost.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude is on fire. Everything they’ve dropped in the last few days .</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/</guid>
-      <pubDate>Sat, 18 Apr 2026 15:49:11 GMT</pubDate>
-      <description>A user observes a high volume of new releases and updates from Claude in the past few days. | Impact: medium | Signal: positive | Why included: This indicates significant recent activity and expansion from Claude, highlighting new products and capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Adaptive thinking is driving me nuts</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1soyyj4/adaptive_thinking_is_driving_me_nuts/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1soyyj4/adaptive_thinking_is_driving_me_nuts/</guid>
-      <pubDate>Sat, 18 Apr 2026 14:22:17 GMT</pubDate>
-      <description>A user expresses frustration with Claude&apos;s &apos;adaptive thinking&apos; feature, describing it as reversing positions under scrutiny and causing user effort rather than offloading tasks. | Impact: medium | Signal: negative | Why included: This highlights a potential negative user experience with Claude&apos;s adaptive thinking, indicating issues with its ability to maintain consistent and valuable reasoning.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude 4.7 gaslighted me with a real commit hash and I&apos;m not okay</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/</guid>
-      <pubDate>Sat, 18 Apr 2026 13:26:35 GMT</pubDate>
-      <description>A user describes an experience where Claude 4.7 provided a real commit hash but the associated code was not actually completed, leading to a feeling of being &apos;gaslighted&apos;. | Impact: medium | Signal: negative | Why included: This highlights a potential issue with LLM verification and accuracy, particularly concerning the reliability of code-related information provided by Claude.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude system prompts as a git timeline</title>
-      <link>https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything</guid>
-      <pubDate>Sat, 18 Apr 2026 12:25:00 GMT</pubDate>
-      <description>An exploration of Claude&apos;s system prompts presented as a Git timeline, analyzing their evolution. | Impact: low | Signal: neutral | Why included: This provides technical insight into how Claude&apos;s system prompts are managed and evolved, which is relevant for understanding prompt engineering and LLM behavior.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>10 Hours of Claude Design - My Thoughts</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</guid>
-      <pubDate>Sat, 18 Apr 2026 07:23:43 GMT</pubDate>
-      <description>A user shares their experiences and tips after using Claude Design for 10 hours, finding it powerful but with a learning curve. | Impact: medium | Signal: positive | Why included: This provides a user&apos;s detailed experience with Claude Design, including practical advice on model usage and cost-effectiveness, offering valuable insights for other users.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>An old designer’s perspective on claude design.</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/</guid>
-      <pubDate>Sat, 18 Apr 2026 07:08:41 GMT</pubDate>
-      <description>An experienced designer shares their perspective on Claude Design, discussing its impact on the design industry and the role of designers in the age of AI. | Impact: low | Signal: neutral | Why included: This offers a valuable perspective from a seasoned professional on the implications of AI design tools, particularly Claude Design, for the future of the design profession.</description>
       <category>novedad</category>
     </item>
   </channel>
