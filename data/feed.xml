@@ -6,11 +6,75 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Page Diff Alert</title>
+      <title>Google Gemini Pricing Update: Flex and Priority Inference Tiers</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 22 Apr 2026 09:09:02 GMT</pubDate>
-      <description>A diff alert for Google Gemini&apos;s pricing page reveals an update noting the availability of &apos;Gemini Deep Research&apos; in preview, along with details on new features like collaborative planning and MCP support. | Impact: medium | Signal: positive | Why included: This diff alert indicates a release of new features and preview availability for Google&apos;s Gemini API, signifying product development.</description>
+      <pubDate>Thu, 23 Apr 2026 09:16:16 GMT</pubDate>
+      <description>A diff alert on Google Gemini pricing indicates the introduction of Flex and Priority inference tiers, potentially affecting cost and availability for users of the Gemini API. | Impact: medium | Signal: neutral | Why included: Pricing updates for major AI models like Gemini are crucial for developers and businesses managing their AI infrastructure costs.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Hackers breach Anthropic&apos;s &apos;too dangerous to release&apos; Mythos AI model</title>
+      <link>https://www.euronews.com/next/2026/04/22/hackers-breach-anthropics-too-dangerous-to-release-mythos-ai-model-report</link>
+      <guid>https://www.euronews.com/next/2026/04/22/hackers-breach-anthropics-too-dangerous-to-release-mythos-ai-model-report</guid>
+      <pubDate>Thu, 23 Apr 2026 08:55:13 GMT</pubDate>
+      <description>Hackers have reportedly breached Anthropic&apos;s Mythos AI model, a model previously deemed &apos;too dangerous to release&apos;. | Impact: high | Signal: negative | Why included: A breach of a &apos;too dangerous&apos; AI model has significant security and ethical implications for the AI industry.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI deprecation notice: upcoming model shutdowns in 2026</title>
+      <link>https://developers.openai.com/api/docs/deprecations</link>
+      <guid>https://developers.openai.com/api/docs/deprecations</guid>
+      <pubDate>Thu, 23 Apr 2026 07:37:55 GMT</pubDate>
+      <description>OpenAI has issued a deprecation notice for upcoming model shutdowns in 2026, impacting users of their API services. | Impact: high | Signal: negative | Why included: This indicates a significant change in OpenAI&apos;s model offerings and will affect users who rely on the affected models.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic is A/B testing removing Claude Code from Pro plans</title>
+      <link>https://twitter.com/TheAmolAvasare/status/2046724659039932830</link>
+      <guid>https://twitter.com/TheAmolAvasare/status/2046724659039932830</guid>
+      <pubDate>Thu, 23 Apr 2026 07:11:01 GMT</pubDate>
+      <description>Anthropic is reportedly A/B testing the removal of Claude Code from its Pro plans, which could indicate changes in service offerings or pricing for premium users. | Impact: medium | Signal: negative | Why included: Changes to premium features for a significant AI model like Claude Code can impact user access and value propositions.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic now requires new Claude users to verify identity with photo ID</title>
+      <link>https://twitter.com/Pirat_Nation/status/2044960285510053929</link>
+      <guid>https://twitter.com/Pirat_Nation/status/2044960285510053929</guid>
+      <pubDate>Thu, 23 Apr 2026 05:50:09 GMT</pubDate>
+      <description>Anthropic has implemented a new policy requiring identity verification with photo ID for new Claude users, potentially impacting user onboarding and privacy. | Impact: medium | Signal: neutral | Why included: New identity verification requirements can affect user adoption and raise privacy considerations in the AI service landscape.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic has surged to a trillion-dollar valuation on secondary markets</title>
+      <link>https://www.businessinsider.com/anthropic-trillion-dollar-valuation-on-secondary-markets-2026</link>
+      <guid>https://www.businessinsider.com/anthropic-trillion-dollar-valuation-on-secondary-markets-2026</guid>
+      <pubDate>Thu, 23 Apr 2026 04:45:57 GMT</pubDate>
+      <description>Anthropic has reached a trillion-dollar valuation on secondary markets, reflecting significant investor confidence and market demand for its AI models. | Impact: medium | Signal: positive | Why included: A trillion-dollar valuation signifies major financial growth and validation of Anthropic&apos;s position in the AI industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Discord group claims it accessed Claude Mythos by guessing location</title>
+      <link>https://mashable.com/article/discord-group-accesses-claude-mythos-claims</link>
+      <guid>https://mashable.com/article/discord-group-accesses-claude-mythos-claims</guid>
+      <pubDate>Thu, 23 Apr 2026 00:22:12 GMT</pubDate>
+      <description>A Discord group claims to have accessed Anthropic&apos;s Mythos AI model by exploiting a potential location-based vulnerability. | Impact: high | Signal: negative | Why included: This claim suggests a potential security flaw in accessing sensitive AI models, which could have broad implications if true.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI model for masking personally identifiable information (PII) in text</title>
+      <link>https://openai.com/index/introducing-openai-privacy-filter/</link>
+      <guid>https://openai.com/index/introducing-openai-privacy-filter/</guid>
+      <pubDate>Thu, 23 Apr 2026 00:14:55 GMT</pubDate>
+      <description>OpenAI has introduced a new model, Privacy Filter, designed to automatically mask personally identifiable information (PII) in text. | Impact: medium | Signal: positive | Why included: This release addresses privacy concerns and could be valuable for applications handling sensitive user data.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians</title>
+      <link>https://openai.com/index/making-chatgpt-better-for-clinicians</link>
+      <guid>https://openai.com/index/making-chatgpt-better-for-clinicians</guid>
+      <pubDate>Wed, 22 Apr 2026 15:00:00 GMT</pubDate>
+      <description>OpenAI is offering ChatGPT for Clinicians free of charge to verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care and research. | Impact: medium | Signal: positive | Why included: Making specialized AI tools free for professionals can accelerate adoption and impact in critical sectors like healthcare.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -92,6 +156,14 @@
       <pubDate>Wed, 22 Apr 2026 02:52:56 GMT</pubDate>
       <description>This article discusses confusion surrounding the pricing of Claude Code, with speculation about a $100/month cost. It highlights the complexity and potential lack of clarity in AI service pricing models. | Impact: medium | Signal: negative | Why included: This alerts to potential pricing changes or confusion for a significant AI product, impacting user costs.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>Is Claude Code going to cost $100/month? Probably not - it&apos;s all very confusing</title>
+      <link>https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything</guid>
+      <pubDate>Wed, 22 Apr 2026 02:07:34 GMT</pubDate>
+      <description>A discussion and analysis on the potential pricing of Claude Code, suggesting that a $100/month cost is unlikely but the pricing structure remains unclear. | Impact: medium | Signal: neutral | Why included: Pricing uncertainty for significant AI models like Claude Code can impact user planning and adoption.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Show HN: Govern Anthropic Managed Agents with 3 lines of code</title>
@@ -331,78 +403,6 @@
       <guid>https://github.com/adityaarakeri/fuelgauge</guid>
       <pubDate>Sun, 19 Apr 2026 06:07:04 GMT</pubDate>
       <description>A new tool called Fuelgauge provides a Claude Code status line that operates without requiring Node.js. | Impact: medium | Signal: positive | Why included: This is relevant as it&apos;s a new tool for Claude Code, indicating ecosystem development and improved developer experience.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Multi-agent task management for Claude and Gemini</title>
-      <link>https://agentrq.com</link>
-      <guid>https://agentrq.com</guid>
-      <pubDate>Sun, 19 Apr 2026 02:44:18 GMT</pubDate>
-      <description>AgentRQ is a real-time platform for agent-human task collaboration, supporting Claude Code and Gemini. | Impact: medium | Signal: positive | Why included: This is relevant as it demonstrates advancements in multi-agent systems and collaboration between different LLMs, specifically Claude and Gemini.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>ChatGPT vs. Gemini vs. Claude: The Best LLM Subscription You Should Buy</title>
-      <link>https://www.artificialintelligencemadesimple.com/p/chatgpt-vs-gemini-vs-claude-the-best</link>
-      <guid>https://www.artificialintelligencemadesimple.com/p/chatgpt-vs-gemini-vs-claude-the-best</guid>
-      <pubDate>Sun, 19 Apr 2026 02:38:48 GMT</pubDate>
-      <description>An article comparing ChatGPT, Gemini, and Claude to determine the best LLM subscription. | Impact: low | Signal: neutral | Why included: This item is relevant for comparing major LLM providers, offering insights into market positioning and user choice.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I made Claude Code at least 30% more efficient (for me anyway)</title>
-      <link>https://github.com/noahkirsch/Claude-Code-Glow</link>
-      <guid>https://github.com/noahkirsch/Claude-Code-Glow</guid>
-      <pubDate>Sun, 19 Apr 2026 02:38:44 GMT</pubDate>
-      <description>A user shares personal methods for improving Claude Code&apos;s efficiency by at least 30%. | Impact: medium | Signal: positive | Why included: This is relevant as it provides practical insights into optimizing LLM performance and efficiency, directly impacting user experience and resource utilization.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: 5-translation RAG matrix fixing LLM religious hallucinations</title>
-      <link>https://github.com/salaamalykum/quran-semantic-search</link>
-      <guid>https://github.com/salaamalykum/quran-semantic-search</guid>
-      <pubDate>Sun, 19 Apr 2026 02:07:34 GMT</pubDate>
-      <description>A 5-translation RAG matrix is presented as a solution to fix religious hallucinations in LLMs. | Impact: medium | Signal: positive | Why included: This item addresses a critical issue of LLM hallucinations, particularly in sensitive areas like religious content, and proposes a technical solution.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>AI code base is so fragile</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1spg4s9/ai_code_base_is_so_fragile/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1spg4s9/ai_code_base_is_so_fragile/</guid>
-      <pubDate>Sun, 19 Apr 2026 02:07:05 GMT</pubDate>
-      <description>A user expresses disappointment with the fragility and unreliability of AI-generated codebases for production-level applications. | Impact: medium | Signal: negative | Why included: This is relevant as it raises concerns about the practical usability of AI-generated code for complex, real-world applications, highlighting potential limitations in reliability.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>TensorRT LLM</title>
-      <link>https://github.com/NVIDIA/TensorRT-LLM</link>
-      <guid>https://github.com/NVIDIA/TensorRT-LLM</guid>
-      <pubDate>Sun, 19 Apr 2026 01:58:00 GMT</pubDate>
-      <description>A GitHub repository for TensorRT LLM, likely related to NVIDIA&apos;s optimizations for LLM inference. | Impact: low | Signal: neutral | Why included: This is relevant as TensorRT is a key technology for optimizing deep learning model performance, and its application to LLMs is significant for efficiency.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>At the HumanX conference, everyone was talking about Claude</title>
-      <link>https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/</link>
-      <guid>https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/</guid>
-      <pubDate>Sun, 19 Apr 2026 00:52:49 GMT</pubDate>
-      <description>An article highlighting the significant presence and discussion of Claude at the HumanX conference. | Impact: low | Signal: positive | Why included: This shows Claude&apos;s growing influence and mindshare within the AI community and at industry events.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Slop Cop Claude Code / Cursor Plugin</title>
-      <link>https://github.com/yasyf/slop-cop</link>
-      <guid>https://github.com/yasyf/slop-cop</guid>
-      <pubDate>Sun, 19 Apr 2026 00:20:47 GMT</pubDate>
-      <description>A Cursor plugin called Slop Cop for Claude Code is presented. | Impact: medium | Signal: positive | Why included: This is relevant as it&apos;s a new plugin for Claude Code, indicating ecosystem development and new tools for developers using Claude.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Changes in the system prompt between Claude Opus 4.6 and 4.7</title>
-      <link>https://simonwillison.net/2026/Apr/18/opus-system-prompt/</link>
-      <guid>https://simonwillison.net/2026/Apr/18/opus-system-prompt/</guid>
-      <pubDate>Sun, 19 Apr 2026 00:14:06 GMT</pubDate>
-      <description>An analysis of the changes made to the system prompt between Claude Opus versions 4.6 and 4.7. | Impact: medium | Signal: neutral | Why included: This is relevant as it details changes in system prompts for a specific LLM version, offering insights into how LLMs are being tuned and updated.</description>
       <category>novedad</category>
     </item>
   </channel>
