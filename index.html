@@ -424,8 +424,17 @@ a:hover{color:var(--theme-ink)}
   position:relative;
   display:flex;
   flex-direction:column;
+  min-height:340px;
+  overflow:hidden;
 }
 .card .card-why{margin-top:auto}
+
+/* Invisible slot to keep grid height constant on underfull pages */
+.card-placeholder{
+  visibility:hidden;
+  min-height:340px;
+  pointer-events:none;
+}
 .card:hover{
   background:var(--theme-surface-raised);
   border-color:rgba(255,255,255,0.14);
@@ -438,6 +447,10 @@ a:hover{color:var(--theme-ink)}
   line-height:1.4;
   margin-bottom:0.35rem;
   letter-spacing:-0.01em;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
 }
 .card-title a{
   color:var(--theme-ink);
@@ -488,6 +501,10 @@ a:hover{color:var(--theme-ink)}
   color:var(--theme-ink-muted);
   line-height:1.6;
   margin-bottom:0.75rem;
+  display:-webkit-box;
+  -webkit-line-clamp:4;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
 }
 .card-why{
   font-size:0.78rem;
@@ -497,6 +514,10 @@ a:hover{color:var(--theme-ink)}
   padding-top:0.75rem;
   border-top:1px solid var(--theme-line);
   line-height:1.55;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
 }
 
 /* Health panel */
@@ -1104,43 +1125,26 @@ a:hover{color:var(--theme-ink)}
     for (var i = 0; i < visible.length; i++) {
       cards.appendChild(buildCard(visible[i], i, isPageChange));
     }
-    // If this render is the result of a page change, mark it so the
-    // container-level enter animation fires and pin the previous height
-    // to avoid layout jumps between pages of different card heights.
-    if (isPageChange) {
-      cards.classList.add("page-in");
-      var lockedH = state.__lockedHeight;
-      if (lockedH) {
-        cards.style.minHeight = lockedH + "px";
-        // Next two frames: measure natural height and animate min-height
-        requestAnimationFrame(function() {
-          requestAnimationFrame(function() {
-            var prev = cards.style.minHeight;
-            cards.style.minHeight = "";
-            var natural = cards.offsetHeight;
-            cards.style.minHeight = prev; // re-lock
-            requestAnimationFrame(function() {
-              cards.style.minHeight = natural + "px";
-            });
-            setTimeout(function() {
-              cards.style.minHeight = "";
-            }, 500);
-          });
-        });
+    // Pad the last page with invisible placeholders so the grid keeps
+    // the same height across pages — pager stays pinned in place.
+    if (totalPages > 1 && visible.length < PAGE_SIZE) {
+      var missing = PAGE_SIZE - visible.length;
+      for (var p = 0; p < missing; p++) {
+        var ph = createEl("div", "card-placeholder");
+        ph.setAttribute("aria-hidden", "true");
+        cards.appendChild(ph);
       }
-      state.__lockedHeight = null;
     }
+    if (isPageChange) cards.classList.add("page-in");
     main.appendChild(cards);
 
     if (totalPages > 1) {
       var pager = buildPager(totalPages, currentPage, function(newPage) {
         if (newPage === state[pageKey]) return;
-        // Animate existing cards out as a block, pin their height, then swap
+        // Animate existing cards out as a block, then swap
         var liveTitle = $("main-content").querySelector(".section-title." + className);
         var liveCards = liveTitle && liveTitle.nextElementSibling;
         if (liveCards && liveCards.classList.contains("cards")) {
-          state.__lockedHeight = liveCards.offsetHeight;
-          liveCards.style.minHeight = state.__lockedHeight + "px";
           liveCards.classList.add("exiting");
         }
         state.__pageChangeSection = className;
