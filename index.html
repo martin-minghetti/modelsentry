@@ -201,14 +201,14 @@ a:hover{color:var(--theme-ink)}
 @keyframes wordmark-rise{from{opacity:0;transform:translateY(100px)}to{opacity:1;transform:translateY(0)}}
 @keyframes header-drop{from{opacity:0;transform:translateY(-100%)}to{opacity:1;transform:translateY(0)}}
 @keyframes page-enter{from{opacity:0;transform:translateY(8px);filter:blur(6px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
-@keyframes card-page-in{from{opacity:0;transform:translateY(18px);filter:blur(4px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
-@keyframes card-page-out{from{opacity:1;transform:translateY(0);filter:blur(0)}to{opacity:0;transform:translateY(-12px);filter:blur(4px)}}
+@keyframes cards-page-in{from{opacity:0;transform:translateY(14px);filter:blur(4px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes cards-page-out{from{opacity:1;transform:translateY(0);filter:blur(0)}to{opacity:0;transform:translateY(-10px);filter:blur(4px)}}
 .reveal{animation:reveal-up 800ms cubic-bezier(0.22,1,0.36,1) both}
 .wordmark-enter{animation:wordmark-rise 1100ms cubic-bezier(0.22,1,0.36,1) both}
 .header-drop{animation:header-drop 500ms cubic-bezier(0.22,1,0.36,1) both}
 .page-enter{animation:page-enter 600ms cubic-bezier(0.22,1,0.36,1) both}
-.card.page-in{animation:card-page-in 450ms cubic-bezier(0.22,1,0.36,1) both}
-.cards.exiting > .card{animation:card-page-out 200ms cubic-bezier(0.4,0,0.2,1) both}
+.cards.page-in{animation:cards-page-in 400ms cubic-bezier(0.22,1,0.36,1) both}
+.cards.exiting{animation:cards-page-out 200ms cubic-bezier(0.4,0,0.2,1) both}
 
 /* Filters */
 .filters{
@@ -403,7 +403,14 @@ a:hover{color:var(--theme-ink)}
 }
 
 /* Cards */
-.cards{display:grid;gap:1rem;grid-template-columns:1fr}
+.cards{
+  display:grid;
+  gap:1rem;
+  grid-template-columns:1fr;
+  grid-auto-rows:1fr;
+  align-items:stretch;
+  transition:min-height 400ms cubic-bezier(0.22,1,0.36,1);
+}
 @media(min-width:768px){.cards{grid-template-columns:repeat(2,1fr)}}
 
 .card{
@@ -415,7 +422,10 @@ a:hover{color:var(--theme-ink)}
   backdrop-filter:blur(12px);
   -webkit-backdrop-filter:blur(12px);
   position:relative;
+  display:flex;
+  flex-direction:column;
 }
+.card .card-why{margin-top:auto}
 .card:hover{
   background:var(--theme-surface-raised);
   border-color:rgba(255,255,255,0.14);
@@ -968,9 +978,11 @@ a:hover{color:var(--theme-ink)}
   }
 
   function buildCard(item, index, pageChange) {
-    var animClass = pageChange ? " page-in" : " reveal";
+    // On initial load, stagger reveal per card. On page change the whole
+    // .cards block animates as one — no per-card animation.
+    var animClass = pageChange ? "" : " reveal";
     var card = createEl("div", "card " + item.category + animClass);
-    card.style.animationDelay = (pageChange ? Math.min(index * 60, 240) : Math.min(index * 40, 400)) + "ms";
+    if (!pageChange) card.style.animationDelay = Math.min(index * 40, 400) + "ms";
 
     var header = createEl("div", "card-header");
     var titleDiv = createEl("div", "card-title");
@@ -1092,23 +1104,49 @@ a:hover{color:var(--theme-ink)}
     for (var i = 0; i < visible.length; i++) {
       cards.appendChild(buildCard(visible[i], i, isPageChange));
     }
+    // If this render is the result of a page change, mark it so the
+    // container-level enter animation fires and pin the previous height
+    // to avoid layout jumps between pages of different card heights.
+    if (isPageChange) {
+      cards.classList.add("page-in");
+      var lockedH = state.__lockedHeight;
+      if (lockedH) {
+        cards.style.minHeight = lockedH + "px";
+        // Next two frames: measure natural height and animate min-height
+        requestAnimationFrame(function() {
+          requestAnimationFrame(function() {
+            var prev = cards.style.minHeight;
+            cards.style.minHeight = "";
+            var natural = cards.offsetHeight;
+            cards.style.minHeight = prev; // re-lock
+            requestAnimationFrame(function() {
+              cards.style.minHeight = natural + "px";
+            });
+            setTimeout(function() {
+              cards.style.minHeight = "";
+            }, 500);
+          });
+        });
+      }
+      state.__lockedHeight = null;
+    }
     main.appendChild(cards);
 
     if (totalPages > 1) {
       var pager = buildPager(totalPages, currentPage, function(newPage) {
         if (newPage === state[pageKey]) return;
-        // Animate existing cards out, then swap
+        // Animate existing cards out as a block, pin their height, then swap
         var liveTitle = $("main-content").querySelector(".section-title." + className);
         var liveCards = liveTitle && liveTitle.nextElementSibling;
         if (liveCards && liveCards.classList.contains("cards")) {
+          state.__lockedHeight = liveCards.offsetHeight;
+          liveCards.style.minHeight = state.__lockedHeight + "px";
           liveCards.classList.add("exiting");
         }
         state.__pageChangeSection = className;
         setTimeout(function() {
           state[pageKey] = newPage;
           render();
-          var newTitle = $("main-content").querySelector(".section-title." + className);
-          if (newTitle) newTitle.scrollIntoView({ behavior: "smooth", block: "start" });
         }, 200);
       });
       main.appendChild(pager);

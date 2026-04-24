@@ -1,18 +1,21 @@
 [
   {
-    "title": "Google Gemini API Pricing Update",
-    "summary": "The Google Gemini API pricing page has been updated, removing the previous mention of 'Gemini Deep Research' in preview and focusing on starting free with generous limits.",
+    "title": "Gemini Deep Research Now in Preview",
+    "summary": "Google Gemini's Deep Research feature is now available in preview, offering collaborative planning, visualization, and MCP support.",
     "category": "novedad",
     "entities": [
-      "Google Gemini API"
+      "Gemini",
+      "Deep Research",
+      "Google",
+      "MCP"
     ],
-    "event_type": "pricing_change",
+    "event_type": "release",
     "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a low-impact update to pricing page text, indicating a shift in how Gemini Deep Research is presented, possibly reflecting changes in its availability or offering.",
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new feature preview for a major AI model, indicating enhancements in collaborative and specialized research capabilities.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T03:57:11.588Z",
+    "published_at": "2026-04-24T04:04:11.839Z",
     "confidence": 0.9
   },
   {
