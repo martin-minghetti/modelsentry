@@ -6,6 +6,14 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini Pricing Page Updated with New Tier Information</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Fri, 24 Apr 2026 03:44:58 GMT</pubDate>
+      <description>The Google Gemini pricing page has been updated, detailing the Gemini Deep Research model&apos;s preview availability and outlining pricing tiers for the Gemini API. | Impact: low | Signal: positive | Why included: Website update regarding pricing and availability of a key model, providing transparency for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Anthropic Engineering Postmortem: Claude&apos;s 60-Minute Memory Bug</title>
       <link>https://www.aiuniverse.news/claudes-memory-lapse-a-bug-erased-its-reasoning-after-an-hour/</link>
       <guid>https://www.aiuniverse.news/claudes-memory-lapse-a-bug-erased-its-reasoning-after-an-hour/</guid>
@@ -28,6 +36,14 @@
       <pubDate>Fri, 24 Apr 2026 01:52:45 GMT</pubDate>
       <description>This blog post argues that traditional prompt engineering is becoming obsolete due to advancements in LLMs. It discusses how Claude, despite these changes, still benefits from structured prompting. | Impact: low | Signal: neutral | Why included: This is a low-impact item discussing a conceptual shift in AI interaction, providing commentary on Claude&apos;s role.</description>
       <category>novedad</category>
+    </item>
+    <item>
+      <title>Updates on Recent Claude Code Quality Reports</title>
+      <link>https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything</guid>
+      <pubDate>Fri, 24 Apr 2026 01:31:25 GMT</pubDate>
+      <description>There are new reports concerning the code quality of Anthropic&apos;s Claude model. | Impact: low | Signal: negative | Why included: Reports on code quality issues for a prominent model, indicating potential reliability concerns.</description>
+      <category>alerta</category>
     </item>
     <item>
       <title>AI GTM plugin for SEO and GEO in Claude Code</title>
@@ -132,14 +148,6 @@
       <pubDate>Thu, 23 Apr 2026 17:48:38 GMT</pubDate>
       <description>Anthropic has released a postmortem addressing recent quality reports for Claude Code. The update provides insights into issues encountered and steps being taken to improve the Claude Code product. | Impact: medium | Signal: positive | Why included: This is a medium-impact item as it&apos;s a direct update from Anthropic addressing quality issues, showing transparency and commitment to improvement.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>Google Gemini Pricing Update: Flex and Priority Inference Tiers</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Thu, 23 Apr 2026 09:16:16 GMT</pubDate>
-      <description>A diff alert on Google Gemini pricing indicates the introduction of Flex and Priority inference tiers, potentially affecting cost and availability for users of the Gemini API. | Impact: medium | Signal: neutral | Why included: Pricing updates for major AI models like Gemini are crucial for developers and businesses managing their AI infrastructure costs.</description>
-      <category>alerta</category>
     </item>
     <item>
       <title>Hackers breach Anthropic&apos;s &apos;too dangerous to release&apos; Mythos AI model</title>
@@ -395,14 +403,6 @@
       <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</guid>
       <pubDate>Mon, 20 Apr 2026 22:18:28 GMT</pubDate>
       <description>Claude Code version 2.1.116 introduces significant performance improvements for &apos;/resume&apos; on large sessions, faster MCP startup, smoother fullscreen scrolling in VS Code, Cursor, and Windsurf terminals, and an improved thinking spinner for inline progress. It also includes security enhancements, bug fixes for rendering and keyboard shortcuts, and improvements to slash command behavior and plugin dependency management. | Impact: low | Signal: positive | Why included: This is a significant update to a developer tool for a major LLM, introducing performance and security improvements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm-openrouter 0.6</title>
-      <link>https://simonwillison.net/2026/Apr/20/llm-openrouter/</link>
-      <guid>https://simonwillison.net/2026/Apr/20/llm-openrouter/</guid>
-      <pubDate>Mon, 20 Apr 2026 18:00:26 GMT</pubDate>
-      <description>An update to the llm-openrouter library to version 0.6 has been released. This likely includes improvements or changes to how LLMs are accessed via OpenRouter. | Impact: low | Signal: neutral | Why included: This is a library update relevant to accessing LLMs through a specific platform.</description>
       <category>novedad</category>
     </item>
   </channel>

@@ -1,5 +1,22 @@
 [
   {
+    "title": "Google Gemini Pricing Page Updated with New Tier Information",
+    "summary": "The Google Gemini pricing page has been updated, detailing the Gemini Deep Research model's preview availability and outlining pricing tiers for the Gemini API.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Gemini API"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Website update regarding pricing and availability of a key model, providing transparency for developers.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-24T03:44:58.577Z",
+    "confidence": 1
+  },
+  {
     "title": "Anthropic Engineering Postmortem: Claude's 60-Minute Memory Bug",
     "summary": "Anthropic has released an engineering postmortem detailing a bug that caused Claude's reasoning to be erased after approximately 60 minutes of conversation. The article discusses the nature of the bug and its impact on model performance.",
     "category": "alerta",
@@ -49,6 +66,23 @@
     "source_url": "https://blog.exe.dev/prompt-engineering-is-dead",
     "published_at": "2026-04-24T01:52:45.000Z",
     "confidence": 0.7
+  },
+  {
+    "title": "Updates on Recent Claude Code Quality Reports",
+    "summary": "There are new reports concerning the code quality of Anthropic's Claude model.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "Reports on code quality issues for a prominent model, indicating potential reliability concerns.",
+    "source_url": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+    "published_at": "2026-04-24T01:31:25.000Z",
+    "confidence": 1
   },
   {
     "title": "AI GTM plugin for SEO and GEO in Claude Code",
@@ -273,22 +307,6 @@
     "source_url": "https://www.anthropic.com/engineering/april-23-postmortem",
     "published_at": "2026-04-23T17:48:38.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Google Gemini Pricing Update: Flex and Priority Inference Tiers",
-    "summary": "A diff alert on Google Gemini pricing indicates the introduction of Flex and Priority inference tiers, potentially affecting cost and availability for users of the Gemini API.",
-    "category": "alerta",
-    "entities": [
-      "Google Gemini"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "Pricing updates for major AI models like Gemini are crucial for developers and businesses managing their AI infrastructure costs.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-23T09:16:16.108Z",
-    "confidence": 0.8
   },
   {
     "title": "Hackers breach Anthropic's 'too dangerous to release' Mythos AI model",
@@ -869,6 +887,24 @@
     "source_url": "https://simonwillison.net/2026/Apr/20/llm-openrouter/",
     "published_at": "2026-04-20T18:00:26.000Z",
     "confidence": 0.7
+  },
+  {
+    "title": "llm-openrouter 0.6 released",
+    "summary": "The llm-openrouter library has been updated to version 0.6.",
+    "category": "novedad",
+    "entities": [
+      "llm-openrouter"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.6"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "SDK update for a popular LLM interaction library, indicating ongoing development.",
+    "source_url": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
+    "published_at": "2026-04-20T18:00:26.000Z",
+    "confidence": 1
   },
   {
     "title": "Anthropic Claude Code Leak Reveals Critical Command Injection Vulnerabilities",
