@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T04:04:19.788Z",
+  "generated_at": "2026-04-24T04:06:34.594Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2026-04-24",
   "weekly": [
@@ -73,7 +73,7 @@
       "week": "Apr 20",
       "week_start": "2026-04-20",
       "alerts": 26,
-      "updates": 44
+      "updates": 45
     }
   ],
   "providers": [
@@ -85,9 +85,9 @@
     },
     {
       "provider": "Google",
-      "count": 26,
+      "count": 27,
       "alerts": 9,
-      "updates": 17
+      "updates": 18
     },
     {
       "provider": "OpenAI",
@@ -109,11 +109,11 @@
     }
   ],
   "totals": {
-    "unique_events": 249,
-    "last_30_days": 219,
+    "unique_events": 250,
+    "last_30_days": 220,
     "sources": {
       "rss": 231,
-      "diff_pages": 18
+      "diff_pages": 19
     }
   }
 }
