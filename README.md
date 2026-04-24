@@ -97,17 +97,34 @@ flowchart TD
 
 ## Dashboard Features
 
-The dashboard is a single static HTML file — no JavaScript frameworks, no build step, no external dependencies.
+The dashboard is a single static HTML file — no JavaScript frameworks, no build step. Fonts (Inter + Funnel Display) loaded from Google Fonts; everything else self-hosted, CSP-hardened.
 
 | Feature | What it shows |
 |---------|--------------|
-| **Weekly Timeline** | 12-week stacked bar chart. Blue = updates, red = alerts. Pre-computed server-side to avoid timezone bugs. Zero-activity weeks shown as empty slots. |
+| **Weekly Timeline** | 12-week stacked bar chart. Sky blue = updates, rose = alerts. Pre-computed server-side to avoid timezone bugs. Zero-activity weeks shown as empty slots. |
 | **Provider Activity** | Horizontal bars showing which providers are moving fastest in the last 30 days. Entity aliases normalized (e.g. "Claude Code", "Anthropic SDK" both count as Anthropic). |
-| **Card Feed** | Filterable by category (alerts/updates), impact (high/medium/low), and entity. Each card links to the original source. |
+| **Card Feed** | Filterable by category (alerts/updates), impact (high/medium/low), and entity. Paginated 4-per-page with animated block transitions. Each card links to the original source. |
+| **Keyboard Nav** | `←` / `→` paginate the last-interacted section. `Esc` closes the About dialog. |
 | **Source Health** | Green/red dots for every RSS feed and diff-watched page. Know immediately if a source went down. |
 | **RSS Feed** | Subscribe in any reader. Same data, delivered to your workflow. |
 
 The timeline and provider panels show global data from `stats.json` — they are not affected by the card filters.
+
+---
+
+## Design System
+
+The dashboard borrows its visual language from [Festear](https://festear.com), a separate project with a documented style guide — refs: **Linear** (tight hierarchy, heavy whitespace, micro-interactions) and **Dia** (minimal palette, calm gradients, precise type).
+
+| Token | Value |
+|-------|-------|
+| **Palette** | Ocean + Sunset — deep sky `#0369a1→#0ea5e9` + warm peach `#f97316→#fdba74` as ambient blur blobs; dark neutral surface `#0a0a0a` |
+| **Type** | Funnel Display (display, tracking -0.04em) + Inter (sans) |
+| **Cards** | 20px radius, translucent surface + 12px backdrop-blur, line-clamped content for consistent height |
+| **Pagination** | 4 items per page, fixed-slot pager (9 slots, 36px each) — no horizontal shift, no vertical drift |
+| **Transitions** | Block-level fade + slide + blur 200ms out / 400ms in. Reveal stagger only on initial load. |
+
+Semantic colors (impact/signal/health) stay in a classic red-amber-green-sky family regardless of the ambient palette.
 
 ---
 
@@ -188,7 +205,7 @@ npm test
 | **Testing** | Vitest (159 tests) | Fast, ESM-native, watch mode |
 | **CI/CD** | GitHub Actions | Free for public repos, runs the daily scan + deploys dashboard |
 | **Hosting** | GitHub Pages | Free static hosting, auto-deployed from `gh-pages` branch |
-| **Dashboard** | Vanilla HTML/CSS/JS | Zero dependencies, single file, CSP hardened, Lighthouse 100/94/96/100 |
+| **Dashboard** | Vanilla HTML/CSS/JS + Google Fonts | Single file, no framework, no build. CSP hardened, Lighthouse 100/94/96/100 |
 
 ---
 
@@ -199,6 +216,9 @@ Cost. Gemini Flash-Lite is free for this volume. The task is classification + ex
 
 **Why a single HTML file instead of React/Next.js?**\
 The dashboard is read-only, loads 3 JSON files, and renders cards. A framework would add build complexity for zero user benefit. The single file deploys instantly to GitHub Pages.
+
+**Why pull the design from Festear instead of a component library?**\
+Festear already has a documented style guide (Linear + Dia refs, token system, tone matrix). Reusing it here meant one source of truth for "how my things look" across unrelated projects, and a calmer look than the default shadcn/Grafana dashboard aesthetic.
 
 **Why NDJSON archive instead of a database?**\
 The archive is append-only, grows ~5 MB/year, and lives in git. No database to manage, no migrations, no hosting. `git log` is the audit trail.
