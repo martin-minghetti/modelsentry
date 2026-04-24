@@ -6,6 +6,134 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Anthropic Engineering Postmortem: Claude&apos;s 60-Minute Memory Bug</title>
+      <link>https://www.aiuniverse.news/claudes-memory-lapse-a-bug-erased-its-reasoning-after-an-hour/</link>
+      <guid>https://www.aiuniverse.news/claudes-memory-lapse-a-bug-erased-its-reasoning-after-an-hour/</guid>
+      <pubDate>Fri, 24 Apr 2026 03:09:12 GMT</pubDate>
+      <description>Anthropic has released an engineering postmortem detailing a bug that caused Claude&apos;s reasoning to be erased after approximately 60 minutes of conversation. The article discusses the nature of the bug and its impact on model performance. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to a significant bug affecting a major LLM, potentially impacting user experience and trust.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Opus 4.6 was nerfed prior to release of Opus 4.7</title>
+      <link>https://twitter.com/levelsio/status/2047387029915271445</link>
+      <guid>https://twitter.com/levelsio/status/2047387029915271445</guid>
+      <pubDate>Fri, 24 Apr 2026 03:00:29 GMT</pubDate>
+      <description>A user claims that Claude Opus 4.6 was intentionally &apos;nerfed&apos; (performance reduced) before the release of Opus 4.7. This suggests potential manipulation of model performance for marketing or other undisclosed reasons. | Impact: medium | Signal: negative | Why included: This suggests potential model performance manipulation, which is a medium-impact concern for user trust and expectation setting.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Prompt engineering is dead, but Claude still tries</title>
+      <link>https://blog.exe.dev/prompt-engineering-is-dead</link>
+      <guid>https://blog.exe.dev/prompt-engineering-is-dead</guid>
+      <pubDate>Fri, 24 Apr 2026 01:52:45 GMT</pubDate>
+      <description>This blog post argues that traditional prompt engineering is becoming obsolete due to advancements in LLMs. It discusses how Claude, despite these changes, still benefits from structured prompting. | Impact: low | Signal: neutral | Why included: This is a low-impact item discussing a conceptual shift in AI interaction, providing commentary on Claude&apos;s role.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>AI GTM plugin for SEO and GEO in Claude Code</title>
+      <link>https://github.com/zhizdev/overgrow</link>
+      <guid>https://github.com/zhizdev/overgrow</guid>
+      <pubDate>Fri, 24 Apr 2026 01:13:28 GMT</pubDate>
+      <description>A GitHub repository showcases an AI GTM plugin designed for SEO and GEO functionalities within Claude Code. This project integrates AI capabilities for business development. | Impact: low | Signal: positive | Why included: This is a low-impact item, but it indicates the development of new tools and plugins for Claude Code, showing ecosystem growth.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic reaches $1T valuation on secondary markets</title>
+      <link>https://qz.com/anthropic-trillion-dollar-valuation-secondary-markets-openai-052626</link>
+      <guid>https://qz.com/anthropic-trillion-dollar-valuation-secondary-markets-openai-052626</guid>
+      <pubDate>Thu, 23 Apr 2026 22:57:20 GMT</pubDate>
+      <description>Anthropic has reportedly reached a $1 trillion valuation on secondary markets, indicating significant investor confidence and growth in the company. This valuation reflects its strong position in the AI industry. | Impact: medium | Signal: positive | Why included: This is a medium-impact item as a $1T valuation is a significant financial milestone, reflecting the company&apos;s industry standing and potential.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Releases GPT-5.5</title>
+      <link>https://techthreedots.com/openai-launches-gpt-5-5-its-smartest-model-yet</link>
+      <guid>https://techthreedots.com/openai-launches-gpt-5-5-its-smartest-model-yet</guid>
+      <pubDate>Thu, 23 Apr 2026 22:53:07 GMT</pubDate>
+      <description>OpenAI has launched GPT-5.5, described as its smartest model yet. This new release is expected to bring enhanced capabilities and performance. | Impact: medium | Signal: positive | Why included: This is a medium-impact item as a new model release from OpenAI is a significant event in the LLM industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code channels not available for Personal Max plan</title>
+      <link>https://twitter.com/pranay01/status/2047444399114932548</link>
+      <guid>https://twitter.com/pranay01/status/2047444399114932548</guid>
+      <pubDate>Thu, 23 Apr 2026 22:36:29 GMT</pubDate>
+      <description>Users with the Claude Personal Max plan are reporting that Claude Code channels are not available to them. This could be a limitation or a temporary issue affecting certain subscription tiers. | Impact: medium | Signal: negative | Why included: This is a medium-impact alert as it indicates a potential feature restriction for a specific user tier, affecting accessibility.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Built-in memory for Claude Managed Agents</title>
+      <link>https://claude.com/blog/claude-managed-agents-memory</link>
+      <guid>https://claude.com/blog/claude-managed-agents-memory</guid>
+      <pubDate>Thu, 23 Apr 2026 21:51:31 GMT</pubDate>
+      <description>Anthropic has introduced built-in memory functionality for Claude Managed Agents. This enhancement aims to improve agent performance by allowing them to retain context across conversations. | Impact: medium | Signal: positive | Why included: This is a medium-impact release detailing a significant feature improvement for Claude&apos;s agent capabilities, enhancing their usefulness.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Made of Language by Claude</title>
+      <link>https://byclaude.net/book</link>
+      <guid>https://byclaude.net/book</guid>
+      <pubDate>Thu, 23 Apr 2026 21:05:57 GMT</pubDate>
+      <description>A new book titled &apos;Made of Language&apos; has been released, created by Claude. This indicates Claude&apos;s capabilities in content generation and creative writing. | Impact: low | Signal: positive | Why included: This is a low-impact item, but it shows Claude&apos;s ability to generate creative content like a book.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Unauthorized Discord group gained access to Anthropic&apos;s Mythos model</title>
+      <link>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</link>
+      <guid>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</guid>
+      <pubDate>Thu, 23 Apr 2026 20:44:24 GMT</pubDate>
+      <description>An unauthorized Discord group reportedly gained access to Anthropic&apos;s Mythos model, a cybersecurity tool. This incident raises security concerns regarding access control and potential misuse of sensitive AI models. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to a security breach involving unauthorized access to a specialized AI model, raising significant security concerns.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic&apos;s Claude Desktop App Installs Undisclosed Native Messaging Bridge</title>
+      <link>https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a</link>
+      <guid>https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a</guid>
+      <pubDate>Thu, 23 Apr 2026 19:43:08 GMT</pubDate>
+      <description>A security analysis claims that Anthropic&apos;s Claude desktop app installs an undisclosed native messaging bridge, raising privacy and security concerns. This could allow for unauthorized data access or communication. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to security and privacy concerns related to an undisclosed messaging bridge installed by the Claude desktop app.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Opus is not available with the Claude Pro plan</title>
+      <link>https://code.claude.com/docs/en/errors</link>
+      <guid>https://code.claude.com/docs/en/errors</guid>
+      <pubDate>Thu, 23 Apr 2026 19:14:23 GMT</pubDate>
+      <description>It has been noted that Claude Opus is not accessible to users on the Claude Pro plan. This indicates a potential tiering of features or a misunderstanding of Claude&apos;s service offerings. | Impact: medium | Signal: negative | Why included: This is a medium-impact alert as it suggests a potential limitation or discrepancy in feature availability for a paid plan, impacting user expectations.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Show HN: TeamFuse – Dev team built on distributed Claude Code agents</title>
+      <link>https://github.com/agentdmai/teamfuse</link>
+      <guid>https://github.com/agentdmai/teamfuse</guid>
+      <pubDate>Thu, 23 Apr 2026 19:12:48 GMT</pubDate>
+      <description>TeamFuse is an open-source project that utilizes distributed Claude Code agents to form a simulated development team. This showcases advanced agent coordination and automation. | Impact: low | Signal: positive | Why included: This is a low-impact item, but it demonstrates innovative use cases for Claude Code agents in complex team simulations.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I built a fitness app in 7 days with no eng background, using Claude as CTO</title>
+      <link>https://pacenotes.run</link>
+      <guid>https://pacenotes.run</guid>
+      <pubDate>Thu, 23 Apr 2026 18:56:26 GMT</pubDate>
+      <description>A user details how they built a fitness app in just 7 days with no prior engineering background, leveraging Claude as a virtual CTO. This highlights Claude&apos;s utility for rapid prototyping and non-technical users. | Impact: low | Signal: positive | Why included: This is a low-impact item showcasing Claude&apos;s empowering capabilities for rapid app development, even for those without technical backgrounds.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI&apos;s better approach to CyberSecurity compared to Anthropic</title>
+      <link>https://xbow.com/blog/democratizing-cyber-capabilities</link>
+      <guid>https://xbow.com/blog/democratizing-cyber-capabilities</guid>
+      <pubDate>Thu, 23 Apr 2026 18:48:04 GMT</pubDate>
+      <description>This article compares OpenAI&apos;s cybersecurity approach to Anthropic&apos;s, suggesting OpenAI has a more effective strategy. It touches upon AI security practices and company policies. | Impact: low | Signal: neutral | Why included: This is a low-impact item providing a comparative analysis of security approaches between two major AI players.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>An update on recent Claude Code quality reports</title>
+      <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+      <guid>https://www.anthropic.com/engineering/april-23-postmortem</guid>
+      <pubDate>Thu, 23 Apr 2026 17:48:38 GMT</pubDate>
+      <description>Anthropic has released a postmortem addressing recent quality reports for Claude Code. The update provides insights into issues encountered and steps being taken to improve the Claude Code product. | Impact: medium | Signal: positive | Why included: This is a medium-impact item as it&apos;s a direct update from Anthropic addressing quality issues, showing transparency and commitment to improvement.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Google Gemini Pricing Update: Flex and Priority Inference Tiers</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -214,19 +342,19 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Unauthorized group has gained access to Anthropic&apos;s exclusive cyber tool Mythos</title>
-      <link>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</link>
-      <guid>https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/</guid>
-      <pubDate>Wed, 22 Apr 2026 00:15:41 GMT</pubDate>
-      <description>Multiple reports indicate that an unauthorized group accessed Anthropic&apos;s exclusive cyber tool, Mythos. This raises serious security concerns and highlights potential vulnerabilities in sensitive AI tools. | Impact: high | Signal: negative | Why included: This is a high-impact security alert regarding unauthorized access to a specialized AI tool, indicating potential risks.</description>
-      <category>alerta</category>
-    </item>
-    <item>
       <title>Submit your startup profile with Claude or ChatGPT. 60 seconds or less</title>
       <link>https://www.startuphub.ai/agents/submit</link>
       <guid>https://www.startuphub.ai/agents/submit</guid>
       <pubDate>Wed, 22 Apr 2026 00:13:49 GMT</pubDate>
       <description>A tool is available that uses Claude or ChatGPT to help submit startup profiles in under 60 seconds. This showcases the application of LLMs in streamlining business processes. | Impact: low | Signal: positive | Why included: This demonstrates a practical application of LLMs in automating business processes, relevant to AI adoption.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Introducing OpenAI Privacy Filter</title>
+      <link>https://openai.com/index/introducing-openai-privacy-filter</link>
+      <guid>https://openai.com/index/introducing-openai-privacy-filter</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI has released an open-weight model called Privacy Filter designed to detect and redact personally identifiable information (PII) from text. This tool aims to enhance data privacy and security in AI applications. | Impact: medium | Signal: positive | Why included: This is a medium-impact release of a new model focused on privacy, which is a significant concern in the AI industry.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -275,134 +403,6 @@
       <guid>https://simonwillison.net/2026/Apr/20/llm-openrouter/</guid>
       <pubDate>Mon, 20 Apr 2026 18:00:26 GMT</pubDate>
       <description>An update to the llm-openrouter library to version 0.6 has been released. This likely includes improvements or changes to how LLMs are accessed via OpenRouter. | Impact: low | Signal: neutral | Why included: This is a library update relevant to accessing LLMs through a specific platform.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Claude Code Leak Reveals Critical Command Injection Vulnerabilities</title>
-      <link>https://beyondmachines.net/event_details/anthropic-claude-code-leak-reveals-critical-command-injection-vulnerabilities-e-6-c-1-k/gD2P6Ple2L</link>
-      <guid>https://beyondmachines.net/event_details/anthropic-claude-code-leak-reveals-critical-command-injection-vulnerabilities-e-6-c-1-k/gD2P6Ple2L</guid>
-      <pubDate>Mon, 20 Apr 2026 07:20:38 GMT</pubDate>
-      <description>A leak of Anthropic&apos;s Claude Code has exposed critical command injection vulnerabilities within the system. | Impact: high | Signal: negative | Why included: A security vulnerability in a major LLM model is a high-impact event.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>LLM-Rosetta - Translate LLM API Calls Across OpenAI, Anthropic, Gemini</title>
-      <link>https://github.com/Oaklight/llm-rosetta</link>
-      <guid>https://github.com/Oaklight/llm-rosetta</guid>
-      <pubDate>Mon, 20 Apr 2026 07:05:33 GMT</pubDate>
-      <description>A new tool, LLM-Rosetta, has been developed to translate LLM API calls between different providers like OpenAI, Anthropic, and Gemini, aiming to simplify adapter maintenance. | Impact: medium | Signal: positive | Why included: A new tool simplifying API integration across major LLM providers is a notable development in the ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Executive Kevin Weil Is Leaving the Company</title>
-      <link>https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/</link>
-      <guid>https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/</guid>
-      <pubDate>Mon, 20 Apr 2026 07:01:56 GMT</pubDate>
-      <description>OpenAI executive Kevin Weil is departing the company. | Impact: low | Signal: neutral | Why included: Executive departures at major AI companies can sometimes signal shifts in strategy or focus, though this is a low-impact event on its own.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The LLM costs are not going up</title>
-      <link>https://simianwords.bearblog.dev/conclusive-proofs-that-llm-costs-are-going-down/</link>
-      <guid>https://simianwords.bearblog.dev/conclusive-proofs-that-llm-costs-are-going-down/</guid>
-      <pubDate>Mon, 20 Apr 2026 05:30:00 GMT</pubDate>
-      <description>An article argues that LLM costs are actually decreasing, contrary to potential assumptions. | Impact: medium | Signal: positive | Why included: Information about LLM cost trends is crucial for understanding market dynamics and adoption rates.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>NSA using Anthropic&apos;s Mythos despite blacklist</title>
-      <link>https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</link>
-      <guid>https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</guid>
-      <pubDate>Mon, 20 Apr 2026 05:05:13 GMT</pubDate>
-      <description>The NSA is reportedly using Anthropic&apos;s Mythos, despite the model being blacklisted. | Impact: medium | Signal: negative | Why included: The use of a blacklisted model by a government agency raises security and compliance concerns.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic installed a spyware bridge on my machine?</title>
-      <link>https://www.thatprivacyguy.com/blog/anthropic-spyware/</link>
-      <guid>https://www.thatprivacyguy.com/blog/anthropic-spyware/</guid>
-      <pubDate>Mon, 20 Apr 2026 02:41:50 GMT</pubDate>
-      <description>A user alleges that Anthropic installed a &apos;spyware bridge&apos; on their machine. | Impact: high | Signal: negative | Why included: Allegations of spyware from a major AI company are a serious security concern.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude Token Counter, now with model comparisons</title>
-      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/</link>
-      <guid>https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
-      <pubDate>Mon, 20 Apr 2026 00:56:40 GMT</pubDate>
-      <description>A Claude token counter tool has been updated to include comparisons across different models. | Impact: medium | Signal: positive | Why included: A tool that facilitates model comparison for token usage is useful for developers optimizing costs and performance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Token Counter, now with model comparisons</title>
-      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything</guid>
-      <pubDate>Mon, 20 Apr 2026 00:50:45 GMT</pubDate>
-      <description>The Claude Token Counter tool has been updated to include comparisons between different Claude models. | Impact: low | Signal: positive | Why included: This is a useful tool update for developers working with Claude, providing added functionality for model comparison.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI helps Hyatt advance AI among colleagues</title>
-      <link>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</link>
-      <guid>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description>Hyatt is deploying ChatGPT Enterprise across its global workforce, leveraging GPT-5.4 and Codex to enhance productivity, streamline operations, and improve guest experiences. | Impact: medium | Signal: positive | Why included: This signifies a major enterprise adoption of OpenAI&apos;s technology, indicating real-world business value and market penetration.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Banned by Anthropic?</title>
-      <link>https://bannedbyanthropic.com/</link>
-      <guid>https://bannedbyanthropic.com/</guid>
-      <pubDate>Sun, 19 Apr 2026 22:33:31 GMT</pubDate>
-      <description>A website appears to list users who have been banned by Anthropic. | Impact: low | Signal: neutral | Why included: Information about platform bans can be relevant for users interacting with AI services.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude UI Feature Request</title>
-      <link>https://news.ycombinator.com/item?id=47828154</link>
-      <guid>https://news.ycombinator.com/item?id=47828154</guid>
-      <pubDate>Sun, 19 Apr 2026 22:20:17 GMT</pubDate>
-      <description>A user suggests adding tagging functionality to the Claude UI to improve conversation searching and organization. | Impact: low | Signal: positive | Why included: User feedback on UI improvements for major LLMs is relevant for product development and user experience.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>What Anthropic&apos;s Mythos and Project Glasswing Mean for Your Apple Devices</title>
-      <link>https://tidbits.com/2026/04/09/what-anthropics-mythos-and-project-glasswing-mean-for-your-apple-devices/</link>
-      <guid>https://tidbits.com/2026/04/09/what-anthropics-mythos-and-project-glasswing-mean-for-your-apple-devices/</guid>
-      <pubDate>Sun, 19 Apr 2026 20:09:03 GMT</pubDate>
-      <description>An analysis explores the implications of Anthropic&apos;s Mythos and Project Glasswing for Apple devices. | Impact: medium | Signal: neutral | Why included: New developments from Anthropic impacting major hardware platforms like Apple are of significant interest.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Lmcli v0.5.0 – A useable tool for LLM minimalists</title>
-      <link>https://codeberg.org/mlow/lmcli</link>
-      <guid>https://codeberg.org/mlow/lmcli</guid>
-      <pubDate>Sun, 19 Apr 2026 19:58:05 GMT</pubDate>
-      <description>Lmcli v0.5.0 has been released, described as a usable tool for LLM minimalists, now featuring image support. | Impact: medium | Signal: positive | Why included: A new version of an LLM tool with added image support is a relevant update for developers working with LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude is skeptical about OpenClaw</title>
-      <link>https://wecreatethis.com/blog/post?slug=claude-is-skeptical-about-openclaw</link>
-      <guid>https://wecreatethis.com/blog/post?slug=claude-is-skeptical-about-openclaw</guid>
-      <pubDate>Sun, 19 Apr 2026 08:25:24 GMT</pubDate>
-      <description>This blog post discusses Claude&apos;s perceived skepticism towards a technology or project named OpenClaw. | Impact: low | Signal: neutral | Why included: This item is relevant as it mentions Claude, a prominent LLM, in the context of a discussion about another technology.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Android 15&apos;s hidden Linux Terminal is a real Debian VM – and it runs Claude Code</title>
-      <link>https://github.com/JoJa84/Codefone</link>
-      <guid>https://github.com/JoJa84/Codefone</guid>
-      <pubDate>Sun, 19 Apr 2026 07:10:54 GMT</pubDate>
-      <description>Android 15 includes a hidden Linux Terminal that functions as a Debian VM and can run Claude Code. | Impact: medium | Signal: positive | Why included: This is relevant as it showcases the integration of LLM code (Claude Code) within a mobile operating system&apos;s terminal, indicating broader application and accessibility.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Fuelgauge – a Claude Code status line that doesn&apos;t need Node</title>
-      <link>https://github.com/adityaarakeri/fuelgauge</link>
-      <guid>https://github.com/adityaarakeri/fuelgauge</guid>
-      <pubDate>Sun, 19 Apr 2026 06:07:04 GMT</pubDate>
-      <description>A new tool called Fuelgauge provides a Claude Code status line that operates without requiring Node.js. | Impact: medium | Signal: positive | Why included: This is relevant as it&apos;s a new tool for Claude Code, indicating ecosystem development and improved developer experience.</description>
       <category>novedad</category>
     </item>
   </channel>

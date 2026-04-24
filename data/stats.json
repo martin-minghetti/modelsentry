@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-23T09:16:30.542Z",
+  "generated_at": "2026-04-24T03:19:34.896Z",
   "coverage_start": "2019-03-11",
-  "coverage_end": "2026-04-23",
+  "coverage_end": "2026-04-24",
   "weekly": [
     {
       "week": "Feb 2",
@@ -72,28 +72,28 @@
     {
       "week": "Apr 20",
       "week_start": "2026-04-20",
-      "alerts": 19,
-      "updates": 28
+      "alerts": 25,
+      "updates": 39
     }
   ],
   "providers": [
     {
       "provider": "Anthropic",
-      "count": 140,
-      "alerts": 44,
-      "updates": 96
+      "count": 154,
+      "alerts": 50,
+      "updates": 104
+    },
+    {
+      "provider": "OpenAI",
+      "count": 23,
+      "alerts": 3,
+      "updates": 20
     },
     {
       "provider": "Google",
       "count": 22,
       "alerts": 9,
       "updates": 13
-    },
-    {
-      "provider": "OpenAI",
-      "count": 21,
-      "alerts": 3,
-      "updates": 18
     },
     {
       "provider": "Other",
@@ -109,10 +109,10 @@
     }
   ],
   "totals": {
-    "unique_events": 225,
-    "last_30_days": 197,
+    "unique_events": 243,
+    "last_30_days": 213,
     "sources": {
-      "rss": 211,
+      "rss": 229,
       "diff_pages": 14
     }
   }
