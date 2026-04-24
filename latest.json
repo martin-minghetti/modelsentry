@@ -1,5 +1,280 @@
 [
   {
+    "title": "Anthropic Engineering Postmortem: Claude's 60-Minute Memory Bug",
+    "summary": "Anthropic has released an engineering postmortem detailing a bug that caused Claude's reasoning to be erased after approximately 60 minutes of conversation. The article discusses the nature of the bug and its impact on model performance.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "60-Minute"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to a significant bug affecting a major LLM, potentially impacting user experience and trust.",
+    "source_url": "https://www.aiuniverse.news/claudes-memory-lapse-a-bug-erased-its-reasoning-after-an-hour/",
+    "published_at": "2026-04-24T03:09:12.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 4.6 was nerfed prior to release of Opus 4.7",
+    "summary": "A user claims that Claude Opus 4.6 was intentionally 'nerfed' (performance reduced) before the release of Opus 4.7. This suggests potential manipulation of model performance for marketing or other undisclosed reasons.",
+    "category": "alerta",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This suggests potential model performance manipulation, which is a medium-impact concern for user trust and expectation setting.",
+    "source_url": "https://twitter.com/levelsio/status/2047387029915271445",
+    "published_at": "2026-04-24T03:00:29.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Prompt engineering is dead, but Claude still tries",
+    "summary": "This blog post argues that traditional prompt engineering is becoming obsolete due to advancements in LLMs. It discusses how Claude, despite these changes, still benefits from structured prompting.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact item discussing a conceptual shift in AI interaction, providing commentary on Claude's role.",
+    "source_url": "https://blog.exe.dev/prompt-engineering-is-dead",
+    "published_at": "2026-04-24T01:52:45.000Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "AI GTM plugin for SEO and GEO in Claude Code",
+    "summary": "A GitHub repository showcases an AI GTM plugin designed for SEO and GEO functionalities within Claude Code. This project integrates AI capabilities for business development.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a low-impact item, but it indicates the development of new tools and plugins for Claude Code, showing ecosystem growth.",
+    "source_url": "https://github.com/zhizdev/overgrow",
+    "published_at": "2026-04-24T01:13:28.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic reaches $1T valuation on secondary markets",
+    "summary": "Anthropic has reportedly reached a $1 trillion valuation on secondary markets, indicating significant investor confidence and growth in the company. This valuation reflects its strong position in the AI industry.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "$1T"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact item as a $1T valuation is a significant financial milestone, reflecting the company's industry standing and potential.",
+    "source_url": "https://qz.com/anthropic-trillion-dollar-valuation-secondary-markets-openai-052626",
+    "published_at": "2026-04-23T22:57:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Releases GPT-5.5",
+    "summary": "OpenAI has launched GPT-5.5, described as its smartest model yet. This new release is expected to bring enhanced capabilities and performance.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "GPT-5.5"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact item as a new model release from OpenAI is a significant event in the LLM industry.",
+    "source_url": "https://techthreedots.com/openai-launches-gpt-5-5-its-smartest-model-yet",
+    "published_at": "2026-04-23T22:53:07.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code channels not available for Personal Max plan",
+    "summary": "Users with the Claude Personal Max plan are reporting that Claude Code channels are not available to them. This could be a limitation or a temporary issue affecting certain subscription tiers.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Claude Personal Max"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is a medium-impact alert as it indicates a potential feature restriction for a specific user tier, affecting accessibility.",
+    "source_url": "https://twitter.com/pranay01/status/2047444399114932548",
+    "published_at": "2026-04-23T22:36:29.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Built-in memory for Claude Managed Agents",
+    "summary": "Anthropic has introduced built-in memory functionality for Claude Managed Agents. This enhancement aims to improve agent performance by allowing them to retain context across conversations.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Managed Agents"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact release detailing a significant feature improvement for Claude's agent capabilities, enhancing their usefulness.",
+    "source_url": "https://claude.com/blog/claude-managed-agents-memory",
+    "published_at": "2026-04-23T21:51:31.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Made of Language by Claude",
+    "summary": "A new book titled 'Made of Language' has been released, created by Claude. This indicates Claude's capabilities in content generation and creative writing.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a low-impact item, but it shows Claude's ability to generate creative content like a book.",
+    "source_url": "https://byclaude.net/book",
+    "published_at": "2026-04-23T21:05:57.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Unauthorized Discord group gained access to Anthropic's Mythos model",
+    "summary": "An unauthorized Discord group reportedly gained access to Anthropic's Mythos model, a cybersecurity tool. This incident raises security concerns regarding access control and potential misuse of sensitive AI models.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Mythos"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to a security breach involving unauthorized access to a specialized AI model, raising significant security concerns.",
+    "source_url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+    "published_at": "2026-04-23T20:44:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's Claude Desktop App Installs Undisclosed Native Messaging Bridge",
+    "summary": "A security analysis claims that Anthropic's Claude desktop app installs an undisclosed native messaging bridge, raising privacy and security concerns. This could allow for unauthorized data access or communication.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Desktop App"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to security and privacy concerns related to an undisclosed messaging bridge installed by the Claude desktop app.",
+    "source_url": "https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a",
+    "published_at": "2026-04-23T19:43:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus is not available with the Claude Pro plan",
+    "summary": "It has been noted that Claude Opus is not accessible to users on the Claude Pro plan. This indicates a potential tiering of features or a misunderstanding of Claude's service offerings.",
+    "category": "alerta",
+    "entities": [
+      "Claude Opus",
+      "Claude Pro"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is a medium-impact alert as it suggests a potential limitation or discrepancy in feature availability for a paid plan, impacting user expectations.",
+    "source_url": "https://code.claude.com/docs/en/errors",
+    "published_at": "2026-04-23T19:14:23.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: TeamFuse – Dev team built on distributed Claude Code agents",
+    "summary": "TeamFuse is an open-source project that utilizes distributed Claude Code agents to form a simulated development team. This showcases advanced agent coordination and automation.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "TeamFuse"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "5"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a low-impact item, but it demonstrates innovative use cases for Claude Code agents in complex team simulations.",
+    "source_url": "https://github.com/agentdmai/teamfuse",
+    "published_at": "2026-04-23T19:12:48.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I built a fitness app in 7 days with no eng background, using Claude as CTO",
+    "summary": "A user details how they built a fitness app in just 7 days with no prior engineering background, leveraging Claude as a virtual CTO. This highlights Claude's utility for rapid prototyping and non-technical users.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "7",
+      "days"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a low-impact item showcasing Claude's empowering capabilities for rapid app development, even for those without technical backgrounds.",
+    "source_url": "https://pacenotes.run",
+    "published_at": "2026-04-23T18:56:26.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI's better approach to CyberSecurity compared to Anthropic",
+    "summary": "This article compares OpenAI's cybersecurity approach to Anthropic's, suggesting OpenAI has a more effective strategy. It touches upon AI security practices and company policies.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact item providing a comparative analysis of security approaches between two major AI players.",
+    "source_url": "https://xbow.com/blog/democratizing-cyber-capabilities",
+    "published_at": "2026-04-23T18:48:04.000Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "summary": "Anthropic has released a postmortem addressing recent quality reports for Claude Code. The update provides insights into issues encountered and steps being taken to improve the Claude Code product.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact item as it's a direct update from Anthropic addressing quality issues, showing transparency and commitment to improvement.",
+    "source_url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "published_at": "2026-04-23T17:48:38.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Google Gemini Pricing Update: Flex and Priority Inference Tiers",
     "summary": "A diff alert on Google Gemini pricing indicates the introduction of Flex and Priority inference tiers, potentially affecting cost and availability for users of the Gemini API.",
     "category": "alerta",
@@ -450,23 +725,6 @@
     "confidence": 0.8
   },
   {
-    "title": "Unauthorized group has gained access to Anthropic's exclusive cyber tool Mythos",
-    "summary": "Multiple reports indicate that an unauthorized group accessed Anthropic's exclusive cyber tool, Mythos. This raises serious security concerns and highlights potential vulnerabilities in sensitive AI tools.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Mythos"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This is a high-impact security alert regarding unauthorized access to a specialized AI tool, indicating potential risks.",
-    "source_url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
-    "published_at": "2026-04-22T00:15:41.000Z",
-    "confidence": 0.9
-  },
-  {
     "title": "Submit your startup profile with Claude or ChatGPT. 60 seconds or less",
     "summary": "A tool is available that uses Claude or ChatGPT to help submit startup profiles in under 60 seconds. This showcases the application of LLMs in streamlining business processes.",
     "category": "novedad",
@@ -484,6 +742,22 @@
     "source_url": "https://www.startuphub.ai/agents/submit",
     "published_at": "2026-04-22T00:13:49.000Z",
     "confidence": 0.7
+  },
+  {
+    "title": "Introducing OpenAI Privacy Filter",
+    "summary": "OpenAI has released an open-weight model called Privacy Filter designed to detect and redact personally identifiable information (PII) from text. This tool aims to enhance data privacy and security in AI applications.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact release of a new model focused on privacy, which is a significant concern in the AI industry.",
+    "source_url": "https://openai.com/index/introducing-openai-privacy-filter",
+    "published_at": "2026-04-22T00:00:00.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Claude Code is no longer a part of the Pro plan",
@@ -3153,22 +3427,6 @@
     "why_included": "Google is releasing a new music generation model, Lyria 3, expanding its capabilities in creative AI.",
     "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
     "published_at": "2026-03-25T16:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Launches Safety Bug Bounty Program",
-    "summary": "OpenAI is launching a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities and prompt injection.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "OpenAI is proactively addressing AI safety by launching a bug bounty program, demonstrating a commitment to identifying and mitigating potential risks.",
-    "source_url": "https://openai.com/index/safety-bug-bounty",
-    "published_at": "2026-03-25T00:00:00.000Z",
     "confidence": 0.9
   }
 ]
