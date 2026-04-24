@@ -1,5 +1,61 @@
 [
   {
+    "title": "Claude can now connect to lifestyle apps like Spotify, Instacart and AllTrails",
+    "summary": "Anthropic's Claude AI model has gained the ability to integrate with popular lifestyle applications, enhancing its utility for users.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Spotify",
+      "Instacart",
+      "AllTrails",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This expands the capabilities and potential use cases of the Claude model.",
+    "source_url": "https://www.engadget.com/ai/claude-can-now-connect-to-lifestyle-apps-like-spotify-instacart-and-alltrails-225510552.html",
+    "published_at": "2026-04-24T07:45:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Doby – Spec-first fix workflow for Claude Code that cuts navigation tokens by 95%",
+    "summary": "Doby is a new workflow tool for Claude Code that significantly reduces navigation tokens, potentially improving efficiency and cost.",
+    "category": "novedad",
+    "entities": [
+      "Doby",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "95%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A significant improvement in token efficiency for a major LLM's coding capabilities.",
+    "source_url": "https://github.com/changmyoungkim/doby",
+    "published_at": "2026-04-24T06:19:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI deprecates all GPT nano fine tuning",
+    "summary": "OpenAI is deprecating all GPT nano fine-tuning, signaling a shift in their model development or support strategy.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "GPT"
+    ],
+    "event_type": "deprecation",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Deprecation of a fine-tuning capability can impact developers relying on it.",
+    "source_url": "https://community.openai.com/t/deprecation-of-fine-tuned-models-but-still-cant-access-newer-ones/1379550",
+    "published_at": "2026-04-24T05:09:20.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Gemini Deep Research available in preview with new features",
     "summary": "Google Gemini's Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support.",
     "category": "novedad",
