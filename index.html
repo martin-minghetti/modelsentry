@@ -560,9 +560,10 @@ a:hover{color:var(--theme-ink)}
   background:var(--theme-surface);
   border:1px solid var(--theme-line);
   color:var(--theme-ink-muted);
+  width:36px;
   min-width:36px;
   height:36px;
-  padding:0 0.75rem;
+  padding:0;
   border-radius:999px;
   font-size:0.82rem;
   font-weight:500;
@@ -574,11 +575,22 @@ a:hover{color:var(--theme-ink)}
   display:inline-flex;
   align-items:center;
   justify-content:center;
+  flex-shrink:0;
 }
 .pager-btn:hover:not(:disabled){border-color:rgba(255,255,255,0.22);color:var(--theme-ink);background:var(--theme-surface-raised)}
 .pager-btn:disabled{opacity:0.35;cursor:not-allowed}
 .pager-btn.active{background:var(--theme-invert);border-color:var(--theme-invert);color:var(--theme-invert-ink);font-weight:600}
-.pager-ellipsis{color:var(--theme-ink-faint);font-size:0.82rem;padding:0 0.2rem}
+.pager-ellipsis{
+  color:var(--theme-ink-faint);
+  font-size:0.82rem;
+  width:36px;
+  min-width:36px;
+  height:36px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
 
 /* Empty state / loading / error */
 .empty{
@@ -1059,6 +1071,30 @@ a:hover{color:var(--theme-ink)}
     });
   }
 
+  function computePagerSlots(totalPages, currentPage) {
+    // Always return exactly 7 slots (numbers or "…") so the pager width
+    // stays constant across pages. 2 chevrons outside → 9 slots total.
+    var SLOTS = 7;
+
+    if (totalPages <= SLOTS) {
+      var arr = [];
+      for (var p = 1; p <= totalPages; p++) arr.push(p);
+      while (arr.length < SLOTS) arr.push(null); // invisible filler
+      return arr;
+    }
+
+    // Near start: [1, 2, 3, 4, 5, …, last]
+    if (currentPage <= 4) {
+      return [1, 2, 3, 4, 5, "…", totalPages];
+    }
+    // Near end: [1, …, last-4, last-3, last-2, last-1, last]
+    if (currentPage >= totalPages - 3) {
+      return [1, "…", totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+    }
+    // Middle: [1, …, curr-1, curr, curr+1, …, last]
+    return [1, "…", currentPage - 1, currentPage, currentPage + 1, "…", totalPages];
+  }
+
   function buildPager(totalPages, currentPage, onChange) {
     var pager = createEl("div", "pager");
 
@@ -1073,23 +1109,15 @@ a:hover{color:var(--theme-ink)}
 
     pager.appendChild(pageBtn("‹", currentPage - 1, { disabled: currentPage <= 1 }));
 
-    // Compact numeric pager: show 1, ..., current-1, current, current+1, ..., last
-    var pages = [];
-    if (totalPages <= 7) {
-      for (var p = 1; p <= totalPages; p++) pages.push(p);
-    } else {
-      pages.push(1);
-      if (currentPage > 3) pages.push("…");
-      var start = Math.max(2, currentPage - 1);
-      var end = Math.min(totalPages - 1, currentPage + 1);
-      for (var n = start; n <= end; n++) pages.push(n);
-      if (currentPage < totalPages - 2) pages.push("…");
-      pages.push(totalPages);
-    }
-
-    for (var i = 0; i < pages.length; i++) {
-      var item = pages[i];
-      if (item === "…") {
+    var slots = computePagerSlots(totalPages, currentPage);
+    for (var i = 0; i < slots.length; i++) {
+      var item = slots[i];
+      if (item === null) {
+        // Invisible placeholder — keeps width constant when totalPages < 7
+        var ph = createEl("span", "pager-ellipsis");
+        ph.style.visibility = "hidden";
+        pager.appendChild(ph);
+      } else if (item === "…") {
         pager.appendChild(createEl("span", "pager-ellipsis", "…"));
       } else {
         pager.appendChild(pageBtn(String(item), item, { active: item === currentPage }));
