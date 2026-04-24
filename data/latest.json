@@ -1,19 +1,38 @@
 [
   {
-    "title": "Google Gemini API Pricing Update: 'Deep Research' Tier Now in Preview",
-    "summary": "Google has updated Gemini API pricing, introducing a preview of the 'Deep Research' tier with collaboration planning, visualization, and MCP support.",
+    "title": "Gemini Deep Research available in preview with new features",
+    "summary": "Google Gemini's Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support.",
     "category": "novedad",
     "entities": [
-      "Google Gemini API",
+      "Google Gemini",
+      "Deep Research",
       "MCP"
     ],
-    "event_type": "pricing_change",
+    "event_type": "release",
     "key_numbers": [],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "A pricing update and new tier for the Gemini API, including advanced features, is significant for developers and researchers.",
+    "why_included": "This is a preview release of a significant feature for Gemini, enhancing its capabilities in planning and collaboration.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T04:11:54.809Z",
+    "published_at": "2026-04-24T04:25:49.170Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic tested removing Claude Code from the Pro plan",
+    "summary": "Anthropic reportedly tested removing access to Claude Code from its Pro plan, a move that could impact users relying on this feature for coding assistance.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Code",
+      "Pro plan"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This news suggests a potential change in Anthropic's product offering, which could affect pricing or feature availability for users.",
+    "source_url": "https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/",
+    "published_at": "2026-04-24T04:24:07.000Z",
     "confidence": 0.9
   },
   {

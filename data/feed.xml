@@ -6,12 +6,20 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini API Pricing Update: &apos;Deep Research&apos; Tier Now in Preview</title>
+      <title>Gemini Deep Research available in preview with new features</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 24 Apr 2026 04:11:54 GMT</pubDate>
-      <description>Google has updated Gemini API pricing, introducing a preview of the &apos;Deep Research&apos; tier with collaboration planning, visualization, and MCP support. | Impact: medium | Signal: positive | Why included: A pricing update and new tier for the Gemini API, including advanced features, is significant for developers and researchers.</description>
+      <pubDate>Fri, 24 Apr 2026 04:25:49 GMT</pubDate>
+      <description>Google Gemini&apos;s Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support. | Impact: medium | Signal: positive | Why included: This is a preview release of a significant feature for Gemini, enhancing its capabilities in planning and collaboration.</description>
       <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic tested removing Claude Code from the Pro plan</title>
+      <link>https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/</link>
+      <guid>https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/</guid>
+      <pubDate>Fri, 24 Apr 2026 04:24:07 GMT</pubDate>
+      <description>Anthropic reportedly tested removing access to Claude Code from its Pro plan, a move that could impact users relying on this feature for coding assistance. | Impact: medium | Signal: negative | Why included: This news suggests a potential change in Anthropic&apos;s product offering, which could affect pricing or feature availability for users.</description>
+      <category>alerta</category>
     </item>
     <item>
       <title>Anthropic Engineering Postmortem: Claude&apos;s 60-Minute Memory Bug</title>
@@ -395,14 +403,6 @@
       <guid>https://openai.com/index/scaling-codex-to-enterprises-worldwide</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description>OpenAI has launched Codex Labs and partnered with major consulting firms to facilitate enterprise adoption of Codex. The product has also reached 4 million weekly active users, indicating significant market traction. | Impact: medium | Signal: positive | Why included: This indicates a significant partnership and milestone for OpenAI&apos;s enterprise offerings, signaling strong market adoption.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.116 Release Notes</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</guid>
-      <pubDate>Mon, 20 Apr 2026 22:18:28 GMT</pubDate>
-      <description>Claude Code version 2.1.116 introduces significant performance improvements for &apos;/resume&apos; on large sessions, faster MCP startup, smoother fullscreen scrolling in VS Code, Cursor, and Windsurf terminals, and an improved thinking spinner for inline progress. It also includes security enhancements, bug fixes for rendering and keyboard shortcuts, and improvements to slash command behavior and plugin dependency management. | Impact: low | Signal: positive | Why included: This is a significant update to a developer tool for a major LLM, introducing performance and security improvements.</description>
       <category>novedad</category>
     </item>
   </channel>
