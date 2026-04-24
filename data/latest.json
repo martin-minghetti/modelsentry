@@ -1,21 +1,20 @@
 [
   {
-    "title": "Google Gemini API pricing page updated with 'Deep Research' feature and new tiers.",
-    "summary": "Google has updated its Gemini API pricing page, introducing the 'Deep Research' feature in beta and detailing new pricing tiers for 'Free', 'Paid', and 'Enterprise' usage. The update clarifies access levels to models and features.",
+    "title": "Google Gemini API Pricing Update: 'Deep Research' Tier Now in Preview",
+    "summary": "Google has updated Gemini API pricing, introducing a preview of the 'Deep Research' tier with collaboration planning, visualization, and MCP support.",
     "category": "novedad",
     "entities": [
       "Google Gemini API",
-      "Deep Research",
-      "Gemini API"
+      "MCP"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is an update to an API's pricing and feature availability, indicating changes in how developers can access and utilize Gemini's capabilities.",
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A pricing update and new tier for the Gemini API, including advanced features, is significant for developers and researchers.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T04:06:26.195Z",
-    "confidence": 0.8
+    "published_at": "2026-04-24T04:11:54.809Z",
+    "confidence": 0.9
   },
   {
     "title": "Anthropic Engineering Postmortem: Claude's 60-Minute Memory Bug",
