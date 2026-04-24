@@ -28,12 +28,12 @@
   --ambient-2:linear-gradient(135deg,#ff6b35 0%,#ff4d6d 100%);
   --ambient-opacity:0.22;
 
-  /* Semantic */
-  --red:#ff6a5e;
+  /* Semantic — coral + violet pulled from ambient gradient */
+  --red:#ff7a5c;
   --orange:#e8a93a;
   --green:#4dd18a;
-  --blue:#7aa2ff;
-  --purple:#c39dff;
+  --blue:#a78bff;
+  --purple:#a78bff;
 
   --font-sans:'Inter','SF Pro Text',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   --font-display:'Funnel Display','Inter',sans-serif;
@@ -210,35 +210,37 @@ a:hover{color:var(--theme-ink)}
 .filters{
   max-width:1200px;
   margin:0 auto;
-  padding:0.5rem 1.5rem 1.25rem;
+  padding:0.75rem 1.5rem 1.5rem;
   display:flex;
   flex-wrap:wrap;
   align-items:center;
-  gap:0.75rem 1.25rem;
+  gap:0.9rem 1.75rem;
 }
-.filter-group{display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap}
+.filter-group{display:flex;align-items:center;gap:0.55rem;flex-wrap:wrap}
 .filter-group>label{
-  font-size:0.68rem;
+  font-size:0.72rem;
   color:var(--theme-ink-faint);
   text-transform:uppercase;
-  letter-spacing:0.08em;
-  margin-right:0.25rem;
+  letter-spacing:0.14em;
+  margin-right:0.4rem;
   font-weight:500;
 }
 .filter-btn{
   background:transparent;
   border:1px solid var(--theme-line);
   color:var(--theme-ink-muted);
-  padding:0.35rem 0.85rem;
+  padding:0.6rem 1.2rem;
   border-radius:999px;
-  font-size:0.75rem;
-  font-weight:500;
+  font-size:0.88rem;
+  font-weight:400;
+  letter-spacing:-0.01em;
   cursor:pointer;
   transition:all 0.15s;
   font-family:inherit;
+  line-height:1;
 }
 .filter-btn:hover{border-color:rgba(255,255,255,0.22);color:var(--theme-ink)}
-.filter-btn.active{background:var(--theme-invert);border-color:var(--theme-invert);color:var(--theme-invert-ink)}
+.filter-btn.active{background:var(--theme-invert);border-color:var(--theme-invert);color:var(--theme-invert-ink);font-weight:500}
 .filter-btn.active[data-impact="high"]{background:var(--red);border-color:var(--red);color:#fff}
 .filter-btn.active[data-impact="medium"]{background:var(--orange);border-color:var(--orange);color:#0a0a0a}
 .filter-btn.active[data-impact="low"]{background:var(--green);border-color:var(--green);color:#0a0a0a}
@@ -247,13 +249,14 @@ a:hover{color:var(--theme-ink)}
   background:var(--theme-surface);
   border:1px solid var(--theme-line);
   color:var(--theme-ink-muted);
-  padding:0.35rem 0.75rem;
+  padding:0.55rem 0.95rem;
   border-radius:999px;
-  font-size:0.75rem;
+  font-size:0.88rem;
   font-family:inherit;
   cursor:pointer;
-  min-width:130px;
+  min-width:140px;
   backdrop-filter:blur(12px);
+  line-height:1;
 }
 .filter-select:focus{border-color:rgba(255,255,255,0.25);outline:none;color:var(--theme-ink)}
 
@@ -374,7 +377,7 @@ a:hover{color:var(--theme-ink)}
   height:10px;
   border-radius:50%;
   background:var(--red);
-  box-shadow:0 0 16px rgba(255,106,94,0.6);
+  box-shadow:0 0 16px rgba(255,122,92,0.55);
   transform:translateY(-1px);
 }
 .section-title.novedades::before{
@@ -384,7 +387,7 @@ a:hover{color:var(--theme-ink)}
   height:10px;
   border-radius:50%;
   background:var(--blue);
-  box-shadow:0 0 16px rgba(122,162,255,0.6);
+  box-shadow:0 0 16px rgba(167,139,255,0.55);
   transform:translateY(-1px);
 }
 .section-title .count{
@@ -450,7 +453,7 @@ a:hover{color:var(--theme-ink)}
   letter-spacing:0.01em;
   border:1px solid transparent;
 }
-.badge-impact-high{background:rgba(255,106,94,0.1);color:var(--red);border-color:rgba(255,106,94,0.22)}
+.badge-impact-high{background:rgba(255,122,92,0.1);color:var(--red);border-color:rgba(255,122,92,0.22)}
 .badge-impact-medium{background:rgba(232,169,58,0.1);color:var(--orange);border-color:rgba(232,169,58,0.22)}
 .badge-impact-low{background:rgba(77,209,138,0.1);color:var(--green);border-color:rgba(77,209,138,0.22)}
 .badge-entity{background:rgba(255,255,255,0.04);color:var(--theme-ink-muted);border-color:var(--theme-line)}
@@ -507,7 +510,29 @@ a:hover{color:var(--theme-ink)}
   flex-shrink:0;
 }
 .health-dot.ok{background:var(--green);box-shadow:0 0 8px rgba(77,209,138,0.5)}
-.health-dot.fail{background:var(--red);box-shadow:0 0 8px rgba(255,106,94,0.5)}
+.health-dot.fail{background:var(--red);box-shadow:0 0 8px rgba(255,122,92,0.5)}
+
+/* Show-more button */
+.show-more-wrap{
+  display:flex;
+  justify-content:center;
+  margin:1.25rem 0 0.5rem;
+}
+.show-more{
+  background:var(--theme-surface);
+  border:1px solid var(--theme-line);
+  color:var(--theme-ink-muted);
+  padding:0.6rem 1.25rem;
+  border-radius:999px;
+  font-size:0.82rem;
+  font-weight:500;
+  cursor:pointer;
+  font-family:inherit;
+  transition:border-color 0.15s,color 0.15s,background 0.15s;
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+}
+.show-more:hover{border-color:rgba(255,255,255,0.22);color:var(--theme-ink);background:var(--theme-surface-raised)}
 
 /* Empty state / loading / error */
 .empty{
@@ -538,8 +563,8 @@ a:hover{color:var(--theme-ink)}
   margin:1rem auto;
   padding:0.8rem 1.2rem;
   border-radius:14px;
-  background:rgba(255,106,94,0.08);
-  border:1px solid rgba(255,106,94,0.22);
+  background:rgba(255,122,92,0.08);
+  border:1px solid rgba(255,122,92,0.22);
   color:var(--red);
   font-size:0.85rem;
 }
@@ -674,7 +699,7 @@ a:hover{color:var(--theme-ink)}
   min-width:130px;
   backdrop-filter:blur(8px);
 }
-.flow-node.primary{border-color:rgba(122,162,255,0.3);color:var(--blue);font-weight:500}
+.flow-node.primary{border-color:rgba(167,139,255,0.3);color:var(--blue);font-weight:500}
 .flow-node.output{border-color:rgba(77,209,138,0.3);color:var(--green);font-weight:500}
 .flow-node small{
   display:block;
@@ -893,12 +918,16 @@ a:hover{color:var(--theme-ink)}
 (function() {
   "use strict";
 
+  var DEFAULT_LIMIT = 12;
+
   var state = {
     items: [],
     meta: null,
     filterCategory: "all",
     filterImpact: "all",
-    filterEntity: "all"
+    filterEntity: "all",
+    showAllAlertas: false,
+    showAllNovedades: false
   };
 
   var signalIcons = { positive: "▲", negative: "▼", neutral: "●" };
@@ -981,6 +1010,40 @@ a:hover{color:var(--theme-ink)}
     });
   }
 
+  function renderSection(main, className, label, items, showAllKey, emptyMsg) {
+    var title = createEl("h2", "section-title " + className);
+    title.appendChild(document.createTextNode(label));
+    title.appendChild(createEl("span", "count", "(" + items.length + ")"));
+    main.appendChild(title);
+
+    if (items.length === 0) {
+      main.appendChild(createEl("div", "empty", emptyMsg));
+      return;
+    }
+
+    var showAll = state[showAllKey];
+    var visible = showAll ? items : items.slice(0, DEFAULT_LIMIT);
+    var hidden = items.length - visible.length;
+
+    var cards = createEl("div", "cards");
+    for (var i = 0; i < visible.length; i++) {
+      cards.appendChild(buildCard(visible[i], i));
+    }
+    main.appendChild(cards);
+
+    if (items.length > DEFAULT_LIMIT) {
+      var wrap = createEl("div", "show-more-wrap");
+      var btn = createEl("button", "show-more", showAll ? "Show less" : "Show all (" + items.length + ")");
+      btn.type = "button";
+      btn.addEventListener("click", function() {
+        state[showAllKey] = !state[showAllKey];
+        render();
+      });
+      wrap.appendChild(btn);
+      main.appendChild(wrap);
+    }
+  }
+
   function render() {
     var main = $("main-content");
     main.textContent = "";
@@ -989,37 +1052,8 @@ a:hover{color:var(--theme-ink)}
     var alertas = filtered.filter(function(i) { return i.category === "alerta"; });
     var novedades = filtered.filter(function(i) { return i.category === "novedad"; });
 
-    // Alerts section
-    var alertTitle = createEl("h2", "section-title alertas");
-    alertTitle.appendChild(document.createTextNode("Alerts"));
-    alertTitle.appendChild(createEl("span", "count", "(" + alertas.length + ")"));
-    main.appendChild(alertTitle);
-
-    if (alertas.length === 0) {
-      main.appendChild(createEl("div", "empty", "No alerts match the current filters."));
-    } else {
-      var alertCards = createEl("div", "cards");
-      for (var a = 0; a < alertas.length; a++) {
-        alertCards.appendChild(buildCard(alertas[a], a));
-      }
-      main.appendChild(alertCards);
-    }
-
-    // Updates section
-    var novTitle = createEl("h2", "section-title novedades");
-    novTitle.appendChild(document.createTextNode("Updates"));
-    novTitle.appendChild(createEl("span", "count", "(" + novedades.length + ")"));
-    main.appendChild(novTitle);
-
-    if (novedades.length === 0) {
-      main.appendChild(createEl("div", "empty", "No updates match the current filters."));
-    } else {
-      var novCards = createEl("div", "cards");
-      for (var n = 0; n < novedades.length; n++) {
-        novCards.appendChild(buildCard(novedades[n], n));
-      }
-      main.appendChild(novCards);
-    }
+    renderSection(main, "alertas", "Alerts", alertas, "showAllAlertas", "No alerts match the current filters.");
+    renderSection(main, "novedades", "Updates", novedades, "showAllNovedades", "No updates match the current filters.");
 
     // Source health panel
     if (state.meta) {
