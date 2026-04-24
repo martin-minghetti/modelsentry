@@ -914,6 +914,9 @@ a:hover{color:var(--theme-ink)}
       <li>Done &mdash; your dashboard appears at <code>https://&lt;user&gt;.github.io/modelsentry/</code></li>
     </ol>
 
+    <h3>Keyboard</h3>
+    <p>Press <code>←</code> or <code>→</code> to paginate through the last-interacted section. <code>Esc</code> closes this dialog.</p>
+
     <h3>Tech Stack</h3>
     <p>TypeScript, Node.js, Vitest, rss-parser, cheerio, Gemini API, GitHub Actions, GitHub Pages. No databases, no servers, no costs.</p>
 
@@ -1107,7 +1110,9 @@ a:hover{color:var(--theme-ink)}
       return b;
     }
 
-    pager.appendChild(pageBtn("‹", currentPage - 1, { disabled: currentPage <= 1 }));
+    var prevBtn = pageBtn("‹", currentPage - 1, { disabled: currentPage <= 1 });
+    prevBtn.title = "Previous page (←)";
+    pager.appendChild(prevBtn);
 
     var slots = computePagerSlots(totalPages, currentPage);
     for (var i = 0; i < slots.length; i++) {
@@ -1124,7 +1129,9 @@ a:hover{color:var(--theme-ink)}
       }
     }
 
-    pager.appendChild(pageBtn("›", currentPage + 1, { disabled: currentPage >= totalPages }));
+    var nextBtn = pageBtn("›", currentPage + 1, { disabled: currentPage >= totalPages });
+    nextBtn.title = "Next page (→)";
+    pager.appendChild(nextBtn);
     return pager;
   }
 
@@ -1169,6 +1176,7 @@ a:hover{color:var(--theme-ink)}
     if (totalPages > 1) {
       var pager = buildPager(totalPages, currentPage, function(newPage) {
         if (newPage === state[pageKey]) return;
+        state.__focusedSection = className; // remember for arrow-key nav
         // Animate existing cards out as a block, then swap
         var liveTitle = $("main-content").querySelector(".section-title." + className);
         var liveCards = liveTitle && liveTitle.nextElementSibling;
@@ -1433,6 +1441,38 @@ a:hover{color:var(--theme-ink)}
   });
   document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") modal.classList.remove("open");
+  });
+
+  // Keyboard paginator nav: ← / → move the last-interacted section
+  document.addEventListener("keydown", function(e) {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    // Ignore when typing in inputs / textareas / selects / contenteditable
+    var t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable)) return;
+    // Ignore when the modal is open
+    if (modal.classList.contains("open")) return;
+
+    var section = state.__focusedSection || "alertas";
+    var pageKey = section === "alertas" ? "pageAlertas" : "pageNovedades";
+    var filtered = getFilteredItems();
+    var items = filtered.filter(function(i) { return i.category === (section === "alertas" ? "alerta" : "novedad"); });
+    var totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+    var curr = state[pageKey] || 1;
+    var next = e.key === "ArrowLeft" ? curr - 1 : curr + 1;
+    if (next < 1 || next > totalPages || next === curr) return;
+    e.preventDefault();
+
+    // Trigger the same animated swap a pager click would do
+    var liveTitle = $("main-content").querySelector(".section-title." + section);
+    var liveCards = liveTitle && liveTitle.nextElementSibling;
+    if (liveCards && liveCards.classList.contains("cards")) {
+      liveCards.classList.add("exiting");
+    }
+    state.__pageChangeSection = section;
+    setTimeout(function() {
+      state[pageKey] = next;
+      render();
+    }, 200);
   });
 
   init();
