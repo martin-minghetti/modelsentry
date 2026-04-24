@@ -201,10 +201,14 @@ a:hover{color:var(--theme-ink)}
 @keyframes wordmark-rise{from{opacity:0;transform:translateY(100px)}to{opacity:1;transform:translateY(0)}}
 @keyframes header-drop{from{opacity:0;transform:translateY(-100%)}to{opacity:1;transform:translateY(0)}}
 @keyframes page-enter{from{opacity:0;transform:translateY(8px);filter:blur(6px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes card-page-in{from{opacity:0;transform:translateY(18px);filter:blur(4px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes card-page-out{from{opacity:1;transform:translateY(0);filter:blur(0)}to{opacity:0;transform:translateY(-12px);filter:blur(4px)}}
 .reveal{animation:reveal-up 800ms cubic-bezier(0.22,1,0.36,1) both}
 .wordmark-enter{animation:wordmark-rise 1100ms cubic-bezier(0.22,1,0.36,1) both}
 .header-drop{animation:header-drop 500ms cubic-bezier(0.22,1,0.36,1) both}
 .page-enter{animation:page-enter 600ms cubic-bezier(0.22,1,0.36,1) both}
+.card.page-in{animation:card-page-in 450ms cubic-bezier(0.22,1,0.36,1) both}
+.cards.exiting > .card{animation:card-page-out 200ms cubic-bezier(0.4,0,0.2,1) both}
 
 /* Filters */
 .filters{
@@ -963,9 +967,10 @@ a:hover{color:var(--theme-ink)}
     return createEl("span", "badge " + className, text);
   }
 
-  function buildCard(item, index) {
-    var card = createEl("div", "card " + item.category + " reveal");
-    card.style.animationDelay = Math.min(index * 40, 400) + "ms";
+  function buildCard(item, index, pageChange) {
+    var animClass = pageChange ? " page-in" : " reveal";
+    var card = createEl("div", "card " + item.category + animClass);
+    card.style.animationDelay = (pageChange ? Math.min(index * 60, 240) : Math.min(index * 40, 400)) + "ms";
 
     var header = createEl("div", "card-header");
     var titleDiv = createEl("div", "card-title");
@@ -1080,19 +1085,31 @@ a:hover{color:var(--theme-ink)}
     var startIdx = (currentPage - 1) * PAGE_SIZE;
     var visible = items.slice(startIdx, startIdx + PAGE_SIZE);
 
+    var isPageChange = state.__pageChangeSection === className;
+    if (isPageChange) state.__pageChangeSection = null; // consume flag
+
     var cards = createEl("div", "cards");
     for (var i = 0; i < visible.length; i++) {
-      cards.appendChild(buildCard(visible[i], i));
+      cards.appendChild(buildCard(visible[i], i, isPageChange));
     }
     main.appendChild(cards);
 
     if (totalPages > 1) {
       var pager = buildPager(totalPages, currentPage, function(newPage) {
-        state[pageKey] = newPage;
-        render();
-        // Scroll section title back into view so the user doesn't lose context
-        var titleEl = main.querySelector(".section-title." + className);
-        if (titleEl) titleEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (newPage === state[pageKey]) return;
+        // Animate existing cards out, then swap
+        var liveTitle = $("main-content").querySelector(".section-title." + className);
+        var liveCards = liveTitle && liveTitle.nextElementSibling;
+        if (liveCards && liveCards.classList.contains("cards")) {
+          liveCards.classList.add("exiting");
+        }
+        state.__pageChangeSection = className;
+        setTimeout(function() {
+          state[pageKey] = newPage;
+          render();
+          var newTitle = $("main-content").querySelector(".section-title." + className);
+          if (newTitle) newTitle.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 200);
       });
       main.appendChild(pager);
     }
