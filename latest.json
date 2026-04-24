@@ -1,21 +1,19 @@
 [
   {
-    "title": "Google Gemini pricing page updated",
-    "summary": "Google's Gemini API pricing page has been updated, with new details on Gemini Deep Research availability and tiered pricing structures.",
+    "title": "Google Gemini API Pricing Update",
+    "summary": "The Google Gemini API pricing page has been updated, removing the previous mention of 'Gemini Deep Research' in preview and focusing on starting free with generous limits.",
     "category": "novedad",
     "entities": [
-      "Google",
-      "Gemini API",
-      "Gemini Deep Research"
+      "Google Gemini API"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
-    "signal": "positive",
+    "signal": "neutral",
     "impact": "low",
-    "why_included": "Update to pricing page indicates changes in service availability and cost structure.",
+    "why_included": "This is a low-impact update to pricing page text, indicating a shift in how Gemini Deep Research is presented, possibly reflecting changes in its availability or offering.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T03:51:08.312Z",
-    "confidence": 1
+    "published_at": "2026-04-24T03:57:11.588Z",
+    "confidence": 0.9
   },
   {
     "title": "Anthropic Engineering Postmortem: Claude's 60-Minute Memory Bug",
