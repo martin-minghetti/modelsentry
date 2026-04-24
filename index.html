@@ -24,16 +24,16 @@
   --theme-invert:#f8f8f8;
   --theme-invert-ink:#0a0a0a;
 
-  --ambient-1:linear-gradient(135deg,#4a5bff 0%,#8b5cff 100%);
-  --ambient-2:linear-gradient(135deg,#ff6b35 0%,#ff4d6d 100%);
+  --ambient-1:linear-gradient(135deg,#06b6d4 0%,#22d3ee 100%);
+  --ambient-2:linear-gradient(135deg,#ec4899 0%,#d946ef 100%);
   --ambient-opacity:0.22;
 
-  /* Semantic — coral + violet pulled from ambient gradient */
-  --red:#ff7a5c;
-  --orange:#e8a93a;
-  --green:#4dd18a;
-  --blue:#a78bff;
-  --purple:#a78bff;
+  /* Semantic — cyan + magenta pulled from ambient gradient */
+  --red:#f472b6;
+  --orange:#f59e0b;
+  --green:#34d399;
+  --blue:#22d3ee;
+  --purple:#22d3ee;
 
   --font-sans:'Inter','SF Pro Text',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   --font-display:'Funnel Display','Inter',sans-serif;
@@ -241,9 +241,9 @@ a:hover{color:var(--theme-ink)}
 }
 .filter-btn:hover{border-color:rgba(255,255,255,0.22);color:var(--theme-ink)}
 .filter-btn.active{background:var(--theme-invert);border-color:var(--theme-invert);color:var(--theme-invert-ink);font-weight:500}
-.filter-btn.active[data-impact="high"]{background:var(--red);border-color:var(--red);color:#fff}
-.filter-btn.active[data-impact="medium"]{background:var(--orange);border-color:var(--orange);color:#0a0a0a}
-.filter-btn.active[data-impact="low"]{background:var(--green);border-color:var(--green);color:#0a0a0a}
+.filter-btn.active[data-impact="high"]{background:rgba(244,114,182,0.12);border-color:rgba(244,114,182,0.4);color:var(--red);font-weight:500}
+.filter-btn.active[data-impact="medium"]{background:rgba(245,158,11,0.12);border-color:rgba(245,158,11,0.4);color:var(--orange);font-weight:500}
+.filter-btn.active[data-impact="low"]{background:rgba(52,211,153,0.12);border-color:rgba(52,211,153,0.4);color:var(--green);font-weight:500}
 
 .filter-select{
   background:var(--theme-surface);
@@ -377,7 +377,7 @@ a:hover{color:var(--theme-ink)}
   height:10px;
   border-radius:50%;
   background:var(--red);
-  box-shadow:0 0 16px rgba(255,122,92,0.55);
+  box-shadow:0 0 16px rgba(244,114,182,0.55);
   transform:translateY(-1px);
 }
 .section-title.novedades::before{
@@ -387,7 +387,7 @@ a:hover{color:var(--theme-ink)}
   height:10px;
   border-radius:50%;
   background:var(--blue);
-  box-shadow:0 0 16px rgba(167,139,255,0.55);
+  box-shadow:0 0 16px rgba(34,211,238,0.55);
   transform:translateY(-1px);
 }
 .section-title .count{
@@ -453,9 +453,9 @@ a:hover{color:var(--theme-ink)}
   letter-spacing:0.01em;
   border:1px solid transparent;
 }
-.badge-impact-high{background:rgba(255,122,92,0.1);color:var(--red);border-color:rgba(255,122,92,0.22)}
-.badge-impact-medium{background:rgba(232,169,58,0.1);color:var(--orange);border-color:rgba(232,169,58,0.22)}
-.badge-impact-low{background:rgba(77,209,138,0.1);color:var(--green);border-color:rgba(77,209,138,0.22)}
+.badge-impact-high{background:rgba(244,114,182,0.1);color:var(--red);border-color:rgba(244,114,182,0.22)}
+.badge-impact-medium{background:rgba(245,158,11,0.1);color:var(--orange);border-color:rgba(245,158,11,0.22)}
+.badge-impact-low{background:rgba(52,211,153,0.1);color:var(--green);border-color:rgba(52,211,153,0.22)}
 .badge-entity{background:rgba(255,255,255,0.04);color:var(--theme-ink-muted);border-color:var(--theme-line)}
 .badge-event{background:rgba(255,255,255,0.04);color:var(--theme-ink-muted);border-color:var(--theme-line);font-family:'SF Mono','Monaco','Consolas',monospace;font-size:0.66rem}
 .badge-signal{
@@ -509,8 +509,8 @@ a:hover{color:var(--theme-ink)}
   border-radius:50%;
   flex-shrink:0;
 }
-.health-dot.ok{background:var(--green);box-shadow:0 0 8px rgba(77,209,138,0.5)}
-.health-dot.fail{background:var(--red);box-shadow:0 0 8px rgba(255,122,92,0.5)}
+.health-dot.ok{background:var(--green);box-shadow:0 0 8px rgba(52,211,153,0.5)}
+.health-dot.fail{background:var(--red);box-shadow:0 0 8px rgba(244,114,182,0.5)}
 
 /* Show-more button */
 .show-more-wrap{
@@ -563,8 +563,8 @@ a:hover{color:var(--theme-ink)}
   margin:1rem auto;
   padding:0.8rem 1.2rem;
   border-radius:14px;
-  background:rgba(255,122,92,0.08);
-  border:1px solid rgba(255,122,92,0.22);
+  background:rgba(244,114,182,0.08);
+  border:1px solid rgba(244,114,182,0.22);
   color:var(--red);
   font-size:0.85rem;
 }
@@ -699,8 +699,8 @@ a:hover{color:var(--theme-ink)}
   min-width:130px;
   backdrop-filter:blur(8px);
 }
-.flow-node.primary{border-color:rgba(167,139,255,0.3);color:var(--blue);font-weight:500}
-.flow-node.output{border-color:rgba(77,209,138,0.3);color:var(--green);font-weight:500}
+.flow-node.primary{border-color:rgba(34,211,238,0.3);color:var(--blue);font-weight:500}
+.flow-node.output{border-color:rgba(52,211,153,0.3);color:var(--green);font-weight:500}
 .flow-node small{
   display:block;
   font-size:0.68rem;
@@ -769,7 +769,7 @@ a:hover{color:var(--theme-ink)}
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
       About
     </button>
-    <a href="feed.xml" class="pill-btn" style="color:var(--orange);border-color:rgba(232,169,58,0.22)">
+    <a href="feed.xml" class="pill-btn" style="color:var(--orange);border-color:rgba(245,158,11,0.22)">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
       RSS
     </a>

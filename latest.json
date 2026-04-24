@@ -1,19 +1,20 @@
 [
   {
-    "title": "Google Gemini Pricing Page Updated with New Tier Information",
-    "summary": "The Google Gemini pricing page has been updated, detailing the Gemini Deep Research model's preview availability and outlining pricing tiers for the Gemini API.",
+    "title": "Google Gemini pricing page updated",
+    "summary": "Google's Gemini API pricing page has been updated, with new details on Gemini Deep Research availability and tiered pricing structures.",
     "category": "novedad",
     "entities": [
-      "Google Gemini",
-      "Gemini API"
+      "Google",
+      "Gemini API",
+      "Gemini Deep Research"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "positive",
     "impact": "low",
-    "why_included": "Website update regarding pricing and availability of a key model, providing transparency for developers.",
+    "why_included": "Update to pricing page indicates changes in service availability and cost structure.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T03:44:58.577Z",
+    "published_at": "2026-04-24T03:51:08.312Z",
     "confidence": 1
   },
   {
