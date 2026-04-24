@@ -6,11 +6,11 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini API Pricing Update</title>
+      <title>Gemini Deep Research Now in Preview</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 24 Apr 2026 03:57:11 GMT</pubDate>
-      <description>The Google Gemini API pricing page has been updated, removing the previous mention of &apos;Gemini Deep Research&apos; in preview and focusing on starting free with generous limits. | Impact: low | Signal: neutral | Why included: This is a low-impact update to pricing page text, indicating a shift in how Gemini Deep Research is presented, possibly reflecting changes in its availability or offering.</description>
+      <pubDate>Fri, 24 Apr 2026 04:04:11 GMT</pubDate>
+      <description>Google Gemini&apos;s Deep Research feature is now available in preview, offering collaborative planning, visualization, and MCP support. | Impact: medium | Signal: positive | Why included: This is a new feature preview for a major AI model, indicating enhancements in collaborative and specialized research capabilities.</description>
       <category>novedad</category>
     </item>
     <item>
