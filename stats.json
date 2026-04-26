@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T08:38:48.256Z",
+  "generated_at": "2026-04-26T08:46:41.286Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2026-04-25",
   "weekly": [
@@ -91,9 +91,9 @@
     },
     {
       "provider": "Google",
-      "count": 31,
+      "count": 29,
       "alerts": 9,
-      "updates": 22
+      "updates": 20
     },
     {
       "provider": "Other",
@@ -110,7 +110,7 @@
   ],
   "totals": {
     "unique_events": 280,
-    "last_30_days": 247,
+    "last_30_days": 245,
     "sources": {
       "rss": 258,
       "diff_pages": 22
