@@ -3854,41 +3854,5 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
     "published_at": "2026-03-30T03:18:44.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Google AI Blog: Gemini 3.1 Flash Live Speech Model",
-    "summary": "Google's Gemini 3.1 Flash Live, a speech model focused on natural and reliable audio AI, is now available across Google products.",
-    "category": "novedad",
-    "entities": [
-      "Google",
-      "Gemini 3.1 Flash Live"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Google is releasing a new speech model, Gemini 3.1 Flash Live, indicating advancements in AI-powered audio generation.",
-    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-    "published_at": "2026-03-26T15:21:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-    "summary": "Google announces the availability of Gemini 3.1 Flash Live, an audio AI model designed for more natural and reliable speech generation across Google products.",
-    "category": "novedad",
-    "entities": [
-      "Gemini 3.1 Flash Live",
-      "Google"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "3.1"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a product release from Google for their Gemini audio AI model, indicating progress in natural language and speech generation.",
-    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-3-1-flash-live/",
-    "published_at": "2026-03-26T15:21:00.000Z",
-    "confidence": 0.9
   }
 ]
