@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-04-26T08:46:41.286Z",
+  "generated_at": "2026-04-27T10:01:50.992Z",
   "coverage_start": "2019-03-11",
-  "coverage_end": "2026-04-25",
+  "coverage_end": "2026-04-27",
   "weekly": [
-    {
-      "week": "Feb 2",
-      "week_start": "2026-02-02",
-      "alerts": 0,
-      "updates": 0
-    },
     {
       "week": "Feb 9",
       "week_start": "2026-02-09",
@@ -74,6 +68,12 @@
       "week_start": "2026-04-20",
       "alerts": 30,
       "updates": 69
+    },
+    {
+      "week": "Apr 27",
+      "week_start": "2026-04-27",
+      "alerts": 1,
+      "updates": 0
     }
   ],
   "providers": [
@@ -91,8 +91,8 @@
     },
     {
       "provider": "Google",
-      "count": 29,
-      "alerts": 9,
+      "count": 30,
+      "alerts": 10,
       "updates": 20
     },
     {
@@ -109,11 +109,11 @@
     }
   ],
   "totals": {
-    "unique_events": 280,
-    "last_30_days": 245,
+    "unique_events": 281,
+    "last_30_days": 246,
     "sources": {
       "rss": 258,
-      "diff_pages": 22
+      "diff_pages": 23
     }
   }
 }
