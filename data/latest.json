@@ -1,5 +1,22 @@
 [
   {
+    "title": "Google Gemini Pricing Update",
+    "summary": "The Gemini pricing page has been updated to reflect the preview availability of Gemini Deep Research and changes in ToS, while maintaining free access tiers.",
+    "category": "alerta",
+    "entities": [
+      "Gemini Deep Research",
+      "Gemini API"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a minor update to pricing and terms of service for Gemini API, indicating ongoing adjustments to service offerings.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-27T10:01:41.718Z",
+    "confidence": 0.8
+  },
+  {
     "title": "Anthropic Pricing",
     "summary": "A diff alert on Anthropic's pricing page shows no changes detected between the old and new versions.",
     "category": "novedad",
@@ -418,24 +435,6 @@
     "why_included": "Deprecation of a fine-tuning capability can impact developers relying on it.",
     "source_url": "https://community.openai.com/t/deprecation-of-fine-tuned-models-but-still-cant-access-newer-ones/1379550",
     "published_at": "2026-04-24T05:09:20.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Gemini Deep Research available in preview with new features",
-    "summary": "Google Gemini's Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support.",
-    "category": "novedad",
-    "entities": [
-      "Google Gemini",
-      "Deep Research",
-      "MCP"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a preview release of a significant feature for Gemini, enhancing its capabilities in planning and collaboration.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-24T04:25:49.170Z",
     "confidence": 0.9
   },
   {

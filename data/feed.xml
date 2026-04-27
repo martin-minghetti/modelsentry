@@ -6,6 +6,14 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini Pricing Update</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Mon, 27 Apr 2026 10:01:41 GMT</pubDate>
+      <description>The Gemini pricing page has been updated to reflect the preview availability of Gemini Deep Research and changes in ToS, while maintaining free access tiers. | Impact: low | Signal: neutral | Why included: This is a minor update to pricing and terms of service for Gemini API, indicating ongoing adjustments to service offerings.</description>
+      <category>alerta</category>
+    </item>
+    <item>
       <title>Anthropic Pricing</title>
       <link>https://www.anthropic.com/pricing</link>
       <guid>https://www.anthropic.com/pricing</guid>
@@ -196,14 +204,6 @@
       <pubDate>Fri, 24 Apr 2026 05:09:20 GMT</pubDate>
       <description>OpenAI is deprecating all GPT nano fine-tuning, signaling a shift in their model development or support strategy. | Impact: high | Signal: negative | Why included: Deprecation of a fine-tuning capability can impact developers relying on it.</description>
       <category>alerta</category>
-    </item>
-    <item>
-      <title>Gemini Deep Research available in preview with new features</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 24 Apr 2026 04:25:49 GMT</pubDate>
-      <description>Google Gemini&apos;s Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support. | Impact: medium | Signal: positive | Why included: This is a preview release of a significant feature for Gemini, enhancing its capabilities in planning and collaboration.</description>
-      <category>novedad</category>
     </item>
     <item>
       <title>Anthropic tested removing Claude Code from the Pro plan</title>
