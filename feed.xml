@@ -6,12 +6,44 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Update</title>
+      <title>Gemini Deep Research is now available in preview</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Mon, 27 Apr 2026 10:01:41 GMT</pubDate>
-      <description>The Gemini pricing page has been updated to reflect the preview availability of Gemini Deep Research and changes in ToS, while maintaining free access tiers. | Impact: low | Signal: neutral | Why included: This is a minor update to pricing and terms of service for Gemini API, indicating ongoing adjustments to service offerings.</description>
-      <category>alerta</category>
+      <pubDate>Tue, 28 Apr 2026 10:03:49 GMT</pubDate>
+      <description>Google&apos;s Gemini Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support. | Impact: medium | Signal: positive | Why included: This is a preview release of a significant feature for Gemini, indicating product development and enhanced capabilities for complex tasks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.121 Release Notes</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.121</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.121</guid>
+      <pubDate>Tue, 28 Apr 2026 00:31:31 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code has released version 2.1.121 with numerous updates including new configuration options, utility commands, UI improvements, enhanced tool use capabilities, and critical bug fixes for memory leaks and tool usability. | Impact: medium | Signal: neutral | Why included: This is a significant release for Claude Code, detailing many functional improvements and bug fixes which are relevant to developers using the platform.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI available at FedRAMP Moderate</title>
+      <link>https://openai.com/index/openai-available-at-fedramp-moderate</link>
+      <guid>https://openai.com/index/openai-available-at-fedramp-moderate</guid>
+      <pubDate>Mon, 27 Apr 2026 14:00:00 GMT</pubDate>
+      <description>OpenAI has achieved FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling U.S. federal agencies to securely adopt AI. | Impact: high | Signal: positive | Why included: FedRAMP Moderate authorization is a significant step for OpenAI, enabling broader adoption by US federal agencies, which implies increased business and a positive signal for the company and the AI industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The next phase of the Microsoft OpenAI partnership</title>
+      <link>https://openai.com/index/next-phase-of-microsoft-partnership</link>
+      <guid>https://openai.com/index/next-phase-of-microsoft-partnership</guid>
+      <pubDate>Mon, 27 Apr 2026 06:00:00 GMT</pubDate>
+      <description>OpenAI and Microsoft have amended their agreement to simplify the partnership, provide long-term clarity, and support continued AI innovation at scale. | Impact: medium | Signal: positive | Why included: This is a significant update to a major partnership in the AI industry, indicating continued collaboration and investment, which is a medium-impact event.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Choco automates food distribution with AI agents</title>
+      <link>https://openai.com/index/choco</link>
+      <guid>https://openai.com/index/choco</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Choco has leveraged OpenAI APIs to streamline food distribution, boost productivity, and unlock growth, showcasing a real-world AI impact story. | Impact: low | Signal: positive | Why included: This is a customer success story highlighting the practical application and positive impact of OpenAI&apos;s APIs in a business context, which is relevant but low-impact.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Anthropic Pricing</title>
@@ -371,38 +403,6 @@
       <guid>https://developers.openai.com/api/docs/deprecations</guid>
       <pubDate>Thu, 23 Apr 2026 07:37:55 GMT</pubDate>
       <description>OpenAI has issued a deprecation notice for upcoming model shutdowns in 2026, impacting users of their API services. | Impact: high | Signal: negative | Why included: This indicates a significant change in OpenAI&apos;s model offerings and will affect users who rely on the affected models.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic is A/B testing removing Claude Code from Pro plans</title>
-      <link>https://twitter.com/TheAmolAvasare/status/2046724659039932830</link>
-      <guid>https://twitter.com/TheAmolAvasare/status/2046724659039932830</guid>
-      <pubDate>Thu, 23 Apr 2026 07:11:01 GMT</pubDate>
-      <description>Anthropic is reportedly A/B testing the removal of Claude Code from its Pro plans, which could indicate changes in service offerings or pricing for premium users. | Impact: medium | Signal: negative | Why included: Changes to premium features for a significant AI model like Claude Code can impact user access and value propositions.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic now requires new Claude users to verify identity with photo ID</title>
-      <link>https://twitter.com/Pirat_Nation/status/2044960285510053929</link>
-      <guid>https://twitter.com/Pirat_Nation/status/2044960285510053929</guid>
-      <pubDate>Thu, 23 Apr 2026 05:50:09 GMT</pubDate>
-      <description>Anthropic has implemented a new policy requiring identity verification with photo ID for new Claude users, potentially impacting user onboarding and privacy. | Impact: medium | Signal: neutral | Why included: New identity verification requirements can affect user adoption and raise privacy considerations in the AI service landscape.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic has surged to a trillion-dollar valuation on secondary markets</title>
-      <link>https://www.businessinsider.com/anthropic-trillion-dollar-valuation-on-secondary-markets-2026</link>
-      <guid>https://www.businessinsider.com/anthropic-trillion-dollar-valuation-on-secondary-markets-2026</guid>
-      <pubDate>Thu, 23 Apr 2026 04:45:57 GMT</pubDate>
-      <description>Anthropic has reached a trillion-dollar valuation on secondary markets, reflecting significant investor confidence and market demand for its AI models. | Impact: medium | Signal: positive | Why included: A trillion-dollar valuation signifies major financial growth and validation of Anthropic&apos;s position in the AI industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Discord group claims it accessed Claude Mythos by guessing location</title>
-      <link>https://mashable.com/article/discord-group-accesses-claude-mythos-claims</link>
-      <guid>https://mashable.com/article/discord-group-accesses-claude-mythos-claims</guid>
-      <pubDate>Thu, 23 Apr 2026 00:22:12 GMT</pubDate>
-      <description>A Discord group claims to have accessed Anthropic&apos;s Mythos AI model by exploiting a potential location-based vulnerability. | Impact: high | Signal: negative | Why included: This claim suggests a potential security flaw in accessing sensitive AI models, which could have broad implications if true.</description>
       <category>alerta</category>
     </item>
   </channel>
