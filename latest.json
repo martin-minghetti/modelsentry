@@ -3908,38 +3908,5 @@
     "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
     "published_at": "2026-03-31T13:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Source Code Leak Megathread",
-    "summary": "A megathread on Reddit dedicated to discussing a reported source code leak related to Claude Code.",
-    "category": "alerta",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This indicates a potential security incident (source code leak) related to Claude Code, which is a significant concern for any software product.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/",
-    "published_at": "2026-03-30T03:18:44.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "ClaudeAI Community Megathreads List",
-    "summary": "The r/ClaudeAI subreddit provides a list of ongoing megathreads for discussions on performance, usage limits, projects, code leaks, and identity/sentience.",
-    "category": "novedad",
-    "entities": [
-      "ClaudeAI",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Community resource for organizing discussions around Claude, useful for tracking sentiment and emerging topics.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fepn/rclaudeai_list_of_ongoing_megathreads/",
-    "published_at": "2026-03-30T03:18:44.000Z",
-    "confidence": 0.9
   }
 ]
