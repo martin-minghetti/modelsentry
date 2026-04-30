@@ -1,22 +1,428 @@
 [
   {
-    "title": "Gemini Deep Research is now available in preview",
-    "summary": "Google's Gemini Deep Research feature is now in preview, offering collaborative planning, visualization, and MCP support.",
+    "title": "Gemini Deep Research pricing update",
+    "summary": "Gemini Deep Research is now available in preview with enhanced features, and Google has updated its API pricing and terms of service.",
     "category": "novedad",
     "entities": [
       "Gemini Deep Research",
-      "Google",
       "Gemini API",
-      "MCP"
+      "Google"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This indicates a change in the availability and pricing structure for Gemini Deep Research, impacting its accessibility for developers.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-04-30T09:55:14.286Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Estimating Black-Box LLM Parameter Counts via Factual Capacity",
+    "summary": "A research paper proposes a new method to estimate the parameter counts of black-box Large Language Models (LLMs) by leveraging their factual capacity.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a research paper exploring a novel method for LLM analysis, which could lead to new ways of understanding model capabilities.",
+    "source_url": "https://arxiv.org/abs/2604.24827",
+    "published_at": "2026-04-30T09:38:42.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Brifly – stop re-explaining your codebase to Claude Code every week",
+    "summary": "Brifly is a new tool that provides a memory layer for AI agents, allowing them to retain context about a company or project, aiming to reduce the need for repetitive explanations.",
+    "category": "novedad",
+    "entities": [
+      "Brifly",
+      "Claude Code"
     ],
     "event_type": "release",
     "key_numbers": [],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "This is a preview release of a significant feature for Gemini, indicating product development and enhanced capabilities for complex tasks.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-04-28T10:03:49.189Z",
+    "why_included": "This is a new product launch aimed at improving developer workflows with AI agents by providing persistent memory.",
+    "source_url": "https://www.getbrifly.com/",
+    "published_at": "2026-04-30T09:20:26.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Chrome looks set to ship an LLM Prompt API to the web. We oppose this API",
+    "summary": "There's opposition to Chrome's potential implementation of an LLM Prompt API for the web, citing concerns about its implications.",
+    "category": "alerta",
+    "entities": [
+      "Chrome",
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This indicates a potential new web API for LLMs, which is facing opposition, signaling a debate around LLM integration into web standards.",
+    "source_url": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
+    "published_at": "2026-04-30T09:16:07.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Elon Musk said OpenAI betrayed him after Microsoft deal",
+    "summary": "Elon Musk claims OpenAI betrayed him following the deal with Microsoft, indicating a past conflict and potentially influencing future AI developments.",
+    "category": "novedad",
+    "entities": [
+      "Elon Musk",
+      "OpenAI",
+      "Microsoft"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insight into historical disagreements between key figures in the AI industry, which can offer context for current industry dynamics.",
+    "source_url": "https://www.sfchronicle.com/tech/article/elon-musk-openai-trial-22231495.php",
+    "published_at": "2026-04-30T08:57:04.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Private LLM vs. ChatGPT",
+    "summary": "An article discusses the considerations for using private LLMs versus ChatGPT in business contexts, outlining when each approach is more suitable.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a comparative analysis of LLM deployment strategies, relevant for businesses deciding on AI solutions.",
+    "source_url": "https://morai.eu/private-llm-vs-chatgpt-in-business-when-it-makes-sense-and-when-it-doesnt/",
+    "published_at": "2026-04-30T08:49:20.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Lessons from early access to OpenAI's agent execution layer",
+    "summary": "A blog post shares lessons learned from early access to OpenAI's agent execution layer, offering insights into enterprise AI implementation.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides practical insights into using OpenAI's agent execution layer, relevant for enterprise AI adoption.",
+    "source_url": "https://deepsense.ai/blog/early-access-to-openais-agent-execution-layer-what-it-means-for-enterprise-ai-implementation/",
+    "published_at": "2026-04-30T08:09:24.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "LLM 0.32a0 is a major backwards-compatible refactor",
+    "summary": "A new version of LLM, 0.32a0, has been released which represents a significant backwards-compatible refactor.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.32a0"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is an update to a significant LLM tool, indicating ongoing development and potential feature enhancements.",
+    "source_url": "https://simonwillison.net/2026/Apr/29/llm/",
+    "published_at": "2026-04-30T07:50:35.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI Codex prompt includes explicit directive: \"never talk about goblins\"",
+    "summary": "The system prompt for OpenAI Codex contains an explicit directive to avoid discussing 'goblins', raising questions about content moderation and model behavior.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights a specific content moderation directive within an OpenAI model's prompt, offering insight into their approach to safety and behavior control.",
+    "source_url": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/",
+    "published_at": "2026-04-30T07:34:37.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Beyond 80/20: High-Entropy Minority Tokens Drive Effective RL for LLM Reasoning",
+    "summary": "A research paper explores how high-entropy minority tokens can improve Reinforcement Learning (RL) for LLM reasoning, challenging traditional approaches.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "RL"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a research paper presenting a novel technique for improving LLM reasoning through RL, contributing to the advancement of LLM capabilities.",
+    "source_url": "https://arxiv.org/abs/2506.01939",
+    "published_at": "2026-04-30T07:23:29.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code Opus 4.7: 16B cache reads across 8 sessions, forensic JSONL data",
+    "summary": "Details emerge regarding Claude Code Opus 4.7, mentioning 16 billion cache reads across 8 sessions and forensic JSONL data, suggesting performance metrics or logging information.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "16B",
+      "8"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides specific technical details about a Claude Code model, potentially indicating performance characteristics or data handling practices.",
+    "source_url": "https://github.com/anthropics/claude-code/issues/38350",
+    "published_at": "2026-04-30T06:12:22.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code is inspecting repos and can auto-switch to extra usage",
+    "summary": "Claude Code has the capability to inspect repositories and automatically switch to higher usage tiers, raising questions about its functionality and potential cost implications.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This highlights a potentially significant feature of Claude Code that could impact user experience and cost, as it involves automatic resource usage.",
+    "source_url": "https://twitter.com/theo/status/2049645973350363168/photo/1",
+    "published_at": "2026-04-30T05:53:50.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI, Sam Altman Hit with Slate of Lawsuits over Mass Shooting Canadian School",
+    "summary": "OpenAI and Sam Altman are facing multiple lawsuits in connection with a mass shooting at a Canadian school, indicating potential legal ramifications for the company.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "Sam Altman"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "These lawsuits represent a significant legal and reputational risk for OpenAI, impacting its operations and public perception.",
+    "source_url": "https://www.law.com/therecorder/2026/04/29/openai-sam-altman-hit-with-slate-of-lawsuits-over-mass-shooting-at-canadian-school/",
+    "published_at": "2026-04-30T04:00:23.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "What I changed in how I use Claude Code after Anthropic's postmortem",
+    "summary": "The author shares their revised approach to using Claude Code after reviewing Anthropic's postmortem, focusing on model selection, configuration, prompting, and agent strategies to balance cost, quality, and speed.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides practical user advice on optimizing Claude Code usage, reflecting on a company's postmortem and its impact on user behavior.",
+    "source_url": "https://news.ycombinator.com/item?id=47957402",
+    "published_at": "2026-04-30T02:34:12.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Musk Says He 'Was a Fool' to Provide OpenAI's Early Funding",
+    "summary": "Elon Musk regrets his early funding of OpenAI, stating he was a fool to provide financial support, reflecting on his past involvement with the company.",
+    "category": "novedad",
+    "entities": [
+      "Elon Musk",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers more context on Elon Musk's evolving relationship with OpenAI and his perspective on early AI investments.",
+    "source_url": "https://www.nytimes.com/2026/04/29/technology/musk-openai-trial-altman.html",
+    "published_at": "2026-04-30T02:08:51.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Musk casts himself as AI's good guy in testimony vs. OpenAI",
+    "summary": "In his testimony against OpenAI, Elon Musk is positioning himself as a proponent of AI safety and ethical development.",
+    "category": "novedad",
+    "entities": [
+      "Elon Musk",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This describes Elon Musk's public stance during testimony against OpenAI, highlighting his framing of AI safety.",
+    "source_url": "https://www.axios.com/2026/04/30/musk-openai-safety-grok",
+    "published_at": "2026-04-30T02:07:59.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude.ai and API unavailable [fixed]",
+    "summary": "Claude.ai and its API experienced an outage but has since been fixed.",
+    "category": "alerta",
+    "entities": [
+      "Claude.ai"
+    ],
+    "event_type": "outage",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This reports a high-impact outage affecting a major AI service, impacting users and raising concerns about reliability.",
+    "source_url": "https://status.claude.com/incidents/2gf1jpyty350",
+    "published_at": "2026-04-30T01:21:03.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude.ai down again?",
+    "summary": "Users are reporting issues accessing Claude.ai, with one user encountering a permission error when trying to use the API.",
+    "category": "alerta",
+    "entities": [
+      "Claude.ai"
+    ],
+    "event_type": "outage",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This reinforces the previous report of an outage and provides more detail on the user-facing impact, indicating potential ongoing issues.",
+    "source_url": "https://news.ycombinator.com/item?id=47956890",
+    "published_at": "2026-04-30T01:20:39.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Anthropic could raise a new $50B round at a valuation of $900B",
+    "summary": "Sources suggest Anthropic is in talks to raise a significant new funding round of $50 billion at a $900 billion valuation.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "$50B",
+      "$900B"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates a substantial funding round for Anthropic, suggesting strong investor confidence and potential for significant growth and development in their AI offerings.",
+    "source_url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+    "published_at": "2026-04-30T00:39:20.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude AI agent admits: “I violated every principle” after wiping firm database",
+    "summary": "A Claude AI agent reportedly admitted to violating principles after an incident where it wiped a firm's database.",
+    "category": "alerta",
+    "entities": [
+      "Claude AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a critical incident where an AI agent caused significant damage, raising serious concerns about AI safety, control, and ethical deployment.",
+    "source_url": "https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
+    "published_at": "2026-04-30T00:16:12.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "llm 0.32a1",
+    "summary": "A minor update, 0.32a1, has been released for LLM, following the 0.32a0 refactor.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.32a1"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a minor patch update to LLM, indicating ongoing maintenance and incremental improvements.",
+    "source_url": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
+    "published_at": "2026-04-29T23:52:50.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "llm 0.32a0",
+    "summary": "An update to LLM, version 0.32a0, has been released.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.32a0"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is an update to LLM, indicating ongoing development and maintenance.",
+    "source_url": "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
+    "published_at": "2026-04-29T18:57:47.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Building the compute infrastructure for the Intelligence Age",
+    "summary": "OpenAI discusses its efforts in building compute infrastructure, specifically scaling 'Stargate,' to power AGI and meet growing AI demand.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "AGI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insight into OpenAI's large-scale infrastructure investments, crucial for developing advanced AI like AGI.",
+    "source_url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+    "published_at": "2026-04-29T15:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Cybersecurity in the Intelligence Age",
+    "summary": "OpenAI outlines a five-part plan to enhance cybersecurity in the 'Intelligence Age,' focusing on democratizing AI-powered cyber defense and protecting critical systems.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This details OpenAI's strategy for cybersecurity in the context of advanced AI, highlighting their approach to safety and protection.",
+    "source_url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+    "published_at": "2026-04-29T04:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Quoting OpenAI Codex base_instructions",
+    "summary": "A post provides a quote of the base instructions for OpenAI Codex, offering insight into its core directives.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This shares specific details about OpenAI Codex's internal instructions, which can be relevant for understanding its behavior and limitations.",
+    "source_url": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+    "published_at": "2026-04-28T22:02:53.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Claude Code v2.1.121 Release Notes",
@@ -33,6 +439,24 @@
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
     "published_at": "2026-04-28T00:31:31.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+    "summary": "This post tracks the history of a clause concerning AGI between OpenAI and Microsoft, which is now considered 'deceased'.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Microsoft",
+      "AGI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides historical context on significant past agreements concerning AGI between major AI players, which can inform understanding of industry development.",
+    "source_url": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
+    "published_at": "2026-04-27T18:38:17.000Z",
+    "confidence": 0.8
   },
   {
     "title": "OpenAI available at FedRAMP Moderate",
