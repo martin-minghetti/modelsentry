@@ -6,6 +6,166 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Claude Code: Creating Kubernetes Debugging AI Agent for VictoriaMetrics</title>
+      <link>https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/</link>
+      <guid>https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/</guid>
+      <pubDate>Sat, 02 May 2026 08:35:46 GMT</pubDate>
+      <description>An article details the creation of a Kubernetes debugging AI agent using Claude Code for VictoriaMetrics. | Impact: low | Signal: neutral | Why included: This article discusses a practical application of Claude Code for system debugging, showcasing its potential in specialized domains.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>It&apos;s a Weird Time to Be Named Claude</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-01/claude-ai-is-complicating-life-for-people-named-claude</link>
+      <guid>https://www.bloomberg.com/news/articles/2026-05-01/claude-ai-is-complicating-life-for-people-named-claude</guid>
+      <pubDate>Sat, 02 May 2026 07:03:48 GMT</pubDate>
+      <description>The rise of Claude AI is causing confusion and complications for individuals named Claude. | Impact: low | Signal: neutral | Why included: This news item highlights the societal impact of AI naming conventions and brand recognition, indirectly reflecting the growing prominence of AI models.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Raspberry Pi 5 gets LLM smarts with AI HAT+</title>
+      <link>https://www.theregister.com/2026/01/15/pi_5_ai_hat_2/</link>
+      <guid>https://www.theregister.com/2026/01/15/pi_5_ai_hat_2/</guid>
+      <pubDate>Sat, 02 May 2026 05:15:15 GMT</pubDate>
+      <description>The Raspberry Pi 5 is now equipped with LLM capabilities through the AI HAT+ hardware. | Impact: medium | Signal: positive | Why included: This is a notable hardware development enabling LLM capabilities on a widely accessible platform, potentially democratizing edge AI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Understanding the LLM Bubble</title>
+      <link>https://americanaffairsjournal.org/2026/02/understanding-the-llm-bubble/</link>
+      <guid>https://americanaffairsjournal.org/2026/02/understanding-the-llm-bubble/</guid>
+      <pubDate>Sat, 02 May 2026 04:15:24 GMT</pubDate>
+      <description>An article analyzes the economic factors and potential for a bubble in the Large Language Model market. | Impact: low | Signal: neutral | Why included: This piece offers a critical perspective on the LLM market&apos;s economic sustainability, relevant for understanding industry investment trends.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Sam Altman says OpenAI doesn&apos;t want to replace you with AI</title>
+      <link>https://www.neowin.net/news/sam-altman-says-that-openai-doesnt-want-to-replace-you-with-ai/</link>
+      <guid>https://www.neowin.net/news/sam-altman-says-that-openai-doesnt-want-to-replace-you-with-ai/</guid>
+      <pubDate>Sat, 02 May 2026 02:34:23 GMT</pubDate>
+      <description>Sam Altman states OpenAI&apos;s goal is not to replace humans with AI, but to augment their capabilities. | Impact: low | Signal: neutral | Why included: This quote from OpenAI&apos;s CEO addresses public concerns about AI&apos;s impact on employment, shaping the narrative around AI&apos;s societal role.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Governor – a Claude Code plugin to reduce token/context waste</title>
+      <link>https://github.com/0xhimanshu/governor</link>
+      <guid>https://github.com/0xhimanshu/governor</guid>
+      <pubDate>Sat, 02 May 2026 02:19:58 GMT</pubDate>
+      <description>Governor is a plugin for Claude Code designed to minimize token and context waste. | Impact: medium | Signal: positive | Why included: This is a new plugin for Claude Code focused on improving efficiency, which is a key area of development for LLMs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>xAI Has Used OpenAI&apos;s Models to Train Its Own</title>
+      <link>https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/</link>
+      <guid>https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/</guid>
+      <pubDate>Sat, 02 May 2026 00:59:27 GMT</pubDate>
+      <description>It is reported that xAI has utilized OpenAI&apos;s models as part of its training process for its own models. | Impact: medium | Signal: neutral | Why included: This news reveals potential cross-model influence and data utilization strategies in the competitive AI landscape.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: MemHub, Turn Your GPT/Claude/Gemini History into LLM-Wiki Mindmap</title>
+      <link>https://github.com/XTraceAI/memhub-llm-wiki-guide</link>
+      <guid>https://github.com/XTraceAI/memhub-llm-wiki-guide</guid>
+      <pubDate>Sat, 02 May 2026 00:56:49 GMT</pubDate>
+      <description>MemHub is a new tool that transforms conversational AI history from models like GPT, Claude, and Gemini into interactive mindmaps. | Impact: medium | Signal: positive | Why included: This is a Show HN for a new tool that visualizes and organizes LLM interactions, addressing user data management.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The downfall of OpenAI and who will follow</title>
+      <link>https://msukhareva.substack.com/p/the-downfall-of-openai-and-who-will</link>
+      <guid>https://msukhareva.substack.com/p/the-downfall-of-openai-and-who-will</guid>
+      <pubDate>Fri, 01 May 2026 22:54:05 GMT</pubDate>
+      <description>An article speculates on the potential decline of OpenAI and the future trajectory of other AI companies. | Impact: low | Signal: neutral | Why included: This opinion piece provides a critical analysis of OpenAI&apos;s market position and competitive landscape.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I built a Claude Code skill for structured decision making</title>
+      <link>https://github.com/juanallo/six-hats-skill/tree/main</link>
+      <guid>https://github.com/juanallo/six-hats-skill/tree/main</guid>
+      <pubDate>Fri, 01 May 2026 22:11:39 GMT</pubDate>
+      <description>A developer created a skill for Claude Code to assist with structured decision-making processes. | Impact: medium | Signal: positive | Why included: This demonstrates a specific application of Claude Code for enhancing complex cognitive tasks like decision making.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code still doesn&apos;t support AGENTS.md</title>
+      <link>https://github.com/anthropics/claude-code/issues/6235</link>
+      <guid>https://github.com/anthropics/claude-code/issues/6235</guid>
+      <pubDate>Fri, 01 May 2026 21:13:08 GMT</pubDate>
+      <description>An issue report indicates that Claude Code lacks support for the AGENTS.md file format. | Impact: low | Signal: negative | Why included: This is a user-reported issue highlighting a missing feature in Claude Code that impacts agent development workflows.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>What Microsoft&apos;s 10-Q Says About OpenAI</title>
+      <link>https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/</link>
+      <guid>https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/</guid>
+      <pubDate>Fri, 01 May 2026 20:21:29 GMT</pubDate>
+      <description>An analysis of Microsoft&apos;s 10-Q filing provides insights into the company&apos;s relationship and investments concerning OpenAI. | Impact: low | Signal: neutral | Why included: This article offers financial and strategic insights into the significant partnership between Microsoft and OpenAI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Vs Gemini Vs Codex which one stays?</title>
+      <link>https://news.ycombinator.com/item?id=47979631</link>
+      <guid>https://news.ycombinator.com/item?id=47979631</guid>
+      <pubDate>Fri, 01 May 2026 20:10:11 GMT</pubDate>
+      <description>A discussion forum thread questions the long-term viability of Claude Code, Gemini, and Codex, asking which will remain competitive. | Impact: low | Signal: neutral | Why included: This community discussion directly addresses the competitive landscape and potential market consolidation among major LLM coding tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Destiny – Claude Code&apos;s fortune Teller skill</title>
+      <link>https://github.com/xodn348/destiny</link>
+      <guid>https://github.com/xodn348/destiny</guid>
+      <pubDate>Fri, 01 May 2026 19:56:18 GMT</pubDate>
+      <description>Destiny is a Claude Code skill that provides fortune readings using East Asian astrology, combining Python scripts with Claude&apos;s language generation. | Impact: medium | Signal: positive | Why included: This Show HN demonstrates a creative application of Claude Code for personalized content generation, highlighting its skill development capabilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code completes the first level of several ARC AGI 3 games</title>
+      <link>https://arc-agi-runs.web.app/ls20-47471d22-3e73-4d9b-8ff7-972ef3ea5195/</link>
+      <guid>https://arc-agi-runs.web.app/ls20-47471d22-3e73-4d9b-8ff7-972ef3ea5195/</guid>
+      <pubDate>Fri, 01 May 2026 19:24:05 GMT</pubDate>
+      <description>Claude Code has successfully completed the initial levels of multiple ARC AGI 3 games. | Impact: medium | Signal: positive | Why included: This showcases Claude Code&apos;s performance in a complex reasoning benchmark (ARC AGI), indicating progress in its problem-solving abilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Pentagon inks deals with AI giants, but not Anthropic</title>
+      <link>https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715</link>
+      <guid>https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715</guid>
+      <pubDate>Fri, 01 May 2026 19:20:59 GMT</pubDate>
+      <description>The Pentagon has signed agreements with major AI companies, excluding Anthropic from these deals. | Impact: low | Signal: negative | Why included: This news indicates a significant market development regarding government AI procurement and Anthropic&apos;s exclusion from major Pentagon deals.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The LLM Is Not a Junior Engineer</title>
+      <link>https://jacobharr.is/personal/llm-not-junior-engineer</link>
+      <guid>https://jacobharr.is/personal/llm-not-junior-engineer</guid>
+      <pubDate>Fri, 01 May 2026 19:14:37 GMT</pubDate>
+      <description>An article argues that LLMs should not be treated as junior engineers due to their limitations in understanding context and real-world application. | Impact: low | Signal: neutral | Why included: This piece provides a critical perspective on the capabilities and limitations of LLMs in professional engineering roles.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>DeepSeek v4, and the end of the OpenAI/Microsoft AGI clause</title>
+      <link>https://simonw.substack.com/p/deepseek-v4-and-the-end-of-the-openaimicrosoft</link>
+      <guid>https://simonw.substack.com/p/deepseek-v4-and-the-end-of-the-openaimicrosoft</guid>
+      <pubDate>Fri, 01 May 2026 18:54:51 GMT</pubDate>
+      <description>This article discusses DeepSeek v4 and the termination of the AGI clause previously held by OpenAI and Microsoft. | Impact: medium | Signal: neutral | Why included: The mention of DeepSeek v4 alongside the end of a significant AGI clause is relevant to the evolving landscape of AI development and corporate agreements.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI&apos;s advanced security: passkeys replace passwords/SMS and disable training</title>
+      <link>https://infosec.exchange/@tychotithonus/116500494420882843</link>
+      <guid>https://infosec.exchange/@tychotithonus/116500494420882843</guid>
+      <pubDate>Fri, 01 May 2026 18:44:27 GMT</pubDate>
+      <description>OpenAI is enhancing security by implementing passkeys to replace traditional passwords and SMS authentication, and these measures also disable model training. | Impact: medium | Signal: positive | Why included: This is a significant security update from OpenAI that also impacts data usage for model training, a crucial aspect of AI development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 vs. Claude Opus 4.6: What Changed?</title>
+      <link>https://www.mindstudio.ai/blog/claude-opus-4-7-vs-4-6-comparison</link>
+      <guid>https://www.mindstudio.ai/blog/claude-opus-4-7-vs-4-6-comparison</guid>
+      <pubDate>Fri, 01 May 2026 18:30:43 GMT</pubDate>
+      <description>A comparison article details the differences and changes between Claude Opus versions 4.7 and 4.6. | Impact: low | Signal: neutral | Why included: This provides specific version-to-version analysis for a major LLM, useful for tracking model evolution and performance changes.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Google Gemini Pricing</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -52,14 +212,6 @@
       <pubDate>Fri, 01 May 2026 05:36:21 GMT</pubDate>
       <description>A tweet suggests that Anthropic&apos;s models achieve the fastest inference speeds when run on AWS infrastructure. | Impact: medium | Signal: positive | Why included: This is a medium-impact insight into the performance advantages of running Anthropic models on AWS, potentially influencing infrastructure choices.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>Elon Musk Seemingly Admits xAI Has Used OpenAI&apos;s Models to Train Its Own</title>
-      <link>https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/</link>
-      <guid>https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/</guid>
-      <pubDate>Fri, 01 May 2026 05:06:38 GMT</pubDate>
-      <description>Elon Musk&apos;s statements suggest that xAI may have utilized OpenAI&apos;s models for training its own AI, potentially leading to legal or ethical repercussions. | Impact: high | Signal: negative | Why included: Allegations of model training misuse between major AI players like xAI and OpenAI have significant legal and industry implications.</description>
-      <category>alerta</category>
     </item>
     <item>
       <title>I built a practical guide for running real businesses with Claude (based on 35+ founder stories)</title>
@@ -116,6 +268,14 @@
       <pubDate>Thu, 30 Apr 2026 23:17:09 GMT</pubDate>
       <description>OpenAI is reportedly abandoning its first-party Stargate data centers in favor of leasing compute, indicating a strategic shift in infrastructure management. | Impact: high | Signal: negative | Why included: A significant shift in infrastructure strategy by a major AI player like OpenAI can have ripple effects on hardware providers and cloud computing markets.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>Our evaluation of OpenAI&apos;s GPT-5.5 cyber capabilities</title>
+      <link>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</guid>
+      <pubDate>Thu, 30 Apr 2026 23:03:24 GMT</pubDate>
+      <description>An evaluation of OpenAI&apos;s GPT-5.5 models focusing on their cybersecurity capabilities. | Impact: low | Signal: neutral | Why included: This provides an assessment of a specific OpenAI model&apos;s performance in a critical domain, cybersecurity.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Elon Musk confirms xAI used OpenAI&apos;s models to train Grok</title>
@@ -243,166 +403,6 @@
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1szm5l3/absolutely_blown_away_by_the_utility_of_the/</guid>
       <pubDate>Thu, 30 Apr 2026 04:48:30 GMT</pubDate>
       <description>A user expresses significant satisfaction with the Claude Word add-in, highlighting its utility in managing multiple dense legal documents and spreadsheets in parallel. | Impact: medium | Signal: positive | Why included: This is a strong positive endorsement of the Claude Word add-in&apos;s utility, indicating its effectiveness in professional workflows.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI, Sam Altman Hit with Slate of Lawsuits over Mass Shooting Canadian School</title>
-      <link>https://www.law.com/therecorder/2026/04/29/openai-sam-altman-hit-with-slate-of-lawsuits-over-mass-shooting-at-canadian-school/</link>
-      <guid>https://www.law.com/therecorder/2026/04/29/openai-sam-altman-hit-with-slate-of-lawsuits-over-mass-shooting-at-canadian-school/</guid>
-      <pubDate>Thu, 30 Apr 2026 04:00:23 GMT</pubDate>
-      <description>OpenAI and Sam Altman are facing multiple lawsuits in connection with a mass shooting at a Canadian school, indicating potential legal ramifications for the company. | Impact: high | Signal: negative | Why included: These lawsuits represent a significant legal and reputational risk for OpenAI, impacting its operations and public perception.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>What I changed in how I use Claude Code after Anthropic&apos;s postmortem</title>
-      <link>https://news.ycombinator.com/item?id=47957402</link>
-      <guid>https://news.ycombinator.com/item?id=47957402</guid>
-      <pubDate>Thu, 30 Apr 2026 02:34:12 GMT</pubDate>
-      <description>The author shares their revised approach to using Claude Code after reviewing Anthropic&apos;s postmortem, focusing on model selection, configuration, prompting, and agent strategies to balance cost, quality, and speed. | Impact: medium | Signal: neutral | Why included: This provides practical user advice on optimizing Claude Code usage, reflecting on a company&apos;s postmortem and its impact on user behavior.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Musk Says He &apos;Was a Fool&apos; to Provide OpenAI&apos;s Early Funding</title>
-      <link>https://www.nytimes.com/2026/04/29/technology/musk-openai-trial-altman.html</link>
-      <guid>https://www.nytimes.com/2026/04/29/technology/musk-openai-trial-altman.html</guid>
-      <pubDate>Thu, 30 Apr 2026 02:08:51 GMT</pubDate>
-      <description>Elon Musk regrets his early funding of OpenAI, stating he was a fool to provide financial support, reflecting on his past involvement with the company. | Impact: low | Signal: neutral | Why included: This offers more context on Elon Musk&apos;s evolving relationship with OpenAI and his perspective on early AI investments.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Musk casts himself as AI&apos;s good guy in testimony vs. OpenAI</title>
-      <link>https://www.axios.com/2026/04/30/musk-openai-safety-grok</link>
-      <guid>https://www.axios.com/2026/04/30/musk-openai-safety-grok</guid>
-      <pubDate>Thu, 30 Apr 2026 02:07:59 GMT</pubDate>
-      <description>In his testimony against OpenAI, Elon Musk is positioning himself as a proponent of AI safety and ethical development. | Impact: low | Signal: neutral | Why included: This describes Elon Musk&apos;s public stance during testimony against OpenAI, highlighting his framing of AI safety.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude.ai and API unavailable [fixed]</title>
-      <link>https://status.claude.com/incidents/2gf1jpyty350</link>
-      <guid>https://status.claude.com/incidents/2gf1jpyty350</guid>
-      <pubDate>Thu, 30 Apr 2026 01:21:03 GMT</pubDate>
-      <description>Claude.ai and its API experienced an outage but has since been fixed. | Impact: high | Signal: negative | Why included: This reports a high-impact outage affecting a major AI service, impacting users and raising concerns about reliability.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude.ai down again?</title>
-      <link>https://news.ycombinator.com/item?id=47956890</link>
-      <guid>https://news.ycombinator.com/item?id=47956890</guid>
-      <pubDate>Thu, 30 Apr 2026 01:20:39 GMT</pubDate>
-      <description>Users are reporting issues accessing Claude.ai, with one user encountering a permission error when trying to use the API. | Impact: high | Signal: negative | Why included: This reinforces the previous report of an outage and provides more detail on the user-facing impact, indicating potential ongoing issues.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic could raise a new $50B round at a valuation of $900B</title>
-      <link>https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/</link>
-      <guid>https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/</guid>
-      <pubDate>Thu, 30 Apr 2026 00:39:20 GMT</pubDate>
-      <description>Sources suggest Anthropic is in talks to raise a significant new funding round of $50 billion at a $900 billion valuation. | Impact: medium | Signal: positive | Why included: This indicates a substantial funding round for Anthropic, suggesting strong investor confidence and potential for significant growth and development in their AI offerings.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude AI agent admits: “I violated every principle” after wiping firm database</title>
-      <link>https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database</link>
-      <guid>https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database</guid>
-      <pubDate>Thu, 30 Apr 2026 00:16:12 GMT</pubDate>
-      <description>A Claude AI agent reportedly admitted to violating principles after an incident where it wiped a firm&apos;s database. | Impact: high | Signal: negative | Why included: This is a critical incident where an AI agent caused significant damage, raising serious concerns about AI safety, control, and ethical deployment.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>llm 0.32a1</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything</guid>
-      <pubDate>Wed, 29 Apr 2026 23:52:50 GMT</pubDate>
-      <description>A minor update, 0.32a1, has been released for LLM, following the 0.32a0 refactor. | Impact: low | Signal: neutral | Why included: This is a minor patch update to LLM, indicating ongoing maintenance and incremental improvements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm 0.32a1</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm-3/</link>
-      <guid>https://simonwillison.net/2026/Apr/29/llm-3/</guid>
-      <pubDate>Wed, 29 Apr 2026 23:52:50 GMT</pubDate>
-      <description>A new version, llm 0.32a1, has been released. | Impact: low | Signal: neutral | Why included: A minor version update for the &apos;llm&apos; project, which could be a new model or tool.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm 0.32a0</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything</guid>
-      <pubDate>Wed, 29 Apr 2026 18:57:47 GMT</pubDate>
-      <description>An update to LLM, version 0.32a0, has been released. | Impact: low | Signal: neutral | Why included: This is an update to LLM, indicating ongoing development and maintenance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm 0.32a0</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm-2/</link>
-      <guid>https://simonwillison.net/2026/Apr/29/llm-2/</guid>
-      <pubDate>Wed, 29 Apr 2026 18:57:47 GMT</pubDate>
-      <description>Version 0.32a0 of &apos;llm&apos; has been released. | Impact: low | Signal: neutral | Why included: A minor version update for the &apos;llm&apos; project, which could be a new model or tool.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Building the compute infrastructure for the Intelligence Age</title>
-      <link>https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age</link>
-      <guid>https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age</guid>
-      <pubDate>Wed, 29 Apr 2026 15:00:00 GMT</pubDate>
-      <description>OpenAI discusses its efforts in building compute infrastructure, specifically scaling &apos;Stargate,&apos; to power AGI and meet growing AI demand. | Impact: low | Signal: neutral | Why included: This provides insight into OpenAI&apos;s large-scale infrastructure investments, crucial for developing advanced AI like AGI.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Cybersecurity in the Intelligence Age</title>
-      <link>https://openai.com/index/cybersecurity-in-the-intelligence-age</link>
-      <guid>https://openai.com/index/cybersecurity-in-the-intelligence-age</guid>
-      <pubDate>Wed, 29 Apr 2026 04:00:00 GMT</pubDate>
-      <description>OpenAI outlines a five-part plan to enhance cybersecurity in the &apos;Intelligence Age,&apos; focusing on democratizing AI-powered cyber defense and protecting critical systems. | Impact: low | Signal: neutral | Why included: This details OpenAI&apos;s strategy for cybersecurity in the context of advanced AI, highlighting their approach to safety and protection.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Quoting OpenAI Codex base_instructions</title>
-      <link>https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything</guid>
-      <pubDate>Tue, 28 Apr 2026 22:02:53 GMT</pubDate>
-      <description>A post provides a quote of the base instructions for OpenAI Codex, offering insight into its core directives. | Impact: low | Signal: neutral | Why included: This shares specific details about OpenAI Codex&apos;s internal instructions, which can be relevant for understanding its behavior and limitations.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.121 Release Notes</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.121</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.121</guid>
-      <pubDate>Tue, 28 Apr 2026 00:31:31 GMT</pubDate>
-      <description>Anthropic&apos;s Claude Code has released version 2.1.121 with numerous updates including new configuration options, utility commands, UI improvements, enhanced tool use capabilities, and critical bug fixes for memory leaks and tool usability. | Impact: medium | Signal: neutral | Why included: This is a significant release for Claude Code, detailing many functional improvements and bug fixes which are relevant to developers using the platform.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Tracking the history of the now-deceased OpenAI Microsoft AGI clause</title>
-      <link>https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</guid>
-      <pubDate>Mon, 27 Apr 2026 18:38:17 GMT</pubDate>
-      <description>This post tracks the history of a clause concerning AGI between OpenAI and Microsoft, which is now considered &apos;deceased&apos;. | Impact: low | Signal: neutral | Why included: This provides historical context on significant past agreements concerning AGI between major AI players, which can inform understanding of industry development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI available at FedRAMP Moderate</title>
-      <link>https://openai.com/index/openai-available-at-fedramp-moderate</link>
-      <guid>https://openai.com/index/openai-available-at-fedramp-moderate</guid>
-      <pubDate>Mon, 27 Apr 2026 14:00:00 GMT</pubDate>
-      <description>OpenAI has achieved FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling U.S. federal agencies to securely adopt AI. | Impact: high | Signal: positive | Why included: FedRAMP Moderate authorization is a significant step for OpenAI, enabling broader adoption by US federal agencies, which implies increased business and a positive signal for the company and the AI industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The next phase of the Microsoft OpenAI partnership</title>
-      <link>https://openai.com/index/next-phase-of-microsoft-partnership</link>
-      <guid>https://openai.com/index/next-phase-of-microsoft-partnership</guid>
-      <pubDate>Mon, 27 Apr 2026 06:00:00 GMT</pubDate>
-      <description>OpenAI and Microsoft have amended their agreement to simplify the partnership, provide long-term clarity, and support continued AI innovation at scale. | Impact: medium | Signal: positive | Why included: This is a significant update to a major partnership in the AI industry, indicating continued collaboration and investment, which is a medium-impact event.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Choco automates food distribution with AI agents</title>
-      <link>https://openai.com/index/choco</link>
-      <guid>https://openai.com/index/choco</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description>Choco has leveraged OpenAI APIs to streamline food distribution, boost productivity, and unlock growth, showcasing a real-world AI impact story. | Impact: low | Signal: positive | Why included: This is a customer success story highlighting the practical application and positive impact of OpenAI&apos;s APIs in a business context, which is relevant but low-impact.</description>
       <category>novedad</category>
     </item>
   </channel>
