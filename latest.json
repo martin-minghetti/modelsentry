@@ -1,5 +1,347 @@
 [
   {
+    "title": "Claude Code: Creating Kubernetes Debugging AI Agent for VictoriaMetrics",
+    "summary": "An article details the creation of a Kubernetes debugging AI agent using Claude Code for VictoriaMetrics.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "VictoriaMetrics"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This article discusses a practical application of Claude Code for system debugging, showcasing its potential in specialized domains.",
+    "source_url": "https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/",
+    "published_at": "2026-05-02T08:35:46.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "It's a Weird Time to Be Named Claude",
+    "summary": "The rise of Claude AI is causing confusion and complications for individuals named Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This news item highlights the societal impact of AI naming conventions and brand recognition, indirectly reflecting the growing prominence of AI models.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-05-01/claude-ai-is-complicating-life-for-people-named-claude",
+    "published_at": "2026-05-02T07:03:48.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Raspberry Pi 5 gets LLM smarts with AI HAT+",
+    "summary": "The Raspberry Pi 5 is now equipped with LLM capabilities through the AI HAT+ hardware.",
+    "category": "novedad",
+    "entities": [
+      "Raspberry Pi 5",
+      "AI HAT+"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a notable hardware development enabling LLM capabilities on a widely accessible platform, potentially democratizing edge AI.",
+    "source_url": "https://www.theregister.com/2026/01/15/pi_5_ai_hat_2/",
+    "published_at": "2026-05-02T05:15:15.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Understanding the LLM Bubble",
+    "summary": "An article analyzes the economic factors and potential for a bubble in the Large Language Model market.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This piece offers a critical perspective on the LLM market's economic sustainability, relevant for understanding industry investment trends.",
+    "source_url": "https://americanaffairsjournal.org/2026/02/understanding-the-llm-bubble/",
+    "published_at": "2026-05-02T04:15:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Sam Altman says OpenAI doesn't want to replace you with AI",
+    "summary": "Sam Altman states OpenAI's goal is not to replace humans with AI, but to augment their capabilities.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Sam Altman",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This quote from OpenAI's CEO addresses public concerns about AI's impact on employment, shaping the narrative around AI's societal role.",
+    "source_url": "https://www.neowin.net/news/sam-altman-says-that-openai-doesnt-want-to-replace-you-with-ai/",
+    "published_at": "2026-05-02T02:34:23.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Governor – a Claude Code plugin to reduce token/context waste",
+    "summary": "Governor is a plugin for Claude Code designed to minimize token and context waste.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new plugin for Claude Code focused on improving efficiency, which is a key area of development for LLMs.",
+    "source_url": "https://github.com/0xhimanshu/governor",
+    "published_at": "2026-05-02T02:19:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "xAI Has Used OpenAI's Models to Train Its Own",
+    "summary": "It is reported that xAI has utilized OpenAI's models as part of its training process for its own models.",
+    "category": "novedad",
+    "entities": [
+      "xAI",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This news reveals potential cross-model influence and data utilization strategies in the competitive AI landscape.",
+    "source_url": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
+    "published_at": "2026-05-02T00:59:27.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: MemHub, Turn Your GPT/Claude/Gemini History into LLM-Wiki Mindmap",
+    "summary": "MemHub is a new tool that transforms conversational AI history from models like GPT, Claude, and Gemini into interactive mindmaps.",
+    "category": "novedad",
+    "entities": [
+      "MemHub",
+      "GPT",
+      "Claude",
+      "Gemini",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a Show HN for a new tool that visualizes and organizes LLM interactions, addressing user data management.",
+    "source_url": "https://github.com/XTraceAI/memhub-llm-wiki-guide",
+    "published_at": "2026-05-02T00:56:49.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "The downfall of OpenAI and who will follow",
+    "summary": "An article speculates on the potential decline of OpenAI and the future trajectory of other AI companies.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This opinion piece provides a critical analysis of OpenAI's market position and competitive landscape.",
+    "source_url": "https://msukhareva.substack.com/p/the-downfall-of-openai-and-who-will",
+    "published_at": "2026-05-01T22:54:05.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I built a Claude Code skill for structured decision making",
+    "summary": "A developer created a skill for Claude Code to assist with structured decision-making processes.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates a specific application of Claude Code for enhancing complex cognitive tasks like decision making.",
+    "source_url": "https://github.com/juanallo/six-hats-skill/tree/main",
+    "published_at": "2026-05-01T22:11:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code still doesn't support AGENTS.md",
+    "summary": "An issue report indicates that Claude Code lacks support for the AGENTS.md file format.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This is a user-reported issue highlighting a missing feature in Claude Code that impacts agent development workflows.",
+    "source_url": "https://github.com/anthropics/claude-code/issues/6235",
+    "published_at": "2026-05-01T21:13:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "What Microsoft's 10-Q Says About OpenAI",
+    "summary": "An analysis of Microsoft's 10-Q filing provides insights into the company's relationship and investments concerning OpenAI.",
+    "category": "novedad",
+    "entities": [
+      "Microsoft",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This article offers financial and strategic insights into the significant partnership between Microsoft and OpenAI.",
+    "source_url": "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/",
+    "published_at": "2026-05-01T20:21:29.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Vs Gemini Vs Codex which one stays?",
+    "summary": "A discussion forum thread questions the long-term viability of Claude Code, Gemini, and Codex, asking which will remain competitive.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Gemini",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This community discussion directly addresses the competitive landscape and potential market consolidation among major LLM coding tools.",
+    "source_url": "https://news.ycombinator.com/item?id=47979631",
+    "published_at": "2026-05-01T20:10:11.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Destiny – Claude Code's fortune Teller skill",
+    "summary": "Destiny is a Claude Code skill that provides fortune readings using East Asian astrology, combining Python scripts with Claude's language generation.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This Show HN demonstrates a creative application of Claude Code for personalized content generation, highlighting its skill development capabilities.",
+    "source_url": "https://github.com/xodn348/destiny",
+    "published_at": "2026-05-01T19:56:18.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code completes the first level of several ARC AGI 3 games",
+    "summary": "Claude Code has successfully completed the initial levels of multiple ARC AGI 3 games.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "ARC AGI 3"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases Claude Code's performance in a complex reasoning benchmark (ARC AGI), indicating progress in its problem-solving abilities.",
+    "source_url": "https://arc-agi-runs.web.app/ls20-47471d22-3e73-4d9b-8ff7-972ef3ea5195/",
+    "published_at": "2026-05-01T19:24:05.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Pentagon inks deals with AI giants, but not Anthropic",
+    "summary": "The Pentagon has signed agreements with major AI companies, excluding Anthropic from these deals.",
+    "category": "novedad",
+    "entities": [
+      "Pentagon",
+      "AI",
+      "Anthropic"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This news indicates a significant market development regarding government AI procurement and Anthropic's exclusion from major Pentagon deals.",
+    "source_url": "https://www.dw.com/en/pentagon-inks-deals-with-ai-giants-but-not-anthropic/a-77012715",
+    "published_at": "2026-05-01T19:20:59.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "The LLM Is Not a Junior Engineer",
+    "summary": "An article argues that LLMs should not be treated as junior engineers due to their limitations in understanding context and real-world application.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This piece provides a critical perspective on the capabilities and limitations of LLMs in professional engineering roles.",
+    "source_url": "https://jacobharr.is/personal/llm-not-junior-engineer",
+    "published_at": "2026-05-01T19:14:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "DeepSeek v4, and the end of the OpenAI/Microsoft AGI clause",
+    "summary": "This article discusses DeepSeek v4 and the termination of the AGI clause previously held by OpenAI and Microsoft.",
+    "category": "novedad",
+    "entities": [
+      "DeepSeek",
+      "OpenAI",
+      "Microsoft",
+      "AGI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "The mention of DeepSeek v4 alongside the end of a significant AGI clause is relevant to the evolving landscape of AI development and corporate agreements.",
+    "source_url": "https://simonw.substack.com/p/deepseek-v4-and-the-end-of-the-openaimicrosoft",
+    "published_at": "2026-05-01T18:54:51.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI's advanced security: passkeys replace passwords/SMS and disable training",
+    "summary": "OpenAI is enhancing security by implementing passkeys to replace traditional passwords and SMS authentication, and these measures also disable model training.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "passkeys",
+      "SMS"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant security update from OpenAI that also impacts data usage for model training, a crucial aspect of AI development.",
+    "source_url": "https://infosec.exchange/@tychotithonus/116500494420882843",
+    "published_at": "2026-05-01T18:44:27.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 4.7 vs. Claude Opus 4.6: What Changed?",
+    "summary": "A comparison article details the differences and changes between Claude Opus versions 4.7 and 4.6.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides specific version-to-version analysis for a major LLM, useful for tracking model evolution and performance changes.",
+    "source_url": "https://www.mindstudio.ai/blog/claude-opus-4-7-vs-4-6-comparison",
+    "published_at": "2026-05-01T18:30:43.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Google Gemini Pricing",
     "summary": "Google has updated its Gemini API pricing page, indicating that Gemini Deep Research is now available in preview with new features.",
     "category": "novedad",
@@ -101,24 +443,6 @@
     "why_included": "This is a medium-impact insight into the performance advantages of running Anthropic models on AWS, potentially influencing infrastructure choices.",
     "source_url": "https://twitter.com/theo/status/2050078772507124134",
     "published_at": "2026-05-01T05:36:21.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI's Models to Train Its Own",
-    "summary": "Elon Musk's statements suggest that xAI may have utilized OpenAI's models for training its own AI, potentially leading to legal or ethical repercussions.",
-    "category": "alerta",
-    "entities": [
-      "xAI",
-      "OpenAI",
-      "Elon Musk"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "Allegations of model training misuse between major AI players like xAI and OpenAI have significant legal and industry implications.",
-    "source_url": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
-    "published_at": "2026-05-01T05:06:38.000Z",
     "confidence": 1
   },
   {
@@ -245,6 +569,23 @@
     "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-has-effectively-abandoned-first-party-stargate-data-centers-in-favor-of-more-flexible-deals-company-now-prefers-to-lease-compute-and-says-stargate-is-an-umbrella-term",
     "published_at": "2026-04-30T23:17:09.000Z",
     "confidence": 1
+  },
+  {
+    "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+    "summary": "An evaluation of OpenAI's GPT-5.5 models focusing on their cybersecurity capabilities.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "GPT-5.5"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides an assessment of a specific OpenAI model's performance in a critical domain, cybersecurity.",
+    "source_url": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+    "published_at": "2026-04-30T23:03:24.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Elon Musk confirms xAI used OpenAI's models to train Grok",
@@ -706,6 +1047,24 @@
     "source_url": "https://simonwillison.net/2026/Apr/29/llm-3/",
     "published_at": "2026-04-29T23:52:50.000Z",
     "confidence": 1
+  },
+  {
+    "title": "LLM 0.32a0 is a major backwards-compatible refactor",
+    "summary": "Version 0.32a0 of 'llm' introduces a significant backwards-compatible refactor.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.32a0"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A major refactor indicates substantial changes and potential improvements to the 'llm' project.",
+    "source_url": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
+    "published_at": "2026-04-29T19:01:47.000Z",
+    "confidence": 0.9
   },
   {
     "title": "llm 0.32a0",
