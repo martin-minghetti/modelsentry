@@ -6,6 +6,62 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OpenAI: Auto-review of agent actions without synchronous human oversight</title>
+      <link>https://alignment.openai.com/auto-review/</link>
+      <guid>https://alignment.openai.com/auto-review/</guid>
+      <pubDate>Sun, 03 May 2026 08:52:18 GMT</pubDate>
+      <description>OpenAI is exploring methods for auto-reviewing agent actions without requiring synchronous human oversight, aiming to improve efficiency and scalability. | Impact: medium | Signal: positive | Why included: This indicates progress in AI safety and agent autonomy, a key area of development in the LLM industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge</title>
+      <link>https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/</link>
+      <guid>https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/</guid>
+      <pubDate>Sun, 03 May 2026 04:05:28 GMT</pubDate>
+      <description>An open-weights Chinese model, Kimi K2.6, has reportedly surpassed Claude, GPT-5.5, and Gemini in a recent coding challenge. | Impact: medium | Signal: positive | Why included: This news highlights a significant competitive development in the LLM space, with a new model outperforming established players.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI&apos;s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors</title>
+      <link>https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses</link>
+      <guid>https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses</guid>
+      <pubDate>Sun, 03 May 2026 00:30:50 GMT</pubDate>
+      <description>In a Harvard trial, OpenAI&apos;s o1 model correctly diagnosed 67% of ER patients, outperforming human triage doctors who managed 50-55% accuracy. | Impact: medium | Signal: positive | Why included: This demonstrates a significant advancement in AI&apos;s practical application in critical fields like healthcare, showing superior diagnostic capabilities.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic</title>
+      <link>https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic</link>
+      <guid>https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic</guid>
+      <pubDate>Sat, 02 May 2026 23:13:53 GMT</pubDate>
+      <description>The Pentagon has entered into AI deals with seven major technology companies, notably excluding Anthropic from these agreements. | Impact: low | Signal: neutral | Why included: This indicates shifts in government partnerships within the AI sector, affecting major players like Anthropic.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Former head of &apos;Pentagon&apos;s think tank&apos; joins Anthropic</title>
+      <link>https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/</link>
+      <guid>https://www.defenseone.com/technology/2026/05/former-head-pentagons-think-tank-joins-anthropic/413256/</guid>
+      <pubDate>Sat, 02 May 2026 22:46:56 GMT</pubDate>
+      <description>Anthropic has hired the former head of the Pentagon&apos;s strategic think tank, signaling potential collaboration or expertise integration. | Impact: low | Signal: positive | Why included: This move suggests Anthropic is strengthening its ties with government expertise, potentially impacting its future AI development and deployment.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic potential $900B+ valuation round could happen within 2 weeks</title>
+      <link>https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/</link>
+      <guid>https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/</guid>
+      <pubDate>Sat, 02 May 2026 19:43:26 GMT</pubDate>
+      <description>Anthropic is reportedly nearing a significant funding round that could value the company at over $900 billion within the next two weeks. | Impact: medium | Signal: positive | Why included: This potential valuation is extremely high and signals massive investor confidence in Anthropic&apos;s future in the AI industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Combat LLM spam by building a web of trust</title>
+      <link>https://blog.tangled.org/vouching/</link>
+      <guid>https://blog.tangled.org/vouching/</guid>
+      <pubDate>Sat, 02 May 2026 17:45:37 GMT</pubDate>
+      <description>This blog post proposes a &apos;web of trust&apos; system to combat LLM spam and enhance reliability. | Impact: low | Signal: neutral | Why included: This discusses a potential solution to a growing problem in the LLM ecosystem, focusing on trust and spam mitigation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Claude Code: Creating Kubernetes Debugging AI Agent for VictoriaMetrics</title>
       <link>https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/</link>
       <guid>https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/</guid>
@@ -347,62 +403,6 @@
       <guid>https://morai.eu/private-llm-vs-chatgpt-in-business-when-it-makes-sense-and-when-it-doesnt/</guid>
       <pubDate>Thu, 30 Apr 2026 08:49:20 GMT</pubDate>
       <description>An article discusses the considerations for using private LLMs versus ChatGPT in business contexts, outlining when each approach is more suitable. | Impact: low | Signal: neutral | Why included: This is a comparative analysis of LLM deployment strategies, relevant for businesses deciding on AI solutions.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Lessons from early access to OpenAI&apos;s agent execution layer</title>
-      <link>https://deepsense.ai/blog/early-access-to-openais-agent-execution-layer-what-it-means-for-enterprise-ai-implementation/</link>
-      <guid>https://deepsense.ai/blog/early-access-to-openais-agent-execution-layer-what-it-means-for-enterprise-ai-implementation/</guid>
-      <pubDate>Thu, 30 Apr 2026 08:09:24 GMT</pubDate>
-      <description>A blog post shares lessons learned from early access to OpenAI&apos;s agent execution layer, offering insights into enterprise AI implementation. | Impact: low | Signal: neutral | Why included: This provides practical insights into using OpenAI&apos;s agent execution layer, relevant for enterprise AI adoption.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>LLM 0.32a0 is a major backwards-compatible refactor</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm/</link>
-      <guid>https://simonwillison.net/2026/Apr/29/llm/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:50:35 GMT</pubDate>
-      <description>A new version of LLM, 0.32a0, has been released which represents a significant backwards-compatible refactor. | Impact: medium | Signal: neutral | Why included: This is an update to a significant LLM tool, indicating ongoing development and potential feature enhancements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Codex prompt includes explicit directive: &quot;never talk about goblins&quot;</title>
-      <link>https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/</link>
-      <guid>https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:34:37 GMT</pubDate>
-      <description>The system prompt for OpenAI Codex contains an explicit directive to avoid discussing &apos;goblins&apos;, raising questions about content moderation and model behavior. | Impact: low | Signal: neutral | Why included: This highlights a specific content moderation directive within an OpenAI model&apos;s prompt, offering insight into their approach to safety and behavior control.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Beyond 80/20: High-Entropy Minority Tokens Drive Effective RL for LLM Reasoning</title>
-      <link>https://arxiv.org/abs/2506.01939</link>
-      <guid>https://arxiv.org/abs/2506.01939</guid>
-      <pubDate>Thu, 30 Apr 2026 07:23:29 GMT</pubDate>
-      <description>A research paper explores how high-entropy minority tokens can improve Reinforcement Learning (RL) for LLM reasoning, challenging traditional approaches. | Impact: low | Signal: neutral | Why included: This is a research paper presenting a novel technique for improving LLM reasoning through RL, contributing to the advancement of LLM capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code Opus 4.7: 16B cache reads across 8 sessions, forensic JSONL data</title>
-      <link>https://github.com/anthropics/claude-code/issues/38350</link>
-      <guid>https://github.com/anthropics/claude-code/issues/38350</guid>
-      <pubDate>Thu, 30 Apr 2026 06:12:22 GMT</pubDate>
-      <description>Details emerge regarding Claude Code Opus 4.7, mentioning 16 billion cache reads across 8 sessions and forensic JSONL data, suggesting performance metrics or logging information. | Impact: low | Signal: neutral | Why included: This provides specific technical details about a Claude Code model, potentially indicating performance characteristics or data handling practices.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code is inspecting repos and can auto-switch to extra usage</title>
-      <link>https://twitter.com/theo/status/2049645973350363168/photo/1</link>
-      <guid>https://twitter.com/theo/status/2049645973350363168/photo/1</guid>
-      <pubDate>Thu, 30 Apr 2026 05:53:50 GMT</pubDate>
-      <description>Claude Code has the capability to inspect repositories and automatically switch to higher usage tiers, raising questions about its functionality and potential cost implications. | Impact: medium | Signal: neutral | Why included: This highlights a potentially significant feature of Claude Code that could impact user experience and cost, as it involves automatic resource usage.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Absolutely blown away by the utility of the Claude Word add-in</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1szm5l3/absolutely_blown_away_by_the_utility_of_the/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1szm5l3/absolutely_blown_away_by_the_utility_of_the/</guid>
-      <pubDate>Thu, 30 Apr 2026 04:48:30 GMT</pubDate>
-      <description>A user expresses significant satisfaction with the Claude Word add-in, highlighting its utility in managing multiple dense legal documents and spreadsheets in parallel. | Impact: medium | Signal: positive | Why included: This is a strong positive endorsement of the Claude Word add-in&apos;s utility, indicating its effectiveness in professional workflows.</description>
       <category>novedad</category>
     </item>
   </channel>
