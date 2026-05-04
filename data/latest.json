@@ -1,5 +1,367 @@
 [
   {
+    "title": "Ruflo: Multi-agent AI orchestration for Claude Code",
+    "summary": "Ruflo is a multi-agent AI orchestration tool designed for Claude Code, enabling more complex and automated workflows.",
+    "category": "novedad",
+    "entities": [
+      "Ruflo",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This item introduces a new tool for AI orchestration, relevant to developers working with Claude Code.",
+    "source_url": "https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md",
+    "published_at": "2026-05-04T09:52:38.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I developed an alternative to Jira with Claude in 8 days, all by myself.",
+    "summary": "A user built a Jira alternative using Claude in just 8 days, showcasing the rapid development capabilities of LLMs.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Jira"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "8 days"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Demonstrates the rapid development potential of LLMs for creating complex applications like project management tools.",
+    "source_url": "https://is.team",
+    "published_at": "2026-05-04T09:18:26.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Eight LLM agents wrote 1.7M words; two refused, even when ordered",
+    "summary": "A study found that out of eight LLM agents tasked with writing, two refused to complete the task, even when explicitly instructed.",
+    "category": "novedad",
+    "entities": [
+      "LLM agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "Eight LLM agents",
+      "1.7M words"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Highlights current limitations and emergent behaviors in LLM agents, specifically regarding compliance and refusal.",
+    "source_url": "https://zenodo.org/records/20020017",
+    "published_at": "2026-05-04T08:06:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: My \"home rig\" for iterative attribute-weighted LLM benchmarking",
+    "summary": "A user shared their setup for iterative, attribute-weighted LLM benchmarking, providing insights into evaluating LLM performance.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Details a practical approach to LLM benchmarking, relevant for researchers and developers assessing model capabilities.",
+    "source_url": "https://github.com/yuvhaim-gif/LLM_InSight",
+    "published_at": "2026-05-04T07:44:21.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude-Code-Proxy – Use Kimi K2.6 and OpenAI Subscriptions in Claude Code",
+    "summary": "Claude-Code-Proxy allows users to integrate Kimi K2.6 and OpenAI subscriptions within the Claude Code environment.",
+    "category": "novedad",
+    "entities": [
+      "Claude-Code-Proxy",
+      "Kimi K2.6",
+      "OpenAI",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This release enhances Claude Code's functionality by enabling integration with other models and services.",
+    "source_url": "https://github.com/raine/claude-code-proxy",
+    "published_at": "2026-05-04T07:20:14.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Use Cheaper Models with Claude",
+    "summary": "A guide is provided on how to leverage cheaper LLM models in conjunction with Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Offers practical advice on cost optimization when using LLMs, particularly with Claude.",
+    "source_url": "https://gist.github.com/gitcloned/1929590e2fa0d0267919c6826808da2c",
+    "published_at": "2026-05-04T04:16:07.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "The Engineering Constraints of Distributed LLM Inference over the Open Internet",
+    "summary": "This article explores the engineering challenges associated with distributed LLM inference across the open internet.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Discusses critical engineering considerations for scalable and reliable distributed LLM deployments.",
+    "source_url": "https://siliconandsoul.substack.com/p/the-engineering-constraints-of-distributed",
+    "published_at": "2026-05-04T04:15:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Codex system includes explicit directive to \"never talk about goblins\"",
+    "summary": "New details reveal that OpenAI's Codex system has a directive to avoid discussing 'goblins'.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Provides insight into the specific system prompts and content moderation strategies employed by OpenAI for their models.",
+    "source_url": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/",
+    "published_at": "2026-05-04T01:51:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Ask HN: Does Claude Code succeed after being asked \"should we give up?\" for you?",
+    "summary": "A user shares an anecdote about Claude Code's performance improving after being prompted with 'should we give up?'.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Highlights an interesting and potentially useful interaction pattern with Claude Code, suggesting a psychological element to LLM prompting.",
+    "source_url": "https://news.ycombinator.com/item?id=48003592",
+    "published_at": "2026-05-04T01:32:02.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Know thyself: LLM schema for personal memory",
+    "summary": "This project proposes an LLM schema designed to manage personal memory, enabling self-reflection and knowledge integration.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Introduces a novel approach to LLM architecture focused on personal memory and self-understanding.",
+    "source_url": "https://github.com/parrik/know-thyself",
+    "published_at": "2026-05-04T00:09:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
+    "summary": "DeepClaude creates an agent loop for Claude Code utilizing DeepSeek V4 Pro, enhancing Claude Code's capabilities.",
+    "category": "novedad",
+    "entities": [
+      "DeepClaude",
+      "Claude Code",
+      "DeepSeek V4 Pro"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Significant new project combining multiple advanced LLMs for enhanced agentic capabilities, especially for Claude Code.",
+    "source_url": "https://github.com/aattaran/deepclaude",
+    "published_at": "2026-05-03T22:13:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Seriously, Anthropic? [video]",
+    "summary": "A video critically examines Anthropic's practices or offerings, potentially related to Claude.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "Expresses a critical perspective on Anthropic, a major player in the LLM space.",
+    "source_url": "https://www.youtube.com/watch?v=J8O9LLpJNrg",
+    "published_at": "2026-05-03T22:02:02.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Duralang – decorator makes every LangChain LLM/tool/MCP call a Temporal Activity",
+    "summary": "Duralang introduces a decorator that integrates LangChain LLM calls as Temporal Activities, simplifying workflow orchestration.",
+    "category": "novedad",
+    "entities": [
+      "Duralang",
+      "LangChain",
+      "Temporal"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Enhances LLM integration within workflow orchestration platforms like Temporal, relevant for MLOps and distributed AI systems.",
+    "source_url": "https://temporal.io/code-exchange/duralang-durable-stochastic-ai-agents-with-one-decorator",
+    "published_at": "2026-05-03T20:30:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Leak: 8100 Takedown Requests and the Birth of Claw-Code",
+    "summary": "A leak related to Claude Code resulted in 8100 takedown requests and the emergence of 'Claw-Code'.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Claw-Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "8100 Takedown Requests"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "Reports a significant leak impacting Claude Code, raising concerns about security and intellectual property.",
+    "source_url": "https://www.heise.de/en/news/Claude-Code-Leak-8100-Takedown-Requests-and-the-Birth-of-Claw-Code-11279674.html",
+    "published_at": "2026-05-03T19:52:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "How Kepler built verifiable AI for financial services with Claude",
+    "summary": "Kepler shares how they utilized Claude to develop verifiable AI for financial services.",
+    "category": "novedad",
+    "entities": [
+      "Kepler",
+      "Claude",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Case study demonstrating the application of Claude in a regulated industry like financial services for verifiable AI.",
+    "source_url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+    "published_at": "2026-05-03T18:14:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Public Runtime for Convera for LLM's",
+    "summary": "A public runtime environment for Convera's LLM solutions is now available.",
+    "category": "novedad",
+    "entities": [
+      "Convera",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Indicates Convera is making their LLM technology more accessible through a public runtime.",
+    "source_url": "https://github.com/cjparadise79/CONVERA-PUBLIC",
+    "published_at": "2026-05-03T18:06:25.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Orchestrate Dockerized Claude Code sessions from your issue tracker",
+    "summary": "A new project allows orchestration of Dockerized Claude Code sessions directly from issue trackers like Jira.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Jira"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Offers a practical workflow improvement for developers using Claude Code by integrating it with issue tracking systems.",
+    "source_url": "https://github.com/smithy-ai/smithy-ai",
+    "published_at": "2026-05-03T17:58:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Musk spars with OpenAI atty in trial over OpenAI's evolution from a nonprofit",
+    "summary": "Elon Musk is reportedly in a legal dispute with OpenAI's attorney concerning the company's transition from a nonprofit status.",
+    "category": "novedad",
+    "entities": [
+      "Elon Musk",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "Highlights legal and business disputes involving major AI companies, which can impact industry direction and public perception.",
+    "source_url": "https://apnews.com/article/musk-altman-openai-nonprofit-trial-bdbe85d62c2b678458fe68148eb6fba5",
+    "published_at": "2026-05-03T17:48:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Elon Musk Says AI 'Smarter Than Humans' Next Year During OpenAI Testimony",
+    "summary": "Elon Musk predicts AI will surpass human intelligence within the next year, stating this during testimony related to OpenAI.",
+    "category": "novedad",
+    "entities": [
+      "Elon Musk",
+      "AI",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Elon Musk's prominent prediction about AI surpassing human intelligence is a significant statement in the AI discourse.",
+    "source_url": "https://www.newsweek.com/elon-musk-vs-sam-altman-feud-explained-as-openai-trial-begins-11886815",
+    "published_at": "2026-05-03T17:41:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "New Claude-Code Plugin for Jupyterlab",
+    "summary": "A new plugin for Jupyterlab enables Claude-Code integration within the Jupyter environment.",
+    "category": "novedad",
+    "entities": [
+      "Claude-Code",
+      "Jupyterlab"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Extends the usability of Claude-Code to a popular development environment, Jupyterlab.",
+    "source_url": "https://github.com/stellarshenson/jupyterlab_claude_code_extension",
+    "published_at": "2026-05-03T17:35:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Quoting Anthropic",
+    "summary": "A post quoting or discussing Anthropic's statements or work.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Discussion or quotation related to Anthropic, a key player in the LLM space.",
+    "source_url": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+    "published_at": "2026-05-03T15:13:23.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "OpenAI: Auto-review of agent actions without synchronous human oversight",
     "summary": "OpenAI is exploring methods for auto-reviewing agent actions without requiring synchronous human oversight, aiming to improve efficiency and scalability.",
     "category": "novedad",
@@ -914,22 +1276,6 @@
     "why_included": "This is an update to a significant LLM tool, indicating ongoing development and potential feature enhancements.",
     "source_url": "https://simonwillison.net/2026/Apr/29/llm/",
     "published_at": "2026-04-30T07:50:35.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI Codex prompt includes explicit directive: \"never talk about goblins\"",
-    "summary": "The system prompt for OpenAI Codex contains an explicit directive to avoid discussing 'goblins', raising questions about content moderation and model behavior.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI Codex"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This highlights a specific content moderation directive within an OpenAI model's prompt, offering insight into their approach to safety and behavior control.",
-    "source_url": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/",
-    "published_at": "2026-04-30T07:34:37.000Z",
     "confidence": 0.8
   },
   {
