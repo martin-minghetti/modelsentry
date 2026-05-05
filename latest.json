@@ -1,5 +1,389 @@
 [
   {
+    "title": "Show HN: Claude Relay – local Claude Code sessions message each other",
+    "summary": "A GitHub repository showcases Claude Relay, a tool enabling local Claude Code sessions to communicate with each other.",
+    "category": "novedad",
+    "entities": [
+      "Claude Relay",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights a community-driven tool for enhancing local LLM session interaction.",
+    "source_url": "https://github.com/innestic/claude-relay",
+    "published_at": "2026-05-05T09:19:43.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Memex, Claude memory via local RAG (MCP, offline embeddings)",
+    "summary": "Memex is presented as a tool for Claude memory using local RAG, featuring offline embeddings and MCP.",
+    "category": "novedad",
+    "entities": [
+      "Memex",
+      "Claude",
+      "RAG",
+      "MCP"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This demonstrates a community effort to improve local LLM memory management with RAG.",
+    "source_url": "https://memex-cli.vercel.app/",
+    "published_at": "2026-05-05T09:02:14.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI and Anthropic launch ventures to speed enterprise AI adoption",
+    "summary": "OpenAI and Anthropic are launching joint ventures to accelerate AI adoption within enterprises, addressing deployment gaps.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This signifies strategic moves by major AI players to capture the enterprise market.",
+    "source_url": "https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/",
+    "published_at": "2026-05-05T08:47:39.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic, OpenAI launch AI services companies, challenge TCS, Infosys in India",
+    "summary": "Anthropic and OpenAI are establishing AI services companies, positioning themselves to compete with established IT service providers like TCS and Infosys, particularly in the Indian market.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "OpenAI",
+      "TCS",
+      "Infosys"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This marks a direct move by AI labs into the enterprise services sector, challenging traditional IT consulting firms.",
+    "source_url": "https://www.indiatoday.in/technology/news/story/anthropic-openai-launch-ai-services-companies-challenge-tcs-and-infosys-in-india-2906776-2026-05-05",
+    "published_at": "2026-05-05T08:26:16.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Y Combinator holds $5B stake in OpenAI",
+    "summary": "Y Combinator has a significant $5 billion stake in OpenAI, highlighting a major financial connection between the accelerator and the AI research lab.",
+    "category": "novedad",
+    "entities": [
+      "Y Combinator",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$5B"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This reveals a substantial financial investment by Y Combinator in OpenAI, indicating confidence and a significant partnership.",
+    "source_url": "https://simonwillison.net/2026/May/5/john-gruber/",
+    "published_at": "2026-05-05T08:12:59.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Replayable traces of Claude Code runs on ARC-AGI-3 public demo games",
+    "summary": "Replayable traces of Claude Code runs are available for ARC-AGI-3 public demo games, offering insights into the model's performance in a game context.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "ARC-AGI-3"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides community access to Claude Code performance data in a specific benchmark environment.",
+    "source_url": "https://arc-agi-runs.web.app",
+    "published_at": "2026-05-05T08:08:51.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Agent Monitor",
+    "summary": "A GitHub repository presents a Claude Code Agent Monitor, likely for observing and managing Claude Code agent activities.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This indicates community tooling for managing and monitoring LLM agents.",
+    "source_url": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
+    "published_at": "2026-05-05T07:48:30.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Using Agent-Browser in Claude Code to Automate Zoho Books Workflows",
+    "summary": "A YouTube video demonstrates using Agent-Browser within Claude Code to automate workflows for Zoho Books.",
+    "category": "novedad",
+    "entities": [
+      "Agent-Browser",
+      "Claude Code",
+      "Zoho Books"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This showcases practical application of LLMs for automating business workflows.",
+    "source_url": "https://www.youtube.com/watch?v=ZM8Ar_Cr-LI",
+    "published_at": "2026-05-05T07:42:09.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I abused PostHog's setup wizard to get free Claude access",
+    "summary": "An article details how PostHog's setup wizard was exploited to gain free access to Claude.",
+    "category": "novedad",
+    "entities": [
+      "PostHog",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights potential vulnerabilities in service onboarding processes related to LLM access.",
+    "source_url": "https://techstackups.com/articles/i-abused-posthogs-setup-wizard-to-get-free-claude-access/",
+    "published_at": "2026-05-05T07:28:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Browser extension that hooks fetch() to track Claude.ai token usage",
+    "summary": "A browser extension is available that hooks into fetch() to monitor Claude.ai token usage.",
+    "category": "novedad",
+    "entities": [
+      "Claude.ai"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers a community tool for users to better understand and manage their LLM token consumption.",
+    "source_url": "https://github.com/Krabby24/claude-token-tracker",
+    "published_at": "2026-05-05T07:16:36.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code: /effort is global across concurrent sessions instead of session",
+    "summary": "A GitHub issue discusses a change in Claude Code where '/effort' is now global across concurrent sessions, rather than being session-specific.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This reports a functional change in Claude Code that could affect user workflow and understanding of session behavior.",
+    "source_url": "https://github.com/anthropics/claude-code/issues/49166",
+    "published_at": "2026-05-05T06:44:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Amazon rolls out Claude Code and Codex internally",
+    "summary": "Amazon is internally deploying Claude Code and Codex across its workforce, signaling a significant adoption of these LLM technologies within the company.",
+    "category": "novedad",
+    "entities": [
+      "Amazon",
+      "Claude Code",
+      "Codex"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates a major enterprise adopting LLMs internally, potentially driving further development and integration.",
+    "source_url": "https://www.businessinsider.com/amazon-claude-code-codex-all-employees-after-pushback-2026-5",
+    "published_at": "2026-05-05T06:09:49.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI Raises $4B for 'The Deployment Company' to Help Businesses Leverage AI",
+    "summary": "OpenAI has raised $4 billion for a new venture, 'The Deployment Company,' aimed at assisting businesses in leveraging AI technologies.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "$4B"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This represents a significant funding round for OpenAI's new enterprise-focused initiative, signaling strategic expansion.",
+    "source_url": "https://officechai.com/ai/openai-raises-4-billion-for-the-deployment-company-to-help-businesses-leverage-ai/",
+    "published_at": "2026-05-05T05:34:55.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic quietly nerfed Claude Code's 1-hour cache",
+    "summary": "Anthropic has reportedly reduced the 1-hour cache functionality for Claude Code without explicit announcement.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert as it signifies a potential reduction in service functionality for a core LLM product, impacting user experience and expectations.",
+    "source_url": "https://www.xda-developers.com/anthropic-quietly-nerfed-claude-code-hour-cache-token-budget/",
+    "published_at": "2026-05-05T05:23:37.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic entering AI services business",
+    "summary": "Anthropic is expanding its business model by entering the AI services sector.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This shows Anthropic's strategic shift to offer services directly to businesses, similar to OpenAI's venture.",
+    "source_url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+    "published_at": "2026-05-05T05:17:34.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI president defends motives in for-profit restructuring, reveals $30B stake",
+    "summary": "OpenAI's president defended the company's for-profit restructuring and disclosed his personal stake is valued at $30 billion.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$30B"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides insight into OpenAI's internal financial structure and executive compensation amidst its for-profit shift.",
+    "source_url": "https://www.ft.com/content/5c24fa13-ae43-4d5a-9b68-b6ebae227dce",
+    "published_at": "2026-05-05T04:58:33.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic co-founder Jack Clark: 60%+ chance of automated AI R&D by 2029",
+    "summary": "Anthropic co-founder Jack Clark predicts a greater than 60% probability of automated AI R&D being achieved by 2029.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Jack Clark"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "60%",
+      "2029"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This forecast from a key industry figure provides a significant prediction on the timeline for a major AI advancement.",
+    "source_url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
+    "published_at": "2026-05-05T04:56:44.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic Unveils $1.5B Joint Venture with Wall Street Firms",
+    "summary": "Anthropic has formed a $1.5 billion joint venture with several Wall Street firms, expanding its strategic partnerships.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Wall Street Firms"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [
+      "$1.5B"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This signifies a major financial and strategic partnership for Anthropic, indicating significant investment and collaboration with the financial sector.",
+    "source_url": "https://www.wsj.com/business/deals/anthropic-nears-1-5-billion-joint-venture-with-wall-street-firms-8f5448ee",
+    "published_at": "2026-05-05T04:37:08.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI president discloses his stake in the company is worth $30B",
+    "summary": "OpenAI's president revealed his personal stake in the company is valued at $30 billion, highlighting the substantial financial implications of the company's restructuring.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$30B"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides a high-profile figure for executive compensation within OpenAI, adding context to the company's financial disclosures.",
+    "source_url": "https://apnews.com/article/brockman-musk-altman-openai-trial-837bdc3fbced2a02f0f93a1899260bdd",
+    "published_at": "2026-05-05T04:10:35.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Train Your Own LLM from Scratch",
+    "summary": "A GitHub repository provides resources for training a Large Language Model from scratch.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers valuable educational resources for individuals interested in understanding and building LLMs from the ground up.",
+    "source_url": "https://github.com/angelos-p/llm-from-scratch",
+    "published_at": "2026-05-05T04:09:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+    "summary": "OpenAI and PwC are partnering to help enterprises leverage AI agents for finance workflows, forecasting, and controls, aiming to modernize the CFO function.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "PwC"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership focuses on applying AI to a specific enterprise function (CFO), indicating a trend towards specialized AI solutions for business needs.",
+    "source_url": "https://openai.com/index/openai-pwc-finance-collaboration",
+    "published_at": "2026-05-04T21:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+    "summary": "Google's Gemini API now supports Webhooks, a push-based notification system to reduce friction and latency for long-running jobs by eliminating polling.",
+    "category": "novedad",
+    "entities": [
+      "Gemini API"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This introduces a significant API enhancement for Gemini, improving developer experience and efficiency for asynchronous tasks.",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+    "published_at": "2026-05-04T15:30:00.000Z",
+    "confidence": 0.95
+  },
+  {
     "title": "Ruflo: Multi-agent AI orchestration for Claude Code",
     "summary": "Ruflo is a multi-agent AI orchestration tool designed for Claude Code, enabling more complex and automated workflows.",
     "category": "novedad",
@@ -168,6 +552,22 @@
     "source_url": "https://github.com/parrik/know-thyself",
     "published_at": "2026-05-04T00:09:33.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "summary": "OpenAI details how it rebuilt its WebRTC stack to achieve low-latency, scalable voice AI and seamless conversational turn-taking.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This provides technical insights into OpenAI's infrastructure advancements for delivering real-time voice AI, a crucial area for AI products.",
+    "source_url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "published_at": "2026-05-04T00:00:00.000Z",
+    "confidence": 0.95
   },
   {
     "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
