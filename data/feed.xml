@@ -6,11 +6,75 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gemini Deep Research ya está disponible en versión preliminar con planificación colaborativa, visualización, compatibilidad con MCP y mucho más.</title>
+      <title>Google Gemini Pricing Page</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Thu, 07 May 2026 10:11:17 GMT</pubDate>
-      <description>Google&apos;s Gemini Deep Research is now available in preview, featuring collaborative planning, visualization, MCP compatibility, and more. | Impact: medium | Signal: positive | Why included: This is a preview release of a significant new capability for Google&apos;s Gemini, indicating advancements in collaborative AI and tooling.</description>
+      <pubDate>Fri, 08 May 2026 09:02:26 GMT</pubDate>
+      <description>The Google Gemini Pricing page shows updates to reflect new preview features for Gemini Deep Research and updated terms of service, with content translated to Thai. | Impact: low | Signal: neutral | Why included: This diff indicates updates to Google&apos;s pricing and terms of service for Gemini, which is important for developers using the API.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Pricing Page</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Fri, 08 May 2026 09:02:24 GMT</pubDate>
+      <description>No significant changes detected on the Anthropic Pricing page. | Impact: low | Signal: neutral | Why included: Monitoring pricing pages is crucial for tracking potential changes, and this diff indicates no immediate impact.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>SubQ: Sub-quadratic LLM built for 12M-token reasoning</title>
+      <link>https://subq.ai/</link>
+      <guid>https://subq.ai/</guid>
+      <pubDate>Fri, 08 May 2026 06:26:06 GMT</pubDate>
+      <description>A new sub-quadratic LLM called SubQ has been developed, capable of handling up to 12 million tokens for reasoning tasks. | Impact: medium | Signal: positive | Why included: This indicates a potential advancement in LLM capabilities for handling long contexts, which is a significant area of development in the industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
+      <link>https://www.anthropic.com/news/higher-limits-spacex?id=19234</link>
+      <guid>https://www.anthropic.com/news/higher-limits-spacex?id=19234</guid>
+      <pubDate>Fri, 08 May 2026 03:52:28 GMT</pubDate>
+      <description>Anthropic has announced higher usage limits for Claude and a compute deal with SpaceX. | Impact: medium | Signal: positive | Why included: This partnership signifies a significant move for Anthropic, potentially improving Claude&apos;s scalability and performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code CVE-2026-39861: sandbox escape via symlink</title>
+      <link>https://github.com/advisories/GHSA-vp62-r36r-9xqp</link>
+      <guid>https://github.com/advisories/GHSA-vp62-r36r-9xqp</guid>
+      <pubDate>Fri, 08 May 2026 02:39:55 GMT</pubDate>
+      <description>A critical vulnerability (CVE-2026-39861) has been discovered in Claude Code, allowing for a sandbox escape through a symlink attack. | Impact: high | Signal: negative | Why included: This is a high-impact security vulnerability affecting a major LLM product, posing a direct risk to users and developers.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic response to 1-click pwn: Shouldn&apos;t have clicked &apos;ok&apos;</title>
+      <link>https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319</link>
+      <guid>https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319</guid>
+      <pubDate>Fri, 08 May 2026 02:38:54 GMT</pubDate>
+      <description>Anthropic&apos;s response to a &apos;1-click pwn&apos; vulnerability in Claude Code, which could be triggered by trusting a prompt, suggests that users shouldn&apos;t have clicked &apos;ok&apos;. | Impact: high | Signal: negative | Why included: This highlights a critical security issue in Claude Code and Anthropic&apos;s potentially dismissive response to it, raising concerns about security practices.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI expands Trusted Access for Cyber with GPT-5.5</title>
+      <link>https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber</link>
+      <guid>https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber</guid>
+      <pubDate>Thu, 07 May 2026 13:00:00 GMT</pubDate>
+      <description>OpenAI has enhanced its Trusted Access program with the introduction of GPT-5.5 and GPT-5.5-Cyber, aimed at cybersecurity professionals for vulnerability research and protection of critical infrastructure. | Impact: medium | Signal: positive | Why included: The release of specialized models like GPT-5.5-Cyber indicates OpenAI&apos;s focus on specific industry needs and advancements in model capabilities for specialized applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Parloa leverages OpenAI models for AI customer service agents</title>
+      <link>https://openai.com/index/parloa</link>
+      <guid>https://openai.com/index/parloa</guid>
+      <pubDate>Thu, 07 May 2026 11:00:00 GMT</pubDate>
+      <description>Parloa is utilizing OpenAI models to develop scalable, voice-driven AI customer service agents that enable real-time, reliable interactions. | Impact: medium | Signal: positive | Why included: This partnership highlights the growing application of LLMs in customer service and the potential for specialized companies to build upon foundational models.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI API introduces new real-time voice models</title>
+      <link>https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api</link>
+      <guid>https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api</guid>
+      <pubDate>Thu, 07 May 2026 10:00:00 GMT</pubDate>
+      <description>The OpenAI API now offers new real-time voice models capable of reasoning, translation, and transcription, aiming to create more natural and intelligent voice experiences. | Impact: medium | Signal: positive | Why included: Advancements in voice AI within the OpenAI API signal improvements in natural language processing and multimodal capabilities.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -182,14 +246,6 @@
       <category>alerta</category>
     </item>
     <item>
-      <title>Anthropic Pricing Page Update</title>
-      <link>https://www.anthropic.com/pricing</link>
-      <guid>https://www.anthropic.com/pricing</guid>
-      <pubDate>Wed, 06 May 2026 10:05:27 GMT</pubDate>
-      <description>The Anthropic pricing page has been updated, though the provided diff shows no substantive changes to the displayed text, suggesting a minor or cosmetic update. | Impact: low | Signal: neutral | Why included: This is a minor update to an important company&apos;s pricing page, relevant for tracking any potential shifts in their offerings.</description>
-      <category>alerta</category>
-    </item>
-    <item>
       <title>notebooklm-py makes Claude interact with NotebookLM</title>
       <link>https://github.com/teng-lin/notebooklm-py</link>
       <guid>https://github.com/teng-lin/notebooklm-py</guid>
@@ -259,14 +315,6 @@
       <guid>https://sindro.me/posts/2026-04-09-claude-code-pure-cli-setup/</guid>
       <pubDate>Wed, 06 May 2026 05:00:55 GMT</pubDate>
       <description>A user shares their setup for Claude Code using a pure CLI and Unix environment, avoiding traditional IDEs. | Impact: low | Signal: positive | Why included: This showcases an alternative, minimalist workflow for interacting with LLM coding tools.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>SubQ: Sub-Quadratic LLM</title>
-      <link>https://subq.ai/</link>
-      <guid>https://subq.ai/</guid>
-      <pubDate>Wed, 06 May 2026 03:31:34 GMT</pubDate>
-      <description>SubQ is presented as a sub-quadratic Large Language Model. | Impact: medium | Signal: positive | Why included: This indicates a potential advancement in LLM architecture for improved efficiency.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -355,54 +403,6 @@
       <guid>https://openai.com/index/mrc-supercomputer-networking</guid>
       <pubDate>Tue, 05 May 2026 10:00:00 GMT</pubDate>
       <description>OpenAI introduces MRC, a new supercomputer networking protocol designed to enhance resilience and performance in large-scale AI training clusters. | Impact: medium | Signal: positive | Why included: This is a significant infrastructure announcement from OpenAI, detailing a new networking protocol for large-scale AI training, which could impact hardware development and efficiency.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Claude Relay – local Claude Code sessions message each other</title>
-      <link>https://github.com/innestic/claude-relay</link>
-      <guid>https://github.com/innestic/claude-relay</guid>
-      <pubDate>Tue, 05 May 2026 09:19:43 GMT</pubDate>
-      <description>A GitHub repository showcases Claude Relay, a tool enabling local Claude Code sessions to communicate with each other. | Impact: low | Signal: neutral | Why included: This highlights a community-driven tool for enhancing local LLM session interaction.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Memex, Claude memory via local RAG (MCP, offline embeddings)</title>
-      <link>https://memex-cli.vercel.app/</link>
-      <guid>https://memex-cli.vercel.app/</guid>
-      <pubDate>Tue, 05 May 2026 09:02:14 GMT</pubDate>
-      <description>Memex is presented as a tool for Claude memory using local RAG, featuring offline embeddings and MCP. | Impact: low | Signal: neutral | Why included: This demonstrates a community effort to improve local LLM memory management with RAG.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI and Anthropic launch ventures to speed enterprise AI adoption</title>
-      <link>https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/</link>
-      <guid>https://www.sofx.com/openai-and-anthropic-launch-rival-pe-joint-ventures-to-address-enterprise-ai-deployment-gap/</guid>
-      <pubDate>Tue, 05 May 2026 08:47:39 GMT</pubDate>
-      <description>OpenAI and Anthropic are launching joint ventures to accelerate AI adoption within enterprises, addressing deployment gaps. | Impact: medium | Signal: positive | Why included: This signifies strategic moves by major AI players to capture the enterprise market.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic, OpenAI launch AI services companies, challenge TCS, Infosys in India</title>
-      <link>https://www.indiatoday.in/technology/news/story/anthropic-openai-launch-ai-services-companies-challenge-tcs-and-infosys-in-india-2906776-2026-05-05</link>
-      <guid>https://www.indiatoday.in/technology/news/story/anthropic-openai-launch-ai-services-companies-challenge-tcs-and-infosys-in-india-2906776-2026-05-05</guid>
-      <pubDate>Tue, 05 May 2026 08:26:16 GMT</pubDate>
-      <description>Anthropic and OpenAI are establishing AI services companies, positioning themselves to compete with established IT service providers like TCS and Infosys, particularly in the Indian market. | Impact: medium | Signal: positive | Why included: This marks a direct move by AI labs into the enterprise services sector, challenging traditional IT consulting firms.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Y Combinator holds $5B stake in OpenAI</title>
-      <link>https://simonwillison.net/2026/May/5/john-gruber/</link>
-      <guid>https://simonwillison.net/2026/May/5/john-gruber/</guid>
-      <pubDate>Tue, 05 May 2026 08:12:59 GMT</pubDate>
-      <description>Y Combinator has a significant $5 billion stake in OpenAI, highlighting a major financial connection between the accelerator and the AI research lab. | Impact: medium | Signal: neutral | Why included: This reveals a substantial financial investment by Y Combinator in OpenAI, indicating confidence and a significant partnership.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Replayable traces of Claude Code runs on ARC-AGI-3 public demo games</title>
-      <link>https://arc-agi-runs.web.app</link>
-      <guid>https://arc-agi-runs.web.app</guid>
-      <pubDate>Tue, 05 May 2026 08:08:51 GMT</pubDate>
-      <description>Replayable traces of Claude Code runs are available for ARC-AGI-3 public demo games, offering insights into the model&apos;s performance in a game context. | Impact: low | Signal: neutral | Why included: This provides community access to Claude Code performance data in a specific benchmark environment.</description>
       <category>novedad</category>
     </item>
   </channel>
