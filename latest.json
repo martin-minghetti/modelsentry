@@ -1,21 +1,157 @@
 [
   {
-    "title": "Gemini Deep Research ya está disponible en versión preliminar con planificación colaborativa, visualización, compatibilidad con MCP y mucho más.",
-    "summary": "Google's Gemini Deep Research is now available in preview, featuring collaborative planning, visualization, MCP compatibility, and more.",
+    "title": "Google Gemini Pricing Page",
+    "summary": "The Google Gemini Pricing page shows updates to reflect new preview features for Gemini Deep Research and updated terms of service, with content translated to Thai.",
     "category": "novedad",
     "entities": [
-      "Gemini Deep Research",
-      "Google",
-      "MCP"
+      "Google Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This diff indicates updates to Google's pricing and terms of service for Gemini, which is important for developers using the API.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-05-08T09:02:26.013Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "Anthropic Pricing Page",
+    "summary": "No significant changes detected on the Anthropic Pricing page.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Monitoring pricing pages is crucial for tracking potential changes, and this diff indicates no immediate impact.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-05-08T09:02:24.416Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "SubQ: Sub-quadratic LLM built for 12M-token reasoning",
+    "summary": "A new sub-quadratic LLM called SubQ has been developed, capable of handling up to 12 million tokens for reasoning tasks.",
+    "category": "novedad",
+    "entities": [
+      "SubQ"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "12M-token"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates a potential advancement in LLM capabilities for handling long contexts, which is a significant area of development in the industry.",
+    "source_url": "https://subq.ai/",
+    "published_at": "2026-05-08T06:26:06.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+    "summary": "Anthropic has announced higher usage limits for Claude and a compute deal with SpaceX.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "SpaceX"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership signifies a significant move for Anthropic, potentially improving Claude's scalability and performance.",
+    "source_url": "https://www.anthropic.com/news/higher-limits-spacex?id=19234",
+    "published_at": "2026-05-08T03:52:28.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code CVE-2026-39861: sandbox escape via symlink",
+    "summary": "A critical vulnerability (CVE-2026-39861) has been discovered in Claude Code, allowing for a sandbox escape through a symlink attack.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "CVE-2026-39861"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact security vulnerability affecting a major LLM product, posing a direct risk to users and developers.",
+    "source_url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+    "published_at": "2026-05-08T02:39:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic response to 1-click pwn: Shouldn't have clicked 'ok'",
+    "summary": "Anthropic's response to a '1-click pwn' vulnerability in Claude Code, which could be triggered by trusting a prompt, suggests that users shouldn't have clicked 'ok'.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This highlights a critical security issue in Claude Code and Anthropic's potentially dismissive response to it, raising concerns about security practices.",
+    "source_url": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
+    "published_at": "2026-05-08T02:38:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI expands Trusted Access for Cyber with GPT-5.5",
+    "summary": "OpenAI has enhanced its Trusted Access program with the introduction of GPT-5.5 and GPT-5.5-Cyber, aimed at cybersecurity professionals for vulnerability research and protection of critical infrastructure.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "GPT-5.5",
+      "GPT-5.5-Cyber"
     ],
     "event_type": "release",
     "key_numbers": [],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "This is a preview release of a significant new capability for Google's Gemini, indicating advancements in collaborative AI and tooling.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-07T10:11:17.495Z",
-    "confidence": 0.9
+    "why_included": "The release of specialized models like GPT-5.5-Cyber indicates OpenAI's focus on specific industry needs and advancements in model capabilities for specialized applications.",
+    "source_url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+    "published_at": "2026-05-07T13:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Parloa leverages OpenAI models for AI customer service agents",
+    "summary": "Parloa is utilizing OpenAI models to develop scalable, voice-driven AI customer service agents that enable real-time, reliable interactions.",
+    "category": "novedad",
+    "entities": [
+      "Parloa",
+      "OpenAI"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership highlights the growing application of LLMs in customer service and the potential for specialized companies to build upon foundational models.",
+    "source_url": "https://openai.com/index/parloa",
+    "published_at": "2026-05-07T11:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI API introduces new real-time voice models",
+    "summary": "The OpenAI API now offers new real-time voice models capable of reasoning, translation, and transcription, aiming to create more natural and intelligent voice experiences.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Advancements in voice AI within the OpenAI API signal improvements in natural language processing and multimodal capabilities.",
+    "source_url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+    "published_at": "2026-05-07T10:00:00.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Opus 4.7 ended an explanation of LLM-connectors with a link to a Pokemon TCG deck",
@@ -384,22 +520,6 @@
     "confidence": 0.9
   },
   {
-    "title": "Anthropic Pricing Page Update",
-    "summary": "The Anthropic pricing page has been updated, though the provided diff shows no substantive changes to the displayed text, suggesting a minor or cosmetic update.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a minor update to an important company's pricing page, relevant for tracking any potential shifts in their offerings.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-05-06T10:05:27.599Z",
-    "confidence": 0.8
-  },
-  {
     "title": "notebooklm-py makes Claude interact with NotebookLM",
     "summary": "A new Python library, notebooklm-py, has been developed to enable Claude models to interact with NotebookLM.",
     "category": "novedad",
@@ -555,23 +675,6 @@
     "why_included": "This showcases an alternative, minimalist workflow for interacting with LLM coding tools.",
     "source_url": "https://sindro.me/posts/2026-04-09-claude-code-pure-cli-setup/",
     "published_at": "2026-05-06T05:00:55.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "SubQ: Sub-Quadratic LLM",
-    "summary": "SubQ is presented as a sub-quadratic Large Language Model.",
-    "category": "novedad",
-    "entities": [
-      "SubQ",
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates a potential advancement in LLM architecture for improved efficiency.",
-    "source_url": "https://subq.ai/",
-    "published_at": "2026-05-06T03:31:34.000Z",
     "confidence": 0.8
   },
   {
@@ -6621,60 +6724,6 @@
     "why_included": "This SDK update from Anthropic includes support for a new product feature, Claude Managed Agents.",
     "source_url": "https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.92.0",
     "published_at": "2026-04-08T16:55:01.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Releases: v2.1.96",
-    "summary": "Anthropic's Claude Code v2.1.96 release fixes an issue with Bedrock requests failing with 403 'Authorization header is missing' when specific environment variables are set.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Claude Code",
-      "Bedrock"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This is a bug fix release for Anthropic's Claude Code, addressing a specific authentication failure that was a regression from a previous version.",
-    "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.96",
-    "published_at": "2026-04-08T04:37:36.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: Anthropic's Project Glasswing Restricts Claude Mythos",
-    "summary": "Simon Willison comments on Anthropic's Project Glasswing, which restricts Claude Mythos access to security researchers, deeming it a necessary measure.",
-    "category": "novedad",
-    "entities": [
-      "Simon Willison",
-      "Anthropic",
-      "Claude Mythos"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a third-party commentary on Anthropic's strategic decision to restrict access to Claude Mythos, indicating a focus on responsible AI deployment.",
-    "source_url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
-    "published_at": "2026-04-07T20:52:54.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Anthropic SDK Python: v0.90.0",
-    "summary": "Anthropic's Python SDK has been updated to v0.90.0, adding support for the 'claude-mythos-preview' model and fixing a bug related to query parameters.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Anthropic SDK Python",
-      "claude-mythos-preview"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This SDK update from Anthropic adds support for a new model and fixes a bug, indicating ongoing development and improvements.",
-    "source_url": "https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.90.0",
-    "published_at": "2026-04-07T18:01:22.000Z",
     "confidence": 0.9
   }
 ]
