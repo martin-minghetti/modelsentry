@@ -6,11 +6,35 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Page</title>
+      <title>Google Gemini Pricing Update: Free tier limits and Gemini Deep Research availability</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 08 May 2026 09:02:26 GMT</pubDate>
-      <description>The Google Gemini Pricing page shows updates to reflect new preview features for Gemini Deep Research and updated terms of service, with content translated to Thai. | Impact: low | Signal: neutral | Why included: This diff indicates updates to Google&apos;s pricing and terms of service for Gemini, which is important for developers using the API.</description>
+      <pubDate>Sat, 09 May 2026 09:04:29 GMT</pubDate>
+      <description>Google has updated Gemini pricing, making Gemini Deep Research available in preview with collaborative features, and adjusted free tier limits for the Gemini API. | Impact: medium | Signal: neutral | Why included: This is a pricing update for a major AI model&apos;s API, which directly affects developer costs and accessibility.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Simon Willison: Using Claude Code: The Unreasonable Effectiveness of HTML</title>
+      <link>https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything</guid>
+      <pubDate>Fri, 08 May 2026 21:00:11 GMT</pubDate>
+      <description>Simon Willison discusses the effectiveness of HTML in conjunction with Claude Code, touching on its integration and potential. | Impact: low | Signal: neutral | Why included: Blog post discussing a specific tool (Claude Code) and its interaction with web technologies, relevant to developer tooling.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.136 Release Notes</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.136</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.136</guid>
+      <pubDate>Fri, 08 May 2026 18:39:08 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code has released version v2.1.136, introducing several new features, bug fixes, and improvements across its extensions and core functionality, including enhanced feedback surveys, new auto-mode classifiers, and fixes for concurrent credential writes and OAuth refresh tokens. | Impact: low | Signal: neutral | Why included: This is a software release for a specific tool in the LLM ecosystem, indicating ongoing development and maintenance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Running Codex Safely</title>
+      <link>https://openai.com/index/running-codex-safely</link>
+      <guid>https://openai.com/index/running-codex-safely</guid>
+      <pubDate>Fri, 08 May 2026 12:30:00 GMT</pubDate>
+      <description>OpenAI details its security measures for running Codex, including sandboxing, approvals, network policies, and agent-native telemetry, to ensure safe and compliant adoption of coding agents. | Impact: low | Signal: neutral | Why included: This blog post discusses OpenAI&apos;s operational security for a coding-related AI model, relevant to industry practices.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -52,6 +76,30 @@
       <pubDate>Fri, 08 May 2026 02:38:54 GMT</pubDate>
       <description>Anthropic&apos;s response to a &apos;1-click pwn&apos; vulnerability in Claude Code, which could be triggered by trusting a prompt, suggests that users shouldn&apos;t have clicked &apos;ok&apos;. | Impact: high | Signal: negative | Why included: This highlights a critical security issue in Claude Code and Anthropic&apos;s potentially dismissive response to it, raising concerns about security practices.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>Simon Willison: llm-gemini 0.31</title>
+      <link>https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything</guid>
+      <pubDate>Thu, 07 May 2026 19:57:06 GMT</pubDate>
+      <description>Simon Willison notes an update to the llm-gemini library, version 0.31. | Impact: low | Signal: neutral | Why included: Mentions an update to a specific LLM-related library, indicating ongoing development in the ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison: Behind the Scenes Hardening Firefox with Claude Mythos Preview</title>
+      <link>https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything</guid>
+      <pubDate>Thu, 07 May 2026 17:56:25 GMT</pubDate>
+      <description>Simon Willison provides insights into hardening Firefox security using a preview of Claude Mythos. | Impact: low | Signal: neutral | Why included: Discusses the application of an AI model (Claude Mythos) in improving browser security, highlighting cross-industry application.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison: Notes on the xAI/Anthropic data center deal</title>
+      <link>https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything</guid>
+      <pubDate>Thu, 07 May 2026 17:09:28 GMT</pubDate>
+      <description>Simon Willison shares notes and analysis on the reported data center deal between xAI and Anthropic. | Impact: medium | Signal: neutral | Why included: This discusses a significant potential partnership and infrastructure deal between two major AI companies, impacting the competitive landscape.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>OpenAI expands Trusted Access for Cyber with GPT-5.5</title>
@@ -238,6 +286,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Simon Willison: Live blog: Code w/ Claude 2026</title>
+      <link>https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything</guid>
+      <pubDate>Wed, 06 May 2026 15:58:27 GMT</pubDate>
+      <description>Simon Willison provides live blog coverage of the &apos;Code w/ Claude 2026&apos; event. | Impact: low | Signal: neutral | Why included: Covers an event focused on Claude&apos;s capabilities in coding, providing insights into Anthropic&apos;s developments.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Kindergarten-grade nouns</title>
       <link>https://www.reddit.com/r/ClaudeAI/comments/1t5dfjn/kindergartengrade_nouns/</link>
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1t5dfjn/kindergartengrade_nouns/</guid>
@@ -347,62 +403,6 @@
       <guid>https://www.lucasaguiar.xyz/posts/dawkins-claude-consciencia-ia/</guid>
       <pubDate>Wed, 06 May 2026 01:34:04 GMT</pubDate>
       <description>An article discusses the concepts of consciousness in artificial intelligence through the lens of Richard Dawkins and Claude. | Impact: low | Signal: neutral | Why included: This is relevant as it delves into philosophical and theoretical aspects of AI and consciousness.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>How frontier enterprises are building an AI advantage</title>
-      <link>https://openai.com/index/introducing-b2b-signals</link>
-      <guid>https://openai.com/index/introducing-b2b-signals</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI&apos;s B2B Signals research explores how leading enterprises are deepening AI adoption, scaling agentic workflows, and building competitive advantages. | Impact: low | Signal: positive | Why included: This is an industry insight piece from OpenAI on enterprise AI adoption strategies, offering valuable context on market trends.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Uber uses OpenAI to help people earn smarter and book faster</title>
-      <link>https://openai.com/index/uber</link>
-      <guid>https://openai.com/index/uber</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description>Uber is leveraging OpenAI to power AI assistants and voice features that improve driver earnings and rider booking efficiency. | Impact: low | Signal: positive | Why included: This highlights a practical application of OpenAI&apos;s technology in a major industry, showcasing real-world business impact.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Better Design – 28 Shadcn design systems (OSS, MCP: Cursor/Claude Code)</title>
-      <link>https://github.com/marvkr/better-design</link>
-      <guid>https://github.com/marvkr/better-design</guid>
-      <pubDate>Tue, 05 May 2026 23:31:35 GMT</pubDate>
-      <description>A &apos;Show HN&apos; post highlights &apos;Better Design&apos;, featuring 28 Shadcn design systems, mentioning Cursor and Claude Code in an open-source context. | Impact: low | Signal: positive | Why included: This showcases community projects leveraging LLM coding tools and open-source design systems.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude, I order a whiskey sour, I get spaghetti</title>
-      <link>https://claude.ai/share/328f95d9-1c15-4eb5-accb-d1bf5bcaa713</link>
-      <guid>https://claude.ai/share/328f95d9-1c15-4eb5-accb-d1bf5bcaa713</guid>
-      <pubDate>Tue, 05 May 2026 22:14:54 GMT</pubDate>
-      <description>A user shares an example where Claude provided an unexpected &apos;spaghetti&apos; response when a &apos;whiskey sour&apos; was requested, indicating a humorous or unexpected output. | Impact: low | Signal: neutral | Why included: This is a user-shared anecdote highlighting potential unexpected behavior or misinterpretations from LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code: use cases and tips to get the most out of Claude</title>
-      <link>https://comparatif.ai-explorer.io/en/tools/claude-code/astuces-claude-code</link>
-      <guid>https://comparatif.ai-explorer.io/en/tools/claude-code/astuces-claude-code</guid>
-      <pubDate>Tue, 05 May 2026 21:54:10 GMT</pubDate>
-      <description>A resource detailing use cases and tips for maximizing the utility of Claude Code. | Impact: low | Signal: positive | Why included: This provides practical guidance for users of Claude Code, a specialized LLM tool for coding.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Sells Statsig to Amplitude</title>
-      <link>https://amplitude.com/statsig</link>
-      <guid>https://amplitude.com/statsig</guid>
-      <pubDate>Tue, 05 May 2026 21:11:49 GMT</pubDate>
-      <description>OpenAI has sold its Statsig product to Amplitude. | Impact: low | Signal: neutral | Why included: This is relevant as it pertains to business and product strategy shifts within major AI companies.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)</title>
-      <link>https://openai.com/index/mrc-supercomputer-networking</link>
-      <guid>https://openai.com/index/mrc-supercomputer-networking</guid>
-      <pubDate>Tue, 05 May 2026 10:00:00 GMT</pubDate>
-      <description>OpenAI introduces MRC, a new supercomputer networking protocol designed to enhance resilience and performance in large-scale AI training clusters. | Impact: medium | Signal: positive | Why included: This is a significant infrastructure announcement from OpenAI, detailing a new networking protocol for large-scale AI training, which could impact hardware development and efficiency.</description>
       <category>novedad</category>
     </item>
   </channel>

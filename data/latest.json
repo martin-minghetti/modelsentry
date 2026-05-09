@@ -1,19 +1,71 @@
 [
   {
-    "title": "Google Gemini Pricing Page",
-    "summary": "The Google Gemini Pricing page shows updates to reflect new preview features for Gemini Deep Research and updated terms of service, with content translated to Thai.",
+    "title": "Google Gemini Pricing Update: Free tier limits and Gemini Deep Research availability",
+    "summary": "Google has updated Gemini pricing, making Gemini Deep Research available in preview with collaborative features, and adjusted free tier limits for the Gemini API.",
+    "category": "alerta",
+    "entities": [
+      "Google Gemini",
+      "Gemini API"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a pricing update for a major AI model's API, which directly affects developer costs and accessibility.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-05-09T09:04:29.125Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Simon Willison: Using Claude Code: The Unreasonable Effectiveness of HTML",
+    "summary": "Simon Willison discusses the effectiveness of HTML in conjunction with Claude Code, touching on its integration and potential.",
     "category": "novedad",
     "entities": [
-      "Google Gemini"
+      "Claude Code",
+      "Simon Willison"
     ],
     "event_type": "other",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "This diff indicates updates to Google's pricing and terms of service for Gemini, which is important for developers using the API.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-08T09:02:26.013Z",
-    "confidence": 0.7
+    "why_included": "Blog post discussing a specific tool (Claude Code) and its interaction with web technologies, relevant to developer tooling.",
+    "source_url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+    "published_at": "2026-05-08T21:00:11.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code v2.1.136 Release Notes",
+    "summary": "Anthropic's Claude Code has released version v2.1.136, introducing several new features, bug fixes, and improvements across its extensions and core functionality, including enhanced feedback surveys, new auto-mode classifiers, and fixes for concurrent credential writes and OAuth refresh tokens.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a software release for a specific tool in the LLM ecosystem, indicating ongoing development and maintenance.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "published_at": "2026-05-08T18:39:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Running Codex Safely",
+    "summary": "OpenAI details its security measures for running Codex, including sandboxing, approvals, network policies, and agent-native telemetry, to ensure safe and compliant adoption of coding agents.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This blog post discusses OpenAI's operational security for a coding-related AI model, relevant to industry practices.",
+    "source_url": "https://openai.com/index/running-codex-safely",
+    "published_at": "2026-05-08T12:30:00.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Anthropic Pricing Page",
@@ -100,6 +152,59 @@
     "why_included": "This highlights a critical security issue in Claude Code and Anthropic's potentially dismissive response to it, raising concerns about security practices.",
     "source_url": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
     "published_at": "2026-05-08T02:38:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Simon Willison: llm-gemini 0.31",
+    "summary": "Simon Willison notes an update to the llm-gemini library, version 0.31.",
+    "category": "novedad",
+    "entities": [
+      "llm-gemini",
+      "Simon Willison"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Mentions an update to a specific LLM-related library, indicating ongoing development in the ecosystem.",
+    "source_url": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+    "published_at": "2026-05-07T19:57:06.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Simon Willison: Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+    "summary": "Simon Willison provides insights into hardening Firefox security using a preview of Claude Mythos.",
+    "category": "novedad",
+    "entities": [
+      "Claude Mythos",
+      "Firefox",
+      "Simon Willison"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Discusses the application of an AI model (Claude Mythos) in improving browser security, highlighting cross-industry application.",
+    "source_url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+    "published_at": "2026-05-07T17:56:25.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Simon Willison: Notes on the xAI/Anthropic data center deal",
+    "summary": "Simon Willison shares notes and analysis on the reported data center deal between xAI and Anthropic.",
+    "category": "novedad",
+    "entities": [
+      "xAI",
+      "Anthropic",
+      "Simon Willison"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This discusses a significant potential partnership and infrastructure deal between two major AI companies, impacting the competitive landscape.",
+    "source_url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+    "published_at": "2026-05-07T17:09:28.000Z",
     "confidence": 0.9
   },
   {
@@ -501,6 +606,23 @@
     "why_included": "This showcases a practical, real-world application of Claude in cybersecurity and fraud detection, demonstrating its utility beyond coding.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/",
     "published_at": "2026-05-06T16:14:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Simon Willison: Live blog: Code w/ Claude 2026",
+    "summary": "Simon Willison provides live blog coverage of the 'Code w/ Claude 2026' event.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Simon Willison"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Covers an event focused on Claude's capabilities in coding, providing insights into Anthropic's developments.",
+    "source_url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+    "published_at": "2026-05-06T15:58:27.000Z",
     "confidence": 0.9
   },
   {
@@ -1269,6 +1391,22 @@
     "source_url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
     "published_at": "2026-05-05T00:00:00.000Z",
     "confidence": 0.8
+  },
+  {
+    "title": "OpenAI Advancing Youth Safety in EMEA",
+    "summary": "OpenAI outlines its European Youth Safety Blueprint and grants to advance safe and responsible AI for young people and educators in the EMEA region.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a corporate social responsibility announcement related to AI safety from a major player in the industry.",
+    "source_url": "https://openai.com/index/advancing-youth-safety-in-emea",
+    "published_at": "2026-05-05T00:00:00.000Z",
+    "confidence": 0.9
   },
   {
     "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
@@ -6690,40 +6828,6 @@
     "why_included": "This update to Anthropic's Claude Code includes significant new features like a Vertex AI setup wizard and enhanced security measures like subprocess sandboxing.",
     "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.98",
     "published_at": "2026-04-09T19:18:28.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Releases: v2.1.97",
-    "summary": "Anthropic's Claude Code v2.1.97 release adds a focus view toggle, a refreshInterval status line setting, syntax highlighting for Cedar policy files, and hardened Bash tool permissions.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This release of Anthropic's Claude Code tool introduces a new focus view, enhances security in Bash permissions, and adds syntax highlighting.",
-    "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.97",
-    "published_at": "2026-04-08T21:52:34.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic SDK Python: v0.92.0",
-    "summary": "Anthropic's Python SDK has been updated to v0.92.0, adding support for Claude Managed Agents.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Anthropic SDK Python"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This SDK update from Anthropic includes support for a new product feature, Claude Managed Agents.",
-    "source_url": "https://github.ir.github.com/anthropics/anthropic-sdk-python/releases/tag/v0.92.0",
-    "published_at": "2026-04-08T16:55:01.000Z",
     "confidence": 0.9
   }
 ]
