@@ -7129,22 +7129,5 @@
     "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
     "published_at": "2026-04-13T06:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Releases: v2.1.101",
-    "summary": "Anthropic's Claude Code v2.1.101 release includes a /team-onboarding command, OS CA certificate store trust by default, and improved error messages for rate limits and tool unavailability.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This release of Anthropic's Claude Code tool introduces a new onboarding command and enhances security and error handling.",
-    "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.101",
-    "published_at": "2026-04-10T19:03:41.000Z",
-    "confidence": 0.9
   }
 ]
