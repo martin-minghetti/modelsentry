@@ -1,5 +1,405 @@
 [
   {
+    "title": "Build, edit, and analyze forms directly in Claude",
+    "summary": "JotForm announces a new integration allowing users to build, edit, and analyze forms directly within Claude, likely leveraging Claude's capabilities for form creation and data analysis.",
+    "category": "novedad",
+    "entities": [
+      "JotForm",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This highlights a new application of Claude's capabilities in a specific domain (form building and analysis), showcasing its versatility.",
+    "source_url": "https://www.jotform.com/claude/",
+    "published_at": "2026-05-12T07:57:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "LLM Hallucinations in the Wild",
+    "summary": "A new paper on arXiv discusses the phenomenon of LLM hallucinations in real-world applications, likely providing an analysis of the causes and potential mitigation strategies.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a research paper addressing a core challenge in LLM deployment and reliability.",
+    "source_url": "https://arxiv.org/abs/2605.07723",
+    "published_at": "2026-05-12T07:49:09.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's Mythos was greatest marketing stunt ever, says cURL creator",
+    "summary": "The creator of cURL criticizes Anthropic's Mythos bug hunting initiative, calling it the greatest marketing stunt ever, implying skepticism about its genuine impact or transparency.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Mythos"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This offers a critical perspective on a significant event from Anthropic, questioning its marketing and potential authenticity.",
+    "source_url": "https://www.theregister.com/security/2026/05/11/anthropics-bug-hunting-mythos-was-greatest-marketing-stunt-ever-says-curl-creator/5238111",
+    "published_at": "2026-05-12T07:43:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Getting the Maximum Out of My Claude Code Subscription",
+    "summary": "A blog post discusses strategies for maximizing the utility of a Claude Code subscription, offering tips for effective usage.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a practical guide for users of Claude Code, demonstrating how to get more value from the product.",
+    "source_url": "https://jigjoy.ai/blog/getting-the-maximum-out-of-claude-code",
+    "published_at": "2026-05-12T06:41:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Keep Claude working toward a goal – Claude Code Docs",
+    "summary": "Documentation for Claude Code explains how to keep the model working towards a specific goal, likely detailing techniques for long-term task completion or goal-oriented interaction.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This provides insight into Claude Code's advanced capabilities for task management and persistent goal-orientation.",
+    "source_url": "https://code.claude.com/docs/en/goal",
+    "published_at": "2026-05-12T06:28:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Agent FM – local, open-source radio for Claude Code and Codex agents",
+    "summary": "Agent FM is introduced as a local, open-source radio for Claude Code and Codex agents, suggesting a new tool for managing and orchestrating AI agents.",
+    "category": "novedad",
+    "entities": [
+      "Agent FM",
+      "Claude Code",
+      "Codex"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a Show HN for a new open-source tool related to agent orchestration for Claude Code and Codex.",
+    "source_url": "https://github.com/agentfm-ai/agent-fm",
+    "published_at": "2026-05-12T06:21:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Agent View in Claude Code",
+    "summary": "Claude Code introduces an 'Agent View,' a feature that presents a single list of all Claude Code sessions, categorized by their status (running, blocked, done).",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This announces a new feature ('Agent View') for Claude Code, which improves the management and visibility of AI agent sessions.",
+    "source_url": "https://claude.com/blog/agent-view-in-claude-code",
+    "published_at": "2026-05-12T05:54:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Satya Nadella: \"I don't want to be IBM and OpenAI to be Microsoft\" (2022)",
+    "summary": "A 2022 quote from Satya Nadella expresses a desire to avoid Microsoft becoming like IBM and OpenAI, indicating strategic positioning regarding partnerships and competition in the AI space.",
+    "category": "novedad",
+    "entities": [
+      "Satya Nadella",
+      "Microsoft",
+      "OpenAI",
+      "IBM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides historical context on Microsoft's strategic thinking regarding OpenAI and the competitive landscape, which is relevant for understanding industry dynamics.",
+    "source_url": "https://twitter.com/TechEmails/status/2053971603214766214",
+    "published_at": "2026-05-12T05:51:32.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code and Blender MCP",
+    "summary": "An article discusses the integration or use of Claude Code with Blender MCP, suggesting a workflow or synergy between these tools.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Blender MCP"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This highlights a potential integration or workflow between Claude Code and Blender MCP, which could be relevant for users of both.",
+    "source_url": "https://hydroxide.dev/articles/blender-mcp-claude-code/",
+    "published_at": "2026-05-12T05:13:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Local LLM Proxy: Turn Idle LLM Compute into Universal Credits",
+    "summary": "A GitHub repository introduces a local LLM proxy designed to monetize idle LLM compute by converting it into universal credits.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new open-source project focused on optimizing LLM compute utilization, potentially impacting resource management and cost-efficiency.",
+    "source_url": "https://github.com/wink-run/local-llm-proxy",
+    "published_at": "2026-05-12T03:39:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+    "summary": "Sam Altman's business dealings are reportedly under scrutiny from the GOP in anticipation of OpenAI's IPO, suggesting potential regulatory or political challenges.",
+    "category": "alerta",
+    "entities": [
+      "Sam Altman",
+      "OpenAI",
+      "GOP"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This news highlights potential regulatory and political headwinds for OpenAI's IPO, which could impact the company's valuation and future strategy.",
+    "source_url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+    "published_at": "2026-05-12T03:31:28.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "RegexPSPACE: Regex LLM Benchmark",
+    "summary": "A new benchmark, RegexPSPACE, is introduced on arXiv to evaluate LLMs on their ability to handle regular expression tasks.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This introduces a new benchmark specifically for testing LLM performance on regular expressions, a common task in programming.",
+    "source_url": "https://arxiv.org/abs/2510.09227",
+    "published_at": "2026-05-12T02:42:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Fake building: Claude wrote 3k lines instead of import pywikibot",
+    "summary": "An analysis details how Claude generated an unexpected 3,000 lines of code instead of a simple 'import pywikibot' statement, highlighting potential issues with code generation or intent interpretation.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "3k lines"
+    ],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This is a specific example of Claude's output being unexpectedly verbose or misinterpreting a prompt, which is relevant for understanding its reliability in code generation.",
+    "source_url": "https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/",
+    "published_at": "2026-05-12T02:22:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "METR can barely measure Claude Mythos – 50% task horizon now exceeds 16 hours",
+    "summary": "A report from Hugonomy suggests that METR measurements struggle with Claude Mythos, indicating a task horizon exceeding 16 hours for 50% of tasks, possibly reflecting limitations in benchmarking or Claude Mythos's performance.",
+    "category": "alerta",
+    "entities": [
+      "METR",
+      "Claude Mythos"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "50%",
+      "16 hours"
+    ],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This is a critical evaluation of Claude Mythos's performance and the ability to measure it, suggesting potential issues with the model or benchmarking tools.",
+    "source_url": "https://hugonomy.com/news.html",
+    "published_at": "2026-05-12T01:46:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "A faithful LLM-wiki implementation with Wikipedia-style web browsing",
+    "summary": "A GitHub repository presents a faithful LLM-wiki implementation that includes Wikipedia-style web browsing capabilities, suggesting a new way to interact with LLMs and knowledge bases.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "Wikipedia"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new open-source project that combines LLMs with web browsing, similar to Wikipedia, which could be a significant development in AI-powered information access.",
+    "source_url": "https://github.com/hzw1199/CyberMe-LLM-Wiki",
+    "published_at": "2026-05-12T01:30:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Platform on AWS",
+    "summary": "Anthropic announces the Claude Platform is available on AWS, signifying a significant cloud integration and partnership.",
+    "category": "novedad",
+    "entities": [
+      "Claude Platform",
+      "AWS",
+      "Anthropic"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This announces a major cloud partnership, making Claude's platform accessible via AWS, which is significant for enterprise adoption.",
+    "source_url": "https://aws.amazon.com/claude-platform/",
+    "published_at": "2026-05-12T01:25:30.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Can you help reconcile my first/second-hand LLM Experience with HN's Experience?",
+    "summary": "A user on Hacker News seeks to reconcile their practical experience with LLMs at work (using Claude Opus 4.6) with the often more extreme views expressed on HN about LLMs making developers obsolete.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "HN",
+      "Claude (Opus 4.6)"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This discussion delves into the disparity between hype and practical application of LLMs, offering valuable insights into user experience and perception.",
+    "source_url": "https://news.ycombinator.com/item?id=48102861",
+    "published_at": "2026-05-12T00:57:21.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "RAG Eval Comparing Vertex/Bedrock/Azure/OpenAI",
+    "summary": "A GitHub repository provides a Retrieval-Augmented Generation (RAG) evaluation comparing Vertex AI, AWS Bedrock, Azure AI, and OpenAI.",
+    "category": "novedad",
+    "entities": [
+      "RAG",
+      "Vertex AI",
+      "AWS Bedrock",
+      "Azure AI",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers a comparative evaluation of major cloud providers' RAG capabilities, which is crucial for understanding the landscape of LLM-powered retrieval systems.",
+    "source_url": "https://github.com/colon-md/retrievalci",
+    "published_at": "2026-05-12T00:16:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Graft – semantic memory for AI agents, without the LLM",
+    "summary": "Graft is introduced as a system for semantic memory for AI agents that operates without relying on an LLM, potentially offering a more efficient or specialized memory solution.",
+    "category": "novedad",
+    "entities": [
+      "Graft",
+      "AI agents",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a Show HN for Graft, a new system for AI agent memory that distinguishes itself by not using an LLM, which could be a novel approach to memory management.",
+    "source_url": "https://github.com/AEndrix03/Graft",
+    "published_at": "2026-05-12T00:14:09.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Using LLM in the shebang line of a script",
+    "summary": "A post discusses the practical application of using LLMs directly in the shebang line of scripts, enabling executable scripts that leverage LLM capabilities.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This explores a novel way to integrate LLMs into scripting, potentially streamlining workflows and making LLM execution more direct.",
+    "source_url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+    "published_at": "2026-05-11T18:48:57.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "v2.1.139",
+    "summary": "Anthropic releases v2.1.139 for Claude Code, introducing significant updates including agent view, /goal command, /scroll-speed command, plugin details, transcript view navigation, and numerous fixes and improvements.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant release for Claude Code, introducing new features like agent view and goal-oriented commands, which enhance its capabilities for developers.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "published_at": "2026-05-11T18:43:42.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "v0.101.0",
+    "summary": "Anthropic releases v0.101.0 of the anthropic-sdk-python, adding AWS client for Claude Platform and fixing various bugs and chores.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "anthropic-sdk-python",
+      "Claude Platform",
+      "AWS"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is an SDK update for Anthropic, including AWS integration for the Claude Platform, which is a significant development for developers using their services.",
+    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0",
+    "published_at": "2026-05-11T15:46:22.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+    "summary": "OpenAI introduces DeployCo, a new enterprise division focused on helping businesses implement frontier AI into production and achieve measurable business impact.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "DeployCo"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This announces a new venture by OpenAI focused on enterprise AI deployment, indicating a strategic move to support business adoption of their technologies.",
+    "source_url": "https://openai.com/index/openai-launches-the-deployment-company",
+    "published_at": "2026-05-11T06:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Best AI coding plan alternative to Claude and ChatGPT",
     "summary": "A user is looking for alternatives to Claude and ChatGPT for coding, citing Claude's lowered usage limits and the competitive performance of Chinese AI models at a lower price. They are considering GLM Coding Plan (Z AI), BytePlus ModelArk Coding Plan, Kimi AI Moderato Coding Plan, and MiniMax Plus Standard Plan, asking for recommendations on performance, value, and usage limits.",
     "category": "novedad",
