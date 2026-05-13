@@ -1,5 +1,384 @@
 [
   {
+    "title": "Google Gemini Pricing Page Updated",
+    "summary": "The Google Gemini pricing page has been updated, with content now available in Hindi. The core pricing structure and offerings appear unchanged.",
+    "category": "novedad",
+    "entities": [
+      "Google",
+      "Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is low impact as the update primarily involves language translation and minor text adjustments without affecting the AI product's core offerings.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-05-13T10:10:25.461Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic Pricing Page Update",
+    "summary": "The pricing page for Anthropic has been updated, with minor changes detected in the descriptions of product tiers. No concrete pricing changes or deprecations were identified.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is low impact as it's a minor website content update without a significant change in product offering or pricing.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-05-13T10:10:23.832Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Sam Altman Testifies Elon Musk Wanted Control of OpenAI",
+    "summary": "During a legal proceeding, Sam Altman testified that Elon Musk sought to gain control of OpenAI. This testimony sheds light on the internal power dynamics and potential conflicts at the company.",
+    "category": "alerta",
+    "entities": [
+      "Sam Altman",
+      "Elon Musk",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is high impact as it concerns potential power struggles and control within a major AI company, which can affect its direction and stability.",
+    "source_url": "https://www.nytimes.com/live/2026/05/12/technology/openai-trial-sam-altman-elon-musk",
+    "published_at": "2026-05-13T10:03:32.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI, Microsoft, and Partners Develop Scalable Ethernet",
+    "summary": "OpenAI, Microsoft, and other collaborators have developed a new Ethernet standard that offers improved scalability. This advancement aims to enhance network infrastructure for AI workloads.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Microsoft"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it indicates infrastructure improvements relevant to the AI industry, potentially supporting larger-scale AI operations.",
+    "source_url": "https://www.nextplatform.com/connect/2026/05/12/openai-microsoft-and-friends-build-a-better-more-scalable-ethernet/5239078",
+    "published_at": "2026-05-13T07:57:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Bun Ported to Rust Using Claude, Code Reviewed by GPT",
+    "summary": "The Bun JavaScript runtime is being ported to Rust with the assistance of Claude, and the code is undergoing review using GPT. This demonstrates cross-model collaboration in software development.",
+    "category": "novedad",
+    "entities": [
+      "Bun",
+      "Claude",
+      "GPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a specific software development project showcasing LLM capabilities, but not a major industry announcement.",
+    "source_url": "https://github.com/Swival/security-audits/blob/main/bun-rust/README.md",
+    "published_at": "2026-05-13T07:50:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Agent-Dash: TUI for Managing Claude Code and OpenCode in tmux",
+    "summary": "A new Text User Interface (TUI) called Agent-Dash has been developed to manage Claude Code and OpenCode sessions within the tmux environment. The tool aims to simplify agent session management.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "OpenCode"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a developer tool for specific use cases, not a broad industry shift.",
+    "source_url": "https://x.com/farreldarian/status/2054424419179896952",
+    "published_at": "2026-05-13T05:03:09.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Graphmind: Persistent Memory and Graph for Claude Code",
+    "summary": "Graphmind is a new project that provides persistent memory and a graph-based context for Claude Code, aiming to improve its ability to handle large codebases and reduce token consumption. It claims to reduce token usage by 5,700 times.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Graphmind"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "5,700 times less tokens"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it offers a significant technical improvement for LLM context management, which is a key challenge in the industry.",
+    "source_url": "https://github.com/aouicher/graphmind",
+    "published_at": "2026-05-13T05:00:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude for Legal Launches",
+    "summary": "Anthropic has launched 'Claude for Legal,' a specialized AI solution for the legal sector. This launch aims to reshape the legal technology landscape by leveraging AI for legal tasks.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it represents a vertical-specific application of a major LLM, indicating expansion into specialized industries.",
+    "source_url": "https://www.artificiallawyer.com/2026/05/12/claude-for-legal-launches-may-reshape-the-legal-tech-world/",
+    "published_at": "2026-05-13T02:28:43.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "AgenTank: Training AI Tanks with Claude Tokens",
+    "summary": "AgenTank is a game where players train AI tanks using Claude tokens, spending approximately $200 on credits to improve their AI's performance. The game focuses on observing AI mistakes and iterating on strategies.",
+    "category": "novedad",
+    "entities": [
+      "AgenTank",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$200"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a niche application for LLM tokens, more of a consumer/gaming interest than an industry trend.",
+    "source_url": "https://agentank.ai/history/mat_8v9fSEZE8295dcZ8U",
+    "published_at": "2026-05-13T02:20:44.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Using LLMs in the Shebang Line of a Script",
+    "summary": "An article explores the technique of incorporating Large Language Models (LLMs) directly into the shebang line of a script. This allows for immediate execution of LLM-driven commands.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a specific developer tip for integrating LLMs into scripting workflows.",
+    "source_url": "https://til.simonwillison.net/llms/llm-shebang",
+    "published_at": "2026-05-13T02:03:48.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Atlas: An LLM Inference Engine Written in Rust and CUDA",
+    "summary": "Atlas is a new LLM inference engine developed from scratch using Rust and CUDA. This engine is designed for efficient LLM deployment and execution.",
+    "category": "novedad",
+    "entities": [
+      "Atlas",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it represents a new inference engine, which is a critical piece of infrastructure for deploying LLMs.",
+    "source_url": "https://atlasinference.io",
+    "published_at": "2026-05-13T01:02:38.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Hi-Vis Attack: One-Shot Jailbreak Disguised as Software Patch",
+    "summary": "A new LLM jailbreaking technique called the 'Hi-Vis Attack' has been identified. It is disguised as a software patch and achieves a 100% attack success rate (ASR).",
+    "category": "alerta",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "100% ASR"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is high impact as it represents a significant security vulnerability in LLMs, potentially impacting model safety and deployment.",
+    "source_url": "https://medium.com/@emma-k/a-new-jailbreak-the-hi-vis-attack-26c2f7ec6da6",
+    "published_at": "2026-05-13T00:17:18.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Supply Co Website Launch",
+    "summary": "OpenAI has launched a website for OpenAI Supply Co. The purpose of this initiative is not immediately clear from the URL.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is low impact as it's a website launch with unclear implications for the AI industry.",
+    "source_url": "https://supplyco.openai.com/",
+    "published_at": "2026-05-13T00:15:26.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic in Talks to Raise Funding at $950B Valuation",
+    "summary": "Anthropic is reportedly in discussions to raise funding at a valuation of $950 billion. This potential funding round would represent a significant financial milestone for the company.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "$950B"
+    ],
+    "signal": "positive",
+    "impact": "high",
+    "why_included": "This is high impact due to the massive valuation, indicating significant investor confidence and potential for substantial growth in the AI sector.",
+    "source_url": "https://www.nytimes.com/2026/05/12/technology/anthropic-funding-950-billion-valuation.html",
+    "published_at": "2026-05-12T23:40:40.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Musk Said Control of OpenAI Should Go to His Children, Sam Altman Tells Jury",
+    "summary": "Sam Altman testified to a jury that Elon Musk had proposed that control of OpenAI should be transferred to his children. This testimony is part of ongoing legal proceedings.",
+    "category": "alerta",
+    "entities": [
+      "Sam Altman",
+      "Elon Musk",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is high impact due to the allegations of power struggles and potential control changes within a major AI organization.",
+    "source_url": "https://www.bbc.com/news/articles/czj2k2exdzlo",
+    "published_at": "2026-05-12T23:11:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Clodcapture: Save and Resume Claude.ai Chats",
+    "summary": "Clodcapture is a new Chrome extension that allows users to save and resume Claude.ai chat sessions locally. It aims to solve the problem of losing debugging sessions.",
+    "category": "novedad",
+    "entities": [
+      "Claude.ai",
+      "Clodcapture"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a user-focused utility for a specific AI product, not a broad industry development.",
+    "source_url": "https://chromewebstore.google.com/detail/clodcapture/mhapejnhlmepeinjmlppoopcoicmgojb",
+    "published_at": "2026-05-12T23:04:38.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Loading/Running Every LLM with 4M Context in 3 Clicks",
+    "summary": "A tool or method is described that allows users to load and run any LLM with a 4 million token context window easily. This simplifies the process of working with large contexts.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "4M context"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as increasing LLM context windows is a significant technical advancement that impacts usability and capability.",
+    "source_url": "https://old.reddit.com/r/Hugston/comments/1tbgrbb/4_million_ctx_for_every_ai_llm_model/",
+    "published_at": "2026-05-12T22:37:28.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Open Source Claude Code Offer to Help",
+    "summary": "An individual is offering their time and Claude Code tokens to help with open-source projects, specifically focusing on bug finding or fixing. They have professional experience with Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a personal offer of assistance, not a product release or industry trend.",
+    "source_url": "https://news.ycombinator.com/item?id=48115222",
+    "published_at": "2026-05-12T22:05:30.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Free PII Scanner for LLM Prompts",
+    "summary": "A free tool called 'AI Leak Checker' has been launched to scan LLM prompts for Personally Identifiable Information (PII). No signup is required, making it easily accessible for prompt security checks.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "AI Leak Checker"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it addresses a critical security concern for LLM users, offering a free solution for prompt privacy.",
+    "source_url": "https://aisecuritygateway.ai/ai-leak-checker",
+    "published_at": "2026-05-12T21:58:23.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's Computer Use API: AI Navigating Desktops",
+    "summary": "Anthropic has introduced a Computer Use API that allows AI to navigate user desktops. This new API enables AI to interact with and control desktop environments.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is medium impact as it represents a significant new capability for AI, allowing direct interaction with user operating systems.",
+    "source_url": "https://www.aigridnews.com/anthropics-computer-use-api-how-ai-is-navigating-your-desktop-now",
+    "published_at": "2026-05-12T21:28:05.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code v2.1.140 Release Notes",
+    "summary": "Claude Code has released version 2.1.140 with several bug fixes and improvements, including better agent tool matching, updated color palettes, and fixes for hanging issues and regressions.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a minor software update with bug fixes for a specific product.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "published_at": "2026-05-12T21:09:45.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "llm 0.32a2 release",
+    "summary": "A new version, 0.32a2, of the 'llm' tool or library has been released. The release includes updates and potentially new features for LLM interaction.",
+    "category": "novedad",
+    "entities": [
+      "llm"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.32a2"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is low impact as it's a minor version update for a specific LLM tool, likely of interest to a niche developer audience.",
+    "source_url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+    "published_at": "2026-05-12T17:45:07.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Build, edit, and analyze forms directly in Claude",
     "summary": "JotForm announces a new integration allowing users to build, edit, and analyze forms directly within Claude, likely leveraging Claude's capabilities for form creation and data analysis.",
     "category": "novedad",
@@ -752,23 +1131,6 @@
     "confidence": 0.9
   },
   {
-    "title": "Google Gemini Pricing Update: Free tier limits and Gemini Deep Research availability",
-    "summary": "Google has updated Gemini pricing, making Gemini Deep Research available in preview with collaborative features, and adjusted free tier limits for the Gemini API.",
-    "category": "alerta",
-    "entities": [
-      "Google Gemini",
-      "Gemini API"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a pricing update for a major AI model's API, which directly affects developer costs and accessibility.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-09T09:04:29.125Z",
-    "confidence": 0.9
-  },
-  {
     "title": "Simon Willison: Using Claude Code: The Unreasonable Effectiveness of HTML",
     "summary": "Simon Willison discusses the effectiveness of HTML in conjunction with Claude Code, touching on its integration and potential.",
     "category": "novedad",
@@ -818,22 +1180,6 @@
     "source_url": "https://openai.com/index/running-codex-safely",
     "published_at": "2026-05-08T12:30:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Anthropic Pricing Page",
-    "summary": "No significant changes detected on the Anthropic Pricing page.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Monitoring pricing pages is crucial for tracking potential changes, and this diff indicates no immediate impact.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-05-08T09:02:24.416Z",
-    "confidence": 0.7
   },
   {
     "title": "SubQ: Sub-quadratic LLM built for 12M-token reasoning",
@@ -7509,25 +7855,6 @@
     "why_included": "This is a notable update to Anthropic's Claude Code tool, adding new features and improving existing functionalities like API stream handling.",
     "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.105",
     "published_at": "2026-04-13T21:53:13.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Cloudflare Integrates OpenAI's GPT-5.4 and Codex into Agent Cloud",
-    "summary": "Cloudflare is integrating OpenAI's GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build and scale AI agents for real-world tasks.",
-    "category": "novedad",
-    "entities": [
-      "Cloudflare",
-      "OpenAI",
-      "GPT-5.4",
-      "Codex"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This partnership between Cloudflare and OpenAI brings OpenAI's advanced models to Cloudflare's enterprise platform, indicating broader adoption and integration of AI in business workflows.",
-    "source_url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-    "published_at": "2026-04-13T06:00:00.000Z",
     "confidence": 0.9
   }
 ]
