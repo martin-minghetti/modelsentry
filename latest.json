@@ -1,19 +1,380 @@
 [
   {
-    "title": "Google Gemini Pricing Page Updated",
-    "summary": "The Google Gemini pricing page has been updated, with content now available in Hindi. The core pricing structure and offerings appear unchanged.",
+    "title": "Gemini की Deep Research की सुविधा अब झलक के तौर पर उपलब्ध है.",
+    "summary": "Google Gemini API pricing page updated to indicate Gemini Deep Research is available in preview, with new pricing tiers and terms of service.",
     "category": "novedad",
     "entities": [
-      "Google",
-      "Gemini"
+      "Gemini",
+      "Google"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it announces a new feature (Deep Research) and updates pricing/terms for the Gemini API.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-05-14T10:02:43.717Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude changes headless usage from June 15",
+    "summary": "Anthropic's Claude is changing its headless usage policy, effective June 15th. This impacts programmatic and Agent SDK usage.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact change as it affects how developers can programmatically use Claude, potentially increasing costs or limiting workflows.",
+    "source_url": "https://twitter.com/ClaudeDevs/status/2054610152817619388",
+    "published_at": "2026-05-14T09:45:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 4.7 leaks system prompt randomly",
+    "summary": "A user reported that Claude Opus 4.7 is randomly revealing its system prompt. This could be a security or privacy concern.",
+    "category": "alerta",
+    "entities": [
+      "Claude Opus 4.7",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert as it indicates a potential security vulnerability where the model's internal instructions are exposed.",
+    "source_url": "https://old.reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/",
+    "published_at": "2026-05-14T09:27:29.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Geometry Conflict: Explain & Controll Forgetting in LLM Continual Post-Training",
+    "summary": "A new paper explores 'Geometry Conflict' and how to control forgetting in LLMs during continual post-training.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it's a new research paper addressing a key challenge in LLM training.",
+    "source_url": "https://huggingface.co/papers/2605.09608",
+    "published_at": "2026-05-14T09:24:22.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Economic Futures – Anthropic",
+    "summary": "Anthropic published an article discussing economic futures, likely related to AI's impact.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
     ],
     "event_type": "other",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "This is low impact as the update primarily involves language translation and minor text adjustments without affecting the AI product's core offerings.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-13T10:10:25.461Z",
+    "why_included": "This is a low-impact novelty as it's a blog post discussing potential future impacts of AI.",
+    "source_url": "https://www.anthropic.com/economic-futures",
+    "published_at": "2026-05-14T08:33:25.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude subscriptions no longer include Agent SDK and Claude -p usage",
+    "summary": "Anthropic's Claude subscriptions are being updated to exclude Agent SDK and Claude -p usage, which will now draw from a separate credit pool.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Anthropic",
+      "Agent SDK",
+      "Claude -p"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact change affecting pricing and usage terms for Claude subscribers, potentially increasing costs for programmatic use.",
+    "source_url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/",
+    "published_at": "2026-05-14T08:24:40.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "State media control shapes LLM behaviour by influencing training data",
+    "summary": "A Nature article discusses how state media control influences LLM behavior through training data manipulation.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a research piece on LLM behavior influenced by external factors.",
+    "source_url": "https://www.nature.com/articles/d41586-026-01486-9",
+    "published_at": "2026-05-14T07:58:22.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Fastest small LLM at 1 KB context is the slowest at 1 MB",
+    "summary": "A blog post highlights that the fastest small LLM at 1 KB context is the slowest at 1 MB context, indicating performance trade-offs with context length.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1 KB",
+      "1 MB"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a technical observation about LLM performance characteristics.",
+    "source_url": "https://blog.0xmmo.co/forensics/post.html",
+    "published_at": "2026-05-14T07:42:19.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "How LLM Inference Works",
+    "summary": "A blog post explains the workings of LLM inference.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's an educational piece explaining LLM inference.",
+    "source_url": "https://arpitbhayani.me/blogs/how-llm-inference-works/",
+    "published_at": "2026-05-14T06:27:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Multi-LLM AI trading agent harness",
+    "summary": "A GitHub repository provides a harness for multi-LLM AI trading agents.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a code repository for a specific application of LLMs.",
+    "source_url": "https://github.com/achaljhawar/1rok",
+    "published_at": "2026-05-14T05:44:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Build workouts with Claude send to Fitness Player to workout [video]",
+    "summary": "A video demonstrates building workouts with Claude and sending them to Fitness Player.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Fitness Player"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a tutorial showcasing a specific application of Claude.",
+    "source_url": "https://www.youtube.com/shorts/QlcybBrszik",
+    "published_at": "2026-05-14T05:40:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "The End of Claude Code Automation",
+    "summary": "A blog post discusses the potential end of Claude Code automation.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is a medium-impact alert as it discusses a change in capabilities or usage of Claude Code, potentially impacting automation workflows.",
+    "source_url": "https://www.vincentschmalbach.com/the-end-of-claude-code-automation/",
+    "published_at": "2026-05-14T05:14:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude for Small Business",
+    "summary": "Anthropic announces Claude for Small Business, expanding its reach to a new market segment.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it signifies a new product offering and market expansion for Anthropic's Claude.",
+    "source_url": "https://www.anthropic.com/news/claude-for-small-business",
+    "published_at": "2026-05-14T03:59:35.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+    "summary": "A GitHub repository outlines a skill for deliberate skill development using Claude Code and Codex.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a skill outline for a specific development use case.",
+    "source_url": "https://github.com/DrCatHicks/learning-opportunities",
+    "published_at": "2026-05-14T03:13:31.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Tell HN: Starting June 15, claude -p usage will change",
+    "summary": "Starting June 15, 2026, usage of 'claude -p' on subscription plans will be subject to a new monthly credit pool for Agent SDK.",
+    "category": "alerta",
+    "entities": [
+      "claude -p",
+      "Claude"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [
+      "June 15, 2026"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert as it signals a change in usage and potentially cost for programmatic access to Claude.",
+    "source_url": "https://news.ycombinator.com/item?id=48130374",
+    "published_at": "2026-05-14T02:18:30.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Claude-pee: use Claude -p without the programmatic usage credit pool",
+    "summary": "A new open-source tool 'claude-pee' is released to allow using Claude -p without the programmatic usage credit pool, potentially offering a cheaper alternative.",
+    "category": "novedad",
+    "entities": [
+      "Claude -p",
+      "Claude",
+      "claude-pee"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it's a community-developed tool addressing a change in Claude's usage policy, potentially offering cost savings.",
+    "source_url": "https://github.com/sbhattap/claude-pee/tree/main",
+    "published_at": "2026-05-14T00:57:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude -p headless mode cannot use Max limits, will fall under API plan",
+    "summary": "Claude's -p headless mode will no longer use Max limits and will instead fall under the API plan, effective June 15th.",
+    "category": "alerta",
+    "entities": [
+      "Claude -p",
+      "Claude"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [
+      "June 15th"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert as it clarifies the pricing and usage change for headless Claude -p mode, potentially impacting workflows reliant on 'Max limits'.",
+    "source_url": "https://news.ycombinator.com/item?id=48129753",
+    "published_at": "2026-05-14T00:49:31.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic carves all non-interactive use out of monthly subscriptions",
+    "summary": "Anthropic is effectively separating non-interactive Claude usage (like Agent SDK) from its monthly subscriptions, likely impacting pricing for these features.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert, as it signals a significant change in Anthropic's subscription model, affecting non-interactive usage and potentially increasing costs.",
+    "source_url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+    "published_at": "2026-05-14T00:30:15.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "yeah – a command-line tool that answers yes/no questions using an LLM",
+    "summary": "A new command-line tool 'yeah' is released that uses an LLM to answer yes/no questions.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "yeah"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact novelty as it's a specific tool for a niche LLM application.",
+    "source_url": "https://github.com/crawshaw/yeah",
+    "published_at": "2026-05-13T23:59:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Daybreak",
+    "summary": "OpenAI has launched a new initiative or product called 'Daybreak'.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it's a new product or initiative from OpenAI, which could have significant implications.",
+    "source_url": "https://openai.com/daybreak/",
+    "published_at": "2026-05-13T23:45:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "v2.1.141",
+    "summary": "Claude Code has released version 2.1.141 with numerous feature additions and bug fixes, including improvements to plugin navigation, background agents, and error handling.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "v2.1.141"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it's a significant update to the Claude Code product with many improvements.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "published_at": "2026-05-13T23:19:16.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Building a safe, effective sandbox to enable Codex on Windows",
+    "summary": "OpenAI details the development of a secure sandbox for Codex on Windows, focusing on controlled file access and network restrictions.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Codex"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact novelty as it describes a technical advancement in making AI models safer and more effective on a specific platform.",
+    "source_url": "https://openai.com/index/building-codex-windows-sandbox",
+    "published_at": "2026-05-13T11:00:00.000Z",
     "confidence": 0.9
   },
   {
@@ -7821,40 +8182,6 @@
     "why_included": "This is a significant update to Anthropic's Claude Code tool, introducing new features and improvements that enhance user experience and functionality.",
     "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.108",
     "published_at": "2026-04-14T19:12:01.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Expands Trusted Access for Cyber Defense with GPT-5.4-Cyber",
-    "summary": "OpenAI is expanding its Trusted Access for Cyber program by introducing GPT-5.4-Cyber to vetted defenders, enhancing safeguards for AI cybersecurity capabilities.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "GPT-5.4-Cyber"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "OpenAI is launching a specialized model, GPT-5.4-Cyber, for cybersecurity defense, indicating a focus on domain-specific AI applications.",
-    "source_url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-    "published_at": "2026-04-14T00:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Releases: v2.1.105",
-    "summary": "Anthropic's Claude Code v2.1.105 release includes support for PreCompact hooks, background monitors for plugins, improved stalled API stream handling, and better network error messages.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a notable update to Anthropic's Claude Code tool, adding new features and improving existing functionalities like API stream handling.",
-    "source_url": "https://github.ir.github.com/anthropics/claude-code/releases/tag/v2.1.105",
-    "published_at": "2026-04-13T21:53:13.000Z",
     "confidence": 0.9
   }
 ]
