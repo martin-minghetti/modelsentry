@@ -6,11 +6,19 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing</title>
+      <title>Google Gemini API Pricing Page Updated with Free Tier and Production Pricing</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 15 May 2026 10:10:20 GMT</pubDate>
-      <description>This diff alert indicates changes to the Google Gemini pricing page, specifically mentioning the preview availability of &apos;Gemini Deep Research&apos; with new features and updated terms of service. | Impact: medium | Signal: positive | Why included: This is a pricing update for Google Gemini, indicating new features and potentially different cost structures for developers.</description>
+      <pubDate>Sat, 16 May 2026 09:17:10 GMT</pubDate>
+      <description>Google updated its Gemini API pricing page, highlighting a free tier for developers and small projects with generous limits, and introducing prepaid and pay-as-you-go options for production-ready applications. | Impact: medium | Signal: positive | Why included: This website diff indicates a change in the publicly available pricing structure for the Gemini API, affecting accessibility and scalability for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.143 Release</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.143</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.143</guid>
+      <pubDate>Fri, 15 May 2026 22:28:22 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code has been updated to v2.1.143, introducing plugin dependency enforcement, projected context cost display, and a new &apos;none&apos; setting for worktree.bgIsolation. The release also includes numerous fixes and improvements for the PowerShell tool, background sessions, and agent interactions. | Impact: medium | Signal: positive | Why included: This is a significant update to a developer tool for interacting with Claude models, bringing new features and bug fixes relevant to the LLM developer experience.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -396,14 +404,6 @@
       <pubDate>Thu, 14 May 2026 02:18:30 GMT</pubDate>
       <description>Starting June 15, 2026, usage of &apos;claude -p&apos; on subscription plans will be subject to a new monthly credit pool for Agent SDK. | Impact: high | Signal: negative | Why included: This is a high-impact alert as it signals a change in usage and potentially cost for programmatic access to Claude.</description>
       <category>alerta</category>
-    </item>
-    <item>
-      <title>In Time (2011) was a documentary about Claude Pro users and nobody told us</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/</guid>
-      <pubDate>Thu, 14 May 2026 02:05:31 GMT</pubDate>
-      <description>A user humorously compares the experience of using Claude Pro to the movie &apos;In Time,&apos; where time is a currency, implying a similar restrictive feeling. | Impact: low | Signal: neutral | Why included: This expresses user sentiment regarding the perceived limitations and costs associated with Claude Pro subscriptions.</description>
-      <category>novedad</category>
     </item>
   </channel>
 </rss>
