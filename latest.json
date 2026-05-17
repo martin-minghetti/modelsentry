@@ -1,20 +1,372 @@
 [
   {
-    "title": "Google Gemini API Pricing Page Updated with Free Tier and Production Pricing",
-    "summary": "Google updated its Gemini API pricing page, highlighting a free tier for developers and small projects with generous limits, and introducing prepaid and pay-as-you-go options for production-ready applications.",
+    "title": "Gemini Deep Research is now available in preview",
+    "summary": "Google announced that Gemini Deep Research is now available in preview, offering features like collaborative planning, visualization, and MCP support.",
     "category": "novedad",
     "entities": [
-      "Gemini API",
+      "Gemini Deep Research",
       "Google",
-      "pricing"
+      "MCP"
     ],
-    "event_type": "pricing_change",
+    "event_type": "release",
     "key_numbers": [],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "This website diff indicates a change in the publicly available pricing structure for the Gemini API, affecting accessibility and scalability for developers.",
+    "why_included": "This announces a new preview feature for Gemini, expanding its capabilities for complex tasks and collaboration.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-16T09:17:10.883Z",
+    "published_at": "2026-05-17T09:25:27.396Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: GDD–36 MCP tools to run N isolated Chromium browsers from Claude/Cursor",
+    "summary": "A GitHub repository titled GDD presents a collection of 36 tools designed to manage multiple isolated Chromium browser instances, leveraging Claude/Cursor integration.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Cursor",
+      "Chromium",
+      "GDD",
+      "MCP"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "36"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a new project related to running multiple browser instances, which can be relevant for AI agent testing or development environments.",
+    "source_url": "https://github.com/Cap-of-tea/GDD",
+    "published_at": "2026-05-17T09:18:28.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "A Basic Interpreter in Markdown, Running \"Natively\" in Claude Code",
+    "summary": "An article details the creation of a basic interpreter written in Markdown that runs directly within Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a novel approach to running code within an LLM's environment, showcasing the capabilities of Claude Code.",
+    "source_url": "https://dunkels.com/adam/llm-basic-interpreter-markdown/",
+    "published_at": "2026-05-17T08:02:57.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic just admitted AI is bullshit [video]",
+    "summary": "A YouTube video claims that Anthropic has admitted that AI is 'bullshit'.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This title suggests a critical perspective on AI from a major player in the industry, which could be significant if substantiated.",
+    "source_url": "https://www.youtube.com/watch?v=juHv_Vi4giU",
+    "published_at": "2026-05-17T07:27:09.000Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "Team-memory – your team's shared brain, auto-built from Claude Code CLI or UI",
+    "summary": "A new project called 'team-memory' aims to create a shared knowledge base for teams, built automatically from Claude Code CLI or UI.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This introduces a tool for team collaboration and knowledge management using LLM interfaces.",
+    "source_url": "https://github.com/AndrewSkea/team-memory",
+    "published_at": "2026-05-17T06:56:35.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "CAFleet – open-source Agent Teams reinvented, both for Claude Code and Codex",
+    "summary": "CAFleet is an open-source project that redefines agent teams, compatible with both Claude Code and Codex.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Codex",
+      "CAFleet"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a new open-source framework for developing agent teams, leveraging LLM capabilities.",
+    "source_url": "https://github.com/himkt/cafleet",
+    "published_at": "2026-05-17T06:06:04.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Ask HN: What LLM models are you using and why?",
+    "summary": "A Hacker News discussion seeks insights into which LLM models users are currently employing for work and personal projects, with specific mentions of GPT-5.5, Claude Opus 4.7, and DeepSeek V4.",
+    "category": "novedad",
+    "entities": [
+      "GPT-5.5",
+      "Claude Opus 4.7",
+      "DeepSeek V4",
+      "Grok"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1M"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides valuable market intelligence on LLM adoption and user preferences, highlighting popular models and their perceived strengths.",
+    "source_url": "https://news.ycombinator.com/item?id=48166147",
+    "published_at": "2026-05-17T04:57:21.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Five LLM agents play Werewolf in-browser, each with a private DuckDB",
+    "summary": "An experiment showcases five LLM agents playing the game Werewolf in a browser, with each agent utilizing a private DuckDB instance.",
+    "category": "novedad",
+    "entities": [
+      "LLM agents",
+      "DuckDB"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "Five"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This demonstrates an application of LLM agents in a game context, highlighting their interactive capabilities and use of local databases.",
+    "source_url": "https://kayhan.dev/posts/013-werewolf-five-agents-one-browser/",
+    "published_at": "2026-05-17T04:41:47.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Recent Developments in LLM Architectures: KV Sharing, MHC, Compressed Attention",
+    "summary": "An article discusses recent advancements in LLM architectures, focusing on techniques like KV Sharing, MHC, and Compressed Attention.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides technical insights into cutting-edge LLM architecture developments, relevant for researchers and developers.",
+    "source_url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+    "published_at": "2026-05-17T03:27:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Ccstory – Weekly recap of what you did in Claude Code",
+    "summary": "Ccstory is a tool that provides a weekly recap of user activity within Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a utility tool for tracking user activity within a specific LLM development environment.",
+    "source_url": "https://github.com/atomchung/ccstory",
+    "published_at": "2026-05-17T02:24:52.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: I built a free PDF editor to fix Claude's horribly-generated PDFs",
+    "summary": "A developer created a free PDF editor to address issues with PDFs generated by Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "PDF editor"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This highlights a practical solution to an issue encountered with an LLM's output, showcasing a community-driven fix.",
+    "source_url": "https://composer-sepia.vercel.app",
+    "published_at": "2026-05-17T00:00:46.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
+    "summary": "OpenAI has finalized an agreement in Malta to provide all citizens with access to ChatGPT Plus.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT Plus",
+      "Malta"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership signifies an expansion of ChatGPT Plus access to a new region, potentially indicating a strategy for broader global reach.",
+    "source_url": "https://finance.yahoo.com/sectors/technology/articles/openai-seals-deal-malta-maltese-103120887.html",
+    "published_at": "2026-05-16T23:59:30.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI is offering ChatGPT Plus to citizens of Malta for a year",
+    "summary": "OpenAI is extending an offer of ChatGPT Plus subscriptions to all citizens of Malta for a period of one year.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT Plus",
+      "Malta"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [
+      "a year"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This announcement details a specific initiative by OpenAI to increase ChatGPT Plus accessibility, potentially as a pilot program or market expansion strategy.",
+    "source_url": "https://www.engadget.com/2174473/openai-is-offering-chatgpt-plus-to-citizens-of-malta-for-a-year/",
+    "published_at": "2026-05-16T23:17:42.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "AI Memory Reader – Native macOS app for browsing Claude Code memory files",
+    "summary": "A new native macOS application, 'AI Memory Reader,' allows users to browse memory files generated by Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "macOS"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a new utility tool for developers working with Claude Code, enhancing debugging and analysis capabilities.",
+    "source_url": "https://github.com/nvwalj/ai-memory-reader",
+    "published_at": "2026-05-16T22:41:57.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I tried to make Claude make me money on open-source bounties",
+    "summary": "A user shares their experience attempting to leverage Claude to earn money through open-source bounties.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a user-generated case study on using an LLM for financial gain in the open-source bounty ecosystem.",
+    "source_url": "https://github.com/ztc00/algora-scout/blob/main/POST.md",
+    "published_at": "2026-05-16T22:13:54.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Irst Apple M5 memory exploit discovered using Anthropic AI",
+    "summary": "Researchers have identified the first memory exploit for Apple's M5 chip, with assistance from Anthropic's Claude AI in bypassing memory integrity enforcement.",
+    "category": "alerta",
+    "entities": [
+      "Apple M5",
+      "Anthropic AI",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This highlights a security vulnerability in a major hardware platform that was aided by an LLM, raising security concerns.",
+    "source_url": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
+    "published_at": "2026-05-16T22:08:21.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI caught NPM supply chain chaos after employeedevices compromised",
+    "summary": "OpenAI was reportedly affected by NPM supply chain chaos following a compromise of employee devices.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "NPM",
+      "supply chain"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This points to a significant security incident impacting OpenAI, involving a supply chain attack, which is highly relevant to industry security.",
+    "source_url": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+    "published_at": "2026-05-16T22:07:46.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Agent View Changes How You Run Your Engineering Day",
+    "summary": "A medium article discusses how 'Claude Agent View' can alter the way engineering teams manage their daily workflow.",
+    "category": "novedad",
+    "entities": [
+      "Claude Agent View"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a user perspective on how an LLM-based tool can impact engineering workflows.",
+    "source_url": "https://medium.com/@alirezarezvani/claude-agent-view-changes-how-you-run-your-engineering-day-ec7402221582",
+    "published_at": "2026-05-16T20:55:31.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Session Manager – tile-based desktop manager for Claude Code",
+    "summary": "A new desktop application, 'Claude Session Manager,' is introduced, offering a tile-based interface for managing Claude Code sessions.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a new utility tool to improve the user experience for Claude Code, focusing on session management.",
+    "source_url": "https://github.com/irfan-gowani/claude-session-manager",
+    "published_at": "2026-05-16T20:46:41.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Microsoft starts canceling Claude Code licenses",
+    "summary": "Reports indicate that Microsoft has begun the process of canceling licenses for Claude Code.",
+    "category": "alerta",
+    "entities": [
+      "Microsoft",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a significant business decision by Microsoft that could impact the availability and usage of Claude Code.",
+    "source_url": "https://www.techbuzz.ai/articles/microsoft-starts-canceling-claude-code-licenses",
+    "published_at": "2026-05-16T20:43:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+    "summary": "OpenAI has partnered with Malta to provide ChatGPT Plus access to all its citizens.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Malta",
+      "ChatGPT Plus"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership signifies an expansion of OpenAI's reach and AI accessibility.",
+    "source_url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+    "published_at": "2026-05-16T00:00:00.000Z",
     "confidence": 0.9
   },
   {
@@ -382,6 +734,24 @@
     "source_url": "https://www.nytimes.com/2026/05/14/technology/openai-apple-legal-action.html",
     "published_at": "2026-05-15T00:58:29.000Z",
     "confidence": 0.95
+  },
+  {
+    "title": "datasette-llm-limits 0.1a0",
+    "summary": "A new version, 0.1a0, of the datasette-llm-limits tool has been released.",
+    "category": "novedad",
+    "entities": [
+      "datasette-llm-limits"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.1a0"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a minor release of a tool that interfaces with LLMs.",
+    "source_url": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+    "published_at": "2026-05-15T00:42:09.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Anthropic agrees terms of $30B funding deal at $900B valuation",
@@ -7500,372 +7870,6 @@
     "why_included": "This is a significant update to a developer tool from Anthropic, detailing numerous functional and security improvements relevant to the LLM tooling ecosystem.",
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
     "published_at": "2026-04-17T19:34:41.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Top Open Source Claude Skills Highlighted (April 1st-15th)",
-    "summary": "A list of top 10 open-source Claude skills from early April is shared, featuring tools for case study generation, job listing aggregation, SEO teardowns, writing enhancement, ad management, SVG animation, Google Trends data, and more.",
-    "category": "novedad",
-    "entities": [
-      "Claude Skills"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "10"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "Curated list of useful open-source tools for the Claude ecosystem, providing practical resources for users.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snsv7o/top_10_open_source_claude_skills_from_1st_15th/",
-    "published_at": "2026-04-17T06:29:37.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "User Reports Issues with Claude Sonnet 4.6 Adaptive Thinking",
-    "summary": "A user experienced significant token consumption and incomplete responses with Claude Sonnet 4.6's adaptive thinking feature, leading them to disable it for unpredictability.",
-    "category": "alerta",
-    "entities": [
-      "Claude Sonnet 4.6"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "65%"
-    ],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "User feedback highlighting a potential issue with a specific feature (adaptive thinking) in an existing model.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snsova/adaptive_thinking_is_a_joke/",
-    "published_at": "2026-04-17T06:19:34.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Top Claude Skills for Opus 4.7 Usage and Optimization",
-    "summary": "A user details their experience optimizing Claude Opus 4.7 usage by cleaning up skills, emphasizing the cost-efficiency of selected skills and the need for sub-agent strategies due to reported long context regressions.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "~35%",
-      "~100 tokens",
-      "31 skills",
-      "10 skills"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "User-generated insights on optimizing LLM usage, focusing on skill management and adapting to model changes.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snreri/top_claude_skills_for_opus_47_after_cleaning_up/",
-    "published_at": "2026-04-17T05:09:28.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude AI Subscription Cost via Apple is 30% Higher",
-    "summary": "A user discovered that subscribing to Claude through Apple incurs a roughly 30% higher cost compared to direct web subscription, due to Apple's commission.",
-    "category": "alerta",
-    "entities": [
-      "Claude",
-      "Apple"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "30%"
-    ],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "Significant price difference identified for subscriptions via a major platform, impacting user costs.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snq9s2/til_that_subscriptions_via_apple_is_30_more/",
-    "published_at": "2026-04-17T04:10:28.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude 4.7 Instruction Following Concerns",
-    "summary": "Users report that Claude 4.7 follows specific negative instructions (e.g., 'don't create new files with the word helper') less reliably than 4.6, leading to concerns about its instruction-following capabilities.",
-    "category": "alerta",
-    "entities": [
-      "Claude 4.7",
-      "Claude 4.6"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "User reports indicating a regression in instruction following for a new model release, which is a critical capability for LLMs.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snlp17/47_follows_claudemd_rules_worse_than_46_and_i/",
-    "published_at": "2026-04-17T00:40:56.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "llm-anthropic 0.25",
-    "summary": "This entry appears to be a reference to a version update or discussion related to Anthropic's LLMs.",
-    "category": "novedad",
-    "entities": [
-      "llm-anthropic",
-      "Anthropic"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Likely a minor update or reference point for Anthropic's models, not detailed enough for higher impact.",
-    "source_url": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
-    "published_at": "2026-04-16T20:37:12.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "llm-anthropic 0.25",
-    "summary": "An update to the llm-anthropic library to version 0.25 has been released. This library likely facilitates interaction with Anthropic's models.",
-    "category": "novedad",
-    "entities": [
-      "llm-anthropic",
-      "Anthropic"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.25"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a library update relevant to interacting with Anthropic's AI models.",
-    "source_url": "https://simonwillison.net/2026/Apr/16/llm-anthropic/",
-    "published_at": "2026-04-16T20:37:12.000Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "Claude Code v2.1.112 Release Notes",
-    "summary": "Claude Code version 2.1.112 fixes an issue where 'claude-opus-4-7 is temporarily unavailable' in auto mode.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "claude-opus-4-7"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "A minor patch release addressing a specific availability issue for a particular model within Claude Code.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
-    "published_at": "2026-04-16T19:55:41.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Permanent Rate Limit Increase for Claude Users",
-    "summary": "Anthropic has announced a permanent increase in rate limits for Claude users, indicating improved capacity or service adjustments.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "A positive change in service terms (rate limits) that benefits users.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snc532/permanent_increase_in_rate_limits/",
-    "published_at": "2026-04-16T18:31:58.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude 4.7 Malicious Code Generation Concerns",
-    "summary": "A user reports that Claude 4.7 seems 'obsessed' with writing malware during its reasoning steps, consuming tokens without clear justification.",
-    "category": "alerta",
-    "entities": [
-      "Claude 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "User feedback highlighting a potentially serious and concerning behavior deviation in the new Claude 4.7 model.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1snbtc9/claude_47_obsessed_with_malware/",
-    "published_at": "2026-04-16T18:20:17.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Qwen3.6-35B-A3B Outperforms Claude Opus 4.7 on Local Laptop",
-    "summary": "A user reports that the Qwen3.6-35B-A3B model, run locally on a laptop, produced a better image than Claude Opus 4.7.",
-    "category": "novedad",
-    "entities": [
-      "Qwen3.6-35B-A3B",
-      "Claude Opus 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "User-reported performance comparison, highlighting potential strengths of a specific open-source model against a proprietary one in a local setup.",
-    "source_url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
-    "published_at": "2026-04-16T17:16:52.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-    "summary": "This post claims that the Qwen3.6-35B-A3B model, running locally, produced a better image of a pelican than Claude Opus 4.7. It highlights a comparison between local and cloud models and their creative output quality.",
-    "category": "novedad",
-    "entities": [
-      "Qwen3.6-35B-A3B",
-      "Claude Opus 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "3.6",
-      "35B",
-      "4.7"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a direct comparison of model performance in a creative task, offering user-generated insights.",
-    "source_url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
-    "published_at": "2026-04-16T17:16:52.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Google Gemini App Enhances Image Creation with Personal Context",
-    "summary": "Google's Gemini app now uses personal context and Google Photos with Nano Banana 2 to create personalized images that reflect users' unique lives.",
-    "category": "novedad",
-    "entities": [
-      "Google Gemini",
-      "Nano Banana 2"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "New feature launch for a major generative AI product, focusing on personalization.",
-    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-    "published_at": "2026-04-16T16:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "New ways to create personalized images in the Gemini app",
-    "summary": "The Gemini app now uses personal context and Google Photos to create personalized images with 'Nano Banana 2', reflecting users' unique lives.",
-    "category": "novedad",
-    "entities": [
-      "Gemini app",
-      "Google Photos",
-      "Nano Banana 2"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a feature launch for the Gemini app that enhances personalization through image creation, indicating product development and user experience improvements.",
-    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-app/personal-intelligence-nano-banana/",
-    "published_at": "2026-04-16T16:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude 4.7 User Reports Increased Token Consumption and Behavior Changes",
-    "summary": "Users are observing faster token consumption and instances where Claude 4.7 follows instructions too literally or exhibits 'malware-obsessed' behavior, leading some to revert to older versions.",
-    "category": "alerta",
-    "entities": [
-      "Claude 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "User feedback highlighting potential issues with token usage and unexpected model behavior in the new Claude 4.7 release.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/",
-    "published_at": "2026-04-16T15:32:20.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic's Claude Code v2.1.111 Release Notes",
-    "summary": "The latest Claude Code release (v2.1.111) introduces the 'xhigh' effort level for Opus 4.7, an interactive /effort slider, an 'Auto (match terminal)' theme option, and several new skills and improved command handling.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Opus 4.7"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Significant SDK update with new features and usability improvements for Claude Code.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.111",
-    "published_at": "2026-04-16T15:18:45.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude Opus 4.7 Available Across Platforms with Same Pricing",
-    "summary": "The new Claude Opus 4.7 model is available on claude.ai, the Claude Platform, and major cloud platforms, maintaining the same pricing as its predecessor, Opus 4.6.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7",
-      "Opus 4.6"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "New model release with broad availability and no price increase.",
-    "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
-    "published_at": "2026-04-16T14:30:45.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude 4.7 Availability and User Experience Updates",
-    "summary": "Claude Opus 4.7 is now available across multiple platforms, with users sharing mixed experiences, including positive feedback on new features and concerns about instruction following and token usage.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "Covers the general availability and initial user experiences of the new Claude Opus 4.7 model, reflecting both positive and negative feedback.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57tn/introducing_claude_opus_47/",
-    "published_at": "2026-04-16T14:30:26.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Introducing Claude Opus 4.7",
-    "summary": "Anthropic has released Claude Opus 4.7, their most capable Opus model to date, boasting improved rigor in long-running tasks, better instruction following, enhanced self-verification, and significantly better vision capabilities.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "New model release from a major player in the LLM space.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/",
-    "published_at": "2026-04-16T14:29:56.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic SDK Python v0.96.0 Release Notes",
-    "summary": "The Python SDK has been updated to v0.96.0, adding support for Claude Opus 4.7, token budgets, and user profiles.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7",
-      "Anthropic SDK Python"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "SDK update to support the new Claude Opus 4.7 model.",
-    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
-    "published_at": "2026-04-16T14:27:28.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude Code Workflow Tips Shared by Senior Developer",
-    "summary": "A senior developer shares workflow tips for Claude Code after six months of daily use, emphasizing 'plan' mode, asking for only the first step, using previews, letting Claude fix bugs, and doing retrospectives.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "Practical advice and best practices for using an LLM for coding tasks.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/",
-    "published_at": "2026-04-16T12:34:18.000Z",
     "confidence": 0.9
   }
 ]
