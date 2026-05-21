@@ -1,20 +1,56 @@
 [
   {
-    "title": "Google Gemini Pricing",
-    "summary": "Google Gemini pricing page has been updated with translated content, but no significant structural or pricing changes were detected.",
-    "category": "novedad",
+    "title": "Gemini Deep Research Pricing Page Updated with Italian Translation",
+    "summary": "The pricing page for Gemini Deep Research has been updated, featuring Italian language translation and clarifying pricing tiers for creation without cost, then scaling up with prepaid and pay-as-you-go options.",
+    "category": "alerta",
     "entities": [
-      "Google",
-      "Gemini"
+      "Google Gemini",
+      "Gemini Deep Research"
     ],
     "event_type": "other",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "This is a routine check of the Google Gemini pricing page, which primarily shows translated content without notable changes.",
+    "why_included": "This is a minor website update related to pricing and localization.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-20T10:38:46.350Z",
+    "published_at": "2026-05-21T10:55:58.765Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Releases: v2.1.146 Update",
+    "summary": "Anthropic's Claude Code has released version v2.1.146, introducing features like renaming '/simplify' to '/code-review', fixing PowerShell tool errors, improving pagination for servers, and addressing various UI and background session issues.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a routine software update for a specific tool, detailing bug fixes and minor feature enhancements.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "published_at": "2026-05-21T01:51:52.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Google announces Gemini Omni, Google Antigravity, and Universal Cart at I/O 2026",
+    "summary": "Google I/O 2026 featured major announcements including Gemini Omni, Google Antigravity, and Universal Cart, highlighting advancements in AI across various domains.",
+    "category": "novedad",
+    "entities": [
+      "Google",
+      "Gemini Omni",
+      "Google Antigravity",
+      "Universal Cart"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This details significant new product and technology releases from Google in the AI space.",
+    "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+    "published_at": "2026-05-20T19:30:00.000Z",
+    "confidence": 0.95
   },
   {
     "title": "Anthropic Pricing",
@@ -364,6 +400,22 @@
     "confidence": 0.95
   },
   {
+    "title": "OpenAI model disproves conjecture in discrete geometry",
+    "summary": "An OpenAI model has successfully solved the 80-year-old unit distance problem, a significant achievement in discrete geometry and a milestone for AI in mathematics.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates advanced reasoning capabilities of AI models in solving complex mathematical problems.",
+    "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+    "published_at": "2026-05-20T00:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
     "title": "My Arduino spins faster when Claude burns more tokens",
     "summary": "An interesting observation linking Arduino activity to Claude's token consumption, suggesting a hardware-software interaction.",
     "category": "novedad",
@@ -487,6 +539,23 @@
     "source_url": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
     "published_at": "2026-05-19T20:36:23.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "OpenAI for Singapore launches multi-year AI partnership",
+    "summary": "OpenAI is launching a multi-year AI partnership in Singapore to expand AI deployment, foster local talent, and support businesses and public services.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Singapore"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This signifies OpenAI's global expansion and strategic partnerships to drive AI adoption.",
+    "source_url": "https://openai.com/index/introducing-openai-for-singapore",
+    "published_at": "2026-05-19T20:30:00.000Z",
+    "confidence": 0.95
   },
   {
     "title": "datasette-llm 0.1a8",
@@ -7469,81 +7538,5 @@
     "source_url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
     "published_at": "2026-04-21T22:36:24.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "OpenAI launches Codex Labs, partners with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
-    "summary": "OpenAI has launched Codex Labs and partnered with major consulting firms to facilitate enterprise adoption of Codex. The product has also reached 4 million weekly active users, indicating significant market traction.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Codex",
-      "Accenture",
-      "PwC",
-      "Infosys"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [
-      "4M Codex WAU"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates a significant partnership and milestone for OpenAI's enterprise offerings, signaling strong market adoption.",
-    "source_url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-    "published_at": "2026-04-21T00:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code v2.1.116 Release Notes",
-    "summary": "Claude Code version 2.1.116 introduces significant performance improvements for '/resume' on large sessions, faster MCP startup, smoother fullscreen scrolling in VS Code, Cursor, and Windsurf terminals, and an improved thinking spinner for inline progress. It also includes security enhancements, bug fixes for rendering and keyboard shortcuts, and improvements to slash command behavior and plugin dependency management.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "67%"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a significant update to a developer tool for a major LLM, introducing performance and security improvements.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
-    "published_at": "2026-04-20T22:18:28.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "llm-openrouter 0.6",
-    "summary": "An update to the llm-openrouter library to version 0.6 has been released. This likely includes improvements or changes to how LLMs are accessed via OpenRouter.",
-    "category": "novedad",
-    "entities": [
-      "llm-openrouter"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.6"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a library update relevant to accessing LLMs through a specific platform.",
-    "source_url": "https://simonwillison.net/2026/Apr/20/llm-openrouter/",
-    "published_at": "2026-04-20T18:00:26.000Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "llm-openrouter 0.6 released",
-    "summary": "The llm-openrouter library has been updated to version 0.6.",
-    "category": "novedad",
-    "entities": [
-      "llm-openrouter"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.6"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "SDK update for a popular LLM interaction library, indicating ongoing development.",
-    "source_url": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
-    "published_at": "2026-04-20T18:00:26.000Z",
-    "confidence": 1
   }
 ]
