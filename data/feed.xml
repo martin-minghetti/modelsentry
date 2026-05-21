@@ -6,11 +6,27 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing</title>
+      <title>Gemini Deep Research Pricing Page Updated with Italian Translation</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 20 May 2026 10:38:46 GMT</pubDate>
-      <description>Google Gemini pricing page has been updated with translated content, but no significant structural or pricing changes were detected. | Impact: low | Signal: neutral | Why included: This is a routine check of the Google Gemini pricing page, which primarily shows translated content without notable changes.</description>
+      <pubDate>Thu, 21 May 2026 10:55:58 GMT</pubDate>
+      <description>The pricing page for Gemini Deep Research has been updated, featuring Italian language translation and clarifying pricing tiers for creation without cost, then scaling up with prepaid and pay-as-you-go options. | Impact: low | Signal: neutral | Why included: This is a minor website update related to pricing and localization.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code Releases: v2.1.146 Update</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.146</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.146</guid>
+      <pubDate>Thu, 21 May 2026 01:51:52 GMT</pubDate>
+      <description>Anthropic&apos;s Claude Code has released version v2.1.146, introducing features like renaming &apos;/simplify&apos; to &apos;/code-review&apos;, fixing PowerShell tool errors, improving pagination for servers, and addressing various UI and background session issues. | Impact: low | Signal: positive | Why included: This is a routine software update for a specific tool, detailing bug fixes and minor feature enhancements.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Google announces Gemini Omni, Google Antigravity, and Universal Cart at I/O 2026</title>
+      <link>https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/</guid>
+      <pubDate>Wed, 20 May 2026 19:30:00 GMT</pubDate>
+      <description>Google I/O 2026 featured major announcements including Gemini Omni, Google Antigravity, and Universal Cart, highlighting advancements in AI across various domains. | Impact: medium | Signal: positive | Why included: This details significant new product and technology releases from Google in the AI space.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -174,6 +190,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>OpenAI model disproves conjecture in discrete geometry</title>
+      <link>https://openai.com/index/model-disproves-discrete-geometry-conjecture</link>
+      <guid>https://openai.com/index/model-disproves-discrete-geometry-conjecture</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description>An OpenAI model has successfully solved the 80-year-old unit distance problem, a significant achievement in discrete geometry and a milestone for AI in mathematics. | Impact: medium | Signal: positive | Why included: This demonstrates advanced reasoning capabilities of AI models in solving complex mathematical problems.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>My Arduino spins faster when Claude burns more tokens</title>
       <link>https://terminalbytes.com/arduino-claude-code-activity-meter/</link>
       <guid>https://terminalbytes.com/arduino-claude-code-activity-meter/</guid>
@@ -227,6 +251,14 @@
       <guid>https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything</guid>
       <pubDate>Tue, 19 May 2026 20:36:23 GMT</pubDate>
       <description>An update to the llm-gemini library to version 0.32a0. | Impact: low | Signal: positive | Why included: This is a library update for interacting with Gemini models, relevant to the developer ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI for Singapore launches multi-year AI partnership</title>
+      <link>https://openai.com/index/introducing-openai-for-singapore</link>
+      <guid>https://openai.com/index/introducing-openai-for-singapore</guid>
+      <pubDate>Tue, 19 May 2026 20:30:00 GMT</pubDate>
+      <description>OpenAI is launching a multi-year AI partnership in Singapore to expand AI deployment, foster local talent, and support businesses and public services. | Impact: medium | Signal: positive | Why included: This signifies OpenAI&apos;s global expansion and strategic partnerships to drive AI adoption.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -371,38 +403,6 @@
       <guid>https://github.com/nvwalj/ai-memory-reader</guid>
       <pubDate>Sat, 16 May 2026 22:41:57 GMT</pubDate>
       <description>A new native macOS application, &apos;AI Memory Reader,&apos; allows users to browse memory files generated by Claude Code. | Impact: low | Signal: neutral | Why included: This is a new utility tool for developers working with Claude Code, enhancing debugging and analysis capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I tried to make Claude make me money on open-source bounties</title>
-      <link>https://github.com/ztc00/algora-scout/blob/main/POST.md</link>
-      <guid>https://github.com/ztc00/algora-scout/blob/main/POST.md</guid>
-      <pubDate>Sat, 16 May 2026 22:13:54 GMT</pubDate>
-      <description>A user shares their experience attempting to leverage Claude to earn money through open-source bounties. | Impact: low | Signal: neutral | Why included: This is a user-generated case study on using an LLM for financial gain in the open-source bounty ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Irst Apple M5 memory exploit discovered using Anthropic AI</title>
-      <link>https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement</link>
-      <guid>https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement</guid>
-      <pubDate>Sat, 16 May 2026 22:08:21 GMT</pubDate>
-      <description>Researchers have identified the first memory exploit for Apple&apos;s M5 chip, with assistance from Anthropic&apos;s Claude AI in bypassing memory integrity enforcement. | Impact: high | Signal: negative | Why included: This highlights a security vulnerability in a major hardware platform that was aided by an LLM, raising security concerns.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI caught NPM supply chain chaos after employeedevices compromised</title>
-      <link>https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019</link>
-      <guid>https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019</guid>
-      <pubDate>Sat, 16 May 2026 22:07:46 GMT</pubDate>
-      <description>OpenAI was reportedly affected by NPM supply chain chaos following a compromise of employee devices. | Impact: high | Signal: negative | Why included: This points to a significant security incident impacting OpenAI, involving a supply chain attack, which is highly relevant to industry security.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude Agent View Changes How You Run Your Engineering Day</title>
-      <link>https://medium.com/@alirezarezvani/claude-agent-view-changes-how-you-run-your-engineering-day-ec7402221582</link>
-      <guid>https://medium.com/@alirezarezvani/claude-agent-view-changes-how-you-run-your-engineering-day-ec7402221582</guid>
-      <pubDate>Sat, 16 May 2026 20:55:31 GMT</pubDate>
-      <description>A medium article discusses how &apos;Claude Agent View&apos; can alter the way engineering teams manage their daily workflow. | Impact: low | Signal: neutral | Why included: This is a user perspective on how an LLM-based tool can impact engineering workflows.</description>
       <category>novedad</category>
     </item>
   </channel>
