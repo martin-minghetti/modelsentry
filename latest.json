@@ -1,20 +1,108 @@
 [
   {
-    "title": "Google Gemini Pricing",
-    "summary": "A diff alert indicates changes to Google Gemini's pricing page, with new details about Gemini Deep Research and free tier limits.",
+    "title": "Google Gemini Pricing Update: Gemini Deep Research now in preview",
+    "summary": "Google has updated its Gemini API pricing page, noting that Gemini Deep Research features, including collaborative planning and visualization, are now available in preview.",
     "category": "novedad",
     "entities": [
-      "Google",
-      "Gemini"
+      "Google Gemini",
+      "Gemini API"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "positive",
     "impact": "low",
-    "why_included": "This provides updated information on the pricing and availability of Google's Gemini models, including the new Deep Research preview.",
+    "why_included": "This is a pricing update that includes the preview of a new feature (Deep Research), which could impact how developers utilize the Gemini API.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-05-23T09:29:13.239Z",
+    "published_at": "2026-05-25T11:39:41.074Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's 'Mythos 1' Keeps Appearing Despite Restricted Access Claims",
+    "summary": "A report suggests that Anthropic's 'Mythos 1' model continues to surface publicly despite claims of restricted access, potentially indicating issues with access control or data leakage.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Mythos 1"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This item highlights potential security or data control issues with a model from a major AI provider, impacting trust and product integrity.",
+    "source_url": "https://firethering.com/claude-mythos-anthropic-claude-code-public-release/",
+    "published_at": "2026-05-25T10:12:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "768GB of cheap DIMM memory used to run 1T-parameter LLM on single GPU",
+    "summary": "An enthusiast successfully ran a 1 trillion parameter LLM on a single GPU by utilizing 768GB of inexpensive DIMM memory, achieving approximately 4 tokens per second.",
+    "category": "novedad",
+    "entities": [],
+    "event_type": "release",
+    "key_numbers": [
+      "768GB",
+      "1T-parameter",
+      "4 tokens/second"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates a significant advancement in hardware efficiency for running large LLMs, potentially lowering the barrier to entry for powerful AI inference.",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second",
+    "published_at": "2026-05-25T08:59:26.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Show HN: IA-SQL – Postgres compiles your documents into a wiki with an LLM",
+    "summary": "IA-SQL is a new project that compiles documents into a wiki using PostgreSQL and an LLM, allowing for more organized and searchable knowledge bases.",
+    "category": "novedad",
+    "entities": [
+      "IA-SQL",
+      "PostgreSQL"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a practical application of LLMs for knowledge management and data organization, demonstrating a new tool for developers.",
+    "source_url": "https://github.com/feers77/iasql",
+    "published_at": "2026-05-25T07:51:40.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude's Mythos AI model may cause security issues for your money",
+    "summary": "A report raises concerns about potential security vulnerabilities associated with Claude's Mythos AI model, suggesting it could pose risks to financial data.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Mythos AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This highlights a critical security vulnerability in a prominent AI model, posing significant risks to users' financial security.",
+    "source_url": "https://www.rte.ie/brainstorm/2026/0517/1572343-claude-ai-model-security-issues-humans-work-information-data/",
+    "published_at": "2026-05-25T05:38:52.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Tell HN: Claude Code now allows Anthropic to remotely inject system prompts",
+    "summary": "A user discovered that Claude Code version 2.1.150 allows Anthropic to remotely inject system prompts via network calls, raising concerns about the lack of transparency and potential security implications.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "2.1.150"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to potential security and privacy concerns arising from remote system prompt injection by the provider.",
+    "source_url": "https://news.ycombinator.com/item?id=48259288",
+    "published_at": "2026-05-24T17:34:02.000Z",
+    "confidence": 0.95
   },
   {
     "title": "Anthropic Pricing",
@@ -7023,373 +7111,6 @@
     "why_included": "This is a customer success story highlighting the practical application and positive impact of OpenAI's APIs in a business context, which is relevant but low-impact.",
     "source_url": "https://openai.com/index/choco",
     "published_at": "2026-04-27T00:00:00.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Fixing hallucination in LLM prediction with only one 48gib GPU",
-    "summary": "This article URL discusses a method to fix hallucination in LLM predictions using a single 48GiB GPU.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "48GiB"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is relevant as it discusses technical approaches to improve LLM performance and reliability.",
-    "source_url": "https://zenodo.org/records/19703218",
-    "published_at": "2026-04-25T08:19:23.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Show HN: NoonFlow – a macOS workspace I built for Claude Code and Codex",
-    "summary": "NoonFlow is a macOS workspace developed for Claude Code and Codex, aimed at improving developer productivity.",
-    "category": "novedad",
-    "entities": [
-      "NoonFlow",
-      "Claude Code",
-      "Codex"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new tool release aimed at enhancing the workflow for developers using specific AI models.",
-    "source_url": "https://github.com/heyallencao/NoonFlow/releases",
-    "published_at": "2026-04-25T07:53:03.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Altman apologizes: OpenAI failed to alert police before fatal Canada shooting",
-    "summary": "OpenAI's Sam Altman has apologized for the company's failure to alert police prior to a fatal shooting incident in Canada.",
-    "category": "alerta",
-    "entities": [
-      "OpenAI",
-      "Sam Altman"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This involves a significant failure in safety protocols by a major AI company, with potential implications for AI safety and public trust.",
-    "source_url": "https://www.theguardian.com/us-news/2026/apr/25/altman-apologizes-after-openai-failed-to-alert-police-before-fatal-canada-shooting",
-    "published_at": "2026-04-25T04:45:55.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Musk Drops Fraud Claims Against OpenAI, Altman Ahead of Trial",
-    "summary": "Elon Musk has withdrawn his fraud claims against OpenAI and Sam Altman, just ahead of a scheduled trial.",
-    "category": "novedad",
-    "entities": [
-      "Elon Musk",
-      "OpenAI",
-      "Sam Altman"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant legal development impacting OpenAI and its CEO, potentially easing external pressures on the company.",
-    "source_url": "https://www.bloomberg.com/news/articles/2026-04-25/musk-drops-fraud-claims-against-openai-altman-ahead-of-trial",
-    "published_at": "2026-04-25T03:15:57.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "GCC Establishes Working Group to Decide on AI/LLM Policy",
-    "summary": "The GCC has formed a working group dedicated to developing policy concerning AI and LLMs.",
-    "category": "novedad",
-    "entities": [
-      "GCC",
-      "AI",
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This indicates a move towards regulation and policy-making for AI/LLMs by a significant international body.",
-    "source_url": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
-    "published_at": "2026-04-25T02:18:46.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI's Sam Altman writes apology to community of Tumbler Ridge",
-    "summary": "Sam Altman has issued an apology to the community of Tumbler Ridge following a past incident.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Sam Altman"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a public relations event from OpenAI's CEO following a serious incident, potentially impacting the company's public perception.",
-    "source_url": "https://www.cbc.ca/news/canada/british-columbia/sam-altman-tumbler-ridge-apology-9.7176482",
-    "published_at": "2026-04-25T01:52:25.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-    "summary": "A new open-source memory layer has been released, enabling AI agents to achieve functionalities similar to Claude.ai and ChatGPT.",
-    "category": "novedad",
-    "entities": [
-      "AI agent",
-      "Claude.ai",
-      "ChatGPT"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is an open-source release that aims to democratize advanced AI capabilities, potentially fostering innovation.",
-    "source_url": "https://alash3al.github.io/stash?_v01",
-    "published_at": "2026-04-25T01:24:40.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Google Cloud CEO: Anthropic, TPUs, Mythos, Nvidia and More [video]",
-    "summary": "A video featuring the Google Cloud CEO discussing Anthropic, TPUs, Mythos, Nvidia, and other relevant topics in the AI space.",
-    "category": "novedad",
-    "entities": [
-      "Google Cloud CEO",
-      "Anthropic",
-      "TPUs",
-      "Nvidia"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides insights into Google Cloud's strategy and partnerships within the AI ecosystem, mentioning key players like Anthropic and Nvidia.",
-    "source_url": "https://www.youtube.com/watch?v=bNdiBwXbLNw",
-    "published_at": "2026-04-25T00:48:36.000Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "Google is building a Claude Code challenger, Sergey Brin is involved",
-    "summary": "Google is reportedly developing a new AI model to compete with Claude Code, with Sergey Brin personally involved in the project.",
-    "category": "novedad",
-    "entities": [
-      "Google",
-      "Claude Code",
-      "Sergey Brin"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This signifies significant investment and competition in the AI model space, with a high-profile figure involved.",
-    "source_url": "https://www.indiatoday.in/technology/news/story/google-is-secretly-building-a-claude-code-challenger-sergey-brin-is-personally-involved-2899415-2026-04-21",
-    "published_at": "2026-04-25T00:23:37.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic now requires Pro Plans to enable/purchase extra usage for Opus",
-    "summary": "Anthropic has updated its policy, requiring users to have Pro Plans to enable or purchase additional usage for the Opus model.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Opus"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This is a pricing change by Anthropic that affects access to their premium Opus model, potentially increasing costs for users.",
-    "source_url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
-    "published_at": "2026-04-24T23:47:25.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "llm 0.31",
-    "summary": "This is a minor version update to an LLM project.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.31"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "A minor update to an LLM-related project, indicating ongoing development.",
-    "source_url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
-    "published_at": "2026-04-24T23:35:07.000Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "llm 0.31",
-    "summary": "A new version, llm 0.31, has been released.",
-    "category": "novedad",
-    "entities": [
-      "llm"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.31"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "A minor version update for the 'llm' project, which could be a new model or tool.",
-    "source_url": "https://simonwillison.net/2026/Apr/24/llm/",
-    "published_at": "2026-04-24T23:35:07.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Study: Does the brain work like an LLM in predicting words?",
-    "summary": "A new study investigates whether the human brain functions similarly to Large Language Models (LLMs) in the process of word prediction.",
-    "category": "novedad",
-    "entities": [
-      "LLM",
-      "brain"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a research study exploring the intersection of neuroscience and LLMs, potentially leading to new insights in both fields.",
-    "source_url": "https://www.nyu.edu/about/news-publications/news/2026/april/does-the-brain-work-like-an-llm-in-predicting-words--new-study-s.html",
-    "published_at": "2026-04-24T22:44:09.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Working with Claude Code: A Field Manual",
-    "summary": "This article serves as a practical guide or 'field manual' for effectively working with Claude Code.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a tutorial or guide offering practical advice for users of Claude Code, a significant LLM.",
-    "source_url": "https://blog.iannelson.uk/working-with-claude-code",
-    "published_at": "2026-04-24T21:54:36.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Anthropic CPO leaves Figma board after reports of competing product",
-    "summary": "Anthropic's Chief Product Officer has resigned from Figma's board following reports that he intends to launch a competing product.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Figma"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This signals potential competition and strategic shifts involving key figures in the AI and design tool spaces.",
-    "source_url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/",
-    "published_at": "2026-04-24T21:51:41.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Show HN: I built a CLI that turns your codebase into clean LLM input",
-    "summary": "A command-line interface (CLI) tool has been developed that processes codebases into a clean format suitable for LLM input.",
-    "category": "novedad",
-    "entities": [
-      "CLI",
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new developer tool that simplifies the process of preparing code for LLM interaction, potentially increasing LLM adoption in coding workflows.",
-    "source_url": "https://github.com/NoahCristino/llmcat",
-    "published_at": "2026-04-24T21:25:07.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI Pres. Greg Brockman on GPT-5.5 'Spud', Model Moats and 'Compute Economy'",
-    "summary": "OpenAI President Greg Brockman discusses 'Spud' (potentially GPT-5.5), model moats, and the 'compute economy'.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Greg Brockman",
-      "GPT-5.5"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This offers insights into OpenAI's future model development and strategic thinking on competitive advantages in the AI industry.",
-    "source_url": "https://www.bigtechnology.com/p/openai-president-greg-brockman-on",
-    "published_at": "2026-04-24T21:07:43.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Show HN: Claude Code Manager",
-    "summary": "Claude Code Manager (CCM) is a tool designed to manage Claude Code configuration files, rules, hooks, agents, and memories.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code Manager",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new tool release aimed at improving the usability and management of Claude Code, a significant AI model.",
-    "source_url": "https://claude.ldlework.com/",
-    "published_at": "2026-04-24T20:38:53.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI issues apology to Tumbler Ridge after mass shooting",
-    "summary": "OpenAI has issued an apology to the community of Tumbler Ridge following a mass shooting incident.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This is a public statement from OpenAI addressing a serious safety failure, which could affect public perception and regulatory scrutiny.",
-    "source_url": "https://tumblerridgelines.com/2026/04/24/openai-apologizes-to-tumbler-ridge/",
-    "published_at": "2026-04-24T20:10:33.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: I made Codex work as a Claude Code teammate",
-    "summary": "A project has been developed to integrate Codex functionality, allowing it to work alongside Claude Code as a teammate.",
-    "category": "novedad",
-    "entities": [
-      "Codex",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a demonstration of integrating different AI models to enhance collaborative workflows, showcasing potential for multi-model agentic systems.",
-    "source_url": "https://github.com/JonathanRosado/claude-anyteam",
-    "published_at": "2026-04-24T20:10:30.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "8 Gemini tips for organizing your space (and life)",
-    "summary": "This article provides eight tips for using Gemini to help organize personal spaces and daily life.",
-    "category": "novedad",
-    "entities": [
-      "Gemini"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "8"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This showcases practical applications of Gemini for personal productivity and organization.",
-    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-    "published_at": "2026-04-24T19:00:00.000Z",
     "confidence": 0.8
   }
 ]
