@@ -1,5 +1,350 @@
 [
   {
+    "title": "AionUi: Open-Source AI Cowork Platform for Claude Code, Codex and Gemini",
+    "summary": "AionUi is an open-source AI cowork platform designed to facilitate collaboration with AI models like Claude Code, Codex, and Gemini.",
+    "category": "novedad",
+    "entities": [
+      "AionUi",
+      "Claude Code",
+      "Codex",
+      "Gemini"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This introduces a new open-source tool for AI collaboration, relevant to the LLM/AI industry.",
+    "source_url": "https://github.com/iOfficeAI/AionUi",
+    "published_at": "2026-05-27T11:22:53.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's coordinated vulnerability disclosure dashboard",
+    "summary": "Anthropic has launched a dashboard for coordinated vulnerability disclosures, indicating a commitment to security and transparency in their operations.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Anthropic's focus on security and vulnerability disclosure is relevant to the responsible development of AI.",
+    "source_url": "https://red.anthropic.com/2026/cvd/",
+    "published_at": "2026-05-27T11:18:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "RepoRecon – a Claude Code plugin that validates project ideas against GitHub",
+    "summary": "RepoRecon is a Claude Code plugin that validates project ideas by checking them against GitHub repositories.",
+    "category": "novedad",
+    "entities": [
+      "RepoRecon",
+      "Claude Code",
+      "GitHub"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a new plugin for Claude Code, expanding its capabilities with GitHub integration.",
+    "source_url": "https://github.com/suleman-dawood/reporecon",
+    "published_at": "2026-05-27T11:01:20.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "A file-level tree that lets an LLM reason over a document corpus",
+    "summary": "Pageindex.ai has developed a file-level tree structure that enables LLMs to reason over large document corpora.",
+    "category": "novedad",
+    "entities": [
+      "Pageindex.ai",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a technical advancement in how LLMs can process and reason over large datasets.",
+    "source_url": "https://pageindex.ai/blog/pageindex-filesystem",
+    "published_at": "2026-05-27T10:37:11.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude, Author of the Humanitas",
+    "summary": "This article discusses Claude's role and impact, possibly in relation to its 'Humanitas' characteristics or ethical considerations.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This blog post delves into the characteristics or implications of the Claude model, contributing to industry discourse.",
+    "source_url": "https://linch.substack.com/p/claude-author-of-the-humanitas",
+    "published_at": "2026-05-27T09:20:11.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: TokenAdvisor – paste a prompt, see what to cut to lower your LLM bill",
+    "summary": "TokenAdvisor is a new tool that helps users optimize their LLM prompts to reduce costs.",
+    "category": "novedad",
+    "entities": [
+      "TokenAdvisor",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a practical tool for LLM users focused on cost optimization.",
+    "source_url": "https://tokenadvisor.dev/",
+    "published_at": "2026-05-27T08:12:51.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "An LLM Flies X-Plane [video]",
+    "summary": "This video demonstrates an LLM controlling the X-Plane flight simulator.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "X-Plane"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases an application of LLMs in real-world control systems, demonstrating advanced capabilities.",
+    "source_url": "https://www.youtube.com/watch?v=UiXcLURL7yo",
+    "published_at": "2026-05-27T07:56:10.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic's Dogma on US-China AI Competition",
+    "summary": "This article analyzes Anthropic's perspective and stance on the AI competition between the US and China.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insight into a major AI company's geopolitical views on AI development and competition.",
+    "source_url": "https://chinai.substack.com/p/anthropics-dogmatic-views-on-us-china",
+    "published_at": "2026-05-27T07:56:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Why The Pentagon Went to War with Anthropic – ReasonTV [video]",
+    "summary": "This video explores the relationship and potential conflicts between the Pentagon and Anthropic.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Pentagon"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights potential government-AI company interactions and conflicts, relevant to the industry's relationship with defense sectors.",
+    "source_url": "https://www.youtube.com/watch?v=O1EWjfGBkmc",
+    "published_at": "2026-05-27T07:50:22.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Even (very) noisy LLM evaluators are useful for improving AI agents",
+    "summary": "This blog post from TensorZero argues that even noisy LLM evaluators can contribute to the improvement of AI agents.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "TensorZero",
+      "AI agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This provides research insights into LLM evaluation methodologies and their impact on AI agent development.",
+    "source_url": "https://www.tensorzero.com/blog/even-very-noisy-llm-evaluators-are-useful-for-improving-ai-agents/",
+    "published_at": "2026-05-27T07:49:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude, GPT, Gemini Agents Fail 72% of U.S. Healthcare Workflows",
+    "summary": "A new benchmark study indicates that leading AI agents from Claude, GPT, and Gemini fail in 72% of U.S. healthcare workflows.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "GPT",
+      "Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "72%"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact finding regarding the practical application and current limitations of major LLMs in a critical sector like healthcare.",
+    "source_url": "https://apnews.com/press-release/ein-presswire-newsmatics/claude-gpt-gemini-agents-fail-72-of-u-s-healthcare-workflows-new-benchmark-finds-61b74f3c6e797b1d682002a00c88ffbc",
+    "published_at": "2026-05-27T07:20:28.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Why We Invested in Anthropic",
+    "summary": "This article details Point Nine Capital's investment rationale in Anthropic, likely focusing on the company's technology and market potential.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Point Nine Capital"
+    ],
+    "event_type": "funding",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This announces a funding event for Anthropic, a key player in the LLM space.",
+    "source_url": "https://medium.com/point-nine-news/why-we-invested-in-anthropic-88f504a65d2a",
+    "published_at": "2026-05-27T06:55:57.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Open source toolkit to analyze your ChatGPT/Claude usage from exports",
+    "summary": "This is an open-source toolkit designed to analyze usage data from ChatGPT and Claude exports.",
+    "category": "novedad",
+    "entities": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This provides a new open-source tool for users to understand their interaction with major LLMs.",
+    "source_url": "https://github.com/noah-chelednik/llm-export-analytics",
+    "published_at": "2026-05-27T05:33:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "How we contain Claude across products",
+    "summary": "Anthropic explains its strategy for containing and managing the Claude model across its various product offerings.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This provides insight into Anthropic's product development and model deployment strategies.",
+    "source_url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "published_at": "2026-05-27T05:26:27.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+    "summary": "This post details using Claude Code as a daily driver, covering its features like Claude.md, Skills, Subagents, Plugins, and MCPs.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude.md",
+      "MCP"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This offers practical guidance and insights into utilizing Claude Code and its ecosystem of features.",
+    "source_url": "https://arps18.github.io/posts/claude-code-mastery/",
+    "published_at": "2026-05-27T05:13:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "A locus-coeruleus model for LLM agents (phasic and tonic attention gain)",
+    "summary": "This GitHub repository introduces a model based on locus coeruleus for LLM agents, focusing on attention mechanisms.",
+    "category": "novedad",
+    "entities": [
+      "LLM agents"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a technical contribution related to LLM agent architecture and attention mechanisms.",
+    "source_url": "https://github.com/mrshanebarron/lc-attention",
+    "published_at": "2026-05-27T05:10:44.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI's Altman says AI unlikely to lead to 'jobs apocalypse'",
+    "summary": "OpenAI CEO Sam Altman discusses the potential impact of AI on the job market, stating it's unlikely to cause a 'jobs apocalypse'.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Sam Altman"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides commentary from a key industry leader on a major societal impact of AI.",
+    "source_url": "https://www.reuters.com/world/asia-pacific/openais-altman-says-ai-unlikely-lead-jobs-apocalypse-2026-05-26/",
+    "published_at": "2026-05-27T03:13:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "I built a 28-tool AI video SaaS solo with Python, Flask and OpenAI APIs",
+    "summary": "A solo developer built an AI video SaaS with 28 tools using Python, Flask, and OpenAI APIs.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI APIs"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "28"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This highlights an entrepreneurial use case of OpenAI APIs in building a SaaS product.",
+    "source_url": "https://snipforge.video",
+    "published_at": "2026-05-27T02:26:56.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "v2.1.152",
+    "summary": "This release for Claude Code introduces significant improvements including enhanced code review, new skills management features, and expanded plugin capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a substantial update to Claude Code, bringing new features and improvements to its functionality.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "published_at": "2026-05-27T01:30:59.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "I ditched LM Studio for llama.cpp and my local LLM doesn't feel like a downgrade",
+    "summary": "A user shares their experience switching from LM Studio to llama.cpp for local LLM deployment, finding no performance downgrade.",
+    "category": "novedad",
+    "entities": [
+      "LM Studio",
+      "llama.cpp",
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a user testimonial about local LLM deployment, comparing two popular tools.",
+    "source_url": "https://www.xda-developers.com/ditched-lm-studio-for-llama-cpp-and-local-llm-doesnt-feel-like-downgrade-anymore/",
+    "published_at": "2026-05-27T00:30:27.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Google Gemini Pricing Update: Gemini Deep Research now in preview",
     "summary": "Google has updated its Gemini API pricing page, noting that Gemini Deep Research features, including collaborative planning and visualization, are now available in preview.",
     "category": "novedad",
@@ -84,6 +429,25 @@
     "source_url": "https://www.rte.ie/brainstorm/2026/0517/1572343-claude-ai-model-security-issues-humans-work-information-data/",
     "published_at": "2026-05-25T05:38:52.000Z",
     "confidence": 0.95
+  },
+  {
+    "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+    "summary": "OpenAI has partnered with Grupo Folha and Grupo UOL to integrate Brazilian journalism into ChatGPT, emphasizing attribution and transparency.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Grupo Folha",
+      "Grupo UOL",
+      "ChatGPT"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This partnership expands ChatGPT's content access to high-quality journalism, indicating growth and strategic partnerships for OpenAI.",
+    "source_url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+    "published_at": "2026-05-25T00:00:00.000Z",
+    "confidence": 1
   },
   {
     "title": "Tell HN: Claude Code now allows Anthropic to remotely inject system prompts",
@@ -257,20 +621,18 @@
     "confidence": 0.9
   },
   {
-    "title": "Anthropic's coordinated vulnerability disclosure dashboard",
-    "summary": "Anthropic has launched a coordinated vulnerability disclosure dashboard.",
+    "title": "The memory shortage is causing a repricing of consumer electronics",
+    "summary": "A discussion on the impact of memory shortages on consumer electronics pricing.",
     "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "release",
+    "entities": [],
+    "event_type": "other",
     "key_numbers": [],
-    "signal": "positive",
+    "signal": "neutral",
     "impact": "low",
-    "why_included": "This is a positive step towards responsible disclosure and security for Anthropic's models.",
-    "source_url": "https://red.anthropic.com/2026/cvd/",
-    "published_at": "2026-05-22T22:08:01.000Z",
-    "confidence": 0.85
+    "why_included": "While not directly about LLMs, memory availability is a critical factor for AI hardware, making this relevant to the industry's supply chain.",
+    "source_url": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+    "published_at": "2026-05-22T22:01:31.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Show HN: Microcodegen.py – PRD → FastAPI app, one file, no LLM calls",
@@ -805,6 +1167,23 @@
     "impact": "low",
     "why_included": "This offers commentary on Google's major AI announcements from a respected industry observer.",
     "source_url": "https://simonwillison.net/2026/May/20/google-io/",
+    "published_at": "2026-05-20T15:32:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Google I/O, Gemini Spark, Antigravity",
+    "summary": "A blog post discussing Google I/O, Gemini Spark, and potentially other AI-related advancements.",
+    "category": "novedad",
+    "entities": [
+      "Google",
+      "Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This post likely covers key announcements from Google I/O related to AI and Gemini.",
+    "source_url": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
     "published_at": "2026-05-20T15:32:17.000Z",
     "confidence": 0.9
   },
@@ -7078,39 +7457,5 @@
     "source_url": "https://openai.com/index/openai-available-at-fedramp-moderate",
     "published_at": "2026-04-27T14:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "The next phase of the Microsoft OpenAI partnership",
-    "summary": "OpenAI and Microsoft have amended their agreement to simplify the partnership, provide long-term clarity, and support continued AI innovation at scale.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Microsoft"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant update to a major partnership in the AI industry, indicating continued collaboration and investment, which is a medium-impact event.",
-    "source_url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-    "published_at": "2026-04-27T06:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Choco automates food distribution with AI agents",
-    "summary": "Choco has leveraged OpenAI APIs to streamline food distribution, boost productivity, and unlock growth, showcasing a real-world AI impact story.",
-    "category": "novedad",
-    "entities": [
-      "Choco",
-      "OpenAI APIs"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a customer success story highlighting the practical application and positive impact of OpenAI's APIs in a business context, which is relevant but low-impact.",
-    "source_url": "https://openai.com/index/choco",
-    "published_at": "2026-04-27T00:00:00.000Z",
-    "confidence": 0.8
   }
 ]
