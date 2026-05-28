@@ -1,5 +1,346 @@
 [
   {
+    "title": "Claude Code Rendering Elvish",
+    "summary": "An issue has been opened regarding Claude Code's rendering of Elvish.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a discussion of a specific technical issue within a product, which can be indicative of product stability or developer attention.",
+    "source_url": "https://github.com/anthropics/claude-code/issues/63096",
+    "published_at": "2026-05-28T11:14:02.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Tool to debug Stripe interactions built with Claude's help",
+    "summary": "A new tool called 'stripeek' has been developed to debug complex Stripe interactions, with assistance from Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Stripe"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This highlights the practical application of LLMs like Claude in developing tools for specific business processes, demonstrating utility beyond general text generation.",
+    "source_url": "https://github.com/progapandist/stripeek",
+    "published_at": "2026-05-28T10:27:21.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "The Anatomy of an LLM",
+    "summary": "A blog post delves into the internal workings and architecture of Large Language Models.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is an educational piece explaining LLM fundamentals, relevant for understanding the underlying technology.",
+    "source_url": "https://www.royvanrijn.com/anatomy-of-an-llm/",
+    "published_at": "2026-05-28T10:05:05.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Opus 4.8 coming today?",
+    "summary": "There's speculation about the release of Claude Opus 4.8 today.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This indicates potential new model releases from major LLM providers, which is a key event in the industry.",
+    "source_url": "https://twitter.com/synthwavedd/status/2059931370009272802",
+    "published_at": "2026-05-28T09:52:20.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Opus 4.7 is down",
+    "summary": "Claude Opus 4.7 is currently experiencing an outage.",
+    "category": "alerta",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "outage",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Outages of major LLM models from key providers like Anthropic directly impact users and demonstrate reliability concerns.",
+    "source_url": "https://status.claude.com/incidents/0w1bqsc12lt8",
+    "published_at": "2026-05-28T08:46:10.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Train 1T parameter LLM with 8 GPUs?",
+    "summary": "A project explores the possibility of training a 1 trillion parameter LLM using only 8 GPUs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1T parameter",
+      "8 GPUs"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This discusses advancements in efficient LLM training, potentially lowering the hardware barrier for developing large models.",
+    "source_url": "https://github.com/Sphere-AI-Lab/orbit",
+    "published_at": "2026-05-28T07:42:49.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Ask HN: How Much a Difference Does an LLM's Corpus Make?",
+    "summary": "A discussion on the impact of training data corpus on an LLM's performance, particularly for scientific questions.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a fundamental discussion about LLM training data and its influence on model capabilities, relevant for understanding model behavior.",
+    "source_url": "https://news.ycombinator.com/item?id=4304669",
+    "published_at": "2026-05-28T04:53:09.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Popular LLM software hit by critical vulnerability in Python package Starlette",
+    "summary": "A critical vulnerability has been discovered in the Python package Starlette, affecting popular LLM software.",
+    "category": "alerta",
+    "entities": [
+      "LLM",
+      "Starlette"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Security vulnerabilities in widely used software libraries pose a significant risk to LLM applications and infrastructure.",
+    "source_url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+    "published_at": "2026-05-28T03:05:51.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Harness Sensitivity Is Non-Monotone Across LLM Agent Tiers",
+    "summary": "A research paper explores harness sensitivity in LLM agent tiers, finding it to be non-monotone.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "LLM Agent"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This research contributes to the understanding of LLM agent behavior and potential sensitivities, relevant for agent development and robustness.",
+    "source_url": "https://arxiv.org/abs/2605.26731",
+    "published_at": "2026-05-28T02:59:13.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic takes 8 spots in top 10 most secure LLMs",
+    "summary": "Anthropic models are highly represented in the top 10 most secure LLMs, according to a new ranking.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "8 spots",
+      "top 10"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This highlights Anthropic's strong performance in LLM security, a critical aspect of AI development and deployment.",
+    "source_url": "https://www.thedeepview.com/articles/anthropic-takes-8-spots-in-top-10-most-secure-llms",
+    "published_at": "2026-05-28T02:35:41.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Pimmur, can LLM simulate human collective behavior?",
+    "summary": "A research paper investigates LLMs' ability to simulate human collective behavior.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This explores advanced capabilities of LLMs in understanding and simulating complex human social dynamics.",
+    "source_url": "https://arxiv.org/abs/2509.18052",
+    "published_at": "2026-05-28T02:03:43.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude Code Releases v2.1.153",
+    "summary": "Claude Code has released version 2.1.153 with several improvements and bug fixes, including changes to the Git plugin, agent autocompletion, and macOS background agents.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.153"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A new software release with significant feature additions and fixes indicates ongoing development and improvement of the Claude Code product.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "published_at": "2026-05-28T00:52:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "ChatGPT, Claude, or Gemini? Big Pharma Is Choosing Sides",
+    "summary": "Big Pharma companies are reportedly choosing between ChatGPT, Claude, and Gemini for their AI needs.",
+    "category": "novedad",
+    "entities": [
+      "ChatGPT",
+      "Claude",
+      "Gemini"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This indicates significant adoption of major LLM providers by enterprise clients, specifically in the large pharmaceutical sector.",
+    "source_url": "https://www.bigpharmasharma.com/p/chatgpt-claude-or-gemini-big-pharma",
+    "published_at": "2026-05-27T22:28:43.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Malware dev tries to steal Claude users' secrets, leaks own GitHub private token",
+    "summary": "A malware developer attempting to steal Claude user secrets accidentally leaked their own GitHub private token.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This incident highlights security risks and potential vulnerabilities for users of LLM platforms, as well as developer missteps.",
+    "source_url": "https://theins.press/en/corruption/291857",
+    "published_at": "2026-05-27T22:13:36.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI readies cyber, misinformation defenses ahead of elections",
+    "summary": "OpenAI is preparing defenses against cyber threats and misinformation campaigns in anticipation of upcoming elections.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This shows proactive measures by a major AI provider to address societal risks associated with LLMs, particularly concerning election integrity.",
+    "source_url": "https://www.axios.com/2026/05/27/openai-cyber-misinformation-defenses-elections",
+    "published_at": "2026-05-27T21:22:16.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Getting Claude to extract data from a 1997 football manager game",
+    "summary": "A project demonstrates extracting data from a 1997 football manager game using Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1997"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases Claude's ability to handle niche data extraction tasks from legacy software, demonstrating its versatility.",
+    "source_url": "https://bennuttall.com/blog/2026/04/fsm97/",
+    "published_at": "2026-05-27T21:21:15.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag",
+    "summary": "Anthropic's growth, combined with AWS Bedrock's mix, is contributing to higher AWS margins compared to competitors.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "AWS Bedrock"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This highlights the business impact of Anthropic's models on cloud providers like AWS, indicating strong enterprise adoption and financial performance.",
+    "source_url": "https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix",
+    "published_at": "2026-05-27T21:06:35.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Researcher \"gave Claude Code 'ADHD' and it thinks 2x better now.\"",
+    "summary": "A researcher claims to have improved Claude Code's performance by 2x through an 'ADHD' approach.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "2x"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This suggests potential new techniques for improving LLM performance and efficiency, which could be impactful if validated.",
+    "source_url": "https://thenewstack.io/claude-code-adhd/",
+    "published_at": "2026-05-27T20:38:56.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Is Amp more or less expensive than Claude Code? Is it better?",
+    "summary": "A discussion comparing the cost and performance of Amp versus Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Amp"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a comparative discussion of different LLM products, relevant for users evaluating options in the market.",
+    "source_url": "https://news.ycombinator.com/item?id=43000000000000000000",
+    "published_at": "2026-05-27T19:19:46.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I think Anthropic and OpenAI have found product-market fit",
+    "summary": "An analysis suggests that Anthropic and OpenAI have achieved product-market fit.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is an expert opinion on the market success of key AI companies, indicating strong business traction.",
+    "source_url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+    "published_at": "2026-05-27T16:38:35.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "AionUi: Open-Source AI Cowork Platform for Claude Code, Codex and Gemini",
     "summary": "AionUi is an open-source AI cowork platform designed to facilitate collaboration with AI models like Claude Code, Codex, and Gemini.",
     "category": "novedad",
@@ -191,6 +532,23 @@
     "confidence": 0.9
   },
   {
+    "title": "Building self-improving tax agents with Codex",
+    "summary": "OpenAI's Codex was used by Thrive and Crete to build a self-improving tax agent that automates filings and improves accuracy.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases a specific enterprise application of OpenAI's Codex model for automating complex financial processes, highlighting its business value.",
+    "source_url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+    "published_at": "2026-05-27T07:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "Why We Invested in Anthropic",
     "summary": "This article details Point Nine Capital's investment rationale in Anthropic, likely focusing on the company's technology and market potential.",
     "category": "novedad",
@@ -343,6 +701,24 @@
     "source_url": "https://www.xda-developers.com/ditched-lm-studio-for-llama-cpp-and-local-llm-doesnt-feel-like-downgrade-anymore/",
     "published_at": "2026-05-27T00:30:27.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Warp’s big bet on building open source with GPT-5.5",
+    "summary": "Warp is leveraging GPT-5.5 and OpenAI models to coordinate coding agents for open-source development workflows.",
+    "category": "novedad",
+    "entities": [
+      "Warp",
+      "GPT-5.5",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This signals the use of advanced OpenAI models like GPT-5.5 in open-source development, indicating potential for improved developer productivity.",
+    "source_url": "https://openai.com/index/warp",
+    "published_at": "2026-05-27T00:00:00.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Google Gemini Pricing Update: Gemini Deep Research now in preview",
@@ -7405,57 +7781,5 @@
     "source_url": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
     "published_at": "2026-04-28T22:02:53.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "Claude Code v2.1.121 Release Notes",
-    "summary": "Anthropic's Claude Code has released version 2.1.121 with numerous updates including new configuration options, utility commands, UI improvements, enhanced tool use capabilities, and critical bug fixes for memory leaks and tool usability.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a significant release for Claude Code, detailing many functional improvements and bug fixes which are relevant to developers using the platform.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-    "published_at": "2026-04-28T00:31:31.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-    "summary": "This post tracks the history of a clause concerning AGI between OpenAI and Microsoft, which is now considered 'deceased'.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Microsoft",
-      "AGI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides historical context on significant past agreements concerning AGI between major AI players, which can inform understanding of industry development.",
-    "source_url": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
-    "published_at": "2026-04-27T18:38:17.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI available at FedRAMP Moderate",
-    "summary": "OpenAI has achieved FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling U.S. federal agencies to securely adopt AI.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "ChatGPT Enterprise",
-      "OpenAI API"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "high",
-    "why_included": "FedRAMP Moderate authorization is a significant step for OpenAI, enabling broader adoption by US federal agencies, which implies increased business and a positive signal for the company and the AI industry.",
-    "source_url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-    "published_at": "2026-04-27T14:00:00.000Z",
-    "confidence": 0.9
   }
 ]
