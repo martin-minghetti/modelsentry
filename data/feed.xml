@@ -6,6 +6,166 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Claude Code Rendering Elvish</title>
+      <link>https://github.com/anthropics/claude-code/issues/63096</link>
+      <guid>https://github.com/anthropics/claude-code/issues/63096</guid>
+      <pubDate>Thu, 28 May 2026 11:14:02 GMT</pubDate>
+      <description>An issue has been opened regarding Claude Code&apos;s rendering of Elvish. | Impact: low | Signal: neutral | Why included: This is a discussion of a specific technical issue within a product, which can be indicative of product stability or developer attention.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Tool to debug Stripe interactions built with Claude&apos;s help</title>
+      <link>https://github.com/progapandist/stripeek</link>
+      <guid>https://github.com/progapandist/stripeek</guid>
+      <pubDate>Thu, 28 May 2026 10:27:21 GMT</pubDate>
+      <description>A new tool called &apos;stripeek&apos; has been developed to debug complex Stripe interactions, with assistance from Claude. | Impact: low | Signal: positive | Why included: This highlights the practical application of LLMs like Claude in developing tools for specific business processes, demonstrating utility beyond general text generation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The Anatomy of an LLM</title>
+      <link>https://www.royvanrijn.com/anatomy-of-an-llm/</link>
+      <guid>https://www.royvanrijn.com/anatomy-of-an-llm/</guid>
+      <pubDate>Thu, 28 May 2026 10:05:05 GMT</pubDate>
+      <description>A blog post delves into the internal workings and architecture of Large Language Models. | Impact: low | Signal: neutral | Why included: This is an educational piece explaining LLM fundamentals, relevant for understanding the underlying technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Opus 4.8 coming today?</title>
+      <link>https://twitter.com/synthwavedd/status/2059931370009272802</link>
+      <guid>https://twitter.com/synthwavedd/status/2059931370009272802</guid>
+      <pubDate>Thu, 28 May 2026 09:52:20 GMT</pubDate>
+      <description>There&apos;s speculation about the release of Claude Opus 4.8 today. | Impact: medium | Signal: neutral | Why included: This indicates potential new model releases from major LLM providers, which is a key event in the industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 is down</title>
+      <link>https://status.claude.com/incidents/0w1bqsc12lt8</link>
+      <guid>https://status.claude.com/incidents/0w1bqsc12lt8</guid>
+      <pubDate>Thu, 28 May 2026 08:46:10 GMT</pubDate>
+      <description>Claude Opus 4.7 is currently experiencing an outage. | Impact: high | Signal: negative | Why included: Outages of major LLM models from key providers like Anthropic directly impact users and demonstrate reliability concerns.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Train 1T parameter LLM with 8 GPUs?</title>
+      <link>https://github.com/Sphere-AI-Lab/orbit</link>
+      <guid>https://github.com/Sphere-AI-Lab/orbit</guid>
+      <pubDate>Thu, 28 May 2026 07:42:49 GMT</pubDate>
+      <description>A project explores the possibility of training a 1 trillion parameter LLM using only 8 GPUs. | Impact: medium | Signal: positive | Why included: This discusses advancements in efficient LLM training, potentially lowering the hardware barrier for developing large models.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Ask HN: How Much a Difference Does an LLM&apos;s Corpus Make?</title>
+      <link>https://news.ycombinator.com/item?id=4304669</link>
+      <guid>https://news.ycombinator.com/item?id=4304669</guid>
+      <pubDate>Thu, 28 May 2026 04:53:09 GMT</pubDate>
+      <description>A discussion on the impact of training data corpus on an LLM&apos;s performance, particularly for scientific questions. | Impact: low | Signal: neutral | Why included: This is a fundamental discussion about LLM training data and its influence on model capabilities, relevant for understanding model behavior.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Popular LLM software hit by critical vulnerability in Python package Starlette</title>
+      <link>https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/</link>
+      <guid>https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/</guid>
+      <pubDate>Thu, 28 May 2026 03:05:51 GMT</pubDate>
+      <description>A critical vulnerability has been discovered in the Python package Starlette, affecting popular LLM software. | Impact: high | Signal: negative | Why included: Security vulnerabilities in widely used software libraries pose a significant risk to LLM applications and infrastructure.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Harness Sensitivity Is Non-Monotone Across LLM Agent Tiers</title>
+      <link>https://arxiv.org/abs/2605.26731</link>
+      <guid>https://arxiv.org/abs/2605.26731</guid>
+      <pubDate>Thu, 28 May 2026 02:59:13 GMT</pubDate>
+      <description>A research paper explores harness sensitivity in LLM agent tiers, finding it to be non-monotone. | Impact: low | Signal: neutral | Why included: This research contributes to the understanding of LLM agent behavior and potential sensitivities, relevant for agent development and robustness.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic takes 8 spots in top 10 most secure LLMs</title>
+      <link>https://www.thedeepview.com/articles/anthropic-takes-8-spots-in-top-10-most-secure-llms</link>
+      <guid>https://www.thedeepview.com/articles/anthropic-takes-8-spots-in-top-10-most-secure-llms</guid>
+      <pubDate>Thu, 28 May 2026 02:35:41 GMT</pubDate>
+      <description>Anthropic models are highly represented in the top 10 most secure LLMs, according to a new ranking. | Impact: medium | Signal: positive | Why included: This highlights Anthropic&apos;s strong performance in LLM security, a critical aspect of AI development and deployment.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Pimmur, can LLM simulate human collective behavior?</title>
+      <link>https://arxiv.org/abs/2509.18052</link>
+      <guid>https://arxiv.org/abs/2509.18052</guid>
+      <pubDate>Thu, 28 May 2026 02:03:43 GMT</pubDate>
+      <description>A research paper investigates LLMs&apos; ability to simulate human collective behavior. | Impact: low | Signal: neutral | Why included: This explores advanced capabilities of LLMs in understanding and simulating complex human social dynamics.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Releases v2.1.153</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.153</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.153</guid>
+      <pubDate>Thu, 28 May 2026 00:52:08 GMT</pubDate>
+      <description>Claude Code has released version 2.1.153 with several improvements and bug fixes, including changes to the Git plugin, agent autocompletion, and macOS background agents. | Impact: medium | Signal: positive | Why included: A new software release with significant feature additions and fixes indicates ongoing development and improvement of the Claude Code product.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>ChatGPT, Claude, or Gemini? Big Pharma Is Choosing Sides</title>
+      <link>https://www.bigpharmasharma.com/p/chatgpt-claude-or-gemini-big-pharma</link>
+      <guid>https://www.bigpharmasharma.com/p/chatgpt-claude-or-gemini-big-pharma</guid>
+      <pubDate>Wed, 27 May 2026 22:28:43 GMT</pubDate>
+      <description>Big Pharma companies are reportedly choosing between ChatGPT, Claude, and Gemini for their AI needs. | Impact: medium | Signal: neutral | Why included: This indicates significant adoption of major LLM providers by enterprise clients, specifically in the large pharmaceutical sector.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Malware dev tries to steal Claude users&apos; secrets, leaks own GitHub private token</title>
+      <link>https://theins.press/en/corruption/291857</link>
+      <guid>https://theins.press/en/corruption/291857</guid>
+      <pubDate>Wed, 27 May 2026 22:13:36 GMT</pubDate>
+      <description>A malware developer attempting to steal Claude user secrets accidentally leaked their own GitHub private token. | Impact: high | Signal: negative | Why included: This incident highlights security risks and potential vulnerabilities for users of LLM platforms, as well as developer missteps.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI readies cyber, misinformation defenses ahead of elections</title>
+      <link>https://www.axios.com/2026/05/27/openai-cyber-misinformation-defenses-elections</link>
+      <guid>https://www.axios.com/2026/05/27/openai-cyber-misinformation-defenses-elections</guid>
+      <pubDate>Wed, 27 May 2026 21:22:16 GMT</pubDate>
+      <description>OpenAI is preparing defenses against cyber threats and misinformation campaigns in anticipation of upcoming elections. | Impact: medium | Signal: neutral | Why included: This shows proactive measures by a major AI provider to address societal risks associated with LLMs, particularly concerning election integrity.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Getting Claude to extract data from a 1997 football manager game</title>
+      <link>https://bennuttall.com/blog/2026/04/fsm97/</link>
+      <guid>https://bennuttall.com/blog/2026/04/fsm97/</guid>
+      <pubDate>Wed, 27 May 2026 21:21:15 GMT</pubDate>
+      <description>A project demonstrates extracting data from a 1997 football manager game using Claude. | Impact: low | Signal: positive | Why included: This showcases Claude&apos;s ability to handle niche data extraction tasks from legacy software, demonstrating its versatility.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag</title>
+      <link>https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix</link>
+      <guid>https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix</guid>
+      <pubDate>Wed, 27 May 2026 21:06:35 GMT</pubDate>
+      <description>Anthropic&apos;s growth, combined with AWS Bedrock&apos;s mix, is contributing to higher AWS margins compared to competitors. | Impact: medium | Signal: positive | Why included: This highlights the business impact of Anthropic&apos;s models on cloud providers like AWS, indicating strong enterprise adoption and financial performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Researcher &quot;gave Claude Code &apos;ADHD&apos; and it thinks 2x better now.&quot;</title>
+      <link>https://thenewstack.io/claude-code-adhd/</link>
+      <guid>https://thenewstack.io/claude-code-adhd/</guid>
+      <pubDate>Wed, 27 May 2026 20:38:56 GMT</pubDate>
+      <description>A researcher claims to have improved Claude Code&apos;s performance by 2x through an &apos;ADHD&apos; approach. | Impact: medium | Signal: positive | Why included: This suggests potential new techniques for improving LLM performance and efficiency, which could be impactful if validated.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Is Amp more or less expensive than Claude Code? Is it better?</title>
+      <link>https://news.ycombinator.com/item?id=43000000000000000000</link>
+      <guid>https://news.ycombinator.com/item?id=43000000000000000000</guid>
+      <pubDate>Wed, 27 May 2026 19:19:46 GMT</pubDate>
+      <description>A discussion comparing the cost and performance of Amp versus Claude Code. | Impact: low | Signal: neutral | Why included: This is a comparative discussion of different LLM products, relevant for users evaluating options in the market.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I think Anthropic and OpenAI have found product-market fit</title>
+      <link>https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything</guid>
+      <pubDate>Wed, 27 May 2026 16:38:35 GMT</pubDate>
+      <description>An analysis suggests that Anthropic and OpenAI have achieved product-market fit. | Impact: medium | Signal: positive | Why included: This is an expert opinion on the market success of key AI companies, indicating strong business traction.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>AionUi: Open-Source AI Cowork Platform for Claude Code, Codex and Gemini</title>
       <link>https://github.com/iOfficeAI/AionUi</link>
       <guid>https://github.com/iOfficeAI/AionUi</guid>
@@ -94,6 +254,14 @@
       <category>alerta</category>
     </item>
     <item>
+      <title>Building self-improving tax agents with Codex</title>
+      <link>https://openai.com/index/building-self-improving-tax-agents-with-codex</link>
+      <guid>https://openai.com/index/building-self-improving-tax-agents-with-codex</guid>
+      <pubDate>Wed, 27 May 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI&apos;s Codex was used by Thrive and Crete to build a self-improving tax agent that automates filings and improves accuracy. | Impact: medium | Signal: positive | Why included: This showcases a specific enterprise application of OpenAI&apos;s Codex model for automating complex financial processes, highlighting its business value.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Why We Invested in Anthropic</title>
       <link>https://medium.com/point-nine-news/why-we-invested-in-anthropic-88f504a65d2a</link>
       <guid>https://medium.com/point-nine-news/why-we-invested-in-anthropic-88f504a65d2a</guid>
@@ -166,6 +334,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Warp’s big bet on building open source with GPT-5.5</title>
+      <link>https://openai.com/index/warp</link>
+      <guid>https://openai.com/index/warp</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description>Warp is leveraging GPT-5.5 and OpenAI models to coordinate coding agents for open-source development workflows. | Impact: medium | Signal: positive | Why included: This signals the use of advanced OpenAI models like GPT-5.5 in open-source development, indicating potential for improved developer productivity.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Google Gemini Pricing Update: Gemini Deep Research now in preview</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -228,182 +404,6 @@
       <pubDate>Sat, 23 May 2026 09:29:11 GMT</pubDate>
       <description>There is a diff alert indicating changes to Anthropic&apos;s pricing page. | Impact: low | Signal: neutral | Why included: A change in pricing page structure might precede a pricing change, though no specific change is detailed.</description>
       <category>alerta</category>
-    </item>
-    <item>
-      <title>I reproduced a Claude Code RCE. The bug pattern is everywhere</title>
-      <link>https://vechron.com/2026/05/23/i-reproduced-a-claude-code-rce-the-bug-pattern-is-everywhere/</link>
-      <guid>https://vechron.com/2026/05/23/i-reproduced-a-claude-code-rce-the-bug-pattern-is-everywhere/</guid>
-      <pubDate>Sat, 23 May 2026 07:57:08 GMT</pubDate>
-      <description>An RCE vulnerability was found and reproduced in Claude Code, with the bug pattern identified as being widespread. | Impact: high | Signal: negative | Why included: This indicates a significant security vulnerability that could affect users of Claude Code.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>An interactive linear algebra primer aimed at LLM readers</title>
-      <link>https://algo-rhythm.dev/en/</link>
-      <guid>https://algo-rhythm.dev/en/</guid>
-      <pubDate>Sat, 23 May 2026 07:40:17 GMT</pubDate>
-      <description>An interactive primer on linear algebra is made available, specifically tailored for LLM readers. | Impact: low | Signal: positive | Why included: This offers an educational resource aimed at improving understanding of concepts relevant to LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>AI Visibility Engineering Glossary – AEO, Geo, LLM Retrieval</title>
-      <link>https://axonsystem.net/en/glossary/</link>
-      <guid>https://axonsystem.net/en/glossary/</guid>
-      <pubDate>Sat, 23 May 2026 07:20:19 GMT</pubDate>
-      <description>A glossary is presented for AI Visibility Engineering, covering terms like AEO, Geo, and LLM Retrieval. | Impact: low | Signal: positive | Why included: This provides useful terminology for understanding a growing area of AI operations.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code for Customer Support</title>
-      <link>https://news.ycombinator.com/item?id=48243325</link>
-      <guid>https://news.ycombinator.com/item?id=48243325</guid>
-      <pubDate>Sat, 23 May 2026 00:40:14 GMT</pubDate>
-      <description>A product called Letterbook is introduced, utilizing Claude Code to automate customer support tickets, offering a cheaper alternative to services like Fin or Zendesk AI. | Impact: medium | Signal: positive | Why included: This is a new application built on Claude Code, demonstrating its utility in customer support and potentially impacting the competitive landscape of helpdesk software.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Cheap AI Could Derail OpenAI and Anthropic&apos;s IPOs</title>
-      <link>https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html</link>
-      <guid>https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html</guid>
-      <pubDate>Fri, 22 May 2026 23:37:17 GMT</pubDate>
-      <description>An article suggests that the availability of cheap AI could negatively impact the IPO prospects of OpenAI and Anthropic. | Impact: medium | Signal: negative | Why included: This discusses a potential market dynamic that could affect the financial outlook of major AI companies.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>I used $30,983 of AI tokens last month in Claude Code on $200/mo plan</title>
-      <link>https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6</link>
-      <guid>https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6</guid>
-      <pubDate>Fri, 22 May 2026 23:11:54 GMT</pubDate>
-      <description>A user reports a significant discrepancy between their AI token usage costs ($30,983) and their Claude Code plan ($200/mo). | Impact: high | Signal: negative | Why included: This indicates a potentially massive and unexpected cost issue for users on a specific plan, suggesting a significant pricing or billing problem.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>BonzAI – self-sovereign, local LLM inference in the browser</title>
-      <link>https://www.bonzai.sh/</link>
-      <guid>https://www.bonzai.sh/</guid>
-      <pubDate>Fri, 22 May 2026 22:43:58 GMT</pubDate>
-      <description>BonzAI is presented as a self-sovereign, local LLM inference solution that runs directly in the browser. | Impact: medium | Signal: positive | Why included: This is a new tool focused on local and self-sovereign LLM inference, which is a significant trend in the industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v2.1.149</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.149</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.149</guid>
-      <pubDate>Fri, 22 May 2026 22:09:29 GMT</pubDate>
-      <description>An update to Claude Code (v2.1.149) includes improvements to usage reporting, diff detail scrolling, markdown rendering, and several bug fixes related to security and functionality. | Impact: medium | Signal: positive | Why included: This is a significant update to Claude Code, addressing various functional and security aspects.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The memory shortage is causing a repricing of consumer electronics</title>
-      <link>https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything</guid>
-      <pubDate>Fri, 22 May 2026 22:01:31 GMT</pubDate>
-      <description>A discussion on the impact of memory shortages on consumer electronics pricing. | Impact: low | Signal: neutral | Why included: While not directly about LLMs, memory availability is a critical factor for AI hardware, making this relevant to the industry&apos;s supply chain.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Microcodegen.py – PRD → FastAPI app, one file, no LLM calls</title>
-      <link>https://github.com/Anioko/microcodegen</link>
-      <guid>https://github.com/Anioko/microcodegen</guid>
-      <pubDate>Fri, 22 May 2026 21:29:35 GMT</pubDate>
-      <description>Microcodegen.py is presented as a tool that generates FastAPI applications from PRDs in a single file without LLM calls. | Impact: medium | Signal: positive | Why included: This is a new tool that offers an alternative to LLM-based code generation, potentially improving efficiency and reducing reliance on LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI intentionally removed Codex&apos;s visible context usage indicator</title>
-      <link>https://github.com/openai/codex/issues/23794</link>
-      <guid>https://github.com/openai/codex/issues/23794</guid>
-      <pubDate>Fri, 22 May 2026 20:51:01 GMT</pubDate>
-      <description>It is claimed that OpenAI intentionally removed the visible context usage indicator for Codex. | Impact: medium | Signal: negative | Why included: This suggests a lack of transparency from OpenAI regarding model usage, which can be concerning for developers.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic&apos;s &quot;Profitability&quot; Swindle</title>
-      <link>https://www.wheresyoured.at/anthropics-profitability-swindle/</link>
-      <guid>https://www.wheresyoured.at/anthropics-profitability-swindle/</guid>
-      <pubDate>Fri, 22 May 2026 19:16:09 GMT</pubDate>
-      <description>An article critically examines Anthropic&apos;s profitability claims, labeling them a &apos;swindle&apos;. | Impact: medium | Signal: negative | Why included: This raises concerns about the financial stability or business practices of a major AI company.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Show HN: Neuz, a self-hosted news dashboard curated by Claude</title>
-      <link>https://github.com/vshvedov/neuz</link>
-      <guid>https://github.com/vshvedov/neuz</guid>
-      <pubDate>Fri, 22 May 2026 19:09:04 GMT</pubDate>
-      <description>Neuz is introduced as a self-hosted news dashboard that is curated by Claude. | Impact: low | Signal: positive | Why included: This is a new self-hosted application leveraging Claude for news curation.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Llmff v0.1.2: FFmpeg-Shaped Pipelines for LLM Workflows</title>
-      <link>https://github.com/syndicalt/llmff/releases/tag/v0.1.2</link>
-      <guid>https://github.com/syndicalt/llmff/releases/tag/v0.1.2</guid>
-      <pubDate>Fri, 22 May 2026 18:56:08 GMT</pubDate>
-      <description>Llmff version 0.1.2 is released, introducing FFmpeg-shaped pipelines for LLM workflows. | Impact: medium | Signal: positive | Why included: This is a new version of a tool for LLM workflows, suggesting improvements in pipeline management.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems</title>
-      <link>https://arxiv.org/abs/2605.22001</link>
-      <guid>https://arxiv.org/abs/2605.22001</guid>
-      <pubDate>Fri, 22 May 2026 18:46:07 GMT</pubDate>
-      <description>A new research paper details domain-camouflaged injection attacks that can evade detection in multi-agent LLM systems. | Impact: high | Signal: negative | Why included: This highlights a new type of security vulnerability affecting multi-agent LLM systems.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic Settlement - Has it Changed Everything?</title>
-      <link>https://writerbeware.blog/2026/05/22/has-the-anthropic-settlement-changed-everything/</link>
-      <guid>https://writerbeware.blog/2026/05/22/has-the-anthropic-settlement-changed-everything/</guid>
-      <pubDate>Fri, 22 May 2026 17:55:08 GMT</pubDate>
-      <description>An analysis discusses whether the Anthropic settlement has brought about significant changes in the industry. | Impact: low | Signal: neutral | Why included: This provides commentary on a past event (Anthropic settlement) and its ongoing impact.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Microsoft starts canceling Claude Code licenses</title>
-      <link>https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad</link>
-      <guid>https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad</guid>
-      <pubDate>Fri, 22 May 2026 17:32:04 GMT</pubDate>
-      <description>Microsoft has begun the process of canceling licenses for Claude Code. | Impact: high | Signal: negative | Why included: This indicates a discontinuation of a product or service that will impact users.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>University Endowments Reap Windfalls from SpaceX, OpenAI, LinkedIn IPOs</title>
-      <link>https://www.bloomberg.com/news/articles/2026-05-21/spacex-fuels-more-than-3-000-return-for-washington-university</link>
-      <guid>https://www.bloomberg.com/news/articles/2026-05-21/spacex-fuels-more-than-3-000-return-for-washington-university</guid>
-      <pubDate>Fri, 22 May 2026 16:57:54 GMT</pubDate>
-      <description>University endowments have seen significant financial gains from IPOs of companies like SpaceX, OpenAI, and LinkedIn. | Impact: low | Signal: positive | Why included: This provides context on the financial success of major tech companies, including OpenAI, and its broader economic impact.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Fakellm – a mock OpenAI/Anthropic server for testing</title>
-      <link>https://github.com/1dg618/fakellm</link>
-      <guid>https://github.com/1dg618/fakellm</guid>
-      <pubDate>Fri, 22 May 2026 15:53:57 GMT</pubDate>
-      <description>Fakellm is introduced as a mock server for testing that mimics OpenAI and Anthropic APIs. | Impact: low | Signal: positive | Why included: This is a new tool that can aid developers in testing their integrations with OpenAI and Anthropic.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Microsoft reportedly cancelling Claude internally due to cost</title>
-      <link>http://www.thelowdownblog.com/2026/05/microsoft-cancels-internal-anthropic.html</link>
-      <guid>http://www.thelowdownblog.com/2026/05/microsoft-cancels-internal-anthropic.html</guid>
-      <pubDate>Fri, 22 May 2026 09:21:24 GMT</pubDate>
-      <description>A report suggests Microsoft is canceling internal use of Anthropic&apos;s Claude models due to high costs, indicating a potential concern about the economic viability of certain LLM deployments. | Impact: medium | Signal: negative | Why included: This signals potential cost-related issues for LLM adoption at enterprise scale.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Fixing LLM Writing with Distribution Fine Tuning</title>
-      <link>https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/</link>
-      <guid>https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/</guid>
-      <pubDate>Fri, 22 May 2026 06:17:00 GMT</pubDate>
-      <description>This article discusses a method for improving LLM writing quality by using distribution fine tuning, a technique that aims to correct skewed outputs and enhance general performance. | Impact: low | Signal: positive | Why included: This offers a technical insight into improving LLM output quality.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Spec-Driven Development Workflow for Claude Code</title>
-      <link>https://news.ycombinator.com/item?id=48231575</link>
-      <guid>https://news.ycombinator.com/item?id=48231575</guid>
-      <pubDate>Fri, 22 May 2026 03:17:38 GMT</pubDate>
-      <description>A new &apos;Show HN&apos; submission introduces a spec-driven development workflow for Claude Code, emphasizing decomposition, context clearing, and delivering specs layer by layer to improve cost and performance. | Impact: medium | Signal: positive | Why included: This showcases a novel workflow for using Claude Code to improve development efficiency.</description>
-      <category>novedad</category>
     </item>
   </channel>
 </rss>
