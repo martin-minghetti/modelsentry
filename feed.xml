@@ -6,12 +6,156 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing Page Updated with Hebrew Translation</title>
+      <title>Gemini Deep Research ya está disponible en versión preliminar con planificación colaborativa, visualización, compatibilidad con MCP y mucho más.</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sat, 30 May 2026 09:46:58 GMT</pubDate>
-      <description>Google&apos;s Gemini Pricing page has been updated, including a Hebrew translation of the page content and pricing details for the Gemini API. | Impact: low | Signal: neutral | Why included: While a minor update, the addition of a new language to a pricing page indicates ongoing internationalization efforts for a significant AI product.</description>
+      <pubDate>Sun, 31 May 2026 10:04:15 GMT</pubDate>
+      <description>Google Gemini Deep Research is now available in preview, featuring collaborative planning, visualization, MCP compatibility, and more. | Impact: medium | Signal: positive | Why included: The preview release of Gemini Deep Research with enhanced features like collaborative planning and MCP compatibility signifies a significant step in Google&apos;s AI offerings.</description>
       <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL</title>
+      <link>https://oxedom.github.io/seed/</link>
+      <guid>https://oxedom.github.io/seed/</guid>
+      <pubDate>Sun, 31 May 2026 09:45:43 GMT</pubDate>
+      <description>A user on Hacker News shared a project called &apos;seed.&apos;, which features a self-modifying webpage powered by an on-device LLM, with the entire site contained within the URL. | Impact: low | Signal: neutral | Why included: This is a novel project showcasing an on-device LLM integrated directly into a webpage, representing an interesting application of the technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Ask HN: Did anyone noticed – Claude vs. Claude generated code act different?</title>
+      <link>https://news.ycombinator.com/item?id=48343591</link>
+      <guid>https://news.ycombinator.com/item?id=48343591</guid>
+      <pubDate>Sun, 31 May 2026 06:50:12 GMT</pubDate>
+      <description>A user on Hacker News asked if others have noticed a difference in behavior between Claude&apos;s direct task execution and its performance when generating Python code for the same task. | Impact: low | Signal: neutral | Why included: This observation raises questions about potential differences in model behavior when generating code versus executing tasks directly, which could be relevant for developers using Claude.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>A standard for building production AI agents (+ installable Claude Code skills)</title>
+      <link>https://github.com/AlexDuchDev/agentic-product-standard</link>
+      <guid>https://github.com/AlexDuchDev/agentic-product-standard</guid>
+      <pubDate>Sun, 31 May 2026 05:00:23 GMT</pubDate>
+      <description>A GitHub repository proposes a standard for building production AI agents and mentions installable skills for Claude Code. | Impact: low | Signal: neutral | Why included: This proposes a standardization for AI agents and mentions integration with Claude Code, which is relevant for AI agent development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Lite-Harness – Self-Hosted Cursor Agents (Use Claude Code/OpenCode)</title>
+      <link>https://github.com/LiteLLM-Labs/lite-harness</link>
+      <guid>https://github.com/LiteLLM-Labs/lite-harness</guid>
+      <pubDate>Sat, 30 May 2026 23:51:21 GMT</pubDate>
+      <description>A user on Hacker News shared &apos;Lite-Harness&apos;, a self-hosted solution for running cursor agents, which can utilize Claude Code or OpenCode. | Impact: low | Signal: neutral | Why included: This project offers a self-hosted solution for AI agents, integrating with Claude Code, which is relevant for the self-hosting and agent development space.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Arch-Decision – A multi-agent architecture tool for Claude Code</title>
+      <link>https://github.com/jsingh6/arch-decision</link>
+      <guid>https://github.com/jsingh6/arch-decision</guid>
+      <pubDate>Sat, 30 May 2026 22:45:31 GMT</pubDate>
+      <description>A GitHub repository introduces &apos;Arch-Decision&apos;, a tool for multi-agent architecture specifically for Claude Code. | Impact: low | Signal: neutral | Why included: This is a tool focused on multi-agent architecture for Claude Code, relevant for developers working with complex AI agent systems.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Thaw – Git branch for a running LLM (fork agents, skip prefill)</title>
+      <link>https://github.com/thaw-ai/thaw</link>
+      <guid>https://github.com/thaw-ai/thaw</guid>
+      <pubDate>Sat, 30 May 2026 22:07:26 GMT</pubDate>
+      <description>A project called &apos;Thaw&apos; is presented as a &apos;git branch&apos; for running LLMs, allowing for efficient forking of agents by snapshotting inference sessions and preserving the KV cache, leading to significant speedups and cost savings. | Impact: medium | Signal: positive | Why included: This project introduces a novel and potentially impactful method for efficient LLM agent forking, addressing a significant waste problem in RL rollouts and parallel coding attempts, with substantial amortized speedups.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>How we contain Claude across products</title>
+      <link>https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything</guid>
+      <pubDate>Sat, 30 May 2026 21:36:24 GMT</pubDate>
+      <description>An article discusses how Anthropic manages and contains the capabilities of its Claude model across various products. | Impact: low | Signal: neutral | Why included: This offers insight into Anthropic&apos;s product strategy and safety measures for managing their LLM.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Mystery company accidentally blew $500M on Claude AI in a single month</title>
+      <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees</link>
+      <guid>https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees</guid>
+      <pubDate>Sat, 30 May 2026 20:36:21 GMT</pubDate>
+      <description>A report details a mystery company that reportedly spent $500 million on Claude AI in just one month due to a failure to implement usage limits on employee licenses. | Impact: high | Signal: negative | Why included: This highlights a significant financial risk associated with uncontrolled AI usage and licensing, potentially impacting enterprise adoption and cost management strategies.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Everything We Know About OpenAI&apos;s Planned iPhone Rival</title>
+      <link>https://www.macrumors.com/2026/05/29/everything-we-know-about-openai-iphone-rival/</link>
+      <guid>https://www.macrumors.com/2026/05/29/everything-we-know-about-openai-iphone-rival/</guid>
+      <pubDate>Sat, 30 May 2026 20:24:59 GMT</pubDate>
+      <description>A report speculates on OpenAI&apos;s plans to develop a hardware product, potentially an iPhone rival, that would integrate AI capabilities. | Impact: medium | Signal: neutral | Why included: This is a significant rumor about a major AI player potentially entering the hardware market, which could disrupt the tech industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Fortunes of Anthropic&apos;s Seven Cofounders More Than Double to $16.6B Each</title>
+      <link>https://www.forbes.com/sites/richardnieva/2026/05/29/anthropics-cofounders-worth/</link>
+      <guid>https://www.forbes.com/sites/richardnieva/2026/05/29/anthropics-cofounders-worth/</guid>
+      <pubDate>Sat, 30 May 2026 20:15:31 GMT</pubDate>
+      <description>A report from Forbes states that Anthropic&apos;s seven co-founders have seen their fortunes more than double, reaching $16.6 billion each. | Impact: medium | Signal: positive | Why included: This indicates substantial financial success and growth for Anthropic, reflecting strong investor confidence and market valuation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Why Anthropic Just Became the Most Valuable AI Company on Earth</title>
+      <link>https://medium.com/@tbelbek/why-anthropic-just-became-the-most-valuable-ai-company-on-earth-and-what-it-means-46daa94d9cf8</link>
+      <guid>https://medium.com/@tbelbek/why-anthropic-just-became-the-most-valuable-ai-company-on-earth-and-what-it-means-46daa94d9cf8</guid>
+      <pubDate>Sat, 30 May 2026 19:52:43 GMT</pubDate>
+      <description>An article discusses the factors that have led to Anthropic becoming the most valuable AI company on Earth and its implications. | Impact: medium | Signal: positive | Why included: This article provides insights into Anthropic&apos;s market position and what contributes to its high valuation, relevant for understanding competitive dynamics.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Nexa-gauge – LLM evaluation framework with per-node scoring controls</title>
+      <link>https://harnexa.dev/nexa-gauge/docs/introduction</link>
+      <guid>https://harnexa.dev/nexa-gauge/docs/introduction</guid>
+      <pubDate>Sat, 30 May 2026 19:50:37 GMT</pubDate>
+      <description>A new LLM evaluation framework called &apos;Nexa-gauge&apos; has been released, offering per-node scoring controls for more granular evaluation. | Impact: low | Signal: neutral | Why included: This is a new tool for LLM evaluation, a critical aspect of LLM development and deployment.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Marketing skill for Claude with 26 evals – +20pp over baseline</title>
+      <link>https://github.com/inerrata/brief</link>
+      <guid>https://github.com/inerrata/brief</guid>
+      <pubDate>Sat, 30 May 2026 19:36:46 GMT</pubDate>
+      <description>A project titled &apos;brief&apos; demonstrates a marketing skill for Claude, showing a 20 percentage point improvement over baseline across 26 evaluations. | Impact: low | Signal: positive | Why included: This showcases a specific skill enhancement for Claude and provides measurable results, relevant for understanding model capabilities in marketing applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: React-Rewrite – A visual editor for React that writes code, no LLM</title>
+      <link>https://github.com/donghaxkim/react-rewrite</link>
+      <guid>https://github.com/donghaxkim/react-rewrite</guid>
+      <pubDate>Sat, 30 May 2026 19:24:33 GMT</pubDate>
+      <description>A Hacker News project called &apos;React-Rewrite&apos; is a visual editor for React that generates code without using an LLM. | Impact: low | Signal: neutral | Why included: This is an interesting alternative approach to code generation, focusing on visual editing without LLM reliance, which is relevant for UI development tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code vs. Codex: FRA challenge 75746d-2025</title>
+      <link>https://gist.github.com/joelonsql/c49129b151d7e77fb83250f675ffea07</link>
+      <guid>https://gist.github.com/joelonsql/c49129b151d7e77fb83250f675ffea07</guid>
+      <pubDate>Sat, 30 May 2026 18:48:09 GMT</pubDate>
+      <description>A comparison between Claude Code and Codex is presented in the context of the FRA challenge 75746d-2025. | Impact: low | Signal: neutral | Why included: This is a direct comparison between two significant code generation models, which is informative for developers evaluating these tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Terence Tao&apos;s promotional video for OpenAI</title>
+      <link>https://twitter.com/OpenAI/status/2060451757818601808</link>
+      <guid>https://twitter.com/OpenAI/status/2060451757818601808</guid>
+      <pubDate>Sat, 30 May 2026 18:09:47 GMT</pubDate>
+      <description>Terence Tao, a renowned mathematician, appears in a promotional video for OpenAI. | Impact: low | Signal: neutral | Why included: The involvement of a prominent figure like Terence Tao in OpenAI&apos;s promotion could signal growing legitimacy and interest in the company from the scientific community.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: I think I by accident created something beautiful about LLM [video]</title>
+      <link>https://www.youtube.com/watch?v=aey2w7kyiAw</link>
+      <guid>https://www.youtube.com/watch?v=aey2w7kyiAw</guid>
+      <pubDate>Sat, 30 May 2026 17:37:23 GMT</pubDate>
+      <description>A user on Hacker News shared a video showcasing an accidental creation related to LLMs, focusing on the lyrics of a song. | Impact: low | Signal: neutral | Why included: This is a creative exploration of LLM capabilities, showing an unexpected artistic output, which is interesting from a cultural perspective.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Flathub disallows LLM-based submissions</title>
+      <link>https://social.treehouse.systems/@barthalion/116657011366876079</link>
+      <guid>https://social.treehouse.systems/@barthalion/116657011366876079</guid>
+      <pubDate>Sat, 30 May 2026 17:09:48 GMT</pubDate>
+      <description>Flathub, a popular software distribution platform, has reportedly disallowed submissions that are based on LLMs. | Impact: medium | Signal: negative | Why included: This indicates a potential barrier to entry or distribution for LLM-based applications on a significant platform, which could affect developer reach.</description>
+      <category>alerta</category>
     </item>
     <item>
       <title>OpenAI Deprecations Page Updated</title>
@@ -260,150 +404,6 @@
       <pubDate>Fri, 29 May 2026 03:57:44 GMT</pubDate>
       <description>A glitch in ChatGPT has reportedly led to the leakage of OpenAI&apos;s internal models. | Impact: high | Signal: negative | Why included: This is a high-impact security vulnerability that could compromise sensitive internal data.</description>
       <category>alerta</category>
-    </item>
-    <item>
-      <title>Strengthening societal resilience with Rosalind Biodefense</title>
-      <link>https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense</link>
-      <guid>https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense</guid>
-      <pubDate>Fri, 29 May 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI launches Rosalind Biodefense to provide trusted access to GPT-Rosalind for biodefense and public health initiatives. | Impact: medium | Signal: positive | Why included: This is a partnership announcement and product launch related to AI&apos;s application in public health and biodefense.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code – Everything You Can Configure That the Docs Don&apos;t Tell You</title>
-      <link>https://buildingbetter.tech/p/i-read-the-claude-code-source-code</link>
-      <guid>https://buildingbetter.tech/p/i-read-the-claude-code-source-code</guid>
-      <pubDate>Fri, 29 May 2026 02:13:20 GMT</pubDate>
-      <description>An in-depth article explores the configuration options for Claude Code that are not detailed in the official documentation. | Impact: low | Signal: positive | Why included: This provides valuable insights for users of Claude Code, offering advanced configuration details.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic&apos;s run-rate revenue hits $47 billion</title>
-      <link>https://simonwillison.net/2026/May/29/anthropic/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/May/29/anthropic/#atom-everything</guid>
-      <pubDate>Fri, 29 May 2026 01:23:08 GMT</pubDate>
-      <description>Anthropic&apos;s current run-rate revenue has reached $47 billion, indicating significant financial growth and market traction. | Impact: medium | Signal: positive | Why included: This is a significant financial update for a major AI company, indicating strong market performance and growth, which is relevant for understanding the industry&apos;s financial landscape.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Opus 4.8: &quot;a modest but tangible improvement&quot;</title>
-      <link>https://simonwillison.net/2026/May/28/claude-opus-4-8/</link>
-      <guid>https://simonwillison.net/2026/May/28/claude-opus-4-8/</guid>
-      <pubDate>Fri, 29 May 2026 00:51:35 GMT</pubDate>
-      <description>The new Claude Opus 4.8 model is described as a modest yet tangible improvement over its predecessors. | Impact: medium | Signal: positive | Why included: This is a review of a new model release, providing user feedback on its performance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Ask HN: About Claude Code&apos;s New Feature: Dynamic Workflows</title>
-      <link>https://news.ycombinator.com/item?id=48317595</link>
-      <guid>https://news.ycombinator.com/item?id=48317595</guid>
-      <pubDate>Fri, 29 May 2026 00:51:18 GMT</pubDate>
-      <description>A discussion thread asks for insights on Claude Code&apos;s new &apos;Dynamic Workflows&apos; feature, designed for long-running and parallel tasks. | Impact: medium | Signal: positive | Why included: This highlights a new feature for Claude Code and sparks community discussion about its implications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin</title>
-      <link>https://minimaxir.com/2026/05/openrouter-hy3/</link>
-      <guid>https://minimaxir.com/2026/05/openrouter-hy3/</guid>
-      <pubDate>Fri, 29 May 2026 00:09:35 GMT</pubDate>
-      <description>The Hy3 LLM is reportedly dominating OpenRouter&apos;s model rankings by a significant margin, despite its mysterious nature. | Impact: medium | Signal: positive | Why included: This indicates a new model is gaining significant traction and outperforming others on a popular platform.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI shares guidance on third-party AI evaluations</title>
-      <link>https://openai.com/index/trustworthy-third-party-evaluations-foundations</link>
-      <guid>https://openai.com/index/trustworthy-third-party-evaluations-foundations</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI has published a playbook offering guidance on trustworthy third-party evaluations for AI models, covering capabilities, safeguards, and validity assessments. | Impact: medium | Signal: positive | Why included: This release of evaluation guidance by OpenAI is significant for standardizing and improving the assessment of AI models, impacting research and development practices.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Opus 4.8: &quot;a modest but tangible improvement&quot;</title>
-      <link>https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything</guid>
-      <pubDate>Thu, 28 May 2026 23:59:50 GMT</pubDate>
-      <description>A review suggests that Claude Opus 4.8 offers a &apos;modest but tangible improvement&apos; over previous versions. | Impact: medium | Signal: neutral | Why included: This provides a qualitative assessment of a new Claude model release, offering insights into its performance and incremental progress.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm-anthropic 0.25.1</title>
-      <link>https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything</guid>
-      <pubDate>Thu, 28 May 2026 23:54:56 GMT</pubDate>
-      <description>A minor update, version 0.25.1, has been released for the llm-anthropic library. | Impact: low | Signal: neutral | Why included: This is a minor library update, which typically has a low direct impact but indicates ongoing development and maintenance of the Anthropic ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Building Trustworthy LLM Judges</title>
-      <link>https://www.withemissary.com/resources/25</link>
-      <guid>https://www.withemissary.com/resources/25</guid>
-      <pubDate>Thu, 28 May 2026 23:54:34 GMT</pubDate>
-      <description>A resource discussing methods and considerations for building trustworthy LLM judges. | Impact: low | Signal: positive | Why included: This is a research-oriented piece on improving the reliability and trustworthiness of LLM evaluations.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic leapfrogs OpenAI as most valuable AI startup</title>
-      <link>https://www.businessinsider.com/anthropic-surpasses-openai-with-965b-valuation-debuts-opus-4-8-2026-5</link>
-      <guid>https://www.businessinsider.com/anthropic-surpasses-openai-with-965b-valuation-debuts-opus-4-8-2026-5</guid>
-      <pubDate>Thu, 28 May 2026 23:30:36 GMT</pubDate>
-      <description>Anthropic has surpassed OpenAI to become the most valuable AI startup. | Impact: medium | Signal: positive | Why included: This highlights a significant competitive shift in the AI industry based on company valuation.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Symposium – Replayable, multi-agent LLM deliberation as a protocol</title>
-      <link>https://news.ycombinator.com/login?goto=newest</link>
-      <guid>https://news.ycombinator.com/login?goto=newest</guid>
-      <pubDate>Thu, 28 May 2026 23:21:23 GMT</pubDate>
-      <description>A new protocol called Symposium is proposed for replayable, multi-agent LLM deliberation. | Impact: medium | Signal: positive | Why included: This introduces a new protocol for multi-agent LLM collaboration, which could be significant for developing complex AI systems.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>My thoughts on 4.8 | ~2hrs in</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tqclgf/my_thoughts_on_48_2hrs_in/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tqclgf/my_thoughts_on_48_2hrs_in/</guid>
-      <pubDate>Thu, 28 May 2026 18:48:53 GMT</pubDate>
-      <description>A user shares their initial positive impressions of Claude Opus 4.8, noting significant improvements in precision and speed over 4.7. | Impact: medium | Signal: positive | Why included: This provides user feedback on a new model release, highlighting perceived improvements in performance and reliability.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Ultracode is huge</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tqcg9t/ultracode_is_huge/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tqcg9t/ultracode_is_huge/</guid>
-      <pubDate>Thu, 28 May 2026 18:43:42 GMT</pubDate>
-      <description>A user praises the &apos;Ultracode&apos; feature for its code review capabilities, finding it makes Agent View useful without manual management. | Impact: medium | Signal: positive | Why included: This highlights a specific feature (&apos;Ultracode&apos;) and its positive impact on developer workflows, likely within the Claude ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Hello anthropic, could we?</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tqc6ne/hello_anthropic_could_we/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tqc6ne/hello_anthropic_could_we/</guid>
-      <pubDate>Thu, 28 May 2026 18:34:16 GMT</pubDate>
-      <description>A brief post with a suggestive title directed towards Anthropic, likely a query or request. | Impact: low | Signal: neutral | Why included: This is a vague post that doesn&apos;t provide specific actionable information about Anthropic.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v2.1.154</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.154</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.154</guid>
-      <pubDate>Thu, 28 May 2026 18:00:55 GMT</pubDate>
-      <description>A release tag for Claude Code, indicating version 2.1.154. | Impact: low | Signal: neutral | Why included: This is a version update for the Claude Code product, providing a minor update without specific feature details in the title.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>so Opus isn&apos;t the top anymore.... Mythos is apparently rolling out to the public</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tqavzs/so_opus_isnt_the_top_anymore_mythos_is_apparently/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tqavzs/so_opus_isnt_the_top_anymore_mythos_is_apparently/</guid>
-      <pubDate>Thu, 28 May 2026 17:48:42 GMT</pubDate>
-      <description>A discussion suggests that Claude Mythos may be a new top-tier model, currently in preview for cybersecurity applications, with a wider release expected soon. | Impact: medium | Signal: positive | Why included: This points to a potential new, advanced model release from Anthropic, indicating competition at the highest tier.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Introducing dynamic workflows in Claude Code</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1tq9ofy/introducing_dynamic_workflows_in_claude_code/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1tq9ofy/introducing_dynamic_workflows_in_claude_code/</guid>
-      <pubDate>Thu, 28 May 2026 17:07:05 GMT</pubDate>
-      <description>Claude Code introduces &apos;dynamic workflows,&apos; allowing the orchestration of hundreds of parallel subagents for complex tasks and improved checkpointing. | Impact: medium | Signal: positive | Why included: This is a significant feature release for Claude Code, enabling more complex and robust task execution.</description>
-      <category>novedad</category>
     </item>
   </channel>
 </rss>
