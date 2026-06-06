@@ -6,19 +6,171 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini Pricing</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Sat, 06 Jun 2026 09:50:32 GMT</pubDate>
+      <description>Google Gemini pricing page has been updated, with mention of Gemini Deep Research preview and translated content. | Impact: low | Signal: neutral | Why included: A diff alert indicating changes on Google&apos;s Gemini pricing page, potentially signaling updates to their AI service offerings or pricing structure.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Pricing</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Sat, 06 Jun 2026 09:50:31 GMT</pubDate>
+      <description>No significant changes detected on Anthropic&apos;s pricing page. | Impact: low | Signal: neutral | Why included: A diff alert indicating no change on the pricing page; monitoring pricing is crucial for competitive analysis.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI</title>
+      <link>https://www.bbc.com/news/articles/cm2p3j6lvn7o</link>
+      <guid>https://www.bbc.com/news/articles/cm2p3j6lvn7o</guid>
+      <pubDate>Sat, 06 Jun 2026 09:35:04 GMT</pubDate>
+      <description>UK banks denied access to the cyber AI tool Mythos have received an offer from OpenAI. | Impact: low | Signal: neutral | Why included: This news item is relevant as it indicates a competitive landscape where OpenAI is offering alternatives to companies facing restrictions with other AI tools.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI Whisper in 150 lines of NumPy</title>
+      <link>https://github.com/timothygao8710/minWhisper</link>
+      <guid>https://github.com/timothygao8710/minWhisper</guid>
+      <pubDate>Sat, 06 Jun 2026 09:21:25 GMT</pubDate>
+      <description>A project reimplements OpenAI&apos;s Whisper model using only 150 lines of NumPy, making it accessible for experimentation. | Impact: medium | Signal: positive | Why included: This is a significant development for the AI industry as it demonstrates a highly efficient and understandable implementation of a complex model, potentially democratizing access to advanced speech-to-text technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Sawtooth – An async, multi-tiered memory framework for LLM agents</title>
+      <link>https://github.com/HtooTayZa/sawtooth-memory</link>
+      <guid>https://github.com/HtooTayZa/sawtooth-memory</guid>
+      <pubDate>Sat, 06 Jun 2026 08:53:03 GMT</pubDate>
+      <description>Sawtooth is a new async, multi-tiered memory framework designed to enhance LLM agents. | Impact: medium | Signal: positive | Why included: This is a novel framework for LLM agents, addressing memory management which is a critical component for agent performance and capability.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Fixing &quot;unfixable&quot; 41TB BTRFS by Claude&apos;s one-shot</title>
+      <link>https://mloduchowski.com/-mounted-bitter-fs-better-with-claude/</link>
+      <guid>https://mloduchowski.com/-mounted-bitter-fs-better-with-claude/</guid>
+      <pubDate>Sat, 06 Jun 2026 07:30:37 GMT</pubDate>
+      <description>Claude&apos;s AI model was used to resolve a seemingly unfixable 41TB BTRFS filesystem issue. | Impact: medium | Signal: positive | Why included: This demonstrates a practical, high-impact application of Claude&apos;s capabilities in solving a complex technical problem, highlighting the real-world utility of LLMs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Turn HAR Files, Claude Code, Copilot CLI, and Codex CLI Logs into ATIF</title>
+      <link>https://github.com/waldekmastykarz/atifact</link>
+      <guid>https://github.com/waldekmastykarz/atifact</guid>
+      <pubDate>Sat, 06 Jun 2026 07:24:54 GMT</pubDate>
+      <description>A new tool called ATIF can process HAR files, Claude Code, Copilot CLI, and Codex CLI logs. | Impact: medium | Signal: positive | Why included: This release introduces a new tool for processing logs and artifacts from various AI development tools, which could be useful for debugging and analysis in the AI development workflow.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>How much did OpenAI pay for Tomoro?</title>
+      <link>https://www.aienablementinsider.com/p/how-much-did-openai-pay-for-tomoro</link>
+      <guid>https://www.aienablementinsider.com/p/how-much-did-openai-pay-for-tomoro</guid>
+      <pubDate>Sat, 06 Jun 2026 07:22:10 GMT</pubDate>
+      <description>An article investigates the acquisition cost of Tomoro by OpenAI. | Impact: low | Signal: neutral | Why included: This provides insight into OpenAI&apos;s M&amp;A activity and potential valuation of AI companies, relevant for industry financial analysis.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Ask HN: What would you name your own LLM?</title>
+      <link>https://news.ycombinator.com/item?id=48422004</link>
+      <guid>https://news.ycombinator.com/item?id=48422004</guid>
+      <pubDate>Sat, 06 Jun 2026 06:31:29 GMT</pubDate>
+      <description>A community discussion on Hacker News asks users for creative names for their hypothetical LLMs. | Impact: low | Signal: neutral | Why included: This is a community discussion reflecting sentiment and creativity around LLM naming, providing a pulse on the community&apos;s engagement with the technology.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Making Claude a Chemist</title>
+      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
+      <guid>https://www.anthropic.com/research/making-claude-a-chemist</guid>
+      <pubDate>Sat, 06 Jun 2026 05:00:20 GMT</pubDate>
+      <description>Anthropic details how they&apos;ve made their Claude AI model proficient in chemistry. | Impact: medium | Signal: positive | Why included: This highlights Anthropic&apos;s progress in specializing LLMs for specific scientific domains, demonstrating advanced capabilities beyond general text generation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</title>
+      <link>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</link>
+      <guid>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:38:36 GMT</pubDate>
+      <description>SpaceX, OpenAI, and Anthropic have been denied entry into the S&amp;P 500 index due to rule waivers not being granted. | Impact: high | Signal: negative | Why included: This is a high-impact financial news item as it directly affects the market inclusion and potentially the valuation of major AI players like OpenAI and Anthropic.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude-tinderbox: Search your Claude.ai conversation history locally via MCP</title>
+      <link>https://github.com/luckyrmp/tinderbox-archive</link>
+      <guid>https://github.com/luckyrmp/tinderbox-archive</guid>
+      <pubDate>Sat, 06 Jun 2026 03:39:45 GMT</pubDate>
+      <description>Claude-tinderbox is a tool that allows users to search their Claude.ai conversation history locally using MCP. | Impact: medium | Signal: positive | Why included: This is a tool that enhances user experience and data management for Claude.ai users by enabling local search of conversation history.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>The Fix for AI&apos;s Spending Problem Is Not Good for OpenAI and Anthropic [video]</title>
+      <link>https://www.youtube.com/watch?v=w1yB7ck36JA</link>
+      <guid>https://www.youtube.com/watch?v=w1yB7ck36JA</guid>
+      <pubDate>Sat, 06 Jun 2026 03:12:21 GMT</pubDate>
+      <description>A video discusses potential solutions to AI&apos;s spending problem and their negative implications for companies like OpenAI and Anthropic. | Impact: medium | Signal: negative | Why included: This analysis directly addresses a critical concern in the AI industry – spending – and its potential impact on major players, signalling potential future business challenges.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Agent-ML-skills – Teach Codex/Claude/Cursor to stop making ML mistakes</title>
+      <link>https://github.com/param087/agent-ml-skills</link>
+      <guid>https://github.com/param087/agent-ml-skills</guid>
+      <pubDate>Sat, 06 Jun 2026 02:21:42 GMT</pubDate>
+      <description>Agent-ML-skills is a project designed to train Codex, Claude, and Cursor to avoid machine learning mistakes. | Impact: medium | Signal: positive | Why included: This project aims to improve the reliability of AI agents in machine learning tasks, addressing a key challenge in AI development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Rethinking the Value of Generated Tests for LLM Software Engineering Agents</title>
+      <link>https://arxiv.org/abs/2602.07900</link>
+      <guid>https://arxiv.org/abs/2602.07900</guid>
+      <pubDate>Sat, 06 Jun 2026 01:39:40 GMT</pubDate>
+      <description>A research paper re-evaluates the value of generated tests for LLM software engineering agents. | Impact: low | Signal: neutral | Why included: This research provides critical analysis on improving the software engineering aspects of LLM agents, specifically focusing on test generation quality.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Unlocking Non-Uniform KV Cache for Efficient Multi-Turn LLM Serving</title>
+      <link>https://arxiv.org/abs/2606.06302</link>
+      <guid>https://arxiv.org/abs/2606.06302</guid>
+      <pubDate>Sat, 06 Jun 2026 01:20:21 GMT</pubDate>
+      <description>Research explores non-uniform KV cache for more efficient multi-turn LLM serving. | Impact: medium | Signal: positive | Why included: This research addresses a critical technical challenge in LLM serving: efficiency for multi-turn conversations, which is key for practical deployment and user experience.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Local MCP – give Claude, Cursor and ChatGPT access to your whole Mac</title>
+      <link>https://www.local-mcp.com/en</link>
+      <guid>https://www.local-mcp.com/en</guid>
+      <pubDate>Sat, 06 Jun 2026 01:08:40 GMT</pubDate>
+      <description>Local MCP is a new tool that grants Claude, Cursor, and ChatGPT access to a user&apos;s entire Mac. | Impact: medium | Signal: positive | Why included: This introduces a tool that significantly enhances the local capabilities of popular AI models by granting them access to the user&apos;s entire system.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>v2.1.166</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.166</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.166</guid>
+      <pubDate>Sat, 06 Jun 2026 00:55:18 GMT</pubDate>
+      <description>Anthropic released version 2.1.166 of Claude Code, introducing several new features and fixes for improved stability and functionality. | Impact: medium | Signal: positive | Why included: This is a significant update to Anthropic&apos;s Claude Code tool, with numerous fixes and features that improve its usability and reliability for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>ToTra – open-source LLM gateway with GDPR/EU AI Act compliance</title>
+      <link>https://github.com/SugaC-275/ToTra</link>
+      <guid>https://github.com/SugaC-275/ToTra</guid>
+      <pubDate>Sat, 06 Jun 2026 00:16:10 GMT</pubDate>
+      <description>ToTra is an open-source LLM gateway designed to comply with GDPR and the EU AI Act. | Impact: medium | Signal: positive | Why included: This is an important release for the AI industry, particularly in Europe, as it provides an open-source solution for LLM gateways that adheres to critical regulatory frameworks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Help: Lockdown Mode</title>
+      <link>https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything</guid>
+      <pubDate>Fri, 05 Jun 2026 23:56:40 GMT</pubDate>
+      <description>Information regarding OpenAI&apos;s &apos;Lockdown Mode&apos;. | Impact: low | Signal: neutral | Why included: This provides information on a specific feature or setting within OpenAI&apos;s products, which can be useful for understanding user controls and security measures.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>v2.1.163</title>
       <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.163</link>
       <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.163</guid>
       <pubDate>Thu, 04 Jun 2026 21:52:51 GMT</pubDate>
       <description>Claude Code release v2.1.163 introduces several new features including managed settings for version control, a /plugin list command, and improved hooks and skills syntax. It also includes numerous bug fixes for stability and performance. | Impact: medium | Signal: positive | Why included: This is a software release for a product in the AI industry, indicating ongoing development and improvements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Gemini की Deep Research की सुविधा अब झलक के तौर पर उपलब्ध है.</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Thu, 04 Jun 2026 10:51:56 GMT</pubDate>
-      <description>Google has made Gemini&apos;s Deep Research feature available as a preview, offering collaborative planning, visualization, and MCP support. | Impact: low | Signal: positive | Why included: This is a preview release of a new feature for Gemini, indicating advancements in collaborative and multimodal capabilities.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -182,14 +334,6 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Anthropic Pricing</title>
-      <link>https://www.anthropic.com/pricing</link>
-      <guid>https://www.anthropic.com/pricing</guid>
-      <pubDate>Wed, 03 Jun 2026 12:26:40 GMT</pubDate>
-      <description>The Anthropic pricing page appears to have undergone a minor update, with no significant changes detected in the pricing tiers. | Impact: low | Signal: neutral | Why included: This diff alert indicates a minor update to Anthropic&apos;s pricing page, which is relevant for understanding their product offerings.</description>
-      <category>novedad</category>
-    </item>
-    <item>
       <title>Show HN: Idea-to-build – a Claude brainstorm that pushes back, then builds</title>
       <link>https://github.com/winchxyz/idea-to-build</link>
       <guid>https://github.com/winchxyz/idea-to-build</guid>
@@ -259,150 +403,6 @@
       <guid>https://openai.com/index/frontier-safety-blueprint</guid>
       <pubDate>Wed, 03 Jun 2026 10:00:00 GMT</pubDate>
       <description>OpenAI presents a blueprint for US governance of frontier AI, proposing a federal framework for safety, resilience, and national security. | Impact: low | Signal: neutral | Why included: This document outlines OpenAI&apos;s proposed framework for regulating advanced AI, which is crucial for understanding potential future AI governance policies.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Agentcad – Claude Code&apos;s favorite CAD tool</title>
-      <link>https://github.com/jdilla1277/agentcad</link>
-      <guid>https://github.com/jdilla1277/agentcad</guid>
-      <pubDate>Wed, 03 Jun 2026 08:29:58 GMT</pubDate>
-      <description>A user shared Agentcad, a CAD tool designed for use with Claude Code, allowing agents to visualize and iterate on designs. | Impact: low | Signal: neutral | Why included: This Show HN post introduces a tool specifically designed to enhance Claude Code&apos;s capabilities, relevant to LLM tooling.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Microsoft forms partnership with Unsloth AI about local LLM execution</title>
-      <link>https://xcancel.com/UnslothAI/status/2061925637892297122</link>
-      <guid>https://xcancel.com/UnslothAI/status/2061925637892297122</guid>
-      <pubDate>Wed, 03 Jun 2026 08:10:12 GMT</pubDate>
-      <description>Microsoft has partnered with Unsloth AI to focus on the execution of local LLMs. | Impact: medium | Signal: positive | Why included: This partnership between a major tech company and an AI firm focused on local LLM execution is significant for the industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: GymCoach – Self-hosted workout tracker where you bring your own LLM</title>
-      <link>https://github.com/Julien-Au/gymcoach</link>
-      <guid>https://github.com/Julien-Au/gymcoach</guid>
-      <pubDate>Wed, 03 Jun 2026 07:26:41 GMT</pubDate>
-      <description>A self-hosted workout tracker, GymCoach, has been released on GitHub, allowing users to integrate their own LLM. | Impact: low | Signal: neutral | Why included: This Show HN post introduces a self-hosted application that leverages user-provided LLMs, relevant to the LLM ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>A harness for every task: dynamic workflows in Claude Code</title>
-      <link>https://twitter.com/trq212/status/2061907337154367865</link>
-      <guid>https://twitter.com/trq212/status/2061907337154367865</guid>
-      <pubDate>Wed, 03 Jun 2026 06:31:05 GMT</pubDate>
-      <description>A tweet discusses dynamic workflows and harnesses for various tasks within Claude Code. | Impact: low | Signal: neutral | Why included: This tweet highlights advancements in dynamic workflows for Claude Code, relevant to LLM development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The Claude Agent SDK Settings That Matter in Production</title>
-      <link>https://daydr3am3rz.substack.com/p/the-claude-agent-sdk-settings-that</link>
-      <guid>https://daydr3am3rz.substack.com/p/the-claude-agent-sdk-settings-that</guid>
-      <pubDate>Wed, 03 Jun 2026 06:04:26 GMT</pubDate>
-      <description>A substack article provides insights into crucial settings for the Claude Agent SDK when used in production environments. | Impact: low | Signal: neutral | Why included: This article offers practical advice for using the Claude Agent SDK in production, relevant to LLM developers.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Uber Caps Employee Spending on AI Tools Like Claude Code to Manage Costs</title>
-      <link>https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs</link>
-      <guid>https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs</guid>
-      <pubDate>Wed, 03 Jun 2026 05:39:28 GMT</pubDate>
-      <description>Uber has implemented caps on employee spending for AI tools, including Claude Code, as a cost management measure. | Impact: medium | Signal: negative | Why included: This news indicates a potential slowdown or cost-cutting measure in AI adoption by a major company, impacting demand for AI tools.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI new privacy policy to include info about ads in ChatGPT</title>
-      <link>https://news.ycombinator.com/item?id=43800045</link>
-      <guid>https://news.ycombinator.com/item?id=43800045</guid>
-      <pubDate>Wed, 03 Jun 2026 04:51:52 GMT</pubDate>
-      <description>OpenAI is updating its privacy policy to include details about ads in ChatGPT, which will appear on free and Go plans but not on paid plans. | Impact: medium | Signal: neutral | Why included: This policy change affects user experience and data privacy for a major LLM product, relevant to the industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation</title>
-      <link>https://arxiv.org/abs/2606.01629</link>
-      <guid>https://arxiv.org/abs/2606.01629</guid>
-      <pubDate>Wed, 03 Jun 2026 04:48:08 GMT</pubDate>
-      <description>A new arXiv paper benchmarks the effectiveness of LLMs acting as judges for evaluating long-form text outputs. | Impact: low | Signal: neutral | Why included: This research is relevant to the evaluation of LLM capabilities, a critical aspect of LLM development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Community usage metrics and cost analytics for Claude Code subscriptions</title>
-      <link>https://meter.vsits.co/</link>
-      <guid>https://meter.vsits.co/</guid>
-      <pubDate>Wed, 03 Jun 2026 04:31:30 GMT</pubDate>
-      <description>A website meter.vsits.co provides community usage metrics and cost analytics for Claude Code subscriptions. | Impact: low | Signal: neutral | Why included: This tool offers insights into community usage and costs related to Claude Code, relevant for understanding adoption and economics.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Lots of people want to try Claude Opus 4.8</title>
-      <link>https://wisgate.ai/</link>
-      <guid>https://wisgate.ai/</guid>
-      <pubDate>Wed, 03 Jun 2026 03:41:41 GMT</pubDate>
-      <description>A website wisgate.ai suggests high demand or interest in trying Claude Opus 4.8. | Impact: low | Signal: positive | Why included: This indicates user interest in a specific Claude model, which is relevant to market demand for LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Florida sues OpenAI and CEO Altman, claiming company concealed serious risks</title>
-      <link>https://apnews.com/article/sam-altman-openai-lawsuit-florida-396d70c5a2d9bae7e95a8ee9adaef836</link>
-      <guid>https://apnews.com/article/sam-altman-openai-lawsuit-florida-396d70c5a2d9bae7e95a8ee9adaef836</guid>
-      <pubDate>Wed, 03 Jun 2026 03:05:53 GMT</pubDate>
-      <description>Florida has filed a lawsuit against OpenAI and its CEO, Sam Altman, alleging that the company concealed serious risks associated with its AI technology. | Impact: high | Signal: negative | Why included: This lawsuit against a major AI company concerning alleged concealed risks is a high-impact event for the industry&apos;s regulatory and public perception.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Running an AI-native engineering org – Claude</title>
-      <link>https://claude.com/blog/running-an-ai-native-engineering-org</link>
-      <guid>https://claude.com/blog/running-an-ai-native-engineering-org</guid>
-      <pubDate>Wed, 03 Jun 2026 02:28:10 GMT</pubDate>
-      <description>A blog post from Claude discusses how to run an AI-native engineering organization. | Impact: low | Signal: neutral | Why included: This post from Anthropic provides insights into organizational structure for AI-native companies, relevant to the industry&apos;s growth.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.161 Release Notes</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.161</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.161</guid>
-      <pubDate>Tue, 02 Jun 2026 21:58:22 GMT</pubDate>
-      <description>The Claude Code v2.1.161 release includes several improvements such as including OTEL_RESOURCE_ATTRIBUTES as labels on metric datapoints, parallel tool calls, and fullscreen mode enhancements. | Impact: medium | Signal: positive | Why included: This is a significant release of Claude Code with notable feature updates and bug fixes relevant to LLM tooling.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Travelers deploys AI-powered claims countrywide with OpenAI</title>
-      <link>https://openai.com/index/travelers</link>
-      <guid>https://openai.com/index/travelers</guid>
-      <pubDate>Tue, 02 Jun 2026 12:00:00 GMT</pubDate>
-      <description>Travelers has deployed an AI-powered claims assistant nationwide using OpenAI technology to streamline claims processing and customer support. | Impact: medium | Signal: positive | Why included: This partnership showcases a significant real-world application of OpenAI&apos;s technology in the insurance sector.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Advancing youth safety and opportunity through global leadership</title>
-      <link>https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership</link>
-      <guid>https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership</guid>
-      <pubDate>Tue, 02 Jun 2026 07:00:00 GMT</pubDate>
-      <description>OpenAI is calling for global action on youth AI safety, proposing an international institute to establish safeguards and standards. | Impact: medium | Signal: neutral | Why included: OpenAI&apos;s initiative on youth AI safety is relevant to the broader discussion on AI ethics and governance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>How we used Gemini to build Google I/O 2026</title>
-      <link>https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/</link>
-      <guid>https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/</guid>
-      <pubDate>Mon, 01 Jun 2026 16:00:00 GMT</pubDate>
-      <description>Google details how Gemini models were utilized in the creation and execution of Google I/O 2026. | Impact: low | Signal: neutral | Why included: This article showcases a significant use case of Gemini models in a large-scale event, relevant to LLM capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Google, Anthropic, and Nvidia Discuss AI Permissions</title>
-      <link>https://blog.keryxsolutions.com/p/google-anthropic-and-nvidia-just</link>
-      <guid>https://blog.keryxsolutions.com/p/google-anthropic-and-nvidia-just</guid>
-      <pubDate>Mon, 01 Jun 2026 12:52:39 GMT</pubDate>
-      <description>An article discusses the risks associated with AI permissions, featuring insights from Google, Anthropic, and Nvidia, highlighting a critical area of concern for AI development and deployment. | Impact: low | Signal: neutral | Why included: This discussion points to evolving considerations around AI governance and security, involving major industry players.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic offers EU access to Mythos</title>
-      <link>https://www.ft.com/content/f88d62e3-5b67-4aed-ad69-6f38b62559b3</link>
-      <guid>https://www.ft.com/content/f88d62e3-5b67-4aed-ad69-6f38b62559b3</guid>
-      <pubDate>Mon, 01 Jun 2026 12:40:10 GMT</pubDate>
-      <description>Anthropic is providing EU users with access to its Mythos model, expanding its geographical reach for its advanced AI offerings. | Impact: medium | Signal: positive | Why included: This indicates market expansion for Anthropic into the EU with a specific model, which is relevant for regional AI adoption trends.</description>
       <category>novedad</category>
     </item>
   </channel>
