@@ -1,5 +1,362 @@
 [
   {
+    "title": "Google Gemini Pricing",
+    "summary": "Google Gemini pricing page has been updated, with mention of Gemini Deep Research preview and translated content.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Gemini Deep Research"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "A diff alert indicating changes on Google's Gemini pricing page, potentially signaling updates to their AI service offerings or pricing structure.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-06-06T09:50:32.946Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Anthropic Pricing",
+    "summary": "No significant changes detected on Anthropic's pricing page.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "A diff alert indicating no change on the pricing page; monitoring pricing is crucial for competitive analysis.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-06-06T09:50:31.388Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
+    "summary": "UK banks denied access to the cyber AI tool Mythos have received an offer from OpenAI.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "Mythos"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This news item is relevant as it indicates a competitive landscape where OpenAI is offering alternatives to companies facing restrictions with other AI tools.",
+    "source_url": "https://www.bbc.com/news/articles/cm2p3j6lvn7o",
+    "published_at": "2026-06-06T09:35:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Whisper in 150 lines of NumPy",
+    "summary": "A project reimplements OpenAI's Whisper model using only 150 lines of NumPy, making it accessible for experimentation.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Whisper",
+      "NumPy"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "150"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant development for the AI industry as it demonstrates a highly efficient and understandable implementation of a complex model, potentially democratizing access to advanced speech-to-text technology.",
+    "source_url": "https://github.com/timothygao8710/minWhisper",
+    "published_at": "2026-06-06T09:21:25.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Sawtooth – An async, multi-tiered memory framework for LLM agents",
+    "summary": "Sawtooth is a new async, multi-tiered memory framework designed to enhance LLM agents.",
+    "category": "novedad",
+    "entities": [
+      "Sawtooth",
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a novel framework for LLM agents, addressing memory management which is a critical component for agent performance and capability.",
+    "source_url": "https://github.com/HtooTayZa/sawtooth-memory",
+    "published_at": "2026-06-06T08:53:03.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Fixing \"unfixable\" 41TB BTRFS by Claude's one-shot",
+    "summary": "Claude's AI model was used to resolve a seemingly unfixable 41TB BTRFS filesystem issue.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "BTRFS"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "41TB"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates a practical, high-impact application of Claude's capabilities in solving a complex technical problem, highlighting the real-world utility of LLMs.",
+    "source_url": "https://mloduchowski.com/-mounted-bitter-fs-better-with-claude/",
+    "published_at": "2026-06-06T07:30:37.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Turn HAR Files, Claude Code, Copilot CLI, and Codex CLI Logs into ATIF",
+    "summary": "A new tool called ATIF can process HAR files, Claude Code, Copilot CLI, and Codex CLI logs.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Copilot CLI",
+      "Codex CLI",
+      "ATIF"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This release introduces a new tool for processing logs and artifacts from various AI development tools, which could be useful for debugging and analysis in the AI development workflow.",
+    "source_url": "https://github.com/waldekmastykarz/atifact",
+    "published_at": "2026-06-06T07:24:54.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "How much did OpenAI pay for Tomoro?",
+    "summary": "An article investigates the acquisition cost of Tomoro by OpenAI.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "Tomoro"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insight into OpenAI's M&A activity and potential valuation of AI companies, relevant for industry financial analysis.",
+    "source_url": "https://www.aienablementinsider.com/p/how-much-did-openai-pay-for-tomoro",
+    "published_at": "2026-06-06T07:22:10.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Ask HN: What would you name your own LLM?",
+    "summary": "A community discussion on Hacker News asks users for creative names for their hypothetical LLMs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a community discussion reflecting sentiment and creativity around LLM naming, providing a pulse on the community's engagement with the technology.",
+    "source_url": "https://news.ycombinator.com/item?id=48422004",
+    "published_at": "2026-06-06T06:31:29.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Making Claude a Chemist",
+    "summary": "Anthropic details how they've made their Claude AI model proficient in chemistry.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This highlights Anthropic's progress in specializing LLMs for specific scientific domains, demonstrating advanced capabilities beyond general text generation.",
+    "source_url": "https://www.anthropic.com/research/making-claude-a-chemist",
+    "published_at": "2026-06-06T05:00:20.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "summary": "SpaceX, OpenAI, and Anthropic have been denied entry into the S&P 500 index due to rule waivers not being granted.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "Anthropic",
+      "SpaceX",
+      "S&P 500"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact financial news item as it directly affects the market inclusion and potentially the valuation of major AI players like OpenAI and Anthropic.",
+    "source_url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "published_at": "2026-06-06T04:38:36.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude-tinderbox: Search your Claude.ai conversation history locally via MCP",
+    "summary": "Claude-tinderbox is a tool that allows users to search their Claude.ai conversation history locally using MCP.",
+    "category": "novedad",
+    "entities": [
+      "Claude.ai",
+      "Claude",
+      "MCP"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a tool that enhances user experience and data management for Claude.ai users by enabling local search of conversation history.",
+    "source_url": "https://github.com/luckyrmp/tinderbox-archive",
+    "published_at": "2026-06-06T03:39:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "The Fix for AI's Spending Problem Is Not Good for OpenAI and Anthropic [video]",
+    "summary": "A video discusses potential solutions to AI's spending problem and their negative implications for companies like OpenAI and Anthropic.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI",
+      "Anthropic",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This analysis directly addresses a critical concern in the AI industry – spending – and its potential impact on major players, signalling potential future business challenges.",
+    "source_url": "https://www.youtube.com/watch?v=w1yB7ck36JA",
+    "published_at": "2026-06-06T03:12:21.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Agent-ML-skills – Teach Codex/Claude/Cursor to stop making ML mistakes",
+    "summary": "Agent-ML-skills is a project designed to train Codex, Claude, and Cursor to avoid machine learning mistakes.",
+    "category": "novedad",
+    "entities": [
+      "Codex",
+      "Claude",
+      "Cursor",
+      "Agent-ML-skills"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This project aims to improve the reliability of AI agents in machine learning tasks, addressing a key challenge in AI development.",
+    "source_url": "https://github.com/param087/agent-ml-skills",
+    "published_at": "2026-06-06T02:21:42.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Rethinking the Value of Generated Tests for LLM Software Engineering Agents",
+    "summary": "A research paper re-evaluates the value of generated tests for LLM software engineering agents.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "Agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This research provides critical analysis on improving the software engineering aspects of LLM agents, specifically focusing on test generation quality.",
+    "source_url": "https://arxiv.org/abs/2602.07900",
+    "published_at": "2026-06-06T01:39:40.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Unlocking Non-Uniform KV Cache for Efficient Multi-Turn LLM Serving",
+    "summary": "Research explores non-uniform KV cache for more efficient multi-turn LLM serving.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "KV Cache"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This research addresses a critical technical challenge in LLM serving: efficiency for multi-turn conversations, which is key for practical deployment and user experience.",
+    "source_url": "https://arxiv.org/abs/2606.06302",
+    "published_at": "2026-06-06T01:20:21.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Show HN: Local MCP – give Claude, Cursor and ChatGPT access to your whole Mac",
+    "summary": "Local MCP is a new tool that grants Claude, Cursor, and ChatGPT access to a user's entire Mac.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Cursor",
+      "ChatGPT",
+      "MCP",
+      "Mac"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This introduces a tool that significantly enhances the local capabilities of popular AI models by granting them access to the user's entire system.",
+    "source_url": "https://www.local-mcp.com/en",
+    "published_at": "2026-06-06T01:08:40.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "v2.1.166",
+    "summary": "Anthropic released version 2.1.166 of Claude Code, introducing several new features and fixes for improved stability and functionality.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.166"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant update to Anthropic's Claude Code tool, with numerous fixes and features that improve its usability and reliability for developers.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "published_at": "2026-06-06T00:55:18.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "ToTra – open-source LLM gateway with GDPR/EU AI Act compliance",
+    "summary": "ToTra is an open-source LLM gateway designed to comply with GDPR and the EU AI Act.",
+    "category": "novedad",
+    "entities": [
+      "ToTra",
+      "LLM",
+      "GDPR",
+      "EU AI Act"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is an important release for the AI industry, particularly in Europe, as it provides an open-source solution for LLM gateways that adheres to critical regulatory frameworks.",
+    "source_url": "https://github.com/SugaC-275/ToTra",
+    "published_at": "2026-06-06T00:16:10.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI Help: Lockdown Mode",
+    "summary": "Information regarding OpenAI's 'Lockdown Mode'.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides information on a specific feature or setting within OpenAI's products, which can be useful for understanding user controls and security measures.",
+    "source_url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+    "published_at": "2026-06-05T23:56:40.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "v2.1.163",
     "summary": "Claude Code release v2.1.163 introduces several new features including managed settings for version control, a /plugin list command, and improved hooks and skills syntax. It also includes numerous bug fixes for stability and performance.",
     "category": "novedad",
@@ -14,24 +371,6 @@
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
     "published_at": "2026-06-04T21:52:51.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Gemini की Deep Research की सुविधा अब झलक के तौर पर उपलब्ध है.",
-    "summary": "Google has made Gemini's Deep Research feature available as a preview, offering collaborative planning, visualization, and MCP support.",
-    "category": "novedad",
-    "entities": [
-      "Gemini",
-      "Deep Research",
-      "MCP"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a preview release of a new feature for Gemini, indicating advancements in collaborative and multimodal capabilities.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-06-04T10:51:56.288Z",
-    "confidence": 0.9
   },
   {
     "title": "Page Overview OpenAI Deprecations",
@@ -396,22 +735,6 @@
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
     "published_at": "2026-06-03T21:31:35.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "Anthropic Pricing",
-    "summary": "The Anthropic pricing page appears to have undergone a minor update, with no significant changes detected in the pricing tiers.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This diff alert indicates a minor update to Anthropic's pricing page, which is relevant for understanding their product offerings.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-06-03T12:26:40.330Z",
-    "confidence": 0.8
   },
   {
     "title": "Show HN: Idea-to-build – a Claude brainstorm that pushes back, then builds",
@@ -7361,388 +7684,5 @@
     "source_url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
     "published_at": "2026-05-07T10:00:00.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "Opus 4.7 ended an explanation of LLM-connectors with a link to a Pokemon TCG deck",
-    "summary": "Claude Opus 4.7 concluded a technical explanation with an unrelated link to a Pokemon TCG deck, which the user found odd.",
-    "category": "alerta",
-    "entities": [
-      "Claude Opus 4.7"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This indicates a potential hallucination or misdirection in Claude Opus 4.7's output, which could be problematic for technical explanations.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t654yu/opus_47_ended_an_explanation_of_llm-connectors/",
-    "published_at": "2026-05-07T09:13:26.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Burned through my Claude limits in a weekend with Claude Design. Here's what I'd do differently",
-    "summary": "A user shares their experience and lessons learned from quickly exceeding Claude limits with Claude Design, offering tips for more efficient usage.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Claude Design",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides practical advice and user insights for optimizing Claude usage, especially for design-related tasks.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t60xyh/burned_through_my_claude_limits_in_a_weekend_with/",
-    "published_at": "2026-05-07T05:12:05.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Unpopular opinion: Claude is actually better at creative writing than coding, and most people are sleeping on that.",
-    "summary": "A user expresses the unpopular opinion that Claude excels at creative writing over coding, suggesting its creative writing capabilities are underappreciated.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This offers a user's perspective on Claude's strengths, potentially highlighting an underutilized capability.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5zrke/claude_use/",
-    "published_at": "2026-05-07T04:10:28.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "My Claude dreams at night and remembers everything. Better than mempalace.",
-    "summary": "A user developed a local daemon called 'iai-mcp' that captures and organizes Claude conversations, providing persistent memory across sessions.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "iai-mcp"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "99%",
-      "100ms",
-      "3,000 tokens"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new open-source tool addressing a common LLM limitation (state persistence) and demonstrating practical application.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5yhio/my_claude_dreams_at_night_and_remembers/",
-    "published_at": "2026-05-07T03:08:34.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "ClaudePlaysPokemon Opus 4.7 run ongoing!",
-    "summary": "An Anthropic employee is streaming a run of Pokemon Red using Claude Opus 4.7, showcasing its agentic capabilities and progress.",
-    "category": "novedad",
-    "entities": [
-      "Claude Opus 4.7",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "5 of 8 badges",
-      "15,779 steps",
-      "Lv 62"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This demonstrates Claude's agentic capabilities in a gaming context, providing a benchmark for its performance in complex, interactive tasks.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5y6gc/claudeplayspokemon_opus_47_run_ongoing/",
-    "published_at": "2026-05-07T02:54:10.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Discord group guessed the URL to Anthropic's Mythos model before CISA used it",
-    "summary": "A Discord community successfully predicted the URL for Anthropic's 'Mythos' model before government cybersecurity agencies could.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "CISA"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This highlights a security oversight and the rapid capabilities of community groups in uncovering sensitive information.",
-    "source_url": "https://www.msn.com/en-us/technology/cybersecurity/discord-group-guessed-the-url-to-anthropic-s-most-dangerous-ai-and-used-it-before-cisa-did/ar-AA22enqY",
-    "published_at": "2026-05-07T01:13:13.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Three browser games built with Claude (25M plays). Two of them are 8,000-line HTML files.",
-    "summary": "A user details building three browser games using Claude, amassing 25 million plays, with two games being monolithic 8,000-line HTML files.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "HTML"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "25M plays",
-      "8,000-line HTML files"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a compelling case study demonstrating Claude's capability in game development and content creation, showcasing significant user engagement.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5ui23/three_browser_games_built_with_claude_25m_plays/",
-    "published_at": "2026-05-07T00:09:08.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "On-Policy [LLM] Distillation (2025)",
-    "summary": "This post explores the concept of On-Policy LLM Distillation, likely detailing a method for improving LLM performance through distillation techniques.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a technical blog post detailing a specific LLM training technique, relevant for researchers and developers in the field.",
-    "source_url": "https://thinkingmachines.ai/blog/on-policy-distillation/",
-    "published_at": "2026-05-06T23:38:42.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Claude claims to be a doctor",
-    "summary": "A user reported an instance where Claude incorrectly claimed to be a doctor, which is deemed problematic.",
-    "category": "alerta",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This highlights a potential issue with Claude's factual accuracy and self-representation, which could be concerning in professional contexts.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5thi3/claude_claims_to_be_a_doctor/",
-    "published_at": "2026-05-06T23:25:18.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic leases Colossus 1 datacentre from Space X",
-    "summary": "Anthropic has secured additional compute capacity by leasing the Colossus 1 data center from SpaceX.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "SpaceX"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This news indicates a significant expansion of Anthropic's infrastructure, likely to support increased demand or new model deployments.",
-    "source_url": "https://www.ft.com/content/aa0239b8-0d57-4dc8-8c1a-ed7ac4d689fb",
-    "published_at": "2026-05-06T23:16:51.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
-    "summary": "Anthropic has announced increased usage limits for Claude Code and its API, attributing this to a new compute capacity deal with SpaceX.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude Code",
-      "SpaceX"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant partnership that directly impacts Anthropic's service capacity and availability.",
-    "source_url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
-    "published_at": "2026-05-06T22:59:43.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "v2.1.132",
-    "summary": "A new release, v2.1.132, for Claude Code has been published, including various fixes and improvements.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a software release for Claude Code, indicating ongoing development and bug fixes.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
-    "published_at": "2026-05-06T22:08:13.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code wire trace reveals 13,000 words base prompt",
-    "summary": "A technical analysis of Claude Code's internal workings has revealed that its base prompt is approximately 13,000 words long.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "13,000 words"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides a concrete detail about the scale of Claude Code's system prompt, which can be indicative of its capabilities and complexity.",
-    "source_url": "https://twitter.com/dominiek/status/2052119211644760473",
-    "published_at": "2026-05-06T21:46:05.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "I think Claude’s having a seizure…",
-    "summary": "A user reports erratic behavior from Claude, describing it as 'having a seizure'.",
-    "category": "alerta",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This points to potential instability or bugs in Claude's behavior, requiring investigation.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5o9ti/i_think_claudes_having_a_seizure/",
-    "published_at": "2026-05-06T20:07:26.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude has a conscience!",
-    "summary": "Claude refused to tailor a CV for a role at Philip Morris, citing ethical concerns about the tobacco industry.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Philip Morris"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This showcases Claude's ethical alignment and its ability to refuse tasks based on moral considerations, which is a notable feature.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5mcqa/claude_has_a_conscience/",
-    "published_at": "2026-05-06T18:59:49.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "New in Claude Managed Agents: dreaming, outcomes, multiagent orchestration, and webhooks.",
-    "summary": "Anthropic is rolling out new features for Claude Managed Agents, including 'dreaming' for performance improvement, 'outcomes' for quality control, multiagent orchestration, and webhooks.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Anthropic"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "~6x higher task completion rates with dreaming enabled"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "These are significant feature additions to Anthropic's managed agents, enhancing their capabilities and user control.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5j84j/new_in_claude_managed_agents_dreaming_outcomes/",
-    "published_at": "2026-05-06T17:12:32.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic Just Secured a Reserve.",
-    "summary": "Anthropic announced a significant partnership with SpaceX to utilize compute capacity at the Colossus 1 data center, securing over 300 megawatts of capacity.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "SpaceX"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [
-      "300 megawatts",
-      "220,000 NVIDIA GPUs"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a major infrastructure announcement indicating a substantial increase in Anthropic's compute resources.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5j05c/anthropic_just_secured_a_reserve/",
-    "published_at": "2026-05-06T17:05:04.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Did Claude just double usage limits for everyone ?",
-    "summary": "Users are reporting that Claude's usage limits have been doubled, possibly due to a partnership or increased capacity.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates a significant improvement in service availability and usability for Claude users.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5hxcs/did_claude_just_double_usage_limits_for_everyone/",
-    "published_at": "2026-05-06T16:28:03.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "CLAUDE LIMITS HAVE RESET",
-    "summary": "Users are reporting that Claude's usage limits have reset, allowing for continued use.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates a resolution to potential usage limitations, improving the user experience.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5hvul/claude_limits_have_reset/",
-    "published_at": "2026-05-06T16:26:33.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude just saved me from sending money to a scammer and now I feel 90 years old",
-    "summary": "Claude successfully identified a phishing attempt, saving a user from a scam, which the user found both helpful and unsettling.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This showcases a practical, real-world application of Claude in cybersecurity and fraud detection, demonstrating its utility beyond coding.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/",
-    "published_at": "2026-05-06T16:14:41.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: Live blog: Code w/ Claude 2026",
-    "summary": "Simon Willison provides live blog coverage of the 'Code w/ Claude 2026' event.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Simon Willison"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Covers an event focused on Claude's capabilities in coding, providing insights into Anthropic's developments.",
-    "source_url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
-    "published_at": "2026-05-06T15:58:27.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Kindergarten-grade nouns",
-    "summary": "A user found that Claude Opus has a peculiar understanding of 'normal' vocabulary, labeling common adult words like 'stethoscope' as 'kindergarten-grade'.",
-    "category": "alerta",
-    "entities": [
-      "Claude Opus"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This points to a potential disconnect in Claude Opus's understanding of common human vocabulary and cultural context.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t5dfjn/kindergartengrade_nouns/",
-    "published_at": "2026-05-06T13:46:47.000Z",
-    "confidence": 0.9
   }
 ]
