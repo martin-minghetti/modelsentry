@@ -6,11 +6,163 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Google Gemini Pricing</title>
+      <title>Gemini Deep Research is now available in preview</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sat, 06 Jun 2026 09:50:32 GMT</pubDate>
-      <description>Google Gemini pricing page has been updated, with mention of Gemini Deep Research preview and translated content. | Impact: low | Signal: neutral | Why included: A diff alert indicating changes on Google&apos;s Gemini pricing page, potentially signaling updates to their AI service offerings or pricing structure.</description>
+      <pubDate>Sun, 07 Jun 2026 10:18:13 GMT</pubDate>
+      <description>Google has made Gemini Deep Research available in preview, offering advanced capabilities for developers. | Impact: medium | Signal: positive | Why included: The preview release of Gemini Deep Research signifies a new tier of capability for Google&apos;s AI offerings, potentially impacting advanced AI development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)</title>
+      <link>https://local-llm.utop.workers.dev/</link>
+      <guid>https://local-llm.utop.workers.dev/</guid>
+      <pubDate>Sun, 07 Jun 2026 09:36:02 GMT</pubDate>
+      <description>A user shares their setup for running local LLMs on consumer hardware (5090 GPU) using a llama.cpp fork and turboquant, achieving great results with Qwen 3.6 q6 and a 450K context window. | Impact: low | Signal: positive | Why included: This is a Show HN post detailing a specific local LLM setup, relevant to the AI industry&apos;s growing interest in efficient local inference.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>SourceHut Disrupted by LLM Crawlers</title>
+      <link>https://status.sr.ht/issues/2026-06-06-llms-again/</link>
+      <guid>https://status.sr.ht/issues/2026-06-06-llms-again/</guid>
+      <pubDate>Sun, 07 Jun 2026 09:19:23 GMT</pubDate>
+      <description>SourceHut experienced disruptions caused by LLM crawlers accessing their services, highlighting an ongoing issue with resource strain from AI model data collection. | Impact: medium | Signal: negative | Why included: This news item indicates a problem with LLM crawlers consuming significant resources and disrupting services, which is a growing concern for infrastructure providers.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Thoughts on starting new projects with LLM agents</title>
+      <link>https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/</link>
+      <guid>https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/</guid>
+      <pubDate>Sun, 07 Jun 2026 07:19:49 GMT</pubDate>
+      <description>A blog post discusses considerations and strategies for initiating new projects involving LLM agents. | Impact: low | Signal: neutral | Why included: This blog post offers insights into the practical aspects of starting projects with LLM agents, a key area of AI development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI plots biggest ChatGPT overhaul since launch</title>
+      <link>https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9</link>
+      <guid>https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9</guid>
+      <pubDate>Sun, 07 Jun 2026 06:19:07 GMT</pubDate>
+      <description>OpenAI is reportedly planning a significant overhaul of ChatGPT, suggesting major updates and improvements to the popular AI model. | Impact: medium | Signal: positive | Why included: This indicates a major upcoming development from OpenAI for their flagship ChatGPT product, which will likely impact the LLM landscape.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I design with Claude more than Figma now</title>
+      <link>https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/</link>
+      <guid>https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/</guid>
+      <pubDate>Sun, 07 Jun 2026 05:04:24 GMT</pubDate>
+      <description>A user shares their experience of using Anthropic&apos;s Claude for design work more frequently than Figma, indicating a shift in design tool adoption. | Impact: low | Signal: positive | Why included: This personal anecdote highlights the increasing integration of LLMs like Claude into professional workflows, potentially displacing traditional design tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Rl.cu: Training LLM RL with Pure CUDA</title>
+      <link>https://github.com/KJLdefeated/RL.cu</link>
+      <guid>https://github.com/KJLdefeated/RL.cu</guid>
+      <pubDate>Sun, 07 Jun 2026 04:45:22 GMT</pubDate>
+      <description>A GitHub repository showcases RL.cu, a project focused on training LLMs using Reinforcement Learning with pure CUDA implementation. | Impact: low | Signal: positive | Why included: This is a technical project related to LLM training using RL and CUDA, relevant for researchers and developers in the AI space.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: LLM for Dummies</title>
+      <link>https://ronreiter.github.io/llm-for-dummies/</link>
+      <guid>https://ronreiter.github.io/llm-for-dummies/</guid>
+      <pubDate>Sun, 07 Jun 2026 02:42:58 GMT</pubDate>
+      <description>A Show HN post presents &apos;LLM for Dummies&apos;, a resource aimed at explaining Large Language Models to beginners. | Impact: low | Signal: positive | Why included: This is an educational resource for LLMs, relevant for onboarding new users and expanding the audience for AI technologies.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: Ext-Infer – Native LLM Inference and Embeddings for PHP</title>
+      <link>https://infer.displace.tech</link>
+      <guid>https://infer.displace.tech</guid>
+      <pubDate>Sun, 07 Jun 2026 02:39:24 GMT</pubDate>
+      <description>A Show HN post introduces Ext-Infer, a native solution for LLM inference and embeddings in PHP. | Impact: low | Signal: positive | Why included: This is a development tool that brings LLM capabilities to PHP, expanding the platforms where LLMs can be integrated.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</title>
+      <link>https://arxiv.org/abs/2602.11964</link>
+      <guid>https://arxiv.org/abs/2602.11964</guid>
+      <pubDate>Sun, 07 Jun 2026 01:36:17 GMT</pubDate>
+      <description>A research paper introduces Gaia2, a benchmark for evaluating LLM agents in dynamic and asynchronous environments. | Impact: low | Signal: positive | Why included: This research introduces a new benchmark specifically for LLM agents, contributing to the evaluation and understanding of agentic AI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>You can&apos;t detect your way out of catastrophic LLM failure</title>
+      <link>https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md</link>
+      <guid>https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md</guid>
+      <pubDate>Sat, 06 Jun 2026 23:25:17 GMT</pubDate>
+      <description>A GitHub README discusses the limitations of detection methods in preventing catastrophic failures of LLMs. | Impact: low | Signal: negative | Why included: This offers a critical perspective on LLM reliability and safety, relevant to the ongoing discussions about AI risk.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Decoupled RISC-LLM Architectures via Circadian Synaptic Consolidation</title>
+      <link>https://aermia.com/u/NancySadkov/p/research-proposal-decoupled-risc-llm-architectures-via-circadian-synaptic-consol</link>
+      <guid>https://aermia.com/u/NancySadkov/p/research-proposal-decoupled-risc-llm-architectures-via-circadian-synaptic-consol</guid>
+      <pubDate>Sat, 06 Jun 2026 21:28:35 GMT</pubDate>
+      <description>A research proposal outlines decoupled RISC-LLM architectures using circadian synaptic consolidation for potential AI advancements. | Impact: low | Signal: neutral | Why included: This is a research proposal on novel LLM architectures, relevant to the foundational research in AI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Unveils Lockdown Mode to Protect Sensitive Data from Prompt Injection</title>
+      <link>https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/</link>
+      <guid>https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/</guid>
+      <pubDate>Sat, 06 Jun 2026 20:32:48 GMT</pubDate>
+      <description>OpenAI has launched &apos;Lockdown Mode&apos; for ChatGPT to enhance data security by mitigating prompt injection attacks. | Impact: medium | Signal: positive | Why included: This is a significant security feature launched by OpenAI to address a critical vulnerability in LLMs, relevant to the industry&apos;s focus on AI safety and security.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude, Teach Me Something</title>
+      <link>https://hugotunius.se/2025/10/26/claude-teach-me-something.html</link>
+      <guid>https://hugotunius.se/2025/10/26/claude-teach-me-something.html</guid>
+      <pubDate>Sat, 06 Jun 2026 19:25:25 GMT</pubDate>
+      <description>A blog post shares personal experiences and insights gained from interacting with Anthropic&apos;s Claude. | Impact: low | Signal: positive | Why included: This provides user perspective on Claude&apos;s capabilities and learning experience, relevant to user adoption and perception of LLMs.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Show HN: CCC: One place to manage all your Claude, Codex, Antigravity sessions</title>
+      <link>https://github.com/amirfish1/claude-command-center</link>
+      <guid>https://github.com/amirfish1/claude-command-center</guid>
+      <pubDate>Sat, 06 Jun 2026 19:15:48 GMT</pubDate>
+      <description>A Show HN project called CCC aims to manage sessions for various AI models including Claude, Codex, and Antigravity. | Impact: low | Signal: positive | Why included: This is a tool to manage multiple AI model sessions, addressing a practical need for users interacting with various AI services.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>I&apos;m waiting for Claude to rm rf my computer</title>
+      <link>https://12gramsofcarbon.com/p/agentics-local-coding-agents-are</link>
+      <guid>https://12gramsofcarbon.com/p/agentics-local-coding-agents-are</guid>
+      <pubDate>Sat, 06 Jun 2026 16:52:24 GMT</pubDate>
+      <description>A blog post expresses a humorous, yet cautionary, sentiment about the potential risks of LLM agents, specifically referencing Claude. | Impact: low | Signal: negative | Why included: This post touches upon AI safety concerns and potential risks associated with autonomous agents, a critical topic in the LLM industry.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenCV 5.0 Released with Rewritten DNN Engine, Built-In LLM and VLM Support</title>
+      <link>https://www.phoronix.com/news/OpenCV-5.0-Released</link>
+      <guid>https://www.phoronix.com/news/OpenCV-5.0-Released</guid>
+      <pubDate>Sat, 06 Jun 2026 16:27:53 GMT</pubDate>
+      <description>OpenCV 5.0 has been released, featuring a rewritten DNN engine with integrated support for LLMs and VLMs. | Impact: medium | Signal: positive | Why included: The release of OpenCV 5.0 with integrated LLM and VLM support signifies a major step in bringing advanced AI capabilities to computer vision libraries.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic_API_key? Anthropic will bill your API account instead of your Max plan</title>
+      <link>https://old.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/</link>
+      <guid>https://old.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/</guid>
+      <pubDate>Sat, 06 Jun 2026 16:13:05 GMT</pubDate>
+      <description>A PSA informs users that Anthropic may bill their API account instead of their Max plan for certain usage, highlighting a potential billing change. | Impact: high | Signal: negative | Why included: This is a potential pricing change or billing clarification from Anthropic that could affect users&apos; costs, making it a high-impact alert.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Show HN: Ccgs – Collaborative Claude Code sessions, stored in Git branches</title>
+      <link>https://github.com/ingram-technologies/claude-git-sessions</link>
+      <guid>https://github.com/ingram-technologies/claude-git-sessions</guid>
+      <pubDate>Sat, 06 Jun 2026 16:04:45 GMT</pubDate>
+      <description>A Show HN project called Ccgs enables collaborative Claude Code sessions to be stored and managed in Git branches. | Impact: low | Signal: positive | Why included: This is a developer tool for managing AI-assisted coding sessions, addressing collaboration and version control for AI-generated code.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claudemux – Run and coordinate multiple Claude Codes reliably</title>
+      <link>https://github.com/wastedcode/claudemux</link>
+      <guid>https://github.com/wastedcode/claudemux</guid>
+      <pubDate>Sat, 06 Jun 2026 15:54:18 GMT</pubDate>
+      <description>Claudemux is a tool designed to run and coordinate multiple Claude Code sessions reliably. | Impact: low | Signal: positive | Why included: This tool aims to improve the reliability and coordination of using Claude Code, relevant for users engaged in AI-assisted development workflows.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -251,158 +403,6 @@
       <guid>https://github.com/john-rocky/apple-silicon-llm-bench</guid>
       <pubDate>Thu, 04 Jun 2026 05:17:10 GMT</pubDate>
       <description>A benchmark comparing LLM token processing on iPhone&apos;s ANE shows it maintains performance while MLX and LiteRT thermal throttle, indicating Apple&apos;s Neural Engine efficiency for LLMs. | Impact: low | Signal: neutral | Why included: This benchmark provides hardware-specific performance data for running LLMs on mobile devices, highlighting the efficiency of Apple&apos;s ANE.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI CEO Sam Altman makes a lot of predictions. Here&apos;s how they fared so far</title>
-      <link>https://www.fastcompany.com/91551736/openai-ceo-sam-altman-makes-a-lot-of-predictions-heres-how-theyve-fared-so-far</link>
-      <guid>https://www.fastcompany.com/91551736/openai-ceo-sam-altman-makes-a-lot-of-predictions-heres-how-theyve-fared-so-far</guid>
-      <pubDate>Thu, 04 Jun 2026 04:20:58 GMT</pubDate>
-      <description>An analysis of Sam Altman&apos;s past predictions about AI and OpenAI, evaluating their accuracy and impact. | Impact: low | Signal: neutral | Why included: This article offers an assessment of OpenAI&apos;s leadership&apos;s foresight and track record, providing context on the company&apos;s strategic direction.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Apertis – OpenAI-compatible API gateway for 470 AI models</title>
-      <link>https://apertis.ai/</link>
-      <guid>https://apertis.ai/</guid>
-      <pubDate>Thu, 04 Jun 2026 03:54:35 GMT</pubDate>
-      <description>Apertis is a new OpenAI-compatible API gateway that supports 470 AI models, simplifying access to a wide range of AI models through a unified interface. | Impact: low | Signal: neutral | Why included: This is a new product release that aims to standardize access to a large number of AI models via an OpenAI-compatible API, indicating a trend towards model aggregation and simplified access.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Florida is now OpenAI&apos;s biggest problem in red America</title>
-      <link>https://www.politico.com/news/2026/06/02/florida-ai-openai-regulations-tech-00946021</link>
-      <guid>https://www.politico.com/news/2026/06/02/florida-ai-openai-regulations-tech-00946021</guid>
-      <pubDate>Thu, 04 Jun 2026 03:44:40 GMT</pubDate>
-      <description>An article discussing Florida&apos;s AI regulations and policies as a significant challenge for OpenAI&apos;s operations and strategy in the region. | Impact: low | Signal: negative | Why included: This highlights regulatory challenges faced by OpenAI in a major US state, which could influence AI policy and business operations.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Suture – a reverse proxy that repairs truncated JSON in LLM streams</title>
-      <link>https://github.com/tensorhq/suture-stream-repair</link>
-      <guid>https://github.com/tensorhq/suture-stream-repair</guid>
-      <pubDate>Thu, 04 Jun 2026 03:36:32 GMT</pubDate>
-      <description>Suture is a new reverse proxy designed to repair truncated JSON in LLM streams, addressing a common issue in streaming LLM outputs. | Impact: low | Signal: neutral | Why included: This is a tool release addressing a specific technical challenge in LLM streaming, indicating ongoing development in improving the reliability of LLM output handling.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI Codex tool linked to malicious NPM supply chain attack</title>
-      <link>https://www.techradar.com/pro/security/openai-codex-tool-with-over-29-000-downloads-linked-to-malicious-npm-supply-chain-attack-stealing-authentication-tokens</link>
-      <guid>https://www.techradar.com/pro/security/openai-codex-tool-with-over-29-000-downloads-linked-to-malicious-npm-supply-chain-attack-stealing-authentication-tokens</guid>
-      <pubDate>Thu, 04 Jun 2026 02:23:10 GMT</pubDate>
-      <description>A tool related to OpenAI&apos;s Codex was found to be part of a malicious NPM supply chain attack, stealing authentication tokens. | Impact: high | Signal: negative | Why included: This is a high-impact security alert involving a tool linked to OpenAI, demonstrating a critical vulnerability in the software supply chain that could affect users of AI tools.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Show HN: AI Gauge, a desktop monitor for Claude/Codex/Copilot usage limits</title>
-      <link>https://github.com/jpajak/ai-gauge</link>
-      <guid>https://github.com/jpajak/ai-gauge</guid>
-      <pubDate>Thu, 04 Jun 2026 02:18:46 GMT</pubDate>
-      <description>AI Gauge is a new desktop tool that monitors usage limits for AI services like Claude, Codex, and Copilot, helping users track and manage their subscriptions. | Impact: low | Signal: neutral | Why included: This is a new utility tool that addresses a practical user need for managing AI service subscriptions, indicating the growth of supporting tools in the AI ecosystem.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>TensorSharp: Open-Source Local LLM Inference Engine</title>
-      <link>https://github.com/zhongkaifu/TensorSharp</link>
-      <guid>https://github.com/zhongkaifu/TensorSharp</guid>
-      <pubDate>Thu, 04 Jun 2026 00:29:10 GMT</pubDate>
-      <description>TensorSharp is a new open-source inference engine for local LLMs, aiming to provide efficient on-device processing. | Impact: low | Signal: neutral | Why included: This is a new open-source tool release focused on local LLM inference, contributing to the growing ecosystem of tools for running LLMs efficiently on personal hardware.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Stigmergy for capability selection in LLM agent loops (skills, tools, MCP)</title>
-      <link>https://sebastianhanke.substack.com/p/stigmergy-for-capability-selection</link>
-      <guid>https://sebastianhanke.substack.com/p/stigmergy-for-capability-selection</guid>
-      <pubDate>Wed, 03 Jun 2026 23:06:36 GMT</pubDate>
-      <description>This article explores the application of stigmergy, a mechanism for indirect coordination through environmental modification, in LLM agent loops for capability selection, tools, and MCP. | Impact: low | Signal: neutral | Why included: This is a research-oriented post discussing advanced concepts like stigmergy in the context of LLM agents, relevant for understanding sophisticated agentic behavior and coordination.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anchor – Zero-dependency LLM hallucination detector</title>
-      <link>https://github.com/malaxiya202505https://github.com/malaxiya20250530-glitch/anchor-llm-in-truth</link>
-      <guid>https://github.com/malaxiya202505https://github.com/malaxiya20250530-glitch/anchor-llm-in-truth</guid>
-      <pubDate>Wed, 03 Jun 2026 22:35:25 GMT</pubDate>
-      <description>Anchor is a new, zero-dependency LLM hallucination detector designed to identify and flag instances where LLMs generate factually incorrect or fabricated information. | Impact: low | Signal: neutral | Why included: This is a new tool release focused on a critical challenge in LLMs: hallucination detection, indicating efforts to improve the reliability of LLM outputs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v2.1.162</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.162</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.162</guid>
-      <pubDate>Wed, 03 Jun 2026 21:31:35 GMT</pubDate>
-      <description>This release of Claude Code introduces several new features and bug fixes, including improved &apos;waitingFor&apos; status, explicit Grep/Glob tool naming, persistent remote control footer, and numerous stability and usability improvements. | Impact: medium | Signal: neutral | Why included: This is a significant SDK/product update for Claude Code, detailing numerous improvements that enhance its functionality and user experience.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Idea-to-build – a Claude brainstorm that pushes back, then builds</title>
-      <link>https://github.com/winchxyz/idea-to-build</link>
-      <guid>https://github.com/winchxyz/idea-to-build</guid>
-      <pubDate>Wed, 03 Jun 2026 12:16:29 GMT</pubDate>
-      <description>A user shared a project on GitHub called Idea-to-build, which leverages Claude for brainstorming and iterative development. | Impact: low | Signal: neutral | Why included: This is a Show HN post about a project utilizing Claude, which is relevant to the LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</title>
-      <link>https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything</guid>
-      <pubDate>Wed, 03 Jun 2026 12:01:27 GMT</pubDate>
-      <description>Uber is limiting employee spending on AI tools, including Claude Code, to control costs, as reported by Simon Willison. | Impact: medium | Signal: negative | Why included: This news reiterates Uber&apos;s cost-cutting on AI tools, confirming a potential slowdown in enterprise AI adoption.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Did Claude Opus 4.8 distill Alibaba&apos;s Qwen?</title>
-      <link>https://blog.kilo.ai/p/did-claude-opus-48-distill-alibabas</link>
-      <guid>https://blog.kilo.ai/p/did-claude-opus-48-distill-alibabas</guid>
-      <pubDate>Wed, 03 Jun 2026 11:50:13 GMT</pubDate>
-      <description>A blog post from kilo.ai speculates on whether Claude Opus 4.8 may have distilled Alibaba&apos;s Qwen model, presenting evidence to support the theory. | Impact: low | Signal: neutral | Why included: This article discusses a potential relationship between two significant LLM models, relevant to the LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>My Seven Claude Code Subagents Did the Easy Part</title>
-      <link>https://alirezarezvani.substack.com/p/my-seven-claude-code-subagents-did</link>
-      <guid>https://alirezarezvani.substack.com/p/my-seven-claude-code-subagents-did</guid>
-      <pubDate>Wed, 03 Jun 2026 11:47:00 GMT</pubDate>
-      <description>A substack post discusses the experience of using seven Claude Code subagents for a project, highlighting the &apos;easy part&apos; of the development. | Impact: low | Signal: neutral | Why included: This post details the usage of Claude Code subagents, relevant to the practical application of LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Structure of Every LLM Chat</title>
-      <link>https://arpitbhayani.me/blogs/structure-of-llm-chat/</link>
-      <guid>https://arpitbhayani.me/blogs/structure-of-llm-chat/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:41:19 GMT</pubDate>
-      <description>A blog post by Arpit Bhayani analyzes the common structure found across various LLM chat interactions. | Impact: low | Signal: neutral | Why included: This blog post delves into the fundamental structure of LLM interactions, relevant for understanding LLM applications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Which LLM Memory for AI Agents?</title>
-      <link>https://grigio.org/w/</link>
-      <guid>https://grigio.org/w/</guid>
-      <pubDate>Wed, 03 Jun 2026 10:45:40 GMT</pubDate>
-      <description>A resource exploring different LLM memory solutions for AI agents. | Impact: low | Signal: neutral | Why included: This is a relevant resource for understanding memory management in AI agents, a key area in LLM development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator</title>
-      <link>https://red.anthropic.com/2026/attack-navigator/</link>
-      <guid>https://red.anthropic.com/2026/attack-navigator/</guid>
-      <pubDate>Wed, 03 Jun 2026 10:41:20 GMT</pubDate>
-      <description>An analysis of AI-enabled cyber threats using the LLM ATT&amp;CK Navigator, focusing on insights from Anthropic. | Impact: low | Signal: neutral | Why included: This post discusses AI-enabled cyber threats, a significant application area for LLMs in security.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI public policy agenda</title>
-      <link>https://openai.com/index/public-policy-agenda</link>
-      <guid>https://openai.com/index/public-policy-agenda</guid>
-      <pubDate>Wed, 03 Jun 2026 10:00:00 GMT</pubDate>
-      <description>OpenAI outlines its public policy agenda, focusing on AI safety, youth protection, workforce transition, and global standards to ensure AI benefits society. | Impact: low | Signal: neutral | Why included: This document outlines OpenAI&apos;s strategic approach to AI governance and societal impact, providing insight into their public policy priorities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>A blueprint for democratic governance of frontier AI</title>
-      <link>https://openai.com/index/frontier-safety-blueprint</link>
-      <guid>https://openai.com/index/frontier-safety-blueprint</guid>
-      <pubDate>Wed, 03 Jun 2026 10:00:00 GMT</pubDate>
-      <description>OpenAI presents a blueprint for US governance of frontier AI, proposing a federal framework for safety, resilience, and national security. | Impact: low | Signal: neutral | Why included: This document outlines OpenAI&apos;s proposed framework for regulating advanced AI, which is crucial for understanding potential future AI governance policies.</description>
       <category>novedad</category>
     </item>
   </channel>
