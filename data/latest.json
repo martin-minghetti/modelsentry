@@ -1,20 +1,350 @@
 [
   {
-    "title": "Google Gemini Pricing",
-    "summary": "Google Gemini pricing page has been updated, with mention of Gemini Deep Research preview and translated content.",
+    "title": "Gemini Deep Research is now available in preview",
+    "summary": "Google has made Gemini Deep Research available in preview, offering advanced capabilities for developers.",
     "category": "novedad",
     "entities": [
-      "Google Gemini",
-      "Gemini Deep Research"
+      "Gemini Deep Research",
+      "Gemini API"
     ],
-    "event_type": "pricing_change",
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "The preview release of Gemini Deep Research signifies a new tier of capability for Google's AI offerings, potentially impacting advanced AI development.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-06-07T10:18:13.474Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)",
+    "summary": "A user shares their setup for running local LLMs on consumer hardware (5090 GPU) using a llama.cpp fork and turboquant, achieving great results with Qwen 3.6 q6 and a 450K context window.",
+    "category": "novedad",
+    "entities": [
+      "llama.cpp",
+      "turboquant",
+      "Qwen"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5090",
+      "450 K context"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a Show HN post detailing a specific local LLM setup, relevant to the AI industry's growing interest in efficient local inference.",
+    "source_url": "https://local-llm.utop.workers.dev/",
+    "published_at": "2026-06-07T09:36:02.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "SourceHut Disrupted by LLM Crawlers",
+    "summary": "SourceHut experienced disruptions caused by LLM crawlers accessing their services, highlighting an ongoing issue with resource strain from AI model data collection.",
+    "category": "alerta",
+    "entities": [
+      "SourceHut",
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This news item indicates a problem with LLM crawlers consuming significant resources and disrupting services, which is a growing concern for infrastructure providers.",
+    "source_url": "https://status.sr.ht/issues/2026-06-06-llms-again/",
+    "published_at": "2026-06-07T09:19:23.000Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Thoughts on starting new projects with LLM agents",
+    "summary": "A blog post discusses considerations and strategies for initiating new projects involving LLM agents.",
+    "category": "novedad",
+    "entities": [
+      "LLM agents"
+    ],
+    "event_type": "other",
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "A diff alert indicating changes on Google's Gemini pricing page, potentially signaling updates to their AI service offerings or pricing structure.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-06-06T09:50:32.946Z",
+    "why_included": "This blog post offers insights into the practical aspects of starting projects with LLM agents, a key area of AI development.",
+    "source_url": "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/",
+    "published_at": "2026-06-07T07:19:49.000Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "OpenAI plots biggest ChatGPT overhaul since launch",
+    "summary": "OpenAI is reportedly planning a significant overhaul of ChatGPT, suggesting major updates and improvements to the popular AI model.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates a major upcoming development from OpenAI for their flagship ChatGPT product, which will likely impact the LLM landscape.",
+    "source_url": "https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9",
+    "published_at": "2026-06-07T06:19:07.000Z",
     "confidence": 0.85
+  },
+  {
+    "title": "I design with Claude more than Figma now",
+    "summary": "A user shares their experience of using Anthropic's Claude for design work more frequently than Figma, indicating a shift in design tool adoption.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Figma"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This personal anecdote highlights the increasing integration of LLMs like Claude into professional workflows, potentially displacing traditional design tools.",
+    "source_url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+    "published_at": "2026-06-07T05:04:24.000Z",
+    "confidence": 0.75
+  },
+  {
+    "title": "Rl.cu: Training LLM RL with Pure CUDA",
+    "summary": "A GitHub repository showcases RL.cu, a project focused on training LLMs using Reinforcement Learning with pure CUDA implementation.",
+    "category": "novedad",
+    "entities": [
+      "RL.cu",
+      "LLM RL",
+      "CUDA"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a technical project related to LLM training using RL and CUDA, relevant for researchers and developers in the AI space.",
+    "source_url": "https://github.com/KJLdefeated/RL.cu",
+    "published_at": "2026-06-07T04:45:22.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: LLM for Dummies",
+    "summary": "A Show HN post presents 'LLM for Dummies', a resource aimed at explaining Large Language Models to beginners.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is an educational resource for LLMs, relevant for onboarding new users and expanding the audience for AI technologies.",
+    "source_url": "https://ronreiter.github.io/llm-for-dummies/",
+    "published_at": "2026-06-07T02:42:58.000Z",
+    "confidence": 0.75
+  },
+  {
+    "title": "Show HN: Ext-Infer – Native LLM Inference and Embeddings for PHP",
+    "summary": "A Show HN post introduces Ext-Infer, a native solution for LLM inference and embeddings in PHP.",
+    "category": "novedad",
+    "entities": [
+      "Ext-Infer",
+      "LLM",
+      "PHP"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a development tool that brings LLM capabilities to PHP, expanding the platforms where LLMs can be integrated.",
+    "source_url": "https://infer.displace.tech",
+    "published_at": "2026-06-07T02:39:24.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+    "summary": "A research paper introduces Gaia2, a benchmark for evaluating LLM agents in dynamic and asynchronous environments.",
+    "category": "novedad",
+    "entities": [
+      "Gaia2",
+      "LLM agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This research introduces a new benchmark specifically for LLM agents, contributing to the evaluation and understanding of agentic AI.",
+    "source_url": "https://arxiv.org/abs/2602.11964",
+    "published_at": "2026-06-07T01:36:17.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "You can't detect your way out of catastrophic LLM failure",
+    "summary": "A GitHub README discusses the limitations of detection methods in preventing catastrophic failures of LLMs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This offers a critical perspective on LLM reliability and safety, relevant to the ongoing discussions about AI risk.",
+    "source_url": "https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md",
+    "published_at": "2026-06-06T23:25:17.000Z",
+    "confidence": 0.75
+  },
+  {
+    "title": "Decoupled RISC-LLM Architectures via Circadian Synaptic Consolidation",
+    "summary": "A research proposal outlines decoupled RISC-LLM architectures using circadian synaptic consolidation for potential AI advancements.",
+    "category": "novedad",
+    "entities": [
+      "RISC-LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a research proposal on novel LLM architectures, relevant to the foundational research in AI.",
+    "source_url": "https://aermia.com/u/NancySadkov/p/research-proposal-decoupled-risc-llm-architectures-via-circadian-synaptic-consol",
+    "published_at": "2026-06-06T21:28:35.000Z",
+    "confidence": 0.75
+  },
+  {
+    "title": "OpenAI Unveils Lockdown Mode to Protect Sensitive Data from Prompt Injection",
+    "summary": "OpenAI has launched 'Lockdown Mode' for ChatGPT to enhance data security by mitigating prompt injection attacks.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "Lockdown Mode"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant security feature launched by OpenAI to address a critical vulnerability in LLMs, relevant to the industry's focus on AI safety and security.",
+    "source_url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+    "published_at": "2026-06-06T20:32:48.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude, Teach Me Something",
+    "summary": "A blog post shares personal experiences and insights gained from interacting with Anthropic's Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This provides user perspective on Claude's capabilities and learning experience, relevant to user adoption and perception of LLMs.",
+    "source_url": "https://hugotunius.se/2025/10/26/claude-teach-me-something.html",
+    "published_at": "2026-06-06T19:25:25.000Z",
+    "confidence": 0.7
+  },
+  {
+    "title": "Show HN: CCC: One place to manage all your Claude, Codex, Antigravity sessions",
+    "summary": "A Show HN project called CCC aims to manage sessions for various AI models including Claude, Codex, and Antigravity.",
+    "category": "novedad",
+    "entities": [
+      "CCC",
+      "Claude",
+      "Codex",
+      "Antigravity"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a tool to manage multiple AI model sessions, addressing a practical need for users interacting with various AI services.",
+    "source_url": "https://github.com/amirfish1/claude-command-center",
+    "published_at": "2026-06-06T19:15:48.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "I'm waiting for Claude to rm rf my computer",
+    "summary": "A blog post expresses a humorous, yet cautionary, sentiment about the potential risks of LLM agents, specifically referencing Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "LLM agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This post touches upon AI safety concerns and potential risks associated with autonomous agents, a critical topic in the LLM industry.",
+    "source_url": "https://12gramsofcarbon.com/p/agentics-local-coding-agents-are",
+    "published_at": "2026-06-06T16:52:24.000Z",
+    "confidence": 0.75
+  },
+  {
+    "title": "OpenCV 5.0 Released with Rewritten DNN Engine, Built-In LLM and VLM Support",
+    "summary": "OpenCV 5.0 has been released, featuring a rewritten DNN engine with integrated support for LLMs and VLMs.",
+    "category": "novedad",
+    "entities": [
+      "OpenCV",
+      "LLM",
+      "VLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "5.0"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "The release of OpenCV 5.0 with integrated LLM and VLM support signifies a major step in bringing advanced AI capabilities to computer vision libraries.",
+    "source_url": "https://www.phoronix.com/news/OpenCV-5.0-Released",
+    "published_at": "2026-06-06T16:27:53.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic_API_key? Anthropic will bill your API account instead of your Max plan",
+    "summary": "A PSA informs users that Anthropic may bill their API account instead of their Max plan for certain usage, highlighting a potential billing change.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a potential pricing change or billing clarification from Anthropic that could affect users' costs, making it a high-impact alert.",
+    "source_url": "https://old.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/",
+    "published_at": "2026-06-06T16:13:05.000Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Show HN: Ccgs – Collaborative Claude Code sessions, stored in Git branches",
+    "summary": "A Show HN project called Ccgs enables collaborative Claude Code sessions to be stored and managed in Git branches.",
+    "category": "novedad",
+    "entities": [
+      "Ccgs",
+      "Claude Code",
+      "Git"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a developer tool for managing AI-assisted coding sessions, addressing collaboration and version control for AI-generated code.",
+    "source_url": "https://github.com/ingram-technologies/claude-git-sessions",
+    "published_at": "2026-06-06T16:04:45.000Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "Claudemux – Run and coordinate multiple Claude Codes reliably",
+    "summary": "Claudemux is a tool designed to run and coordinate multiple Claude Code sessions reliably.",
+    "category": "novedad",
+    "entities": [
+      "Claudemux",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This tool aims to improve the reliability and coordination of using Claude Code, relevant for users engaged in AI-assisted development workflows.",
+    "source_url": "https://github.com/wastedcode/claudemux",
+    "published_at": "2026-06-06T15:54:18.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Anthropic Pricing",
@@ -7509,180 +7839,5 @@
     "source_url": "https://openai.com/index/running-codex-safely",
     "published_at": "2026-05-08T12:30:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "SubQ: Sub-quadratic LLM built for 12M-token reasoning",
-    "summary": "A new sub-quadratic LLM called SubQ has been developed, capable of handling up to 12 million tokens for reasoning tasks.",
-    "category": "novedad",
-    "entities": [
-      "SubQ"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "12M-token"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates a potential advancement in LLM capabilities for handling long contexts, which is a significant area of development in the industry.",
-    "source_url": "https://subq.ai/",
-    "published_at": "2026-05-08T06:26:06.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-    "summary": "Anthropic has announced higher usage limits for Claude and a compute deal with SpaceX.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "SpaceX"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This partnership signifies a significant move for Anthropic, potentially improving Claude's scalability and performance.",
-    "source_url": "https://www.anthropic.com/news/higher-limits-spacex?id=19234",
-    "published_at": "2026-05-08T03:52:28.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Claude Code CVE-2026-39861: sandbox escape via symlink",
-    "summary": "A critical vulnerability (CVE-2026-39861) has been discovered in Claude Code, allowing for a sandbox escape through a symlink attack.",
-    "category": "alerta",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "CVE-2026-39861"
-    ],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This is a high-impact security vulnerability affecting a major LLM product, posing a direct risk to users and developers.",
-    "source_url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
-    "published_at": "2026-05-08T02:39:55.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic response to 1-click pwn: Shouldn't have clicked 'ok'",
-    "summary": "Anthropic's response to a '1-click pwn' vulnerability in Claude Code, which could be triggered by trusting a prompt, suggests that users shouldn't have clicked 'ok'.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This highlights a critical security issue in Claude Code and Anthropic's potentially dismissive response to it, raising concerns about security practices.",
-    "source_url": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
-    "published_at": "2026-05-08T02:38:54.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: llm-gemini 0.31",
-    "summary": "Simon Willison notes an update to the llm-gemini library, version 0.31.",
-    "category": "novedad",
-    "entities": [
-      "llm-gemini",
-      "Simon Willison"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Mentions an update to a specific LLM-related library, indicating ongoing development in the ecosystem.",
-    "source_url": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
-    "published_at": "2026-05-07T19:57:06.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: Behind the Scenes Hardening Firefox with Claude Mythos Preview",
-    "summary": "Simon Willison provides insights into hardening Firefox security using a preview of Claude Mythos.",
-    "category": "novedad",
-    "entities": [
-      "Claude Mythos",
-      "Firefox",
-      "Simon Willison"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Discusses the application of an AI model (Claude Mythos) in improving browser security, highlighting cross-industry application.",
-    "source_url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
-    "published_at": "2026-05-07T17:56:25.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: Notes on the xAI/Anthropic data center deal",
-    "summary": "Simon Willison shares notes and analysis on the reported data center deal between xAI and Anthropic.",
-    "category": "novedad",
-    "entities": [
-      "xAI",
-      "Anthropic",
-      "Simon Willison"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This discusses a significant potential partnership and infrastructure deal between two major AI companies, impacting the competitive landscape.",
-    "source_url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
-    "published_at": "2026-05-07T17:09:28.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI expands Trusted Access for Cyber with GPT-5.5",
-    "summary": "OpenAI has enhanced its Trusted Access program with the introduction of GPT-5.5 and GPT-5.5-Cyber, aimed at cybersecurity professionals for vulnerability research and protection of critical infrastructure.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "GPT-5.5",
-      "GPT-5.5-Cyber"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "The release of specialized models like GPT-5.5-Cyber indicates OpenAI's focus on specific industry needs and advancements in model capabilities for specialized applications.",
-    "source_url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-    "published_at": "2026-05-07T13:00:00.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Parloa leverages OpenAI models for AI customer service agents",
-    "summary": "Parloa is utilizing OpenAI models to develop scalable, voice-driven AI customer service agents that enable real-time, reliable interactions.",
-    "category": "novedad",
-    "entities": [
-      "Parloa",
-      "OpenAI"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This partnership highlights the growing application of LLMs in customer service and the potential for specialized companies to build upon foundational models.",
-    "source_url": "https://openai.com/index/parloa",
-    "published_at": "2026-05-07T11:00:00.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI API introduces new real-time voice models",
-    "summary": "The OpenAI API now offers new real-time voice models capable of reasoning, translation, and transcription, aiming to create more natural and intelligent voice experiences.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Advancements in voice AI within the OpenAI API signal improvements in natural language processing and multimodal capabilities.",
-    "source_url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-    "published_at": "2026-05-07T10:00:00.000Z",
-    "confidence": 0.8
   }
 ]
