@@ -1,5 +1,291 @@
 [
   {
+    "title": "Skills for Real Engineers",
+    "summary": "A GitHub repository containing skills for real engineers, likely related to AI or software development.",
+    "category": "novedad",
+    "entities": [],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a resource for engineers, potentially relevant to the AI/LLM industry.",
+    "source_url": "https://github.com/mattpocock/skills",
+    "published_at": "2026-06-08T10:38:03.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: Tinytasktree – Behavior-tree-style task orchestration for LLM agents",
+    "summary": "Tinytasktree is a new tool for LLM agents that uses behavior-tree-style task orchestration.",
+    "category": "novedad",
+    "entities": [
+      "LLM agents"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new tool specifically designed for LLM agents, indicating advancements in agent orchestration.",
+    "source_url": "https://github.com/orion-arm-ai/tinytasktree",
+    "published_at": "2026-06-08T10:10:22.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Makememe – a meme CLI for your Claude Code",
+    "summary": "Makememe is a command-line interface tool that generates memes based on Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a niche tool for developers working with Claude Code, showcasing creative applications of LLMs.",
+    "source_url": "https://github.com/dhruvmehra/makememe",
+    "published_at": "2026-06-08T10:02:46.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "OpenAI wants shopping in ChatGPT. Wassist raises $1.1M to keep it on WhatsApp",
+    "summary": "Wassist has raised $1.1 million to integrate AI chat capabilities into WhatsApp, while OpenAI aims to bring shopping features to ChatGPT.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "Wassist"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "$1.1M"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This news highlights strategic moves by OpenAI to expand ChatGPT's functionality and a funding round for a competitor in the AI messaging space.",
+    "source_url": "https://techfundingnews.com/openai-wants-shopping-in-chatgpt-wassist-raises-1-1m-to-keep-it-on-whatsapp/",
+    "published_at": "2026-06-08T10:00:32.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Use Neovim with Claude Code",
+    "summary": "A GitHub repository demonstrating how to use Neovim with Claude Code.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Neovim"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a development integration demonstrating expanded tooling for working with Claude Code.",
+    "source_url": "https://github.com/NishantJoshi00/sidekick",
+    "published_at": "2026-06-08T09:44:59.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Training an LLM in Swift, Part 2: macOS built-in frameworks",
+    "summary": "The second part of a tutorial on training LLMs using Swift, focusing on macOS built-in frameworks.",
+    "category": "novedad",
+    "entities": [
+      "LLM",
+      "Swift"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This tutorial explores LLM development using Swift, a less common but relevant language in the AI ecosystem.",
+    "source_url": "https://www.cocoawithlove.com/blog/macos-ml-frameworks.html",
+    "published_at": "2026-06-08T06:58:35.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic and OpenAI should not be allowed to go public, says Ed Zitron",
+    "summary": "Ed Zitron argues that Anthropic and OpenAI should not be allowed to go public, citing potential negative societal impacts.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "low",
+    "why_included": "This is an opinion piece raising concerns about the potential societal impact of major AI companies going public.",
+    "source_url": "https://www.youtube.com/watch?v=zbKDmkJPVvI",
+    "published_at": "2026-06-08T06:35:10.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "The Mythmaker at Anthropic",
+    "summary": "An article discussing an individual referred to as 'The Mythmaker' at Anthropic.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is an article about a figure within Anthropic, potentially offering insights into the company's internal culture or direction.",
+    "source_url": "https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/",
+    "published_at": "2026-06-08T06:31:04.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: One API Key for 45 AI Models – Pay per Token, OpenAI Compatible",
+    "summary": "Modelhub-API offers a unified API key for 45 AI models with pay-per-token pricing and OpenAI compatibility.",
+    "category": "novedad",
+    "entities": [
+      "Modelhub-API",
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "45"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This release offers a significant convenience for developers by consolidating access to multiple AI models through a single API, promoting broader adoption.",
+    "source_url": "https://modelhub-api.com",
+    "published_at": "2026-06-08T06:13:53.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+    "summary": "An article discussing LLM personalization for enhancing productivity and security, referred to as 'Guardian Angels'.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This article explores personalization in LLMs, a key area for improving user experience and security.",
+    "source_url": "https://gwern.net/guardian-angel",
+    "published_at": "2026-06-08T05:22:02.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Ask HN: What do you do with LLM articles?",
+    "summary": "A discussion asking users about their experiences and feelings when encountering articles written or assisted by LLMs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This HN discussion probes user sentiment and potential negative impacts of LLM-generated content on human creativity and perception.",
+    "source_url": "https://news.ycombinator.com/item?id=48441480",
+    "published_at": "2026-06-08T05:01:50.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: Agam – Activation-based memory for Claude Code, not retrieval",
+    "summary": "Agam is a new memory system for Claude Code that uses activations instead of retrieval.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Agam"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a novel approach to memory for LLM code generation, potentially improving performance and capabilities.",
+    "source_url": "https://github.com/CrypticCortex/agam",
+    "published_at": "2026-06-08T04:00:51.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: I put my Claude Code rate-limit burndown in the status line",
+    "summary": "A developer shares a tool that displays Claude Code rate-limit information in the status line.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a practical developer tool for managing API usage, relevant to those working with Claude.",
+    "source_url": "https://www.aimhuge.com/blog/claude-code-status-line",
+    "published_at": "2026-06-08T03:48:57.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: ARouter – drop-in OpenAI/Anthropic proxy that cuts cost and fails over",
+    "summary": "ARouter is a proxy for OpenAI and Anthropic APIs that aims to reduce costs and provide failover capabilities.",
+    "category": "novedad",
+    "entities": [
+      "ARouter",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a tool designed to optimize API usage and cost for major LLM providers, which is a significant concern for developers.",
+    "source_url": "https://github.com/sricola/arouter",
+    "published_at": "2026-06-08T01:49:33.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Dense NYT style crossword puzzle generation with Rust and Claude",
+    "summary": "A project that uses Rust and Claude to generate dense, New York Times-style crossword puzzles.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Rust"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a creative application of LLMs in content generation, specifically for crossword puzzles using Claude.",
+    "source_url": "https://github.com/ekorbia/xword-pipeline",
+    "published_at": "2026-06-08T00:36:51.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Show HN: I built free VoiceToText app with local LLM polish to save 60 min/day",
+    "summary": "A free VoiceToText app leveraging local LLMs to save users time daily.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "60"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates the practical application of local LLMs for productivity tools, highlighting potential time savings.",
+    "source_url": "https://vox.rizenhq.com/",
+    "published_at": "2026-06-07T23:38:51.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Ask HN: Are we as society going to let LLM companies take all the values?",
+    "summary": "A discussion on Hacker News questioning the societal impact of LLM companies potentially monopolizing value creation and its consequences on careers, creativity, and human interaction.",
+    "category": "alerta",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a critical discussion about the potential negative societal and economic consequences of LLM companies' dominance, raising concerns about job displacement and value capture.",
+    "source_url": "https://news.ycombinator.com/item?id=48439240",
+    "published_at": "2026-06-07T22:30:08.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Gemini Deep Research is now available in preview",
     "summary": "Google has made Gemini Deep Research available in preview, offering advanced capabilities for developers.",
     "category": "novedad",
@@ -7787,57 +8073,6 @@
     "why_included": "This announces a new LLM with a significantly larger context window, potentially impacting the competitive landscape.",
     "source_url": "https://felloai.com/subq-llm-review/",
     "published_at": "2026-05-09T15:31:56.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Simon Willison: Using Claude Code: The Unreasonable Effectiveness of HTML",
-    "summary": "Simon Willison discusses the effectiveness of HTML in conjunction with Claude Code, touching on its integration and potential.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Simon Willison"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Blog post discussing a specific tool (Claude Code) and its interaction with web technologies, relevant to developer tooling.",
-    "source_url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
-    "published_at": "2026-05-08T21:00:11.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code v2.1.136 Release Notes",
-    "summary": "Anthropic's Claude Code has released version v2.1.136, introducing several new features, bug fixes, and improvements across its extensions and core functionality, including enhanced feedback surveys, new auto-mode classifiers, and fixes for concurrent credential writes and OAuth refresh tokens.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a software release for a specific tool in the LLM ecosystem, indicating ongoing development and maintenance.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
-    "published_at": "2026-05-08T18:39:08.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Running Codex Safely",
-    "summary": "OpenAI details its security measures for running Codex, including sandboxing, approvals, network policies, and agent-native telemetry, to ensure safe and compliant adoption of coding agents.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Codex"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This blog post discusses OpenAI's operational security for a coding-related AI model, relevant to industry practices.",
-    "source_url": "https://openai.com/index/running-codex-safely",
-    "published_at": "2026-05-08T12:30:00.000Z",
     "confidence": 0.9
   }
 ]
