@@ -1,5 +1,38 @@
 [
   {
+    "title": "v2.1.169",
+    "summary": "This release of Claude Code includes several new features like a --safe-mode flag for troubleshooting, a /cd command for changing directories mid-session, and a disableBundledSkills setting. It also addresses multiple bugs related to UI stalls, slow starts, remote control issues, and permission prompts, while improving reliability and reducing CPU usage.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant update to Anthropic's Claude Code, introducing new features and numerous bug fixes that improve usability and performance.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "published_at": "2026-06-08T21:57:18.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Confidential submission of draft S-1 to the SEC",
+    "summary": "OpenAI has confirmed a confidential S-1 submission to the SEC, indicating progress towards a potential IPO. The timing for further actions has not yet been determined.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "SEC"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "OpenAI's S-1 filing is a significant step towards becoming a public company, which will have major implications for the AI industry's investment landscape.",
+    "source_url": "https://openai.com/index/openai-submits-confidential-s-1",
+    "published_at": "2026-06-08T14:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
     "title": "Skills for Real Engineers",
     "summary": "A GitHub repository containing skills for real engineers, likely related to AI or software development.",
     "category": "novedad",
@@ -235,6 +268,23 @@
     "confidence": 0.9
   },
   {
+    "title": "Built to benefit everyone: our plan",
+    "summary": "OpenAI outlines its vision for the future of AI, emphasizing access, safety, and shared prosperity in its pursuit of AGI benefiting all.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "AGI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a vision statement from OpenAI, outlining their long-term goals and philosophy regarding AI development and its societal impact.",
+    "source_url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+    "published_at": "2026-06-08T01:30:00.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Show HN: Dense NYT style crossword puzzle generation with Rust and Claude",
     "summary": "A project that uses Rust and Claude to generate dense, New York Times-style crossword puzzles.",
     "category": "novedad",
@@ -250,6 +300,22 @@
     "source_url": "https://github.com/ekorbia/xword-pipeline",
     "published_at": "2026-06-08T00:36:51.000Z",
     "confidence": 0.8
+  },
+  {
+    "title": "Introducing the OpenAI Economic Research Exchange",
+    "summary": "OpenAI launches the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy, and is now accepting applications for research projects.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This initiative shows OpenAI's commitment to understanding the broader economic implications of AI, which is a key area of focus for the industry.",
+    "source_url": "https://openai.com/index/economic-research-exchange",
+    "published_at": "2026-06-08T00:00:00.000Z",
+    "confidence": 0.95
   },
   {
     "title": "Show HN: I built free VoiceToText app with local LLM polish to save 60 min/day",
@@ -7721,358 +7787,6 @@
     "why_included": "This announces a new venture by OpenAI focused on enterprise AI deployment, indicating a strategic move to support business adoption of their technologies.",
     "source_url": "https://openai.com/index/openai-launches-the-deployment-company",
     "published_at": "2026-05-11T06:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Best AI coding plan alternative to Claude and ChatGPT",
-    "summary": "A user is looking for alternatives to Claude and ChatGPT for coding, citing Claude's lowered usage limits and the competitive performance of Chinese AI models at a lower price. They are considering GLM Coding Plan (Z AI), BytePlus ModelArk Coding Plan, Kimi AI Moderato Coding Plan, and MiniMax Plus Standard Plan, asking for recommendations on performance, value, and usage limits.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "ChatGPT",
-      "GLM Coding Plan (Z AI)",
-      "BytePlus ModelArk Coding Plan",
-      "Kimi AI Moderato Coding Plan",
-      "MiniMax Plus Standard Plan"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This discusses user sentiment and market exploration for AI coding assistants, highlighting a potential shift in user preference due to pricing and usage limits.",
-    "source_url": "https://news.ycombinator.com/item?id=48081266",
-    "published_at": "2026-05-10T05:31:16.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Snyk and Claude Code: real-time security scanning of AI-generated code",
-    "summary": "An article discusses the integration of Snyk with Claude Code for real-time security scanning of AI-generated code.",
-    "category": "novedad",
-    "entities": [
-      "Snyk",
-      "Claude Code"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This announces a partnership focused on improving the security of AI-generated code, a critical aspect of AI development.",
-    "source_url": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code",
-    "published_at": "2026-05-10T03:21:46.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic weighs deal for near $1T valuation as revenue surges",
-    "summary": "Anthropic is reportedly in talks for a deal that would value the company at nearly $1 trillion, driven by surging revenue.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "funding",
-    "key_numbers": [
-      "$1T"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates significant financial growth and investor confidence in Anthropic, a major player in the LLM space.",
-    "source_url": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
-    "published_at": "2026-05-10T02:53:36.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: A Codex/Claude Code plugin for persistent product context thru sessions",
-    "summary": "A new open-source plugin called 'draft' for Codex/Claude Code aims to maintain persistent product context across sessions, addressing a common friction point in using AI coding agents. It runs entirely within the existing Claude subscription.",
-    "category": "novedad",
-    "entities": [
-      "Codex",
-      "Claude Code",
-      "draft"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new open-source tool that enhances the usability and context retention of AI coding assistants like Claude Code.",
-    "source_url": "https://github.com/idodekerobo/draft-cli-plugin",
-    "published_at": "2026-05-10T02:53:29.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: Remind – schedule Claude Code on your Mac",
-    "summary": "A new macOS application called 'Remind' allows users to schedule Claude Code prompts via the native Reminders app, saving session context and seamlessly integrating with the Claude subscription.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Remind"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new utility that improves the workflow and scheduling capabilities for users of Claude Code on macOS.",
-    "source_url": "https://olliewagner.com/remind",
-    "published_at": "2026-05-10T02:09:36.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Ask HN: Is Claude Code web down?",
-    "summary": "Users are reporting that they cannot access their active Claude Code sessions from both the phone app and the web page.",
-    "category": "alerta",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "outage",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This indicates a potential outage or significant disruption affecting a major LLM coding assistant, impacting user productivity.",
-    "source_url": "https://news.ycombinator.com/item?id=48079074",
-    "published_at": "2026-05-09T22:56:32.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Lobotomized Claude Code and it works better",
-    "summary": "A GitHub repository presents a modified version of Claude Code, referred to as 'lobotomized Claude Code,' which reportedly offers improved performance.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This explores potential optimizations or modifications to existing LLM coding tools, suggesting a community-driven effort to improve performance.",
-    "source_url": "https://github.com/skrabe/lobotomized-claude-code",
-    "published_at": "2026-05-09T20:29:30.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: Vibe-coding video games with Claude (Day 26: Primetime)",
-    "summary": "A developer is showcasing a project where they 'vibe-code' video games using Claude, writing minimal code themselves and documenting the process through 'patch notes' that detail the prompts used.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This demonstrates a novel use case for LLMs in game development, highlighting creative prompting and AI-assisted development workflows.",
-    "source_url": "https://gamevibe.us/26-primetime",
-    "published_at": "2026-05-09T20:26:54.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: CLI to budget Claude Code session costs",
-    "summary": "A command-line interface tool called 'tokenyst' has been developed to help users budget and track their costs for Claude Code sessions based on token usage.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "tokenyst"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "$3.00"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new tool for cost management related to LLM usage, addressing a key concern for developers and users.",
-    "source_url": "https://github.com/jher7/tokenyst",
-    "published_at": "2026-05-09T20:26:42.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "\"ClaudeBleed\" allows any Chrome extension to control Anthropic's AI assistant",
-    "summary": "A newly discovered vulnerability named 'ClaudeBleed' enables any Chrome extension to potentially control Anthropic's AI assistant, posing a significant security risk.",
-    "category": "alerta",
-    "entities": [
-      "ClaudeBleed",
-      "Anthropic",
-      "AI assistant"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This highlights a critical security vulnerability in a widely used AI assistant, posing a risk to user data and control.",
-    "source_url": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant/",
-    "published_at": "2026-05-09T19:58:59.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Sandboxing",
-    "summary": "Documentation from Claude Code explains the sandboxing mechanisms employed by the platform.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides technical details on the security and isolation features of Claude Code, important for understanding its operational security.",
-    "source_url": "https://code.claude.com/docs/en/sandboxing",
-    "published_at": "2026-05-09T19:27:41.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Musk, Altman Management Styles Under Fire at OpenAI Trial",
-    "summary": "During an OpenAI trial, the management styles of Elon Musk and Sam Altman have reportedly come under scrutiny.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Elon Musk",
-      "Sam Altman"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This touches on the internal governance and management dynamics of OpenAI, a key company in the LLM industry.",
-    "source_url": "https://www.bloomberg.com/news/articles/2026-05-08/musk-altman-management-styles-come-under-fire-at-openai-trial",
-    "published_at": "2026-05-09T19:20:03.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "The Secret Diary That Has Spilled into the Musk vs. OpenAI Feud",
-    "summary": "A secret diary has reportedly become a factor in the ongoing legal dispute between Elon Musk and OpenAI.",
-    "category": "novedad",
-    "entities": [
-      "Elon Musk",
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides further context on the legal and personal disputes impacting a major LLM company, OpenAI.",
-    "source_url": "https://www.wsj.com/tech/musk-openai-trial-greg-brockman-diary-journal-6950270e",
-    "published_at": "2026-05-09T19:14:48.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Strategic advice from LLM's is \"trendslop\", say researchers",
-    "summary": "Researchers have found that strategic advice provided by LLMs can be categorized as 'trendslop', suggesting limitations in their ability to offer genuinely useful strategic guidance.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This critically assesses the utility of LLMs for strategic advice, highlighting potential limitations in their application.",
-    "source_url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
-    "published_at": "2026-05-09T18:32:50.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Loops and Routines Without Claude",
-    "summary": "A blog post discusses development loops and routines, with a specific mention of 'Without Claude', suggesting alternative approaches to AI-assisted workflows.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This explores alternative development workflows and potentially highlights limitations or alternatives to specific AI assistants like Claude.",
-    "source_url": "https://ingresslabs.net/blog/spec-driven-development-loops",
-    "published_at": "2026-05-09T18:27:26.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "sick of dealing with unwanted line breaks when you copy text from claude code?",
-    "summary": "A GitHub repository offers a solution, 'termcopy', to address the issue of unwanted line breaks when copying text from Claude Code.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "termcopy"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a community-developed tool addressing a common usability issue with Claude Code.",
-    "source_url": "https://github.com/aaronw122/termcopy/",
-    "published_at": "2026-05-09T18:10:12.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Tell HN: ChatGPT and Claude web frontends can run bash commands remotely",
-    "summary": "A user reports that the web frontends of ChatGPT and Claude can be made to execute bash commands remotely, highlighting a potential security concern or feature.",
-    "category": "alerta",
-    "entities": [
-      "ChatGPT",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This points to a potential security vulnerability allowing remote command execution through widely used LLM web interfaces.",
-    "source_url": "https://news.ycombinator.com/item?id=48076557",
-    "published_at": "2026-05-09T17:19:37.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "What 16 Parallel Claude Agents Built Around Themselves",
-    "summary": "An article explores how 16 parallel Claude agents collaborated to build upon themselves, deconstructing Anthropic's C compiler.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "16"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This delves into advanced agentic capabilities and self-improvement mechanisms within LLM systems.",
-    "source_url": "https://medium.com/@vbcherepanov/what-16-parallel-claude-agents-built-around-themselves-deconstructing-anthropics-c-compiler-f2fa6335b1ca",
-    "published_at": "2026-05-09T15:58:11.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Adola: Reducing LLM input tokens by 70%",
-    "summary": "Adola is a new service or technology that claims to reduce LLM input tokens by up to 70%, potentially leading to significant cost and efficiency savings.",
-    "category": "novedad",
-    "entities": [
-      "Adola",
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "70%"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This introduces a technology that could significantly reduce the cost and increase the efficiency of using LLMs.",
-    "source_url": "https://adola.app/",
-    "published_at": "2026-05-09T15:42:26.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "SubQ: A New LLM with a 12M Token Context That Rivals Claude and ChatGPT",
-    "summary": "SubQ is a new LLM boasting a 12 million token context window, aiming to compete with established models like Claude and ChatGPT.",
-    "category": "novedad",
-    "entities": [
-      "SubQ",
-      "LLM",
-      "Claude",
-      "ChatGPT"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "12M"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This announces a new LLM with a significantly larger context window, potentially impacting the competitive landscape.",
-    "source_url": "https://felloai.com/subq-llm-review/",
-    "published_at": "2026-05-09T15:31:56.000Z",
     "confidence": 0.9
   }
 ]
