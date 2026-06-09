@@ -6,6 +6,22 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>v2.1.169</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</guid>
+      <pubDate>Mon, 08 Jun 2026 21:57:18 GMT</pubDate>
+      <description>This release of Claude Code includes several new features like a --safe-mode flag for troubleshooting, a /cd command for changing directories mid-session, and a disableBundledSkills setting. It also addresses multiple bugs related to UI stalls, slow starts, remote control issues, and permission prompts, while improving reliability and reducing CPU usage. | Impact: medium | Signal: positive | Why included: This is a significant update to Anthropic&apos;s Claude Code, introducing new features and numerous bug fixes that improve usability and performance.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Confidential submission of draft S-1 to the SEC</title>
+      <link>https://openai.com/index/openai-submits-confidential-s-1</link>
+      <guid>https://openai.com/index/openai-submits-confidential-s-1</guid>
+      <pubDate>Mon, 08 Jun 2026 14:00:00 GMT</pubDate>
+      <description>OpenAI has confirmed a confidential S-1 submission to the SEC, indicating progress towards a potential IPO. The timing for further actions has not yet been determined. | Impact: medium | Signal: positive | Why included: OpenAI&apos;s S-1 filing is a significant step towards becoming a public company, which will have major implications for the AI industry&apos;s investment landscape.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Skills for Real Engineers</title>
       <link>https://github.com/mattpocock/skills</link>
       <guid>https://github.com/mattpocock/skills</guid>
@@ -118,11 +134,27 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Built to benefit everyone: our plan</title>
+      <link>https://openai.com/index/built-to-benefit-everyone-our-plan</link>
+      <guid>https://openai.com/index/built-to-benefit-everyone-our-plan</guid>
+      <pubDate>Mon, 08 Jun 2026 01:30:00 GMT</pubDate>
+      <description>OpenAI outlines its vision for the future of AI, emphasizing access, safety, and shared prosperity in its pursuit of AGI benefiting all. | Impact: low | Signal: positive | Why included: This is a vision statement from OpenAI, outlining their long-term goals and philosophy regarding AI development and its societal impact.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Show HN: Dense NYT style crossword puzzle generation with Rust and Claude</title>
       <link>https://github.com/ekorbia/xword-pipeline</link>
       <guid>https://github.com/ekorbia/xword-pipeline</guid>
       <pubDate>Mon, 08 Jun 2026 00:36:51 GMT</pubDate>
       <description>A project that uses Rust and Claude to generate dense, New York Times-style crossword puzzles. | Impact: low | Signal: positive | Why included: This showcases a creative application of LLMs in content generation, specifically for crossword puzzles using Claude.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Introducing the OpenAI Economic Research Exchange</title>
+      <link>https://openai.com/index/economic-research-exchange</link>
+      <guid>https://openai.com/index/economic-research-exchange</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI launches the Economic Research Exchange to study AI&apos;s impact on jobs, productivity, and the economy, and is now accepting applications for research projects. | Impact: medium | Signal: positive | Why included: This initiative shows OpenAI&apos;s commitment to understanding the broader economic implications of AI, which is a key area of focus for the industry.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -371,38 +403,6 @@
       <guid>https://www.anthropic.com/research/making-claude-a-chemist</guid>
       <pubDate>Sat, 06 Jun 2026 05:00:20 GMT</pubDate>
       <description>Anthropic details how they&apos;ve made their Claude AI model proficient in chemistry. | Impact: medium | Signal: positive | Why included: This highlights Anthropic&apos;s progress in specializing LLMs for specific scientific domains, demonstrating advanced capabilities beyond general text generation.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</title>
-      <link>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</link>
-      <guid>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</guid>
-      <pubDate>Sat, 06 Jun 2026 04:38:36 GMT</pubDate>
-      <description>SpaceX, OpenAI, and Anthropic have been denied entry into the S&amp;P 500 index due to rule waivers not being granted. | Impact: high | Signal: negative | Why included: This is a high-impact financial news item as it directly affects the market inclusion and potentially the valuation of major AI players like OpenAI and Anthropic.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude-tinderbox: Search your Claude.ai conversation history locally via MCP</title>
-      <link>https://github.com/luckyrmp/tinderbox-archive</link>
-      <guid>https://github.com/luckyrmp/tinderbox-archive</guid>
-      <pubDate>Sat, 06 Jun 2026 03:39:45 GMT</pubDate>
-      <description>Claude-tinderbox is a tool that allows users to search their Claude.ai conversation history locally using MCP. | Impact: medium | Signal: positive | Why included: This is a tool that enhances user experience and data management for Claude.ai users by enabling local search of conversation history.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The Fix for AI&apos;s Spending Problem Is Not Good for OpenAI and Anthropic [video]</title>
-      <link>https://www.youtube.com/watch?v=w1yB7ck36JA</link>
-      <guid>https://www.youtube.com/watch?v=w1yB7ck36JA</guid>
-      <pubDate>Sat, 06 Jun 2026 03:12:21 GMT</pubDate>
-      <description>A video discusses potential solutions to AI&apos;s spending problem and their negative implications for companies like OpenAI and Anthropic. | Impact: medium | Signal: negative | Why included: This analysis directly addresses a critical concern in the AI industry – spending – and its potential impact on major players, signalling potential future business challenges.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Agent-ML-skills – Teach Codex/Claude/Cursor to stop making ML mistakes</title>
-      <link>https://github.com/param087/agent-ml-skills</link>
-      <guid>https://github.com/param087/agent-ml-skills</guid>
-      <pubDate>Sat, 06 Jun 2026 02:21:42 GMT</pubDate>
-      <description>Agent-ML-skills is a project designed to train Codex, Claude, and Cursor to avoid machine learning mistakes. | Impact: medium | Signal: positive | Why included: This project aims to improve the reliability of AI agents in machine learning tasks, addressing a key challenge in AI development.</description>
       <category>novedad</category>
     </item>
   </channel>
