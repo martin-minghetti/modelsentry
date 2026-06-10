@@ -1,5 +1,205 @@
 [
   {
+    "title": "Google Gemini Pricing Page Update",
+    "summary": "The Google Gemini pricing page has been updated with translated content, indicating a minor localized change rather than a product or pricing alteration.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Gemini API"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Minor website update, primarily a localization change, with no impact on AI services or pricing.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-06-10T11:28:28.155Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic Pricing Page Update",
+    "summary": "The Anthropic pricing page has been updated, but the changes appear to be minor text adjustments within existing plan descriptions, with no significant pricing changes detected.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Minor website update without significant product or pricing changes.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-06-10T11:28:25.452Z",
+    "confidence": 1
+  },
+  {
+    "title": "Users report Claude Fable 5 refusing biology-related queries due to safeguards",
+    "summary": "Users working in biology are reporting that Claude Fable 5 consistently reroutes their requests to Opus 4.8 due to its safeguards, even for seemingly innocuous queries, preventing them from using Fable 5.",
+    "category": "alerta",
+    "entities": [
+      "Claude Fable 5",
+      "Opus 4.8",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Significant limitations and user-reported failures of safeguards in a new model, impacting usability for specific professional groups.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1wb86/if_you_work_in_biology_fable_5_will_refuse_to/",
+    "published_at": "2026-06-10T08:33:46.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Fable 5 API Pricing is $50/M Tokens",
+    "summary": "The API pricing for Claude Fable 5 has been released at $50/M tokens, which some users find surprisingly expensive, questioning if it prices out indie developers.",
+    "category": "alerta",
+    "entities": [
+      "Claude Fable 5",
+      "Claude API"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [
+      "$50/M"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Pricing increase for an existing product/service, potentially impacting accessibility.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1selr/claude_dropped_fable_5_and_the_api_pricing/",
+    "published_at": "2026-06-10T04:54:35.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Fable 5 used for project showcase video generation",
+    "summary": "A user has used Claude Fable 5 to create a launch video for their app, Daydream, generating all animations, UI, and graphics with the model, showcasing its creative capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable 5",
+      "Claude Code",
+      "Daydream"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Demonstrates a creative application of the new model, highlighting its potential beyond traditional text-based tasks.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1pjtm/fable_made_this_launch_video_for_my_app/",
+    "published_at": "2026-06-10T02:33:42.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Fable 5 demonstrates advanced vision and reasoning by beating Pokemon FireRed",
+    "summary": "Claude Fable 5 has demonstrated a significant jump in vision and long-horizon reasoning capabilities by completing Pokemon FireRed using only game screenshots, a feat previously requiring external tools.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable 5"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New model release with impressive demonstrated capabilities in vision and reasoning.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1o9rl/pov_claude_fable_5_dropped_and_immediately/",
+    "published_at": "2026-06-10T01:34:57.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "LSEG scales trusted AI with OpenAI",
+    "summary": "LSEG is scaling trusted AI across its business using OpenAI, leading to accelerated insights, shrunk release cycles, and empowered employees. This showcases enterprise adoption of AI for business transformation.",
+    "category": "novedad",
+    "entities": [
+      "LSEG",
+      "OpenAI"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [
+      "4,000"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Example of a major financial institution leveraging AI for significant business improvements, indicating enterprise AI adoption.",
+    "source_url": "https://openai.com/index/lseg",
+    "published_at": "2026-06-10T00:00:00.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Fable 5 includes safeguards and may fallback to Opus 4.8",
+    "summary": "Claude Fable 5 has safeguards that may route requests related to cybersecurity, biology, chemistry, or distillation to Claude Opus 4.8. Anthropic states this occurs in less than 5% of sessions, but users in sensitive fields report 100% fallback.",
+    "category": "alerta",
+    "entities": [
+      "Claude Fable 5",
+      "Claude Opus 4.8"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "95%"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Significant limitations and potential for unexpected model downgrades impacting user experience and perceived value.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/",
+    "published_at": "2026-06-09T19:50:59.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic SDK Python releases v2.1.170 for Claude Code, enabling Fable 5 access",
+    "summary": "The Claude Code releases have updated to v2.1.170, providing access to Claude Fable 5 and fixing issues with saving transcripts. This update enables developers to utilize the new model.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude Fable 5"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "v2.1.170"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "SDK update that enables access to the newly released Claude Fable 5 model.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+    "published_at": "2026-06-09T17:23:09.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic Introduces Claude Fable 5 and Mythos 5",
+    "summary": "Anthropic has launched Claude Fable 5, a safe version of their Mythos-class model, and Claude Mythos 5, with safeguards lifted, available to Glasswing partners. Fable 5 demonstrates state-of-the-art performance across benchmarks, particularly in vision and long-horizon reasoning.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude Fable 5",
+      "Claude Mythos 5",
+      "Claude Opus 4.8"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "New model release from a major player in the LLM space.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/",
+    "published_at": "2026-06-09T17:04:11.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic SDK Python releases v0.108.0 with Fable 5 and Mythos 5 support",
+    "summary": "The Anthropic SDK for Python has released version v0.108.0, adding support for Claude Mythos 5 and Claude Fable 5, including server-side fallback mechanisms for refusals.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic SDK Python",
+      "Claude Fable 5",
+      "Claude Mythos 5"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "v0.108.0"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "SDK update supporting new model releases, indicating broader developer access and integration.",
+    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0",
+    "published_at": "2026-06-09T16:37:30.000Z",
+    "confidence": 1
+  },
+  {
     "title": "v2.1.169",
     "summary": "This release of Claude Code includes several new features like a --safe-mode flag for troubleshooting, a /cd command for changing directories mid-session, and a disableBundledSkills setting. It also addresses multiple bugs related to UI stalls, slow starts, remote control issues, and permission prompts, while improving reliability and reducing CPU usage.",
     "category": "novedad",
@@ -352,23 +552,6 @@
     "confidence": 0.9
   },
   {
-    "title": "Gemini Deep Research is now available in preview",
-    "summary": "Google has made Gemini Deep Research available in preview, offering advanced capabilities for developers.",
-    "category": "novedad",
-    "entities": [
-      "Gemini Deep Research",
-      "Gemini API"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "The preview release of Gemini Deep Research signifies a new tier of capability for Google's AI offerings, potentially impacting advanced AI development.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-06-07T10:18:13.474Z",
-    "confidence": 0.85
-  },
-  {
     "title": "Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)",
     "summary": "A user shares their setup for running local LLMs on consumer hardware (5090 GPU) using a llama.cpp fork and turboquant, achieving great results with Qwen 3.6 q6 and a 450K context window.",
     "category": "novedad",
@@ -697,22 +880,6 @@
     "source_url": "https://github.com/wastedcode/claudemux",
     "published_at": "2026-06-06T15:54:18.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "Anthropic Pricing",
-    "summary": "No significant changes detected on Anthropic's pricing page.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "A diff alert indicating no change on the pricing page; monitoring pricing is crucial for competitive analysis.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-06-06T09:50:31.388Z",
-    "confidence": 0.85
   },
   {
     "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
@@ -1452,6 +1619,23 @@
     "source_url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
     "published_at": "2026-06-03T12:01:27.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Uber caps AI tool usage to manage costs",
+    "summary": "Uber is limiting its usage of AI tools, like Claude Code, to control costs. This indicates a growing trend of companies scrutinizing AI expenses and seeking cost optimization strategies.",
+    "category": "alerta",
+    "entities": [
+      "Uber",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "Example of a major company implementing cost management measures for AI tools, highlighting the financial considerations in AI adoption.",
+    "source_url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+    "published_at": "2026-06-03T12:01:27.000Z",
+    "confidence": 1
   },
   {
     "title": "Did Claude Opus 4.8 distill Alibaba's Qwen?",
@@ -7771,22 +7955,5 @@
     "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0",
     "published_at": "2026-05-11T15:46:22.000Z",
     "confidence": 1
-  },
-  {
-    "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-    "summary": "OpenAI introduces DeployCo, a new enterprise division focused on helping businesses implement frontier AI into production and achieve measurable business impact.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "DeployCo"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This announces a new venture by OpenAI focused on enterprise AI deployment, indicating a strategic move to support business adoption of their technologies.",
-    "source_url": "https://openai.com/index/openai-launches-the-deployment-company",
-    "published_at": "2026-05-11T06:00:00.000Z",
-    "confidence": 0.9
   }
 ]

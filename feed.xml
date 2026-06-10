@@ -6,6 +6,94 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini Pricing Page Update</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Wed, 10 Jun 2026 11:28:28 GMT</pubDate>
+      <description>The Google Gemini pricing page has been updated with translated content, indicating a minor localized change rather than a product or pricing alteration. | Impact: low | Signal: neutral | Why included: Minor website update, primarily a localization change, with no impact on AI services or pricing.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Pricing Page Update</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Wed, 10 Jun 2026 11:28:25 GMT</pubDate>
+      <description>The Anthropic pricing page has been updated, but the changes appear to be minor text adjustments within existing plan descriptions, with no significant pricing changes detected. | Impact: low | Signal: neutral | Why included: Minor website update without significant product or pricing changes.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Users report Claude Fable 5 refusing biology-related queries due to safeguards</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1wb86/if_you_work_in_biology_fable_5_will_refuse_to/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1wb86/if_you_work_in_biology_fable_5_will_refuse_to/</guid>
+      <pubDate>Wed, 10 Jun 2026 08:33:46 GMT</pubDate>
+      <description>Users working in biology are reporting that Claude Fable 5 consistently reroutes their requests to Opus 4.8 due to its safeguards, even for seemingly innocuous queries, preventing them from using Fable 5. | Impact: high | Signal: negative | Why included: Significant limitations and user-reported failures of safeguards in a new model, impacting usability for specific professional groups.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Fable 5 API Pricing is $50/M Tokens</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1selr/claude_dropped_fable_5_and_the_api_pricing/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1selr/claude_dropped_fable_5_and_the_api_pricing/</guid>
+      <pubDate>Wed, 10 Jun 2026 04:54:35 GMT</pubDate>
+      <description>The API pricing for Claude Fable 5 has been released at $50/M tokens, which some users find surprisingly expensive, questioning if it prices out indie developers. | Impact: high | Signal: negative | Why included: Pricing increase for an existing product/service, potentially impacting accessibility.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Fable 5 used for project showcase video generation</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1pjtm/fable_made_this_launch_video_for_my_app/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1pjtm/fable_made_this_launch_video_for_my_app/</guid>
+      <pubDate>Wed, 10 Jun 2026 02:33:42 GMT</pubDate>
+      <description>A user has used Claude Fable 5 to create a launch video for their app, Daydream, generating all animations, UI, and graphics with the model, showcasing its creative capabilities. | Impact: low | Signal: positive | Why included: Demonstrates a creative application of the new model, highlighting its potential beyond traditional text-based tasks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Fable 5 demonstrates advanced vision and reasoning by beating Pokemon FireRed</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1o9rl/pov_claude_fable_5_dropped_and_immediately/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1o9rl/pov_claude_fable_5_dropped_and_immediately/</guid>
+      <pubDate>Wed, 10 Jun 2026 01:34:57 GMT</pubDate>
+      <description>Claude Fable 5 has demonstrated a significant jump in vision and long-horizon reasoning capabilities by completing Pokemon FireRed using only game screenshots, a feat previously requiring external tools. | Impact: medium | Signal: positive | Why included: New model release with impressive demonstrated capabilities in vision and reasoning.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>LSEG scales trusted AI with OpenAI</title>
+      <link>https://openai.com/index/lseg</link>
+      <guid>https://openai.com/index/lseg</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <description>LSEG is scaling trusted AI across its business using OpenAI, leading to accelerated insights, shrunk release cycles, and empowered employees. This showcases enterprise adoption of AI for business transformation. | Impact: medium | Signal: positive | Why included: Example of a major financial institution leveraging AI for significant business improvements, indicating enterprise AI adoption.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Fable 5 includes safeguards and may fallback to Opus 4.8</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/</guid>
+      <pubDate>Tue, 09 Jun 2026 19:50:59 GMT</pubDate>
+      <description>Claude Fable 5 has safeguards that may route requests related to cybersecurity, biology, chemistry, or distillation to Claude Opus 4.8. Anthropic states this occurs in less than 5% of sessions, but users in sensitive fields report 100% fallback. | Impact: high | Signal: negative | Why included: Significant limitations and potential for unexpected model downgrades impacting user experience and perceived value.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic SDK Python releases v2.1.170 for Claude Code, enabling Fable 5 access</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.170</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.170</guid>
+      <pubDate>Tue, 09 Jun 2026 17:23:09 GMT</pubDate>
+      <description>The Claude Code releases have updated to v2.1.170, providing access to Claude Fable 5 and fixing issues with saving transcripts. This update enables developers to utilize the new model. | Impact: medium | Signal: positive | Why included: SDK update that enables access to the newly released Claude Fable 5 model.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic Introduces Claude Fable 5 and Mythos 5</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/</guid>
+      <pubDate>Tue, 09 Jun 2026 17:04:11 GMT</pubDate>
+      <description>Anthropic has launched Claude Fable 5, a safe version of their Mythos-class model, and Claude Mythos 5, with safeguards lifted, available to Glasswing partners. Fable 5 demonstrates state-of-the-art performance across benchmarks, particularly in vision and long-horizon reasoning. | Impact: medium | Signal: positive | Why included: New model release from a major player in the LLM space.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic SDK Python releases v0.108.0 with Fable 5 and Mythos 5 support</title>
+      <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0</link>
+      <guid>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0</guid>
+      <pubDate>Tue, 09 Jun 2026 16:37:30 GMT</pubDate>
+      <description>The Anthropic SDK for Python has released version v0.108.0, adding support for Claude Mythos 5 and Claude Fable 5, including server-side fallback mechanisms for refusals. | Impact: medium | Signal: positive | Why included: SDK update supporting new model releases, indicating broader developer access and integration.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>v2.1.169</title>
       <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</link>
       <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</guid>
@@ -174,14 +262,6 @@
       <category>alerta</category>
     </item>
     <item>
-      <title>Gemini Deep Research is now available in preview</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sun, 07 Jun 2026 10:18:13 GMT</pubDate>
-      <description>Google has made Gemini Deep Research available in preview, offering advanced capabilities for developers. | Impact: medium | Signal: positive | Why included: The preview release of Gemini Deep Research signifies a new tier of capability for Google&apos;s AI offerings, potentially impacting advanced AI development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
       <title>Show HN: Best setup local LLM found for a 5090 (llama.cpp fork + turboquant)</title>
       <link>https://local-llm.utop.workers.dev/</link>
       <guid>https://local-llm.utop.workers.dev/</guid>
@@ -323,86 +403,6 @@
       <guid>https://github.com/ingram-technologies/claude-git-sessions</guid>
       <pubDate>Sat, 06 Jun 2026 16:04:45 GMT</pubDate>
       <description>A Show HN project called Ccgs enables collaborative Claude Code sessions to be stored and managed in Git branches. | Impact: low | Signal: positive | Why included: This is a developer tool for managing AI-assisted coding sessions, addressing collaboration and version control for AI-generated code.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claudemux – Run and coordinate multiple Claude Codes reliably</title>
-      <link>https://github.com/wastedcode/claudemux</link>
-      <guid>https://github.com/wastedcode/claudemux</guid>
-      <pubDate>Sat, 06 Jun 2026 15:54:18 GMT</pubDate>
-      <description>Claudemux is a tool designed to run and coordinate multiple Claude Code sessions reliably. | Impact: low | Signal: positive | Why included: This tool aims to improve the reliability and coordination of using Claude Code, relevant for users engaged in AI-assisted development workflows.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Pricing</title>
-      <link>https://www.anthropic.com/pricing</link>
-      <guid>https://www.anthropic.com/pricing</guid>
-      <pubDate>Sat, 06 Jun 2026 09:50:31 GMT</pubDate>
-      <description>No significant changes detected on Anthropic&apos;s pricing page. | Impact: low | Signal: neutral | Why included: A diff alert indicating no change on the pricing page; monitoring pricing is crucial for competitive analysis.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI</title>
-      <link>https://www.bbc.com/news/articles/cm2p3j6lvn7o</link>
-      <guid>https://www.bbc.com/news/articles/cm2p3j6lvn7o</guid>
-      <pubDate>Sat, 06 Jun 2026 09:35:04 GMT</pubDate>
-      <description>UK banks denied access to the cyber AI tool Mythos have received an offer from OpenAI. | Impact: low | Signal: neutral | Why included: This news item is relevant as it indicates a competitive landscape where OpenAI is offering alternatives to companies facing restrictions with other AI tools.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI Whisper in 150 lines of NumPy</title>
-      <link>https://github.com/timothygao8710/minWhisper</link>
-      <guid>https://github.com/timothygao8710/minWhisper</guid>
-      <pubDate>Sat, 06 Jun 2026 09:21:25 GMT</pubDate>
-      <description>A project reimplements OpenAI&apos;s Whisper model using only 150 lines of NumPy, making it accessible for experimentation. | Impact: medium | Signal: positive | Why included: This is a significant development for the AI industry as it demonstrates a highly efficient and understandable implementation of a complex model, potentially democratizing access to advanced speech-to-text technology.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Sawtooth – An async, multi-tiered memory framework for LLM agents</title>
-      <link>https://github.com/HtooTayZa/sawtooth-memory</link>
-      <guid>https://github.com/HtooTayZa/sawtooth-memory</guid>
-      <pubDate>Sat, 06 Jun 2026 08:53:03 GMT</pubDate>
-      <description>Sawtooth is a new async, multi-tiered memory framework designed to enhance LLM agents. | Impact: medium | Signal: positive | Why included: This is a novel framework for LLM agents, addressing memory management which is a critical component for agent performance and capability.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Fixing &quot;unfixable&quot; 41TB BTRFS by Claude&apos;s one-shot</title>
-      <link>https://mloduchowski.com/-mounted-bitter-fs-better-with-claude/</link>
-      <guid>https://mloduchowski.com/-mounted-bitter-fs-better-with-claude/</guid>
-      <pubDate>Sat, 06 Jun 2026 07:30:37 GMT</pubDate>
-      <description>Claude&apos;s AI model was used to resolve a seemingly unfixable 41TB BTRFS filesystem issue. | Impact: medium | Signal: positive | Why included: This demonstrates a practical, high-impact application of Claude&apos;s capabilities in solving a complex technical problem, highlighting the real-world utility of LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Turn HAR Files, Claude Code, Copilot CLI, and Codex CLI Logs into ATIF</title>
-      <link>https://github.com/waldekmastykarz/atifact</link>
-      <guid>https://github.com/waldekmastykarz/atifact</guid>
-      <pubDate>Sat, 06 Jun 2026 07:24:54 GMT</pubDate>
-      <description>A new tool called ATIF can process HAR files, Claude Code, Copilot CLI, and Codex CLI logs. | Impact: medium | Signal: positive | Why included: This release introduces a new tool for processing logs and artifacts from various AI development tools, which could be useful for debugging and analysis in the AI development workflow.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>How much did OpenAI pay for Tomoro?</title>
-      <link>https://www.aienablementinsider.com/p/how-much-did-openai-pay-for-tomoro</link>
-      <guid>https://www.aienablementinsider.com/p/how-much-did-openai-pay-for-tomoro</guid>
-      <pubDate>Sat, 06 Jun 2026 07:22:10 GMT</pubDate>
-      <description>An article investigates the acquisition cost of Tomoro by OpenAI. | Impact: low | Signal: neutral | Why included: This provides insight into OpenAI&apos;s M&amp;A activity and potential valuation of AI companies, relevant for industry financial analysis.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Ask HN: What would you name your own LLM?</title>
-      <link>https://news.ycombinator.com/item?id=48422004</link>
-      <guid>https://news.ycombinator.com/item?id=48422004</guid>
-      <pubDate>Sat, 06 Jun 2026 06:31:29 GMT</pubDate>
-      <description>A community discussion on Hacker News asks users for creative names for their hypothetical LLMs. | Impact: low | Signal: neutral | Why included: This is a community discussion reflecting sentiment and creativity around LLM naming, providing a pulse on the community&apos;s engagement with the technology.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Making Claude a Chemist</title>
-      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
-      <guid>https://www.anthropic.com/research/making-claude-a-chemist</guid>
-      <pubDate>Sat, 06 Jun 2026 05:00:20 GMT</pubDate>
-      <description>Anthropic details how they&apos;ve made their Claude AI model proficient in chemistry. | Impact: medium | Signal: positive | Why included: This highlights Anthropic&apos;s progress in specializing LLMs for specific scientific domains, demonstrating advanced capabilities beyond general text generation.</description>
       <category>novedad</category>
     </item>
   </channel>
