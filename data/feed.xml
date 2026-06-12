@@ -9,8 +9,40 @@
       <title>Google Gemini Pricing Page Update</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 10 Jun 2026 11:28:28 GMT</pubDate>
-      <description>The Google Gemini pricing page has been updated with translated content, indicating a minor localized change rather than a product or pricing alteration. | Impact: low | Signal: neutral | Why included: Minor website update, primarily a localization change, with no impact on AI services or pricing.</description>
+      <pubDate>Fri, 12 Jun 2026 11:31:56 GMT</pubDate>
+      <description>The Google Gemini pricing page has been updated, detailing the availability of Gemini Deep Research in preview and clarifying pricing tiers for developers. | Impact: low | Signal: neutral | Why included: This is an update to Google&apos;s pricing documentation for their Gemini API, providing clarity on available tiers and features.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code v2.1.174 Release</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.174</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.174</guid>
+      <pubDate>Fri, 12 Jun 2026 01:16:36 GMT</pubDate>
+      <description>Claude Code has released version v2.1.174, introducing several improvements and bug fixes, including enhanced model picker functionality and better usage attribution in the VSCode account dialog. | Impact: low | Signal: positive | Why included: This is a minor update to a specific code editor tool for Claude, with no significant impact on broader LLM capabilities or services.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Preply integrates OpenAI for personalized language learning</title>
+      <link>https://openai.com/index/preply</link>
+      <guid>https://openai.com/index/preply</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Preply is leveraging OpenAI&apos;s technology to generate AI-powered lesson summaries and personalized language learning exercises, enhancing its tutoring platform. | Impact: medium | Signal: positive | Why included: This showcases a real-world application of OpenAI&apos;s models in the education sector, highlighting personalization through AI.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI to acquire Ona to expand Codex and AI agents</title>
+      <link>https://openai.com/index/openai-to-acquire-ona</link>
+      <guid>https://openai.com/index/openai-to-acquire-ona</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI plans to acquire Ona, aiming to integrate secure, persistent cloud environments into Codex and enable long-running AI agents for enterprise workflows. | Impact: medium | Signal: positive | Why included: This acquisition indicates OpenAI&apos;s strategic move to bolster its enterprise offerings and AI agent capabilities, directly impacting their Codex product.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>BBVA partners with OpenAI for AI-powered banking transformation</title>
+      <link>https://openai.com/index/bbva</link>
+      <guid>https://openai.com/index/bbva</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>BBVA is scaling ChatGPT Enterprise to 100,000 employees and partnering with OpenAI to accelerate its AI-driven banking transformation globally. | Impact: medium | Signal: positive | Why included: This highlights a significant enterprise adoption of OpenAI&apos;s technology in the financial sector, showcasing ChatGPT Enterprise&apos;s scale.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -371,38 +403,6 @@
       <guid>https://github.com/amirfish1/claude-command-center</guid>
       <pubDate>Sat, 06 Jun 2026 19:15:48 GMT</pubDate>
       <description>A Show HN project called CCC aims to manage sessions for various AI models including Claude, Codex, and Antigravity. | Impact: low | Signal: positive | Why included: This is a tool to manage multiple AI model sessions, addressing a practical need for users interacting with various AI services.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I&apos;m waiting for Claude to rm rf my computer</title>
-      <link>https://12gramsofcarbon.com/p/agentics-local-coding-agents-are</link>
-      <guid>https://12gramsofcarbon.com/p/agentics-local-coding-agents-are</guid>
-      <pubDate>Sat, 06 Jun 2026 16:52:24 GMT</pubDate>
-      <description>A blog post expresses a humorous, yet cautionary, sentiment about the potential risks of LLM agents, specifically referencing Claude. | Impact: low | Signal: negative | Why included: This post touches upon AI safety concerns and potential risks associated with autonomous agents, a critical topic in the LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenCV 5.0 Released with Rewritten DNN Engine, Built-In LLM and VLM Support</title>
-      <link>https://www.phoronix.com/news/OpenCV-5.0-Released</link>
-      <guid>https://www.phoronix.com/news/OpenCV-5.0-Released</guid>
-      <pubDate>Sat, 06 Jun 2026 16:27:53 GMT</pubDate>
-      <description>OpenCV 5.0 has been released, featuring a rewritten DNN engine with integrated support for LLMs and VLMs. | Impact: medium | Signal: positive | Why included: The release of OpenCV 5.0 with integrated LLM and VLM support signifies a major step in bringing advanced AI capabilities to computer vision libraries.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic_API_key? Anthropic will bill your API account instead of your Max plan</title>
-      <link>https://old.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/</link>
-      <guid>https://old.reddit.com/r/ClaudeAI/comments/1tbaq2d/psa_if_your_project_has_an_anthropic_api_key_in/</guid>
-      <pubDate>Sat, 06 Jun 2026 16:13:05 GMT</pubDate>
-      <description>A PSA informs users that Anthropic may bill their API account instead of their Max plan for certain usage, highlighting a potential billing change. | Impact: high | Signal: negative | Why included: This is a potential pricing change or billing clarification from Anthropic that could affect users&apos; costs, making it a high-impact alert.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Show HN: Ccgs – Collaborative Claude Code sessions, stored in Git branches</title>
-      <link>https://github.com/ingram-technologies/claude-git-sessions</link>
-      <guid>https://github.com/ingram-technologies/claude-git-sessions</guid>
-      <pubDate>Sat, 06 Jun 2026 16:04:45 GMT</pubDate>
-      <description>A Show HN project called Ccgs enables collaborative Claude Code sessions to be stored and managed in Git branches. | Impact: low | Signal: positive | Why included: This is a developer tool for managing AI-assisted coding sessions, addressing collaboration and version control for AI-generated code.</description>
       <category>novedad</category>
     </item>
   </channel>
