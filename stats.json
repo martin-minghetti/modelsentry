@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-06-14T10:41:17.836Z",
+  "generated_at": "2026-06-15T13:42:46.929Z",
   "coverage_start": "2019-03-11",
-  "coverage_end": "2026-06-14",
+  "coverage_end": "2026-06-15",
   "weekly": [
-    {
-      "week": "Mar 23",
-      "week_start": "2026-03-23",
-      "alerts": 0,
-      "updates": 4
-    },
     {
       "week": "Mar 30",
       "week_start": "2026-03-30",
@@ -72,16 +66,22 @@
     {
       "week": "Jun 8",
       "week_start": "2026-06-08",
-      "alerts": 23,
-      "updates": 42
+      "alerts": 25,
+      "updates": 44
+    },
+    {
+      "week": "Jun 15",
+      "week_start": "2026-06-15",
+      "alerts": 2,
+      "updates": 5
     }
   ],
   "providers": [
     {
       "provider": "Anthropic",
-      "count": 210,
-      "alerts": 55,
-      "updates": 155
+      "count": 218,
+      "alerts": 59,
+      "updates": 159
     },
     {
       "provider": "Other",
@@ -109,10 +109,10 @@
     }
   ],
   "totals": {
-    "unique_events": 1032,
-    "last_30_days": 416,
+    "unique_events": 1043,
+    "last_30_days": 424,
     "sources": {
-      "rss": 969,
+      "rss": 980,
       "diff_pages": 63
     }
   }
