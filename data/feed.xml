@@ -6,6 +6,94 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Changing one sentence in a tool&apos;s description made Gemini skip a calculator it needed (93%→20% accuracy). GPT-4o-mini ignored the same change. I tested it across 6 models.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6ez9v/changing_one_sentence_in_a_tools_description_made/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6ez9v/changing_one_sentence_in_a_tools_description_made/</guid>
+      <pubDate>Mon, 15 Jun 2026 12:19:15 GMT</pubDate>
+      <description>A user&apos;s experiment across six LLMs shows that minor changes in tool descriptions significantly impact model behavior, with Gemini degrading to 20% accuracy while GPT-4o-mini remained unaffected. | Impact: medium | Signal: neutral | Why included: This research highlights the sensitivity of LLM tool use to prompt phrasing and description, impacting reliability and providing insights into model differences.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>How to get Claude to test its work?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6d5ek/how_to_get_claude_to_test_its_work/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6d5ek/how_to_get_claude_to_test_its_work/</guid>
+      <pubDate>Mon, 15 Jun 2026 10:51:30 GMT</pubDate>
+      <description>A user is seeking methods to instruct Claude to automatically test its work and provide feedback, aiming to avoid cycles of incorrect changes followed by manual correction. | Impact: low | Signal: neutral | Why included: This is a user-generated tip on prompt engineering for better model reliability, useful for the community but not a formal product update.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Stop burning your Opus 4.8 Max limits. Use this prompt to slash token costs.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6cwvn/stop_burning_your_opus_48_max_limits_use_this/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6cwvn/stop_burning_your_opus_48_max_limits_use_this/</guid>
+      <pubDate>Mon, 15 Jun 2026 10:39:24 GMT</pubDate>
+      <description>A user shares a prompt engineering technique to reduce token costs when using Claude Opus 4.8 Max by forcing ultra-concise, high-density output and leveraging sub-agents. | Impact: low | Signal: positive | Why included: This is a practical tip for users aiming to optimize their token usage with a specific Claude model, offering value to the community.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Why is text output from Fable so much easier to read than Opus?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6cv2y/why_is_text_output_from_fable_so_much_easier_to/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6cv2y/why_is_text_output_from_fable_so_much_easier_to/</guid>
+      <pubDate>Mon, 15 Jun 2026 10:36:51 GMT</pubDate>
+      <description>A user discusses the perceived difference in readability between Anthropic&apos;s Fable and Opus models, questioning if training data or reinforcement learning contributes to their distinct communication styles. | Impact: low | Signal: neutral | Why included: This is a user observation about model behavior, which, while interesting, is not a formal product announcement or industry-shifting event.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Finally - real full-text search across ALL your Claude chats, not just titles</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6byo8/finally_real_fulltext_search_across_all_your/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6byo8/finally_real_fulltext_search_across_all_your/</guid>
+      <pubDate>Mon, 15 Jun 2026 09:47:41 GMT</pubDate>
+      <description>A Chrome extension called &apos;AI Toolbox&apos; has been released, offering full-text search functionality across all Claude conversations, not just titles, with results highlighted and local data caching. | Impact: medium | Signal: positive | Why included: This is a significant new tool for Claude users, addressing a key usability issue of finding past conversations, enhancing the product&apos;s utility.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Upcoming Privacy Policy Changes</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u6bbk6/upcoming_privacy_policy_changes/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u6bbk6/upcoming_privacy_policy_changes/</guid>
+      <pubDate>Mon, 15 Jun 2026 09:09:59 GMT</pubDate>
+      <description>Anthropic&apos;s privacy policy updates include a clause for verification data, raising questions about mandatory identity verification and potential Fable restrictions for US citizens only. | Impact: medium | Signal: neutral | Why included: Privacy policy changes regarding verification data can impact user access and data handling practices, especially in light of regulatory actions.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude SDK and headless CLI usage now use a separate credit pool.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u68jl5/todays_the_day/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u68jl5/todays_the_day/</guid>
+      <pubDate>Mon, 15 Jun 2026 06:26:44 GMT</pubDate>
+      <description>Anthropic has updated its billing structure, now requiring a separate credit pool for Claude SDK and headless CLI usage, detailed in their support documentation. | Impact: medium | Signal: neutral | Why included: This change in how API usage is billed for SDK and CLI operations is important for developers integrating with Claude.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Senior Anthropic staffs are in Washington meeting White House officials to resolve the Fable 5 and Mythos dispute</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u5tax4/senior_anthropic_staffs_are_in_washington_meeting/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u5tax4/senior_anthropic_staffs_are_in_washington_meeting/</guid>
+      <pubDate>Sun, 14 Jun 2026 18:50:25 GMT</pubDate>
+      <description>Anthropic&apos;s senior staff are meeting with White House officials to address a dispute that led to the suspension of their top models, Mythos and Fable, following safety concerns cited by the Trump administration. | Impact: high | Signal: negative | Why included: This news highlights regulatory and governmental intervention in AI model deployment due to safety concerns, a critical development for the industry.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic’s fight with the federal government has become accidental marketing for Claude&apos;s IPO</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u5rmue/anthropics_fight_with_the_federal_government_has/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u5rmue/anthropics_fight_with_the_federal_government_has/</guid>
+      <pubDate>Sun, 14 Jun 2026 17:46:18 GMT</pubDate>
+      <description>A user speculates that Anthropic&apos;s dispute with the federal government over Fable and Mythos models may inadvertently boost Claude&apos;s IPO prospects by increasing public awareness. | Impact: low | Signal: neutral | Why included: This is a user&apos;s opinion piece on potential indirect marketing effects of regulatory issues, rather than a factual announcement.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Introducing the OpenAI Partner Network</title>
+      <link>https://openai.com/index/introducing-openai-partner-network</link>
+      <guid>https://openai.com/index/introducing-openai-partner-network</guid>
+      <pubDate>Sun, 14 Jun 2026 17:00:00 GMT</pubDate>
+      <description>OpenAI has launched the Partner Network with a $150 million investment aimed at assisting global partners in accelerating enterprise AI adoption, deployment, and transformation. | Impact: medium | Signal: positive | Why included: This announcement signifies OpenAI&apos;s strategic move to foster enterprise AI adoption through partnerships, backed by significant funding.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Fable 5 access restrictions might be a bigger deal than people realize</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1u5q8ih/fable_5_access_restrictions_might_be_a_bigger/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u5q8ih/fable_5_access_restrictions_might_be_a_bigger/</guid>
+      <pubDate>Sun, 14 Jun 2026 16:51:22 GMT</pubDate>
+      <description>The suspension of Fable 5 access due to a government directive could push users towards open-source models, as it highlights the potential for closed AI systems to be restricted unexpectedly by non-transparent reasons. | Impact: high | Signal: negative | Why included: This post discusses the implications of government-imposed access restrictions on frontier AI models, potentially influencing the adoption of open-source alternatives.</description>
+      <category>alerta</category>
+    </item>
+    <item>
       <title>How will the whole only US citizens even work out?</title>
       <link>https://www.reddit.com/r/ClaudeAI/comments/1u5g7fd/how_will_the_whole_only_us_citizens_even_work_out/</link>
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1u5g7fd/how_will_the_whole_only_us_citizens_even_work_out/</guid>
@@ -315,94 +403,6 @@
       <guid>https://simonwillison.net/2026/Jun/9/llm/#atom-everything</guid>
       <pubDate>Tue, 09 Jun 2026 22:27:03 GMT</pubDate>
       <description>A mention of version 0.32a3 of an LLM, likely indicating an update or release of a specific model version. | Impact: low | Signal: neutral | Why included: This is a low-impact item referencing a specific version of an LLM, likely a minor update or internal build.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Fable 5 includes safeguards and may fallback to Opus 4.8</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:50:59 GMT</pubDate>
-      <description>Claude Fable 5 has safeguards that may route requests related to cybersecurity, biology, chemistry, or distillation to Claude Opus 4.8. Anthropic states this occurs in less than 5% of sessions, but users in sensitive fields report 100% fallback. | Impact: high | Signal: negative | Why included: Significant limitations and potential for unexpected model downgrades impacting user experience and perceived value.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Anthropic SDK Python releases v2.1.170 for Claude Code, enabling Fable 5 access</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.170</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.170</guid>
-      <pubDate>Tue, 09 Jun 2026 17:23:09 GMT</pubDate>
-      <description>The Claude Code releases have updated to v2.1.170, providing access to Claude Fable 5 and fixing issues with saving transcripts. This update enables developers to utilize the new model. | Impact: medium | Signal: positive | Why included: SDK update that enables access to the newly released Claude Fable 5 model.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Introduces Claude Fable 5 and Mythos 5</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/</guid>
-      <pubDate>Tue, 09 Jun 2026 17:04:11 GMT</pubDate>
-      <description>Anthropic has launched Claude Fable 5, a safe version of their Mythos-class model, and Claude Mythos 5, with safeguards lifted, available to Glasswing partners. Fable 5 demonstrates state-of-the-art performance across benchmarks, particularly in vision and long-horizon reasoning. | Impact: medium | Signal: positive | Why included: New model release from a major player in the LLM space.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic SDK Python releases v0.108.0 with Fable 5 and Mythos 5 support</title>
-      <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0</link>
-      <guid>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.108.0</guid>
-      <pubDate>Tue, 09 Jun 2026 16:37:30 GMT</pubDate>
-      <description>The Anthropic SDK for Python has released version v0.108.0, adding support for Claude Mythos 5 and Claude Fable 5, including server-side fallback mechanisms for refusals. | Impact: medium | Signal: positive | Why included: SDK update supporting new model releases, indicating broader developer access and integration.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v2.1.169</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.169</guid>
-      <pubDate>Mon, 08 Jun 2026 21:57:18 GMT</pubDate>
-      <description>This release of Claude Code includes several new features like a --safe-mode flag for troubleshooting, a /cd command for changing directories mid-session, and a disableBundledSkills setting. It also addresses multiple bugs related to UI stalls, slow starts, remote control issues, and permission prompts, while improving reliability and reducing CPU usage. | Impact: medium | Signal: positive | Why included: This is a significant update to Anthropic&apos;s Claude Code, introducing new features and numerous bug fixes that improve usability and performance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Confidential submission of draft S-1 to the SEC</title>
-      <link>https://openai.com/index/openai-submits-confidential-s-1</link>
-      <guid>https://openai.com/index/openai-submits-confidential-s-1</guid>
-      <pubDate>Mon, 08 Jun 2026 14:00:00 GMT</pubDate>
-      <description>OpenAI has confirmed a confidential S-1 submission to the SEC, indicating progress towards a potential IPO. The timing for further actions has not yet been determined. | Impact: medium | Signal: positive | Why included: OpenAI&apos;s S-1 filing is a significant step towards becoming a public company, which will have major implications for the AI industry&apos;s investment landscape.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Skills for Real Engineers</title>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills</guid>
-      <pubDate>Mon, 08 Jun 2026 10:38:03 GMT</pubDate>
-      <description>A GitHub repository containing skills for real engineers, likely related to AI or software development. | Impact: low | Signal: neutral | Why included: This is a resource for engineers, potentially relevant to the AI/LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Tinytasktree – Behavior-tree-style task orchestration for LLM agents</title>
-      <link>https://github.com/orion-arm-ai/tinytasktree</link>
-      <guid>https://github.com/orion-arm-ai/tinytasktree</guid>
-      <pubDate>Mon, 08 Jun 2026 10:10:22 GMT</pubDate>
-      <description>Tinytasktree is a new tool for LLM agents that uses behavior-tree-style task orchestration. | Impact: medium | Signal: positive | Why included: This is a new tool specifically designed for LLM agents, indicating advancements in agent orchestration.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: Makememe – a meme CLI for your Claude Code</title>
-      <link>https://github.com/dhruvmehra/makememe</link>
-      <guid>https://github.com/dhruvmehra/makememe</guid>
-      <pubDate>Mon, 08 Jun 2026 10:02:46 GMT</pubDate>
-      <description>Makememe is a command-line interface tool that generates memes based on Claude Code. | Impact: low | Signal: positive | Why included: This is a niche tool for developers working with Claude Code, showcasing creative applications of LLMs.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI wants shopping in ChatGPT. Wassist raises $1.1M to keep it on WhatsApp</title>
-      <link>https://techfundingnews.com/openai-wants-shopping-in-chatgpt-wassist-raises-1-1m-to-keep-it-on-whatsapp/</link>
-      <guid>https://techfundingnews.com/openai-wants-shopping-in-chatgpt-wassist-raises-1-1m-to-keep-it-on-whatsapp/</guid>
-      <pubDate>Mon, 08 Jun 2026 10:00:32 GMT</pubDate>
-      <description>Wassist has raised $1.1 million to integrate AI chat capabilities into WhatsApp, while OpenAI aims to bring shopping features to ChatGPT. | Impact: medium | Signal: positive | Why included: This news highlights strategic moves by OpenAI to expand ChatGPT&apos;s functionality and a funding round for a competitor in the AI messaging space.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Use Neovim with Claude Code</title>
-      <link>https://github.com/NishantJoshi00/sidekick</link>
-      <guid>https://github.com/NishantJoshi00/sidekick</guid>
-      <pubDate>Mon, 08 Jun 2026 09:44:59 GMT</pubDate>
-      <description>A GitHub repository demonstrating how to use Neovim with Claude Code. | Impact: low | Signal: positive | Why included: This is a development integration demonstrating expanded tooling for working with Claude Code.</description>
       <category>novedad</category>
     </item>
   </channel>
