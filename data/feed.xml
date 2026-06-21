@@ -6,6 +6,110 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Can Claude actually build 3D scenes in Spline, Blender, or Three.js? Has anyone used it for real projects?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubm6m5/can_claude_actually_build_3d_scenes_in_spline/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubm6m5/can_claude_actually_build_3d_scenes_in_spline/</guid>
+      <pubDate>Sun, 21 Jun 2026 10:00:43 GMT</pubDate>
+      <description>A user inquires about Claude&apos;s capability to create 3D scenes using tools like Spline, Blender, and Three.js, seeking real-world project examples. | Impact: low | Signal: neutral | Why included: This is a low-impact query about Claude&apos;s specific capabilities in 3D development, seeking user experiences.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Official: Anthropic to Require Identity Verification for Certain Capabilities Starting July 8, 2026</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/</guid>
+      <pubDate>Sun, 21 Jun 2026 09:58:14 GMT</pubDate>
+      <description>Anthropic will begin requiring identity verification, handled by Persona, for certain capabilities starting July 8, 2026, a move that follows concerns about Persona&apos;s past data exposure. | Impact: high | Signal: neutral | Why included: This represents a significant policy change impacting user access and data privacy, with potential high impact on user adoption and trust.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Hit your Claude session limit?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubj3fw/hit_your_claude_session_limit/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubj3fw/hit_your_claude_session_limit/</guid>
+      <pubDate>Sun, 21 Jun 2026 06:52:48 GMT</pubDate>
+      <description>A user shares a prompt to help bypass Claude session limits by creating a summary for ChatGPT. | Impact: low | Signal: neutral | Why included: This is a low-impact tip for users experiencing Claude session limits, offering a workaround.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Desktop vs Claude CLI</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubiulc/claude_code_desktop_vs_claude_cli/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubiulc/claude_code_desktop_vs_claude_cli/</guid>
+      <pubDate>Sun, 21 Jun 2026 06:38:04 GMT</pubDate>
+      <description>A user is seeking clarification on the advantages of using the Claude CLI over the Claude desktop app, questioning potential differences in power or functionality. | Impact: low | Signal: neutral | Why included: This is a low-impact question about user interface and functionality differences between two Claude access methods.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>NSA Chief Says Anthropic&apos;s Mythos Broke Into Nearly All Classified Systems in Hours</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubibvk/nsa_chief_says_anthropics_mythos_broke_into/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubibvk/nsa_chief_says_anthropics_mythos_broke_into/</guid>
+      <pubDate>Sun, 21 Jun 2026 06:07:30 GMT</pubDate>
+      <description>The NSA Chief reported that Anthropic&apos;s Mythos AI model breached almost all classified US government systems within hours, highlighting a significant security concern. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to a potential severe security vulnerability with significant national security implications.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>NSA says Mythos broke into almost all of their classified systems in hours, per The Economist</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubgh32/nsa_says_mythos_broke_into_almost_all_of_their/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubgh32/nsa_says_mythos_broke_into_almost_all_of_their/</guid>
+      <pubDate>Sun, 21 Jun 2026 04:22:56 GMT</pubDate>
+      <description>According to The Economist and a tweet referencing an article, the NSA has stated that Anthropic&apos;s Mythos AI model successfully infiltrated nearly all of their classified systems in a matter of hours. | Impact: high | Signal: negative | Why included: This confirms a critical security breach with Anthropic&apos;s Mythos AI, posing a high-impact threat.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>The biggest lie in human history? Claude says, &quot;I&apos;ll pull out&quot; is a contender.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ube6zr/the_biggest_lie_in_human_history_claude_says_ill/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ube6zr/the_biggest_lie_in_human_history_claude_says_ill/</guid>
+      <pubDate>Sun, 21 Jun 2026 02:22:36 GMT</pubDate>
+      <description>A humorous observation about Claude&apos;s response to a philosophical question, suggesting a witty or unexpected output. | Impact: low | Signal: neutral | Why included: This is a low-impact anecdotal post about an interesting or amusing AI response from Claude.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Why doesn’t Claude have an image generation tool like ChatGPT?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubda9f/why_doesnt_claude_have_an_image_generation_tool/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubda9f/why_doesnt_claude_have_an_image_generation_tool/</guid>
+      <pubDate>Sun, 21 Jun 2026 01:35:32 GMT</pubDate>
+      <description>A user questions why Claude lacks an image generation tool, unlike ChatGPT, and expresses a desire for this capability. | Impact: low | Signal: neutral | Why included: This is a low-impact discussion about a feature gap between Claude and ChatGPT, reflecting user expectations.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>unslop-ui (v2): a Claude skill that flags and removes the design patterns that make a website look AI-generated. (Part 2)</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubc02m/unslopui_v2_a_claude_skill_that_flags_and_removes/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubc02m/unslopui_v2_a_claude_skill_that_flags_and_removes/</guid>
+      <pubDate>Sun, 21 Jun 2026 00:30:38 GMT</pubDate>
+      <description>The second version of unslop-ui, a Claude skill designed to identify and remove AI-generated design patterns from websites, has been released after incorporating user feedback. | Impact: medium | Signal: positive | Why included: This is a medium-impact update to a specific Claude skill, demonstrating ongoing development for custom AI applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>What’s your most-used Claude prompt that you can’t live without?</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ub7lxv/whats_your_mostused_claude_prompt_that_you_cant/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ub7lxv/whats_your_mostused_claude_prompt_that_you_cant/</guid>
+      <pubDate>Sat, 20 Jun 2026 21:09:04 GMT</pubDate>
+      <description>A discussion on Reddit asking users to share their most essential Claude prompts. | Impact: low | Signal: neutral | Why included: This is a low-impact community discussion providing insights into user prompt engineering for Claude.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>CCSwitch: An open-source tool for managing multiple Claude accounts</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ub4fxx/ccswitch/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ub4fxx/ccswitch/</guid>
+      <pubDate>Sat, 20 Jun 2026 18:56:11 GMT</pubDate>
+      <description>CCSwitch is a new open-source tool designed to help users more smoothly manage and switch between multiple Claude accounts, especially to avoid usage limits. | Impact: medium | Signal: positive | Why included: This is a medium-impact release of a new open-source tool that addresses a specific user pain point for Claude users.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude to Require Face ID</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1uawyi0/claude_to_require_face_id/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1uawyi0/claude_to_require_face_id/</guid>
+      <pubDate>Sat, 20 Jun 2026 13:42:14 GMT</pubDate>
+      <description>Starting July 8th, Claude will require users to provide state ID and a live selfie for certain features, with data managed by a controversial third party previously used by Discord. | Impact: high | Signal: neutral | Why included: This is a high-impact alert due to the mandatory identity verification impacting user privacy and data security, similar to the previous alert.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Trump on Anthropic, CEO Dario and AI National Security</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1uat4bc/trump_on_anthropic_ceo_dario_and_ai_national/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1uat4bc/trump_on_anthropic_ceo_dario_and_ai_national/</guid>
+      <pubDate>Sat, 20 Jun 2026 10:24:08 GMT</pubDate>
+      <description>In a recent interview, Donald Trump discussed Anthropic, its CEO Dario Amodei, and the national security implications of AI, also touching on potential regulation. | Impact: medium | Signal: neutral | Why included: This is a medium-impact news item as a prominent political figure discusses Anthropic and AI&apos;s national security implications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Gemini Deep Research now available in preview</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -300,110 +404,6 @@
       <pubDate>Fri, 19 Jun 2026 09:01:02 GMT</pubDate>
       <description>This post explains that the perceived &apos;dumbness&apos; of Claude Code is often due to &apos;context rot&apos; within its limited context window, rather than the model itself, and suggests strategies for managing context. | Impact: medium | Signal: neutral | Why included: Provides valuable insights into optimizing LLM performance by understanding and managing context, a critical aspect for practical agent development.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>How to Drive an LLM</title>
-      <link>https://home.robusta.dev/blog/how-to-drive-an-llm</link>
-      <guid>https://home.robusta.dev/blog/how-to-drive-an-llm</guid>
-      <pubDate>Fri, 19 Jun 2026 08:40:45 GMT</pubDate>
-      <description>A blog post explaining how to effectively &apos;drive&apos; or control an LLM, likely focusing on prompt engineering or agentic workflows. | Impact: low | Signal: neutral | Why included: This is an informative blog post on LLM control, useful for understanding practical applications and prompt engineering techniques.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>What &apos;Getting Your Hands Dirty&apos; Means at LLM-Era</title>
-      <link>https://carette.xyz/posts/the_mud_and_the_mind/</link>
-      <guid>https://carette.xyz/posts/the_mud_and_the_mind/</guid>
-      <pubDate>Fri, 19 Jun 2026 08:33:50 GMT</pubDate>
-      <description>A blog post reflecting on the practical, hands-on aspects of working in the LLM era, potentially discussing the realities beyond theoretical advancements. | Impact: low | Signal: neutral | Why included: Provides commentary on the practical implications and experiences of working within the LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Artifacts</title>
-      <link>https://claude.com/blog/artifacts-in-claude-code</link>
-      <guid>https://claude.com/blog/artifacts-in-claude-code</guid>
-      <pubDate>Fri, 19 Jun 2026 08:23:37 GMT</pubDate>
-      <description>Anthropic announces &apos;Artifacts&apos; for Claude Code, a feature that allows users to build and share interactive pages from their sessions. | Impact: medium | Signal: positive | Why included: A new feature from Anthropic that enhances collaboration and output sharing for Claude Code users.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: One-click fork of &quot;Everything Claude Code&quot; onto an isolated microVM</title>
-      <link>https://www.jurniti.com/templates/ecc</link>
-      <guid>https://www.jurniti.com/templates/ecc</guid>
-      <pubDate>Fri, 19 Jun 2026 08:22:14 GMT</pubDate>
-      <description>A project offering a one-click fork of &apos;Everything Claude Code&apos; onto an isolated microVM, simplifying the setup and deployment of Claude Code environments. | Impact: low | Signal: positive | Why included: Simplifies the setup and isolation of Claude Code environments, potentially making it more accessible for testing and development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Invests $150 Million To Launch 1,000 Claude Corps Fellowships</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1u9v4c9/anthropic_invests_150_million_to_launch_1000/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u9v4c9/anthropic_invests_150_million_to_launch_1000/</guid>
-      <pubDate>Fri, 19 Jun 2026 07:15:50 GMT</pubDate>
-      <description>Anthropic is investing $150 million to establish 1,000 Claude Corps Fellowships, aiming to expand AI talent and accessibility. | Impact: medium | Signal: positive | Why included: Significant investment in AI talent development and education by a major AI company.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code and Codex as one pipeline</title>
-      <link>https://www.unsiloed.ai/blog/guides/claude-code-codex-one-pipeline</link>
-      <guid>https://www.unsiloed.ai/blog/guides/claude-code-codex-one-pipeline</guid>
-      <pubDate>Fri, 19 Jun 2026 06:51:56 GMT</pubDate>
-      <description>A guide on integrating Claude Code and Codex into a single pipeline, likely for enhancing coding workflows by leveraging the strengths of both. | Impact: medium | Signal: positive | Why included: Demonstrates effective integration strategies between different AI coding assistants, showcasing advancements in workflow optimization.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>My suitcase robot gets high off a real gas sensor wired into the LLM sampler</title>
-      <link>https://old.reddit.com/r/LocalLLaMA/comments/1u9a17y/my_suitcase_robot_gets_high_now_off_a_real_gas/</link>
-      <guid>https://old.reddit.com/r/LocalLLaMA/comments/1u9a17y/my_suitcase_robot_gets_high_now_off_a_real_gas/</guid>
-      <pubDate>Fri, 19 Jun 2026 06:39:48 GMT</pubDate>
-      <description>A creative project where a suitcase robot uses a real gas sensor connected to an LLM sampler, likely for experimental data input or control. | Impact: low | Signal: neutral | Why included: An interesting, albeit niche, project showcasing unconventional integration of sensors with LLMs for robotic applications.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The comfortable slow boil of LLM assisted coding</title>
-      <link>https://01max.io/blog/a-comfortable-slow-boil/</link>
-      <guid>https://01max.io/blog/a-comfortable-slow-boil/</guid>
-      <pubDate>Fri, 19 Jun 2026 05:52:02 GMT</pubDate>
-      <description>A blog post reflecting on the gradual adoption and integration of LLM-assisted coding, possibly discussing its impact on developer workflows and productivity. | Impact: low | Signal: neutral | Why included: Offers a perspective on the ongoing integration of LLMs in software development, touching on the practical aspects of adoption.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u9sq81/about_200_companies_still_have_access_to/</guid>
-      <pubDate>Fri, 19 Jun 2026 05:02:29 GMT</pubDate>
-      <description>Approximately 200 organizations participating in Anthropic&apos;s Project Glasswing continue to have access to the Mythos Preview, even after a US government order halted broader access to Fable and Mythos. | Impact: medium | Signal: neutral | Why included: This details ongoing regulatory and access issues surrounding specific Anthropic models, impacting a significant number of partner companies.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>White House talks with Anthropic shift to setting AI security rules</title>
-      <link>https://www.politico.com/news/2026/06/18/white-house-talks-with-anthropic-shift-to-setting-ai-security-rules-00967758</link>
-      <guid>https://www.politico.com/news/2026/06/18/white-house-talks-with-anthropic-shift-to-setting-ai-security-rules-00967758</guid>
-      <pubDate>Fri, 19 Jun 2026 04:54:19 GMT</pubDate>
-      <description>The White House is reportedly shifting its discussions with Anthropic towards establishing rules for AI safety and security. | Impact: medium | Signal: neutral | Why included: Regulatory discussions between government bodies and leading AI companies are crucial for industry development.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>unslop-ui: a Claude skill that flags and removes the design patterns that make a website look AI-generated.</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1u9sgj3/unslopui_a_claude_skill_that_flags_and_removes/</guid>
-      <pubDate>Fri, 19 Jun 2026 04:48:36 GMT</pubDate>
-      <description>A new Claude skill called unslop-ui identifies and removes common design patterns that make websites look AI-generated, based on analysis of millions of posts. | Impact: medium | Signal: positive | Why included: This showcases a practical application of LLMs for improving AI-generated content quality and user experience by identifying and mitigating overused design patterns.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: A/B testing LLM silence with one system-prompt toggle</title>
-      <link>https://twitter.com/RayanPal_/status/2067816563995189631</link>
-      <guid>https://twitter.com/RayanPal_/status/2067816563995189631</guid>
-      <pubDate>Fri, 19 Jun 2026 04:33:16 GMT</pubDate>
-      <description>A &apos;Show HN&apos; project demonstrating A/B testing of LLM &apos;silence&apos; (likely response filtering or refusal behavior) controlled by a single system prompt toggle. | Impact: medium | Signal: positive | Why included: Presents a practical method for controlling and evaluating LLM behavior related to content filtering or refusal, a key area for responsible AI.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Low-skilled attacker used Claude, Codex to breach 14 companies</title>
-      <link>https://www.helpnetsecurity.com/2026/06/17/ai-agents-offensive-cyber-operations-claude-codex/</link>
-      <guid>https://www.helpnetsecurity.com/2026/06/17/ai-agents-offensive-cyber-operations-claude-codex/</guid>
-      <pubDate>Fri, 19 Jun 2026 04:11:07 GMT</pubDate>
-      <description>A report indicates that a low-skilled attacker was able to breach 14 companies by leveraging Claude and Codex AI tools for offensive cyber operations. | Impact: high | Signal: negative | Why included: This highlights a significant security risk where AI tools are being used for malicious purposes, demonstrating a new attack vector.</description>
-      <category>alerta</category>
     </item>
   </channel>
 </rss>

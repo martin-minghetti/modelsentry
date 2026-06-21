@@ -1,5 +1,236 @@
 [
   {
+    "title": "Can Claude actually build 3D scenes in Spline, Blender, or Three.js? Has anyone used it for real projects?",
+    "summary": "A user inquires about Claude's capability to create 3D scenes using tools like Spline, Blender, and Three.js, seeking real-world project examples.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Spline",
+      "Blender",
+      "Three.js"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact query about Claude's specific capabilities in 3D development, seeking user experiences.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubm6m5/can_claude_actually_build_3d_scenes_in_spline/",
+    "published_at": "2026-06-21T10:00:43.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Official: Anthropic to Require Identity Verification for Certain Capabilities Starting July 8, 2026",
+    "summary": "Anthropic will begin requiring identity verification, handled by Persona, for certain capabilities starting July 8, 2026, a move that follows concerns about Persona's past data exposure.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Persona"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "July 8, 2026"
+    ],
+    "signal": "neutral",
+    "impact": "high",
+    "why_included": "This represents a significant policy change impacting user access and data privacy, with potential high impact on user adoption and trust.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
+    "published_at": "2026-06-21T09:58:14.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Hit your Claude session limit?",
+    "summary": "A user shares a prompt to help bypass Claude session limits by creating a summary for ChatGPT.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact tip for users experiencing Claude session limits, offering a workaround.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubj3fw/hit_your_claude_session_limit/",
+    "published_at": "2026-06-21T06:52:48.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Code Desktop vs Claude CLI",
+    "summary": "A user is seeking clarification on the advantages of using the Claude CLI over the Claude desktop app, questioning potential differences in power or functionality.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code Desktop",
+      "Claude CLI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact question about user interface and functionality differences between two Claude access methods.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubiulc/claude_code_desktop_vs_claude_cli/",
+    "published_at": "2026-06-21T06:38:04.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "NSA Chief Says Anthropic's Mythos Broke Into Nearly All Classified Systems in Hours",
+    "summary": "The NSA Chief reported that Anthropic's Mythos AI model breached almost all classified US government systems within hours, highlighting a significant security concern.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Mythos",
+      "NSA"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to a potential severe security vulnerability with significant national security implications.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubibvk/nsa_chief_says_anthropics_mythos_broke_into/",
+    "published_at": "2026-06-21T06:07:30.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "NSA says Mythos broke into almost all of their classified systems in hours, per The Economist",
+    "summary": "According to The Economist and a tweet referencing an article, the NSA has stated that Anthropic's Mythos AI model successfully infiltrated nearly all of their classified systems in a matter of hours.",
+    "category": "alerta",
+    "entities": [
+      "NSA",
+      "Mythos",
+      "Anthropic",
+      "The Economist"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This confirms a critical security breach with Anthropic's Mythos AI, posing a high-impact threat.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubgh32/nsa_says_mythos_broke_into_almost_all_of_their/",
+    "published_at": "2026-06-21T04:22:56.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "The biggest lie in human history? Claude says, \"I'll pull out\" is a contender.",
+    "summary": "A humorous observation about Claude's response to a philosophical question, suggesting a witty or unexpected output.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact anecdotal post about an interesting or amusing AI response from Claude.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ube6zr/the_biggest_lie_in_human_history_claude_says_ill/",
+    "published_at": "2026-06-21T02:22:36.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Why doesn’t Claude have an image generation tool like ChatGPT?",
+    "summary": "A user questions why Claude lacks an image generation tool, unlike ChatGPT, and expresses a desire for this capability.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact discussion about a feature gap between Claude and ChatGPT, reflecting user expectations.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubda9f/why_doesnt_claude_have_an_image_generation_tool/",
+    "published_at": "2026-06-21T01:35:32.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "unslop-ui (v2): a Claude skill that flags and removes the design patterns that make a website look AI-generated. (Part 2)",
+    "summary": "The second version of unslop-ui, a Claude skill designed to identify and remove AI-generated design patterns from websites, has been released after incorporating user feedback.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "unslop-ui"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact update to a specific Claude skill, demonstrating ongoing development for custom AI applications.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ubc02m/unslopui_v2_a_claude_skill_that_flags_and_removes/",
+    "published_at": "2026-06-21T00:30:38.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "What’s your most-used Claude prompt that you can’t live without?",
+    "summary": "A discussion on Reddit asking users to share their most essential Claude prompts.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact community discussion providing insights into user prompt engineering for Claude.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ub7lxv/whats_your_mostused_claude_prompt_that_you_cant/",
+    "published_at": "2026-06-20T21:09:04.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "CCSwitch: An open-source tool for managing multiple Claude accounts",
+    "summary": "CCSwitch is a new open-source tool designed to help users more smoothly manage and switch between multiple Claude accounts, especially to avoid usage limits.",
+    "category": "novedad",
+    "entities": [
+      "CCSwitch",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact release of a new open-source tool that addresses a specific user pain point for Claude users.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ub4fxx/ccswitch/",
+    "published_at": "2026-06-20T18:56:11.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude to Require Face ID",
+    "summary": "Starting July 8th, Claude will require users to provide state ID and a live selfie for certain features, with data managed by a controversial third party previously used by Discord.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Discord",
+      "Persona"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "July 8th"
+    ],
+    "signal": "neutral",
+    "impact": "high",
+    "why_included": "This is a high-impact alert due to the mandatory identity verification impacting user privacy and data security, similar to the previous alert.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1uawyi0/claude_to_require_face_id/",
+    "published_at": "2026-06-20T13:42:14.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Trump on Anthropic, CEO Dario and AI National Security",
+    "summary": "In a recent interview, Donald Trump discussed Anthropic, its CEO Dario Amodei, and the national security implications of AI, also touching on potential regulation.",
+    "category": "novedad",
+    "entities": [
+      "Trump",
+      "Anthropic",
+      "Dario Amodei",
+      "AI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a medium-impact news item as a prominent political figure discusses Anthropic and AI's national security implications.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1uat4bc/trump_on_anthropic_ceo_dario_and_ai_national/",
+    "published_at": "2026-06-20T10:24:08.000Z",
+    "confidence": 1
+  },
+  {
     "title": "Gemini Deep Research now available in preview",
     "summary": "The Gemini Deep Research feature is now available in preview, offering collaborative planning, visualization, and MCP support.",
     "category": "novedad",
@@ -7168,314 +7399,5 @@
     "source_url": "https://github.com/1dg618/fakellm",
     "published_at": "2026-05-22T15:53:57.000Z",
     "confidence": 0.85
-  },
-  {
-    "title": "Microsoft reportedly cancelling Claude internally due to cost",
-    "summary": "A report suggests Microsoft is canceling internal use of Anthropic's Claude models due to high costs, indicating a potential concern about the economic viability of certain LLM deployments.",
-    "category": "alerta",
-    "entities": [
-      "Microsoft",
-      "Claude",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This signals potential cost-related issues for LLM adoption at enterprise scale.",
-    "source_url": "http://www.thelowdownblog.com/2026/05/microsoft-cancels-internal-anthropic.html",
-    "published_at": "2026-05-22T09:21:24.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Fixing LLM Writing with Distribution Fine Tuning",
-    "summary": "This article discusses a method for improving LLM writing quality by using distribution fine tuning, a technique that aims to correct skewed outputs and enhance general performance.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This offers a technical insight into improving LLM output quality.",
-    "source_url": "https://rosmine.ai/2026/05/18/fixing-llm-writing-with-distribution-fine-tuning/",
-    "published_at": "2026-05-22T06:17:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Spec-Driven Development Workflow for Claude Code",
-    "summary": "A new 'Show HN' submission introduces a spec-driven development workflow for Claude Code, emphasizing decomposition, context clearing, and delivering specs layer by layer to improve cost and performance.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This showcases a novel workflow for using Claude Code to improve development efficiency.",
-    "source_url": "https://news.ycombinator.com/item?id=48231575",
-    "published_at": "2026-05-22T03:17:38.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Cross-Model Context Inheritance in Anthropic's Claude: 94 Days of Non-Response",
-    "summary": "This GitHub issue details a problem related to cross-model context inheritance in Anthropic's Claude, highlighting a prolonged period of non-response.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "94 Days"
-    ],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This points to potential issues with context handling and customer support for Anthropic's Claude models.",
-    "source_url": "https://github.com/AIM-Nelson/cross-model-context-inheritance",
-    "published_at": "2026-05-22T02:55:24.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "FreeLLMAPI – One key. One billion free LLM tokens. Every month",
-    "summary": "FreeLLMAPI offers access to one billion free LLM tokens per month with a single key, providing a generous free tier for LLM access.",
-    "category": "novedad",
-    "entities": [
-      "FreeLLMAPI",
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "One billion",
-      "Every month"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This offers a significant free tier for LLM access, potentially lowering barriers to entry for developers.",
-    "source_url": "https://tashfeenahmed.github.io/freellmapi/",
-    "published_at": "2026-05-22T02:23:50.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-    "summary": "OpenAI has been recognized as a leader in enterprise coding agents by Gartner, with Codex being highlighted for its innovation and enterprise-scale deployment.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Gartner",
-      "Codex"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a positive industry recognition for OpenAI, indicating strong market positioning in enterprise coding agents.",
-    "source_url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-    "published_at": "2026-05-22T00:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code v2.1.147 Release Notes",
-    "summary": "Anthropic released Claude Code v2.1.147 with significant updates including persistent background sessions, renamed slash commands (/code-review), improved auto-updater, and various bug fixes for enhanced functionality and stability.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Anthropic"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "v2.1.147"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant update to a key AI coding tool, introducing new features and fixing numerous bugs.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
-    "published_at": "2026-05-21T23:54:18.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Ask HN: What happens when you intercept and modify Claude Code's system prompt?",
-    "summary": "A Hacker News discussion explores the effects of intercepting and modifying the system prompt for Claude Code, posing questions about potential system behavior and vulnerabilities.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This probes into the behavior and potential manipulation of LLM system prompts.",
-    "source_url": "https://news.ycombinator.com/item?id=48230172",
-    "published_at": "2026-05-21T23:46:32.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Codex got better, codex might be built with Claude Opus",
-    "summary": "A discussion on Hacker News speculates that Codex's recent improvements might be due to its development utilizing Claude Opus, raising questions about cross-model influence in LLM development.",
-    "category": "novedad",
-    "entities": [
-      "Codex",
-      "Claude Opus"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This raises interesting questions about potential cross-pollination and development practices between different LLM providers.",
-    "source_url": "https://news.ycombinator.com/item?id=48230097",
-    "published_at": "2026-05-21T23:36:31.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "AdventHealth advances whole-person care with OpenAI",
-    "summary": "AdventHealth is partnering with OpenAI to enhance whole-person care, indicating the application of AI in the healthcare sector for improved patient outcomes.",
-    "category": "novedad",
-    "entities": [
-      "AdventHealth",
-      "OpenAI"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This signifies a growing trend of AI adoption in healthcare for improved services.",
-    "source_url": "https://openai.com/index/adventhealth",
-    "published_at": "2026-05-21T23:02:47.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "LLM for automating scientific discovery [pdf]",
-    "summary": "This PDF discusses the use of Large Language Models (LLMs) for automating scientific discovery, highlighting potential advancements in research methodologies.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This explores the potential of LLMs to accelerate scientific research.",
-    "source_url": "https://www.nature.com/articles/s41586-026-10652-y_reference.pdf",
-    "published_at": "2026-05-21T22:56:51.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "We built an agent for CI despite using Claude Code for everything else",
-    "summary": "This article details the process of building an agent for CI (Continuous Integration) even while heavily relying on Claude Code for other tasks, suggesting a need for specialized agents or workflows.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides insight into practical agent development and integration challenges.",
-    "source_url": "https://www.mendral.com/blog/how-we-built-our-ai-agent",
-    "published_at": "2026-05-21T22:31:08.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "An LLM on a Sony PSP",
-    "summary": "This post explores the fascinating concept of running a Large Language Model (LLM) on a Sony PSP, demonstrating the potential for highly efficient and portable AI.",
-    "category": "novedad",
-    "entities": [
-      "LLM",
-      "Sony PSP"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This highlights the innovation in making LLMs run on highly constrained hardware.",
-    "source_url": "https://granda.org/en/2026/05/16/an-llm-on-a-sony-psp/",
-    "published_at": "2026-05-21T22:10:34.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "New Talk: From LLM Wikis to LLM Artifacts",
-    "summary": "A new talk explores the evolution from LLM Wikis to LLM Artifacts, suggesting a shift in how LLM-generated content is conceptualized and utilized.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This indicates a conceptual development in the LLM field regarding content and output.",
-    "source_url": "https://academy.dair.ai/events/cmovobp97000904l5h0n9a2yz",
-    "published_at": "2026-05-21T21:06:41.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "When Dawkins met Claude. Could this AI be conscious?",
-    "summary": "This article discusses a philosophical exploration of AI consciousness, referencing Richard Dawkins and Anthropic's Claude, touching on the intersection of AI capabilities and consciousness.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This delves into the philosophical implications of advanced LLMs and the debate around AI consciousness.",
-    "source_url": "https://unherd.com/2026/05/is-ai-the-next-phase-of-evolution/",
-    "published_at": "2026-05-21T20:58:32.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Agent CRM: Headless CRM for Claude and Codex",
-    "summary": "This GitHub project introduces Agent CRM, a headless CRM designed for use with Claude and Codex, offering a specialized tool for managing AI interactions.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Codex"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This showcases a new tool for managing AI interactions, specifically for Claude and Codex.",
-    "source_url": "https://github.com/cluster-software/agent-crm",
-    "published_at": "2026-05-21T20:57:16.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI and 1Password Bring Agentic Security to Codex",
-    "summary": "OpenAI and 1Password are collaborating to integrate agentic security features into Codex, enhancing the security capabilities of the coding model.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "1Password",
-      "Codex"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This partnership aims to improve the security aspects of AI coding tools.",
-    "source_url": "https://www.forbes.com/sites/timkeary/2026/05/19/openai-and-1password-bring-password-security-to-codex/",
-    "published_at": "2026-05-21T20:56:51.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "The LLM never writes the query: declarative search layer over sensitive records",
-    "summary": "This article proposes a declarative search layer over sensitive records where the LLM does not directly write the query, offering a new approach to data interaction and security.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This suggests a novel method for secure and declarative data querying using LLMs.",
-    "source_url": "https://judes.club/writing/the-llm-never-writes-the-query/",
-    "published_at": "2026-05-21T20:26:27.000Z",
-    "confidence": 0.9
   }
 ]
