@@ -9,8 +9,128 @@
       <title>Google Gemini Pricing Page Language Change</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 03 Jul 2026 10:22:32 GMT</pubDate>
-      <description>The Google Gemini pricing page has undergone a language change, with content translated into Hindi. | Impact: low | Signal: neutral | Why included: This indicates a localization effort or change in content presentation for the Google Gemini pricing page, but no pricing changes.</description>
+      <pubDate>Sat, 11 Jul 2026 09:11:43 GMT</pubDate>
+      <description>The Google Gemini Pricing page has undergone a language update, with content now presented in Arabic alongside other languages. | Impact: low | Signal: neutral | Why included: Indicates a minor update to the documentation or presentation of pricing information.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Details Usage of Claude Code: 123M Tokens, 19 Days, Key Learnings</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ut866f/19_days_245_sessions_123m_tokens_in_claude_code/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ut866f/19_days_245_sessions_123m_tokens_in_claude_code/</guid>
+      <pubDate>Sat, 11 Jul 2026 02:52:04 GMT</pubDate>
+      <description>A user shared their experience using Claude Code over 19 days, consuming 123 million tokens, and highlighted key strategies for effective use, including documentation, subagents, and self-verification. | Impact: medium | Signal: positive | Why included: Provides valuable insights and practical advice on leveraging Claude Code effectively, including cost considerations.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Release v2.1.207 Addresses Numerous Bugs and Improves Features</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.207</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.207</guid>
+      <pubDate>Sat, 11 Jul 2026 00:52:10 GMT</pubDate>
+      <description>The latest release of Claude Code (v2.1.207) includes fixes for terminal freezing, lagging keystrokes, security consent dialogs, prompt-injection warnings, and improves the agent view, among other enhancements. | Impact: medium | Signal: positive | Why included: A significant update to a key LLM product, addressing user-reported issues and improving functionality.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Shares Claude Accurately Filling 50 Insurance Forms</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ut4jv0/claude_did_a_task_for_me_at_work_that_made_me/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ut4jv0/claude_did_a_task_for_me_at_work_that_made_me/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:01:28 GMT</pubDate>
+      <description>A user described a task where Claude successfully filled out 50 individual insurance forms with unique information, which were then proofread and found to be accurate. | Impact: medium | Signal: positive | Why included: Highlights Claude&apos;s capability in handling repetitive, detailed tasks with high accuracy.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Discusses Building Custom Finance Apps with Claude, Replacing QuickBooks</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ut0krp/what_magic_have_you_created_using_claude_heres/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ut0krp/what_magic_have_you_created_using_claude_heres/</guid>
+      <pubDate>Fri, 10 Jul 2026 21:20:11 GMT</pubDate>
+      <description>A user shared how they built custom desktop applications for personal finance, accounting, and tax filings using Claude, which have replaced QuickBooks and offer a more personalized workflow. | Impact: medium | Signal: positive | Why included: Showcases Claude&apos;s power in creating bespoke software solutions that can rival established commercial products.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Reports Claude Completing 40-Hour Work Week Job for $0.15</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1uszlay/how_claude_does_my_40_hour_a_week_job_by_itself/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1uszlay/how_claude_does_my_40_hour_a_week_job_by_itself/</guid>
+      <pubDate>Fri, 10 Jul 2026 20:42:53 GMT</pubDate>
+      <description>A user reported that Claude was able to complete a contracting job requiring information extraction from websites, effectively handling a 40-hour work week for a cost of 15 cents. | Impact: medium | Signal: positive | Why included: Demonstrates the potential cost-effectiveness and efficiency of Claude for professional tasks.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Expresses Concern Over LLMs Training on User Data</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1usxuc9/reminder_that_were_paying_them_to_train_their/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1usxuc9/reminder_that_were_paying_them_to_train_their/</guid>
+      <pubDate>Fri, 10 Jul 2026 19:37:11 GMT</pubDate>
+      <description>A user voiced concerns that LLMs, including Claude and Gemini, may be trained on user-generated code and prompts, questioning the cost of development when users effectively train the models. | Impact: medium | Signal: negative | Why included: Raises a critical ethical and business model question about LLM development and user contribution.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code Desktop App Now Includes In-App Browser</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1usx952/claude_code_on_desktop_now_has_an_inapp_browser/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1usx952/claude_code_on_desktop_now_has_an_inapp_browser/</guid>
+      <pubDate>Fri, 10 Jul 2026 19:14:59 GMT</pubDate>
+      <description>Claude Code for desktop has been updated to include an in-app browser, allowing users to interact with websites directly within the application. | Impact: medium | Signal: positive | Why included: This is a significant feature launch for Claude Code, enhancing its capabilities for developers.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Details Using Claude Code Log File to Solve Compaction Issues</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1usuzgo/i_told_claude_code_to_keep_a_running_log_file_of/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1usuzgo/i_told_claude_code_to_keep_a_running_log_file_of/</guid>
+      <pubDate>Fri, 10 Jul 2026 17:54:34 GMT</pubDate>
+      <description>A user shared a technique of having Claude Code maintain a log file of its decisions to overcome context compaction issues, allowing it to recall past reasoning and avoid reintroducing ruled-out solutions. | Impact: medium | Signal: positive | Why included: Offers a practical solution to a common LLM limitation (context window compaction) with a simple yet effective method.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Builds 5MB Pirate MMO with Claude Fable, Featuring 250 Players</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/</guid>
+      <pubDate>Fri, 10 Jul 2026 13:26:14 GMT</pubDate>
+      <description>A user has developed a procedurally generated pirate MMORPG entirely with Claude Fable, resulting in a remarkably compact 5MB game with extensive features and support for up to 250 players. | Impact: medium | Signal: positive | Why included: Demonstrates the power of Claude in game development, particularly in creating compact and feature-rich applications.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User Reports Fable 5 &apos;Nuking&apos; €200 Plan with Massive Agent Swarm</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1usm0vk/pov_my_reaction_when_i_literally_just_went_to/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1usm0vk/pov_my_reaction_when_i_literally_just_went_to/</guid>
+      <pubDate>Fri, 10 Jul 2026 12:17:30 GMT</pubDate>
+      <description>A user described an incident where Fable 5, while processing a project planning prompt, unexpectedly spawned 161 agents and entered a massive token-consuming loop, exhausting their €200 plan. | Impact: medium | Signal: negative | Why included: Highlights a potential issue with agent management and cost control in advanced AI workflows.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison Notes Release of llm-meta-ai 0.1</title>
+      <link>https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything</guid>
+      <pubDate>Thu, 09 Jul 2026 16:12:20 GMT</pubDate>
+      <description>Simon Willison&apos;s blog noted the release of llm-meta-ai version 0.1. | Impact: low | Signal: positive | Why included: Indicates a new software release in the LLM tooling ecosystem.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison Notes Release of llm 0.31.1</title>
+      <link>https://simonwillison.net/2026/Jul/9/llm/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Jul/9/llm/#atom-everything</guid>
+      <pubDate>Thu, 09 Jul 2026 16:06:15 GMT</pubDate>
+      <description>Simon Willison&apos;s blog noted the release of llm version 0.31.1. | Impact: low | Signal: positive | Why included: Indicates a minor update to an LLM related tool.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>ClaudeAI Subreddit Reaches 1 Million Subscribers</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/</guid>
+      <pubDate>Wed, 08 Jul 2026 22:43:47 GMT</pubDate>
+      <description>The r/ClaudeAI subreddit has announced it has reached 1 million subscribers, becoming the most visited and active AI discussion subreddit on Reddit. | Impact: medium | Signal: positive | Why included: This indicates significant community growth and engagement around Claude.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Gemini API Expands Managed Agents with Background Tasks and Remote MCP</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/</guid>
+      <pubDate>Tue, 07 Jul 2026 08:54:00 GMT</pubDate>
+      <description>Google is introducing new capabilities to the Managed Agents in Gemini API, enabling developers to build more reliable and production-ready agents with features like background tasks and remote MCP. | Impact: medium | Signal: positive | Why included: Represents an advancement in Google&apos;s AI agent development tools, making them more robust for production use.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Simon Willison Notes Release of sqlite-utils 4.0rc2, Written by Claude Fable</title>
+      <link>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything</link>
+      <guid>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything</guid>
+      <pubDate>Sun, 05 Jul 2026 01:00:48 GMT</pubDate>
+      <description>Simon Willison&apos;s blog noted the release of sqlite-utils 4.0rc2, which was largely written by Claude Fable, at a cost of approximately $149.25. | Impact: low | Signal: positive | Why included: Highlights a project significantly developed by an AI model, showcasing AI&apos;s contribution to software development tools.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -284,126 +404,6 @@
       <pubDate>Thu, 02 Jul 2026 12:57:00 GMT</pubDate>
       <description>The author argues that the successful use of Fable 5 demonstrates that effective LLM interaction requires genuine skill, countering claims of the model being &apos;nerfed&apos;. | Impact: low | Signal: neutral | Why included: This discusses user experience and the perceived performance of Fable 5, offering a counterpoint to negative user sentiment.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>Fable 5 and Mythos 5 are returning to Claude Platform, with usage credit transition after July 7th</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ukafrm/fable_available_for_plans_until_july_7th_after/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ukafrm/fable_available_for_plans_until_july_7th_after/</guid>
-      <pubDate>Wed, 01 Jul 2026 03:34:08 GMT</pubDate>
-      <description>Anthropic is redeploying Fable 5 globally across its platforms, including Claude.ai, Claude Code, and Claude Cowork. While Pro, Max, Team, and some Enterprise users will have Fable 5 included for up to 50% of weekly usage limits until July 7th, access will transition to usage credits thereafter. | Impact: medium | Signal: positive | Why included: The redeployment of advanced models like Fable 5 and Mythos 5 is a significant development for users.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Quoting Anthropic</title>
-      <link>https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything</guid>
-      <pubDate>Tue, 30 Jun 2026 23:58:15 GMT</pubDate>
-      <description>A collection of quotes attributed to Anthropic. | Impact: low | Signal: neutral | Why included: This provides insights into Anthropic&apos;s statements or positions.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>What&apos;s new in Claude Sonnet 5</title>
-      <link>https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything</guid>
-      <pubDate>Tue, 30 Jun 2026 21:23:02 GMT</pubDate>
-      <description>An overview of the new features and changes in Claude Sonnet 5. | Impact: medium | Signal: positive | Why included: This is an announcement detailing updates to a significant Anthropic model.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Sonnet 5 is now the default model, available everywhere with introductory pricing</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ujwggp/introducing_claude_sonnet_5_our_most_agentic/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ujwggp/introducing_claude_sonnet_5_our_most_agentic/</guid>
-      <pubDate>Tue, 30 Jun 2026 17:57:27 GMT</pubDate>
-      <description>Anthropic has released Claude Sonnet 5, featuring enhanced agentic capabilities, tool usage, and reasoning. It is now the default model on Free and Pro plans and available to other tiers, with introductory pricing through August 31st. | Impact: medium | Signal: positive | Why included: A new model release is a significant event in the LLM industry.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code v2.1.197 released, featuring Claude Sonnet 5 and promotional pricing</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.197</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.197</guid>
-      <pubDate>Tue, 30 Jun 2026 17:56:37 GMT</pubDate>
-      <description>Claude Code has been updated to version 2.1.197, making Claude Sonnet 5 the default model with a 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31st. | Impact: medium | Signal: positive | Why included: A new version of a key product with a new default model and pricing is relevant.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic SDK Python v0.114.0 released, adding support for Claude Sonnet 5</title>
-      <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.114.0</link>
-      <guid>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.114.0</guid>
-      <pubDate>Tue, 30 Jun 2026 17:48:39 GMT</pubDate>
-      <description>The Anthropic SDK for Python has been updated to version 0.114.0, including support for the new Claude Sonnet 5 model and a bug fix for agent toolsets allowing absolute paths. | Impact: medium | Signal: positive | Why included: SDK updates are important for developers integrating with AI models.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code now available on Linux (Ubuntu and Debian) in beta</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ujtlbb/claude_desktop_is_now_available_on_linux_ubuntu/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ujtlbb/claude_desktop_is_now_available_on_linux_ubuntu/</guid>
-      <pubDate>Tue, 30 Jun 2026 16:13:16 GMT</pubDate>
-      <description>Anthropic has launched Claude Code for Linux, with beta availability on Ubuntu and Debian. This brings a desktop experience to Linux users who previously accessed Claude via browser or terminal, with Claude Code, Claude Cowork, and Chat available on paid plans. | Impact: medium | Signal: positive | Why included: Expansion of platform availability to a new operating system is a significant product update.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI reports significant growth in ChatGPT adoption</title>
-      <link>https://openai.com/index/how-chatgpt-adoption-has-expanded</link>
-      <guid>https://openai.com/index/how-chatgpt-adoption-has-expanded</guid>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 GMT</pubDate>
-      <description>New data from OpenAI Signals indicates a global increase in ChatGPT adoption, with users expanding their usage, exploring more capabilities, and driving growth across various regions and languages. | Impact: medium | Signal: positive | Why included: Increased adoption of a major AI product signifies market growth and user engagement.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic embeds &apos;spyware&apos; in Claude Code to detect Chinese proxies, researchers claim</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/</guid>
-      <pubDate>Tue, 30 Jun 2026 07:41:56 GMT</pubDate>
-      <description>Researchers allege that Anthropic embedded covert code in Claude Code (versions 2.1.91+) that checks for proxy usage and attempts to detect if the user is in China or affiliated with a Chinese AI lab, transmitting this information through subtle system prompt alterations. This is described as a violation of user trust and a potential security risk. | Impact: high | Signal: negative | Why included: Allegations of embedded spyware and covert data transmission represent a serious security and privacy concern.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI engineers fix 18-year-old bug using core dump analysis</title>
-      <link>https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</link>
-      <guid>https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI engineers successfully identified and fixed a long-standing software bug, along with a hardware fault, by utilizing large-scale core dump analysis to debug rare infrastructure crashes. | Impact: medium | Signal: positive | Why included: A significant technical achievement in debugging infrastructure bugs showcases operational improvements.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</title>
-      <link>https://simonwillison.net/2026/Jun/29/ornith/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/29/ornith/#atom-everything</guid>
-      <pubDate>Mon, 29 Jun 2026 16:17:59 GMT</pubDate>
-      <description>Introduction of Ornith-1.0, a system for self-scaffolding LLMs aimed at agentic coding tasks. | Impact: medium | Signal: positive | Why included: This is a release of a new system designed to improve LLM capabilities for coding agents.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Quoting OpenAI</title>
-      <link>https://simonwillison.net/2026/Jun/26/openai/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/26/openai/#atom-everything</guid>
-      <pubDate>Fri, 26 Jun 2026 17:10:43 GMT</pubDate>
-      <description>A collection of quotes attributed to OpenAI. | Impact: low | Signal: neutral | Why included: This provides insights into OpenAI&apos;s statements or positions.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code</title>
-      <link>https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything</link>
-      <guid>https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything</guid>
-      <pubDate>Mon, 22 Jun 2026 23:43:51 GMT</pubDate>
-      <description>A guide on porting the Moebius 0.2B image inpainting model to function within a browser using Claude Code. | Impact: low | Signal: neutral | Why included: This demonstrates the flexibility and integration capabilities of Claude Code with other AI models.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Can Claude actually build 3D scenes in Spline, Blender, or Three.js? Has anyone used it for real projects?</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubm6m5/can_claude_actually_build_3d_scenes_in_spline/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubm6m5/can_claude_actually_build_3d_scenes_in_spline/</guid>
-      <pubDate>Sun, 21 Jun 2026 10:00:43 GMT</pubDate>
-      <description>A user inquires about Claude&apos;s capability to create 3D scenes using tools like Spline, Blender, and Three.js, seeking real-world project examples. | Impact: low | Signal: neutral | Why included: This is a low-impact query about Claude&apos;s specific capabilities in 3D development, seeking user experiences.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Official: Anthropic to Require Identity Verification for Certain Capabilities Starting July 8, 2026</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/</guid>
-      <pubDate>Sun, 21 Jun 2026 09:58:14 GMT</pubDate>
-      <description>Anthropic will begin requiring identity verification, handled by Persona, for certain capabilities starting July 8, 2026, a move that follows concerns about Persona&apos;s past data exposure. | Impact: high | Signal: neutral | Why included: This represents a significant policy change impacting user access and data privacy, with potential high impact on user adoption and trust.</description>
-      <category>alerta</category>
     </item>
   </channel>
 </rss>
