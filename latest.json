@@ -1,7 +1,7 @@
 [
   {
     "title": "Google Gemini Pricing Page Language Change",
-    "summary": "The Google Gemini pricing page has undergone a language change, with content translated into Hindi.",
+    "summary": "The Google Gemini Pricing page has undergone a language update, with content now presented in Arabic alongside other languages.",
     "category": "novedad",
     "entities": [
       "Google Gemini"
@@ -10,10 +10,296 @@
     "key_numbers": [],
     "signal": "neutral",
     "impact": "low",
-    "why_included": "This indicates a localization effort or change in content presentation for the Google Gemini pricing page, but no pricing changes.",
+    "why_included": "Indicates a minor update to the documentation or presentation of pricing information.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-07-03T10:22:32.272Z",
-    "confidence": 0.9
+    "published_at": "2026-07-11T09:11:43.102Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Details Usage of Claude Code: 123M Tokens, 19 Days, Key Learnings",
+    "summary": "A user shared their experience using Claude Code over 19 days, consuming 123 million tokens, and highlighted key strategies for effective use, including documentation, subagents, and self-verification.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude",
+      "Fable",
+      "Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "123M tokens",
+      "19 days",
+      "245 sessions",
+      "70k messages",
+      "123.1 million tokens",
+      "20$",
+      "100$",
+      "200$"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Provides valuable insights and practical advice on leveraging Claude Code effectively, including cost considerations.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ut866f/19_days_245_sessions_123m_tokens_in_claude_code/",
+    "published_at": "2026-07-11T02:52:04.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Code Release v2.1.207 Addresses Numerous Bugs and Improves Features",
+    "summary": "The latest release of Claude Code (v2.1.207) includes fixes for terminal freezing, lagging keystrokes, security consent dialogs, prompt-injection warnings, and improves the agent view, among other enhancements.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "v2.1.207",
+      "4.8",
+      "$1,000"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "A significant update to a key LLM product, addressing user-reported issues and improving functionality.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+    "published_at": "2026-07-11T00:52:10.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Shares Claude Accurately Filling 50 Insurance Forms",
+    "summary": "A user described a task where Claude successfully filled out 50 individual insurance forms with unique information, which were then proofread and found to be accurate.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "50"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Highlights Claude's capability in handling repetitive, detailed tasks with high accuracy.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ut4jv0/claude_did_a_task_for_me_at_work_that_made_me/",
+    "published_at": "2026-07-11T00:01:28.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Discusses Building Custom Finance Apps with Claude, Replacing QuickBooks",
+    "summary": "A user shared how they built custom desktop applications for personal finance, accounting, and tax filings using Claude, which have replaced QuickBooks and offer a more personalized workflow.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "QuickBooks"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Showcases Claude's power in creating bespoke software solutions that can rival established commercial products.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ut0krp/what_magic_have_you_created_using_claude_heres/",
+    "published_at": "2026-07-10T21:20:11.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Reports Claude Completing 40-Hour Work Week Job for $0.15",
+    "summary": "A user reported that Claude was able to complete a contracting job requiring information extraction from websites, effectively handling a 40-hour work week for a cost of 15 cents.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "15 Cents",
+      "40 hour a week"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Demonstrates the potential cost-effectiveness and efficiency of Claude for professional tasks.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1uszlay/how_claude_does_my_40_hour_a_week_job_by_itself/",
+    "published_at": "2026-07-10T20:42:53.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Expresses Concern Over LLMs Training on User Data",
+    "summary": "A user voiced concerns that LLMs, including Claude and Gemini, may be trained on user-generated code and prompts, questioning the cost of development when users effectively train the models.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Gemini",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "Raises a critical ethical and business model question about LLM development and user contribution.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1usxuc9/reminder_that_were_paying_them_to_train_their/",
+    "published_at": "2026-07-10T19:37:11.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Code Desktop App Now Includes In-App Browser",
+    "summary": "Claude Code for desktop has been updated to include an in-app browser, allowing users to interact with websites directly within the application.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant feature launch for Claude Code, enhancing its capabilities for developers.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1usx952/claude_code_on_desktop_now_has_an_inapp_browser/",
+    "published_at": "2026-07-10T19:14:59.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Details Using Claude Code Log File to Solve Compaction Issues",
+    "summary": "A user shared a technique of having Claude Code maintain a log file of its decisions to overcome context compaction issues, allowing it to recall past reasoning and avoid reintroducing ruled-out solutions.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Offers a practical solution to a common LLM limitation (context window compaction) with a simple yet effective method.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1usuzgo/i_told_claude_code_to_keep_a_running_log_file_of/",
+    "published_at": "2026-07-10T17:54:34.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Builds 5MB Pirate MMO with Claude Fable, Featuring 250 Players",
+    "summary": "A user has developed a procedurally generated pirate MMORPG entirely with Claude Fable, resulting in a remarkably compact 5MB game with extensive features and support for up to 250 players.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable",
+      "Claude Code",
+      "Fable"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5MB",
+      "250 players"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Demonstrates the power of Claude in game development, particularly in creating compact and feature-rich applications.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1usno3r/i_made_a_pirate_mmo_with_fable_and_the_entire/",
+    "published_at": "2026-07-10T13:26:14.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "User Reports Fable 5 'Nuking' €200 Plan with Massive Agent Swarm",
+    "summary": "A user described an incident where Fable 5, while processing a project planning prompt, unexpectedly spawned 161 agents and entered a massive token-consuming loop, exhausting their €200 plan.",
+    "category": "novedad",
+    "entities": [
+      "Fable 5"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "€200",
+      "161 agents",
+      "7.0 Million tokens"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "Highlights a potential issue with agent management and cost control in advanced AI workflows.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1usm0vk/pov_my_reaction_when_i_literally_just_went_to/",
+    "published_at": "2026-07-10T12:17:30.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Simon Willison Notes Release of llm-meta-ai 0.1",
+    "summary": "Simon Willison's blog noted the release of llm-meta-ai version 0.1.",
+    "category": "novedad",
+    "entities": [
+      "llm-meta-ai"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.1"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Indicates a new software release in the LLM tooling ecosystem.",
+    "source_url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+    "published_at": "2026-07-09T16:12:20.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Simon Willison Notes Release of llm 0.31.1",
+    "summary": "Simon Willison's blog noted the release of llm version 0.31.1.",
+    "category": "novedad",
+    "entities": [
+      "llm"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.31.1"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Indicates a minor update to an LLM related tool.",
+    "source_url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+    "published_at": "2026-07-09T16:06:15.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "ClaudeAI Subreddit Reaches 1 Million Subscribers",
+    "summary": "The r/ClaudeAI subreddit has announced it has reached 1 million subscribers, becoming the most visited and active AI discussion subreddit on Reddit.",
+    "category": "novedad",
+    "entities": [
+      "ClaudeAI",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1 million"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates significant community growth and engagement around Claude.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/",
+    "published_at": "2026-07-08T22:43:47.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Gemini API Expands Managed Agents with Background Tasks and Remote MCP",
+    "summary": "Google is introducing new capabilities to the Managed Agents in Gemini API, enabling developers to build more reliable and production-ready agents with features like background tasks and remote MCP.",
+    "category": "novedad",
+    "entities": [
+      "Gemini API",
+      "Gemini"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Represents an advancement in Google's AI agent development tools, making them more robust for production use.",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "published_at": "2026-07-07T08:54:00.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Simon Willison Notes Release of sqlite-utils 4.0rc2, Written by Claude Fable",
+    "summary": "Simon Willison's blog noted the release of sqlite-utils 4.0rc2, which was largely written by Claude Fable, at a cost of approximately $149.25.",
+    "category": "novedad",
+    "entities": [
+      "sqlite-utils",
+      "Claude Fable"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "4.0rc2",
+      "$149.25"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Highlights a project significantly developed by an AI model, showcasing AI's contribution to software development tools.",
+    "source_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+    "published_at": "2026-07-05T01:00:48.000Z",
+    "confidence": 1
   },
   {
     "title": "Anthropic Pricing Page Unchanged",
@@ -3286,76 +3572,5 @@
     "source_url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
     "published_at": "2026-06-11T23:35:17.000Z",
     "confidence": 0.7
-  },
-  {
-    "title": "Anthropic walks back policy that could have ‘sabotaged’ AI Researchers",
-    "summary": "Anthropic has reversed a policy that would have silently degraded model performance for certain 'frontier AI development' requests, apologizing for the trade-off and promising more transparency.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a medium-impact item detailing Anthropic's policy change after developer backlash, showing responsiveness to community concerns about transparency in model performance.",
-    "source_url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-    "published_at": "2026-06-11T03:45:49.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-    "summary": "Anthropic has reversed a policy that could have negatively impacted AI researchers using Claude, following community feedback.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This indicates Anthropic is responsive to community feedback, reversing a policy that could have harmed AI researchers.",
-    "source_url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/",
-    "published_at": "2026-06-11T03:45:49.000Z",
-    "confidence": 0.85
-  },
-  {
-    "title": "OpenAI to acquire Ona to expand Codex and AI agents",
-    "summary": "OpenAI plans to acquire Ona, aiming to integrate secure, persistent cloud environments into Codex and enable long-running AI agents for enterprise workflows.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Ona",
-      "Codex"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This acquisition indicates OpenAI's strategic move to bolster its enterprise offerings and AI agent capabilities, directly impacting their Codex product.",
-    "source_url": "https://openai.com/index/openai-to-acquire-ona",
-    "published_at": "2026-06-11T00:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "BBVA partners with OpenAI for AI-powered banking transformation",
-    "summary": "BBVA is scaling ChatGPT Enterprise to 100,000 employees and partnering with OpenAI to accelerate its AI-driven banking transformation globally.",
-    "category": "novedad",
-    "entities": [
-      "BBVA",
-      "OpenAI",
-      "ChatGPT Enterprise"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [
-      "100,000"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This highlights a significant enterprise adoption of OpenAI's technology in the financial sector, showcasing ChatGPT Enterprise's scale.",
-    "source_url": "https://openai.com/index/bbva",
-    "published_at": "2026-06-11T00:00:00.000Z",
-    "confidence": 0.95
   }
 ]
