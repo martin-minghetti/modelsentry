@@ -3721,41 +3721,5 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u5q8ih/fable_5_access_restrictions_might_be_a_bigger/",
     "published_at": "2026-06-14T16:51:22.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "How will the whole only US citizens even work out?",
-    "summary": "A user questions the feasibility of enforcing an 'only US citizens' directive for AI model access, suggesting potential workarounds and raising concerns about its impact on non-US model evolution. This directive could accidentally cause an AI evolution pause.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a medium-impact item as it discusses the practical implications and potential systemic impacts of restrictive AI access policies.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u5g7fd/how_will_the_whole_only_us_citizens_even_work_out/",
-    "published_at": "2026-06-14T09:04:04.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Amazon CEO Andy Jassy Reportedly Raised Concerns About Anthropic's AI Models Before Fable 5 Was Restricted",
-    "summary": "Amazon CEO Andy Jassy reportedly raised security concerns about Anthropic's AI models with U.S. administration officials, which contributed to the suspension of Fable 5 and Mythos 5 models. Amazon is a top investor in Anthropic.",
-    "category": "alerta",
-    "entities": [
-      "Amazon",
-      "Andy Jassy",
-      "Anthropic",
-      "Fable 5",
-      "Mythos 5"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This is a medium-impact event as it sheds light on the geopolitical and corporate influences (Amazon's concerns) behind the suspension of Anthropic's models.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u4wjxu/amazon_ceo_andy_jassy_reportedly_raised_concerns/",
-    "published_at": "2026-06-13T17:17:10.000Z",
-    "confidence": 0.9
   }
 ]
