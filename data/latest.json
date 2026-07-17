@@ -3219,37 +3219,5 @@
     "source_url": "https://openai.com/index/ai-chemist-improves-reaction",
     "published_at": "2026-06-17T10:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Deprecations",
-    "summary": "OpenAI has updated its deprecations page, though the content appears identical to previous versions, listing model deprecations and recommended replacements.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "deprecation",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This diff alert indicates OpenAI is actively managing model deprecations, a standard practice but worth noting for API users.",
-    "source_url": "https://platform.openai.com/docs/deprecations",
-    "published_at": "2026-06-16T12:42:43.847Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "How do Karpathy and other AI power users avoid turning their codebases into AI slop?",
-    "summary": "A user seeks concrete advice on how AI power users prevent their codebases from degrading into 'slop' when using AI agents for development workflows.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This post addresses a practical challenge faced by developers using AI for coding, seeking solutions for maintaining code quality.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1u7aiay/how_do_karpathy_and_other_ai_power_users_avoid/",
-    "published_at": "2026-06-16T11:11:06.000Z",
-    "confidence": 0.7
   }
 ]
