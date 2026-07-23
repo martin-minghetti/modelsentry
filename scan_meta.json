@@ -5,7 +5,7 @@
     "Claude Code Releases": true,
     "Anthropic SDK Python": true,
     "OpenAI Blog": true,
-    "Google AI Blog": false,
+    "Google AI Blog": true,
     "Simon Willison": true,
     "AI News (smol.ai)": true
   },
@@ -16,6 +16,6 @@
     "Anthropic Model Deprecations": true,
     "Google Gemini Pricing": true
   },
-  "timestamp": "2026-07-22T10:09:53.325Z",
-  "itemCount": 54
+  "timestamp": "2026-07-23T10:08:25.155Z",
+  "itemCount": 61
 }
