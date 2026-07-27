@@ -4831,21 +4831,5 @@
     "source_url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
     "published_at": "2026-06-29T16:17:59.000Z",
     "confidence": 0.85
-  },
-  {
-    "title": "Quoting OpenAI",
-    "summary": "A collection of quotes attributed to OpenAI.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This provides insights into OpenAI's statements or positions.",
-    "source_url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
-    "published_at": "2026-06-26T17:10:43.000Z",
-    "confidence": 0.8
   }
 ]
