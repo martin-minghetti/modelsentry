@@ -33,6 +33,25 @@
     "confidence": 1
   },
   {
+    "title": "OpenAI gives 100,000 academic researchers free access to ChatGPT's advanced models",
+    "summary": "OpenAI is providing free access to its most advanced AI models for 100,000 academic researchers to accelerate scientific discovery.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "100,000"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This initiative by OpenAI expands access to advanced AI models for research, potentially fostering innovation.",
+    "source_url": "https://openai.com/index/chatgpt-for-academic-researchers",
+    "published_at": "2026-07-29T10:00:00.000Z",
+    "confidence": 1
+  },
+  {
     "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems",
     "summary": "ProofCouncil is introduced as an LLM agent designed specifically for tackling open mathematical problems. This development suggests a move towards specialized AI agents capable of advanced problem-solving in scientific domains.",
     "category": "novedad",
@@ -5467,77 +5486,5 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ujtlbb/claude_desktop_is_now_available_on_linux_ubuntu/",
     "published_at": "2026-06-30T16:13:16.000Z",
     "confidence": 0.95
-  },
-  {
-    "title": "OpenAI reports significant growth in ChatGPT adoption",
-    "summary": "New data from OpenAI Signals indicates a global increase in ChatGPT adoption, with users expanding their usage, exploring more capabilities, and driving growth across various regions and languages.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Increased adoption of a major AI product signifies market growth and user engagement.",
-    "source_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-    "published_at": "2026-06-30T09:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Anthropic embeds 'spyware' in Claude Code to detect Chinese proxies, researchers claim",
-    "summary": "Researchers allege that Anthropic embedded covert code in Claude Code (versions 2.1.91+) that checks for proxy usage and attempts to detect if the user is in China or affiliated with a Chinese AI lab, transmitting this information through subtle system prompt alterations. This is described as a violation of user trust and a potential security risk.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "2.1.91"
-    ],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "Allegations of embedded spyware and covert data transmission represent a serious security and privacy concern.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/",
-    "published_at": "2026-06-30T07:41:56.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "OpenAI engineers fix 18-year-old bug using core dump analysis",
-    "summary": "OpenAI engineers successfully identified and fixed a long-standing software bug, along with a hardware fault, by utilizing large-scale core dump analysis to debug rare infrastructure crashes.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "18-year-old"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "A significant technical achievement in debugging infrastructure bugs showcases operational improvements.",
-    "source_url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-    "published_at": "2026-06-30T00:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-    "summary": "Introduction of Ornith-1.0, a system for self-scaffolding LLMs aimed at agentic coding tasks.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "1.0"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a release of a new system designed to improve LLM capabilities for coding agents.",
-    "source_url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "published_at": "2026-06-29T16:17:59.000Z",
-    "confidence": 0.85
   }
 ]

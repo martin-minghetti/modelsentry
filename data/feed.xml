@@ -22,6 +22,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>OpenAI gives 100,000 academic researchers free access to ChatGPT&apos;s advanced models</title>
+      <link>https://openai.com/index/chatgpt-for-academic-researchers</link>
+      <guid>https://openai.com/index/chatgpt-for-academic-researchers</guid>
+      <pubDate>Wed, 29 Jul 2026 10:00:00 GMT</pubDate>
+      <description>OpenAI is providing free access to its most advanced AI models for 100,000 academic researchers to accelerate scientific discovery. | Impact: medium | Signal: positive | Why included: This initiative by OpenAI expands access to advanced AI models for research, potentially fostering innovation.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>ProofCouncil: An LLM Agent for Solving Open Mathematical Problems</title>
       <link>https://arxiv.org/abs/2607.09474</link>
       <guid>https://arxiv.org/abs/2607.09474</guid>
@@ -395,14 +403,6 @@
       <guid>https://www.reuters.com/business/energy/openais-australian-data-centre-drops-water-recycling-plan-testing-drive-curb-2026-07-22/</guid>
       <pubDate>Thu, 23 Jul 2026 09:03:14 GMT</pubDate>
       <description>OpenAI has abandoned its water recycling plan for its Australian data center amidst testing to curb usage. | Impact: low | Signal: neutral | Why included: This is an operational update for OpenAI&apos;s infrastructure, indirectly related to the resources used for LLM development and deployment.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Code Adds Native Codebase Security Scanning</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1v48e9x/claude_code_just_added_native_codebase_security/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1v48e9x/claude_code_just_added_native_codebase_security/</guid>
-      <pubDate>Thu, 23 Jul 2026 09:01:26 GMT</pubDate>
-      <description>Anthropic&apos;s Claude Code has reportedly added native codebase security scanning capabilities. | Impact: medium | Signal: positive | Why included: This is a new feature for Claude Code focused on security, relevant to LLMs in software development and security scanning.</description>
       <category>novedad</category>
     </item>
   </channel>
