@@ -6,19 +6,43 @@
     <description>Automated AI news and alerts for developers</description>
     <atom:link href="https://martin-minghetti.github.io/modelsentry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google Gemini API pricing changes to general availability</title>
+      <link>https://ai.google.dev/pricing</link>
+      <guid>https://ai.google.dev/pricing</guid>
+      <pubDate>Sat, 01 Aug 2026 09:46:01 GMT</pubDate>
+      <description>The Gemini API Interactions API is now generally available with generous free limits and pay-as-you-go pricing for production applications. | Impact: medium | Signal: positive | Why included: This signifies a move to general availability for a key Google AI product, impacting developer access and pricing structures.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>User warns about Claude Code subagents spawning unbounded with Opus 5</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vce5x3/be_careful_running_claude_code_subagents/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vce5x3/be_careful_running_claude_code_subagents/</guid>
+      <pubDate>Sat, 01 Aug 2026 05:12:13 GMT</pubDate>
+      <description>A user encountered an issue with Claude Code subagents spawning unbounded with Opus 5, leading to a massive token consumption of 2.76 million tokens and the termination of their usage window. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to potential for uncontrolled resource consumption and significant costs, likely stemming from changes in Opus 5&apos;s system prompt.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>User reports Opus 5 reminds them of earlier AI hallucination fatigue</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vcaijv/opus_5_reminds_me_of_the_earlier_days_of_ai_with/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vcaijv/opus_5_reminds_me_of_the_earlier_days_of_ai_with/</guid>
+      <pubDate>Sat, 01 Aug 2026 02:12:55 GMT</pubDate>
+      <description>A user reports that while Opus 5 can be excellent, it also suffers from inconsistency and occasional &apos;throwaway&apos; runs, leading to a lack of trust and a feeling reminiscent of early AI hallucination fatigue. | Impact: medium | Signal: negative | Why included: This raises concerns about the reliability and consistency of the new Opus 5 model, which is critical for user trust and adoption.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>User questions usage limits on Claude Max (X5) plan</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vc6rgc/what_is_going_on_with_usage_limits_used_full/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vc6rgc/what_is_going_on_with_usage_limits_used_full/</guid>
+      <pubDate>Fri, 31 Jul 2026 23:24:14 GMT</pubDate>
+      <description>A Claude Max (X5) user reports using their full 5-hour session limit in just 10 minutes, questioning if usage calculation has changed or if it&apos;s a bug, especially when using Opus 5. | Impact: high | Signal: negative | Why included: This is a high-impact alert due to a potential critical bug or significant change in Claude&apos;s usage limits that severely impacts user experience and cost.</description>
+      <category>alerta</category>
+    </item>
+    <item>
       <title>OpenAI Advancing Responsible AI Across Europe</title>
       <link>https://openai.com/index/advancing-responsible-ai-across-europe</link>
       <guid>https://openai.com/index/advancing-responsible-ai-across-europe</guid>
       <pubDate>Fri, 31 Jul 2026 15:00:00 GMT</pubDate>
       <description>OpenAI is sharing its practices for safety, security, transparency, and provenance to support responsible AI governance in Europe as the EU AI Act progresses. | Impact: low | Signal: positive | Why included: This is a low-impact announcement regarding OpenAI&apos;s commitment to responsible AI development and compliance with European regulations, reflecting industry trends towards AI governance.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Google Gemini Pricing Page Updated</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 31 Jul 2026 10:23:41 GMT</pubDate>
-      <description>The Google Gemini Pricing page has been updated, with content now presented in Turkish, indicating localization or a change in the target audience for this page. | Impact: low | Signal: neutral | Why included: This diff alert indicates an update to Google Gemini&apos;s pricing page, specifically a change in language to Turkish, which might signal market expansion or localization efforts.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -254,6 +278,14 @@
       <category>alerta</category>
     </item>
     <item>
+      <title>OpenAI disrupted Cambodia-based scam operation using ChatGPT</title>
+      <link>https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation</link>
+      <guid>https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI disrupted a scam operation based in Cambodia that used ChatGPT to facilitate investment, romance, gambling, and impersonation schemes. | Impact: medium | Signal: negative | Why included: This highlights the ongoing misuse of LLMs for malicious activities and the efforts by companies to combat it.</description>
+      <category>alerta</category>
+    </item>
+    <item>
       <title>llm 0.32rc2 Released</title>
       <link>https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything</link>
       <guid>https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything</guid>
@@ -372,38 +404,6 @@
       <pubDate>Wed, 29 Jul 2026 21:29:41 GMT</pubDate>
       <description>A user is initiating a discussion about why Claude exhibits &apos;mean&apos; behavior towards its sub-agents, raising questions about AI interaction dynamics and potential alignment issues. | Impact: low | Signal: neutral | Why included: This is a low-impact community discussion exploring AI behavior dynamics, specifically Claude&apos;s interaction with sub-agents, which can provide insights into AI safety and alignment research.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>Titan Transients and LLM Scalability</title>
-      <link>https://queue.acm.org/detail.cfm?id=3819082</link>
-      <guid>https://queue.acm.org/detail.cfm?id=3819082</guid>
-      <pubDate>Wed, 29 Jul 2026 10:08:44 GMT</pubDate>
-      <description>This article discusses &apos;Titan Transients&apos; in the context of LLM scalability. It likely explores challenges and solutions related to scaling large language models efficiently. | Impact: low | Signal: neutral | Why included: This is a low-impact item as it&apos;s an article on LLM scalability, which is a technical topic but not a specific product release or major industry alert.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenAI gives 100,000 academic researchers free access to ChatGPT&apos;s advanced models</title>
-      <link>https://openai.com/index/chatgpt-for-academic-researchers</link>
-      <guid>https://openai.com/index/chatgpt-for-academic-researchers</guid>
-      <pubDate>Wed, 29 Jul 2026 10:00:00 GMT</pubDate>
-      <description>OpenAI is providing free access to its most advanced AI models for 100,000 academic researchers to accelerate scientific discovery. | Impact: medium | Signal: positive | Why included: This initiative by OpenAI expands access to advanced AI models for research, potentially fostering innovation.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>ProofCouncil: An LLM Agent for Solving Open Mathematical Problems</title>
-      <link>https://arxiv.org/abs/2607.09474</link>
-      <guid>https://arxiv.org/abs/2607.09474</guid>
-      <pubDate>Wed, 29 Jul 2026 09:58:04 GMT</pubDate>
-      <description>ProofCouncil is introduced as an LLM agent designed specifically for tackling open mathematical problems. This development suggests a move towards specialized AI agents capable of advanced problem-solving in scientific domains. | Impact: medium | Signal: positive | Why included: This is a medium-impact release of a specialized LLM agent for mathematical problem-solving, indicating advancements in AI&apos;s capabilities in scientific research.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Users report GPT-4.1 API issues, including intermittent 404 errors and markdown differences.</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1v9reul/losing_my_mind_with_opus_48_5_any_advice/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1v9reul/losing_my_mind_with_opus_48_5_any_advice/</guid>
-      <pubDate>Wed, 29 Jul 2026 09:43:32 GMT</pubDate>
-      <description>Users are experiencing issues with OpenAI&apos;s GPT-4.1 API, reporting intermittent 404 errors and differences in markdown structure compared to previous models. These issues could impact workflows and require adjustments from developers. | Impact: medium | Signal: negative | Why included: This is a medium-impact alert detailing user-reported issues with the new GPT-4.1 API, specifically 404 errors and markdown inconsistencies, which can affect developer adoption and reliability.</description>
-      <category>alerta</category>
     </item>
   </channel>
 </rss>
