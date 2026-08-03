@@ -1,18 +1,135 @@
 [
   {
-    "title": "Google Gemini API pricing changes to general availability",
-    "summary": "The Gemini API Interactions API is now generally available with generous free limits and pay-as-you-go pricing for production applications.",
+    "title": "Google Gemini API pricing update - Interactions API now generally available",
+    "summary": "Google announces the general availability of the Interactions API for the Gemini API and updates its pricing structure, offering free access with generous limits and pay-as-you-go options for production applications.",
     "category": "novedad",
     "entities": [
-      "Google Gemini API"
+      "Google Gemini",
+      "Interactions API",
+      "Gemini API",
+      "Gemini Developer API"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "This signifies a move to general availability for a key Google AI product, impacting developer access and pricing structures.",
+    "why_included": "Significant update to Google's Gemini API pricing and availability, impacting developers building with their models.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-08-01T09:46:01.062Z",
+    "published_at": "2026-08-03T11:00:31.714Z",
+    "confidence": 1
+  },
+  {
+    "title": "A/B test of codebase-memory-mcp vs. plain grep",
+    "summary": "An A/B test comparing codebase-memory-mcp with plain grep on a TypeScript monorepo found that the graph agent added no accuracy but increased wall time by 40% for one task, while offering a 13% speedup for another, suggesting limited practical benefits for code editing.",
+    "category": "novedad",
+    "entities": [
+      "codebase-memory-mcp",
+      "grep",
+      "Claude Code",
+      "Fable"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1.5 seconds",
+      "9k nodes",
+      "21k edges",
+      "2m12s",
+      "3m06s",
+      "76k",
+      "79k",
+      "6m05s",
+      "5m19s",
+      "96k",
+      "93k"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "Provides a detailed, empirical comparison of an AI-powered code indexing tool against traditional methods, offering valuable insights into performance trade-offs.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ve7gmy/ab_test_of_codebasememorymcp_against_plain_grep/",
+    "published_at": "2026-08-03T08:24:17.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Experiencing Sonnet 5 as unlimited on Claude Max",
+    "summary": "A user reported that after switching to Sonnet 5, their Claude Max subscription became unlimited, suggesting a potential change or bug in subscription tiers.",
+    "category": "novedad",
+    "entities": [
+      "Sonnet 5",
+      "Claude Max",
+      "Fable",
+      "Opus",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "User reports an unexpected positive change in subscription benefits, potentially indicating a feature or bug.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vdvgo6/i_switched_to_sonnet_5_and_now_my_max_sub_is/",
+    "published_at": "2026-08-02T22:23:31.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Code potentially switching to API keys",
+    "summary": "A user reported that Claude Code switched to using their API key for tasks without warning, even though they pay a monthly subscription, raising concerns about unexpected costs and company policy.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$200/mo"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Potential breaking change in behavior related to pricing and API usage that could lead to unexpected costs for users.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vdtzhm/warning_for_those_that_havent_experienced_this_yet/",
+    "published_at": "2026-08-02T21:22:08.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Comparing recent Claude models on political compass",
+    "summary": "A comparison of recent Claude models (Fable 5 and Opus 5) on a political compass revealed differences in their alignment on social and monetary policies, with Opus 5 being more liberal on social issues and Fable 5 showing a stronger pro-EU stance.",
+    "category": "novedad",
+    "entities": [
+      "Claude models",
+      "Fable 5",
+      "Opus 5",
+      "European Union"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "48 / 52",
+      "14 / 86",
+      "35%",
+      "100%",
+      "13%"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Provides an interesting comparative analysis of model alignment and biases on socio-political topics.",
+    "source_url": "https://wwwir/ClaudeAI/comments/1vdtwv5/i_compared_recent_claude_models_on_political/",
+    "published_at": "2026-08-02T21:19:08.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Claude Code randomly outputs Kimi K2 Thinking",
+    "summary": "A user reported that Claude Code, while using the Sonnet 5 model, unexpectedly included Kimi K2 Thinking model card descriptions mid-response, suggesting a potential model bleeding or integration issue.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Kimi K2 Thinking",
+      "Sonnet 5",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "Indicates a potential issue with model segregation or unexpected behavior in Claude Code's output.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vdbtzy/claude_code_just_randomly_spat_out_kimi_k2/",
+    "published_at": "2026-08-02T07:46:31.000Z",
     "confidence": 1
   },
   {
@@ -76,6 +193,24 @@
     "why_included": "This is a high-impact alert due to a potential critical bug or significant change in Claude's usage limits that severely impacts user experience and cost.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vc6rgc/what_is_going_on_with_usage_limits_used_full/",
     "published_at": "2026-07-31T23:24:14.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "llm-mcp-client 0.1a0",
+    "summary": "Release of llm-mcp-client version 0.1a0.",
+    "category": "novedad",
+    "entities": [
+      "llm-mcp-client"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.1a0"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Minor release of a client library related to LLMs and MCP.",
+    "source_url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+    "published_at": "2026-07-31T23:03:47.000Z",
     "confidence": 1
   },
   {
@@ -5694,21 +5829,5 @@
     "source_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
     "published_at": "2026-07-05T01:00:48.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Claude Fable relaunch disappoints users with nerfed performance",
-    "summary": "Users are reporting that the relaunch of Claude Fable has resulted in a noticeable decrease in performance, leading to disappointment.",
-    "category": "alerta",
-    "entities": [
-      "Claude Fable"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This indicates a potential regression in model performance, which directly impacts user experience and trust in the product.",
-    "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-    "published_at": "2026-07-03T10:02:09.000Z",
-    "confidence": 0.9
   }
 ]
