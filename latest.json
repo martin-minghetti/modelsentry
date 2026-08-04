@@ -5809,25 +5809,5 @@
     "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
     "published_at": "2026-07-07T08:54:00.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Simon Willison Notes Release of sqlite-utils 4.0rc2, Written by Claude Fable",
-    "summary": "Simon Willison's blog noted the release of sqlite-utils 4.0rc2, which was largely written by Claude Fable, at a cost of approximately $149.25.",
-    "category": "novedad",
-    "entities": [
-      "sqlite-utils",
-      "Claude Fable"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "4.0rc2",
-      "$149.25"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "Highlights a project significantly developed by an AI model, showcasing AI's contribution to software development tools.",
-    "source_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
-    "published_at": "2026-07-05T01:00:48.000Z",
-    "confidence": 1
   }
 ]
