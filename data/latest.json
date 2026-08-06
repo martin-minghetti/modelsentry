@@ -5792,22 +5792,5 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/",
     "published_at": "2026-07-08T22:43:47.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Gemini API Expands Managed Agents with Background Tasks and Remote MCP",
-    "summary": "Google is introducing new capabilities to the Managed Agents in Gemini API, enabling developers to build more reliable and production-ready agents with features like background tasks and remote MCP.",
-    "category": "novedad",
-    "entities": [
-      "Gemini API",
-      "Gemini"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Represents an advancement in Google's AI agent development tools, making them more robust for production use.",
-    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-    "published_at": "2026-07-07T08:54:00.000Z",
-    "confidence": 1
   }
 ]

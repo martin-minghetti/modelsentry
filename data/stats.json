@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:20:07.145Z",
+  "generated_at": "2026-08-06T10:20:32.409Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2026-08-03",
   "weekly": [
@@ -97,9 +97,9 @@
     },
     {
       "provider": "Google",
-      "count": 16,
+      "count": 15,
       "alerts": 2,
-      "updates": 14
+      "updates": 13
     },
     {
       "provider": "Meta",
@@ -110,7 +110,7 @@
   ],
   "totals": {
     "unique_events": 1592,
-    "last_30_days": 345,
+    "last_30_days": 344,
     "sources": {
       "rss": 1504,
       "diff_pages": 88
