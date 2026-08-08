@@ -6275,24 +6275,5 @@
     "source_url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
     "published_at": "2026-07-09T16:06:15.000Z",
     "confidence": 1
-  },
-  {
-    "title": "ClaudeAI Subreddit Reaches 1 Million Subscribers",
-    "summary": "The r/ClaudeAI subreddit has announced it has reached 1 million subscribers, becoming the most visited and active AI discussion subreddit on Reddit.",
-    "category": "novedad",
-    "entities": [
-      "ClaudeAI",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "1 million"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This indicates significant community growth and engagement around Claude.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1ur87u0/announcing_1_million_subscribers_and_two_new/",
-    "published_at": "2026-07-08T22:43:47.000Z",
-    "confidence": 1
   }
 ]
