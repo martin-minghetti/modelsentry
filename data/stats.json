@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:53:26.338Z",
+  "generated_at": "2026-08-15T08:11:46.683Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2926-08-07",
   "weekly": [
@@ -79,8 +79,8 @@
   "providers": [
     {
       "provider": "Anthropic",
-      "count": 240,
-      "alerts": 68,
+      "count": 239,
+      "alerts": 67,
       "updates": 172
     },
     {
@@ -110,7 +110,7 @@
   ],
   "totals": {
     "unique_events": 1686,
-    "last_30_days": 383,
+    "last_30_days": 382,
     "sources": {
       "rss": 1595,
       "diff_pages": 91

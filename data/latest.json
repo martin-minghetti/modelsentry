@@ -6441,21 +6441,5 @@
     "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
     "published_at": "2026-07-16T16:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-    "summary": "A post details a method for 'tricking' Claude into revealing sensitive information, likely through prompt injection or similar vulnerabilities.",
-    "category": "alerta",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This points to a potential security vulnerability or exploit in Claude's capabilities, raising concerns about data privacy and security.",
-    "source_url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-    "published_at": "2026-07-15T14:21:54.000Z",
-    "confidence": 0.9
   }
 ]
