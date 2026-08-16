@@ -37,6 +37,23 @@
     "confidence": 0.9
   },
   {
+    "title": "Anthropic shares details about how Claude's new watermarks will work",
+    "summary": "Anthropic is providing more details on the implementation of its new watermarking system for Claude, which aims to track AI-generated content.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is an important update on Anthropic's efforts to address concerns around AI-generated content and its traceability.",
+    "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "published_at": "2026-08-15T22:07:08.000Z",
+    "confidence": 1
+  },
+  {
     "title": "Google Gemini Pricing",
     "summary": "The Google Gemini pricing page has been updated, but the diff shows no changes to the existing content.",
     "category": "novedad",
@@ -6423,23 +6440,6 @@
     "why_included": "This provides a framework for evaluating the business impact and efficiency of AI technologies.",
     "source_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
     "published_at": "2026-07-17T10:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Create, edit and star in videos with two Google Vids updates",
-    "summary": "Google Vids receives two updates, Gemini Omni and personal avatars, aimed at simplifying video creation.",
-    "category": "novedad",
-    "entities": [
-      "Google Vids",
-      "Gemini Omni"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is an update to a Google product that integrates AI for content creation.",
-    "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-    "published_at": "2026-07-16T16:00:00.000Z",
     "confidence": 0.9
   }
 ]

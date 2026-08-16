@@ -22,6 +22,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Anthropic shares details about how Claude&apos;s new watermarks will work</title>
+      <link>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</link>
+      <guid>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</guid>
+      <pubDate>Sat, 15 Aug 2026 22:07:08 GMT</pubDate>
+      <description>Anthropic is providing more details on the implementation of its new watermarking system for Claude, which aims to track AI-generated content. | Impact: medium | Signal: neutral | Why included: This is an important update on Anthropic&apos;s efforts to address concerns around AI-generated content and its traceability.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Google Gemini Pricing</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -395,14 +403,6 @@
       <guid>https://www.reddit.com/r/ClaudeAI/comments/1vjq52p/fable_no_longer_triggering_classifier_on_most/</guid>
       <pubDate>Sun, 09 Aug 2026 13:38:44 GMT</pubDate>
       <description>A user observes that Fable, likely an LLM model, is no longer triggering its classifier on biology-related questions, suggesting potential changes in its safety or content filtering mechanisms. | Impact: low | Signal: neutral | Why included: This observation might indicate changes in model behavior or safety filtering from a specific LLM, relevant for understanding model evolution.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I run a 9-model LLM council to write a financial newsletter. What breaks</title>
-      <link>https://marketdaily.ai/blog/eng-llm-council-judge-en-202608</link>
-      <guid>https://marketdaily.ai/blog/eng-llm-council-judge-en-202608</guid>
-      <pubDate>Sun, 09 Aug 2026 13:30:00 GMT</pubDate>
-      <description>A user describes their experience running a 9-model LLM council for newsletter creation, highlighting the challenges and potential failure points of such a system. | Impact: medium | Signal: neutral | Why included: This provides practical insight into the operational challenges of using multiple LLMs for a complex task, relevant for multi-agent system development.</description>
       <category>novedad</category>
     </item>
   </channel>
