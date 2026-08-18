@@ -22,6 +22,70 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>Anthropic Pricing Page Diff</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Tue, 18 Aug 2026 08:19:16 GMT</pubDate>
+      <description>No significant changes detected on the Anthropic Pricing page, suggesting no immediate impact on pricing or product offerings. | Impact: low | Signal: neutral | Why included: This diff alert indicates no change in pricing, which is relevant for monitoring Anthropic&apos;s pricing strategy.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude&apos;s verbal dementia/degradation leads to overly verbose and hard-to-read language</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vrdyv2/claudes_verbal_dementiadegradation_my_opinions/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vrdyv2/claudes_verbal_dementiadegradation_my_opinions/</guid>
+      <pubDate>Tue, 18 Aug 2026 03:37:55 GMT</pubDate>
+      <description>Users are experiencing &apos;Claudish&apos; language with Opus 5 and Fable 5, characterized by jargon, shorthand, and an excessive amount of &apos;things I didn&apos;t touch&apos; annotations, making interactions difficult and less productive. | Impact: high | Signal: negative | Why included: This points to a significant degradation in user experience and model output quality, affecting productivity and user satisfaction.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Users experiencing difficulty with Claude&apos;s new phrasing and verbosity</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vr7bqj/anybody_have_a_good_method_to_tone_down_the/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vr7bqj/anybody_have_a_good_method_to_tone_down_the/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:42:19 GMT</pubDate>
+      <description>Users are finding Claude&apos;s new communication style, particularly its turns of phrase and repetitive output structure, to be grating and less collaborative. | Impact: medium | Signal: negative | Why included: This highlights a widespread user-reported issue with model output style that impacts the user experience.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude AI project knowledge cap hit immediately</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vr69kx/longtime_chatgpt_user_trying_claude_for_a_big/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vr69kx/longtime_chatgpt_user_trying_claude_for_a_big/</guid>
+      <pubDate>Mon, 17 Aug 2026 21:59:58 GMT</pubDate>
+      <description>A user encountered Claude&apos;s project knowledge cap immediately when uploading textbooks for a project, unlike ChatGPT which handled GBs of data. | Impact: medium | Signal: negative | Why included: This highlights a potential limitation in Claude&apos;s project management capabilities compared to existing solutions, impacting usability for large data projects.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic releases v2.1.234 for Claude Code with numerous fixes and improvements</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.234</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.234</guid>
+      <pubDate>Mon, 17 Aug 2026 20:20:58 GMT</pubDate>
+      <description>Anthropic has released version 2.1.234 of Claude Code, introducing features like CLAUDE_CODE_PROJECT_DIR_NAME, new keybindings, GitLab MR badges, automatic session continuation, and significant security hardening against NTLM credential leaks. | Impact: medium | Signal: positive | Why included: This is a significant update to a key product, addressing user feedback, security concerns, and introducing new functionality.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude Code doesn&apos;t follow rules anymore</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vqxfn0/claude_code_doesnt_follow_rules_anymore/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vqxfn0/claude_code_doesnt_follow_rules_anymore/</guid>
+      <pubDate>Mon, 17 Aug 2026 16:42:45 GMT</pubDate>
+      <description>A user reported that Claude Code, specifically Opus 4.8 with 1M context on medium effort, has started disregarding explicit instructions regarding disabling auto-Pushes and confirming remote updates, leading to unintended code commits. | Impact: high | Signal: negative | Why included: This indicates a potential regression in model reliability and adherence to user-defined rules, which is critical for development workflows.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Opus 5 and Fable 5 feel totally different, users downgrading</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/</guid>
+      <pubDate>Mon, 17 Aug 2026 13:25:31 GMT</pubDate>
+      <description>A heavy Claude user since release is considering downgrading from the Max 20x plan due to perceived degradation in Opus 5 and Fable 5 models, citing difficult-to-read language and the &apos;endless laundry list&apos; of items Claude &apos;didn&apos;t touch&apos;. | Impact: high | Signal: negative | Why included: This indicates a significant drop in user satisfaction and potential churn from a high-value customer due to model performance issues.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Developers questioning their skills as AI writes most of their code</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/</guid>
+      <pubDate>Mon, 17 Aug 2026 12:43:56 GMT</pubDate>
+      <description>Developers are expressing concerns about losing their sense of ownership, identity, and career viability as AI tools like Claude increasingly write their code, leading to questions about their actual skill set. | Impact: medium | Signal: negative | Why included: This highlights a growing existential concern among developers regarding the impact of AI on their profession and skill relevance.</description>
+      <category>alerta</category>
+    </item>
+    <item>
       <title>Handling HTTP 429 errors in LLM APIs</title>
       <link>https://medium.com/@jakemill54/troubleshooting-llm-api-429-errors-in-production-fc665a93480f</link>
       <guid>https://medium.com/@jakemill54/troubleshooting-llm-api-429-errors-in-production-fc665a93480f</guid>
@@ -126,6 +190,14 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>OpenAI joins PORTS-Pike project</title>
+      <link>https://openai.com/index/openai-joins-ports-pike-project</link>
+      <guid>https://openai.com/index/openai-joins-ports-pike-project</guid>
+      <pubDate>Mon, 17 Aug 2026 05:00:00 GMT</pubDate>
+      <description>OpenAI is participating in the PORTS-Pike project, which aims to expand community investment and support thousands of jobs in Southern Ohio. | Impact: low | Signal: positive | Why included: This is a positive community engagement initiative by OpenAI, though not directly related to a product release or change.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>I made Claude port omawrite to windows</title>
       <link>https://github.com/WhiskeyTuesday/omawrite-win</link>
       <guid>https://github.com/WhiskeyTuesday/omawrite-win</guid>
@@ -163,6 +235,14 @@
       <guid>https://news.ycombinator.com/item?id=49326276</guid>
       <pubDate>Mon, 17 Aug 2026 03:29:28 GMT</pubDate>
       <description>A user is experiencing unexpected behavior with Claude Desktop, where a session on a Mac appears to have launched a website on their Windows machine. | Impact: low | Signal: neutral | Why included: This is a user report about a potential bug or unexpected feature in Claude Desktop, relevant for understanding user experiences and potential issues.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI funds 14 projects exploring new policy ideas for the Intelligence Age</title>
+      <link>https://openai.com/index/new-policy-ideas-for-the-intelligence-age</link>
+      <guid>https://openai.com/index/new-policy-ideas-for-the-intelligence-age</guid>
+      <pubDate>Mon, 17 Aug 2026 03:15:00 GMT</pubDate>
+      <description>OpenAI is funding 14 independent projects that will explore new AI policy ideas, aiming to expand economic opportunity and strengthen societal resilience in the Intelligence Age. | Impact: low | Signal: positive | Why included: This shows OpenAI&apos;s commitment to shaping the broader AI policy landscape, which can influence industry direction.</description>
       <category>novedad</category>
     </item>
     <item>
@@ -323,86 +403,6 @@
       <guid>https://wwwA.reddit.com/r/ClaudeAI/comments/1vptwlz/the_absurd_math_of_20_ai_coding_subs_codex_vs/</guid>
       <pubDate>Sun, 16 Aug 2026 10:49:13 GMT</pubDate>
       <description>A comparison of the token volume and value offered by $20/month subscriptions for Codex and Claude Code, highlighting Claude Code&apos;s significantly higher token allowance. | Impact: medium | Signal: positive | Why included: This analysis provides valuable information on the cost-effectiveness and token allowances of coding subscriptions from different LLM providers.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>The Absurd Math of $20 AI Coding Subs: Codex vs. Claude Code</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1vptwlz/the_absurd_math_of_20_ai_coding_subs_codex_vs/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1vptwlz/the_absurd_math_of_20_ai_coding_subs_codex_vs/</guid>
-      <pubDate>Sun, 16 Aug 2026 10:49:13 GMT</pubDate>
-      <description>A comparison between Codex and Claude Code subscriptions reveals that Claude Code offers significantly more tokens for the same $20 price, highlighting its superior value for coding tasks. | Impact: medium | Signal: positive | Why included: This analysis provides crucial cost-effectiveness data for developers choosing between coding-focused LLM subscriptions, favoring Claude Code for its value.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic shares details about how Claude&apos;s new watermarks will work</title>
-      <link>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</link>
-      <guid>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</guid>
-      <pubDate>Sat, 15 Aug 2026 22:07:08 GMT</pubDate>
-      <description>Anthropic is providing more details on the implementation of its new watermarking system for Claude, which aims to track AI-generated content. | Impact: medium | Signal: neutral | Why included: This is an important update on Anthropic&apos;s efforts to address concerns around AI-generated content and its traceability.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Google Gemini Pricing</title>
-      <link>https://ai.google.dev/pricing</link>
-      <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 14 Aug 2026 08:53:08 GMT</pubDate>
-      <description>The Google Gemini pricing page has been updated, but the diff shows no changes to the existing content. | Impact: low | Signal: neutral | Why included: Website changes related to pricing are always relevant, though in this case, the diff indicates no actual change.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Pricing</title>
-      <link>https://www.anthropic.com/pricing</link>
-      <guid>https://www.anthropic.com/pricing</guid>
-      <pubDate>Fri, 14 Aug 2026 08:53:06 GMT</pubDate>
-      <description>The Anthropic pricing page has been updated, though the specific changes in the diff are not immediately apparent as they appear identical. | Impact: low | Signal: neutral | Why included: Website changes related to pricing are always relevant, though in this case, the diff indicates no actual change.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>OpenRouter: Unified LLM API with Routing and Fallbacks</title>
-      <link>https://trpevski.com/blog/openrouter-unified-llm-api-with-routing-and-fallbacks/</link>
-      <guid>https://trpevski.com/blog/openrouter-unified-llm-api-with-routing-and-fallbacks/</guid>
-      <pubDate>Fri, 14 Aug 2026 08:46:01 GMT</pubDate>
-      <description>An article discusses OpenRouter, a new unified LLM API that offers routing and fallback capabilities for seamless integration and use of various language models. | Impact: low | Signal: positive | Why included: This is a new development in the LLM infrastructure space, offering a unified API for accessing multiple models.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Issues Reaching Status.claude.com</title>
-      <link>https://anthropic.statuspage.io/incidents/kmbpgrsszf72</link>
-      <guid>https://anthropic.statuspage.io/incidents/kmbpgrsszf72</guid>
-      <pubDate>Fri, 14 Aug 2026 08:17:00 GMT</pubDate>
-      <description>Anthropic&apos;s status page for Claude.com is experiencing issues, indicating a potential service disruption or outage. | Impact: high | Signal: negative | Why included: This indicates a service disruption for a major LLM provider, impacting user access and potentially business operations.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI&apos;s Hugging Face Breach Fuels Fresh Calls for AI Regulation</title>
-      <link>https://www.forbes.com/sites/barrycollins/2026/07/22/rogue-openai-attack-fuels-demands-to-rein-in-big-tech/</link>
-      <guid>https://www.forbes.com/sites/barrycollins/2026/07/22/rogue-openai-attack-fuels-demands-to-rein-in-big-tech/</guid>
-      <pubDate>Fri, 14 Aug 2026 08:11:38 GMT</pubDate>
-      <description>A breach involving OpenAI&apos;s systems connected to Hugging Face has intensified calls for stricter AI regulation, highlighting security concerns. | Impact: high | Signal: negative | Why included: This highlights a significant security incident and its potential impact on AI regulation discussions.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude AI Content Marks Will Go Global but Cannot Prove Authorship</title>
-      <link>https://www.ainews.com/p/claude-ai-content-marks-will-go-global-but-cannot-prove-authorship</link>
-      <guid>https://www.ainews.com/p/claude-ai-content-marks-will-go-global-but-cannot-prove-authorship</guid>
-      <pubDate>Fri, 14 Aug 2026 07:29:49 GMT</pubDate>
-      <description>Anthropic&apos;s Claude AI is implementing content marking globally, but these marks are reportedly incapable of proving authorship. | Impact: medium | Signal: neutral | Why included: This is a significant update regarding content provenance and watermarking for a major LLM, with implications for authorship and detection.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>RIP Claude – Aggressively writer-hostile</title>
-      <link>https://randsinrepose.com/archives/rip-claude/</link>
-      <guid>https://randsinrepose.com/archives/rip-claude/</guid>
-      <pubDate>Fri, 14 Aug 2026 06:18:27 GMT</pubDate>
-      <description>A user expresses strong dissatisfaction with Claude&apos;s behavior, describing it as aggressively writer-hostile and difficult to work with. | Impact: low | Signal: negative | Why included: This provides user feedback on a specific LLM&apos;s perceived usability and negative attributes.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>A simple fix for LLM tail latency</title>
-      <link>https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/</link>
-      <guid>https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/</guid>
-      <pubDate>Fri, 14 Aug 2026 05:58:16 GMT</pubDate>
-      <description>An article proposes a simple solution to address tail latency issues in large language models. | Impact: low | Signal: positive | Why included: This is a technical discussion on improving LLM performance, specifically addressing latency.</description>
       <category>novedad</category>
     </item>
   </channel>
