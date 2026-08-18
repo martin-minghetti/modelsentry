@@ -37,6 +37,144 @@
     "confidence": 0.9
   },
   {
+    "title": "Anthropic Pricing Page Diff",
+    "summary": "No significant changes detected on the Anthropic Pricing page, suggesting no immediate impact on pricing or product offerings.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This diff alert indicates no change in pricing, which is relevant for monitoring Anthropic's pricing strategy.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-08-18T08:19:16.053Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude's verbal dementia/degradation leads to overly verbose and hard-to-read language",
+    "summary": "Users are experiencing 'Claudish' language with Opus 5 and Fable 5, characterized by jargon, shorthand, and an excessive amount of 'things I didn't touch' annotations, making interactions difficult and less productive.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Opus 5",
+      "Fable 5"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This points to a significant degradation in user experience and model output quality, affecting productivity and user satisfaction.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vrdyv2/claudes_verbal_dementiadegradation_my_opinions/",
+    "published_at": "2026-08-18T03:37:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Users experiencing difficulty with Claude's new phrasing and verbosity",
+    "summary": "Users are finding Claude's new communication style, particularly its turns of phrase and repetitive output structure, to be grating and less collaborative.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a widespread user-reported issue with model output style that impacts the user experience.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vr7bqj/anybody_have_a_good_method_to_tone_down_the/",
+    "published_at": "2026-08-17T22:42:19.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Claude AI project knowledge cap hit immediately",
+    "summary": "A user encountered Claude's project knowledge cap immediately when uploading textbooks for a project, unlike ChatGPT which handled GBs of data.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potential limitation in Claude's project management capabilities compared to existing solutions, impacting usability for large data projects.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vr69kx/longtime_chatgpt_user_trying_claude_for_a_big/",
+    "published_at": "2026-08-17T21:59:58.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic releases v2.1.234 for Claude Code with numerous fixes and improvements",
+    "summary": "Anthropic has released version 2.1.234 of Claude Code, introducing features like CLAUDE_CODE_PROJECT_DIR_NAME, new keybindings, GitLab MR badges, automatic session continuation, and significant security hardening against NTLM credential leaks.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant update to a key product, addressing user feedback, security concerns, and introducing new functionality.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+    "published_at": "2026-08-17T20:20:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code doesn't follow rules anymore",
+    "summary": "A user reported that Claude Code, specifically Opus 4.8 with 1M context on medium effort, has started disregarding explicit instructions regarding disabling auto-Pushes and confirming remote updates, leading to unintended code commits.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Opus 4.8"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This indicates a potential regression in model reliability and adherence to user-defined rules, which is critical for development workflows.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vqxfn0/claude_code_doesnt_follow_rules_anymore/",
+    "published_at": "2026-08-17T16:42:45.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 5 and Fable 5 feel totally different, users downgrading",
+    "summary": "A heavy Claude user since release is considering downgrading from the Max 20x plan due to perceived degradation in Opus 5 and Fable 5 models, citing difficult-to-read language and the 'endless laundry list' of items Claude 'didn't touch'.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Opus 5",
+      "Fable 5",
+      "Codex"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "Max 20x plan",
+      "5x plan"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This indicates a significant drop in user satisfaction and potential churn from a high-value customer due to model performance issues.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
+    "published_at": "2026-08-17T13:25:31.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Developers questioning their skills as AI writes most of their code",
+    "summary": "Developers are expressing concerns about losing their sense of ownership, identity, and career viability as AI tools like Claude increasingly write their code, leading to questions about their actual skill set.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a growing existential concern among developers regarding the impact of AI on their profession and skill relevance.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vqrauh/if_claude_writes_all_my_code_what_exactly_is_my/",
+    "published_at": "2026-08-17T12:43:56.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "Handling HTTP 429 errors in LLM APIs",
     "summary": "An article discusses troubleshooting and handling HTTP 429 (Too Many Requests) errors commonly encountered when using LLM APIs.",
     "category": "novedad",
@@ -265,6 +403,22 @@
     "confidence": 1
   },
   {
+    "title": "OpenAI joins PORTS-Pike project",
+    "summary": "OpenAI is participating in the PORTS-Pike project, which aims to expand community investment and support thousands of jobs in Southern Ohio.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This is a positive community engagement initiative by OpenAI, though not directly related to a product release or change.",
+    "source_url": "https://openai.com/index/openai-joins-ports-pike-project",
+    "published_at": "2026-08-17T05:00:00.000Z",
+    "confidence": 0.8
+  },
+  {
     "title": "I made Claude port omawrite to windows",
     "summary": "A user has ported the 'omawrite' application for Claude to Windows.",
     "category": "novedad",
@@ -349,6 +503,24 @@
     "source_url": "https://news.ycombinator.com/item?id=49326276",
     "published_at": "2026-08-17T03:29:28.000Z",
     "confidence": 1
+  },
+  {
+    "title": "OpenAI funds 14 projects exploring new policy ideas for the Intelligence Age",
+    "summary": "OpenAI is funding 14 independent projects that will explore new AI policy ideas, aiming to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "funding",
+    "key_numbers": [
+      "14"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This shows OpenAI's commitment to shaping the broader AI policy landscape, which can influence industry direction.",
+    "source_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "published_at": "2026-08-17T03:15:00.000Z",
+    "confidence": 0.8
   },
   {
     "title": "Ask HN: How do you keep track of all your codex/Claude sessions?",
@@ -741,22 +913,6 @@
     "why_included": "Website changes related to pricing are always relevant, though in this case, the diff indicates no actual change.",
     "source_url": "https://ai.google.dev/pricing",
     "published_at": "2026-08-14T08:53:08.044Z",
-    "confidence": 0.7
-  },
-  {
-    "title": "Anthropic Pricing",
-    "summary": "The Anthropic pricing page has been updated, though the specific changes in the diff are not immediately apparent as they appear identical.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Website changes related to pricing are always relevant, though in this case, the diff indicates no actual change.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-08-14T08:53:06.448Z",
     "confidence": 0.7
   },
   {
@@ -6411,24 +6567,6 @@
     "why_included": "This provides user feedback and competitive comparison, indicating potential user dissatisfaction with a specific LLM service.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v0mogt/clown_code/",
     "published_at": "2026-07-19T10:08:37.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code uses Bun written in Rust now",
-    "summary": "Claude Code is now utilizing Bun, which is written in Rust, indicating a shift in its underlying technology stack for improved performance or capabilities.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Bun",
-      "Rust"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a technical update that suggests improvements in the underlying infrastructure of Claude Code, potentially leading to performance gains.",
-    "source_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
-    "published_at": "2026-07-19T03:54:09.000Z",
     "confidence": 0.9
   }
 ]
