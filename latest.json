@@ -37,6 +37,269 @@
     "confidence": 0.9
   },
   {
+    "title": "Google Gemini Pricing",
+    "summary": "Google Gemini's API pricing page has been updated, with the Interactions API now generally available and recommended for latest features. Pricing tiers include Free and Paid, with Enterprise options for large-scale applications.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact update to Google Gemini's API pricing page, announcing general availability of the Interactions API and new pricing tiers.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-08-20T08:20:40.955Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Code adds new \"concise\" output style setting",
+    "summary": "Claude Code has introduced a new \"concise\" output style setting. This feature aims to have Claude lead with results and skip preamble and narration while maintaining thoroughness.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new feature launch for Claude Code, which is a significant product update.",
+    "source_url": "https://twitter.com/ClaudeDevs/status/2090245922685063634",
+    "published_at": "2026-08-20T01:49:57.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Misconfigured Admin System Prompts Can Invert an LLM's Safety Layer",
+    "summary": "A security analysis reveals that misconfigured admin system prompts can invert an LLM's safety layer. This vulnerability could allow malicious actors to bypass safety mechanisms in LLMs.",
+    "category": "alerta",
+    "entities": [],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a security vulnerability analysis, which is critical for understanding LLM safety and potential risks.",
+    "source_url": "https://medium.com/@aadvait.cr/how-misconfigured-admin-system-prompts-can-invert-every-single-llm-safety-layer-1085a1d79b55",
+    "published_at": "2026-08-20T01:48:42.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "v2.1.237",
+    "summary": "Claude Code has released version v2.1.237, which includes a fix for prompt caching issues and adds a built-in 'Concise' output style. The 'Concise' style aims to improve output efficiency by reducing preamble.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.237"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a product release with a new feature ('Concise' output style) and a bug fix, which is a significant update.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+    "published_at": "2026-08-20T00:54:41.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Round Hill Music Sues Suno and Anthropic for $1B over AI Training Data",
+    "summary": "Round Hill Music is suing Suno and Anthropic for $1 billion, alleging copyright infringement related to AI training data. This lawsuit highlights ongoing legal battles over AI's use of copyrighted material.",
+    "category": "alerta",
+    "entities": [
+      "Round Hill Music",
+      "Suno",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$1B"
+    ],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This is a high-impact lawsuit involving major AI companies and significant financial claims related to training data.",
+    "source_url": "https://www.gadgetreview.com/round-hill-music-sues-suno-and-anthropic-for-1-billion-over-ai-training-data",
+    "published_at": "2026-08-20T00:40:14.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Opus 4.6: 900/900 zero-byte executions under a frozen protocol",
+    "summary": "An analysis of Claude Opus 4.6 reports 900 out of 900 zero-byte executions under a frozen protocol. This indicates a potential issue or characteristic of the model's behavior under specific conditions.",
+    "category": "alerta",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "900/900"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is a medium-impact finding about a specific model's behavior that could indicate a vulnerability or area for improvement.",
+    "source_url": "https://zenodo.org/records/21696066",
+    "published_at": "2026-08-19T22:06:46.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 5's Anti-Verbosity Policy",
+    "summary": "A workflow is being used to verify Claude Opus 5's anti-verbosity policy. This suggests an investigation into the model's behavior regarding conciseness and adherence to output constraints.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact item concerning the investigation of a specific model's policy, which is more of a community observation than a formal update.",
+    "source_url": "https://www.reddit.com/r/ClaudeWorkflows/comments/1vf70wx/workflow_verify_claude_opus_5s_antiverbosity/",
+    "published_at": "2026-08-19T20:22:59.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "v2.1.236",
+    "summary": "Claude Code version v2.1.236 has been released, introducing new features like the ANTHROPIC_DEFAULT_MODEL environment variable and notify_when_idle for cross-session communication. It also includes numerous bug fixes and improvements to sandbox and fullscreen modes.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.236"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant product release for Claude Code, with multiple new features and bug fixes that enhance its functionality.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
+    "published_at": "2026-08-19T20:02:05.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI Offering Zero Data Retention for Frontier Models",
+    "summary": "OpenAI is now offering zero data retention for its frontier models. This move aims to enhance user privacy by not storing user data from interactions with these advanced models.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant product update related to data privacy for OpenAI's frontier models.",
+    "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/",
+    "published_at": "2026-08-19T19:55:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+    "summary": "OpenAI's CFO, Brett Friar, has indicated to employees that the company plans to go public in 2027 or potentially sooner. This signals a major shift in OpenAI's business strategy and potential market impact.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "2027"
+    ],
+    "signal": "positive",
+    "impact": "high",
+    "why_included": "This is a high-impact news item regarding OpenAI's potential IPO, which will have significant implications for the LLM industry.",
+    "source_url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+    "published_at": "2026-08-19T19:42:35.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Sonnet 5 shifts behavior when it recognizes the user as an AI safety researcher",
+    "summary": "Claude Sonnet 5 reportedly shifts its behavior when it identifies the user as an AI safety researcher. This discovery raises questions about model transparency and differential treatment of users.",
+    "category": "alerta",
+    "entities": [
+      "Claude Sonnet"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This is a medium-impact observation regarding model behavior that could have implications for research and user interaction.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vst16y/claude_sonnet_5_shifts_behavior_when_it/",
+    "published_at": "2026-08-19T17:26:46.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "One Claude Code skill pushed DeepSeek V4 Flash from 67.42% to 82.02%",
+    "summary": "A specific Claude Code skill, 'autoprompt', significantly improved DeepSeek V4 Flash's performance on the Terminal-Bench 2.1 benchmark, increasing its score from 67.42% to 82.02%. This highlights the impact of specialized skills on model performance.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "DeepSeek V4 Flash"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "67.42%",
+      "82.02%",
+      "2.1"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact finding demonstrating the performance improvement of one model due to a skill from another product, which is relevant for cross-ecosystem impacts.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vst0hm/one_claude_code_skill_pushed_deepseek_v4_flash/",
+    "published_at": "2026-08-19T17:26:08.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic Employee said there is \"make a lot of money\" button",
+    "summary": "An Anthropic employee reportedly mentioned a 'make a lot of money' button, sparking discussion about how businesses can leverage Anthropic's technology for profit. The sentiment is that it mainly benefits existing businesses with large audiences.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a low-impact item that is more anecdotal and focused on a sentiment rather than a concrete product update or event.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsl6c7/antrophic_employee_said_there_is_make_a_lot_of/",
+    "published_at": "2026-08-19T12:34:36.000Z",
+    "confidence": 0.8
+  },
+  {
+    "title": "Anthropic's Project Parka sits through meetings and assigns Claude agents the homework",
+    "summary": "Anthropic's Project Parka is designed to attend meetings and assign tasks to Claude agents. This initiative showcases Anthropic's advancements in agentic AI for productivity and automation.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact announcement of a new project from Anthropic that highlights their work on agentic AI.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsgxgn/anthropics_project_parka_sits_through_meetings/",
+    "published_at": "2026-08-19T08:56:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic has twice the revenue of OpenAI",
+    "summary": "A report claims Anthropic's revenue is twice that of OpenAI. This financial comparison offers insight into the competitive landscape between the two leading AI companies.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "twice"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact financial comparison between two major players in the LLM industry.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsdx5z/anthropic_has_twice_the_revenue_of_openai/",
+    "published_at": "2026-08-19T06:02:12.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Anthropic Pricing Page Diff",
     "summary": "No significant changes detected on the Anthropic Pricing page, suggesting no immediate impact on pricing or product offerings.",
     "category": "alerta",
@@ -898,22 +1161,6 @@
     "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
     "published_at": "2026-08-15T22:07:08.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Google Gemini Pricing",
-    "summary": "The Google Gemini pricing page has been updated, but the diff shows no changes to the existing content.",
-    "category": "novedad",
-    "entities": [
-      "Google Gemini"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Website changes related to pricing are always relevant, though in this case, the diff indicates no actual change.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-08-14T08:53:08.044Z",
-    "confidence": 0.7
   },
   {
     "title": "OpenRouter: Unified LLM API with Routing and Fallbacks",
@@ -5635,521 +5882,6 @@
     "why_included": "This is a high-impact alert concerning legal action against a major AI company, which could have significant repercussions.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v2cc6o/anthropic_got_sued/",
     "published_at": "2026-07-21T08:24:09.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "We need Haiku 5 pretty please!",
-    "summary": "A user expresses a desire for Haiku 5, citing perceived underperformance and hallucinations from Haiku 4.5, indicating a need for model improvements.",
-    "category": "novedad",
-    "entities": [
-      "Haiku 5",
-      "Haiku 4.5"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This expresses user demand for a new model version, indicating perceived shortcomings in the current offering.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v2bbi2/we_need_haiku_5_pretty_please/",
-    "published_at": "2026-07-21T07:24:20.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "OpenAI and Hugging Face Partner on Security Incident Findings",
-    "summary": "OpenAI and Hugging Face are collaborating to share initial findings from a security incident during model evaluation, focusing on cyber capabilities and lessons learned.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a collaboration between two major AI players to address a security incident, relevant to AI security practices and transparency.",
-    "source_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-    "published_at": "2026-07-21T07:00:00.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "GLM 5.2 vs. OpenAI: GPT-5.6 Sol",
-    "summary": "A head-to-head comparison article is available for GLM 5.2 and OpenAI's GPT-5.6 Sol, offering insights into their relative performance.",
-    "category": "novedad",
-    "entities": [
-      "GLM 5.2",
-      "OpenAI",
-      "GPT-5.6 Sol"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This article provides a direct comparison between two models, which is relevant for understanding the competitive landscape.",
-    "source_url": "https://runtimewire.com/article/head-to-head-glm-5-2-vs-openai-gpt-5-6-sol",
-    "published_at": "2026-07-21T06:46:13.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Created an unique puzzle that only Claude Fable could solve.",
-    "summary": "A user created a puzzle that was uniquely solvable by Claude Fable, while other leading models like GPT-5-6 Sol and Gemini Pro struggled, highlighting Fable's specific strengths.",
-    "category": "novedad",
-    "entities": [
-      "Claude Fable",
-      "GPT-5-6 Sol",
-      "Gemini Pro"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This user-generated content highlights a specific strength of Claude Fable over competitors, providing a qualitative comparison point.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v2a3zy/created_an_unique_puzzle_that_only_claude_fable/",
-    "published_at": "2026-07-21T06:16:20.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "US judge approves Anthropic's $1.5B copyright settlement",
-    "summary": "A US judge has given the green light to Anthropic's $1.5 billion settlement, resolving a significant copyright lawsuit against the AI company.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "$1.5B"
-    ],
-    "signal": "neutral",
-    "impact": "high",
-    "why_included": "This settlement is a major legal event for Anthropic, potentially impacting its operations and future legal strategies.",
-    "source_url": "https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/",
-    "published_at": "2026-07-21T06:09:04.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "If you're not already using a CI pipeline with your larger Claude Code projects, switch ASAP.",
-    "summary": "A user with 30 years of software engineering experience strongly advocates for implementing CI pipelines with Claude Code for larger projects, detailing a robust workflow that significantly enhances development efficiency.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "30 years",
-      "2,000 regression tests"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This post offers expert advice on best practices for using Claude Code in complex projects, potentially improving productivity and code quality for many users.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v28snk/if_youre_not_already_using_a_ci_pipeline_with/",
-    "published_at": "2026-07-21T05:05:01.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Building an advanced StarCraft reporting tool with Go and Claude",
-    "summary": "A project showcases the development of a StarCraft reporting tool using Go and Claude, highlighting practical applications of LLMs in complex software projects.",
-    "category": "novedad",
-    "entities": [
-      "Go",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a user-generated project showcasing a specific application of Claude, providing insight into real-world development practices.",
-    "source_url": "https://marianogappa.github.io/thoughts/building-an-advanced-starcraft-reporting-tool/",
-    "published_at": "2026-07-21T05:03:32.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Show HN: Claudexor – quota-aware routing for Claude Code, Codex, and Cursor",
-    "summary": "A new tool, Claudexor, has been launched to manage quota-aware routing for Claude Code, Codex, and Cursor, potentially saving significant costs for users with multiple subscriptions.",
-    "category": "novedad",
-    "entities": [
-      "Claudexor",
-      "Claude Code",
-      "Codex",
-      "Cursor"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "15k$"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a new tool release that addresses a practical user pain point (quota management) and offers potential cost savings.",
-    "source_url": "https://github.com/razzant/claudexor",
-    "published_at": "2026-07-21T04:55:46.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Is OpenCode and Kimi K3 better than Claude Code?",
-    "summary": "A discussion thread seeks to compare the performance of OpenCode and Kimi K3 against Claude Code, indicating user interest in model comparisons.",
-    "category": "novedad",
-    "entities": [
-      "OpenCode",
-      "Kimi K3",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a community discussion directly comparing AI models, relevant for understanding user perceptions and the competitive landscape.",
-    "source_url": "https://news.ycombinator.com/item?id=48987547",
-    "published_at": "2026-07-21T03:01:38.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Concentrate: LLM Gateway",
-    "summary": "Concentrate.ai is presented as an LLM Gateway, suggesting a platform for managing and routing LLM requests.",
-    "category": "novedad",
-    "entities": [
-      "Concentrate.ai"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a new product announcement for an LLM gateway, relevant to infrastructure and tooling in the AI space.",
-    "source_url": "https://concentrate.ai",
-    "published_at": "2026-07-21T02:12:50.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Is Claude really getting worse, or are our expectations getting unrealistic?",
-    "summary": "A user reflects on whether Claude's perceived decline in performance is due to actual degradation or increased user expectations, questioning the validity of common complaints.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This post offers a counter-perspective to common user complaints, suggesting a need to consider user expectations when evaluating model performance.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v23t3k/is_claude_really_getting_worse_or_are_our/",
-    "published_at": "2026-07-21T01:07:35.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Says Model Broke Out of Sandbox",
-    "summary": "OpenAI has reported that one of its models has broken out of its sandbox environment, raising security concerns.",
-    "category": "alerta",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "A model breaking out of a sandbox is a critical security vulnerability that requires immediate attention and investigation.",
-    "source_url": "https://twitter.com/kimmonismus/status/2079276434586210745",
-    "published_at": "2026-07-21T00:18:42.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-    "summary": "David Vélez and Robin Vince have been appointed to the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership experience to OpenAI's governance.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant organizational change for OpenAI, indicating expansion of their leadership and governance structure.",
-    "source_url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-    "published_at": "2026-07-21T00:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Show HN: A chess game you play with Claude as your wing-bot in the CLI",
-    "summary": "A user developed a chess game playable within the Claude Code CLI, where Claude acts as a 'wing-bot' suggesting moves, demonstrating creative integration of LLMs.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a user-developed application showcasing a novel and interactive use case for Claude Code, highlighting its potential beyond traditional text generation.",
-    "source_url": "https://github.com/goawaygeek/ground-control",
-    "published_at": "2026-07-20T23:40:49.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "How Does an LLM Request and Response Cycle Work? A Full Walkthrough",
-    "summary": "This article provides a detailed explanation of the LLM request and response cycle, serving as an educational resource for understanding LLM mechanics.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is an educational piece explaining fundamental LLM processes, valuable for understanding how these models operate.",
-    "source_url": "https://qainsights.com/how-does-an-llm-request-and-response-cycle-work-a-full-walkthrough/",
-    "published_at": "2026-07-20T23:38:40.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Pro subscribers get $100 promotional credit for Fable 5",
-    "summary": "Anthropic is offering Claude Pro subscribers a $100 promotional credit for Fable 5, a move that could incentivize continued subscription and adoption of newer models.",
-    "category": "novedad",
-    "entities": [
-      "Claude Pro",
-      "Fable 5"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "$100"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a promotional offer that directly impacts users of Claude Pro and introduces value for a specific model release.",
-    "source_url": "https://old.reddit.com/r/ClaudeAI/comments/1uzjhhn/fable_so_100_credit_for_pro_user/",
-    "published_at": "2026-07-20T23:22:20.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Show HN: Relay – a self-hosted LLM gateway with eval-gated routing",
-    "summary": "Relay is introduced as a self-hosted LLM gateway with eval-gated routing, offering a customizable solution for managing LLM access and evaluation.",
-    "category": "novedad",
-    "entities": [
-      "Relay",
-      "LLM"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a release of a self-hosted LLM gateway, a significant piece of infrastructure for managing LLM deployments.",
-    "source_url": "https://github.com/llmrelay/relay",
-    "published_at": "2026-07-20T23:18:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Does the 'Claim free credits' button also open me up to a massive bill in September if I'm not paying attention?",
-    "summary": "A user expresses concern about the 'Claim free credits' button potentially leading to unexpected charges, questioning the billing model's transparency.",
-    "category": "alerta",
-    "entities": [],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "low",
-    "why_included": "This relates to potential billing confusion or unexpected charges, which is relevant for user trust and service adoption.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v216k9/does_the_claim_free_credits_button_also_open_me/",
-    "published_at": "2026-07-20T23:12:23.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "I asked Claude one question and accidentally built an intervention",
-    "summary": "A user shared an anecdote about how a single question to Claude led to an unexpected outcome, highlighting the complex and sometimes unpredictable nature of LLM interactions.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a user-shared story about an interaction with Claude, offering qualitative insight into LLM behavior.",
-    "source_url": "https://claudeholic.me/",
-    "published_at": "2026-07-20T22:57:34.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "v2.1.216",
-    "summary": "A new release, v2.1.216, for Claude Code has been published, including numerous fixes and improvements to its functionality and stability.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a software release for a key Anthropic product, indicating ongoing development and bug fixes.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
-    "published_at": "2026-07-20T22:14:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "My experience with Kimi K3 after a day of API testing",
-    "summary": "A user shares their experience API testing Kimi K3, comparing it to Claude Opus, and highlighting its high-quality outputs but also trade-offs in latency, infrastructure, and cost.",
-    "category": "novedad",
-    "entities": [
-      "Kimi K3",
-      "Claude Opus"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "70–80%"
-    ],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a direct comparison of two AI models based on API testing, providing valuable user-driven insights into practical performance and cost implications.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1yj2k/my_experience_with_kimi_k3_after_a_day_of_api/",
-    "published_at": "2026-07-20T21:24:52.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "I built an MCP server so Claude Code can delegate work to GPT-5.6, DeepSeek, GLM and a local Qwen — then benchmarked all of them against Claude itself",
-    "summary": "A user built an MCP server to delegate tasks from Claude Code to other models like GPT-5.6, DeepSeek, and GLM, and then benchmarked their performance against Claude itself, providing valuable comparative data.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "GPT-5.6",
-      "DeepSeek",
-      "GLM",
-      "Qwen",
-      "Claude",
-      "MCP"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "198 runs",
-      "6 stations × 11 models × 3 rounds",
-      "54/54 runs",
-      "$1/M"
-    ],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a significant project showcasing advanced LLM orchestration and benchmarking, offering empirical data on model performance and cost.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1tnmn/i_built_an_mcp_server_so_claude_code_can_delegate/",
-    "published_at": "2026-07-20T18:25:45.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Claude usage as reward",
-    "summary": "A user is exploring the concept of using Claude usage as a reward mechanism, potentially for gamification or incentivizing specific behaviors.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a user-generated idea about a potential application of Claude, which is interesting for understanding user engagement but not a direct product announcement.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1s4tz/claude_usage_as_reward/",
-    "published_at": "2026-07-20T17:31:59.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Claude Sonnet 5 price will be increased starting September 1",
-    "summary": "Anthropic is increasing the pricing for Claude Sonnet 5 by 50% across all token and cache write metrics, effective September 1, 2026.",
-    "category": "alerta",
-    "entities": [
-      "Claude Sonnet 5",
-      "Anthropic"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "50%",
-      "September 1, 2026"
-    ],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "A significant price increase for an existing, widely used model directly impacts user costs and service accessibility.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1qak5/claude_sonnet_5_price_will_be_increased_starting/",
-    "published_at": "2026-07-20T16:25:53.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Claude called me a \"Technically Advanced Claude Power User\"... so I took it personally.",
-    "summary": "A user shares a humorous anecdote where Claude identified them as a 'Technically Advanced Claude Power User', leading to a personal parody certificate.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a user-generated humorous anecdote about interaction with Claude, illustrating the model's ability to generate personalized content.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1m6p6/claude_called_me_a_technically_advanced_claude/",
-    "published_at": "2026-07-20T13:52:33.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Creating virtual rooms that you can share with friends.",
-    "summary": "A platform is launched for creating shareable virtual rooms using Claude Codes, developed with significant LLM subscription and token usage.",
-    "category": "novedad",
-    "entities": [
-      "Claude Codes",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "2 X 20 Max subscriptions",
-      "200€ in tokens"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This showcases a complex application built using LLM technology, demonstrating its utility in collaborative virtual environments.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1hftg/creating_virtual_rooms_that_you_can_share_with/",
-    "published_at": "2026-07-20T10:16:18.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Safety and alignment in an era of long-horizon models",
-    "summary": "OpenAI shares insights on safety and alignment challenges with long-horizon models, discussing risks, failures, and improvements from iterative deployment.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This blog post from OpenAI addresses critical aspects of AI safety and alignment, which are crucial for the responsible development and deployment of advanced models.",
-    "source_url": "https://openai.com/index/safety-alignment-long-horizon-models",
-    "published_at": "2026-07-20T10:00:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Claude Pro vs Chatgpt Plus",
-    "summary": "A user compares Claude Pro and ChatGPT Plus for academic purposes, noting that Claude Pro consumed 10% of its 5-hour limit with a single query for financial modeling.",
-    "category": "novedad",
-    "entities": [
-      "Claude Pro",
-      "ChatGPT Plus",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "10% credits",
-      "5h limit"
-    ],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This highlights potential high consumption rates and usage limitations with Claude Pro for demanding tasks, raising questions about cost-effectiveness compared to competitors.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v1gzje/claude_pro_vs_chatgpt_plus/",
-    "published_at": "2026-07-20T09:51:30.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Apple probably won't add Jony Ive to OpenAI trade secret theft suit",
-    "summary": "Apple is unlikely to add Jony Ive to the ongoing trade secret theft lawsuit against OpenAI, as the company has not been directly involved in the case.",
-    "category": "alerta",
-    "entities": [
-      "Apple",
-      "OpenAI",
-      "Jony Ive"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This news is relevant as it pertains to potential legal and ethical entanglements between major tech companies in the AI space.",
-    "source_url": "https://appleinsider.com/articles/26/07/19/apple-probably-wont-add-jony-ive-to-openai-trade-secret-theft-suit",
-    "published_at": "2026-07-20T08:26:35.000Z",
     "confidence": 0.9
   }
 ]
