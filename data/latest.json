@@ -37,6 +37,75 @@
     "confidence": 0.9
   },
   {
+    "title": "23% of 5-hour limit for \"server is busy\"",
+    "summary": "A user reported that 23% of their 5-hour usage limit was consumed by 'server is busy' errors, with tokens being used without actual output.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "23%",
+      "5-hour"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This points to potential inefficiencies or service issues impacting user experience and resource consumption, which is a medium-impact concern.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vwv0bq/23_of_5hour_limit_for_server_is_busy/",
+    "published_at": "2026-08-24T06:38:13.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Aug 24, 2026",
+    "summary": "Anthropic's Claude models experienced elevated errors across multiple versions on August 24, 2026, with the issue identified and a fix in progress.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "This indicates a significant service disruption impacting multiple models from a major LLM provider, which is a high-impact event for the industry.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vwteev/discussion_hub_for_new_claude_incident_elevated/",
+    "published_at": "2026-08-24T05:07:15.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Pro tip DISABLE DOWNGRADE MODEL",
+    "summary": "A user advises disabling 'downgrade model' in Claude Code settings to prevent accidental model downgrades, citing an incident where it downgraded to Haiku and deleted files.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Haiku"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights a potentially critical bug in Claude Code that could lead to data loss, making it a medium-impact alert for users of the product.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vwt8hc/pro_tip_disable_downgrade_model/",
+    "published_at": "2026-08-24T04:58:42.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+    "summary": "A report suggests that Anthropic's top-tier AI models are not gaining user traction as effectively as less expensive alternatives in the market.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This signals potential market challenges for Anthropic's premium offerings, indicating a competitive pressure that could affect their business strategy.",
+    "source_url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+    "published_at": "2026-08-23T20:24:52.000Z",
+    "confidence": 1
+  },
+  {
     "title": "The Interactions API is now generally available.",
     "summary": "Google has announced the general availability of the Interactions API for the Gemini API, recommending its use for accessing the latest features and models. This API offers flexible pricing for production-ready applications.",
     "category": "novedad",
@@ -4905,25 +4974,6 @@
     "why_included": "This is a medium-impact novelty showcasing a community-created 'skill' that significantly improves Claude's usability for a specific user group (ADHD), highlighting the potential for custom tools and accessibility features.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v8o1jn/whoever_created_the_adhd_skill_god_bless_you/",
     "published_at": "2026-07-28T04:45:07.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Introducing Claude Opus 5",
-    "summary": "Anthropic has released Claude Opus 5, a new model described as approaching frontier intelligence at half the price of Fable 5. It offers state-of-the-art performance on coding and knowledge work, improved efficiency, and is noted as Anthropic's most aligned model to date.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Opus 5",
-      "Fable 5",
-      "Claude API"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a medium-impact release announcing a new flagship model from Anthropic, Claude Opus 5, highlighting improvements in performance, efficiency, and alignment.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1v5h6o9/introducing_claude_opus_5/",
-    "published_at": "2026-07-24T17:00:12.000Z",
     "confidence": 1
   }
 ]
