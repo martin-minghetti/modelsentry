@@ -22,19 +22,83 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Google Gemini Pricing Page Updated</title>
+      <title>Google Gemini Pricing</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sat, 29 Aug 2026 13:24:56 GMT</pubDate>
-      <description>The Google Gemini API pricing page has been updated, with the Interactions API now generally available and recommendations to use it for the latest features. | Impact: medium | Signal: neutral | Why included: A change in pricing and API availability for a major Google AI product is a medium-impact event for developers and businesses relying on these services.</description>
+      <pubDate>Mon, 31 Aug 2026 15:32:26 GMT</pubDate>
+      <description>The Google Gemini pricing page shows updates to Interactions API availability and pricing tiers, with a shift to prepaid and pay-as-you-go models for production applications. | Impact: low | Signal: neutral | Why included: This is a minor change in pricing information, presented in a different language, without immediately clear impact on LLM capabilities or costs.</description>
       <category>alerta</category>
     </item>
     <item>
-      <title>OpenAI Deprecates Older Models</title>
+      <title>OpenAI Deprecations</title>
       <link>https://platform.openai.com/docs/deprecations</link>
       <guid>https://platform.openai.com/docs/deprecations</guid>
-      <pubDate>Sat, 29 Aug 2026 13:24:53 GMT</pubDate>
-      <description>OpenAI is retiring older models, notifying customers via email and documentation, and recommending migration to newer, more capable models. | Impact: high | Signal: negative | Why included: This is a high-impact deprecation notice impacting users of older OpenAI models, requiring them to update their software to maintain functionality.</description>
+      <pubDate>Mon, 31 Aug 2026 15:32:23 GMT</pubDate>
+      <description>OpenAI&apos;s deprecations page appears to have had no significant content changes detected, indicating no new major model or API deprecations have been officially listed. | Impact: low | Signal: neutral | Why included: While no new deprecations were detected, monitoring this page is crucial for tracking future API and model changes that could impact developers.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI&apos;s ad business hits $1B annualized revenue run rate</title>
+      <link>https://www.reuters.com/business/media-telecom/openais-ad-business-hits-1-billion-annualized-revenue-run-rate-2026-08-31/</link>
+      <guid>https://www.reuters.com/business/media-telecom/openais-ad-business-hits-1-billion-annualized-revenue-run-rate-2026-08-31/</guid>
+      <pubDate>Mon, 31 Aug 2026 15:16:04 GMT</pubDate>
+      <description>OpenAI&apos;s advertising business has reached a significant milestone, achieving an annualized revenue run rate of $1 billion. | Impact: medium | Signal: positive | Why included: This indicates strong commercial traction and revenue growth for OpenAI, a key player in the LLM industry.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic Sued over False Advertising on Claude Max Subscription Usage Limits</title>
+      <link>https://www.cnet.com/tech/services-and-software/anthropic-sued-alleged-false-advertising-claude-max-subscription-usage-limits/</link>
+      <guid>https://www.cnet.com/tech/services-and-software/anthropic-sued-alleged-false-advertising-claude-max-subscription-usage-limits/</guid>
+      <pubDate>Mon, 31 Aug 2026 14:30:08 GMT</pubDate>
+      <description>Anthropic is facing a lawsuit alleging false advertising regarding the usage limits of its Claude Max subscription. | Impact: high | Signal: negative | Why included: Lawsuits concerning false advertising and subscription misrepresentation can significantly impact user trust and financial stability for an AI company.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>OpenAI Engineers Are Shipping AI-Generated Kernels They Don&apos;t Understand</title>
+      <link>https://twitter.com/firesidealpha/status/2093860831595499892</link>
+      <guid>https://twitter.com/firesidealpha/status/2093860831595499892</guid>
+      <pubDate>Mon, 31 Aug 2026 14:27:00 GMT</pubDate>
+      <description>A report suggests that OpenAI engineers are deploying AI-generated code kernels without fully understanding their functionality. | Impact: medium | Signal: negative | Why included: This raises concerns about the robustness and safety of AI-generated code being used in production environments.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>LLM inference FHE homomorphic encryption: 1s/token interactive, 6min/token full</title>
+      <link>https://forums.developer.nvidia.com/t/llm-inference-under-ckks-fhe-on-one-dgx-spark-1-s-token-interactive-and-a-full-every-layer-encrypted-run/381842</link>
+      <guid>https://forums.developer.nvidia.com/t/llm-inference-under-ckks-fhe-on-one-dgx-spark-1-s-token-interactive-and-a-full-every-layer-encrypted-run/381842</guid>
+      <pubDate>Mon, 31 Aug 2026 13:56:53 GMT</pubDate>
+      <description>A forum post discusses LLM inference with fully homomorphic encryption, achieving interactive speeds of 1 second per token and 6 minutes per token for fully encrypted runs. | Impact: medium | Signal: positive | Why included: This represents significant progress in privacy-preserving AI inference, a key area for future LLM development.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Claude 20x usage is only for the 5 hour window, not for the weekly limit</title>
+      <link>https://news.ycombinator.com/item?id=49509882</link>
+      <guid>https://news.ycombinator.com/item?id=49509882</guid>
+      <pubDate>Mon, 31 Aug 2026 13:56:45 GMT</pubDate>
+      <description>A user clarifies that Claude&apos;s 20x usage benefit applies only to a 5-hour window and not the weekly limit, suggesting a misleading aspect of the subscription model. | Impact: medium | Signal: negative | Why included: This aligns with other reports of Anthropic&apos;s subscription terms being potentially misleading, impacting customer trust.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic sued over alleged theft of &apos;thousands&apos; of songs</title>
+      <link>https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude</link>
+      <guid>https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude</guid>
+      <pubDate>Mon, 31 Aug 2026 13:32:23 GMT</pubDate>
+      <description>Anthropic is facing a lawsuit accusing it of infringing copyright by allegedly stealing &apos;thousands&apos; of songs for training its AI models. | Impact: high | Signal: negative | Why included: Copyright infringement lawsuits, especially concerning training data, pose a significant risk to AI companies and the broader industry.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic Sued over Limits on Its $200-a-Month AI Plans</title>
+      <link>https://www.wsj.com/tech/ai/anthropic-sued-over-limits-on-its-200-a-month-ai-plans-e2a109e4</link>
+      <guid>https://www.wsj.com/tech/ai/anthropic-sued-over-limits-on-its-200-a-month-ai-plans-e2a109e4</guid>
+      <pubDate>Mon, 31 Aug 2026 09:35:58 GMT</pubDate>
+      <description>Anthropic is being sued over alleged deceptive practices related to the usage limits of its $200-a-month AI subscription plans. | Impact: high | Signal: negative | Why included: This lawsuit could have significant financial and reputational consequences for Anthropic, directly impacting its user base and revenue.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Claude Code is silently adding session URLs (claude.ai/code/session_...) to the bottom of every single commit and PR description you make.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1w2omfu/claude_code_is_silently_adding_session_urls/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1w2omfu/claude_code_is_silently_adding_session_urls/</guid>
+      <pubDate>Sun, 30 Aug 2026 18:03:56 GMT</pubDate>
+      <description>Claude Code is automatically appending session URLs to git commits and PR descriptions without user notification, posing a potential privacy or accidental exposure risk. | Impact: medium | Signal: negative | Why included: This is a significant change in default behavior that could unintentionally expose internal session information.</description>
       <category>alerta</category>
     </item>
     <item>
@@ -340,70 +404,6 @@
       <pubDate>Fri, 28 Aug 2026 10:34:19 GMT</pubDate>
       <description>A judge has ruled that the Trump administration&apos;s blacklisting of Anthropic was illegal, a significant legal victory for the AI company. | Impact: high | Signal: negative | Why included: This legal ruling has substantial implications for Anthropic&apos;s business operations and regulatory standing, and sets a precedent for government actions against AI companies.</description>
       <category>alerta</category>
-    </item>
-    <item>
-      <title>OpenAI to end agreement with SpaceX&apos;s AI coding tool Cursor</title>
-      <link>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</link>
-      <guid>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</guid>
-      <pubDate>Fri, 28 Aug 2026 06:00:00 GMT</pubDate>
-      <description>OpenAI is discontinuing its contract with Cursor, a coding tool acquired by SpaceX, indicating a strategic decision by OpenAI. | Impact: high | Signal: negative | Why included: This marks a significant change in OpenAI&apos;s partnership landscape, affecting a prominent AI coding tool and potentially influencing future collaborations.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude ai is cooking too much !!!</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1w0djtj/claude_ai_is_cooking_too_much/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1w0djtj/claude_ai_is_cooking_too_much/</guid>
-      <pubDate>Fri, 28 Aug 2026 02:02:32 GMT</pubDate>
-      <description>A user expresses concern that Claude AI is generating too much output or performing excessive tasks. | Impact: low | Signal: neutral | Why included: This anecdotal feedback could indicate issues with output verbosity or unintended behavior in Claude&apos;s responses.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Supporting Thailand’s next generation of AI startups</title>
-      <link>https://openai.com/index/supporting-next-generation-ai-startups-thailand</link>
-      <guid>https://openai.com/index/supporting-next-generation-ai-startups-thailand</guid>
-      <pubDate>Fri, 28 Aug 2026 02:00:00 GMT</pubDate>
-      <description>OpenAI and Thailand&apos;s MHESI are launching an accelerator program to support AI startups in health, wellness, and education. | Impact: medium | Signal: positive | Why included: This partnership highlights OpenAI&apos;s commitment to global AI ecosystem development and supporting emerging AI startups.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Breaking Claude Code Opus 5 Auto Mode</title>
-      <link>https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/</link>
-      <guid>https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/</guid>
-      <pubDate>Thu, 27 Aug 2026 22:50:25 GMT</pubDate>
-      <description>An analysis or exploit related to the &apos;Auto Mode&apos; feature in Claude Code Opus 5. | Impact: high | Signal: negative | Why included: This title suggests a potential vulnerability or unexpected behavior in a key feature of Claude Code, which could impact its reliability and security.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>v2.1.248</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.248</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.248</guid>
-      <pubDate>Thu, 27 Aug 2026 22:12:20 GMT</pubDate>
-      <description>Anthropic released Claude Code version 2.1.248, featuring a new restricted mode, experimental cache TTL, and various bug fixes and improvements. | Impact: medium | Signal: neutral | Why included: This update introduces a security-focused restricted mode and enhances caching capabilities, showing continued development and refinement of Claude Code.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Expanding OpenAI’s presence in Brazil</title>
-      <link>https://openai.com/index/expanding-our-presence-in-brazil</link>
-      <guid>https://openai.com/index/expanding-our-presence-in-brazil</guid>
-      <pubDate>Thu, 27 Aug 2026 03:00:00 GMT</pubDate>
-      <description>OpenAI is increasing its presence in Brazil to foster AI adoption among developers, businesses, and communities. | Impact: medium | Signal: positive | Why included: This expansion indicates OpenAI&apos;s strategic focus on growing its international presence and driving AI adoption in key markets.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v2.1.247</title>
-      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.247</link>
-      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.247</guid>
-      <pubDate>Wed, 26 Aug 2026 23:06:39 GMT</pubDate>
-      <description>Anthropic released Claude Code version 2.1.247, adding a SendFeedback tool, cost optimization API, and numerous fixes. | Impact: medium | Signal: neutral | Why included: This update focuses on improving user feedback mechanisms, API cost optimization, and general stability, indicating ongoing development of Claude Code.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>v1.1.0</title>
-      <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0</link>
-      <guid>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0</guid>
-      <pubDate>Wed, 26 Aug 2026 17:14:40 GMT</pubDate>
-      <description>Anthropic released version 1.1.0 of its Python SDK, adding features like a thinking display mode and support for Organization API endpoints. | Impact: medium | Signal: neutral | Why included: This SDK update provides new capabilities for developers interacting with Anthropic&apos;s models, particularly around organization management and real-time feedback.</description>
-      <category>novedad</category>
     </item>
   </channel>
 </rss>
