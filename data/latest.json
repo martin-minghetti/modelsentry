@@ -4253,22 +4253,5 @@
     "source_url": "https://simonwillison.net/2026/Aug/4/llm/",
     "published_at": "2026-08-04T17:15:33.000Z",
     "confidence": 1
-  },
-  {
-    "title": "New Subreddit for Claude Game Development",
-    "summary": "A new subreddit, r/ClaudeGameDev, has been created to showcase games and game assets made with the assistance of Claude.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "r/ClaudeGameDev"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "Indicates community engagement and emerging use cases for Claude in game development.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vf7r32/there_have_been_many_people_here_making_games/",
-    "published_at": "2026-08-04T11:33:01.000Z",
-    "confidence": 0.8
   }
 ]
