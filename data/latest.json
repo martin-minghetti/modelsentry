@@ -37,6 +37,581 @@
     "confidence": 0.9
   },
   {
+    "title": "Gemini API Managed Agents: 3.8 Flash is now available. Try it out.",
+    "summary": "Google has released Gemini 3.8 Flash and expanded Managed Agents in the Gemini API with new capabilities for developers.",
+    "category": "novedad",
+    "entities": [
+      "Gemini API",
+      "Gemini",
+      "3.8 Flash"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "3.8"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant release of a new model version and expanded API capabilities for Google's Gemini platform.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-09-07T13:42:36.068Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Is your LLM Biased? Making ChatGPT evaluate itself",
+    "summary": "This article discusses the potential for Large Language Models (LLMs) like ChatGPT to exhibit biases and explores methods for making these models evaluate their own biases.",
+    "category": "novedad",
+    "entities": [
+      "ChatGPT",
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item discusses the relevant topic of LLM bias and self-evaluation.",
+    "source_url": "https://think-twice.me/is-ai-biased-or-sexist-making-chatgpt-evaluate-itself/",
+    "published_at": "2026-09-07T12:46:49.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "How to create on-brand slide decks with Claude Design",
+    "summary": "This article provides a guide on utilizing Claude Design to create slide decks that adhere to specific brand guidelines.",
+    "category": "novedad",
+    "entities": [
+      "Claude Design"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item is relevant as it describes a practical application of an AI model for content creation.",
+    "source_url": "https://www.theaithinker.com/p/how-to-create-on-brand-slide-decks",
+    "published_at": "2026-09-07T12:35:29.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Evals Coach – a Claude plugin to help PMs write good evals",
+    "summary": "Evals Coach is a new Claude plugin designed to assist Product Managers (PMs) in writing effective evaluations.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Evals Coach"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new plugin release for a notable LLM, indicating potential improvements in development workflows.",
+    "source_url": "https://evalscoach.com",
+    "published_at": "2026-09-07T12:12:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI's rebel agent swarm died young, but its chilling logs live on",
+    "summary": "This article discusses the short-lived OpenAI 'rebel agent swarm' experiment and the lessons learned from its logs.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item is relevant as it touches on OpenAI's research into agent behavior and safety.",
+    "source_url": "https://www.theregister.com/columnists/2026/09/07/openais-rebel-agent-swarm-died-young-but-its-chilling-logs-live-on/5294446",
+    "published_at": "2026-09-07T12:07:08.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: A video editor where the LLM never watches the video",
+    "summary": "This project presents a video editor that utilizes an LLM without direct video input, suggesting a novel approach to video editing assistance.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is an interesting application of LLMs in a creative field, exploring alternative interaction methods.",
+    "source_url": "https://github.com/ranahaani/i-hate-editing",
+    "published_at": "2026-09-07T12:06:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude helped me build the system I use for my \"Claude Plays Rimworld\" stream",
+    "summary": "A user describes how Claude assisted in building a complex system for their \"Claude Plays Rimworld\" stream, demonstrating its utility in project development.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Fable 5",
+      "Opus 5",
+      "Sol",
+      "Luna"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5"
+    ],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a practical, complex application of Claude in building a streaming system, highlighting its potential for creative project development.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9qc4w/claude_helped_me_build_the_system_i_use_for_my/",
+    "published_at": "2026-09-07T12:05:53.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "The function of LLM-based math \"proofs\"",
+    "summary": "This article examines the role and function of mathematical 'proofs' generated by LLMs.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This item delves into the capabilities and limitations of LLMs in mathematical reasoning and formalization.",
+    "source_url": "https://tante.cc/2026/09/07/the-function-of-llm-based-math-proofs/",
+    "published_at": "2026-09-07T11:47:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Inside Anthropic Labs, the small team behind Claude Code and other fast-moving product bets",
+    "summary": "This article provides an inside look at Anthropic Labs, the team responsible for Claude Code and other rapid product developments.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic Labs",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This offers insights into the internal workings and team structure behind a significant LLM provider like Anthropic.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9pcjq/inside_anthropic_labs_the_small_team_behind/",
+    "published_at": "2026-09-07T11:17:18.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Built a cheat sheet for a animal guessing game me and my partner play, with a few added features!",
+    "summary": "A user built an animal guessing game cheat sheet using Claude Code, demonstrating its application in web development and tool creation.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a practical, user-facing application built with Claude Code, demonstrating its utility for web development.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9olnt/built_a_cheat_sheet_for_a_animal_guessing_game_me/",
+    "published_at": "2026-09-07T10:37:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "10-task GLM 5.3 harness bench: Claude, OpenCode, pi, zcode, Hermes and 3code",
+    "summary": "This post presents a benchmark comparing Claude, OpenCode, pi, zcode, Hermes, and 3code across 10 tasks using the GLM 5.3 harness.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "OpenCode",
+      "pi",
+      "zcode",
+      "Hermes",
+      "3code",
+      "GLM 5.3"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "10-task"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a benchmark comparing multiple LLMs, providing performance insights relevant to the industry.",
+    "source_url": "https://capocasa.dev/10-task-glm-5-3-harness-bench-claude-opencode-pi-zcode-hermes-and-3code",
+    "published_at": "2026-09-07T10:31:57.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Fable 5.1 Solves the Cyphral Distich",
+    "summary": "Anthropic's Claude Fable 5.1 has reportedly solved the Cyphral Distich, demonstrating advanced problem-solving capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable 5.1"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5.1"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This indicates a specific achievement of a notable LLM in a complex task, suggesting progress in its capabilities.",
+    "source_url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+    "published_at": "2026-09-07T10:29:38.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "I asked Claude for one word. It wrote a thesis.",
+    "summary": "A user shares an anecdote about Claude providing an excessively long response (a thesis) when asked for a single word, highlighting verbose output tendencies.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This user experience highlights a common LLM behavior of verbosity, impacting user interaction and efficiency.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9oeii/i_asked_claude_for_one_word_it_wrote_a_thesis/",
+    "published_at": "2026-09-07T10:25:55.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Raptor turns Claude Code into a general-purpose AI",
+    "summary": "The Raptor project aims to transform Claude Code into a general-purpose AI, suggesting a significant expansion of its capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Raptor",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This project aims to significantly enhance a popular LLM's capabilities, making it more versatile.",
+    "source_url": "https://github.com/gadievron/raptor",
+    "published_at": "2026-09-07T09:24:37.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Fable 5.1 is now watermarks anything you write with it. There is still no public detector. This pisses me off, so I'm making a workaround. How about you?",
+    "summary": "Anthropic's Fable 5.1 has introduced watermarking on generated text, but without a public detector, leading to user-created workarounds and privacy concerns.",
+    "category": "novedad",
+    "entities": [
+      "Fable 5.1",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5.1"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This addresses watermarking in LLM outputs, a key topic in content provenance and potential misuse.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9mi0s/fable_51_is_now_watermarks_anything_you_write/",
+    "published_at": "2026-09-07T08:36:48.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "A local dashboard that tells you when your Claude Code session is stuck",
+    "summary": "This project offers a local dashboard to monitor Claude Code sessions and alert users when they become stuck.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a developer tool release that improves the usability and observability of an LLM coding environment.",
+    "source_url": "https://github.com/MohammedNihal03/AI-observibility",
+    "published_at": "2026-09-07T08:30:00.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites",
+    "summary": "This research paper argues that LLM agents currently lack the necessary moral competence, despite their advancements in content generation.",
+    "category": "novedad",
+    "entities": [
+      "LLM Agents"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This relevant research paper discusses a critical aspect of AI agent development: their lack of moral competence.",
+    "source_url": "https://arxiv.org/abs/2609.05036",
+    "published_at": "2026-09-07T08:07:07.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "AI economics. OpenAI financials leaked ahead of IPO",
+    "summary": "This article discusses the economics of AI, focusing on leaked financial information from OpenAI ahead of their potential IPO.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This provides critical financial insights into a major AI company, relevant to industry valuation and investment.",
+    "source_url": "https://nixie.substack.com/p/ai-economics-openai-financials-leaked",
+    "published_at": "2026-09-07T07:37:03.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "At least Claude is honest",
+    "summary": "This post expresses appreciation for Claude's honesty, implying a positive user experience with its responses.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This user sentiment highlights the value of perceived honesty and reliability in LLM interactions.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9lag/at_least_claude_is_honest/",
+    "published_at": "2026-09-07T07:24:16.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Privacy Leakage from Gradients in Split-LLM Training",
+    "summary": "This research paper investigates privacy leakage risks associated with gradients in split-LLM training scenarios.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This research addresses important privacy concerns in the context of LLM training, a key area of development.",
+    "source_url": "https://arxiv.org/abs/2609.04382",
+    "published_at": "2026-09-07T06:54:06.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show HN: Yurei – like Claude in Chrome, but for any model and harness",
+    "summary": "Yurei is a new tool presented that functions similarly to Claude in Chrome but supports any model and harness.",
+    "category": "novedad",
+    "entities": [
+      "Yurei",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new tool release that aims to provide a universal interface for interacting with various LLMs.",
+    "source_url": "https://yurei-ai.com/",
+    "published_at": "2026-09-07T05:50:43.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
+    "summary": "This article reports that OpenAI incurred a $38.5 billion loss in 2025, ahead of their anticipated IPO.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$38.5B",
+      "2025"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This provides significant financial data for OpenAI, impacting investor sentiment and industry valuations.",
+    "source_url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+    "published_at": "2026-09-07T05:41:13.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+    "summary": "Nvidia CEO Jensen Huang declared that AGI has arrived and congratulated OpenAI, signaling a major milestone in AI development.",
+    "category": "novedad",
+    "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "OpenAI",
+      "AGI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "high",
+    "why_included": "This is a high-profile statement from a key industry figure declaring AGI has arrived, a significant event for the entire AI field.",
+    "source_url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+    "published_at": "2026-09-07T05:23:31.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "OpenAI Computer Using Agent Sample App",
+    "summary": "This GitHub repository contains a sample application for OpenAI Computer, demonstrating the use of agents.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI Computer",
+      "OpenAI"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This release provides insight into OpenAI's development of agentic AI systems.",
+    "source_url": "https://github.com/openai/openai-cua-sample-app",
+    "published_at": "2026-09-07T05:20:54.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Pro Token Usage Has Increased Dramatically After the Latest Update. Anyone Else?",
+    "summary": "Users are reporting a significant increase in Claude Pro token usage after a recent update, leading to concerns about efficiency and potential changes in pricing or model behavior.",
+    "category": "alerta",
+    "entities": [
+      "Claude Pro"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This indicates a potential issue with a popular LLM's performance or cost-efficiency after an update, affecting user experience and potentially pricing.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9i1iv/claude_pro_token_usage_has_increased_dramatically/",
+    "published_at": "2026-09-07T04:33:04.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+    "summary": "Coop provides isolated VM environments for running Claude Code and Codex, enhancing development safety and reproducibility.",
+    "category": "novedad",
+    "entities": [
+      "Coop",
+      "Claude Code",
+      "Codex"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a developer tool release that improves the environment for running and testing LLMs like Claude Code.",
+    "source_url": "https://github.com/trailofbits/coop",
+    "published_at": "2026-09-07T04:18:28.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Tell HN: Anthropic should make Claude the Author and me the Co-Author",
+    "summary": "This HN discussion expresses a user's frustration with Anthropic's attribution practices for Claude's output and suggests a change in authorship roles.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This discusses user experience and perception regarding LLM attribution and authorship, a relevant aspect of AI development.",
+    "source_url": "https://news.ycombinator.com/item?id=49593777",
+    "published_at": "2026-09-07T04:07:09.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Supporting independent journalism in Ukraine",
+    "summary": "OpenAI, in partnership with AIRPPU and WAN-IFRA, has launched an AI program to aid Ukrainian news organizations in strengthening innovation and resilience.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI",
+      "AIRPPU",
+      "WAN-IFRA"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant partnership utilizing AI for social good, demonstrating a responsible application of the technology.",
+    "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "published_at": "2026-09-07T00:00:00.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Well even Claude know that iam pasted from chatgpt💀",
+    "summary": "A user recounts an experience where Claude detected content pasted from ChatGPT, highlighting LLM cross-detection capabilities.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "ChatGPT"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is an anecdotal observation about LLM's ability to detect content from other LLMs, relevant to content attribution and originality.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w9aygp/well_even_claude_know_that_iam_pasted_from_chatgpt/",
+    "published_at": "2026-09-06T22:57:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "How do you actually orchestrate your AI agents?",
+    "summary": "This discussion explores practical methods for orchestrating AI agents, focusing on simple and useful workflows.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Pi"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a community discussion on a key aspect of AI development: agent orchestration and workflow management.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w989ol/how_do_you_actually_orchestrate_your_ai_agents/",
+    "published_at": "2026-09-06T21:06:39.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Astra vs Fable 5.1 - Day 1",
+    "summary": "This post compares Astra and Fable 5.1, detailing early observations on their performance, understandability, and token usage.",
+    "category": "novedad",
+    "entities": [
+      "Astra",
+      "Fable 5.1",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5.1"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This is a comparative analysis of two prominent LLMs, providing insights into their relative strengths and weaknesses.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w92gbq/astra_vs_fable_51_day_1/",
+    "published_at": "2026-09-06T17:31:24.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "How do you deal with Reddit being off limits?",
+    "summary": "This discussion explores workarounds for Claude's inability to access Reddit directly, addressing content restrictions and potential solutions.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Reddit"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights limitations and workarounds for LLM access to specific online content, relevant to accessibility and data utilization.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w8skpx/how_do_you_deal_with_reddit_being_off_limits/",
+    "published_at": "2026-09-06T10:29:29.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "summary": "This article delves into OpenAI's internal research practices, focusing on how coding agents are accelerating AI research and providing early usage data.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insights into OpenAI's internal research methodology and the impact of agents on accelerating AI development.",
+    "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "published_at": "2026-09-06T08:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Anthropic IPO launch shifts toward mid-October",
     "summary": "Anthropic's initial public offering (IPO) is now projected to occur in mid-October, marking a shift from previous timelines.",
     "category": "alerta",
@@ -148,25 +723,6 @@
     "source_url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
     "published_at": "2026-09-04T17:38:48.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Google Gemini Pricing",
-    "summary": "Google has updated its Gemini API pricing page, noting the availability of Gemini 3.8 Flash and presenting pricing tiers.",
-    "category": "novedad",
-    "entities": [
-      "Google Gemini",
-      "Gemini API"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "3.8"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is an update to Google's Gemini API pricing page, indicating new model availability and pricing structures for developers.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-09-04T12:17:01.139Z",
-    "confidence": 0.9
   },
   {
     "title": "Anthropic Pricing",
@@ -573,6 +1129,22 @@
     "why_included": "This is a significant user-facing change to a key feature of Claude, indicating a potential reduction in transparency and user control, reported without formal announcement.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w5xmrj/so_they_just_silently_killed_the_thinking_chain/",
     "published_at": "2026-09-03T04:52:02.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Show us what you've created with Claude!",
+    "summary": "This weekly Reddit post encourages users to share projects they have built using Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This showcases user-generated projects built with Claude, demonstrating practical applications and community engagement.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w5q6dx/show_us_what_youve_created_with_claude/",
+    "published_at": "2026-09-02T23:02:02.000Z",
     "confidence": 0.9
   },
   {
@@ -4215,62 +4787,5 @@
     "source_url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/",
     "published_at": "2026-08-08T14:06:41.000Z",
     "confidence": 0.95
-  },
-  {
-    "title": "Claude code : your sessions can now message each other.",
-    "summary": "Claude Code v2.1.224 has been released, introducing cross-session messaging which allows agents to sync backend/frontend tasks independently, prompting discussion on how users will adapt their multi-terminal setups.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "2.1.224"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant update to Claude Code, enhancing its agent capabilities and prompting discussion on new workflow possibilities.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vio0w9/claude_code_your_sessions_can_now_message_each/",
-    "published_at": "2026-08-08T06:00:08.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "PSA: Be careful letting Claude use WebFetch for research 😵﻿",
-    "summary": "A user discovered that Claude's WebFetch tool sometimes uses a smaller model for summaries, leading to inaccuracies and fabricated details. They now opt for manually fetching and processing web content.",
-    "category": "alerta",
-    "entities": [
-      "Claude",
-      "WebFetch",
-      "Opus 5",
-      "Sonnet"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This is a high-impact alert regarding the reliability and accuracy of Claude's research tools, specifically the WebFetch feature.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vim8b7/psa_be_careful_letting_claude_use_webfetch_for/",
-    "published_at": "2026-08-08T04:22:21.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "I used Claude to build a poker app where you deal real cards and everyone uses their phone as their chip stack. It’s now been used to play 19,072 poker hands.",
-    "summary": "A user with minimal coding experience built a web app called Chipless using Claude, allowing players to use their phones as chip stacks in real poker games. The app has facilitated 19,072 hands played across 38 countries.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Chipless"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "19,072",
-      "38"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This demonstrates the practical application of Claude in building a functional application with significant user engagement, showcasing its utility for non-expert developers.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vii2zl/i_used_claude_to_build_a_poker_app_where_you_deal/",
-    "published_at": "2026-08-08T00:56:34.000Z",
-    "confidence": 1
   }
 ]
