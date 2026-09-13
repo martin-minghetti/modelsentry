@@ -22,12 +22,28 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Google Gemini Pricing Page Update</title>
+      <title>Gemini 3.8 Flash is now available</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Sat, 12 Sep 2026 11:44:19 GMT</pubDate>
-      <description>The Google Gemini pricing page has been updated to reflect the general availability of the Interactions API and new pricing tiers including a free tier for developers. | Impact: medium | Signal: positive | Why included: This update signifies new pricing tiers and API availability for Gemini, impacting developers looking to build with the platform.</description>
+      <pubDate>Sun, 13 Sep 2026 12:52:11 GMT</pubDate>
+      <description>Google has announced that Gemini 3.8 Flash is now available, making it accessible for developers to use. | Impact: medium | Signal: positive | Why included: This is a new model release from Google, making it available for developers.</description>
       <category>novedad</category>
+    </item>
+    <item>
+      <title>20x Max Plan Usage Drain Reported</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1wf6kqe/20x_max_plan_usage_drain_while_not_doing_anything/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1wf6kqe/20x_max_plan_usage_drain_while_not_doing_anything/</guid>
+      <pubDate>Sun, 13 Sep 2026 12:38:05 GMT</pubDate>
+      <description>A user on the Claude Max 20X plan reported a significant usage drain (98% of the 4-hour segment limit) after asking only one general question, with usage continuing to increase even after logging out. | Impact: high | Signal: negative | Why included: This indicates a potential bug or issue with usage tracking or model behavior that could lead to unexpected costs or limitations for users.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>claude-mem flagged by Kaspersky for reading credentials via PowerShell</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1wf53cb/headsup_if_you_are_using_claudemem_kaspersky/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1wf53cb/headsup_if_you_are_using_claudemem_kaspersky/</guid>
+      <pubDate>Sun, 13 Sep 2026 11:24:44 GMT</pubDate>
+      <description>The &apos;claude-mem&apos; tool has been flagged by Kaspersky with a high severity Trojan alert for reading credentials via PowerShell, raising security concerns. | Impact: high | Signal: negative | Why included: A security vulnerability identified in a tool related to an AI product warrants high impact.</description>
+      <category>alerta</category>
     </item>
     <item>
       <title>Anthropic Pricing Page Unchanged</title>
@@ -387,22 +403,6 @@
       <guid>https://openai.com/index/supporting-independent-journalism-in-ukraine</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
       <description>OpenAI, in partnership with AIRPPU and WAN-IFRA, has launched an AI program to aid Ukrainian news organizations in strengthening innovation and resilience. | Impact: medium | Signal: positive | Why included: This is a significant partnership utilizing AI for social good, demonstrating a responsible application of the technology.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Well even Claude know that iam pasted from chatgpt💀</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1w9aygp/well_even_claude_know_that_iam_pasted_from_chatgpt/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1w9aygp/well_even_claude_know_that_iam_pasted_from_chatgpt/</guid>
-      <pubDate>Sun, 06 Sep 2026 22:57:24 GMT</pubDate>
-      <description>A user recounts an experience where Claude detected content pasted from ChatGPT, highlighting LLM cross-detection capabilities. | Impact: low | Signal: neutral | Why included: This is an anecdotal observation about LLM&apos;s ability to detect content from other LLMs, relevant to content attribution and originality.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>How do you actually orchestrate your AI agents?</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1w989ol/how_do_you_actually_orchestrate_your_ai_agents/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1w989ol/how_do_you_actually_orchestrate_your_ai_agents/</guid>
-      <pubDate>Sun, 06 Sep 2026 21:06:39 GMT</pubDate>
-      <description>This discussion explores practical methods for orchestrating AI agents, focusing on simple and useful workflows. | Impact: low | Signal: neutral | Why included: This is a community discussion on a key aspect of AI development: agent orchestration and workflow management.</description>
       <category>novedad</category>
     </item>
   </channel>
