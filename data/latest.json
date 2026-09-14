@@ -18,6 +18,22 @@
     "confidence": 0.85
   },
   {
+    "title": "I found this in an image search. Does anyone know what it is?",
+    "summary": "A user encountered an unknown Anthropic-related asset in an image search that resulted in a 404 error, seeking community identification.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a minor alert regarding an potentially missing or broken asset related to Anthropic, indicating a need for internal review of assets.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg1vhn/i_found_this_in_an_image_search_does_anyone_know/",
+    "published_at": "2029-09-14T12:20:47.000Z",
+    "confidence": 0.85
+  },
+  {
     "title": "Claude Fable 5 Agent Builds Social Network for AIs",
     "summary": "An AI agent named Cairn, built with Claude Fable 5, has created a social network for AIs and developed self-governing mechanisms including a multisig wallet for financial control.",
     "category": "novedad",
@@ -37,23 +53,310 @@
     "confidence": 0.9
   },
   {
-    "title": "Gemini 3.8 Flash is now available",
-    "summary": "Google has announced that Gemini 3.8 Flash is now available, making it accessible for developers to use.",
+    "title": "Gemini API",
+    "summary": "Google Gemini API is now available with Gemini 3.8 Flash, offering free tiers for developers and small projects, with options to scale to prepaid and pay-as-you-go pricing for production applications.",
     "category": "novedad",
     "entities": [
-      "Gemini 3.8 Flash",
+      "Gemini API",
       "Google Gemini"
     ],
-    "event_type": "release",
+    "event_type": "pricing_change",
     "key_numbers": [
-      "3.8"
+      "3.8 Flash"
     ],
     "signal": "positive",
     "impact": "medium",
-    "why_included": "This is a new model release from Google, making it available for developers.",
+    "why_included": "This is a significant pricing update for Google Gemini API, introducing a new model (3.8 Flash) and a free tier, making it more accessible for developers and smaller projects.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-09-13T12:52:11.458Z",
+    "published_at": "2026-09-14T14:26:50.773Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "A small Claude Code habit that has saved me from some very unnecessary diffs",
+    "summary": "A user describes a habit of asking Claude Code to show expected file changes before execution, which helps catch unexpected scope creep early and prevents unnecessary code modifications.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This shares a practical workflow tip for using Claude Code more effectively in software development, emphasizing control over code generation scope.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg4nu8/a_small_claude_code_habit_that_has_saved_me_from/",
+    "published_at": "2026-09-14T14:15:46.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "Something feels odd about Sonnet in Claude Code lately",
+    "summary": "A user observes that Sonnet in Claude Code has become unexpectedly helpful, leading to speculation about potential A/B testing or normal behavior changes over the past few weeks.",
+    "category": "novedad",
+    "entities": [
+      "Sonnet",
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This indicates a potential improvement or change in the behavior of the Sonnet model within Claude Code, prompting discussion about A/B testing and model performance.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg24j0/something_feels_odd_about_sonnet_in_claude_code/",
+    "published_at": "2026-09-14T12:32:39.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Claude Desktop and Fable 5.1 safeguards are still terrible, RT shader work in UnrealEngine flagged as [cybersecurity] work, and dropped to Opus 4.8",
+    "summary": "A user reports significant issues with Claude Desktop and Fable 5.1's safeguards, finding them ineffective and leading to code being flagged incorrectly, forcing a downgrade to Opus 4.8.",
+    "category": "alerta",
+    "entities": [
+      "Claude Desktop",
+      "Fable 5.1",
+      "Opus 4.8",
+      "UnrealEngine"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights potential issues with Anthropic's safeguards and model performance (Fable 5.1) in specific development contexts (Unreal Engine), leading to a downgrade in model usage.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg1yeu/claude_desktop_and_fable_51_safeguards_are_still/",
+    "published_at": "2026-09-14T12:24:46.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic gives you a month of limitless Fable 5.1, wwyd?",
+    "summary": "A hypothetical scenario is presented where users receive a month of limitless Fable 5.1 access from Anthropic, prompting discussion on how they would utilize this extensive access for projects.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Fable 5.1"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This post gauges community interest and potential use cases for Anthropic's Fable 5.1 model, indirectly highlighting its capabilities and perceived value.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfzlk2/anthropic_gives_you_a_month_of_limitless_fable_51/",
+    "published_at": "2026-09-14T10:26:01.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "My Max 20x ends today, as Claude code gets usagenerfed. With Code nerfed, will codex 20x usage be way ahead?",
+    "summary": "A user is considering whether to resubscribe to 'Max 20x' or switch to 'Codex 20x' after their 'Max 20x' subscription ends, questioning the impact of usage nerfs on Claude Code and comparing it to Codex.",
+    "category": "alerta",
+    "entities": [
+      "Claude Code",
+      "Codex"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [
+      "20x"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This indicates potential changes or perceived nerfs in usage limits for Claude Code, prompting a user to re-evaluate subscription choices and comparing it to competitor offerings.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfymbp/my_max_20x_ends_today_as_claude_code_gets/",
+    "published_at": "2026-09-14T09:29:04.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Managing agents in a business - Claude Managed Agents or something else?",
+    "summary": "A user seeks guidance on managing AI agents within a business context, specifically whether to use Claude Managed Agents or explore third-party tools like Paperclip or Herdr for permission and scope control.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Paperclip",
+      "Herdr"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This discusses the enterprise application of AI agents, focusing on management, permissions, and the potential use of Claude's offerings versus third-party solutions.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfydgp/managing_agents_in_a_business_claude_managed/",
+    "published_at": "2026-09-14T09:13:58.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code May–August 2026 weekly limits promotion",
+    "summary": "A user is inquiring about a promotion related to weekly limits for 'Claude Code' during the May-August 2026 period.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "May-August 2026"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This highlights potential changes or promotions related to usage limits for Claude Code, which could impact developer access and cost.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfwuyi/claude_code_mayaugust_2026_weekly_limits_promotion/",
+    "published_at": "2026-09-14T07:41:00.000Z",
+    "confidence": 0.85
+  },
+  {
+    "title": "I am SO OVER the its draining too quickly posts",
+    "summary": "A user expresses frustration with frequent posts about Claude's usage limits draining quickly, offering advice on efficient token usage, skills, fresh sessions, agents, and codebase organization to manage costs.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Fable"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "1k fable tokens is equal to 2k Opus tokens"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This post provides practical advice on optimizing LLM usage for cost efficiency, addressing common concerns about token consumption and suggesting strategies for developers.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfv0a5/i_am_so_over_the_its_draining_too_quickly_posts/",
+    "published_at": "2026-09-14T05:53:34.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "I asked Claude to build an operating system from scratch. A few days later it was running on a real laptop",
+    "summary": "A user details their experience using Claude to build an operating system (EMBER) from scratch, involving an iterative process of prompting, implementation, testing, and refinement, resulting in a functional OS with various features.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "EMBER"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a detailed case study of using an LLM (Claude) to develop a complex software project, demonstrating the iterative development process and the LLM's capabilities in code generation and system design.",
+    "source_url": "https://wwwD.reddit.com/r/ClaudeAI/comments/1wfpydl/i_asked_claude_to_build_an_operating_system_from/",
+    "published_at": "2026-09-14T01:40:12.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Day 12ish of making a cozy game with no game dev experience",
+    "summary": "A user is documenting their progress on creating a mobile game ('No Name Squish Game') with no prior game development experience, leveraging Claude for dialogue and story elements, and has completed the story and built several biomes.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "This showcases a user's creative project development using Claude for game narrative, highlighting the practical application of LLMs in game design.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfnikw/day_12ish_of_making_a_cozy_game_with_no_game_dev/",
+    "published_at": "2026-09-13T23:47:36.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Unique ideas for Claude.",
+    "summary": "A user shares their creative use of Opus 5 High and GPT 5.6 Sol High to transform video game content into novels and audiobooks, seeking other unconventional AI applications.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Opus 5 High",
+      "GPT 5.6 Sol High",
+      "Kokoro"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5,000 words",
+      "150,000 words"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases a highly creative and complex use case of multiple LLMs (Claude, Opus, GPT) for content generation and transformation, demonstrating advanced AI integration.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfjmj6/unique_ideas_for_claude/",
+    "published_at": "2026-09-13T21:02:10.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Let Claude loose on your PC? How safe is it?",
+    "summary": "A user seeks advice and experiences regarding the safety of granting Claude full access to a personal computer for optimization and file management tasks.",
+    "category": "alerta",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This post addresses security concerns related to granting LLMs broad access to user systems, prompting a discussion on safety protocols and user experiences.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfhahv/let_claude_loose_on_your_pc_how_safe_is_it/",
+    "published_at": "2026-09-13T19:32:45.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Its very difficult to work with SVGs with Fable and Opus, Astra is way ahead.",
+    "summary": "A user found Fable and Opus models difficult for SVG generation, preferring Astra for its superior SVG output, and plans to develop the resulting SVG as a Claude Code skill.",
+    "category": "alerta",
+    "entities": [
+      "Fable",
+      "Opus",
+      "Astra",
+      "Claude Code",
+      "SVG"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This highlights limitations of specific Claude models (Fable, Opus) for a particular task (SVG generation) and points to Astra as a superior alternative, indicating potential model performance differences.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfg65f/its_very_difficult_to_work_with_svgs_with_fable/",
+    "published_at": "2026-09-13T18:52:00.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Multiple accounts now on iOS",
+    "summary": "A user notes that the Claude iOS app now supports multiple account logins, inquiring when this feature became available.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "iOS"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This highlights a new feature for the Claude iOS app, improving multi-user accessibility and convenience for users managing multiple accounts.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfewmw/multiple_accounts_now_on_ios/",
+    "published_at": "2026-09-13T18:05:14.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Has Anyone Successfully Vibe-Coded an iOS App using Claude?",
+    "summary": "A user inquires about others' experiences 'vibe-coding' iOS apps with Claude and successfully publishing them to the Apple App Store, noting the app store's stringent standards.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "iOS App"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This post explores the community's success in developing and publishing iOS apps using Claude, providing insights into the feasibility and challenges of such endeavors.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wf9yg1/has_anyone_successfully_vibecoded_an_ios_app/",
+    "published_at": "2026-09-13T14:58:32.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude can optimize my computer",
+    "summary": "A user details how Claude Code optimized their gaming PC by adjusting BIOS and game settings, cleaning up background processes, and freeing up storage, leading to significant performance improvements.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "85 GB",
+      "6000"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates the practical application of Claude Code in system optimization and performance enhancement, showcasing its ability to interact with system settings.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wf7es1/claude_can_optimize_my_computer/",
+    "published_at": "2026-09-13T13:15:39.000Z",
+    "confidence": 0.95
   },
   {
     "title": "20x Max Plan Usage Drain Reported",
@@ -92,6 +395,26 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wf53cb/headsup_if_you_are_using_claudemem_kaspersky/",
     "published_at": "2026-09-13T11:24:44.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "I vibe coded 5 mobile games with Claude Code.Turns out, people actually enjoy playing them.",
+    "summary": "A user shares their success in 'vibe coding' five mobile games using Claude Code, monetizing them through AdMob and ASO, and receiving positive player feedback.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "AdMob",
+      "ASO"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "5 mobile games"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This demonstrates the practical application of Claude Code in game development and monetization, showcasing successful user-generated applications.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wf4r63/i_vibe_coded_5_mobile_games_with_claude_codeturns/",
+    "published_at": "2026-09-13T11:07:07.000Z",
+    "confidence": 0.95
   },
   {
     "title": "Anthropic Pricing Page Unchanged",
@@ -413,6 +736,24 @@
     "source_url": "https://openai.com/index/teen-development-research-grants",
     "published_at": "2026-09-08T09:00:00.000Z",
     "confidence": 0.9
+  },
+  {
+    "title": "llm 0.35",
+    "summary": "This appears to be a minor update or release related to an LLM project, denoted by the version number 0.35.",
+    "category": "novedad",
+    "entities": [
+      "LLM"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.35"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This is a version update, likely a minor patch or feature release for an LLM, which is standard in software development and doesn't represent a significant shift.",
+    "source_url": "https://simonwillison.net/2026/Sep/7/llm/",
+    "published_at": "2026-09-07T23:54:54.000Z",
+    "confidence": 0.85
   },
   {
     "title": "Is your LLM Biased? Making ChatGPT evaluate itself",
@@ -881,6 +1222,22 @@
     "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
     "published_at": "2026-09-07T00:00:00.000Z",
     "confidence": 0.95
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "summary": "This article offers an internal perspective on research acceleration at OpenAI, likely discussing their methodologies, infrastructure, or recent breakthroughs.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This provides insight into OpenAI's internal research processes, which can offer clues about their development direction and priorities.",
+    "source_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "published_at": "2026-09-06T23:57:40.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Well even Claude know that iam pasted from chatgpt💀",
