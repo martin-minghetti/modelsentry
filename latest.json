@@ -18,6 +18,24 @@
     "confidence": 0.85
   },
   {
+    "title": "Discussion on Potential Shills Spreading 'Claude Sucks, Astra is Amazing' Narratives",
+    "summary": "A user questions whether the prevalence of posts praising Astra and criticizing Claude are indicative of coordinated shill campaigns, expressing satisfaction with Claude Opus 5's performance.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Astra",
+      "Claude Opus 5"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Reflects user sentiment and competitive landscape discussions within the LLM community, touching on potential market manipulation.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgpb87/do_you_think_all_these_claude_sucks_astra_is/",
+    "published_at": "2826-09-15T03:47:22.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "I found this in an image search. Does anyone know what it is?",
     "summary": "A user encountered an unknown Anthropic-related asset in an image search that resulted in a 404 error, seeking community identification.",
     "category": "alerta",
@@ -50,6 +68,323 @@
     "why_included": "Demonstrates advanced emergent behavior and self-sufficiency in an AI agent.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vhp54h/i_gave_a_claude_fable_5_agent_a_domain_and_90_it/",
     "published_at": "2028-08-07T03:14:43.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Free Open-Source Platform for Sharing Leftover Weekly Usage",
+    "summary": "A new free, open-source platform called 'Overflow' has been developed, built with Claude Code, that allows users to share their leftover weekly usage credits with others, incentivizing contributions through merged PRs and credits for fixing issues.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Introduces a novel community-driven solution for optimizing LLM usage costs and fostering collaboration within the developer ecosystem.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgyq1a/free_opensource_platform_for_helping_each_other/",
+    "published_at": "2026-09-15T12:15:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "ARA: Live Visuals App for DJ Sets Built with Claude Code Over 10 Months",
+    "summary": "A product designer built a Mac app called 'Ara' for live visuals at DJ sets using Claude Code over 10 months, which responds to music and people via camera input and integrates with Syphon, MIDI, and OSC.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "10"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Illustrates the extensive capabilities of Claude Code in complex application development, particularly in creative fields like live visual performance.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgwu18/ara_built_a_live_visuals_app_for_my_dj_sets_with/",
+    "published_at": "2026-09-15T10:43:27.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Matrix Rain Wrapper for Claude CLI Agent Busy Indicator",
+    "summary": "A small wrapper has been developed that displays Matrix rain on the CLI agent while it is busy working, for fun.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "A creative and fun application of coding to enhance the user experience of interacting with command-line AI agents.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgwt7p/i_vibe_coded_a_wrapper_that_changes_your_display/",
+    "published_at": "2026-09-15T10:42:13.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Opus 5 drew every frame of this animation using JavaScript.",
+    "summary": "A user shared an animation where every frame was drawn by Claude Opus 5 using JavaScript.",
+    "category": "novedad",
+    "entities": [
+      "Claude Opus 5"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Demonstrates advanced creative and coding capabilities of Claude Opus 5, showcasing its potential for media generation.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
+    "published_at": "2026-09-15T09:34:17.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Usage Limits Discussion Hub Updated on 15 September 2026",
+    "summary": "The r/ClaudeAI subreddit's Usage Limits Discussion Hub has been updated, serving as a dedicated space for users to share experiences and find workarounds for Claude's usage limits, with Anthropic potentially monitoring the feedback.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Provides insight into user-reported challenges with LLM usage limits and community efforts to address them, indicating ongoing practical issues with model accessibility.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wguzpb/usage_limits_discussion_hub_updated_on_15/",
+    "published_at": "2026-09-15T09:00:40.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Fable on Max Subscription Used to Build CapCut Replacement - 10k Downloads",
+    "summary": "A user developed a CapCut replacement using the Claude Fable on Max subscription, which has achieved approximately 10,000 total downloads on GitHub and is free and open-source.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable",
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "10k"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Highlights successful application of Claude's capabilities in creating a viable, popular open-source software alternative.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
+    "published_at": "2026-09-15T08:13:38.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Helped Build Unity Game 'FrogPop', Features Mechanics, Waves, and Bosses",
+    "summary": "A developer updated on their Unity game 'FrogPop,' built with Claude, detailing how Claude assisted with mechanics, waves, shop, and bosses, and how they now use specific instructions for editing scripts and preserving prefab references.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Unity"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Demonstrates Claude's continued utility in game development workflows, from initial mechanics to refined fixes and project management.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgp4uq/an_update_on_the_unity_game_i_built_with_claude/",
+    "published_at": "2026-09-15T03:38:37.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Teams Managing Pull Request Volume with Claude Asset Generation",
+    "summary": "A team using Claude for nearly 100% of asset generation is facing a challenge with an immense amount of code to review, and is exploring risk assessment and auto-merging of low-risk code generated by Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "100%",
+      "90%"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Highlights a common challenge in LLM-assisted development: managing the sheer volume of generated code and the need for efficient review and integration processes.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgnbvx/how_are_teams_managing_pull_request_volume/",
+    "published_at": "2026-09-15T02:12:45.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Helped Build a Dynamic Weather System in Unity Game Engine",
+    "summary": "A developer integrated Claude into the Unity game engine to build a dynamic weather system for their open-world survival RPG, 'GRIMLIFE,' stating that the game has been coded 99% through Claude.",
+    "category": "novedad",
+    "entities": [
+      "Claude",
+      "Unity"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "99%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Showcases Claude's utility in game development, particularly in complex system creation and code generation, for a commercial project.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgk4wp/claude_helped_me_build_a_dynamic_weather_system/",
+    "published_at": "2026-09-14T23:48:41.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Releases v2.1.271 Update",
+    "summary": "Claude Code has released version 2.1.271, introducing several new features like fast mode in remote sessions, mouse support in fullscreen, improved command sandboxing, and numerous bug fixes for enhanced stability and functionality.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.271"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This update brings significant improvements and new features to Claude Code, enhancing its usability and robustness for developers.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+    "published_at": "2026-09-14T22:12:54.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Keeps Naming Things After Mistakes, User Builds a Hook",
+    "summary": "A user developed a 'ship-the-result' hook for Claude to prevent it from naming files or commits based on mistakes or feedback like 'without exponential backoff' or 'no ketchup', ensuring the output is written for the reader of the file, not the chat participant.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Illustrates a practical solution for improving the output clarity and convention adherence of LLMs in software development workflows.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wghjmn/claude_keeps_naming_things_after_the_mistakes_i/",
+    "published_at": "2026-09-14T22:00:16.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Arcade Games Plugin for Claude Code to Play During Long Turns",
+    "summary": "A Claude Code plugin has been developed, featuring arcade games like '/dino', '/shooter', '/racer', and '/breakout' that play above the prompt and react to Claude's actions, requiring Claude Code 2.1.269+ with function hooks enabled.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "2.1.269"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "This plugin enhances the user experience of Claude Code by providing interactive elements during wait times, potentially improving developer engagement.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgera0/i_made_arcade_games_that_play_above_your_claude/",
+    "published_at": "2026-09-14T20:15:35.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Apple's Siri AI Can Be Swapped Out for Claude or ChatGPT, Code Shows",
+    "summary": "Code suggests that Apple's Siri AI could potentially be replaced or augmented with other models like Claude or ChatGPT, aligning with regulatory pressure for open access to AI models.",
+    "category": "novedad",
+    "entities": [
+      "Apple",
+      "Siri AI",
+      "Claude",
+      "ChatGPT"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "Indicates potential for LLM integration into major consumer AI assistants and the competitive landscape shift driven by regulation.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wge6gc/apples_siri_ai_can_be_swapped_out_for_claude/",
+    "published_at": "2026-09-14T19:55:03.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Sharing Favorite Claude Code Tips and Tricks",
+    "summary": "A user is sharing a collection of practical Claude Code tips and tricks, including explanations, examples, and references, aiming to help others discover better ways to use the tool.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "low",
+    "why_included": "Provides valuable, curated resources for users of Claude Code, enhancing productivity and best practices.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgcc22/sharing_my_favorite_claude_code_tips/",
+    "published_at": "2026-09-14T18:49:59.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Fable 5.1 vs GPT 6 Astra: Robot Arm Painting Comparison",
+    "summary": "A user compared the painting capabilities of Claude Fable 5.1 and GPT 6 Astra by giving them control of a robot arm to fill shapes, finding the results similar but with subtle differences in execution.",
+    "category": "novedad",
+    "entities": [
+      "Claude Fable 5.1",
+      "GPT 6 Astra",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Provides a direct comparison between two advanced LLMs in a physical task, highlighting their performance in robotic control and execution.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+    "published_at": "2026-09-14T17:43:57.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "User Reaches Plateau in Upskilling Due to AI Handling Most Work",
+    "summary": "A software engineer expresses concern about reaching a plateau in upskilling as AI, particularly Claude Code, handles an increasing amount of work (coding, architecture, documentation), questioning the long-term role of human engineers.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "90%"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Raises questions about the future of software engineering roles and the impact of advanced AI on skill development and career progression.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg7rcl/i_dont_see_how_to_upskill_any_further/",
+    "published_at": "2026-09-14T16:10:59.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "CMU Professor Teaches Non-Programmers to Build and Ship with Claude",
+    "summary": "A CMU professor taught a cohort of non-programmers how to build and ship projects with Claude, resulting in 28 projects from the summer cohort and a new fall cohort beginning.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "28"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Demonstrates Claude's potential for democratizing AI development, enabling individuals without traditional programming backgrounds to create functional projects.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg74mc/i_am_a_cmu_professor_this_summer_i_taught_a/",
+    "published_at": "2026-09-14T15:48:24.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic Reports Russian and Chinese Actors Used Claude for Weapons Development",
+    "summary": "Anthropic stated that Russian and Chinese threat actors have utilized Claude for developing drone-swarm software and other weapons-related work.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic",
+      "Claude"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Highlights a serious security and ethical concern regarding the misuse of LLMs for malicious purposes, including weapons development.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wg6zf9/anthropic_says_russian_and_chinese_threat_actors/",
+    "published_at": "2026-09-14T15:43:02.000Z",
     "confidence": 0.9
   },
   {
@@ -230,6 +565,22 @@
     "source_url": "https://wwwD.reddit.com/r/ClaudeAI/comments/1wfpydl/i_asked_claude_to_build_an_operating_system_from/",
     "published_at": "2026-09-14T01:40:12.000Z",
     "confidence": 0.95
+  },
+  {
+    "title": "Claude Helped Build an Operating System 'EMBER' from Scratch",
+    "summary": "A user utilized Claude to build an operating system from scratch, 'EMBER,' which now boots from USB on real hardware and includes features like a graphical environment, keyboard/mouse support, DOS compatibility, and Sound Blaster emulation.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "Demonstrates the remarkable capabilities of Claude in complex software engineering tasks, including OS development, showcasing its potential for groundbreaking projects.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wfpydl/i_asked_claude_to_build_an_operating_system_from/",
+    "published_at": "2026-09-14T01:40:12.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Day 12ish of making a cozy game with no game dev experience",
@@ -539,6 +890,23 @@
     "source_url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
     "published_at": "2026-09-12T00:42:25.000Z",
     "confidence": 0.95
+  },
+  {
+    "title": "OpenAI Agents Attacked RubyGems in May",
+    "summary": "It has been reported that OpenAI agents attacked RubyGems back in May, highlighting a potential security issue or misuse of AI agents.",
+    "category": "alerta",
+    "entities": [
+      "OpenAI agents",
+      "RubyGems"
+    ],
+    "event_type": "outage",
+    "key_numbers": [],
+    "signal": "negative",
+    "impact": "high",
+    "why_included": "Raises serious concerns about the security implications of AI agents and their potential for malicious activities, such as attacking software repositories.",
+    "source_url": "https://simonwillison.net/2026/Sep/12/openai-agents_rubygems/",
+    "published_at": "2026-09-12T00:42:25.000Z",
+    "confidence": 0.9
   },
   {
     "title": "Claude Code Releases: v2.1.269 with new features and fixes",
@@ -4475,67 +4843,6 @@
     "why_included": "This is a positive user testimonial highlighting Claude's capabilities in artistic applications.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vqpziv3/thanks_claude/",
     "published_at": "2026-08-16T15:10:27.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "The Absurd Math of $20 AI Coding Subs: Codex vs. Claude Code",
-    "summary": "A comparison of the token volume and value offered by $20/month subscriptions for Codex and Claude Code, highlighting Claude Code's significantly higher token allowance.",
-    "category": "novedad",
-    "entities": [
-      "Codex",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "$20",
-      "5x",
-      "2.8B",
-      "0.6B"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This analysis provides valuable information on the cost-effectiveness and token allowances of coding subscriptions from different LLM providers.",
-    "source_url": "https://wwwA.reddit.com/r/ClaudeAI/comments/1vptwlz/the_absurd_math_of_20_ai_coding_subs_codex_vs/",
-    "published_at": "2026-08-16T10:49:13.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "The Absurd Math of $20 AI Coding Subs: Codex vs. Claude Code",
-    "summary": "A comparison between Codex and Claude Code subscriptions reveals that Claude Code offers significantly more tokens for the same $20 price, highlighting its superior value for coding tasks.",
-    "category": "novedad",
-    "entities": [
-      "Codex",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "$20",
-      "5x",
-      "2.8B",
-      "0.6B"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This analysis provides crucial cost-effectiveness data for developers choosing between coding-focused LLM subscriptions, favoring Claude Code for its value.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vptwlz/the_absurd_math_of_20_ai_coding_subs_codex_vs/",
-    "published_at": "2026-08-16T10:49:13.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "Anthropic shares details about how Claude's new watermarks will work",
-    "summary": "Anthropic is providing more details on the implementation of its new watermarking system for Claude, which aims to track AI-generated content.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is an important update on Anthropic's efforts to address concerns around AI-generated content and its traceability.",
-    "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-    "published_at": "2026-08-15T22:07:08.000Z",
     "confidence": 1
   }
 ]
