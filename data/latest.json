@@ -4022,41 +4022,5 @@
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsl6c7/antrophic_employee_said_there_is_make_a_lot_of/",
     "published_at": "2026-08-19T12:34:36.000Z",
     "confidence": 0.8
-  },
-  {
-    "title": "Anthropic's Project Parka sits through meetings and assigns Claude agents the homework",
-    "summary": "Anthropic's Project Parka is designed to attend meetings and assign tasks to Claude agents. This initiative showcases Anthropic's advancements in agentic AI for productivity and automation.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a medium-impact announcement of a new project from Anthropic that highlights their work on agentic AI.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsgxgn/anthropics_project_parka_sits_through_meetings/",
-    "published_at": "2026-08-19T08:56:54.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic has twice the revenue of OpenAI",
-    "summary": "A report claims Anthropic's revenue is twice that of OpenAI. This financial comparison offers insight into the competitive landscape between the two leading AI companies.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "twice"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a medium-impact financial comparison between two major players in the LLM industry.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vsdx5z/anthropic_has_twice_the_revenue_of_openai/",
-    "published_at": "2026-08-19T06:02:12.000Z",
-    "confidence": 0.9
   }
 ]
