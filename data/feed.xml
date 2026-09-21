@@ -38,6 +38,22 @@
       <category>novedad</category>
     </item>
     <item>
+      <title>PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/</guid>
+      <pubDate>Mon, 21 Sep 2026 09:50:22 GMT</pubDate>
+      <description>A user is providing a public service announcement that turning off &apos;Prompt Suggestions&apos; in Claude Code can save approximately 10% of usage limits and spending. The feature reportedly performs an expensive cache read of the entire context. | Impact: medium | Signal: positive | Why included: This is a medium-impact alert as it provides actionable advice for users to optimize their spending and usage of Claude Code.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>Anthropic selects Accenture as first embedded evaluator to help implement Amodei&apos;s slowdown proposal</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/</guid>
+      <pubDate>Sun, 20 Sep 2026 17:08:01 GMT</pubDate>
+      <description>Anthropic has partnered with Accenture to serve as its first embedded evaluator, tasked with helping implement the company&apos;s safety slowdown proposal. This collaboration signifies a commitment to responsible AI development and deployment. | Impact: medium | Signal: neutral | Why included: This partnership indicates Anthropic&apos;s proactive approach to AI safety and governance, directly impacting how their models will be evaluated and potentially deployed.</description>
+      <category>novedad</category>
+    </item>
+    <item>
       <title>Google Gemini Pricing Update: Gemini 3.8 Flash now available</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
@@ -387,22 +403,6 @@
       <guid>https://simonwillison.net/2026/Sep/16/one-claude/</guid>
       <pubDate>Wed, 16 Sep 2026 18:09:49 GMT</pubDate>
       <description>Anthropic has consolidated Claude Cowork and chat into a single Claude experience, simplifying the user interface and potentially streamlining access to its capabilities. | Impact: medium | Signal: positive | Why included: This is a product consolidation announcement from Anthropic, simplifying their offerings and potentially improving user experience.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Gemini Live audio feature</title>
-      <link>https://simonwillison.net/2026/Sep/15/gemini-live/</link>
-      <guid>https://simonwillison.net/2026/Sep/15/gemini-live/</guid>
-      <pubDate>Tue, 15 Sep 2026 22:47:07 GMT</pubDate>
-      <description>This article discusses Gemini&apos;s live audio feature, likely an enhancement for real-time audio processing or interaction capabilities. | Impact: medium | Signal: positive | Why included: This highlights a new feature for Gemini, indicating advancements in its audio processing and interactive capabilities.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Free Open-Source Platform for Sharing Leftover Weekly Usage</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1wgyq1a/free_opensource_platform_for_helping_each_other/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1wgyq1a/free_opensource_platform_for_helping_each_other/</guid>
-      <pubDate>Tue, 15 Sep 2026 12:15:13 GMT</pubDate>
-      <description>A new free, open-source platform called &apos;Overflow&apos; has been developed, built with Claude Code, that allows users to share their leftover weekly usage credits with others, incentivizing contributions through merged PRs and credits for fixing issues. | Impact: medium | Signal: positive | Why included: Introduces a novel community-driven solution for optimizing LLM usage costs and fostering collaboration within the developer ecosystem.</description>
       <category>novedad</category>
     </item>
   </channel>

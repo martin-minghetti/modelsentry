@@ -71,6 +71,41 @@
     "confidence": 0.9
   },
   {
+    "title": "PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend",
+    "summary": "A user is providing a public service announcement that turning off 'Prompt Suggestions' in Claude Code can save approximately 10% of usage limits and spending. The feature reportedly performs an expensive cache read of the entire context.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "~10%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a medium-impact alert as it provides actionable advice for users to optimize their spending and usage of Claude Code.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/",
+    "published_at": "2026-09-21T09:50:22.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+    "summary": "Anthropic has partnered with Accenture to serve as its first embedded evaluator, tasked with helping implement the company's safety slowdown proposal. This collaboration signifies a commitment to responsible AI development and deployment.",
+    "category": "novedad",
+    "entities": [
+      "Anthropic",
+      "Accenture"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This partnership indicates Anthropic's proactive approach to AI safety and governance, directly impacting how their models will be evaluated and potentially deployed.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/",
+    "published_at": "2026-09-20T17:08:01.000Z",
+    "confidence": 0.9
+  },
+  {
     "title": "Google Gemini Pricing Update: Gemini 3.8 Flash now available",
     "summary": "Google has updated its Gemini API pricing page, indicating the availability of Gemini 3.8 Flash and outlining free tier limits and pricing for production applications.",
     "category": "novedad",
@@ -924,6 +959,22 @@
     "why_included": "This is a product consolidation announcement from Anthropic, simplifying their offerings and potentially improving user experience.",
     "source_url": "https://simonwillison.net/2026/Sep/16/one-claude/",
     "published_at": "2026-09-16T18:09:49.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Cowork and chat are merging into one Claude",
+    "summary": "Claude Cowork and chat functionalities are merging into a single Claude experience, allowing users to create decks, docs, and designs within conversations. This update is rolling out to Pro and Max subscribers over the next few weeks.",
+    "category": "novedad",
+    "entities": [
+      "Claude"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant product consolidation and feature expansion for Claude, making it a more integrated tool.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wi1wfu/claude_cowork_and_chat_are_merging_into_one_claude/",
+    "published_at": "2026-09-16T16:20:44.000Z",
     "confidence": 0.9
   },
   {
@@ -4578,59 +4629,6 @@
     "why_included": "This report details a successful plugin that enhances Claude Code's output quality and efficiency, demonstrating practical improvements for AI coding agents.",
     "source_url": "https://www0.reddit.com/r/ClaudeAI/comments/1vveyvm/what_a_plain_language_standard_does_to_a_coding/",
     "published_at": "2026-08-22T15:12:20.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "Is anyone else finding Claude really hard to follow lately? (Massive context dumps, cryptic phrasing)",
-    "summary": "Users are reporting a shift in Claude's response style, describing it as more cryptic, with massive context dumps and confusing phrasing, leading to a less straightforward user experience.",
-    "category": "alerta",
-    "entities": [
-      "Claude",
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This is a medium-impact alert as it signals a degradation in user experience and model clarity, which could affect adoption and satisfaction.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1vv14nh/is_anyone_else_finding_claude_really_hard_to/",
-    "published_at": "2026-08-22T03:21:16.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "llm 0.32.1",
-    "summary": "An update to the llm library, version 0.32.1, has been released.",
-    "category": "novedad",
-    "entities": [
-      "llm"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.32.1"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a minor update to an LLM-related library, indicating ongoing development in the tooling space.",
-    "source_url": "https://simonwillison.net/2026/Aug/21/llm/",
-    "published_at": "2026-08-21T17:16:13.000Z",
-    "confidence": 0.8
-  },
-  {
-    "title": "llm-openrouter 0.7",
-    "summary": "An update to the llm-openrouter library, version 0.7, has been released.",
-    "category": "novedad",
-    "entities": [
-      "llm-openrouter"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "0.7"
-    ],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a minor update to an LLM-related library, indicating ongoing development in the tooling space.",
-    "source_url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-    "published_at": "2026-08-21T16:58:19.000Z",
     "confidence": 0.8
   }
 ]
