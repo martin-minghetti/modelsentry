@@ -4129,37 +4129,5 @@
     "source_url": "https://openai.com/index/loveholidays",
     "published_at": "2026-08-26T00:00:00.000Z",
     "confidence": 1
-  },
-  {
-    "title": "The full stack behind abundant intelligence",
-    "summary": "OpenAI's CFO explains the compounding advancements across chips, compute, models, and products that deliver intelligence at scale and lower cost.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This offers strategic insights into OpenAI's approach to scaling AI capabilities and reducing costs, relevant to the industry's infrastructure and business models.",
-    "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-    "published_at": "2026-08-25T07:05:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "llm-anthropic 0.27",
-    "summary": "An update to the llm-anthropic library to version 0.27.",
-    "category": "novedad",
-    "entities": [],
-    "event_type": "release",
-    "key_numbers": [
-      "0.27"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a library update related to Anthropic's LLMs, indicating ongoing development and maintenance of tools in the AI ecosystem.",
-    "source_url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "published_at": "2026-08-24T16:27:04.000Z",
-    "confidence": 1
   }
 ]
