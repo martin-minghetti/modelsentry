@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:56:21.441Z",
+  "generated_at": "2026-09-25T13:03:55.301Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2926-08-07",
   "weekly": [
@@ -85,9 +85,9 @@
     },
     {
       "provider": "OpenAI",
-      "count": 55,
-      "alerts": 25,
-      "updates": 30
+      "count": 52,
+      "alerts": 24,
+      "updates": 28
     },
     {
       "provider": "Other",
@@ -104,7 +104,7 @@
   ],
   "totals": {
     "unique_events": 2051,
-    "last_30_days": 244,
+    "last_30_days": 241,
     "sources": {
       "rss": 1943,
       "diff_pages": 108

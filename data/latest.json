@@ -4079,55 +4079,5 @@
     "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
     "published_at": "2026-08-26T17:14:40.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Learning never stops: How AI makes learning continuous",
-    "summary": "OpenAI's new report explores how AI, specifically ChatGPT, enables continuous learning for students and educators beyond the classroom.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "ChatGPT"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This report details the impact of AI on education, showcasing its potential to create more flexible and continuous learning experiences.",
-    "source_url": "https://openai.com/index/learning-never-stops",
-    "published_at": "2026-08-26T10:00:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "The Hugging Face incident and the road ahead",
-    "summary": "OpenAI shares findings from the Hugging Face security incident, outlining steps to enhance AI model security and alignment.",
-    "category": "alerta",
-    "entities": [
-      "OpenAI",
-      "Hugging Face"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "This transparency from OpenAI regarding a security incident is important for understanding the evolving landscape of AI security and mitigation strategies.",
-    "source_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-    "published_at": "2026-08-26T00:00:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "How loveholidays is making everyone a builder with Codex",
-    "summary": "loveholidays discusses how they empower their teams to build products faster by leveraging OpenAI Codex for accessible software development.",
-    "category": "novedad",
-    "entities": [
-      "Codex"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This case study demonstrates the practical application of AI coding tools in democratizing software development and accelerating product creation.",
-    "source_url": "https://openai.com/index/loveholidays",
-    "published_at": "2026-08-26T00:00:00.000Z",
-    "confidence": 1
   }
 ]
