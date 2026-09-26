@@ -4031,53 +4031,5 @@
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
     "published_at": "2026-08-27T22:12:20.000Z",
     "confidence": 1
-  },
-  {
-    "title": "Expanding OpenAI’s presence in Brazil",
-    "summary": "OpenAI is increasing its presence in Brazil to foster AI adoption among developers, businesses, and communities.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This expansion indicates OpenAI's strategic focus on growing its international presence and driving AI adoption in key markets.",
-    "source_url": "https://openai.com/index/expanding-our-presence-in-brazil",
-    "published_at": "2026-08-27T03:00:00.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "v2.1.247",
-    "summary": "Anthropic released Claude Code version 2.1.247, adding a SendFeedback tool, cost optimization API, and numerous fixes.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This update focuses on improving user feedback mechanisms, API cost optimization, and general stability, indicating ongoing development of Claude Code.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
-    "published_at": "2026-08-26T23:06:39.000Z",
-    "confidence": 1
-  },
-  {
-    "title": "v1.1.0",
-    "summary": "Anthropic released version 1.1.0 of its Python SDK, adding features like a thinking display mode and support for Organization API endpoints.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic SDK Python"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This SDK update provides new capabilities for developers interacting with Anthropic's models, particularly around organization management and real-time feedback.",
-    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
-    "published_at": "2026-08-26T17:14:40.000Z",
-    "confidence": 1
   }
 ]
