@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:06:57.987Z",
+  "generated_at": "2026-09-30T14:17:47.931Z",
   "coverage_start": "2019-03-11",
   "coverage_end": "2926-08-07",
   "weekly": [
@@ -79,8 +79,8 @@
   "providers": [
     {
       "provider": "Anthropic",
-      "count": 122,
-      "alerts": 32,
+      "count": 118,
+      "alerts": 28,
       "updates": 90
     },
     {
@@ -91,9 +91,9 @@
     },
     {
       "provider": "Other",
-      "count": 17,
+      "count": 16,
       "alerts": 0,
-      "updates": 17
+      "updates": 16
     },
     {
       "provider": "Google",
@@ -104,7 +104,7 @@
   ],
   "totals": {
     "unique_events": 2051,
-    "last_30_days": 193,
+    "last_30_days": 188,
     "sources": {
       "rss": 1943,
       "diff_pages": 108
