@@ -71,6 +71,176 @@
     "confidence": 0.9
   },
   {
+    "title": "Google Gemini Pricing Update: Gemini 3.8 Flash Now Available",
+    "summary": "Google has updated its Gemini pricing page, announcing the availability of Gemini 3.8 Flash and removing the 'Content used to improve our products*' disclaimer from the free tier.",
+    "category": "novedad",
+    "entities": [
+      "Google Gemini",
+      "Gemini API",
+      "Gemini 3.8 Flash",
+      "Google AI Studio"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "high",
+    "why_included": "This includes a new model release and a pricing update that removes a significant privacy concern for users of the free tier.",
+    "source_url": "https://ai.google.dev/pricing",
+    "published_at": "2026-10-09T14:43:15.796Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic Programmatic Pricing Change Detected",
+    "summary": "A change in Anthropic's pricing page was detected, specifically on the Anthropic Pricing page, with the Old section showing existing pricing and the New section indicating a potential shift.",
+    "category": "alerta",
+    "entities": [
+      "Anthropic"
+    ],
+    "event_type": "pricing_change",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "high",
+    "why_included": "This is a detected change in pricing for a major LLM provider's core product, requiring immediate attention to understand the implications.",
+    "source_url": "https://www.anthropic.com/pricing",
+    "published_at": "2026-10-09T14:43:14.292Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Sophos Cuts Threat Investigation Time by 96% Using OpenAI Daybreak",
+    "summary": "Sophos has significantly reduced its threat investigation time by 96% and automated 52% of its MDR cases by implementing OpenAI's Daybreak, while maintaining human oversight.",
+    "category": "novedad",
+    "entities": [
+      "Sophos",
+      "OpenAI Daybreak",
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "96%",
+      "52%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This highlights a significant real-world application and efficiency gain achieved by using an OpenAI model in a critical industry.",
+    "source_url": "https://openai.com/index/sophos",
+    "published_at": "2026-10-09T07:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Startups Program No Longer Offers Year of Team and $1K API Credits",
+    "summary": "Anthropic's Claude Startups program has discontinued offering a year of Claude Team and $1,000 in API credits, impacting early-stage companies seeking AI support.",
+    "category": "alerta",
+    "entities": [
+      "Claude Startups",
+      "Anthropic",
+      "Claude Team",
+      "API Credits"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "$1K"
+    ],
+    "signal": "negative",
+    "impact": "medium",
+    "why_included": "This represents a reduction in benefits for a specific program, impacting the startup ecosystem and potentially their adoption of Anthropic's services.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1x1af87/claude_startup_program_no_longer_offering_a_year/",
+    "published_at": "2026-10-09T03:03:22.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Anthropic Introduces Policy Against Abusing Claude, Effective November 12th, 2026",
+    "summary": "Anthropic is implementing an official policy against abusing Claude, with bans effective November 12th, 2026, indicating a growing concern over AI interaction guidelines.",
+    "category": "alerta",
+    "entities": [
+      "Claude",
+      "Anthropic"
+    ],
+    "event_type": "other",
+    "key_numbers": [
+      "November 12th, 2026"
+    ],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This indicates a shift in AI development towards stricter interaction policies and potential enforcement, impacting how users interact with models.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1x11k9j/abuse_claude_get_banned_coming_november_12th_2026/",
+    "published_at": "2026-10-08T20:17:34.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Claude Code Releases v2.1.295: New Features and Bug Fixes for Enhanced Productivity",
+    "summary": "Anthropic's Claude Code has released version 2.1.295, introducing new features like 'onFailure: \"block\"' for command hooks, Program Status Protocol support, and numerous bug fixes to improve user experience and stability.",
+    "category": "novedad",
+    "entities": [
+      "Claude Code"
+    ],
+    "event_type": "release",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a significant SDK update with new features and stability improvements for a key developer tool in the LLM ecosystem.",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+    "published_at": "2026-10-08T19:48:38.000Z",
+    "confidence": 0.95
+  },
+  {
+    "title": "Pollo AI Leverages OpenAI Models for Campaign Creation",
+    "summary": "Pollo AI is utilizing OpenAI's GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to transform creative ideas into detailed images and cinematic video ads.",
+    "category": "novedad",
+    "entities": [
+      "Pollo AI",
+      "OpenAI",
+      "GPT-5.6",
+      "GPT-6 Astra",
+      "GPT-Image-2.5"
+    ],
+    "event_type": "partnership",
+    "key_numbers": [],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This showcases a new application of multiple OpenAI models for creative campaign generation, indicating advancements in multimodal AI capabilities.",
+    "source_url": "https://openai.com/index/pollo-ai",
+    "published_at": "2026-10-08T12:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "OpenAI Disrupts AI-Enabled Influence Operations",
+    "summary": "OpenAI has successfully disrupted two AI-enabled influence operations that utilized fabricated journalists and a think tank to spread geopolitical messaging.",
+    "category": "novedad",
+    "entities": [
+      "OpenAI"
+    ],
+    "event_type": "other",
+    "key_numbers": [],
+    "signal": "neutral",
+    "impact": "medium",
+    "why_included": "This demonstrates OpenAI's efforts in combating malicious AI use, highlighting the ongoing challenges and capabilities in AI safety and security.",
+    "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "published_at": "2026-10-08T00:00:00.000Z",
+    "confidence": 0.9
+  },
+  {
+    "title": "Anthropic Introduces Claude Haiku 5.5, Citing Significant Cost and Speed Improvements",
+    "summary": "Anthropic has released Claude Haiku 5.5, touting it as their cheapest, fastest, and most capable small model yet, with costs around 75% lower than its predecessor and a 90% reduction per token for common request sizes. The new model also features an adjustable effort setting for optimizing cost or intelligence.",
+    "category": "novedad",
+    "entities": [
+      "Claude Haiku 5.5",
+      "Anthropic",
+      "Claude Opus 5.5",
+      "Claude Sonnet 5.5"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "75%",
+      "90%"
+    ],
+    "signal": "positive",
+    "impact": "medium",
+    "why_included": "This is a new model release with significant cost and performance improvements, impacting the competitive landscape for small, cost-sensitive LLMs.",
+    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1x03k4j/introducing_claude_haiku_55_the_cheapest_fastest/",
+    "published_at": "2026-10-07T18:01:28.000Z",
+    "confidence": 0.95
+  },
+  {
     "title": "PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend",
     "summary": "A user is providing a public service announcement that turning off 'Prompt Suggestions' in Claude Code can save approximately 10% of usage limits and spending. The feature reportedly performs an expensive cache read of the entire context.",
     "category": "novedad",
@@ -103,26 +273,6 @@
     "why_included": "This partnership indicates Anthropic's proactive approach to AI safety and governance, directly impacting how their models will be evaluated and potentially deployed.",
     "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/",
     "published_at": "2026-09-20T17:08:01.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Google Gemini Pricing Update: Gemini 3.8 Flash now available",
-    "summary": "Google has updated its Gemini API pricing page, indicating the availability of Gemini 3.8 Flash and outlining free tier limits and pricing for production applications.",
-    "category": "novedad",
-    "entities": [
-      "Google",
-      "Gemini",
-      "Gemini 3.8 Flash"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "3.8"
-    ],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a pricing update for Google's Gemini API, including a new model release, which is relevant for developers considering their AI model choices.",
-    "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-09-20T12:38:58.758Z",
     "confidence": 0.9
   },
   {
@@ -1672,24 +1822,6 @@
     "confidence": 0.95
   },
   {
-    "title": "Anthropic Pricing Page Unchanged",
-    "summary": "The Anthropic pricing page has been crawled, and no changes were detected in pricing or plans.",
-    "category": "alerta",
-    "entities": [
-      "Anthropic"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "$17"
-    ],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "No change in pricing is noted, which is neutral but relevant for tracking pricing stability.",
-    "source_url": "https://www.anthropic.com/pricing",
-    "published_at": "2026-09-12T11:44:18.729Z",
-    "confidence": 0.9
-  },
-  {
     "title": "OpenAI Deprecations Page Update",
     "summary": "The OpenAI Deprecations page has been updated, reinforcing their policy of retiring older models and notifying customers of API deprecations and recommended replacements.",
     "category": "alerta",
@@ -1934,61 +2066,5 @@
     "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
     "published_at": "2026-09-09T17:00:00.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "OpenAI Unveils GPT-6 Astra: Next-Generation Intelligence for Work",
-    "summary": "OpenAI introduces GPT-6 Astra, its most capable model for businesses, offering advanced reasoning, computer use, and improved writing and design judgment.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "6"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "A new flagship model release from OpenAI focused on enterprise capabilities signifies advancement in AI for work.",
-    "source_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-    "published_at": "2026-09-09T11:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude Code Releases: v2.1.266 addresses LLM-gateway regression",
-    "summary": "Claude Code version 2.1.266 fixes a regression introduced in v2.1.265 that affected LLM-gateway and proxy setups, restoring proper functionality for configurations using API keys or custom authentication headers.",
-    "category": "alerta",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "2.1.265",
-      "2.1.266"
-    ],
-    "signal": "negative",
-    "impact": "medium",
-    "why_included": "A regression fix is important for stability, and this specific one impacted gateway and proxy setups, potentially affecting users' ability to connect.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
-    "published_at": "2026-09-08T23:55:14.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude Code Releases: v2.1.265 with new tool result capping and bug fixes",
-    "summary": "Claude Code version 2.1.265 introduces a 1GB cap on tool results saved to disk and addresses multiple bugs related to subagent resuming, model availability, and permission checks.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "1 GB"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "Introduces a new cap on tool results and fixes various bugs, improving stability and resource management for Claude Code users.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
-    "published_at": "2026-09-08T20:37:31.000Z",
-    "confidence": 0.95
   }
 ]
