@@ -2013,58 +2013,5 @@
     "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
     "published_at": "2026-09-10T20:30:54.000Z",
     "confidence": 0.95
-  },
-  {
-    "title": "OpenAI Expands AI Access and Cyber Defense for US Governments",
-    "summary": "OpenAI partners with GSA to offer $0 license fees, 50% discounts, and enhanced cyber defense support to eligible US federal, state, local, and tribal governments, broadening AI accessibility in the public sector.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "GSA"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [
-      "$0",
-      "50%"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This partnership expands AI access to government entities, potentially leading to wider adoption and integration of AI in public services.",
-    "source_url": "https://openai.com/index/expanding-ai-access-us-government",
-    "published_at": "2026-09-10T07:00:00.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code Releases: v2.1.267 with max effort level setting and bug fixes",
-    "summary": "Claude Code version 2.1.267 introduces a `maxEffortLevel` setting to cap effort across providers and fixes issues with cloud scheduled tasks, command output rendering, and credential handling.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "The addition of effort level control and numerous bug fixes enhance the control and reliability of Claude Code.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
-    "published_at": "2026-09-09T19:58:14.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Paul Christiano Joins OpenAI Foundation Board",
-    "summary": "Paul Christiano has joined the OpenAI Foundation Board and its Safety and Security Committee, bringing expertise in AI alignment, safety, and standards.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "Paul Christiano"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This appointment highlights OpenAI's continued focus on AI safety and alignment, bringing in key expertise.",
-    "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-    "published_at": "2026-09-09T17:00:00.000Z",
-    "confidence": 0.9
   }
 ]
