@@ -38,19 +38,67 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Gemini 4 Argon Now Available on Google</title>
+      <title>Google Gemini Pricing Page Update</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Wed, 14 Oct 2026 13:07:23 GMT</pubDate>
-      <description>Gemini 4 Argon is now available, with Google using AI to translate content into preferred languages, noting that translations may contain errors. | Impact: medium | Signal: neutral | Why included: The release of a new frontier model like Gemini 4 Argon is a significant event in the LLM industry.</description>
+      <pubDate>Thu, 15 Oct 2026 12:53:26 GMT</pubDate>
+      <description>The Google Gemini pricing page has been updated, indicating that Gemini 4 Argon is now available and outlining free tier access for developers and small projects, with pay-as-you-go scaling for production applications. | Impact: low | Signal: positive | Why included: This updates the pricing information for a new major LLM release, providing clarity on costs for developers and enterprises.</description>
       <category>novedad</category>
     </item>
     <item>
-      <title>OpenAI Deprecations Page Update</title>
+      <title>Anthropic Pricing Page Update</title>
+      <link>https://www.anthropic.com/pricing</link>
+      <guid>https://www.anthropic.com/pricing</guid>
+      <pubDate>Thu, 15 Oct 2026 12:53:25 GMT</pubDate>
+      <description>The Anthropic pricing page has been updated, notably with the news that &apos;Claude Cowork is now just Claude.&apos; This change is rolling out to Pro and Max plans with more to follow. | Impact: low | Signal: neutral | Why included: This indicates a rebranding and consolidation of Anthropic&apos;s offerings, which may affect how users perceive and interact with their products.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>OpenAI Deprecations - GPT-4.5 Preview API to be turned off</title>
       <link>https://platform.openai.com/docs/deprecations</link>
       <guid>https://platform.openai.com/docs/deprecations</guid>
-      <pubDate>Wed, 14 Oct 2026 13:07:20 GMT</pubDate>
-      <description>OpenAI updated its deprecations documentation to include instructions on how to monitor model shutdowns programmatically via the List models endpoint. | Impact: low | Signal: neutral | Why included: This update provides information on how to programmatically track model deprecations, which is relevant for developers using OpenAI&apos;s API.</description>
+      <pubDate>Thu, 15 Oct 2026 12:53:23 GMT</pubDate>
+      <description>OpenAI is deprecating the GPT-4.5 Preview API, with full shutdown on July 14, 2025, as GPT-4.1 offers comparable or improved performance at lower cost and latency. Impacted customers will be notified via email and documentation updates. | Impact: high | Signal: negative | Why included: This is a high-impact deprecation with a concrete end-of-life date, requiring developers to update their API usage.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>Anthropic&apos;s third-quarter revenue said to hit $16.8 billion ahead of IPO</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1x6idx1/anthropics_thirdquarter_revenue_is_said_to_hit/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x6idx1/anthropics_thirdquarter_revenue_is_said_to_hit/</guid>
+      <pubDate>Thu, 15 Oct 2026 10:45:36 GMT</pubDate>
+      <description>Anthropic&apos;s reported third-quarter revenue reached $16.8 billion, and the company is cash-flow positive, generating $1.70 in revenue for every dollar spent on computing power. Investors expect Anthropic to reach $110 billion in annualized revenue by year-end. | Impact: medium | Signal: positive | Why included: This indicates significant financial growth and investor confidence in Anthropic, a major player in the LLM space.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>New UI Update for Claude Code</title>
+      <link>https://www8.reddit.com/r/ClaudeAI/comments/1x6hg4z/new_ui_update_for_claude_code/</link>
+      <guid>https://www8.reddit.com/r/ClaudeAI/comments/1x6hg4z/new_ui_update_for_claude_code/</guid>
+      <pubDate>Thu, 15 Oct 2026 09:50:23 GMT</pubDate>
+      <description>A new UI update for Claude Code has been released, with users noting a potential loss of token usage visibility and a less practical design, despite an aesthetic appreciation for the new blue text swirl. | Impact: low | Signal: neutral | Why included: This alerts to a user-facing UI change in a key Anthropic product, impacting usability and information display.</description>
+      <category>alerta</category>
+    </item>
+    <item>
+      <title>v1.14.0 Release for Anthropic SDK Python</title>
+      <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0</link>
+      <guid>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0</guid>
+      <pubDate>Thu, 15 Oct 2026 09:48:10 GMT</pubDate>
+      <description>The Anthropic SDK for Python has released version v1.14.0, introducing features like execution_identity for Managed Agents, new error types, and native support for OpenTelemetry tracing. Several bug fixes and documentation updates are also included. | Impact: medium | Signal: positive | Why included: This SDK update brings new features and improvements to the Python integration for Anthropic models, important for developers using their API.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>v2.1.300 Release for Claude Code</title>
+      <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.300</link>
+      <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.300</guid>
+      <pubDate>Wed, 14 Oct 2026 18:24:25 GMT</pubDate>
+      <description>Claude Code has released version v2.1.300 with numerous changes including new features like virtualText and improved OpenTelemetry integration, alongside numerous bug fixes and improvements to session handling and mod hooks. | Impact: medium | Signal: positive | Why included: This is a significant release for Claude Code, indicating ongoing development and feature additions to Anthropic&apos;s developer tools.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>They killed Projects and replaced it with a different product that kept the name</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1x5vvlc/they_killed_projects_and_replaced_it_with_a/</link>
+      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x5vvlc/they_killed_projects_and_replaced_it_with_a/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:29:57 GMT</pubDate>
+      <description>Anthropic has replaced the &apos;Projects&apos; feature in Claude with a new product that, while retaining the name, significantly alters the functionality, moving from a folder-based system to an ongoing chat interface, which is causing dissatisfaction among users who relied on the original structure. | Impact: high | Signal: negative | Why included: This indicates a significant, potentially breaking change to a core Anthropic product feature that negatively impacts user workflow and satisfaction.</description>
       <category>alerta</category>
     </item>
     <item>
@@ -356,54 +404,6 @@
       <pubDate>Tue, 13 Oct 2026 15:25:08 GMT</pubDate>
       <description>A r/ClaudeAI post expresses concern from a developer who feels obsolete due to AI&apos;s rapid advancement, questioning their future career path in software development. | Impact: medium | Signal: negative | Why included: This post captures the anxiety among professionals about AI&apos;s impact on job security and the nature of work.</description>
       <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude Used to Fix Pothole in Two Days</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1x4s9hp/someone_used_claude_to_get_a_yearsold_pothole/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x4s9hp/someone_used_claude_to_get_a_yearsold_pothole/</guid>
-      <pubDate>Tue, 13 Oct 2026 09:41:02 GMT</pubDate>
-      <description>Claude was used to generate a 3D simulation of a pothole hitting a car, leading to its repair by city officials within two days. | Impact: medium | Signal: positive | Why included: This showcases a real-world, impactful application of LLMs for civic problem-solving.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>LLM Meta AI 0.2 Release</title>
-      <link>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</link>
-      <guid>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
-      <pubDate>Mon, 12 Oct 2026 23:58:46 GMT</pubDate>
-      <description>A mention of the LLM Meta AI 0.2 release. | Impact: low | Signal: neutral | Why included: Indicates a version update for a Meta AI LLM, likely a minor release.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Claude saved my marriage. 😂💀</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1x395p7/claude_saved_my_marriage/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x395p7/claude_saved_my_marriage/</guid>
-      <pubDate>Sun, 11 Oct 2026 14:09:42 GMT</pubDate>
-      <description>A user humorously shares how Claude&apos;s custom instructions feature, used on a shared account, helped resolve relationship issues between them and their wife. | Impact: low | Signal: positive | Why included: This is a lighthearted example of how AI features can be applied to personal life, indicating user engagement with advanced features.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>I just build Claude Dev Tools</title>
-      <link>https://github.com/NMenzel/claude-devtools-mod</link>
-      <guid>https://github.com/NMenzel/claude-devtools-mod</guid>
-      <pubDate>Sun, 11 Oct 2026 13:48:18 GMT</pubDate>
-      <description>A user has created and shared a GitHub repository for Claude Dev Tools. | Impact: low | Signal: neutral | Why included: This is a community-developed tool for a major LLM, indicating ecosystem activity.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Artex AI and Claude agents used in cyberattacks on South Korean banks</title>
-      <link>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</link>
-      <guid>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</guid>
-      <pubDate>Sun, 11 Oct 2026 13:31:44 GMT</pubDate>
-      <description>Malicious actors have reportedly used Artex AI and Claude agents to target South Korean banks in cyberattacks. | Impact: high | Signal: negative | Why included: This highlights a significant security risk and misuse of LLM capabilities in cyberattacks.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Claude can&apos;t fetch my WordPress site (429, ROBOTS_DISALLOWED, DNS error) although my robots.txt allows it</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1x37jee/claude_cant_fetch_my_wordpress_site_429_robots/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x37jee/claude_cant_fetch_my_wordpress_site_429_robots/</guid>
-      <pubDate>Sun, 11 Oct 2026 12:56:18 GMT</pubDate>
-      <description>A user reports that Claude is unable to fetch their WordPress site, encountering various errors despite their robots.txt configuration. | Impact: medium | Signal: negative | Why included: This highlights a potential issue with Claude&apos;s web browsing capabilities and its interaction with website configurations.</description>
-      <category>alerta</category>
     </item>
   </channel>
 </rss>
