@@ -3028,38 +3028,5 @@
     "source_url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
     "published_at": "2026-09-17T23:37:27.000Z",
     "confidence": 0.85
-  },
-  {
-    "title": "Claude Cowork and chat are now one Claude",
-    "summary": "Anthropic has consolidated Claude Cowork and chat into a single Claude experience, simplifying the user interface and potentially streamlining access to its capabilities.",
-    "category": "novedad",
-    "entities": [
-      "Claude",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a product consolidation announcement from Anthropic, simplifying their offerings and potentially improving user experience.",
-    "source_url": "https://simonwillison.net/2026/Sep/16/one-claude/",
-    "published_at": "2026-09-16T18:09:49.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Cowork and chat are merging into one Claude",
-    "summary": "Claude Cowork and chat functionalities are merging into a single Claude experience, allowing users to create decks, docs, and designs within conversations. This update is rolling out to Pro and Max subscribers over the next few weeks.",
-    "category": "novedad",
-    "entities": [
-      "Claude"
-    ],
-    "event_type": "release",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant product consolidation and feature expansion for Claude, making it a more integrated tool.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wi1wfu/claude_cowork_and_chat_are_merging_into_one_claude/",
-    "published_at": "2026-09-16T16:20:44.000Z",
-    "confidence": 0.9
   }
 ]
