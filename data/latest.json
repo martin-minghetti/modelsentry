@@ -2995,38 +2995,5 @@
     "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
     "published_at": "2026-09-18T16:12:53.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "OpenAI launches Australian Youth Safety Blueprint",
-    "summary": "OpenAI has introduced the Australian Youth Safety Blueprint, a six-pillar roadmap focused on creating safer AI experiences for young people.",
-    "category": "novedad",
-    "entities": [
-      "OpenAI",
-      "AI"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This demonstrates OpenAI's commitment to AI safety and ethical considerations, specifically targeting youth protection, which is a significant industry trend.",
-    "source_url": "https://openai.com/index/australian-youth-safety-blueprint",
-    "published_at": "2026-09-18T12:00:00.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "How To Write With An LLM",
-    "summary": "This article provides guidance on effective strategies for writing with a Large Language Model (LLM), offering practical tips for users.",
-    "category": "novedad",
-    "entities": [
-      "LLM"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a tutorial offering practical advice on using LLMs for writing, relevant for users seeking to improve their prompt engineering skills.",
-    "source_url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-    "published_at": "2026-09-17T23:37:27.000Z",
-    "confidence": 0.85
   }
 ]
