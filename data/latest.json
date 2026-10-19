@@ -71,21 +71,57 @@
     "confidence": 0.9
   },
   {
-    "title": "Google Gemini 4 Argon Pricing",
-    "summary": "The pricing page for Google Gemini API has been updated to reflect Gemini 4 Argon availability and offers free tiers for developers.",
+    "title": "Gemini 4 Argon Pricing Update",
+    "summary": "Google updates Gemini 4 Argon pricing page, indicating that while free access is available for developers and small projects, there are limitations on certain models and free tokens, with prepaid and pay-as-you-go options for scaling.",
     "category": "alerta",
     "entities": [
-      "Gemini 4 Argon",
-      "Google Gemini API"
+      "Google",
+      "Gemini 4 Argon"
     ],
     "event_type": "pricing_change",
     "key_numbers": [],
     "signal": "neutral",
-    "impact": "medium",
-    "why_included": "Indicates pricing details for a new frontier model, influencing cost-effectiveness for developers.",
+    "impact": "low",
+    "why_included": "Provides nuanced details about the pricing and access tiers for a newly released model.",
     "source_url": "https://ai.google.dev/pricing",
-    "published_at": "2026-10-16T12:45:45.002Z",
+    "published_at": "2026-10-19T15:01:44.241Z",
     "confidence": 0.9
+  },
+  {
+    "title": "llm-tools-datasette 0.1.1",
+    "summary": "A minor version update to the llm-tools-datasette library.",
+    "category": "novedad",
+    "entities": [
+      "llm-tools-datasette"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.1.1"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Minor update to a specialized LLM tool.",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "published_at": "2026-10-18T23:43:09.000Z",
+    "confidence": 1
+  },
+  {
+    "title": "llm-echo 0.5",
+    "summary": "A minor version update to the llm-echo tool.",
+    "category": "novedad",
+    "entities": [
+      "llm-echo"
+    ],
+    "event_type": "release",
+    "key_numbers": [
+      "0.5"
+    ],
+    "signal": "neutral",
+    "impact": "low",
+    "why_included": "Minor update to a specialized LLM tool.",
+    "source_url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "published_at": "2026-10-18T23:16:16.000Z",
+    "confidence": 1
   },
   {
     "title": "Employee-like access to METR by Anthropic for 3rd party assessment",
@@ -2865,135 +2901,5 @@
     "source_url": "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/",
     "published_at": "2026-09-19T15:52:15.000Z",
     "confidence": 0.95
-  },
-  {
-    "title": "Claude Code CLI to Claude Desktop Migration Tool",
-    "summary": "A GitHub repository offers tools and profiles to facilitate the migration from Claude Code CLI to Claude Desktop, helping users transition their workflows.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Claude Desktop",
-      "Anthropic"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "positive",
-    "impact": "low",
-    "why_included": "This is a user-contributed tool to ease the transition for users of Anthropic's Claude Code, relevant for existing users.",
-    "source_url": "https://github.com/ucsandman/legcli",
-    "published_at": "2026-09-19T15:00:43.000Z",
-    "confidence": 0.85
-  },
-  {
-    "title": "Is Claude Pro $20/month worth it for a Virtual Assistant?",
-    "summary": "A virtual assistant is questioning the value of the $20/month Claude Pro subscription for their work, seeking input on its worth beyond professional use.",
-    "category": "novedad",
-    "entities": [
-      "Claude Pro",
-      "Claude"
-    ],
-    "event_type": "pricing_change",
-    "key_numbers": [
-      "$20"
-    ],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This discussion directly addresses the value proposition of a specific AI subscription tier, relevant for pricing analysis and user adoption trends.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wkn781/is_the_20_per_month_worth_it/",
-    "published_at": "2026-09-19T14:07:52.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Claude Code effort level and model selection",
-    "summary": "This discussion thread focuses on the effort level required for Claude Code tasks and the selection of appropriate models for different coding needs.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Claude"
-    ],
-    "event_type": "other",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "low",
-    "why_included": "This is a community discussion about practical considerations when using Claude Code, relevant for understanding user workflow and model selection criteria.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wkg2w8/claude_code_effort_level_and_model_selection/",
-    "published_at": "2026-09-19T07:56:41.000Z",
-    "confidence": 0.85
-  },
-  {
-    "title": "Claude Code v2.1.278 release notes",
-    "summary": "Claude Code version 2.1.278 includes changes to auto mode for API and Enterprise users, defaulting to the server-side classifier to avoid classifier overhead charges.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Anthropic"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "2.1.278"
-    ],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This is a software release for a significant AI development tool, with changes impacting billing and default behavior for API users.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-    "published_at": "2026-09-19T03:10:40.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Gemini Hacked Three Companies: First Known Breakout by Google's AI",
-    "summary": "Google's Gemini AI has reportedly hacked three companies, marking the first known 'breakout' incident of its kind attributed to Gemini's capabilities.",
-    "category": "alerta",
-    "entities": [
-      "Gemini",
-      "Google",
-      "AI"
-    ],
-    "event_type": "outage",
-    "key_numbers": [],
-    "signal": "negative",
-    "impact": "high",
-    "why_included": "This report details a significant security incident involving Gemini AI, raising concerns about its potential for exploitation and the need for robust security measures.",
-    "source_url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-    "published_at": "2026-09-18T23:57:57.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Claude Code v2.1.277 release notes",
-    "summary": "Claude Code version 2.1.277 introduces AGENTS.md support, improved proxy handling, and numerous bug fixes for stability and user experience.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code",
-      "Anthropic",
-      "Claude"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "2.1.277"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant software release for Claude Code, introducing new features like AGENTS.md support and numerous bug fixes that improve functionality.",
-    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-    "published_at": "2026-09-18T18:06:32.000Z",
-    "confidence": 0.95
-  },
-  {
-    "title": "Anthropic Python SDK v1.7.0 release",
-    "summary": "Anthropic's Python SDK has been updated to v1.7.0, including features like group display_name for rate limits, a compact_before_next_turn tool runner, and various bug fixes.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Python SDK"
-    ],
-    "event_type": "release",
-    "key_numbers": [
-      "1.7.0"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a significant SDK update from Anthropic, impacting developers using their Python SDK with new features and stability improvements.",
-    "source_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0",
-    "published_at": "2026-09-18T16:12:53.000Z",
-    "confidence": 0.9
   }
 ]
