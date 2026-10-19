@@ -38,12 +38,28 @@
       <category>novedad</category>
     </item>
     <item>
-      <title>Google Gemini 4 Argon Pricing</title>
+      <title>Gemini 4 Argon Pricing Update</title>
       <link>https://ai.google.dev/pricing</link>
       <guid>https://ai.google.dev/pricing</guid>
-      <pubDate>Fri, 16 Oct 2026 12:45:45 GMT</pubDate>
-      <description>The pricing page for Google Gemini API has been updated to reflect Gemini 4 Argon availability and offers free tiers for developers. | Impact: medium | Signal: neutral | Why included: Indicates pricing details for a new frontier model, influencing cost-effectiveness for developers.</description>
+      <pubDate>Mon, 19 Oct 2026 15:01:44 GMT</pubDate>
+      <description>Google updates Gemini 4 Argon pricing page, indicating that while free access is available for developers and small projects, there are limitations on certain models and free tokens, with prepaid and pay-as-you-go options for scaling. | Impact: low | Signal: neutral | Why included: Provides nuanced details about the pricing and access tiers for a newly released model.</description>
       <category>alerta</category>
+    </item>
+    <item>
+      <title>llm-tools-datasette 0.1.1</title>
+      <link>https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</link>
+      <guid>https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</guid>
+      <pubDate>Sun, 18 Oct 2026 23:43:09 GMT</pubDate>
+      <description>A minor version update to the llm-tools-datasette library. | Impact: low | Signal: neutral | Why included: Minor update to a specialized LLM tool.</description>
+      <category>novedad</category>
+    </item>
+    <item>
+      <title>llm-echo 0.5</title>
+      <link>https://simonwillison.net/2026/Oct/18/llm-echo/</link>
+      <guid>https://simonwillison.net/2026/Oct/18/llm-echo/</guid>
+      <pubDate>Sun, 18 Oct 2026 23:16:16 GMT</pubDate>
+      <description>A minor version update to the llm-echo tool. | Impact: low | Signal: neutral | Why included: Minor update to a specialized LLM tool.</description>
+      <category>novedad</category>
     </item>
     <item>
       <title>Employee-like access to METR by Anthropic for 3rd party assessment</title>
@@ -387,22 +403,6 @@
       <guid>https://github.com/Manho/Panelize</guid>
       <pubDate>Wed, 14 Oct 2026 08:56:11 GMT</pubDate>
       <description>A new tool called Panelize allows users to compare responses from ChatGPT, Claude, and Gemini side-by-side. | Impact: medium | Signal: positive | Why included: This tool facilitates direct comparison of leading LLMs, aiding users in model selection and understanding their differences.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic Singapore Office Opening - Not Found</title>
-      <link>https://www.anthropic.com/news/singapore-office-opening</link>
-      <guid>https://www.anthropic.com/news/singapore-office-opening</guid>
-      <pubDate>Wed, 14 Oct 2026 08:45:09 GMT</pubDate>
-      <description>A link related to Anthropic&apos;s Singapore office opening results in a &apos;Not Found&apos; error. | Impact: low | Signal: negative | Why included: This indicates a broken link or potential issue with Anthropic&apos;s content, which could affect information access.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>Omnis Watchtower: Claude Code Agent Security</title>
-      <link>https://github.com/Fortitude-Group/omnis-watchtower</link>
-      <guid>https://github.com/Fortitude-Group/omnis-watchtower</guid>
-      <pubDate>Wed, 14 Oct 2026 08:30:24 GMT</pubDate>
-      <description>Omnis Watchtower is a new tool designed as a supply-chain tripwire specifically for Claude Code agents. | Impact: medium | Signal: positive | Why included: This release addresses security concerns related to the increasing use of LLM agents in code development.</description>
       <category>novedad</category>
     </item>
   </channel>
