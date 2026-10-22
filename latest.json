@@ -2914,40 +2914,5 @@
     "source_url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
     "published_at": "2026-10-06T21:32:34.000Z",
     "confidence": 0.9
-  },
-  {
-    "title": "PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend",
-    "summary": "A user is providing a public service announcement that turning off 'Prompt Suggestions' in Claude Code can save approximately 10% of usage limits and spending. The feature reportedly performs an expensive cache read of the entire context.",
-    "category": "novedad",
-    "entities": [
-      "Claude Code"
-    ],
-    "event_type": "other",
-    "key_numbers": [
-      "~10%"
-    ],
-    "signal": "positive",
-    "impact": "medium",
-    "why_included": "This is a medium-impact alert as it provides actionable advice for users to optimize their spending and usage of Claude Code.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/",
-    "published_at": "2026-09-21T09:50:22.000Z",
-    "confidence": 0.9
-  },
-  {
-    "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
-    "summary": "Anthropic has partnered with Accenture to serve as its first embedded evaluator, tasked with helping implement the company's safety slowdown proposal. This collaboration signifies a commitment to responsible AI development and deployment.",
-    "category": "novedad",
-    "entities": [
-      "Anthropic",
-      "Accenture"
-    ],
-    "event_type": "partnership",
-    "key_numbers": [],
-    "signal": "neutral",
-    "impact": "medium",
-    "why_included": "This partnership indicates Anthropic's proactive approach to AI safety and governance, directly impacting how their models will be evaluated and potentially deployed.",
-    "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wlmmf2/anthropic_selects_accenture_as_first_embedded/",
-    "published_at": "2026-09-20T17:08:01.000Z",
-    "confidence": 0.9
   }
 ]
