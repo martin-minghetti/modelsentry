@@ -1,7 +1,7 @@
 {
   "feedHealth": {
     "HN Filtered": true,
-    "r/ClaudeAI": true,
+    "r/ClaudeAI": false,
     "Claude Code Releases": true,
     "Anthropic SDK Python": true,
     "OpenAI Blog": true,
@@ -16,6 +16,6 @@
     "Anthropic Model Deprecations": true,
     "Google Gemini Pricing": true
   },
-  "timestamp": "2026-11-01T14:33:14.786Z",
+  "timestamp": "2026-11-02T17:28:41.837Z",
   "itemCount": 0
 }
