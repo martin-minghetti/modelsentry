@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-11-15T15:01:36.004Z",
+  "generated_at": "2026-11-16T17:31:09.974Z",
   "coverage_start": "2016-05-25",
   "coverage_end": "2926-08-07",
   "weekly": [
-    {
-      "week": "Aug 24",
-      "week_start": "2026-08-24",
-      "alerts": 19,
-      "updates": 38
-    },
     {
       "week": "Aug 31",
       "week_start": "2026-08-31",
@@ -72,6 +66,12 @@
     {
       "week": "Nov 9",
       "week_start": "2026-11-09",
+      "alerts": 0,
+      "updates": 0
+    },
+    {
+      "week": "Nov 16",
+      "week_start": "2026-11-16",
       "alerts": 0,
       "updates": 0
     }
