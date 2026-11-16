@@ -381,29 +381,5 @@
       <description>A minor version update to the llm-echo tool. | Impact: low | Signal: neutral | Why included: Minor update to a specialized LLM tool.</description>
       <category>novedad</category>
     </item>
-    <item>
-      <title>Employee-like access to METR by Anthropic for 3rd party assessment</title>
-      <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
-      <guid>https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
-      <pubDate>Fri, 16 Oct 2026 10:57:39 GMT</pubDate>
-      <description>Anthropic is providing independent evaluators with employee-like access to METR, their internal red-teaming framework, to facilitate third-party safety assessments. | Impact: low | Signal: neutral | Why included: This news indicates Anthropic&apos;s commitment to external safety evaluations and transparency regarding their internal assessment tools.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>How the Claude Code team does code review</title>
-      <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
-      <guid>https://claude.dev/blog/solving-code-review-at-anthropic/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:20:48 GMT</pubDate>
-      <description>Anthropic&apos;s Claude Code team shares their process for conducting code reviews using their internal AI tools and methodologies. | Impact: low | Signal: neutral | Why included: This provides insight into the practical application of AI for software development processes within a leading AI company.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Show HN: A music video made end to end by Claude Code, full production repo</title>
-      <link>https://github.com/mortenbrudvik/always-allow</link>
-      <guid>https://github.com/mortenbrudvik/always-allow</guid>
-      <pubDate>Fri, 16 Oct 2026 09:43:15 GMT</pubDate>
-      <description>A user showcases a music video created entirely by Claude Code, making the full production repository available. | Impact: medium | Signal: positive | Why included: Demonstrates advanced creative capabilities of Claude Code, highlighting its potential for end-to-end media production.</description>
-      <category>novedad</category>
-    </item>
   </channel>
 </rss>
