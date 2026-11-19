@@ -333,53 +333,5 @@
       <description>A game designer built a multiplayer bird game using Claude&apos;s playtesting bots to find bugs and test features. The AI agents, with different personalities, helped identify issues like getting stuck in walls. | Impact: medium | Signal: positive | Why included: This showcases an advanced application of AI agents for game development and playtesting, demonstrating Claude&apos;s utility beyond text generation.</description>
       <category>novedad</category>
     </item>
-    <item>
-      <title>Claude Code installed tooling which was actually Expiro virus.</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1xa1ds8/claude_code_installed_tooling_which_was_actually/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1xa1ds8/claude_code_installed_tooling_which_was_actually/</guid>
-      <pubDate>Mon, 19 Oct 2026 16:21:47 GMT</pubDate>
-      <description>A user reports that Claude Code, while assisting with game decompilation, installed tooling that turned out to be the Expiro virus, infecting their entire system. This highlights a critical security vulnerability in AI-assisted coding environments. | Impact: high | Signal: negative | Why included: This is a critical security alert involving an AI coding assistant potentially leading to a severe virus infection, underscoring the need for robust security measures in AI development tools.</description>
-      <category>alerta</category>
-    </item>
-    <item>
-      <title>I built a free, private meeting recorder for Mac entirely with Claude Code. You can chat with your meeting notes in Claude Desktop via MCP</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1x9zao5/i_built_a_free_private_meeting_recorder_for_mac/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x9zao5/i_built_a_free_private_meeting_recorder_for_mac/</guid>
-      <pubDate>Mon, 19 Oct 2026 15:03:31 GMT</pubDate>
-      <description>An ex-Apple engineer built Biscotti, a private, free meeting recorder for macOS using Claude Code. The app runs entirely locally, offers AI summaries, and integrates with Claude Desktop via an MCP server for chatting with meeting notes. | Impact: medium | Signal: positive | Why included: This is a significant application built entirely with Claude Code, showcasing its capabilities for developing robust, privacy-focused software with AI integration.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or serious injuries</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1x9y7du/anthropic_wants_ai_models_blocked_only_if_they/</link>
-      <guid>https://www.reddit.com/r/ClaudeAI/comments/1x9y7du/anthropic_wants_ai_models_blocked_only_if_they/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:21:07 GMT</pubDate>
-      <description>Anthropic proposes a threshold for blocking AI models, suggesting they should only be restricted if they pose a threat of over $1 billion in damages or cause more than 50 deaths or serious injuries. This proposal is open for discussion. | Impact: medium | Signal: neutral | Why included: This outlines Anthropic&apos;s proposed safety thresholds for AI models, contributing to the ongoing debate on AI regulation and risk assessment.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>Advancing coding in low‑resource programming languages</title>
-      <link>https://openai.com/index/low-resource-programming-languages</link>
-      <guid>https://openai.com/index/low-resource-programming-languages</guid>
-      <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-      <description>OpenAI is improving ChatGPT&apos;s capabilities in low-resource programming languages through new evaluations for software engineering, SQLite, and COBOL migration. This effort aims to broaden the applicability of LLMs in diverse coding environments. | Impact: medium | Signal: positive | Why included: This OpenAI initiative focuses on improving LLM performance for low-resource programming languages, expanding their utility in niche and legacy coding domains.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm-tools-datasette 0.1.1</title>
-      <link>https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</link>
-      <guid>https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</guid>
-      <pubDate>Sun, 18 Oct 2026 23:43:09 GMT</pubDate>
-      <description>A minor version update to the llm-tools-datasette library. | Impact: low | Signal: neutral | Why included: Minor update to a specialized LLM tool.</description>
-      <category>novedad</category>
-    </item>
-    <item>
-      <title>llm-echo 0.5</title>
-      <link>https://simonwillison.net/2026/Oct/18/llm-echo/</link>
-      <guid>https://simonwillison.net/2026/Oct/18/llm-echo/</guid>
-      <pubDate>Sun, 18 Oct 2026 23:16:16 GMT</pubDate>
-      <description>A minor version update to the llm-echo tool. | Impact: low | Signal: neutral | Why included: Minor update to a specialized LLM tool.</description>
-      <category>novedad</category>
-    </item>
   </channel>
 </rss>
